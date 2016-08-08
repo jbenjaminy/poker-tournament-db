@@ -42,8 +42,7 @@ var fetchCasinoDetails = function(id) {
         .then(function(response) {
             return response.json();
         })
-        .then(function(data) {
-            var casino = data;
+        .then(function(casino) {
             return dispatch(
                 fetchCasinoDetailsSuccess(casino)
             );
@@ -95,8 +94,7 @@ var fetchTournamentInfo = function(id) {
         .then(function(response) {
             return response.json();
         })
-        .then(function(data) {
-            var tournaments = data;
+        .then(function(tournaments) {
             return dispatch(
                 fetchTournamentInfoSuccess(tournaments)
             );

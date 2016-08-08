@@ -21,7 +21,7 @@ var app = express();
 app.use(express.static('public'));
 
 app.get('/places', function(req, res) {
-    var results = []
+    var results = [];
     var completed = 0;
     placeIdArray.forEach(function(placeId) {
         var searchReq = getFromApi(placeId);

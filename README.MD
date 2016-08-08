@@ -1,3 +1,4 @@
+## TODO:
 1) Do API call from place-id-array
 Google places, get details:
 
@@ -8,29 +9,10 @@ Google places, get details:
 		key: AIzaSyDm71dLA-nxg3KI4eSUYrAh8V5lp_gOoZI
 
 	https://developers.google.com/places/place-id
-		*is there an easier way to get these? NOPE
 
-2) Parse objects for name, address, phone number, website, hours
+2) Parse objects for name, address, phone number, website, hours etc.
 
-Exp. Casino Object:
-	var casinoObject = {
-		"name": "Wind Creek Wetumpka",
-		"street": "100 River Oaks Drive",
-		"city": "Wetumpka",
-		"state": "Alabama",
-		"zip": "36092",
-		"phone": "(866) 946-3360",
-		"website": "http://windcreekwetumpka.com",
-		"hours": "Open 24 hours"
-		"cash game poker": "no"
-		"tournament poker": "no"
-		"poker games offered": "none"
-	}
-
-3) Add to mongodb with model casino.js
-		*Would postgreSQL be better? YES
-		*Or should I just have array of objects in code? ~1000 entries, but won't be making API calls on site so won't be updated regularly.
-		*Can I do steps 1-3 in one block of code? YES
+3) Add to a postgreSQL db with casinos and tournaments defined in schema.sql
 
 4) Add tournament info to mongodb with model tournaments.js
 
@@ -38,10 +20,10 @@ Exp. Casino Object:
 -real time search
 	-can search by casino name, city, or state
 	(need array with objects in format name-city-state)
-	-returns casino info w/schedule (API CALL TO DB)
+	-returns casino info w/schedule (fetch API CALL TO DB)
 -Advanced search
 	-can search by city, state, day, game, buy-in
--React router for each casino page
+-React router used for routes to poker casinos/all casinos, casino details, and tournament info
 
 BACKEND:
 ## Setting up the database and backend server.
