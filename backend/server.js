@@ -67,26 +67,26 @@ app.post('/casinos', jsonParser, function(request, response) {
     var completed = 0;
 
     casinosArray.forEach(function(casino) {
+        console.log(casino);
         knex.insert({
             name: casino.name,
-            placeId: casino.placeId,
+            placeid: casino.placeId,
             address: casino.address,
             phone: casino.phone,
             website: casino.website,
             })
             .returning('id')
             .into('casinos')
-            .then(function() {
-                completed++;
-                if (completed === casinosArray.length) {
-                    console.log('post casinos success');
-                    return response.status(201).json();
-                }
+            .then(function(id) {
+                console.log('post casinos success');
             })
             .catch(function(error) {
-                console.log('post user error');
-                return response.sendStatus(500);
-        });
+                console.log('post user error', error, casino.name);
+            });
+        completed++;
+        if (completed === casinosArray.length) {
+            return response.status(201).json();
+        }
     });
 });
 
