@@ -22,7 +22,7 @@ app.use(function(request, response, next) {
 
 /* ----------- USER ENDPOINTS ---------- */
 
-// GET GAME HISTORY BY USERNAME
+// GET CASINO DETAILS BY ID
 app.get('/casinos/:id', jsonParser, function(request, response) {
     var id = request.params.id;
 
@@ -41,7 +41,7 @@ app.get('/casinos/:id', jsonParser, function(request, response) {
 });
 
 
-// GET HIGH SCORE BY USERNAME
+// GET TOURNAMENT INFO BY CASINO_ID
 app.get('/casinos/:id/tournaments', jsonParser, function(request, response) {
     var casino_id = request.params.id;
 
@@ -61,13 +61,12 @@ app.get('/casinos/:id/tournaments', jsonParser, function(request, response) {
 });
 
 
-// POST NEW USERS
+// POST CASINO OBJECTS PASSED IN ARRAY TO CASINOS TABLE
 app.post('/casinos', jsonParser, function(request, response) {
     var casinosArray = request.body;
     var completed = 0;
 
     casinosArray.forEach(function(casino) {
-        console.log(casino);
         knex.insert({
             name: casino.name,
             placeid: casino.placeId,
@@ -78,7 +77,7 @@ app.post('/casinos', jsonParser, function(request, response) {
             .returning('id')
             .into('casinos')
             .then(function(id) {
-                console.log('post casinos success');
+                console.log('post casinos success', id);
             })
             .catch(function(error) {
                 console.log('post user error', error, casino.name);
