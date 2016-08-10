@@ -1,441 +1,15 @@
-var placeIdArray = ['ChIJ7bRHg_gmjIgRS-ky29EhrjA', 'ChIJlwnkYvkujIgR9cbtzIJWZgI', 'ChIJa3v5_JmhKYcRDVaid_ywq3E', 'ChIJQcP5r76D0YAR0HKIuY75akw', 'ChIJix501bYoLYcR0dg4N0DmhWY', 'ChIJVaAtBW541oYRO6Sc0kGuH-U', 'ChIJAUiEiPZ41oYRwAf7kOSmx44', 'ChIJ6zTkSwsALYcRZyNGV6Cjjeg', 'ChIJ2QZbdG9Z1oAR3i6nTqjSpLQ', 'ChIJI-KD5qJ71oYRb8mVT7PheDY', 'ChIJdYYLxrdBK4cR4XeW4H-lYgQ', 'ChIJqdKCj86bK4cRRIVXu1Wnfg0', 'ChIJE-0UhfIDK4cRntOa1yWf4Eo', 'ChIJbeYcJ5EZK4cRCB2VsdyJrKk', 'ChIJOQjYP1EBK4cRVM3WDmcx1Ik', 'ChIJaVvF29rdKocRd4FtXQsjeFA', 'ChIJweAy5Ci2KIcR01q_1YZfbDE', 'ChIJHyHm3f8QLIcRJbqp6fUpHtY', 'ChIJBY-ZZin01oARd85LmbDrPx0', 'ChIJGcSSjr4JK4cRfY71g6cXzZM', 'ChIJIWzhqpsKK4cRurOXqoBN_S8', 'ChIJC3ZEzi666lQRgBIvVbF6l88', 'ChIJ-ZuIDLooLYcRR9uuP2t6ON8', 'ChIJh7USgScrzYcR0rc_dTqQxXg', 'ChIJGcXckHp31YcR6xhvd9RmXag', 'ChIJ1fP1weK0hYAR-5pZfCclm5A', 'ChIJpyj6XIFclIARh04ciD7-NRE', 'ChIJJ215lbLi2oARrLM5uiuOSp4', 'ChIJAQAAAMAE24ARJos-o6dtl74', 'ChIJ-S3N3NB5j4ARDNGZvICKXL4', 'ChIJvV86ZVFY2oARh_B1Y16O3P0', 'ChIJBXp5Onvl6oARGww-XwUHj1Y', 'ChIJCa0EAMH4jYARyZNFFP6xljg', 'ChIJB39hhUTh24ARxcoC2P1ZYNQ', 'ChIJT7lnnvLLj4AR3ip7z_6eqrI', 'ChIJm8lgrvQP1FQRfl5WEMjIbGo', 'ChIJK4mWNILOwoAR4Ms0ULQipVo', 'ChIJI_67GejNkIARWR8dpStBnEQ', 'ChIJuyfA04v5moARUv30tCBCAg0', 'ChIJk47ojVZY0VQRQPimqO8x0JQ', 'ChIJkeUbRQjthIARoxJIlsssg5A', 'ChIJyVy60_Kg24AROQfnK2PLqFs', 'ChIJ03rDi5FmhYARy7bEnTty_hI', 'ChIJ-yJcMWYMkIAR0QVyUyLpjcQ', 'ChIJHa6khTLXmoAR0BJCPw1ZgRk', 'ChIJq3OfguvLj4AR2DtTe7qqOH4', 'ChIJU210_QxTm4AR1sjM9wwS8Pk', 'ChIJgdK5qf6P24ARVzZNu4yyHkQ', 'ChIJ-1kaT0RAkIARxF4txWv6ggY', 'ChIJqdcs-EAgjoARW8Gv8zp9QeE', 'ChIJo2SrtjZZ7IARIVEmm0RIKG4', 'ChIJMW_LP0FB0VQRC-URiq0xAuA', 'ChIJgWo9o3bDkIARZkyl4dSnDX4', 'ChIJ_XGKLoAjlIAReVUabJCZguo', 'ChIJa_d7egtU6YAROLXMxPSjKxc', 'ChIJi14hgjUzjoARRIlcI1sTL6E', 'ChIJVwv36J9glIAR7bYXsmylpy4', 'ChIJ_yZNA3log4ARDmfgWScnjA8', 'ChIJg0gMBUXOwoARjdL2KRGJ9fg', 'ChIJSTCmbjw9kIARhbnIkEt3tlA', 'ChIJPz6xjk7LwoAR6dbP_JhKMDo', 'ChIJPyp3pilMhYARsuEiPCY4RXY', 'ChIJ7WB8N-mZy1QRFLdCpGuPhPQ', 'ChIJAdW8AEIFm4ARpDYZX11K7q8', 'ChIJc_bq9P1GwoARA0DL63RhqjQ', 'ChIJFfRfKE-WnYARd88YFm7rg1I', 'ChIJe38ZUTai6oARjwUaqN9CamM', 'ChIJi5WvWbE5lYARXTxryrLzBmo', 'ChIJrWoKFmNo0FQRbxP6ODVEhAg', 'ChIJaava57ZQkIARp5RY4gRvzms', 'ChIJB5OlzaX32oARXd8y2dkP5CE', 'ChIJcxvB5UCxnIAR6vhXrK0OYlY', 'ChIJhXTwOsUt3YAR-PA2oskCbLY', 'ChIJ85R9e7njkYARwWuHB76JLSg', 'ChIJMzNcIX7YlIARjHrzYdMcbLE', 'ChIJBzjIGei2nIARwyebKAM1cG4', 'ChIJm-gadu-e2YARiaXaEsJvT9w', 'ChIJoylkQhRSm4ARDf0rMO8Wnic', 'ChIJswEqcFJq6oARk2Ay9XCJR0E', 'ChIJZ8Bju_41hIARkCm87Dbs3OY', 'ChIJbXsSDIuAhYAR4D2o0_Z024E', 'ChIJjXTPpomR24ARAZNmXe3sM6o', 'ChIJGaEbwz3s0YAR6UEsmjXH8c4', 'ChIJRQ5dKFi2woARMGPB1q77Wv4', 'ChIJV13GhFytmoAR_FLDzYhUFSg', 'ChIJj3vO8n3KwoARpZS220_Vyxg', 'ChIJ_fs2jmB6moARLRNpAoVUCKA', 'ChIJmbPTITVC7IAR22egl_mUCQk', 'ChIJS6I24LVc2YARI1pSs4N3e6w', 'ChIJGYYgxwMzw4ARmGutRAFw2r8', 'ChIJ-cDdo4Lvg4ARXh8KWo7YxJw', 'ChIJATze3bM5lYARw65UkimKCr0', 'ChIJEYM5lFGc2YARQ2YbQt6_vLE', 'ChIJ55_jRbyb3IARsPZvsZjFm7E', 'ChIJR8X5qZXQmoARbeKrcT-5WM8', 'ChIJUU1QDZ_nj4ARNg-kuFqE5F0', 'ChIJOUn0cyVz0FQR8onb7n6PArM', 'ChIJW3KyEVae0VQRjJFIi-FjMEU', 'ChIJh7U29Pt7j4AR3iyquklsmKQ', 'ChIJ0_TF-UvemoARQdhv57ujRV4', 'ChIJwfyu5J5W2YARny7BX-mceiE', 'ChIJoxLYrXDKwoARGVunbr5DGbw', 'ChIJF0vX1Nb8jYARn7jbdYoRTMg', 'ChIJdQF2ff1CkYAR2BpfKt_H7wI', 'ChIJ_8IOgcz5kIARv_3eBT3BFig', 'ChIJlyk_6YE1lIARznTxtowadRc', '', '', '', '', '', '', '', '', '', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',];
+var placeIdArray = ['ChIJ7bRHg_gmjIgRS-ky29EhrjA', 'ChIJlwnkYvkujIgR9cbtzIJWZgI', 'ChIJa3v5_JmhKYcRDVaid_ywq3E', 'ChIJQcP5r76D0YAR0HKIuY75akw', 'ChIJix501bYoLYcR0dg4N0DmhWY', 'ChIJVaAtBW541oYRO6Sc0kGuH-U', 'ChIJAUiEiPZ41oYRwAf7kOSmx44', 'ChIJ6zTkSwsALYcRZyNGV6Cjjeg', 'ChIJ2QZbdG9Z1oAR3i6nTqjSpLQ', 'ChIJI-KD5qJ71oYRb8mVT7PheDY', 'ChIJdYYLxrdBK4cR4XeW4H-lYgQ', 'ChIJqdKCj86bK4cRRIVXu1Wnfg0', 'ChIJE-0UhfIDK4cRntOa1yWf4Eo', 'ChIJbeYcJ5EZK4cRCB2VsdyJrKk', 'ChIJOQjYP1EBK4cRVM3WDmcx1Ik', 'ChIJaVvF29rdKocRd4FtXQsjeFA', 'ChIJweAy5Ci2KIcR01q_1YZfbDE', 'ChIJHyHm3f8QLIcRJbqp6fUpHtY', 'ChIJBY-ZZin01oARd85LmbDrPx0', 'ChIJGcSSjr4JK4cRfY71g6cXzZM', 'ChIJIWzhqpsKK4cRurOXqoBN_S8', 'ChIJC3ZEzi666lQRgBIvVbF6l88', 'ChIJ-ZuIDLooLYcRR9uuP2t6ON8', 'ChIJh7USgScrzYcR0rc_dTqQxXg', 'ChIJGcXckHp31YcR6xhvd9RmXag', 'ChIJ1fP1weK0hYAR-5pZfCclm5A', 'ChIJpyj6XIFclIARh04ciD7-NRE', 'ChIJJ215lbLi2oARrLM5uiuOSp4', 'ChIJAQAAAMAE24ARJos-o6dtl74', 'ChIJ-S3N3NB5j4ARDNGZvICKXL4', 'ChIJvV86ZVFY2oARh_B1Y16O3P0', 'ChIJBXp5Onvl6oARGww-XwUHj1Y', 'ChIJCa0EAMH4jYARyZNFFP6xljg', 'ChIJB39hhUTh24ARxcoC2P1ZYNQ', 'ChIJT7lnnvLLj4AR3ip7z_6eqrI', 'ChIJm8lgrvQP1FQRfl5WEMjIbGo', 'ChIJK4mWNILOwoAR4Ms0ULQipVo', 'ChIJI_67GejNkIARWR8dpStBnEQ', 'ChIJuyfA04v5moARUv30tCBCAg0', 'ChIJk47ojVZY0VQRQPimqO8x0JQ', 'ChIJkeUbRQjthIARoxJIlsssg5A', 'ChIJyVy60_Kg24AROQfnK2PLqFs', 'ChIJ03rDi5FmhYARy7bEnTty_hI', 'ChIJ-yJcMWYMkIAR0QVyUyLpjcQ', 'ChIJHa6khTLXmoAR0BJCPw1ZgRk', 'ChIJq3OfguvLj4AR2DtTe7qqOH4', 'ChIJU210_QxTm4AR1sjM9wwS8Pk', 'ChIJgdK5qf6P24ARVzZNu4yyHkQ', 'ChIJ-1kaT0RAkIARxF4txWv6ggY', 'ChIJqdcs-EAgjoARW8Gv8zp9QeE', 'ChIJo2SrtjZZ7IARIVEmm0RIKG4', 'ChIJMW_LP0FB0VQRC-URiq0xAuA', 'ChIJgWo9o3bDkIARZkyl4dSnDX4', 'ChIJ_XGKLoAjlIAReVUabJCZguo', 'ChIJa_d7egtU6YAROLXMxPSjKxc', 'ChIJi14hgjUzjoARRIlcI1sTL6E', 'ChIJVwv36J9glIAR7bYXsmylpy4', 'ChIJ_yZNA3log4ARDmfgWScnjA8', 'ChIJg0gMBUXOwoARjdL2KRGJ9fg', 'ChIJSTCmbjw9kIARhbnIkEt3tlA', 'ChIJPz6xjk7LwoAR6dbP_JhKMDo', 'ChIJPyp3pilMhYARsuEiPCY4RXY', 'ChIJ7WB8N-mZy1QRFLdCpGuPhPQ', 'ChIJAdW8AEIFm4ARpDYZX11K7q8', 'ChIJc_bq9P1GwoARA0DL63RhqjQ', 'ChIJFfRfKE-WnYARd88YFm7rg1I', 'ChIJe38ZUTai6oARjwUaqN9CamM', 'ChIJi5WvWbE5lYARXTxryrLzBmo', 'ChIJrWoKFmNo0FQRbxP6ODVEhAg', 'ChIJaava57ZQkIARp5RY4gRvzms', 'ChIJB5OlzaX32oARXd8y2dkP5CE', 'ChIJcxvB5UCxnIAR6vhXrK0OYlY', 'ChIJhXTwOsUt3YAR-PA2oskCbLY', 'ChIJ85R9e7njkYARwWuHB76JLSg', 'ChIJMzNcIX7YlIARjHrzYdMcbLE', 'ChIJBzjIGei2nIARwyebKAM1cG4', 'ChIJm-gadu-e2YARiaXaEsJvT9w', 'ChIJoylkQhRSm4ARDf0rMO8Wnic', 'ChIJswEqcFJq6oARk2Ay9XCJR0E', 'ChIJZ8Bju_41hIARkCm87Dbs3OY', 'ChIJbXsSDIuAhYAR4D2o0_Z024E', 'ChIJjXTPpomR24ARAZNmXe3sM6o', 'ChIJGaEbwz3s0YAR6UEsmjXH8c4', 'ChIJRQ5dKFi2woARMGPB1q77Wv4', 'ChIJV13GhFytmoAR_FLDzYhUFSg', 'ChIJj3vO8n3KwoARpZS220_Vyxg', 'ChIJ_fs2jmB6moARLRNpAoVUCKA', 'ChIJmbPTITVC7IAR22egl_mUCQk', 'ChIJS6I24LVc2YARI1pSs4N3e6w', 'ChIJGYYgxwMzw4ARmGutRAFw2r8', 'ChIJ-cDdo4Lvg4ARXh8KWo7YxJw', 'ChIJATze3bM5lYARw65UkimKCr0', 'ChIJEYM5lFGc2YARQ2YbQt6_vLE', 'ChIJ55_jRbyb3IARsPZvsZjFm7E', 'ChIJR8X5qZXQmoARbeKrcT-5WM8', 'ChIJUU1QDZ_nj4ARNg-kuFqE5F0', 'ChIJOUn0cyVz0FQR8onb7n6PArM', 'ChIJW3KyEVae0VQRjJFIi-FjMEU', 'ChIJh7U29Pt7j4AR3iyquklsmKQ', 'ChIJ0_TF-UvemoARQdhv57ujRV4', 'ChIJwfyu5J5W2YARny7BX-mceiE', 'ChIJoxLYrXDKwoARGVunbr5DGbw', 'ChIJF0vX1Nb8jYARn7jbdYoRTMg', 'ChIJdQF2ff1CkYAR2BpfKt_H7wI', 'ChIJ_8IOgcz5kIARv_3eBT3BFig', 'ChIJlyk_6YE1lIARznTxtowadRc', 'ChIJ7fh7NX5A24ARdIS3VbkuBfY', 'ChIJBX59Kdf8jYARMGLyl5szjgM', 'ChIJp6Q36mQMhYAR7PbPUAS6IM4', 'ChIJ6dbSKoBXhYARlRYjZ0uJKWM', 'ChIJCUNzt4K4woAR-z4MIi0ONo4', 'ChIJv55iEBN-hYARAF2DZK-d4-8', 'ChIJ23jeE8dswYARfmCfqwLhr7M', 'ChIJiYEZ_ZxqjoARGfmFdx8Jn6A', 'ChIJy6-U9nog7YARpZtMfXBss2w', 'ChIJy6-U9nog7YARpZtMfXBss2w', 'ChIJ23ZTdLzp7IAROF4dEtkw4nE', 'ChIJoTeHaTgWvoARJSSZCRwZ1nY', 'ChIJL5_U1YOG24ARiFIa04wooYs', 'ChIJiacEsftU2YARce2qzlHjSh4', 'ChIJmTkYybmYkYARa7sjjWHuTo4', 'ChIJUxxhdb-B24ARQBNwDDy6vGQ', 'ChIJYT9WZiENzVQRcnUMfZT2Mg4', 'ChIJx_gKExBN6IARlymcpfGYBvk', 'ChIJu6rZIgJDkYARqiMXq1ot4jI', 'ChIJPdTaq_v51oARAu15ReWXoD0', 'ChIJB0o3e3UV2oARb5VyMdf4ikc', 'ChIJP28W763cgYARsib1dPVhgrk', 'ChIJR2DfLA74moARnnokC0EQ-Ao', 'ChIJ_50IdBrdmoARlVlAETBX-6g', 'ChIJVarO-ePL44kRQjYcxoohYJU', 'ChIJb5-hntYPhIAR39Xb343_8wI', 'ChIJATCqW12tmoARM7PA8pChMWc', 'ChIJrUOXTaTCg4ARfG2frHafqqQ', 'ChIJm3hPCyPygoAR05a0mDIlaH0', 'ChIJsyooa2q_lIARxgmwa44mLsM', 'ChIJtTyW2gYDIYYRWkOjorxFeBc', 'ChIJPyG9zFDFmoARZj2BOMOFfZE', 'ChIJteqQHkJ8nIARTe-XgrfS2Ww', 'ChIJixlmm5JUw4ARIvu9De-TfSQ', 'ChIJq2JlJPV3hYARQcsgy6vxHGc', 'ChIJCdf9XdbA24ARG9-FSo9Ko0s', 'ChIJO8ETnmrig4ARd_JjjH7_Gek', 'ChIJ8w8LasZo24AROEAEgj7vFaY', 'ChIJjaKAV78b24ARSx5crVBMFOc', 'ChIJ7Y89NDX22oAR6KKPnZ0zGhU', 'ChIJ1Te3HXAvlYARrxslmY41mAs', 'ChIJrZVAKdpd2YAR_RDVwAcdjGI', 'ChIJEQqMdFBGlIARlV90VihD_ck', 'ChIJ-VKBEZjHlIAR6n9PowhsskI', 'ChIJldh-Wxwjm4ARNW_Wloqu9Mg', 'ChIJd004OyVn14ARcbL-EJ4Woro', 'ChIJA0A3QDlwm4ARseAjSxCoosI', 'ChIJyQKEMrUHkYARbn1MmZCpIFc', 'ChIJp2NaUX5uhIAR6C_ilKC5Su8', 'ChIJO1Nwy2KS24AR_BRswV4psts', 'ChIJfVsUEOxokoAR1KWFBgHmI3I', 'ChIJVboLAmBh2YARfJewOXZvytg', 'ChIJr92hlOVN2YARL8Mzwq1tsYE', 'ChIJEboAYYfp0lQRvuFPh9hM2IM', 'ChIJgYzhzXq8a4cRQOMcVNZ5058', 'ChIJP8fcNTmlFIcRAGAl6bkq6Wc', 'ChIJ7dUsdYakFIcR7mOJKn5XN_8', 'ChIJn9BApHC8a4cRxE-eft5tpN0', 'ChIJnbRG4Tnsa4cRfmLBlzMgqaE', 'ChIJ07eZ54-7a4cR2junvFdyfNk', 'ChIJsY7ZKJC7a4cR06_xtfZ3WHM', 'ChIJxSjTdIakFIcRmLVRK1YgGTI', 'ChIJ4TVHNDmlFIcRKPfX_Oboqe8', 'ChIJs67AyT6lFIcRdyNFFmIcbwA', 'ChIJQ-OfdIakFIcRHm-B6ONXXaE', 'ChIJadYHlYWkFIcRSNsjpI-xifI', 'ChIJZ9sY1cHNXVMRmpuEJO3B7jQ', 'ChIJj1_WLmkryoAR-kE2nIHtSk0', 'ChIJz6-GDnzEyIARILPDJtJOlgE', 'ChIJ0wrb_Ia1ZVMRtuvBjSwGBDM', 'ChIJCRjdGJC7a4cR4BjeLUy9bAg', 'ChIJ3wu1JpC7a4cRjlc2vxxPxnE', 'ChIJy70S4T6lFIcRVPOXf8Y-3j4', 'ChIJmTQbED-lFIcRD6mJp5joCRI', 'ChIJ0R2rKJC7a4cREEXB6iEmQnw', 'ChIJ_2kzKZC7a4cRABrgmJPCggU', 'ChIJPdVrdo-7a4cRpp87cqa_940', 'ChIJz0F8amS8a4cRUwupr846htE', 'ChIJx7fiw2S8a4cR4ZKDEoWI-hc', 'ChIJz0F8amS8a4cR7160tWNvSA4', 'ChIJ-UodSjmlFIcRY9fTQ_cLGLE', 'ChIJ18CESYakFIcRVa67hR7vqtg', 'ChIJ-UodSjmlFIcRCP3l9qzdGUE', 'ChIJDVYsWne8a4cRSI6xxWIVbFQ', 'ChIJCV3sG2S8a4cRSajzt3LrWUM', 'ChIJtcc3epwOnIgRO2Wm16a-NTY', 'ChIJJYi0shc9PIcR2mocxc20Kew', 'ChIJWUZKC3q8a4cR4xM99MDtxsU', 'ChIJrUqcM5C7a4cRBUSBpCoO3ww', 'ChIJcT_A2Hq8a4cRjf1WXhyQpcg', 'ChIJ1yGTVEB8OYcRf-4hkb5CwWM', 'ChIJr_11gO0DK4cR28A_zOkIEOk', 'ChIJEx823zq9PYcR4J70iYR9zkg', 'ChIJAXI9foziolQRWa4_19_0-TA', 'ChIJFah1UoR15okRP8FB1DNU5ys', 'ChIJNe_8fqtz5okRTVdPsb0SZTU', 'ChIJQRX1Q3rbuIkRUBxxgj1kjGU', 'ChIJ9ce-OjB7x4kR9KXKtnOxKlE', 'ChIJFS_tGn-PuIkRKJQON2TcUBM', 'ChIJkwjmHBev2YgRY-LCpCkMDt8', 'ChIJ_6P7KEu32YgRHGMCXUov_U4', 'ChIJY34_9vOq2YgRD4xB6mNK3kU', 'ChIJ8_bt7b3E7IgRXsypQfZ-o5I', 'ChIJ7W3tdirf5ogRBjNSHjUo5Uo', 'ChIJ71tFKqUBx4kRFkJWV1lHLUI', 'ChIJ6Z0pbsve5ogRzKvxjeamxvI', 'ChIJG-S1NPXmwogRoQpQmW4gTIA', 'ChIJWepeSZGVk4gRlqmx4FYknxU', 'ChIJA0nAC0Py3ogR0gPY7InzJxg', 'ChIJi4kxSoes2YgR9QPF3TV670s', 'ChIJZ8L3h3u62YgRYcwtw2ymINw', 'ChIJ0dvQ3JK05YgRpwtK8D5RKp0', 'ChIJNfU6fQdE7IgR777b_nV22HI', 'ChIJ6xhRpYOr2YgRnIf8dSyZsa4', 'ChIJTxnofasP3ogROsSwuIPHiQo', 'ChIJkVsuwRGV2YgR-Yw0wiFbb5k', 'ChIJCToZw2y32YgRdX8ZBKs5BRs', 'ChIJ6QDx8Coa24gReoNPyVea9dQ', 'ChIJi8y0BJsn5ogRw_lrjV-SfpI', 'ChIJ-dOexy_W2IgRAHxkRDfGRZ8', 'ChIJ6ZNGUgXG5YgRmkkGn9F5ZWs', 'ChIJq6qqqprD5YgRVDojvvH8NcM', 'ChIJP-aBmEi5kIgRPxQPud4_Gi0', 'ChIJ3UAjfQcD2YgRAFQ7EPy0ChU', 'ChIJxZckrsY_w4gRBYNdLBrv054', 'ChIJ7fL8yjqk24gRb2p_wDahDYI', 'ChIJC93N2E0b2YgRTV1skekqm8s', 'ChIJNclUYZ-p2YgRLzs8tyCQL1M', 'ChIJzxlSbM8T3IgR_qCZwzVV-Qk', 'ChIJ32l5iEzPwogRKgS0deuMITw', 'ChIJ32l5iEzPwogR8KrRdgHfdwc', 'ChIJJ7U5BBXrwogR1xwJXV05Tbc', 'ChIJjUQBnOrGwogR9N73sBVi4LY', 'ChIJjwovptZN5IgRvmZV0kdcWfE', 'ChIJPVoLn0Wm4IgRCAr57G7TWAA', 'ChIJXUwPuacqnlQRWF8PN3K2fvA', 'ChIJvVIYtio9kFQRKqUUDHv8obQ', 'ChIJc-Y6avw1oFQR0rAhSjrfFk0', 'ChIJ74uZrFQ-VVMRuMxWmduDtgw', 'ChIJ2x66x0kFVVMRLnZiUCcTisQ', 'ChIJ-1ma3vqFoFQRs0xwp4_i4UA', 'ChIJv2fIaQSOY1MR_aer66tMrvY', 'ChIJ76f00-6y2IcRjUkhaAZqHe8', 'ChIJHcFD48lmDogRJnE05o86SAo', 'ChIJ7248DWsDeogRI5cyFj7GJDo', 'ChIJOdANOrD6DogRkVgCsBx78iE', 'ChIJoQoKo64FD4gRl7eJenzjkyA', 'ChIJ0TNasENiDogRy06isgSWSY0', 'ChIJx9qI0IlE34cRAQBAokXke7E', 'ChIJ6bTYpyK2D4gR2HcafV7QgIU', 'ChIJe9o8csxZCogRWRdqsUSP5nI', 'ChIJ1XZ0CkfN44cRMPDmUYrrWaU', 'ChIJBaIdYXMmDogR2CvXzr2WmWQ', 'ChIJ9fKz0AniQYgRr0Go9N6FMVg', 'ChIJ_____w_cEYgR9FeH2s4t5CY', 'ChIJsUZgGLevQYgROKw9NFkwgZE', 'ChIJ7d718t9yQogRg3hRsgSunN8', 'ChIJ1UDHmeIHEYgRQJpLWbcljfM', 'ChIJHVsZ2wKfbogRu7ANt7opCNI', 'ChIJIQuYJTrRQYgRcrTiZG3Dveg', 'ChIJq6qqqlrXFIgRi0uH8Iz4kwE', 'ChIJNQBLZD49aYgRTjbQA29fzPw', 'ChIJAYTHoO4XaYgR5xOdXb1yTc8', 'ChIJZ9wTw409a4gRgX_bNnLMh0w', 'ChIJ797wmm_cEYgR5c4TKFm0JiI', 'ChIJ6cQ8P_jbQYgRclbzqruNv14', 'ChIJjWdIeyDVcYgRWvoXoidPetg', 'ChIJPdH92HqPk4cR1N2tWdHpYB0', 'ChIJAQCaWL_2wIcRlLVefHi-URE', 'ChIJR33_F289kocRO-n08RbLSMk', 'ChIJ7-Ri7DvxZUARM5z2taUR-tU', 'ChIJVRXrgr0r44cRGby7gZ9FMdU', 'ChIJ_SRPHhE-8YcRF8hujUe5Vn0', 'ChIJkRz_zN6njocRhKzyiK0Ai6w', 'ChIJeb0V6X39jYcRo7DhBYcMoC8', 'ChIJjyGDkZCFk4cRS__mpqpT7KE', 'ChIJVVVVVeWFk4cRHs_73RvvYho', 'ChIJaS2q-LQ24ocRAhfIhKDIXk8', 'ChIJcfyIjOSC_IcRebm6louR13I', 'ChIJGQxZIvlR5YcRhSpq8Wkiaz4', 'ChIJD0LKBaA04ocRo41xXfbzE5Y', 'ChIJk2I1jmIz4ocRMsfLjP3Qfok', 'ChIJrcjUg6Wb74cRlE32DppLdl0', 'ChIJt4J71Agr44cRaVOMs0shW1w', 'ChIJY6ow7sST7ocRGoVR22Er3DY', 'ChIJV4xU1O895IcR8eOVkbmno6I', 'ChIJteWmL03k64cROHB5SQ8xGQ4', 'ChIJLVE9ZXWn7YcRRVr1lPhrqCs', 'ChIJY9rm6ulm4ocRDTHhpel4DRc', 'ChIJy-bWaWEe84cRNSDhHZ2QRqY', 'ChIJCY0e8LAEkocRR64oTDOzrSo', 'ChIJ_0Pk9HLxwIcR4lR6ILchPk4', 'ChIJF8jtjnLxwIcRZjZ4sHt1bXU', 'ChIJfwa-WGcap4cRsdvHfpJJ9-c', 'ChIJLZTuww1dlYcRAe-TpVgKqhM', 'ChIJbUSfigXOv4cReyommi0mSI0', 'ChIJTQU12U3kuocRXohfd0DzcyQ', 'ChIJkU9WJx7suocRLpIQlgbWb30', 'ChIJ6wahKehSvocRjPtW7AWXghc', 'ChIJ-6V8SzMtvocRIQANgGXNI04', 'ChIJc9-VSd3Hs4cRvIhg35A4vyI', 'ChIJBabOo7ZYsYcRy9cekA8hRlg', 'ChIJcfYqaUlkIYYR833bIo5xGFk', 'ChIJXb5APcagJoYROk4c1MsMiFw', 'ChIJARgegsUyMYYR0fdtp0M-tTo', 'ChIJYwcxOG2hIIYRoIR4Km4PXKc', 'ChIJx7Cyw5UOnIgR1iWq1Ld7MUQ', 'ChIJa09ROKoVO4YRY9UtEanTYpY', 'ChIJVxydPKTqI4YRgfVPN9dToBQ', 'ChIJy_Gyt3j5O4YRjrBXrLXuhAk', 'ChIJARgegsUyMYYR6iTg6PD5JPo', 'ChIJ12xdqi3NNoYRF_2GtTUEB04', 'ChIJCWknS6TsJIYR8gAEEK7u1oo', 'ChIJZUuU0VGvIIYRCS7xq2cFLzo', 'ChIJKZww7suFO4YRUvTAbUgeh2c', 'ChIJ6_09Z7aFO4YR2dvNFf4-DNg', 'ChIJrVVurBkxMYYRzoljy-JCvMk', 'ChIJUdeKYG2mIIYR2S_D01Dh2BU', 'ChIJLUdizO2gJoYR02F6SMENZP8', 'ChIJyYO2Gc4yMYYRc8KzwLwF-pE', 'ChIJLfxIDo2FO4YRtKxi_70m02s', 'ChIJ7cpsQmatOoYRlLL5KxqyRCQ', 'ChIJkVxm1AGGO4YRRxvVPnS86CA', 'ChIJWyu6PxmmJoYRpZbRFCfut6o', 'ChIJsaLVWdMyMYYR8ZxMqqCXWE4', 'ChIJiVkpM9QQJYYRKQoARlZTG14', 'ChIJ50iGVFS22IcRpKhCwZwx7Sg', 'ChIJ12xdqi3NNoYR784VCdDdOOY', 'ChIJ12xdqi3NNoYR784VCdDdOOY', 'ChIJGcw738a2IIYR719h6XLvJmw', 'ChIJrV05p2VLrkwRkPq3DlLeYCA', 'ChIJ0QsjaFRPskwRyrbL2-f-BYk', 'ChIJR4Xh33eKyokRwvX59XDdDyM', 'ChIJ0wy0ekYDyIkRXjZax7r4njA', 'ChIJuboM0WS4x4kRM2d8fbVLHrA', 'ChIJqRbRROfjt4kRQ7zB7ME0dKg', 'ChIJyQ7XnecnuYkRxf6sEnCsQ9A', 'ChIJaTQg36UhNk0RNPmoZrqty1U', 'ChIJT1JJtcj6F4gROqEUNv86rp0', 'ChIJwVzH7nAbEYgRX7AtfpwMCyQ', 'ChIJJeF3NVlKF4gRj7p2ZYJYbek', 'ChIJoZp0O-wvF4gRwkwcFRkBgo8', 'ChIJKW6N-istO4gRSTFoSfsf6oA', 'ChIJd7av94vNGYgRtlkPCn8wT6M', 'ChIJT-yFeL2FTU0RviqafJtRfOY', 'ChIJaRAekPuKTk0R0iEozkXcpVA', 'ChIJFd_-FAAPTE0RPQ-mURDvapc', 'ChIJ45Q-sO33NU0RTkLXeif2khE', 'ChIJlzfIEczhNU0RFpZr9Ej584Y', 'ChIJ4_7hAuw4Nk0REwY_nG_CkXw', 'ChIJhRViI5Gp3IgRSZYG5A--wOU', 'ChIJawxlbyQhNk0RMT0V2Myagv4', 'ChIJiatrlZeo3IgRlfD-c0JewLE', 'ChIJl1G6f7rnc4gRQvJtUklOlTo', 'ChIJhSWM4McpS00Re6b6_uhcdP8', 'ChIJr82AkcOBHogR1D061ihkUL0', 'ChIJm0ozCd-GAIkRqrlUcmbBh9s', 'ChIJ3a2S8kctO4gRS-ALRHP5hx0', 'ChIJsYvacU0tO4gRVb7MFCUHqOQ', 'ChIJsa0fVNmESk0RTcloVwc4VCQ', 'ChIJa8AZbwEYTk0RKBLmbbnJ3dM', 'ChIJmaVVygMnUU0RdqsfbICcakE', 'ChIJVz9SiQ1AIYgRtNs1iu_yWFY', 'ChIJ4Vc8fxIcIogREuYpoxmIY20', 'ChIJ-XsetLjaH4gR8OJFB0UB2m8', 'ChIJJZq5cOEtrlIRey5_UOJBHvA', 'ChIJs-dQdFwX9ocRyVUZHTjfB6w', 'ChIJEY6udcBSrlIRN1NZ3fZ-uQw', 'ChIJUf0jL3QWpVIR51uF7bTEjhE', 'ChIJlzM3EkY9slIRFurlXQwa07E', 'ChIJ99Ss6HA3s1IRzI6rtx2Dap8', 'ChIJWWXmwZhXsVIR9fz0ncoEK1w', 'ChIJS5rTWbpnWE0R6aqSveQdZwo', 'ChIJ35TMTCw09YcRrelSqrPqtYM', 'ChIJ7R-99ZEW9ocReEV7L-Ikpi4', 'ChIJ801y1psW9ocRoX4TOQCdDiI', 'ChIJcb_30kltt1IRJlFyMOid3nw', 'ChIJ4SKc1l_ftVIRBcav-yyj-5E', 'ChIJr5DqdgXXuVIRt1f6o-QPG04', 'ChIJszlD8C0JnIgRZJRQeCnojCo', 'ChIJPcGGdBGbiocRDDwCiTctmsE', 'ChIJKXTiWd3dslIR3IRGAHMb0JU', 'ChIJXYIPIGBguFIR7PyN-HfUPkc', 'ChIJqxBCeLcMx1IRZDN0h6VtVF0', 'ChIJxw0iI5w9v1IRixoD-AGEQ3g', 'ChIJ9YLynk7fx1IRLZK4TRDJQzs', 'ChIJDzqKp1mS94cRe4993Bwgkfo', 'ChIJjSZhfDCmsFIRa5_WqVVu3Wc', 'ChIJP6YCm3vgKIYRNfVzp_AmgxY', 'ChIJI3MoEsg_1YcRv28-3dllC2Y', 'ChIJf8nvg5jyK4YRY_Z-_KfHnhU', 'ChIJRSBk3eQOnIgRlArlHY1e3E0', 'ChIJYbUOJzBPg4gRQ9UvQlluydI', 'ChIJmZ24fCwJnIgRAV_Z5UEdg9w', 'ChIJrQwEolE-1YcRnjsJ_6FAWD4', 'ChIJGersBcw_1YcRgSUJiyD_B5s', 'ChIJrTulNPfGg4gRzeQnusNGqZc', 'ChIJeYTsICwJnIgR0RhKLRNHLVk', 'ChIJ9_PUGiHgKIYRi4CI6mbwiXs', 'ChIJw92slOYOnIgRdjOPfc7tbgg', 'ChIJ35d8ZUDyK4YRgaeCjkzmlO4', 'ChIJJ59qNSdA1YcR9g7q_x_v48o', 'ChIJp9ZrqtMOnIgRAJVC-sBC9XI', 'ChIJkwCueYQtnIgRJnMxPPdt21E', 'ChIJuSdwJP881YcR00YkIZOatyQ', 'ChIJQcQfuM4_1YcRVp6QNqAunu4', 'ChIJQwZhFZIOnIgR0cuu97E-hJk', 'ChIJI2h5eF09nIgRX2DbYBxy1bY', 'ChIJ7ZaMCDfVKoYRQwpfGRQtQ8A', 'ChIJBWlBz-X2JYYRCitfaVWab4Y', 'ChIJG0rnMCXeKIYRqdMqsu6uXbU', 'ChIJQYYt0uL2JYYR5gQVlULYtOU', 'ChIJj5Yz6jvEyIAR2K5IP3Gtna0', 'ChIJszlD8C0JnIgRZJRQeCnojCo', 'ChIJXYFYCaV8SFMRs7quIev2M8c', 'ChIJ6QCS4v081YcRXwczqLGEUZs', 'ChIJ-eFX4y7eKIYRj0f3Xg7219U', 'ChIJw2N9lqo91YcRCzFIQbSv848', 'ChIJO2mQmprUnYgRKpWl2wVT8L8', 'ChIJt0-ZRWjINoYRXX3sKoQkaWk', 'ChIJFadyx84RnIgRBf7HiXFi3Q0', 'ChIJv5R7NKLyK4YRo-vFH3G6aIg', 'ChIJQ_Kh1M4_1YcRiOUg6r-4sTM', 'ChIJP84-Q1cu34cRRoCJN1XQgOM', 'ChIJYXLvR_77wIcRc4YobtYpQjM', 'ChIJAQCaWL_2wIcRlLVefHi-URE', 'ChIJqbdTahn6wIcRKrVVOrX4Zbc', 'ChIJU3n4cGYu34cRdJDRRsqlEe4', 'ChIJhTZn15uHd4gRpG3RGJFeaAE', 'ChIJuwlN_I-Hd4gROjvUYkg61GE', 'ChIJp5JYjp3wwIcRJib8zkVYPig', 'ChIJa2MgeL0_w4cRhyMYOoYgm5I', 'ChIJASjXdDvBeIgRWJ_6ViuX-QM', 'ChIJqWmFUWpe54cRAINw6ObHUPc', 'ChIJm6xZG96y2IcR-kYOdQV_oZM', 'ChIJ50iGVFS22IcRpKhCwZwx7Sg', 'ChIJkdgEs0MbwIcR5YEG7nulyLo', 'ChIJN-nO81rpyIARHjXlXCKPuIk', 'ChIJP75bbtm_yIARo-Lc7yD39xQ', 'ChIJhWQVHS7EyIARbwWzRC-I8y4', 'ChIJrS6jN9_ayIARxNq8BUY3NTk', 'ChIJHUEpLGzByIAR4vhqjsm-xyI', 'ChIJ3Sp9O3lAmYARH3M4AoqFxvo', 'ChIJQxNEw5c4zoARf37Pt4Xcj2g', 'ChIJaWcwyXfEyIARTe69U71N5YA', 'ChIJ82svbEc_mYARbo9psxsjoAE', 'ChIJJ9M69znEyIAR4JClP57b-W0', 'ChIJWff7PBLQyIARa34nGm0alRc', 'ChIJDzOsX6DHqYARrIAcK5bp8zI', 'ChIJvUdRyzDEyIARhA3R2cXH8oI', 'ChIJu_M8nAZEz4AREQ9fzUCB9S8', 'ChIJm0UnxgrDyIARQXp13D2WiyE', 'ChIJIXr8JcyhmYARq_prG0TiENw', 'ChIJ96vwRbBHmYARQBziT7xFPS4', 'ChIJTf3Bsd2GmIARUYJOwALdELg', 'ChIJI2uhUzNbmYARerDtmrKj-q0', 'ChIJ3dP4KTDbyIARQ0878gAiDaI', 'ChIJw6d_TjA_mYARf6lnVUsU3Ms', 'ChIJDxfnP6IKmYARKepLT7gy5j0', 'ChIJHelpRGmwqYARgLx8CxL2kzU', 'ChIJleDKRDzEyIAR9z-vovLIyXc', 'ChIJv_WQA6HDyIAR_wdTCqIWDZg', 'ChIJ0w46t-l6mYAR15jrsncVtDo', 'ChIJxYriRSDoyIARQUoiMxvfoDw', 'ChIJjQBPaKIKmYARfrbjwXIBPKg', 'ChIJZYzkZ5a9mYARogWzij1FkJY', 'ChIJ1QiF794qyoARlahhPTPv-lw', 'ChIJV4qmAjqgmYARj1YqSkQDVe0', 'ChIJLzuL-ZPXyIARPhK6qXaxYFg', 'ChIJ4-v-KDzEyIARRrpUdLA6agI', 'ChIJaava57ZQkIAR-tP2VQCCeLE', 'ChIJmZorE5TZmoARU4-XLLugg4Q', 'ChIJmyLcu45W2YARze4Al_4wdOg', 'ChIJy8FzkeA4mIARElchvoyjjWo', 'ChIJuaQnSvxWmIAROxTQ5GlCq64', 'ChIJmSto3AzEyIAR9CR5eHxI4BM', 'ChIJ8ZZtmjZHmYARPmy0CY53NYo', 'ChIJk5ehscpAmYARzEnEgofAsKs', 'ChIJHapjJQBDzoAR3sJEFEsLSMw', 'ChIJy-NPezEHpoARsBvxVP61XWA', 'ChIJT__BBTHEyIARSHye841eD20', 'ChIJY5VYasJ6mYARUEV8U5K2AAA', 'ChIJmdNoSasPmYAR5nCHqUtkvIA', 'ChIJWVQ5eTKiiYcRjVmojx1hHAo', 'ChIJ3fSVtuA4mIARRsynlQ3PoyI', 'ChIJI9tTB6DDyIARBYf7r_X-rdE', 'ChIJgz1t4_1CzoARoYTDwx-mIf0', 'ChIJVbt5oPdgvYAR4oO3MBZ14rA', 'ChIJrwYDNU_RyIARwRU8V-XBbjs', 'ChIJGToTtvLayIARIj6j-kHNjnQ', 'ChIJc2nKAXXDyIARs-mmzOLrTCo', 'ChIJQ10dxaTWyIARQqTucQq7rH4', 'ChIJ080StzVHmYARD-YbD1sKARw', 'ChIJw7ayOUjEyIARDpKewawk8hU', 'ChIJS0B4ZMzCyIARxg2SVf4dIZk', 'ChIJzZtJhM3FyIAR6eHpF4xTR68', 'ChIJP9Noe_PByIARyv_dFb9V5zA', 'ChIJPV1bFDVHmYARKlSZuGnFSvc', 'ChIJVdePyjvEyIARderixECdW2Q', 'ChIJxQGUycivqYARxUxD0-4j7mY', 'ChIJ11yZSXTDyIARlxlY5q_c6JQ', 'ChIJFTJhO6DDyIARYs7dJsDxK2Y', 'ChIJNfEuFygBpoARrcYiyFksaWM', 'ChIJ73KY5J7GyIARMWEsH702oW0', 'ChIJqxKN930KmYARYL8T-Yg7-OA', 'ChIJrRng_BgHpoARfhKinRP97V0', 'ChIJwwCgEi5HmYAR0lLeXAha-rY', 'ChIJG2_a3BlbmYARAEhYpaDJ-tQ', 'ChIJiWmm0c0HmYARlsvbDMBnHqk', 'ChIJs1w9Q_DQyIAR6ZPW0gzrVcM', 'ChIJhYJ3NXXDyIARo_SCc3vMKjw', 'ChIJ0Tqqg4FJz4AR3qzvL6qy8O8', 'ChIJP_e37KHDyIAR972mwUmavqE', 'ChIJM5pPyaHDyIARi2GWubblECA', 'ChIJNQhqgLJDzoARDyXqhK0p204', 'ChIJGfoPHjVHmYAREVM1s1q2hU4', 'ChIJG7qnuls_mYARweP739kMgh8', 'ChIJxfy2Ut7RyIAR0LOPVNgrwYc', 'ChIJ_SFE1PyPmYARqCOqvmsDlMQ', 'ChIJOV4Pe03EyIARDGQ__xHAMJ0', 'ChIJae3o-neQmYARWQ4WjA9fWcY', 'ChIJWxuQMDzEyIARsw492ihhHOE', 'ChIJsdIov8lDzoARwhKfdqzdsrE', 'ChIJw3NtXjVHmYARDMrE3lr5Pb4', 'ChIJnR9tTJ2amYARC-ftPtd_eLM', 'ChIJpeFHN8rFyIAROSGCAIYxpLA', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
+ var placeIdArrayTwo = [];
 
-var casinoObjArray = [ ]
+var casinoObjArray = [];
 
 exports.placeIdArray = placeIdArray;
+exports.placeIdArrayTwo = placeIdArrayTwo;
 exports.casinoObjArray = casinoObjArray;
 
-Morongo Casino, Resort & Spa
-Mortimer's Card Room
-Napa Valley Casino
-Nineteenth Hole
-Normandie Club
-Oaks Card Club
-Oasis Card Room
-Ocean's Eleven Casino
-Ocean View Cardroom
-Old Cayucos Tavern
-Outlaws Card Parlour
-Paiute Palace Casino
-Pala Casino Resort and Spa
-Palace Card Club
-Palomar Card Club
-Pastime Club
-Pastime Club
-Pechanga Resort and Casino
-Pit River Casino
-The Players Club
-Poker Flats Casino
-Quechan Resort Casino
-Red Earth Casino
-Red Fox Casino
-Redhawk Casino
-Rancho's Club Casino
-River Card Room
-River Rock Casino
-Rogelio's
-Robinson Rancheria Resort and Casino
-Rolling Hills Casino
-Royal Flush Casino
-S & K Card Room
-Silver Fox Card Room
-St. Charles Place
-San Manuel Indian Bingo and Casino
-San Pablo Lytton Casino
-Santa Ysabel Resort and Casino
-Shodokai Casino
-Sho-Ka-Wah Casino
-Soboba Casino
-Spa Resort and Casino
-Spotlight 29 Casino
-Sundowner Cardroom
-Sycuan Resort and Casino
-Table Mountain Casino
-Tachi Palace Hotel and Casino
-Thunder Valley Casino Resort
-Tommy's Casino & Saloon
-Torres Martinez Casino
-Towers Casino
-Turlock Poker Room
-Twin Pine Casino
-Valley View Casino
-Ven-A-Mexico
-Viejas Casino
-Village Club Casino
-Wine Country Casino and Restaurant
-Win-River Casino
-Ameristar Casino Black Hawk
-Black Diamond Casino and Saloon
-Brass Ass Casino of Cripple Creek
-Bronco Billy's Casino
-Bull Durham Saloon and Casino
-Bullpen Casino
-Bullwhacker's Black Hawk Canyon and Grand Plateau Casino
-Century Casino
-Colorado Central Station Casino
-Colorado Grande Casino
-Creeker's Gaming Hall
-Dan Cooper's Eureka! Casino
-Doc Holliday Casino
-Dostal Alley Brewpub & Casino
-Double Eagle Hotel & Casino
-Double Eagle Hotel & Casino & the Gold Creek Casino
-Easy Street Casino
-Famous Bonanza
-Fitzgeralds Black Hawk
-Reserve Casino Hotel
-Gold Rush Hotel & Casino/Gold Digger's Casino
-Golden Gates Casino
-Golden Gulch Casino
-Golden Mardi Gras Casino
-Imperial Casino
-Isle of Capri Casino and Hotel
-J.P. McGills Hotel & Casino
-Johnny Nolon's Casino
-Midnight Rose Hotel & Casino
-Red Dolly Casino
-Riviera Black Hawk Casino
-Scarlet's Casino
-Silver Hawk Saloon & Casino
-Sky Ute Lodge and Casino
-The Gilpin Casino
-Teller House
-The Lodge Casino at Black Hawk
-The Richman Casino Wild Card Saloon & Casino
-Uncle Sam's Casino
-Ute Mountain Casino Hotel & Resort
-Wild Horse Casino
-Womacks Casino & Hotel
-Foxwoods Resort Casino
-Mohegan Sun
-Delaware Park Racetrack & Slots
-The Delaware Poker Room
-Dover Downs
-Harrington Raceway & Casino
-Calder Casino & Race Course
-Casino Miami Jai-Alai
-Creek Entertainment Gretna
-Dania Jai-Alai
-Daytona Beach Kennel Club and Poker Room
-Derby Lane
-Ebro Greyhound Track
-Flagler Dog Track and Magic City Casino
-Fort Pierce Jai-Alai & Poker
-Gulfstream Park Racing and Casino
-Hamilton Jai-Alai and Poker
-Hialeah Park Race Track
-Jacksonville Kennel Club
-Jefferson County Kennel Club
-Mardi Gras Casino
-Melbourne Greyhound Park
-Miccosukee Resort and Gaming Center
-Naples/Fort Myers Greyhound Track
-Ocala Poker & Jai-Alai
-Orange Park Kennel Club
-Palm Beach Kennel Club
-Pensacola Greyhound Track
-Pompano Park
-Sarasota Kennel Club
-Seminole Casino Big Cypress
-Seminole Casino - Brighton
-Seminole Casino Immokalee
-Seminole Coconut Creek Casino
-Seminole Hard Rock Hotel and Casino Hollywood
-Seminole Hard Rock Hotel and Casino Tampa
-Seminole Casino - Hollywood
-Tampa Bay Downs
-Tampa Greyhound Track
-Victory Casino Cruises
-Victory Casino Cruises
-Coeur d'Alene Casino
-Clearwater Casino
-Fort Hall Casino
-It'se Ye Ye Casino
-Kootenai River Inn and Casino
-Casino Queen[citation needed]
-Harrah's Joliet
-Harrah's Metropolis
-Hollywood Casino Aurora[citation needed]
-Grand Victoria Casino Elgin[4]
-Hollywood Casino Joliet
-Argosy's Alton Belle Casino[citation needed]
-Rivers Casino
-Par-A-Dice Casino
-Jumer's Casino & Hotel
-Ameristar
-Belterra Casino
-Blue Chip Casino
-French Lick Resort Casino
-Hollywood Casino Lawrenceburg
-Hoosier Park
-Horseshoe Southern Indiana
-Horseshoe Casino
-Indiana Grand Casino
-Majestic Star
-Majestic Star II
-Rising Star Casino Resort
-Tropicana Evansville
-Ameristar Council Bluffs
-Argosy
-Blackbird Bend Casino
-Catfish Bend
-Diamond Jo Casino
-Diamond Jo Casino – Worth
-Grand Falls Casino
-Hard Rock Sioux City
-Horseshoe Council Bluffs
-Harrah's Council Bluffs
-Isle of Capri
-LadyLuck
-Rhythm City
-Isle of Capri
-Meskwaki Casino
-Mystique
-Prairie Meadows
-Riverside Casino & Golf Resort
-Lakeside Hotel & Casino
-Wild Rose Casino and Resort
-Wild Rose Casino and Resort
-Wild Rose Casino and Resort
-WinnaVegas
-7th Street Casino
-Boot Hill Casino
-Casino White Cloud
-Golden Eagle Casino
-Hollywood Casino at Kansas Speedway
-Kansas Star Casino
-Prairie Band Casino & Resort
-Sac and Fox Casino
-Amelia Belle
-Belle of Baton Rouge
-Boomtown Bossier City
-Boomtown New Orleans
-Coushatta Casino Resort
-Cypress Bayou Casino
-Delta Downs
-Diamond Jacks Casino Bossier City
-Eldorado Casino Shreveport
-Evangeline Downs
-Fair Grounds Race Course
-Flamingo Casino New Orleans
-Golden Nugget Lake Charles
-Harrah's Lake Charles
-Harrah's Louisiana Downs
-Harrah's New Orleans
-Hollywood Casino Baton Rouge
-Horseshoe Casino Bossier City
-Isle of Capri Casino Lake Charles
-Jena Choctaw Pines Casino
-L'Auberge Casino Resort Lake Charles
-L'Auberge Casino Baton Rouge
-Margaritaville Resort Casino
-Paragon Casino Resort
-River City Casino
-Sam's Town Shreveport
-Showboat Star Casino
-Treasure Chest Casino
-Hollywood Casino Hotel and Raceway
-Oxford Casino
-Rocky Gap Casino Resort
-Horseshoe Casino Baltimore
-Hollywood Casino Perryville
-Maryland Live!
-Ocean Downs
-MGM National Harbor
-Bay Mills Resort & Casino
-Chip-in Casino
-FireKeepers Casino Hotel
-Four Winds New Buffalo
-Four Winds Hartford
-Four Winds Dowagiac
-Greektown Casino Hotel
-Gun Lake Casino
-Island Resort & Casino
-Kewadin Casino - Christmas
-Kewadin Casino - Hessel
-Kewadin Casino - Manistique
-Kewadin Casino, Hotel and Convention Center
-Kewadin Shores Casino - St. Ignace
-Kings Club Casino
-Lac Vieux Desert Resort Casino & Golf Course
-Leelanau Sands Casino
-Little River Casino and Resort
-MGM Grand Detroit
-MotorCity Casino Hotel
-Odawa Casino Resort
-Ojibwa Casino - Marquette
-Ojibwa Casino Resort - Baraga
-Saganing Eagles Landing Casino
-Soaring Eagle Casino & Resort
-Turtle Creek Casino and Hotel
-Black Bear Casino Resort
-Canterbury Park
-Fond-du-luth Casino
-Fortune Bay Resort Casino
-Grand Casino Hinckley
-Grand Casino Mille Lacs
-Grand Portage Lodge & Casino
-Jackpot Junction Casino Hotel
-Little Six Casino
-Mystic Lake Casino Hotel
-Northern Lights Casino
-Palace Casino & Hotel
-Prairie's Edge Casino Resort
-Running Aces Harness Park
-Seven Clans Casino Red Lake
-Seven Clans Casino Thief River Falls
-Seven Clans Casino Warroad
-Shooting Star Casino
-Treasure Island Resort and Casino
-White Oak Casino
-Ameristar Casino Hotel Vicksburg
-Bally's Casino Tunica
-Bayou Caddy's Jubilee Casino
-Beau Rivage
-Bok Homa Casino
-Boomtown Casino Biloxi
-Casino Magic Biloxi
-Copa Casino
-DiamondJacks Casino & Hotel Vicksburg
-Fitzgeralds Casino Tunica
-Gold Strike Casino Resort
-Golden Moon Casino
-Golden Nugget Biloxi
-Grand Station Casino
-Hard Rock Hotel and Casino Biloxi
-Harlow's Casino
-Harrah's Casino Tunica
-Harrah's Gulf Coast
-Hollywood Casino Gulf Coast
-Hollywood Casino Tunica
-Horseshoe Casino Tunica
-IP Casino Resort Spa
-Island View Casino
-Isle of Capri Casino Hotel Lula
-Isle of Capri Casino Hotel Natchez
-Lady Luck Casino Vicksburg
-Magnolia Bluffs Casino
-Margaritaville Casino and Restaurant
-Palace Casino Biloxi
-President Casino Broadwater Resort
-Resorts Casino Tunica
-Riverwalk Casino and Hotel
-Sam's Town Tunica
-Scarlet Pearl Casino
-Silver Slipper Casino
-Silver Star Casino
-Treasure Bay Casino Biloxi
-Trop Casino Greenville
-Tunica Roadhouse Casino & Hotel
-Ameristar Casino St. Charles
-Ameristar
-Argosy Riverside
-Harrah's
-Hollywood Casino St. Louis
-Isle Casino
-Isle of Capri
-Isle of Capri
-Lady Luck Casino
-Mark Twain
-Lumière Place
-River City Casino
-President Casino Laclede's Landing
-St. Jo Frontier Casino
-Aliante Casino and Hotel,
-Alon Las Vegas,
-Aquarius,
-Aria Resort & Casino,
-Arizona Charlie's Boulder,
-Arizona Charlie's Decatur
-Atlantis
-Avi
-Aztec Inn
-Baldini's Sports Casino
-Bally's
-Barley's
-Barton's Club 93
-Bellagio
-Bill's Casino Lake Tahoe
-Binion's Gambling Hall and Hotel
-Bodines Casino
-Bonanza Casino
-Bonanza Casino
-Boomtown Reno
-Boulder Station
-Buffalo Bill's
-Buffalo Club Casino
-Bourbon Square Casino
-Cactus Jack's Senator Club
-Cactus Pete's
-Caesars Palace
-California Hotel and Casino
-Cal Neva Lodge & Casino
-Cannery Casino and Hotel
-Carson Nugget
-Carson Valley Inn
-CasaBlanca
-Casino Fandango
-Casino Monte Lago
-Casino Royale
-Casino West
-Churchill Station
-Circus Circus Las Vegas
-Circus Circus Reno
-Club Cal Neva
-Colorado Belle Hotel & Casino
-Commercial Casino
-Cosmopolitan of Las Vegas
-Crystal Bay Club
-Delta Saloon & Casino
-Depot Casino
-Depot Casino
-Diamond Casino
-Dini's Lucky Club
-Downtown Grand
-Edgewater Hotel and Casino
-El Capitan Hotel & Casino
-Fiesta Henderson
-Eastside Cannery
-El Cortez
-Eldorado Casino
-Eldorado Reno
-Ellis Island Casino & Brewery
-Encore
-Eureka Casino Hotel
-Excalibur
-Fiesta Rancho
-Fitzgeralds Reno
-Flamingo Las Vegas
-Fontainebleau Resort
-Four Jacks Hotel & Casino
-Four Queens
-Fremont Hotel and Casino
-Gold County Inn & Casino
-Gold Coast
-Gold Dust West Carson
-Gold Dust West Elko
-Gold Dust West Reno
-Gold Ranch Dayton
-Gold Ranch Sparks
-Gold Ranch Verdi
-Gold Rush Casino
-Gold Spike
-Gold Strike
-Golden Gate Casino
-Golden Nugget Las Vegas
-Golden Nugget Laughlin
-Golden Phoenix
-Grand Sierra Resort
-Green Valley Ranch
-Hard Rock Lake Tahoe
-Hard Rock Las Vegas
-Harrah's Lake Tahoe
-Harrah's Las Vegas
-Harrah's Laughlin
-Harrah's Reno
-Harveys Lake Tahoe
-High Desert Casino
-Hooters Casino Hotel
+
+
+
 Hoover Dam Lodge
 Horseshu Hotel & Casino
 Hotel Nevada and Gambling Hall
@@ -606,7 +180,6 @@ Sky City Casino
 Sun Ray Park & Casino
 Sunland Park Racetrack & Casino
 Taos Mountain Casino
-Wild Horse Casino
 Zia Park Casino, Hotel & Racetrack
 Akwesasne Mohawk Casino
 Batavia Downs Casino
@@ -630,7 +203,6 @@ Vernon Downs & Casino
 Yellow Brick Road Casino
 Harrah's Cherokee
 Harrah's Cherokee Valley River
-Belterra Park Gaming & Entertainment Center
 Hard Rock Rocksino Northfield Park
 Hollywood Casino Columbus
 Hollywood Casino Toledo
@@ -691,7 +263,6 @@ Red Hawk Gaming Center
 Remington Park Racetrack & Casino
 River Spirit Casino
 Riverwind Casino
-Sac & Fox Casino
 Salt Creek Casino
 Seven Clans
 Seven Clans
@@ -752,7 +323,6 @@ Angel of the Winds Casino
 Buzz Inn Casino and Steakhouse
 Casino Snoqualmie
 Chewelah Casino
-Suquamish Clearwater Casino Resort
 Clearwater Poker Room
 Club Hollywood Casino
 Coulee Dam Casino
@@ -827,4 +397,4 @@ St. Croix Casino
 Wind River Casino[30]
 Little Wind Casino[30]
 Shoshone Rose Casino[30]
- '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '','', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+ '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
