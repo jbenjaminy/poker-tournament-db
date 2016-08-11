@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var knex = require('knex')({
     client: 'pg',
     connection: {
-        database: 'pokerdb'
+        database: 'poker'
     },
 });
 
@@ -71,8 +71,9 @@ app.post('/casinos', jsonParser, function(request, response) {
             name: casino.name,
             placeid: casino.placeId,
             address: casino.address,
+            state: casino.state,
             phone: casino.phone,
-            website: casino.website,
+            website: casino.website
             })
             .returning('id')
             .into('casinos')

@@ -3,10 +3,11 @@ create table if not exists casinos (
 	name text not null unique,
 	placeId text,
 	address text,
+	state text,
 	phone text,
 	website text,
+	hasPoker Boolean
 	-- hours text,
-	hasPoker text
 	-- gamesOffered text,
 	-- other text
 );
