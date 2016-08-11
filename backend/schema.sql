@@ -5,10 +5,10 @@ create table if not exists casinos (
 	address text,
 	phone text,
 	website text,
-	hours text,
-	hasPoker text,
-	gamesOffered text,
-	other text
+	-- hours text,
+	hasPoker text
+	-- gamesOffered text,
+	-- other text
 );
 
 create table if not exists tournaments (
