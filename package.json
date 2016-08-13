@@ -7,7 +7,7 @@
     "test": "mocha --compilers js:babel-register test/**/*.js*",
     "mkdir": "mkdir -p build",
     "build": "npm run clean && npm run mkdir && npm run build:html && npm run build:css && npm run build:js && npm run build:img",
-    "serve": "node backend/server.js",
+    "server": "node backend/server.js",
     "http": "http-server build/",
     "watch": "npm run watch:html & npm run watch:css & npm run watch:js & npm run watch:img",
     "clean": "rm -rf build",

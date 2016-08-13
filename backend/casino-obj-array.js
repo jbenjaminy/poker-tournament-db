@@ -1,3 +1,4 @@
+
 var casinoObjArray = [  
   {
     "name": "Cocopah Resort",
@@ -3091,6 +3092,3967 @@ var casinoObjArray = [
     "phone": "(228) 386-7111",
     "website": "http://www.beaurivage.com/"
   },
+// 396
+ {
+    "name": "Harrah's Tunica",
+    "placeId": "ChIJJ59qNSdA1YcR9g7q_x_v48o",
+    "address": "13615 Old Hwy 61, Robinsonville, MS 38664, USA",
+    "state": "Mississippi",
+    "phone": "(662) 357-6092"
+  },
+  {
+    "name": "Margaritaville casino",
+    "placeId": "ChIJj5Yz6jvEyIAR2K5IP3Gtna0",
+    "address": "3555 E Flamingo Rd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 733-3111",
+    "website": "http://www.flamingolasvegas.com/casino/margaritaville-casino.html?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Margaritaville%20casino&utm_content=casino"
+  },
+  {
+    "name": "Broadwater Buffalo Palace Casino",
+    "placeId": "ChIJXYFYCaV8SFMRs7quIev2M8c",
+    "address": "1425 Broadwater Ave, Billings, MT 59102, USA",
+    "state": "Montana",
+    "phone": "(406) 259-0887"
+  },
+  {
+    "name": "Grand Station Casino and Hotel",
+    "placeId": "ChIJ9_PUGiHgKIYRi4CI6mbwiXs",
+    "address": "1310 Mulberry St, Vicksburg, MS 39180, USA",
+    "state": "Mississippi",
+    "phone": "(601) 636-3423"
+  },
+  {
+    "name": "Trop Casino Greenville",
+    "placeId": "ChIJv5R7NKLyK4YRo-vFH3G6aIg",
+    "address": "199 N Lakefront Rd, Greenville, MS 38701, USA",
+    "state": "Mississippi",
+    "phone": "(662) 334-7711",
+    "website": "http://www.tropgreenville.com/"
+  },
+  {
+    "name": "Golden Moon Casino",
+    "placeId": "ChIJrTulNPfGg4gRzeQnusNGqZc",
+    "address": "13541 MS-16, Philadelphia, MS 39350, USA",
+    "state": "Mississippi",
+    "phone": "(601) 650-1234",
+    "website": "http://www.pearlriverresort.com/golden_moon.html"
+  },
+  {
+    "name": "Harlow's Casino Resort & Spa",
+    "placeId": "ChIJ35d8ZUDyK4YRgaeCjkzmlO4",
+    "address": "4280 Harlows Blvd, Greenville, MS 38701, USA",
+    "state": "Mississippi",
+    "phone": "(662) 335-9797",
+    "website": "http://www.harlowscasino.com/"
+  },
+  {
+    "name": "Palace Casino Resort",
+    "placeId": "ChIJszlD8C0JnIgRZJRQeCnojCo",
+    "address": "158 Howard Ave, Biloxi, MS 39530, USA",
+    "state": "Mississippi",
+    "phone": "(228) 432-8888",
+    "website": "http://www.palacecasinoresort.com/"
+  },
+  {
+    "name": "Tunica Roadhouse",
+    "placeId": "ChIJQ_Kh1M4_1YcRiOUg6r-4sTM",
+    "address": "1107 Casino Center Dr, Robinsonville, MS 38664, USA",
+    "state": "Mississippi",
+    "phone": "(662) 363-4900",
+    "website": "http://www.tunica-roadhouse.com"
+  },
+  {
+    "name": "Harrah's Gulf Coast",
+    "placeId": "ChIJp9ZrqtMOnIgRAJVC-sBC9XI",
+    "address": "280 Beach Blvd, Biloxi, MS 39530, USA",
+    "state": "Mississippi",
+    "phone": "(228) 436-2946",
+    "website": "https://www.caesars.com/harrahs-gulf-coast?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Gulf%20Coast&utm_content=hotel"
+  },
+  {
+    "name": "Hollywood Casino & Hotel Tunica",
+    "placeId": "ChIJuSdwJP881YcR00YkIZOatyQ",
+    "address": "1150 Casino Strip Resort Boulevard, Tunica Resorts, MS 38664",
+    "state": "Mississippi",
+    "phone": "(800) 871-0711",
+    "website": "http://www.hollywoodcasinotunica.com/"
+  },
+  {
+    "name": "Hollywood Casino & Resort Gulf Coast",
+    "placeId": "ChIJkwCueYQtnIgRJnMxPPdt21E",
+    "address": "711 Hollywood Blvd, Bay St Louis, MS 39520, USA",
+    "state": "Mississippi",
+    "phone": "(866) 758-2591",
+    "website": "http://www.hollywoodgulfcoast.com/"
+  },
+  {
+    "name": "Magnolia Bluffs Casino Hotel",
+    "placeId": "ChIJQYYt0uL2JYYR5gQVlULYtOU",
+    "address": "7 Roth Hill Road, Natchez, MS 39120, USA",
+    "state": "Mississippi",
+    "phone": "(601) 235-0045",
+    "website": "http://www.magnoliabluffscasinos.com/"
+  },
+  {
+    "name": "Hard Rock Hotel & Casino",
+    "placeId": "ChIJw92slOYOnIgRdjOPfc7tbgg",
+    "address": "777 Beach Blvd, Biloxi, MS 39530, USA",
+    "state": "Mississippi",
+    "phone": "(228) 374-7625",
+    "website": "http://www.hrhcbiloxi.com/"
+  },
+  {
+    "name": "Island View Casino Resort",
+    "placeId": "ChIJI2h5eF09nIgRX2DbYBxy1bY",
+    "address": "3300 W Beach Blvd, Gulfport, MS 39501, USA",
+    "state": "Mississippi",
+    "phone": "(228) 314-2100",
+    "website": "http://www.islandviewcasino.com/"
+  },
+  {
+    "name": "IP Casino Resort Spa",
+    "placeId": "ChIJQwZhFZIOnIgR0cuu97E-hJk",
+    "address": "850 Bayview Ave, Biloxi, MS 39530, USA",
+    "state": "Mississippi",
+    "phone": "(228) 436-3000",
+    "website": "http://www.ipbiloxi.com/"
+  },
+  {
+    "name": "Lady Luck Casino Vicksburg",
+    "placeId": "ChIJG0rnMCXeKIYRqdMqsu6uXbU",
+    "address": "1380 Warrenton Rd, Vicksburg, MS 39180, USA",
+    "state": "Mississippi",
+    "phone": "(601) 501-4368",
+    "website": "http://vicksburg.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+  },
+  {
+    "name": "Silver Star Casino",
+    "placeId": "ChIJt0-ZRWjINoYRXX3sKoQkaWk",
+    "address": "7101 LA-1, Shreveport, LA 71107, USA",
+    "state": "Louisiana",
+    "phone": "(318) 929-4905",
+    "website": "http://www.lavideopoker.com/SilverStar.html"
+  },
+  {
+    "name": "Isle of Capri Casino",
+    "placeId": "ChIJuwlN_I-Hd4gROjvUYkg61GE",
+    "address": "338 Broadway St, Cape Girardeau, MO 63701, USA",
+    "state": "Missouri",
+    "phone": "(800) 843-4753",
+    "website": "http://cape-girardeau.isleofcapricasinos.com/index.aspx"
+  },
+  {
+    "name": "Alon Las Vegas",
+    "placeId": "ChIJP75bbtm_yIARo-Lc7yD39xQ",
+    "address": "10150 Covington Cross Dr, Las Vegas, NV 89144, USA",
+    "state": "Nevada"
+  },
+  {
+    "name": "Binion's Horseshoe",
+    "placeId": "ChIJm0UnxgrDyIARQXp13D2WiyE",
+    "address": "1738 Fremont St, Las Vegas, NV 89101, USA",
+    "state": "Nevada"
+  },
+  {
+    "name": "Mark Twain Casino",
+    "placeId": "ChIJqWmFUWpe54cRAINw6ObHUPc",
+    "address": "104 Pierce St, La Grange, MO 63448, USA",
+    "state": "Missouri",
+    "phone": "(573) 655-4770",
+    "website": "http://www.marktwaincasinolagrange.com/"
+  },
+  {
+    "name": "Horseshoe Tunica Hotel & Casino",
+    "placeId": "ChIJQcQfuM4_1YcRVp6QNqAunu4",
+    "address": "1021 Casino Center Dr, Robinsonville, MS 38664, USA",
+    "state": "Mississippi",
+    "phone": "(800) 303-7463",
+    "website": "https://www.caesars.com/horseshoe-tunica?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Horseshoe%20Tunica%20Hotel%20and%20Casino&utm_content=hotel"
+  },
+  {
+    "name": "Ameristar Casino",
+    "placeId": "ChIJYXLvR_77wIcRc4YobtYpQjM",
+    "address": "3200 North Ameristar Drive, Kansas City, MO 64161, USA",
+    "state": "Missouri",
+    "website": "http://www.ameristar.com/kansas-city"
+  },
+  {
+    "name": "Sam's Town Hotel and Gambling Hall, Tunica",
+    "placeId": "ChIJw2N9lqo91YcRCzFIQbSv848",
+    "address": "1477 Casino Strip Resort Blvd, Robinsonville, MS 38664, USA",
+    "state": "Mississippi",
+    "phone": "(662) 363-0711",
+    "website": "http://www.samstowntunica.com/"
+  },
+  {
+    "name": "Lady Luck Casino Caruthersville",
+    "placeId": "ChIJASjXdDvBeIgRWJ_6ViuX-QM",
+    "address": "777 E 3rd St, Caruthersville, MO 63830, USA",
+    "state": "Missouri",
+    "phone": "(573) 724-4063",
+    "website": "http://caruthersville.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+  },
+  {
+    "name": "Golden Nugget Hotel & Casino",
+    "placeId": "ChIJeYTsICwJnIgR0RhKLRNHLVk",
+    "address": "151 Beach Blvd, Biloxi, MS 39530, USA",
+    "state": "Mississippi",
+    "phone": "(228) 435-5400",
+    "website": "http://www.goldennugget.com/biloxi/"
+  },
+  {
+    "name": "Isle of Capri Casino Hotel Natchez",
+    "placeId": "ChIJBWlBz-X2JYYRCitfaVWab4Y",
+    "address": "70 Silver St, Natchez, MS 39120, USA",
+    "state": "Mississippi",
+    "website": "http://natchez.isleofcapricasinos.com/"
+  },
+  {
+    "name": "Silver Slipper Casino",
+    "placeId": "ChIJO2mQmprUnYgRKpWl2wVT8L8",
+    "address": "5000 S Beach Blvd, Bay St Louis, MS 39520, USA",
+    "state": "Mississippi",
+    "phone": "(228) 469-2777",
+    "website": "http://www.silverslipper-ms.com/"
+  },
+  {
+    "name": "Aztec Inn",
+    "placeId": "ChIJaWcwyXfEyIARTe69U71N5YA",
+    "address": "2200 S Las Vegas Blvd, Las Vegas, NV 89102, USA",
+    "state": "Nevada",
+    "phone": "(702) 385-4566"
+  },
+  {
+    "name": "Baldini's Sports Casino and Restaurant",
+    "placeId": "ChIJ82svbEc_mYARbo9psxsjoAE",
+    "address": "865 S Rock Blvd, Sparks, NV 89431, USA",
+    "state": "Nevada",
+    "phone": "(775) 358-0116",
+    "website": "http://baldinissports.com/"
+  },
+  {
+    "name": "Isle of Capri Casino Hotel Lula",
+    "placeId": "ChIJ7ZaMCDfVKoYRQwpfGRQtQ8A",
+    "address": "777 Isle of Capri Pkwy, Lula, MS 38644, USA",
+    "state": "Mississippi",
+    "phone": "(662) 373-2461",
+    "website": "http://lula.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+  },
+  {
+    "name": "Riverwalk Casino Hotel",
+    "placeId": "ChIJ-eFX4y7eKIYRj0f3Xg7219U",
+    "address": "1046 Warrenton Rd, Vicksburg, MS 39180, USA",
+    "state": "Mississippi",
+    "phone": "(601) 634-0100",
+    "website": "http://www.riverwalkvicksburg.com/"
+  },
+  {
+    "name": "Resorts Casino Tunica",
+    "placeId": "ChIJ6QCS4v081YcRXwczqLGEUZs",
+    "address": "1100 Casino Strip Resort Blvd, Robinsonville, MS 38664, USA",
+    "state": "Mississippi",
+    "phone": "(866) 706-7070"
+  },
+  {
+    "name": "Treasure Bay Casino and Hotel",
+    "placeId": "ChIJFadyx84RnIgRBf7HiXFi3Q0",
+    "address": "1980 Beach Blvd, Biloxi, MS 39531, USA",
+    "state": "Mississippi",
+    "phone": "(228) 385-6000",
+    "website": "http://www.treasurebay.com/"
+  },
+  {
+    "name": "Argosy Casino Hotel & Spa",
+    "placeId": "ChIJAQCaWL_2wIcRlLVefHi-URE",
+    "address": "777 N W Argosy Casino Parkway, Riverside, MO 64150",
+    "state": "Missouri",
+    "phone": "(816) 746-3100",
+    "website": "http://www.argosykansascity.com/"
+  },
+  {
+    "name": "St. Jo Frontier Casino",
+    "placeId": "ChIJkdgEs0MbwIcR5YEG7nulyLo",
+    "address": "777 Winners Cir, St Joseph, MO 64505, USA",
+    "state": "Missouri",
+    "phone": "(816) 279-5514",
+    "website": "http://www.stjofrontiercasino.com/"
+  },
+  {
+    "name": "Harrah's North Kansas City",
+    "placeId": "ChIJqbdTahn6wIcRKrVVOrX4Zbc",
+    "address": "1 Riverboat Dr, North Kansas City, MO 64116, USA",
+    "state": "Missouri",
+    "phone": "(816) 472-7777",
+    "website": "https://www.caesars.com/harrahs-kansas-city?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20North%20Kansas%20City&utm_content=hotel"
+  },
+  {
+    "name": "Lumière Place Casino and Hotels",
+    "placeId": "ChIJm6xZG96y2IcR-kYOdQV_oZM",
+    "address": "999 N 2nd St, St. Louis, MO 63102, USA",
+    "state": "Missouri",
+    "phone": "(314) 881-7777",
+    "website": "http://www.lumiereplace.com/"
+  },
+  {
+    "name": "Hollywood Casino & Hotel St. Louis",
+    "placeId": "ChIJU3n4cGYu34cRdJDRRsqlEe4",
+    "address": "777 Casino Center Dr, Maryland Heights, MO 63043, USA",
+    "state": "Missouri",
+    "phone": "(855) 785-4263",
+    "website": "http://www.hollywoodcasinostlouis.com/"
+  },
+  {
+    "name": "Arizona Charlie's Decatur",
+    "placeId": "ChIJHUEpLGzByIAR4vhqjsm-xyI",
+    "address": "740 S Decatur Blvd, Las Vegas, NV 89107, USA",
+    "state": "Nevada",
+    "phone": "(702) 258-5200",
+    "website": "http://www.arizonacharliesdecatur.com/"
+  },
+  {
+    "name": "Arizona Charlie's Boulder",
+    "placeId": "ChIJrS6jN9_ayIARxNq8BUY3NTk",
+    "address": "4575 Boulder Hwy, Las Vegas, NV 89121, USA",
+    "state": "Nevada",
+    "phone": "(702) 951-5800",
+    "website": "http://www.arizonacharliesboulder.com/"
+  },
+  {
+    "name": "Avi Resort & Casino",
+    "placeId": "ChIJQxNEw5c4zoARf37Pt4Xcj2g",
+    "address": "10000 Aha Macav Pkwy, Laughlin, NV 89029, USA",
+    "state": "Nevada",
+    "phone": "(702) 535-5555",
+    "website": "http://www.avicasino.com/"
+  },
+  {
+    "name": "Buffalo Bill's Casino & Hotel",
+    "placeId": "ChIJu_M8nAZEz4AREQ9fzUCB9S8",
+    "address": "31900 S Las Vegas Blvd, Primm, NV 89019, USA",
+    "state": "Nevada",
+    "phone": "(702) 386-7867",
+    "website": "http://primmvalleyresorts.com/"
+  },
+  {
+    "name": "Isle of Capri Casino Kansas City",
+    "placeId": "ChIJp5JYjp3wwIcRJib8zkVYPig",
+    "address": "1800 Front St, Kansas City, MO 64120, USA",
+    "state": "MiMissouri",
+    "phone": "(816) 256-2663",
+    "website": "http://kansas-city.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+  },
+  {
+    "name": "River City Casino & Hotel",
+    "placeId": "ChIJ50iGVFS22IcRpKhCwZwx7Sg",
+    "address": "777 River City Casino Blvd, St. Louis, MO 63125, USA",
+    "state": "Missouri",
+    "phone": "(314) 388-7777",
+    "website": "http://www.rivercity.com/"
+  },
+  {
+    "name": "Caesars Palace",
+    "placeId": "ChIJleDKRDzEyIAR9z-vovLIyXc",
+    "address": "3570 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(866) 227-5938",
+    "website": "https://www.caesars.com/caesars-palace"
+  },
+  {
+    "name": "Carson City Nugget",
+    "placeId": "ChIJjQBPaKIKmYARfrbjwXIBPKg",
+    "address": "507 N Carson St, Carson City, NV 89701, USA",
+    "state": "Nevada",
+    "phone": "(775) 882-1626",
+    "website": "http://ccnugget.com/"
+  },
+  {
+    "name": "Cactus Petes Resort Casino",
+    "placeId": "ChIJHelpRGmwqYARgLx8CxL2kzU",
+    "address": "1385 US-93, Jackpot, NV 89825, USA",
+    "state": "Nevada",
+    "phone": "(775) 755-2321",
+    "website": "http://ameristar.com/cactus-petes-horseshu"
+  },
+  {
+    "name": "Commercial Casino",
+    "placeId": "ChIJy-NPezEHpoARsBvxVP61XWA",
+    "address": "345 4th St, Elko, NV 89801, USA",
+    "state": "Nevada",
+    "phone": "(775) 738-3181",
+    "website": "http://www.northernstarcasinos.com/historic-commercial-casino/"
+  },
+  {
+    "name": "Carson Valley Inn Casino",
+    "placeId": "ChIJZYzkZ5a9mYARogWzij1FkJY",
+    "address": "1627 U.S. Hwy 395 N, Minden, NV 89423, USA",
+    "state": "Nevada",
+    "phone": "(775) 782-9711",
+    "website": "http://www.carsonvalleyinn.com/"
+  },
+  {
+    "name": "Bonanza Casino",
+    "placeId": "ChIJ96vwRbBHmYARQBziT7xFPS4",
+    "address": "4720 N Virginia St, Reno, NV 89506, USA",
+    "state": "Nevada",
+    "phone": "(775) 323-2724",
+    "website": "http://www.bonanzacasino.com/"
+  },
+  {
+    "name": "Crystal Bay Casino",
+    "placeId": "ChIJY5VYasJ6mYARUEV8U5K2AAA",
+    "address": "14 NV-28, Crystal Bay, NV 89402, USA",
+    "state": "Nevada",
+    "phone": "(775) 833-6333",
+    "website": "http://crystalbaycasino.com/"
+  },
+  {
+    "name": "Eldorado Casino",
+    "placeId": "ChIJQ10dxaTWyIARQqTucQq7rH4",
+    "address": "140 S Water St, Henderson, NV 89015, USA",
+    "state": "Nevada",
+    "phone": "(702) 564-1811",
+    "website": "http://www.eldoradocasino.com/"
+  },
+  {
+    "name": "California Hotel & Casino",
+    "placeId": "ChIJv_WQA6HDyIAR_wdTCqIWDZg",
+    "address": "12 E Ogden Ave, Las Vegas, NV 89101, USA",
+    "state": "Nevada",
+    "phone": "(702) 385-1222",
+    "website": "http://www.thecal.com/"
+  },
+  {
+    "name": "Boulder Station Hotel & Casino",
+    "placeId": "ChIJ3dP4KTDbyIARQ0878gAiDaI",
+    "address": "4111 Boulder Hwy, Las Vegas, NV 89121, USA",
+    "state": "Nevada",
+    "phone": "(702) 432-7777",
+    "website": "https://boulderstation.sclv.com/"
+  },
+  {
+    "name": "El Capitan Lodge & Casino",
+    "placeId": "ChIJVbt5oPdgvYAR4oO3MBZ14rA",
+    "address": "540 F St, Hawthorne, NV 89415, USA",
+    "state": "Nevada",
+    "phone": "(775) 945-3321",
+    "website": "http://www.northernstarcasinos.com/el-capitan-lodge-casino"
+  },
+  {
+    "name": "Club Cal Neva",
+    "placeId": "ChIJk5ehscpAmYARzEnEgofAsKs",
+    "address": "38 E 2nd St, Reno, NV 89501, USA",
+    "state": "Nevada",
+    "phone": "(775) 323-1046",
+    "website": "http://www.clubcalneva.com/"
+  },
+  {
+    "name": "Best Western Plus Casino Royale",
+    "placeId": "ChIJ4-v-KDzEyIARRrpUdLA6agI",
+    "address": "3411 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 737-3500",
+    "website": "http://book.bestwestern.com/bestwestern/US/NV/Las-Vegas-hotels/BEST-WESTERN-PLUS-Casino-Royale/Hotel-Overview.do?iata=00171880&propertyCode=29087&cm_mmc=BL-_-Google-_-GMB-_-29087"
+  },
+  {
+    "name": "The Cosmopolitan of Las Vegas",
+    "placeId": "ChIJT__BBTHEyIARSHye841eD20",
+    "address": "3708 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 698-7000",
+    "website": "http://www.cosmopolitanlasvegas.com/"
+  },
+  {
+    "name": "Isle of Capri Casino Hotel Boonville",
+    "placeId": "ChIJa2MgeL0_w4cRhyMYOoYgm5I",
+    "address": "100 Isle of Capri Blvd, Boonville, MO 65233, USA",
+    "state": "Missouri",
+    "phone": "(660) 616-4752",
+    "website": "http://boonville.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+  },
+  {
+    "name": "Edgewater Hotel",
+    "placeId": "ChIJgz1t4_1CzoARoYTDwx-mIf0",
+    "address": "2020 S Casino Drive, Laughlin, NV 89029, USA",
+    "state": "Nevada",
+    "phone": "(702) 298-2453",
+    "website": "http://www.edgewater-casino.com/"
+  },
+  {
+    "name": "Colorado Belle Hotel And Casino",
+    "placeId": "ChIJHapjJQBDzoAR3sJEFEsLSMw",
+    "address": "2100 S Casino Dr, Laughlin, NV 89029, USA",
+    "state": "Nevada",
+    "phone": "(702) 298-4000",
+    "website": "http://www.coloradobelle.com/"
+  },
+  {
+    "name": "Barley's Casino & Brewing Co",
+    "placeId": "ChIJWff7PBLQyIARa34nGm0alRc",
+    "address": "4500 E Sunset Rd, Henderson, NV 89014, USA",
+    "state": "Nevada",
+    "phone": "(702) 458-2739",
+    "website": "http://www.wildfiregaming.com/barleys/"
+  },
+  {
+    "name": "Isle Casino Cape Girardeau",
+    "placeId": "ChIJhTZn15uHd4gRpG3RGJFeaAE",
+    "address": "777 Main St, Cape Girardeau, MO 63701, USA",
+    "state": "Missouri",
+    "phone": "(573) 290-3017",
+    "website": "http://cape-girardeau.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+  },
+  {
+    "name": "Bellagio Hotel and Casino",
+    "placeId": "ChIJvUdRyzDEyIARhA3R2cXH8oI",
+    "address": "3600 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(888) 987-6667",
+    "website": "http://www.bellagio.com/"
+  },
+  {
+    "name": "Circus Circus Reno Hotel & Casino",
+    "placeId": "ChIJ8ZZtmjZHmYARPmy0CY53NYo",
+    "address": "500 N Sierra St, Reno, NV 89503, USA",
+    "state": "Nevada",
+    "phone": "(775) 329-0711",
+    "website": "http://www.circusreno.com/"
+  },
+  {
+    "name": "Ameristar Casino Resort Spa St. Charles",
+    "placeId": "ChIJP84-Q1cu34cRRoCJN1XQgOM",
+    "address": "1 Ameristar Blvd, St Charles, MO 63301, USA",
+    "state": "Missouri",
+    "phone": "(636) 949-7777",
+    "website": "http://www.ameristar.com/st-charles/"
+  },
+  {
+    "name": "Casino Fandango",
+    "placeId": "ChIJV4qmAjqgmYARj1YqSkQDVe0",
+    "address": "3800 S Carson St, Carson City, NV 89701, USA",
+    "state": "Nevada",
+    "phone": "(775) 885-7000",
+    "website": "http://www.casinofandango.com/"
+  },
+  {
+    "name": "Casablanca Resort, Casino, Golf and Spa",
+    "placeId": "ChIJ1QiF794qyoARlahhPTPv-lw",
+    "address": "950 W Mesquite Blvd, Mesquite, NV 89027, USA",
+    "state": "Nevada",
+    "phone": "(877) 438-2929",
+    "website": "http://www.casablancaresort.com/"
+  },
+  {
+    "name": "Fiesta Henderson Hotel & Casino",
+    "placeId": "ChIJrwYDNU_RyIARwRU8V-XBbjs",
+    "address": "777 W Lake Mead Pkwy, Henderson, NV 89015, USA",
+    "state": "Nevada",
+    "phone": "(702) 558-7000",
+    "website": "https://fiestahenderson.sclv.com/"
+  },
+  {
+    "name": "Ellis Island Casino & Brewery",
+    "placeId": "ChIJw7ayOUjEyIARDpKewawk8hU",
+    "address": "4178 Koval Ln, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 733-8901",
+    "website": "http://www.ellisislandcasino.com/"
+  },
+  {
+    "name": "Eldorado Resort Casino",
+    "placeId": "ChIJ080StzVHmYARD-YbD1sKARw",
+    "address": "345 N Virginia St, Reno, NV 89501, USA",
+    "state": "Nevada",
+    "phone": "(775) 786-5700",
+    "website": "http://www.eldoradoreno.com/?utm_source=googleplus&utm_medium=referral&utm_campaign=socialmedia"
+  },
+  {
+    "name": "Eastside Cannery Casino Hotel",
+    "placeId": "ChIJGToTtvLayIARIj6j-kHNjnQ",
+    "address": "5255 Boulder Hwy, Las Vegas, NV 89122, USA",
+    "state": "Nevada",
+    "phone": "(702) 856-5300",
+    "website": "http://www.eastsidecannery.com/"
+  },
+  {
+    "name": "El Cortez Hotel & Casino",
+    "placeId": "ChIJc2nKAXXDyIARs-mmzOLrTCo",
+    "address": "600 Fremont St, Las Vegas, NV 89101, USA",
+    "state": "Nevada",
+    "phone": "(702) 385-5200",
+    "website": "http://www.elcortezhotelcasino.com/"
+  },
+  {
+    "name": "Downtown Grand Hotel & Casino, An Ascend Hotel Collection Member",
+    "placeId": "ChIJI9tTB6DDyIARBYf7r_X-rdE",
+    "address": "206 N 3rd St, Las Vegas, NV 89101, USA",
+    "state": "Nevada",
+    "phone": "(702) 953-4343",
+    "website": "http://www.downtowngrand.com/?source=gyxt"
+  },
+  {
+    "name": "Cannery Casino & Hotel",
+    "placeId": "ChIJxYriRSDoyIARQUoiMxvfoDw",
+    "address": "2121 E Craig Rd, North Las Vegas, NV 89030, USA",
+    "state": "Nevada",
+    "phone": "(702) 507-5700",
+    "website": "http://www.cannerycasino.com/"
+  },
+  {
+    "name": "Circus Circus",
+    "placeId": "ChIJmSto3AzEyIAR9CR5eHxI4BM",
+    "address": "2880 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 734-0410",
+    "website": "http://circuscircus.com/"
+  },
+  {
+    "name": "The Delta Saloon",
+    "placeId": "ChIJmdNoSasPmYAR5nCHqUtkvIA",
+    "address": "18 S C St, Virginia City, NV 89440, USA",
+    "state": "Nevada",
+    "phone": "(775) 847-0789",
+    "website": "http://sawdustcatering.com/"
+  },
+  {
+    "name": "Bally's Las Vegas Hotel & Casino",
+    "placeId": "ChIJJ9M69znEyIAR4JClP57b-W0",
+    "address": "3645 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 967-4111",
+    "website": "https://www.caesars.com/ballys-las-vegas?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Ballys%20Las%20Vegas%20Hotel%20and%20Casino&utm_content=hotel"
+  },
+  {
+    "name": "ARIA Resort & Casino Las Vegas",
+    "placeId": "ChIJhWQVHS7EyIARbwWzRC-I8y4",
+    "address": "3730 S Las Vegas Blvd, Las Vegas, NV 89158, USA",
+    "state": "Nevada",
+    "phone": "(866) 359-7111",
+    "website": "http://www.aria.com/"
+  },
+  {
+    "name": "Bodines Casino",
+    "placeId": "ChIJIXr8JcyhmYARq_prG0TiENw",
+    "address": "5650 S Carson St, Carson City, NV 89701, USA",
+    "state": "Nevada",
+    "phone": "(775) 885-7777"
+  },
+  {
+    "name": "Atlantis Casino Resort Spa",
+    "placeId": "ChIJ3Sp9O3lAmYARH3M4AoqFxvo",
+    "address": "3800 S Virginia St, Reno, NV 89502, USA",
+    "state": "Nevada",
+    "phone": "(775) 825-4700",
+    "website": "http://www.atlantiscasino.com/"
+  },
+  {
+    "name": "Barton's Club 93",
+    "placeId": "ChIJDzOsX6DHqYARrIAcK5bp8zI",
+    "address": "1002 US-93, Jackpot, NV 89825, USA",
+    "state": "Nevada",
+    "phone": "(775) 755-2341",
+    "website": "http://www.bartonsclub93.com/"
+  },
+  {
+    "name": "Aliante Casino + Hotel + Spa",
+    "placeId": "ChIJN-nO81rpyIARHjXlXCKPuIk",
+    "address": "7300 N Aliante Pkwy, North Las Vegas, NV 89084, USA",
+    "state": "Nevada",
+    "phone": "(702) 692-7777",
+    "website": "http://www.aliantegaming.com/"
+  },
+  {
+    "name": "Dini's Lucky Club Casino",
+    "placeId": "ChIJ3fSVtuA4mIARRsynlQ3PoyI",
+    "address": "45 N Main St, Yerington, NV 89447, USA",
+    "state": "Nevada",
+    "phone": "(775) 463-2868",
+    "website": "http://www.dinisluckyclub.com/"
+  },
+  {
+    "name": "Churchill Station Spring",
+    "placeId": "ChIJuaQnSvxWmIAROxTQ5GlCq64",
+    "address": "Churchill Station Spring, NV, USA",
+    "state": "Nevada"
+  },
+  {
+    "name": "Casino Royale",
+    "placeId": "ChIJaava57ZQkIAR-tP2VQCCeLE",
+    "address": "5801 McHenry Ave, Modesto, CA 95356, USA",
+    "state": "California",
+    "phone": "(209) 522-7570"
+  },
+  {
+    "name": "Casino Royale West",
+    "placeId": "ChIJmyLcu45W2YARze4Al_4wdOg",
+    "address": "5224 Tipton St, San Diego, CA 92115, USA",
+    "state": "California",
+    "phone": "(415) 238-8504"
+  },
+  {
+    "name": "The Depot Casino",
+    "placeId": "ChIJWVQ5eTKiiYcRjVmojx1hHAo",
+    "address": "921, 20th St S, Brookings, SD 57006, USA",
+    "state": "South Dakota",
+    "phone": "(605) 692-4665"
+  },
+  {
+    "name": "Casino Montelago",
+    "placeId": "ChIJLzuL-ZPXyIARPhK6qXaxYFg",
+    "address": "8 Strada Di Villaggio, Henderson, NV 89011, USA",
+    "state": "Nevada",
+    "phone": "(702) 898-7777",
+    "website": "http://www.montelagovillage.com/"
+  },
+  {
+    "name": "Cactus Jack's Senator Club",
+    "placeId": "ChIJDxfnP6IKmYARKepLT7gy5j0",
+    "address": "420 N Carson St, Carson City, NV 89701, USA",
+    "state": "Nevada",
+    "phone": "(775) 882-8770"
+  },
+  {
+    "name": "Cal Neva Casino",
+    "placeId": "ChIJ0w46t-l6mYAR15jrsncVtDo",
+    "address": "2 Stateline Rd, Crystal Bay, NV 89402, USA",
+    "state": "Nevada",
+    "phone": "(775) 832-4000"
+  },
+  {
+    "name": "Bonanza Casino",
+    "placeId": "ChIJTf3Bsd2GmIARUYJOwALdELg",
+    "address": "855 W Williams Ave, Fallon, NV 89406, USA",
+    "state": "Nevada",
+    "phone": "(775) 423-6031"
+  },
+  {
+    "name": "Casino Royale",
+    "placeId": "ChIJmZorE5TZmoARU4-XLLugg4Q",
+    "address": "500 Leisure Ln, Sacramento, CA 95815, USA",
+    "state": "California",
+    "phone": "(916) 929-7529"
+  },
+  {
+    "name": "Casino West",
+    "placeId": "ChIJy8FzkeA4mIARElchvoyjjWo",
+    "address": "11 N Main St, Yerington, NV 89447, USA",
+    "state": "Nevada",
+    "phone": "(775) 463-2481"
+  },
+  {
+    "name": "Bourbon Square Casino",
+    "placeId": "ChIJw6d_TjA_mYARf6lnVUsU3Ms",
+    "address": "1040 Victorian Ave, Sparks, NV 89431, USA",
+    "state": "Nevada",
+    "phone": "(775) 997-7177",
+    "website": "http://www.northernstarcasinos.com/bourbon-square-casino"
+  },
+  {
+    "name": "Boomtown Reno",
+    "placeId": "ChIJI2uhUzNbmYARerDtmrKj-q0",
+    "address": "2100 Garson Rd, Verdi, NV 89439, USA",
+    "state": "Nevada",
+    "phone": "(775) 345-6000",
+    "website": "http://www.boomtownreno.com/"
+  },
+  {
+    "name": "Klondike Hotel & Casino",
+    "placeId": "ChIJpeG5A8LFyIARGMfZ4YyFn90",
+    "address": "5191 S Las Vegas Blvd, Las Vegas, NV 89119, USA",
+    "state": "Nevada"
+  },
+  {
+    "name": "Key Largo Restaurant",
+    "placeId": "ChIJoxOc-TrEyIARdqVkZ98SRE8",
+    "address": "377 E Flamingo Rd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 369-6911",
+    "website": "http://www.qualityinn.com/"
+  },
+  {
+    "name": "Max Casino & Sports Bar",
+    "placeId": "ChIJu_XZ0DxIQlMR9rQBCev5C9E",
+    "address": "1700 Fox Farm Rd, Great Falls, MT 59404, USA",
+    "state": "Montana",
+    "phone": "(406) 761-1900"
+  },
+  {
+    "name": "The Opera House Casino",
+    "placeId": "ChIJ87YpjdzCyIARxCg1f7kDBJA",
+    "address": "2542 N Las Vegas Blvd, North Las Vegas, NV 89030, USA",
+    "state": "Nevada",
+    "phone": "(702) 649-8801"
+  },
+  {
+    "name": "Mountain View Casino",
+    "placeId": "ChIJF7qxbdM5xoARmFAqv-jLN30",
+    "address": "1750 Pahrump Valley Blvd, Pahrump, NV 89048, USA",
+    "state": "Nevada",
+    "phone": "(714) 345-0413"
+  },
+  {
+    "name": "Nevada Palace Hotel & Casino",
+    "placeId": "ChIJGToTtvLayIARmtp4OdQzqYE",
+    "address": "5255 Boulder Hwy, Las Vegas, NV 89122, USA",
+    "state": "Nevada",
+    "phone": "(702) 458-3361"
+  },
+  {
+    "name": "Mint Casino",
+    "placeId": "ChIJTdYA9Wi0jocRU1AWurpYKqo",
+    "address": "3601 E 10th St, Sioux Falls, SD 57103, USA",
+    "state": "South Dakota",
+    "phone": "(605) 334-4005"
+  },
+  {
+    "name": "Gold Country Inn & Casino",
+    "placeId": "ChIJNfEuFygBpoARrcYiyFksaWM",
+    "address": "2050 Idaho St, Elko, NV 89801, USA",
+    "state": "Nevada",
+    "phone": "(775) 738-8421",
+    "website": "http://www.americasbestvalueinn.com/bestv.cfm?idp=1720&rcode=sim2014"
+  },
+  {
+    "name": "Four Queens Hotel and Casino",
+    "placeId": "ChIJ11yZSXTDyIARlxlY5q_c6JQ",
+    "address": "202 Fremont St, Las Vegas, NV 89101, USA",
+    "state": "Nevada",
+    "phone": "(702) 385-4011",
+    "website": "http://www.fourqueens.com/"
+  },
+  {
+    "name": "Gold Strike Hotel & Gambling",
+    "placeId": "ChIJ0Tqqg4FJz4AR3qzvL6qy8O8",
+    "address": "1 Main St, Jean, NV 89019, USA",
+    "state": "Nevada",
+    "phone": "(702) 477-5000",
+    "website": "http://www.goldstrikejean.com/"
+  },
+  {
+    "name": "Four Jacks Hotel and Casino",
+    "placeId": "ChIJxQGUycivqYARxUxD0-4j7mY",
+    "address": "1702 U.S. 93, Jackpot, NV 89825, USA",
+    "state": "Nevada",
+    "phone": "(775) 755-2491",
+    "website": "http://fourjackshotel.com/"
+  },
+  {
+    "name": "Encore",
+    "placeId": "ChIJS0B4ZMzCyIARxg2SVf4dIZk",
+    "address": "3131 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 770-7171",
+    "website": "http://www.wynnlasvegas.com/RoomsSuites/EncoreResort"
+  },
+  {
+    "name": "Gold Rush Casino",
+    "placeId": "ChIJs1w9Q_DQyIAR6ZPW0gzrVcM",
+    "address": "1195 W Sunset Rd, Henderson, NV 89014, USA",
+    "state": "Nevada",
+    "phone": "(702) 454-0544"
+  },
+  {
+    "name": "Excalibur Hotel & Casino",
+    "placeId": "ChIJzZtJhM3FyIAR6eHpF4xTR68",
+    "address": "3850 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 597-7777",
+    "website": "http://www.excalibur.com/"
+  },
+  {
+    "name": "M Resort Spa Casino",
+    "placeId": "ChIJ5_f_SRTMyIARY8g0l5VzTMA",
+    "address": "12300 S Las Vegas Blvd, Henderson, NV 89044, USA",
+    "state": "Nevada",
+    "phone": "(702) 797-1000",
+    "website": "http://www.themresort.com/"
+  },
+  {
+    "name": "Moulin Rouge Denkmal",
+    "placeId": "ChIJ2y_yN6XDyIAR_rmFeZircHE",
+    "address": "900 W Bonanza Rd, Las Vegas, NV 89106, USA",
+    "state": "Nevada"
+  },
+  {
+    "name": "Gold Dust West Casino",
+    "placeId": "ChIJwwCgEi5HmYAR0lLeXAha-rY",
+    "address": "444 Vine St, Reno, NV 89503, USA",
+    "state": "Nevada",
+    "phone": "(775) 323-2211",
+    "website": "http://www.gdwcasino.com/"
+  },
+  {
+    "name": "Mermaid's Casino",
+    "placeId": "ChIJE-O4uaHDyIARC990DmzzPu4",
+    "address": "32 Fremont St, Las Vegas, NV 89101, USA",
+    "state": "Nevada",
+    "phone": "(702) 382-5777",
+    "website": "http://mermaidscasino.tumblr.com/"
+  },
+  {
+    "name": "Oasis at Gold Spike",
+    "placeId": "ChIJm0UnxgrDyIARa5_E8I-gQms",
+    "address": "217 N Las Vegas Blvd, Las Vegas, NV 89101",
+    "state": "Nevada",
+    "phone": "(702) 768-9823",
+    "website": "http://oasisatgoldspike.com/"
+  },
+  {
+    "name": "Gold Dust West-Carson City",
+    "placeId": "ChIJqxKN930KmYARYL8T-Yg7-OA",
+    "address": "2171 E William St, Carson City, NV 89701, USA",
+    "state": "Nevada",
+    "phone": "(775) 885-9000",
+    "website": "http://www.gdwcasino.com/"
+  },
+  {
+    "name": "Oasis Casino",
+    "placeId": "ChIJHc9juXoIW1MRHD5j2ZnYZUA",
+    "address": "2320 Amherst Ave, Butte, MT 59701, USA",
+    "state": "Montana",
+    "phone": "(406) 494-1272",
+    "website": "http://www.oasiscasinomt.com/"
+  },
+  {
+    "name": "Gold Spike",
+    "placeId": "ChIJhYJ3NXXDyIARo_SCc3vMKjw",
+    "address": "217 N Las Vegas Blvd, Las Vegas, NV 89101, USA",
+    "state": "Nevada",
+    "phone": "(702) 476-1082",
+    "website": "http://www.goldspike.com/"
+  },
+  {
+    "name": "Montbleu Resort, Casino and Spa",
+    "placeId": "ChIJXWr3w4KamYARZP7TljsumIE",
+    "address": "55 US-50, Lake Tahoe, NV 89449, USA",
+    "state": "Nevada",
+    "phone": "(775) 588-3515",
+    "website": "http://www.montbleuresort.com/"
+  },
+  {
+    "name": "Monte Carlo Resort & Casino",
+    "placeId": "ChIJCSs1ZDLEyIARiNF4wrbBbvI",
+    "address": "3770 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 730-7777",
+    "website": "http://www.montecarlo.com/"
+  },
+  {
+    "name": "Flamingo Las Vegas",
+    "placeId": "ChIJVdePyjvEyIARderixECdW2Q",
+    "address": "3555 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 733-3111",
+    "website": "https://www.caesars.com/flamingo-las-vegas"
+  },
+  {
+    "name": "Owl Club Bar and Steakhouse",
+    "placeId": "ChIJuVyRtZe0uoARuVdYZUsVod8",
+    "address": "61 N Main St, Eureka, NV 89316, USA",
+    "state": "Nevada"
+  },
+  {
+    "name": "Gold Coast Hotel and Casino Las Vegas",
+    "placeId": "ChIJ73KY5J7GyIARMWEsH702oW0",
+    "address": "4000 W Flamingo Rd, Las Vegas, NV 89103, USA",
+    "state": "Nevada",
+    "phone": "(702) 367-7111",
+    "website": "http://www.goldcoastcasino.com/"
+  },
+  {
+    "name": "Fiesta Rancho Hotel & Casino",
+    "placeId": "ChIJP9Noe_PByIARyv_dFb9V5zA",
+    "address": "2400 N Rancho Dr, Las Vegas, NV 89130, USA",
+    "state": "Nevada",
+    "phone": "(702) 631-7000",
+    "website": "https://fiestarancho.sclv.com/"
+  },
+  {
+    "name": "Paris Las Vegas",
+    "placeId": "ChIJAQAAAGzDyIARAVwe_ga0REU",
+    "address": "3655 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 946-7000",
+    "website": "https://www.caesars.com/paris-las-vegas"
+  },
+  {
+    "name": "Mandalay Bay",
+    "placeId": "ChIJYUKC-8_FyIAR7920xSWK9pc",
+    "address": "3950 S Las Vegas Blvd, Las Vegas, NV 89119, USA",
+    "state": "Nevada",
+    "phone": "(702) 632-7777",
+    "website": "http://www.mandalaybay.com/"
+  },
+  {
+    "name": "MGM Grand",
+    "placeId": "ChIJJQ6Ck8zFyIARfxB2vQVF2Z0",
+    "address": "3799 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 891-1111",
+    "website": "http://www.mgmgrand.com/"
+  },
+  {
+    "name": "New York-New York Hotel & Casino",
+    "placeId": "ChIJZ4lcwszFyIAR7nw_Ba2KrO0",
+    "address": "3790 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 740-6969",
+    "website": "http://www.nynyhotelcasino.com/"
+  },
+  {
+    "name": "Montego Bay Resort",
+    "placeId": "ChIJC570cFIvrIARCFpBXKUk7OA",
+    "address": "680 Wendover Blvd, West Wendover, NV 89883, USA",
+    "state": "Nevada",
+    "phone": "(775) 664-4800",
+    "website": "http://www.wendoverfun.com/"
+  },
+  {
+    "name": "Wyndham Garden Carson City Max Casino",
+    "placeId": "ChIJ8yod5wqgmYARu_rqcbxkqrE",
+    "address": "900 S Carson St, Carson City, NV 89701, USA",
+    "state": "Nevada",
+    "phone": "(775) 883-0900",
+    "website": "http://www.wyndham.com/hotels/nevada/carson-city/wyndham-garden-carson-city/hotel-overview?WID=LC:WY:20150901:Rio:Local"
+  },
+  {
+    "name": "GOLD RANCH CASINO & RV RESORT",
+    "placeId": "ChIJG2_a3BlbmYARAEhYpaDJ-tQ",
+    "address": "350 Gold Ranch Road, Verdi, NV 89439, USA",
+    "state": "Nevada",
+    "phone": "(775) 345-6789",
+    "website": "http://www.goldranchrvcasino.com/"
+  },
+  {
+    "name": "Gold Dust West Elko",
+    "placeId": "ChIJrRng_BgHpoARfhKinRP97V0",
+    "address": "1660 Mountain City Hwy, Elko, NV 89801, USA",
+    "state": "Nevada",
+    "phone": "(775) 777-7500",
+    "website": "http://www.gdwcasino.com/elko/index.php"
+  },
+  {
+    "name": "Hard Rock Hotel",
+    "placeId": "ChIJ_SFE1PyPmYARqCOqvmsDlMQ",
+    "address": "South Lake Tahoe, CA 96150, USA",
+    "state": "California"
+  },
+  {
+    "name": "Fremont Hotel & Casino",
+    "placeId": "ChIJFTJhO6DDyIARYs7dJsDxK2Y",
+    "address": "200 Fremont St, Las Vegas, NV 89101, USA",
+    "state": "Nevada",
+    "phone": "(702) 385-3232",
+    "website": "http://www.fremontcasino.com/"
+  },
+  {
+    "name": "GOLDEN PHOENIX HOTEL Hotel",
+    "placeId": "ChIJGfoPHjVHmYAREVM1s1q2hU4",
+    "address": "255 N Sierra St, Reno, NV 89501, USA",
+    "state": "Nevada",
+    "phone": "(775) 329-2800"
+  },
+  {
+    "name": "Ramada",
+    "placeId": "ChIJBwWn3k7EyIARXI8BgVMbKg8",
+    "address": "325 E Flamingo Rd, Las Vegas, NV 89169, USA",
+    "state": "Nevada",
+    "phone": "(702) 732-9100",
+    "website": "http://www.ramada.com/"
+  },
+  {
+    "name": "Jim Kelley's Tahoe Nugget",
+    "placeId": "ChIJTVGKO8J6mYARN_dWwWgtv_Y",
+    "address": "20 NV-28, Crystal Bay, NV 89402, USA",
+    "state": "Nevada",
+    "phone": "(775) 831-0455"
+  },
+  {
+    "name": "Lakeside Inn & Casino",
+    "placeId": "ChIJ2w30ooWamYARs_oSKAw7pps",
+    "address": "United States",
+    "state": "Nevada"
+  },
+  {
+    "name": "Indian Springs Casino",
+    "placeId": "ChIJ81hAnuDXx4AR2kGH08Sj-qU",
+    "address": "372 Veterans Memorial Hwy, Indian Springs, NV 89018, USA",
+    "state": "Nevada",
+    "phone": "(702) 879-3456"
+  },
+  {
+    "name": "Ormsby House",
+    "placeId": "ChIJR0E2dKAKmYAR3KGG20A2Wyk",
+    "address": "600 S Carson St, Carson City, NV 89701, USA",
+    "state": "Nevada",
+    "phone": "(775) 882-1890"
+  },
+  {
+    "name": "Gold Ranch Casino",
+    "placeId": "ChIJiWmm0c0HmYARlsvbDMBnHqk",
+    "address": "755 Old US Hwy 50, Dayton, NV 89403, USA",
+    "state": "Nevada",
+    "phone": "(775) 246-9696",
+    "website": "http://www.goldranchdayton.com/"
+  },
+  {
+    "name": "Las Vegas Club Hotel & Casino",
+    "placeId": "ChIJP_YNmqHDyIARk0KVcqa-mkU",
+    "address": "18 Fremont Street Experience, Las Vegas, NV 89101, USA",
+    "state": "Nevada",
+    "phone": "(888) 912-0075",
+    "website": "http://www.vegasclubcasino.net/"
+  },
+  {
+    "name": "Rail City Casino",
+    "placeId": "ChIJNefIcEw_mYARCJh2qaHcAcY",
+    "address": "2121 Victorian Ave, Sparks, NV 89431, USA",
+    "state": "Nevada",
+    "phone": "(775) 359-9440",
+    "website": "http://www.railcity.com/"
+  },
+  {
+    "name": "Rainbow Club & Casino",
+    "placeId": "ChIJU9VPLbvWyIARjB-eDJzabys",
+    "address": "122 S Water St, Henderson, NV 89015, USA",
+    "state": "Nevada",
+    "phone": "(702) 565-9777",
+    "website": "http://www.rainbowclubandcasino.com/"
+  },
+  {
+    "name": "REGENCY CASINO",
+    "placeId": "ChIJMfU7pKxDzoARvqKP6ShfUJU",
+    "address": "1950 S Casino Dr, Laughlin, NV 89029, USA",
+    "state": "Nevada",
+    "phone": "(702) 299-1220",
+    "website": "http://www.regencylaughlin.com/"
+  },
+  {
+    "name": "Horseshu Hotel & Casino",
+    "placeId": "ChIJHelpRGmwqYARZp2b9IW_wbA",
+    "address": "1220 US-93, Jackpot, NV 89825, USA",
+    "state": "Nevada",
+    "phone": "(866) 667-3386",
+    "website": "http://www.ameristar.com/Locations_and_Facts.aspx"
+  },
+  {
+    "name": "Poker Palace Casino",
+    "placeId": "ChIJ_d1KW8XCyIARm-IV6gpPC8s",
+    "address": "2757 N Las Vegas Blvd, North Las Vegas, NV 89030, USA",
+    "state": "Nevada",
+    "phone": "(702) 649-3799",
+    "website": "http://www.pokerpalace.net/"
+  },
+  {
+    "name": "Pioneer Hotel & Gambling Hall",
+    "placeId": "ChIJu4S-6bJDzoAR64sdyCERl_M",
+    "address": "2200 S Casino Dr, Laughlin, NV 89029, USA",
+    "state": "Nevada",
+    "phone": "(702) 298-2442",
+    "website": "http://www.pioneerlaughlin.com/"
+  },
+  {
+    "name": "Peppermill Wendover Hitel Casini",
+    "placeId": "ChIJSf2SFKkorIARLCEu1gqfg4U",
+    "address": "680 Wendover Blvd, West Wendover, NV 89835, USA",
+    "state": "Nevada"
+  },
+  {
+    "name": "Nugget Casino Resort",
+    "placeId": "ChIJxQpVnjo_mYARW9gkVzXSKgY",
+    "address": "1100 Nugget Ave, Sparks, NV 89431, USA",
+    "state": "Nevada",
+    "phone": "(775) 356-3300",
+    "website": "http://www.nuggetcasinoresort.com/"
+  },
+  {
+    "name": "Labayou Casino",
+    "placeId": "ChIJF__xv6HDyIARkXLzY9Z-tqg",
+    "address": "15 Fremont St, Las Vegas, NV 89101, USA",
+    "state": "Nevada",
+    "phone": "(702) 385-7474"
+  },
+  {
+    "name": "Pioneer Saloon",
+    "placeId": "ChIJa2eKHi9Nz4ARwMWEWM0ARgo",
+    "address": "310 NV-161, Goodsprings, NV 89019, USA",
+    "state": "Nevada",
+    "phone": "(702) 874-9362",
+    "website": "http://www.pioneersaloon.info"
+  },
+  {
+    "name": "Peppermill Resort Spa Casino",
+    "placeId": "ChIJ07LkRY9AmYARbPPabWOgb1I",
+    "address": "2707 S Virginia St, Reno, NV 89502, USA",
+    "state": "Nevada",
+    "phone": "(775) 826-2121",
+    "website": "http://www.peppermillreno.com/"
+  },
+  {
+    "name": "Palace Station Hotel & Casino",
+    "placeId": "ChIJi-l8wPfDyIARwVNphCouqZs",
+    "address": "2411 W Sahara Ave, Las Vegas, NV 89102, USA",
+    "state": "Nevada",
+    "phone": "(702) 367-2411",
+    "website": "https://palacestation.sclv.com/"
+  },
+  {
+    "name": "Pahrump Nugget Hotel and Casino",
+    "placeId": "ChIJV5vH8Ho3xoARFHiPe9MtlFw",
+    "address": "681 NV-160, Pahrump, NV 89048, USA",
+    "state": "Nevada",
+    "phone": "(775) 751-6500",
+    "website": "http://pahrumpnugget.com/"
+  },
+  {
+    "name": "Red Lion Hotel & Casino",
+    "placeId": "ChIJtUT8XCgBpoARA9IyuTEHO5A",
+    "address": "2065 Idaho St, Elko, NV 89801, USA",
+    "state": "Nevada",
+    "phone": "(775) 738-2111",
+    "website": "http://www.redlionhotelelko.com/"
+  },
+  {
+    "name": "O'Sheas Casino",
+    "placeId": "ChIJ_ydaeznEyIARY4yDHi273-w",
+    "address": "3535 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(800) 634-6441",
+    "website": "https://www.caesars.com/linq/things-to-do/o-sheas#.VWcZQK04Z4s"
+  },
+  {
+    "name": "Prospector Hotel and Gambling Hall",
+    "placeId": "ChIJF42NwqKssYARJ5o7aTHEqkA",
+    "address": "1501 Aultman St, Ely, NV 89301, USA",
+    "state": "Nevada",
+    "phone": "(800) 750-0557",
+    "website": "http://www.prospectorhotel.us/"
+  },
+  {
+    "name": "Rainbow Hotel & Casino",
+    "placeId": "ChIJebRWFKkorIARkM38tQWBapw",
+    "address": "1045 Wendover Blvd, West Wendover, NV 89883, USA",
+    "state": "Nevada",
+    "phone": "(800) 217-0049",
+    "website": "http://www.wendoverfun.com/"
+  },
+  {
+    "name": "Planet Hollywood Resort & Casino",
+    "placeId": "ChIJqzfRYTbEyIARnAVadHZlVHw",
+    "address": "3667 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(866) 919-7472",
+    "website": "https://www.caesars.com/planet-hollywood?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Planet%20Hollywood%20Resort%20and%20Casino&utm_content=hotel"
+  },
+  {
+    "name": "Golden Nugget Hotel & Casino",
+    "placeId": "ChIJM5pPyaHDyIARi2GWubblECA",
+    "address": "129 Fremont Street Experience, Las Vegas, NV 89101, USA",
+    "state": "Nevada",
+    "phone": "(702) 385-7111",
+    "website": "http://www.goldennugget.com/lasvegas/"
+  },
+  {
+    "name": "Jokers Wild Casino",
+    "placeId": "ChIJUaXo_tLWyIARAv0vwUrvdSQ",
+    "address": "920 N Boulder Hwy, Henderson, NV 89011, USA",
+    "state": "Nevada",
+    "phone": "(702) 564-8100",
+    "website": "http://www.jokerswildcasino.com/"
+  },
+  {
+    "name": "Klondike Sunset Casino",
+    "placeId": "ChIJs-lvDNvQyIARaaVtkhkA0Io",
+    "address": "444 W Sunset Rd, Henderson, NV 89011, USA",
+    "state": "Nevada",
+    "phone": "(702) 826-3866",
+    "website": "http://www.klondikesunset.com/"
+  },
+  {
+    "name": "Luxor Hotel & Casino",
+    "placeId": "ChIJR7RcPs7FyIAROAHQry50Wgs",
+    "address": "3900 S Las Vegas Blvd, Las Vegas, NV 89119, USA",
+    "state": "Nevada",
+    "phone": "(702) 262-4000",
+    "website": "http://www.luxor.com"
+  },
+  {
+    "name": "Jail House Motel & Casino",
+    "placeId": "ChIJhRmp4q-ssYAR8X4R-aX1m38",
+    "address": "211 5th St, Ely, NV 89301, USA",
+    "state": "Nevada",
+    "phone": "(775) 289-3033",
+    "website": "http://www.jailhousecasino.com/"
+  },
+  {
+    "name": "Harrah's Laughlin Casino & Hotel",
+    "placeId": "ChIJsdIov8lDzoARwhKfdqzdsrE",
+    "address": "2900 S Casino Dr, Laughlin, NV 89029, USA",
+    "state": "Nevada",
+    "phone": "(702) 298-4600",
+    "website": "https://www.caesars.com/harrahs-laughlin?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Laughlin%20Casino%20and%20Hotel&utm_content=hotel"
+  },
+  {
+    "name": "Main Street Station Casino, Brewery and Hotel",
+    "placeId": "ChIJi30u1KbDyIARNE76kZcu75w",
+    "address": "200 N Main St, Las Vegas, NV 89101, USA",
+    "state": "Nevada",
+    "phone": "(800) 713-8933",
+    "website": "http://www.mainstreetcasino.com/"
+  },
+  {
+    "name": "Hotel Nevada & Gambling Hall",
+    "placeId": "ChIJFT-m86-ssYAR3kEPGyXa-Fo",
+    "address": "501 Aultman St, Ely, NV 89301, USA",
+    "state": "Nevada",
+    "phone": "(775) 289-6665",
+    "website": "http://www.hotelnevada.com/"
+  },
+  {
+    "name": "Hoover Dam Lodge",
+    "placeId": "ChIJz-mTWessyYARa_90_REypAk",
+    "address": "18000 US-93, Boulder City, NV 89005, USA",
+    "state": "Nevada",
+    "phone": "(702) 293-5000",
+    "website": "http://www.hooverdamlodge.com/"
+  },
+  {
+    "name": "Westgate Las Vegas Resort & Casino",
+    "placeId": "ChIJ38KlUGXEyIARkT07Nn0apvI",
+    "address": "3000 Paradise Rd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(888) 796-3564",
+    "website": "https://www.westgateresorts.com/hotels/nevada/las-vegas/westgate-las-vegas-resort-casino"
+  },
+  {
+    "name": "Hooters Casino Hotel",
+    "placeId": "ChIJpeFHN8rFyIAROSGCAIYxpLA",
+    "address": "115 E Tropicana Ave, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 739-9000",
+    "website": "http://www.hooterscasinohotel.com/"
+  },
+  {
+    "name": "Golden Nugget Hotel & Casino",
+    "placeId": "ChIJNQhqgLJDzoARDyXqhK0p204",
+    "address": "2300 S Casino Dr, Laughlin, NV 89029, USA",
+    "state": "Nevada",
+    "phone": "(702) 298-7111",
+    "website": "http://www.goldennugget.com/laughlin/"
+  },
+  {
+    "name": "Grand Sierra Resort and Casino",
+    "placeId": "ChIJG7qnuls_mYARweP739kMgh8",
+    "address": "2500 E 2nd St, Reno, NV 89595, USA",
+    "state": "Nevada",
+    "phone": "(775) 789-2000",
+    "website": "http://www.grandsierraresort.com/"
+  },
+  {
+    "name": "Longstreet Inn • Casino • RV Park - Death Valley",
+    "placeId": "ChIJQyxr-fkHx4ARxrYhaOZg4Mo",
+    "address": "4400 NV-373, Amargosa Valley, NV 89020, USA",
+    "state": "Nevada",
+    "phone": "(775) 372-1777",
+    "website": "http://www.longstreetcasino.com/"
+  },
+  {
+    "name": "Harrah's Lake Tahoe",
+    "placeId": "ChIJae3o-neQmYARWQ4WjA9fWcY",
+    "address": "15 U.S. 50, Stateline, NV 89449, USA",
+    "state": "Nevada",
+    "phone": "(775) 588-6611",
+    "website": "http://www.caesars.com/harrahs-tahoe?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Lake%20Tahoe&utm_content=hotel"
+  },
+  {
+    "name": "Harrah's Reno Hotel & Casino",
+    "placeId": "ChIJw3NtXjVHmYARDMrE3lr5Pb4",
+    "address": "219 N Center St, Reno, NV 89501, USA",
+    "state": "Nevada",
+    "phone": "(775) 786-3232",
+    "website": "https://www.caesars.com/harrahs-reno?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Reno%20Hotel%20and%20Casino&utm_content=hotel"
+  },
+  {
+    "name": "Harrah's Las Vegas Hotel & Casino",
+    "placeId": "ChIJWxuQMDzEyIARsw492ihhHOE",
+    "address": "3475 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 369-5000",
+    "website": "https://www.caesars.com/harrahs-las-vegas?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Las%20Vegas%20Hotel%20and%20Casino&utm_content=hotel"
+  },
+  {
+    "name": "Tonopah Station",
+    "placeId": "ChIJd51IYNoGvIARSMiCFJnG_WI",
+    "address": "1137 Erie St, Tonopah, NV 89049, USA",
+    "state": "Nevada",
+    "phone": "(775) 482-9777",
+    "website": "http://www.tonopahstation.com/"
+  },
+  {
+    "name": "Primm Valley Casino Resorts",
+    "placeId": "ChIJfStaQQREz4AR8LtnMjBXo2g",
+    "address": "31900 Las Vegas Blvd S, Primm, NV 89019, USA",
+    "state": "Nevada",
+    "phone": "(702) 386-7867",
+    "website": "http://www.primmvalleyresorts.com/"
+  },
+  {
+    "name": "Resorts World Las Vegas",
+    "placeId": "ChIJhcdOQg3EyIARxJQwFt_x8EY",
+    "address": "3000 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 802-6460",
+    "website": "http://rwlasvegas.com/"
+  },
+  {
+    "name": "Rampart Casino",
+    "placeId": "ChIJDccs6ou_yIARdgRZTCFtI5k",
+    "address": "221 N Rampart Blvd, Las Vegas, NV 89145, USA",
+    "state": "Nevada",
+    "phone": "(702) 507-5900",
+    "website": "http://www.rampartcasino.com/"
+  },
+  {
+    "name": "The Red Garter Hotel and Casino",
+    "placeId": "ChIJH0sVNacorIARc1l1T8uWChk",
+    "address": "1225 Wendover Blvd, West Wendover, NV 89883, USA",
+    "state": "Nevada",
+    "phone": "(800) 982-2111",
+    "website": "http://www.wendoverresorts.com/hotel/red-garter/"
+  },
+  {
+    "name": "Tahoe Biltmore Lodge & Casino",
+    "placeId": "ChIJL3ebSMJ6mYARMDafV1HNDjs",
+    "address": "United States",
+    "state": "Nevada"
+  },
+  {
+    "name": "Pony Express Casino",
+    "placeId": "ChIJM8RGgKbHqYARsHT0Z6N6sy8",
+    "address": "1800 Poker St, Jackpot, NV 89825, USA",
+    "state": "Nevada",
+    "phone": "(775) 755-2900",
+    "website": "http://www.ponyexpressjackpot.com/"
+  },
+  {
+    "name": "Red Rock Casino Resort & Spa",
+    "placeId": "ChIJPyboc06-yIAR_JCJkTTID9M",
+    "address": "11011 W Charleston Blvd, Las Vegas, NV 89135, USA",
+    "state": "Nevada",
+    "phone": "(702) 797-7777",
+    "website": "https://redrock.sclv.com/"
+  },
+  {
+    "name": "Hyatt Regency Lake Tahoe Resort, Spa and Casino",
+    "placeId": "ChIJra8hnEZwmYARkb17p09lRp4",
+    "address": "111 Country Club Dr, Incline Village, NV 89451, USA",
+    "state": "Nevada",
+    "phone": "(775) 832-1234",
+    "website": "http://laketahoe.regency.hyatt.com/en/hotel/home.html"
+  },
+  {
+    "name": "Laughlin River Lodge",
+    "placeId": "ChIJn-BbXLRDzoAR-HRHY2ZZV-s",
+    "address": "2700 S Casino Dr, Laughlin, NV 89029, USA",
+    "state": "Nevada",
+    "phone": "(702) 298-2242",
+    "website": "http://www.laughlinriverlodge.com/"
+  },
+  {
+    "name": "Golden Gate Casino Hotel",
+    "placeId": "ChIJP_e37KHDyIAR972mwUmavqE",
+    "address": "1 Fremont Street, Las Vegas, NV 89101, USA",
+    "state": "Nevada",
+    "phone": "(702) 385-1906",
+    "website": "http://goldengatecasino.com/"
+  },
+  {
+    "name": "Terrible's Casino",
+    "placeId": "ChIJax4AJbACz4ARYz1UsZ8-tGo",
+    "address": "670 US-95, Searchlight, NV 89046, USA",
+    "state": "Nevada",
+    "phone": "(702) 297-9200",
+    "website": "http://www.terribleherbst.com/"
+  },
+  {
+    "name": "Hard Rock Hotel & Casino",
+    "placeId": "ChIJOV4Pe03EyIARDGQ__xHAMJ0",
+    "address": "4455 Paradise Rd, Las Vegas, NV 89169, USA",
+    "state": "Nevada",
+    "phone": "(702) 693-5000",
+    "website": "http://www.hardrockhotel.com/"
+  },
+  {
+    "name": "Scoreboard Sportsbar & Restaurant",
+    "placeId": "ChIJ4RY1CXf_pYARV9HBveZLEOw",
+    "address": "259 Spring Valley Pkwy, Spring Creek, NV 89815, USA",
+    "state": "Nevada",
+    "phone": "(775) 753-7529"
+  },
+  {
+    "name": "Jerry's Nugget Casino",
+    "placeId": "ChIJP6_zgf3CyIARbaPPhoWYlJE",
+    "address": "1821 N Las Vegas Blvd, North Las Vegas, NV 89030, USA",
+    "state": "Nevada",
+    "phone": "(702) 399-3000",
+    "website": "http://www.jerrysnugget.com/"
+  },
+  {
+    "name": "Texas Station",
+    "placeId": "ChIJ74ZGg4zByIARMopL0rlpKgY",
+    "address": "Texas Station, Las Vegas, NV, USA",
+    "state": "Nevada"
+  },
+  {
+    "name": "Stockman's Casino",
+    "placeId": "ChIJWcatDF_TQFMRFp63ZTwOnug",
+    "address": "301 W Broadway St, Lewistown, MT 59457, USA",
+    "state": "Nevada",
+    "phone": "(406) 535-4349"
+  },
+  {
+    "name": "Alamo Casino",
+    "placeId": "ChIJtZBS2RTnyIAR9jQvB3zo-PQ",
+    "address": "6595 N Hollywood Blvd, Las Vegas, NV 89115, USA",
+    "state": "Nevada",
+    "phone": "(702) 360-2009",
+    "website": "http://www.thealamo.com/alamo-casino-las-vegas-ta/"
+  },
+  {
+    "name": "Stateline Casino",
+    "placeId": "ChIJwY1z5zsryoARmWn0lroWO0M",
+    "address": "490 W Mesquite Blvd, Mesquite, NV 89027, USA",
+    "state": "Nevada",
+    "phone": "(702) 346-5752",
+    "website": "http://www.statelinecasinonv.com/"
+  },
+  {
+    "name": "Tropicana Express Railroad",
+    "placeId": "ChIJB-Cj2a1DzoARLE_TSVTWqWs",
+    "address": "Tropicana Express Railroad, Laughlin, NV 89029, USA",
+    "state": "Nevada"
+  },
+  {
+    "name": "Casino Express",
+    "placeId": "ChIJywR-M6Q_IocR1s38-jHg1qg",
+    "address": "14500 Central Ave SW, Albuquerque, NM 87121, USA",
+    "state": "Nevada",
+    "phone": "(505) 836-4320"
+  },
+  {
+    "name": "Terrible's Lakeside Casino/Rv",
+    "placeId": "ChIJcy1e6FE5xoARh9NXn0P3ank",
+    "address": "5870 Homestead Rd, Pahrump, NV 89048, USA",
+    "state": "Nevada",
+    "phone": "(775) 751-7770",
+    "website": "https://www.lakesidecasinopahrump.com/"
+  },
+  {
+    "name": "Harveys Lake Tahoe",
+    "placeId": "ChIJnR9tTJ2amYARC-ftPtd_eLM",
+    "address": "at, US-50, Lake Tahoe, NV 89449, USA",
+    "state": "Nevada",
+    "phone": "(775) 588-2411",
+    "website": "https://www.caesars.com/harveys-tahoe?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harveys%20Lake%20Tahoe&utm_content=hotel"
+  },
+  {
+    "name": "Stockman's Casino",
+    "placeId": "ChIJezEKoOiGmIARZT_BFgNY9ck",
+    "address": "1560 W Williams Ave, Fallon, NV 89406, USA",
+    "state": "Nevada",
+    "phone": "(775) 423-2117",
+    "website": "http://www.stockmanscasino.com/"
+  },
+  {
+    "name": "Terrible's Town Casino",
+    "placeId": "ChIJeYSHO3s3xoAR_4zQES8SgBw",
+    "address": "771 S Frontage Rd, Pahrump, NV 89048, USA",
+    "state": "Nevada",
+    "phone": "(775) 751-7770"
+  },
+  {
+    "name": "Sid's Cafe",
+    "placeId": "ChIJxck5EGXEyIARbcjuhRkDATA",
+    "address": "3000 Paradise Rd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 732-5111",
+    "website": "https://www.westgatedestinations.com/nevada/las-vegas/westgate-las-vegas-hotel-casino/dining/sids-cafe"
+  },
+  {
+    "name": "Trump Plaza",
+    "placeId": "ChIJIbzDcqxQwokR5znfzO2L2oI",
+    "address": "Trump Plaza, Jersey City, NJ 07302, USA",
+    "state": "Nevada"
+  },
+  {
+    "name": "Stagestop Casino",
+    "placeId": "ChIJQbf1PUo2xoARmTVGyo_5ZhI",
+    "address": "100 W Stagecoach Rd, Pahrump, NV 89060, USA",
+    "state": "Nevada",
+    "phone": "(775) 727-7300"
+  },
+  {
+    "name": "Terribles Roadhouse",
+    "placeId": "ChIJXwAp90wdz4ARMOUgdjs08tw",
+    "address": "100 US-95, Searchlight, NV 89046, USA",
+    "state": "Nevada",
+    "phone": "(702) 297-1201"
+  },
+  {
+    "name": "Green Valley Ranch Resort Spa & Casino",
+    "placeId": "ChIJxfy2Ut7RyIAR0LOPVNgrwYc",
+    "address": "2300 Paseo Verde Pkwy, Henderson, NV 89052, USA",
+    "state": "Nevada",
+    "phone": "(702) 617-7777",
+    "website": "https://greenvalleyranch.sclv.com/"
+  },
+  {
+    "name": "Silver Nugget Casino & Event Center",
+    "placeId": "ChIJIUILvuPCyIAR-0qha2eFzaw",
+    "address": "2140 N Las Vegas Blvd, North Las Vegas, NV 89030, USA",
+    "state": "Nevada",
+    "phone": "(702) 399-1111",
+    "website": "http://silvernuggetlv.com/"
+  },
+  {
+    "name": "Saddle West Hotel Casino RV Resort",
+    "placeId": "ChIJVeLw09g5xoAR2ahcXvaUf-U",
+    "address": "1220 NV-160, Pahrump, NV 89048, USA",
+    "state": "Nevada",
+    "phone": "(775) 727-1111",
+    "website": "http://www.saddlewest.com/"
+  },
+  {
+    "name": "Skyline Restaurant & Casino",
+    "placeId": "ChIJMR1fKdfQyIAR20ah6-I6Moo",
+    "address": "1741 N Boulder Hwy, Henderson, NV 89011, USA",
+    "state": "Nevada",
+    "phone": "(702) 565-9116",
+    "website": "http://www.skylinehenderson.com/"
+  },
+  {
+    "name": "Fitzgeralds Casino & Hotel",
+    "placeId": "ChIJPV1bFDVHmYARKlSZuGnFSvc",
+    "address": "255 N Virginia St, Reno, NV 89501, USA",
+    "state": "Nevada",
+    "phone": "(775) 785-3686"
+  },
+  {
+    "name": "Harrah's Atlantic City Casino",
+    "placeId": "ChIJ8Q6BrMnvwIkRkOm9c3kX30Y",
+    "address": "United States",
+    "state": "Nevada"
+  },
+  {
+    "name": "Stateline Casino & Heartland Grill",
+    "placeId": "ChIJ2ZtpM3Nfe4cR_eG_fWXTXT8",
+    "address": "30387 US-385, Oelrichs, SD 57763, USA",
+    "state": "Nevada",
+    "phone": "(605) 535-2099"
+  },
+  {
+    "name": "Topaz Lodge",
+    "placeId": "ChIJV20yoS_RmYARJ-xYzxrjN4A",
+    "address": "1979 US-395, Gardnerville, NV 89410, USA",
+    "state": "Nevada",
+    "phone": "(775) 226-3338",
+    "website": "http://topazlodge.com/"
+  },
+  {
+    "name": "Stage Door Casino",
+    "placeId": "ChIJUdKgODjEyIAR691wx4K-K40",
+    "address": "4000 Audrie St, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 733-0124",
+    "website": "http://www.vegashomesellers.com/"
+  },
+  {
+    "name": "South Point Hotel, Casino & Spa",
+    "placeId": "ChIJRXuHLYq_yIARkrG-b5_VMq8",
+    "address": "9777 S Las Vegas Blvd, Las Vegas, NV 89183, USA",
+    "state": "Nevada",
+    "phone": "(702) 796-7111",
+    "website": "http://www.southpointcasino.com/"
+  },
+  {
+    "name": "Tonopah Station",
+    "placeId": "ChIJd51IYNoGvIARSMiCFJnG_WI",
+    "address": "1137 Erie St, Tonopah, NV 89049, USA",
+    "state": "Nevada",
+    "phone": "(775) 482-9777",
+    "website": "http://www.tonopahstation.com/"
+  },
+  {
+    "name": "Riviera Hotel & Casino",
+    "placeId": "ChIJS5Qd5G3EyIAReIn5ANQwW38",
+    "address": "2901 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 734-5110",
+    "website": "http://www.rivierahotel.com/"
+  },
+  {
+    "name": "Terrible's Hotel & Casino",
+    "placeId": "ChIJqwVx6VHEyIARW7e0l34YlaI",
+    "address": "4100 Paradise Rd, Las Vegas, NV 89169, USA",
+    "state": "Nevada",
+    "phone": "(702) 733-7000",
+    "website": "http://www.terriblescasinos.com/"
+  },
+  {
+    "name": "StageCoach Hotel & Casino",
+    "placeId": "ChIJi8tQd9eYuIARd0b3CgtuBuM",
+    "address": "900 E U.S. 95 N, Beatty, NV 89003, USA",
+    "state": "Nevada",
+    "phone": "(775) 553-2419"
+  },
+  {
+    "name": "Sunset Station Hotel & Casino",
+    "placeId": "ChIJIaI3VPfQyIARG24byke0WI4",
+    "address": "1301 W Sunset Rd, Henderson, NV 89014, USA",
+    "state": "Nevada",
+    "phone": "(702) 547-7777",
+    "website": "https://sunsetstation.sclv.com/"
+  },
+  {
+    "name": "Sam's Town Hotel & Gambling Hall",
+    "placeId": "ChIJbWWvW-7ayIARwu9PyeOROyg",
+    "address": "5111 Boulder Hwy, Las Vegas, NV 89122, USA",
+    "state": "Nevada",
+    "phone": "(702) 456-7777",
+    "website": "http://www.samstownlv.com/"
+  },
+  {
+    "name": "Tamarack Junction Casino & Restaurant",
+    "placeId": "ChIJ7WeW4e0UmYARADh_ROTqIEM",
+    "address": "13101 S Virginia St, Reno, NV 89511, USA",
+    "state": "Nevada",
+    "phone": "(775) 852-3600",
+    "website": "http://www.tamarackjunction.com/"
+  },
+  {
+    "name": "Stockmen's Hotel & Casino",
+    "placeId": "ChIJB5Zw4zMHpoARBMrMJxZXnxY",
+    "address": "340 Commercial St, Elko, NV 89801, USA",
+    "state": "Nevada",
+    "phone": "(775) 738-5141",
+    "website": "http://www.northernstarcasinos.com/stockmens-hotel-casino"
+  },
+  {
+    "name": "Silver Legacy Resort Casino Reno",
+    "placeId": "ChIJRYQdLTRHmYARu8Op-jB28TE",
+    "address": "407 N Virginia St, Reno, NV 89501, USA",
+    "state": "Nevada",
+    "phone": "(775) 329-4777",
+    "website": "http://www.silverlegacyreno.com/"
+  },
+  {
+    "name": "Siena Hotel",
+    "placeId": "ChIJMdj4n7VAmYARGgJQsuZIEBw",
+    "address": "1 Lake St, Reno, NV 89501, USA",
+    "state": "Nevada",
+    "phone": "(775) 682-3900",
+    "website": "http://www.sienareno.com/"
+  },
+  {
+    "name": "Double Barrel Roadhouse",
+    "placeId": "ChIJ5_5rfjLEyIARsI4bsrHnbKg",
+    "address": "3770 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 222-7735",
+    "website": "http://www.montecarlo.com/restaurants/double-barrel.aspx"
+  },
+  {
+    "name": "Riverside Resort Hotel & Casino",
+    "placeId": "ChIJkck4CABDzoARsD7EZpNAuyk",
+    "address": "1650 S Casino Dr, Laughlin, NV 89029, USA",
+    "state": "Nevada",
+    "phone": "(702) 298-2535",
+    "website": "http://www.riversideresort.com/"
+  },
+  {
+    "name": "SLS Las Vegas, a Tribute Portfolio Resort",
+    "placeId": "ChIJFa9M1HbEyIARlkDVzmhgh2s",
+    "address": "2535 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 761-7000",
+    "website": "https://www.starwoodhotels.com/tributeportfolio/property/overview/index.html?propertyID=4420"
+  },
+  {
+    "name": "Silver Sevens Hotel & Casino",
+    "placeId": "ChIJqwVx6VHEyIARfYnBVXjCGYU",
+    "address": "4100 Paradise Rd, Las Vegas, NV 89169, USA",
+    "state": "Nevada",
+    "phone": "(702) 733-7000",
+    "website": "http://www.silversevenscasino.com/"
+  },
+  {
+    "name": "Sharkey's Casino",
+    "placeId": "ChIJpy7lt9a9mYARQZQY_Pgohhs",
+    "address": "1440 U.S. Hwy 395 N, Gardnerville, NV 89410, USA",
+    "state": "Nevada",
+    "phone": "(775) 782-3133"
+  },
+  {
+    "name": "Little Nugget Diner",
+    "placeId": "ChIJfWkGPzVHmYARy-8xPJ55C2o",
+    "address": "233 N Virginia St, Reno, NV 89501, USA",
+    "state": "Nevada",
+    "phone": "(775) 323-0716",
+    "website": "http://awfulawfulburgerreno.wix.com/awfulawfulburgerreno"
+  },
+  {
+    "name": "Northern Edge Navajo Casino",
+    "placeId": "ChIJOYC2M6GaO4cRIhyE5hqPgJw",
+    "address": "2752 Indian Service Road 36, Fruitland, NM 87416, USA",
+    "state": "Nevada",
+    "phone": "(505) 960-7000",
+    "website": "http://www.northernedgenavajocasino.com/"
+  },
+  {
+    "name": "Lakeside Inn and Casino",
+    "placeId": "ChIJTwSNhIWamYARTbzubpyGRVs",
+    "address": "168 US-50, Stateline, NV 89449, USA",
+    "state": "Nevada",
+    "phone": "(775) 588-7777",
+    "website": "http://www.lakesideinn.com/"
+  },
+  {
+    "name": "Isleta Casino & Resort",
+    "placeId": "ChIJgQIh_W8PIocRjNxVPycQYIk",
+    "address": "11000 Broadway Blvd SE, Albuquerque, NM 87105, USA",
+    "state": "Nevada",
+    "phone": "(505) 724-3800",
+    "website": "http://www.isleta.com/"
+  },
+  {
+    "name": "Rio All-Suites Hotel and Casino",
+    "placeId": "ChIJX8LqCCDEyIARtXpjW9_P7YQ",
+    "address": "3700 W Flamingo Rd, Las Vegas, NV 89103, USA",
+    "state": "Nevada",
+    "phone": "(866) 746-7671",
+    "website": "https://www.caesars.com/rio-las-vegas"
+  },
+  {
+    "name": "Silverton Casino",
+    "placeId": "ChIJs7LOs0vPyIARCe3bDr0gcjQ",
+    "address": "3333 Blue Diamond Rd, Las Vegas, NV 89139, USA",
+    "state": "Nevada",
+    "phone": "(702) 263-7777",
+    "website": "http://www.silvertoncasino.com/?utm_source=google&utm_medium=places&utm_campaign=google_places_ms"
+  },
+  {
+    "name": "The Palazzo",
+    "placeId": "ChIJ9TdsBj7EyIARVQQd4t-9bkU",
+    "address": "3325 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 607-7777",
+    "website": "http://www.palazzo.com/"
+  },
+  {
+    "name": "The Orleans Hotel & Casino",
+    "placeId": "ChIJV120WY_GyIARWSpHpuZ9Qws",
+    "address": "4500 W Tropicana Ave, Las Vegas, NV 89103, USA",
+    "state": "Nevada",
+    "phone": "(702) 365-7111",
+    "website": "http://www.orleanscasino.com/"
+  },
+  {
+    "name": "Billy the Kid Casino",
+    "placeId": "ChIJxwJpUvnP4YYRiwQiFEC0Z1o",
+    "address": "26225 US-70, Ruidoso Downs, NM 88346, USA",
+    "state": "Nevada",
+    "phone": "(575) 378-4431",
+    "website": "http://www.btkcasino.com/"
+  },
+  {
+    "name": "Tix4Tonight - Slots A Fun",
+    "placeId": "ChIJK77PhHLEyIARKEQrYGsR0vA",
+    "address": "2890 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(877) 849-4868",
+    "website": "http://www.tix4tonight.com/"
+  },
+  {
+    "name": "Apache Nugget Casino",
+    "placeId": "ChIJCdILT7gpPYcRDLt7CjoBZAU",
+    "address": "US-550, Cuba, NM 87013, USA",
+    "state": "Nevada",
+    "phone": "(575) 289-2486",
+    "website": "http://www.apachenugget.com/"
+  },
+  {
+    "name": "Palms Casino Resort",
+    "placeId": "ChIJV-GkKZnGyIARft_-rS1lCDQ",
+    "address": "4321 W Flamingo Rd, Las Vegas, NV 89103, USA",
+    "state": "Nevada",
+    "phone": "(702) 942-7777",
+    "website": "http://palms.com/"
+  },
+  {
+    "name": "Sands Regency Casino Hotel",
+    "placeId": "ChIJBzXVmTNHmYAR6ipRaf8zVCE",
+    "address": "345 N Arlington Ave, Reno, NV 89501, USA",
+    "state": "Nevada",
+    "phone": "(775) 348-2200",
+    "website": "http://www.sandsregency.com/"
+  },
+  {
+    "name": "Palace West Casino",
+    "placeId": "ChIJLxovJDgNIocRshZZ8Pr9loY",
+    "address": "2 NM-45, Albuquerque, NM 87105, USA",
+    "state": "Nevada",
+    "phone": "(505) 869-4102"
+  },
+  {
+    "name": "Stratosphere Casino, Hotel & Tower",
+    "placeId": "ChIJ8-0pEYjDyIARB4jQJR4xnxs",
+    "address": "2000 S Las Vegas Blvd, Las Vegas, NV 89104, USA",
+    "state": "Nevada",
+    "phone": "(702) 380-7777",
+    "website": "http://www.stratospherehotel.com/"
+  },
+  {
+    "name": "The Westin Las Vegas Hotel, Casino & Spa",
+    "placeId": "ChIJpTLICDjEyIARqkbiFYuWTZM",
+    "address": "160 E Flamingo Rd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 836-5900",
+    "website": "http://www.westinvegas.com/"
+  },
+  {
+    "name": "Casino Apache Travel Center",
+    "placeId": "ChIJuYUcDUPO4YYRolXJ-9Kr1hw",
+    "address": "25845 U.S. 70, Mescalero, NM 88340, USA",
+    "state": "Nevada",
+    "phone": "(575) 464-7059",
+    "website": "http://casinoapachetravelcenter.com/"
+  },
+  {
+    "name": "The Cromwell Las Vegas Hotel & Casino",
+    "placeId": "ChIJNTRcJTrEyIARuN9wCryj3K8",
+    "address": "3595 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 777-3777",
+    "website": "http://www.caesars.com/cromwell/?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=The%20Cromwell%20Las%20Vegas%20Hotel%20and%20Casino&utm_content=hotel"
+  },
+  {
+    "name": "Santa Fe Station Hotel & Casino",
+    "placeId": "ChIJ74Wr-v3qyIARbM7pT-NQXIo",
+    "address": "4949 N Rancho Dr, Las Vegas, NV 89130, USA",
+    "state": "Nevada",
+    "phone": "(866) 767-7770",
+    "website": "https://santafestation.sclv.com/"
+  },
+  {
+    "name": "Apache Nugget Casino",
+    "placeId": "ChIJd6OxDbbLIocRxisO-StUQg4",
+    "address": "US-550, Cuba, NM 87013, USA",
+    "state": "Nevada"
+  },
+  {
+    "name": "Zia Park Casino Hotel & Racetrack",
+    "placeId": "ChIJL2ATSxfA_IYR2cOM2FIWwLQ",
+    "address": "3901 W Millen Dr, Hobbs, NM 88240, USA",
+    "state": "Nevada",
+    "phone": "(888) 942-7275",
+    "website": "http://www.ziaparkcasino.com/"
+  },
+  {
+    "name": "Revel",
+    "placeId": "ChIJhSAFTyTuwIkR4c0J6LG57HY",
+    "address": "500 Boardwalk, Atlantic City, NJ 08401, USA",
+    "state": "Nevada",
+    "phone": "(609) 348-0500",
+    "website": "http://www.revelresorts.com/index.html"
+  },
+  {
+    "name": "Showboat Atlantic City",
+    "placeId": "ChIJq7a8ODvuwIkRnwrfmkrYtGw",
+    "address": "801 Boardwalk, Atlantic City, NJ 08401, USA",
+    "state": "Nevada",
+    "phone": "(609) 487-4600",
+    "website": "http://www.showboathotelac.com/"
+  },
+  {
+    "name": "Trump Taj Mahal",
+    "placeId": "ChIJoQ3v4jzuwIkR2mWUThFfWWk",
+    "address": "1000 Boardwalk, Atlantic City, NJ 08401, USA",
+    "state": "Nevada",
+    "phone": "(609) 449-1000",
+    "website": "http://www.trumptaj.com/"
+  },
+  {
+    "name": "Wild Wild West",
+    "placeId": "ChIJ8QkUPSvEyIAR9uE82FIkPaw",
+    "address": "3330 W Tropicana Ave, Las Vegas, NV 89103, USA",
+    "state": "Nevada",
+    "phone": "(702) 740-0000",
+    "website": "https://wildfire.sclv.com/Wild-Wild-West.aspx"
+  },
+  {
+    "name": "Sunland Park Racetrack & Casino",
+    "placeId": "ChIJn9ClnCH43YYRSEH2a3eVOJQ",
+    "address": "1200 Futurity Dr, Sunland Park, NM 88063, USA",
+    "state": "Nevada",
+    "phone": "(575) 874-5200",
+    "website": "http://www.sunland-park.com/"
+  },
+  {
+    "name": "QBs Sports Bar and Grill",
+    "placeId": "ChIJ-25m-mI4GIcROMJVW7_Ddko",
+    "address": "68 Cities of Gold Rd, Santa Fe, NM 87506, USA",
+    "state": "Nevada",
+    "phone": "(505) 455-4201",
+    "website": "http://www.qbssportsbar.com/"
+  },
+  {
+    "name": "Suncoast Hotel and Casino - Las Vegas",
+    "placeId": "ChIJ45abwo-_yIARiZWkML2XQjk",
+    "address": "Suncoast Hotel and Casino - Las Vegas, 9090 Alta Dr, Las Vegas, NV 89144, USA",
+    "state": "Nevada"
+  },
+  {
+    "name": "Lucky Club Hotel and Casino",
+    "placeId": "ChIJsZDyWJTCyIAR9IiwGIUJ3h8",
+    "address": "3227 Civic Center Dr, North Las Vegas, NV 89030, USA",
+    "state": "Nevada",
+    "phone": "(702) 399-3297",
+    "website": "http://luckyclublv.com/"
+  },
+  {
+    "name": "The Venetian",
+    "placeId": "ChIJiwV3rBXEyIARRdN3c345tKE",
+    "address": "3355 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 414-1000",
+    "website": "http://venetian.com/"
+  },
+  {
+    "name": "The D Las Vegas",
+    "placeId": "ChIJ49HelZ_DyIAR_IV1PsNZLxE",
+    "address": "301 Fremont St, Las Vegas, NV 89101, USA",
+    "state": "Nevada",
+    "phone": "(702) 388-2400",
+    "website": "http://www.thed.com/"
+  },
+  {
+    "name": "The Mirage",
+    "placeId": "ChIJdyyk8BXEyIARY72Zdyqd_m0",
+    "address": "3400 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 791-7111",
+    "website": "http://www.mirage.com/"
+  },
+  {
+    "name": "Bally's Atlantic City",
+    "placeId": "ChIJz084cGnuwIkRvelw1F6GsaQ",
+    "address": "1900 Boardwalk, Atlantic City, NJ 08401, USA",
+    "state": "Nevada",
+    "phone": "(609) 340-2000",
+    "website": "https://www.caesars.com/ballys-ac?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Ballys%20Atlantic%20City&utm_content=hotel"
+  },
+  {
+    "name": "Camel Rock Casino",
+    "placeId": "ChIJ7z4Jy_k4GIcRH0887CJhTiI",
+    "address": "17486A Co Rd 84, Santa Fe, NM 87506, USA",
+    "state": "Nevada",
+    "phone": "(800) 462-2635",
+    "website": "http://www.camelrockcasino.com/contact"
+  },
+  {
+    "name": "Sandia Resort & Casino",
+    "placeId": "ChIJdzeyDAJ2IocRMpL92k0EXC0",
+    "address": "30 Rainbow Rd, Albuquerque, NM 87113, USA",
+    "state": "Nevada",
+    "phone": "(505) 796-7500",
+    "website": "http://www.sandiacasino.com/"
+  },
+  {
+    "name": "Tropicana Laughlin Hotel and Casino",
+    "placeId": "ChIJ-ay1nq1DzoAR8SR4CEIQB-E",
+    "address": "2121 S Casino Dr, Laughlin, NV 89029, USA",
+    "state": "Nevada",
+    "phone": "(702) 298-4200",
+    "website": "http://www.troplaughlin.com/"
+  },
+  {
+    "name": "The Wendover Nugget Hotel & Casino",
+    "placeId": "ChIJN5TMG1IvrIARPzpgNxablJo",
+    "address": "101 W Wendover Blvd, West Wendover, NV 89883, USA",
+    "state": "Nevada",
+    "phone": "(775) 401-6840",
+    "website": "http://www.wendoverresorts.com/"
+  },
+  {
+    "name": "Treasure Island",
+    "placeId": "ChIJswuaqjrEyIARE0cTvGmUiwk",
+    "address": "3300 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 894-7111",
+    "website": "http://www.treasureisland.com/"
+  },
+  {
+    "name": "Wynn Las Vegas",
+    "placeId": "ChIJlYYq3iLEyIAR7W-7y3M7wbE",
+    "address": "3131 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(702) 770-7000",
+    "website": "http://www.wynnlasvegas.com/"
+  },
+  {
+    "name": "Tropicana Casino & Resort",
+    "placeId": "ChIJHzQ9UGTuwIkRy3zyiLab5Vo",
+    "address": "2831 Boardwalk, Atlantic City, NJ 08401, USA",
+    "state": "Nevada",
+    "phone": "(800) 843-8767",
+    "website": "http://www.tropicana.net/"
+  },
+  {
+    "name": "Santa Ana Star Casino",
+    "placeId": "ChIJNXDgifZ4IocRMqdkzBX_T6I",
+    "address": "54 Jemez Canyon Dam Rd, Bernalillo, NM 87004, USA",
+    "state": "Nevada",
+    "phone": "(505) 867-0000",
+    "website": "http://santaanastar.com/"
+  },
+  {
+    "name": "Borgata Hotel Casino & Spa",
+    "placeId": "ChIJN2PtsLTvwIkRWVE5ePEN-fA",
+    "address": "1 Borgata Way, Atlantic City, NJ 08401, USA",
+    "state": "Nevada",
+    "phone": "(609) 317-1000",
+    "website": "http://www.theborgata.com/"
+  },
+  {
+    "name": "Ohkay Casino Resort Hotel",
+    "placeId": "ChIJHbJaxp4kGIcRQa-3QxTvO-g",
+    "address": "68 NM-291, Ohkay Owingeh, NM 87566, USA",
+    "state": "Nevada",
+    "phone": "(505) 747-1668",
+    "website": "http://www.ohkay.com/"
+  },
+  {
+    "name": "Cities of Gold Casino",
+    "placeId": "ChIJc8MQPIs4GIcR1aDhAn3OlzA",
+    "address": "10-B Cities of Gold Rd, Santa Fe, NM 87506, USA",
+    "state": "Nevada",
+    "phone": "(505) 455-4232",
+    "website": "http://www.citiesofgold.com/"
+  },
+  {
+    "name": "The Albuquerque Downs Racetrack & Casino",
+    "placeId": "ChIJs4hFWPsKIocRBFOUg_asEOE",
+    "address": "145 Louisiana Blvd NE, Albuquerque, NM 87108, USA",
+    "state": "Nevada",
+    "phone": "(505) 767-7171",
+    "website": "http://www.abqdowns.com/"
+  },
+  {
+    "name": "Fire Rock Navajo Casino",
+    "placeId": "ChIJB29R0CnDJIcR4mmvd2LF-Bo",
+    "address": "249 East Historic 66, Church Rock, NM 87311, USA",
+    "state": "Nevada",
+    "phone": "(505) 905-7100",
+    "website": "http://www.firerocknavajocasino.com/"
+  },
+  {
+    "name": "Inn of the Mountain Gods Resort & Casino",
+    "placeId": "ChIJFQYi83bO4YYREzO4xiLn9tE",
+    "address": "287 Carrizo Canyon Rd, Mescalero, NM 88340, USA",
+    "state": "Nevada",
+    "phone": "(800) 545-9011",
+    "website": "http://innofthemountaingods.com/"
+  },
+  {
+    "name": "Hilton Santa Fe Buffalo Thunder",
+    "placeId": "ChIJl3kVipJHGIcR0OPIRnIOpto",
+    "address": "20 Buffalo Thunder Trail, Santa Fe, NM 87506, USA",
+    "state": "Nevada",
+    "phone": "(505) 455-5555",
+    "website": "http://www.hiltonbuffalothunder.com/"
+  },
+  {
+    "name": "Dancing Eagle Casino",
+    "placeId": "ChIJZwg-Uma3I4cReJPxsa2GiTg",
+    "address": "167 Casa Blanca Rd, Casa Blanca, NM 87007, USA",
+    "state": "Nevada",
+    "phone": "(505) 552-7777",
+    "website": "http://www.dancingeaglecasino.com/"
+  },
+  {
+    "name": "Route 66 Casino Hotel",
+    "placeId": "ChIJSSCmJCMTIocR_H9zCl-Mlvg",
+    "address": "14500 Central Ave SW, Albuquerque, NM 87121, USA",
+    "state": "Nevada",
+    "phone": "(505) 352-7866",
+    "website": "http://www.rt66casino.com/"
+  },
+  {
+    "name": "Wildfire Casino & Lanes",
+    "placeId": "ChIJqVF2lRPQyIARoqlSTKhh3AI",
+    "address": "4451 E Sunset Rd, Henderson, NV 89014, USA",
+    "state": "Nevada",
+    "phone": "(702) 685-2100",
+    "website": "http://www.wildfiregaming.com/"
+  },
+  {
+    "name": "Western Village Inn & Casino",
+    "placeId": "ChIJkVAWfts-mYARIcOgGg3-Zpw",
+    "address": "815 Nichols Blvd, Sparks, NV 89434, USA",
+    "state": "Nevada",
+    "phone": "(800) 648-1170",
+    "website": "http://www.westernvillagesparks.com/"
+  },
+  {
+    "name": "The LINQ",
+    "placeId": "ChIJuVjYCjzEyIARReNTnhGbd3o",
+    "address": "3535 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
+    "state": "Nevada",
+    "phone": "(800) 634-6441",
+    "website": "https://www.caesars.com/linq?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=The%20LINQ%20Hotel%20and%20Casino&utm_content=hotel"
+  },
+  {
+    "name": "Tuscany Suites & Casino",
+    "placeId": "ChIJITzy10jEyIAR5J_a_62drB8",
+    "address": "255 E Flamingo Rd, Las Vegas, NV 89169, USA",
+    "state": "Nevada",
+    "phone": "(702) 893-8933",
+    "website": "http://www.tuscanylv.com/"
+  },
+  {
+    "name": "Winners Inn Casino",
+    "placeId": "ChIJlUeDXjXjoIARcXpPoPT_uj8",
+    "address": "185 W Winnemucca Blvd, Winnemucca, NV 89445, USA",
+    "state": "Nevada",
+    "phone": "(775) 623-2511",
+    "website": "http://winnersinn.com/"
+  },
+  {
+    "name": "Virgin River Hotel and Casino",
+    "placeId": "ChIJo7-GNGoryoARIiOoDSsrfxQ",
+    "address": "100 E Pioneer Blvd, Mesquite, NV 89027, USA",
+    "state": "Nevada",
+    "phone": "(877) 438-2929",
+    "website": "http://www.virginriver.com/"
+  },
+  {
+    "name": "SunRay Park & Casino LLC",
+    "placeId": "ChIJi-QW_v6GO4cReyBQTYdb_44",
+    "address": "39 Rd 5568, Farmington, NM 87401, USA",
+    "state": "Nevada",
+    "phone": "(505) 566-1200",
+    "website": "http://www.sunraygaming.com/"
+  },
+  {
+    "name": "Resorts Casino Hotel",
+    "placeId": "ChIJDVjCSTzuwIkRbOBfw77kN1E",
+    "address": "1133 Boardwalk, Atlantic City, NJ 08401, USA",
+    "state": "Nevada",
+    "phone": "(800) 334-6378",
+    "website": "http://www.resortsac.com/"
+  },
+  {
+    "name": "Golden Nugget Hotel & Casino",
+    "placeId": "ChIJGyxt1I7uwIkRB6It5Kmo0ww",
+    "address": "600 Huron Avenue & Brigantine Boulevard, Atlantic City, NJ 08401",
+    "state": "Nevada",
+    "phone": "(609) 441-2000",
+    "website": "http://www.goldennugget.com/atlanticcity/"
+  },
+  {
+    "name": "Santa Claran Hotel Casino",
+    "placeId": "ChIJocuMY4E8GIcRAyzSNM12C_I",
+    "address": "460 N Riverside Dr, Española, NM 87532, USA",
+    "state": "Nevada",
+    "phone": "(877) 505-4949",
+    "website": "http://www.santaclaran.com/"
+  },
+  {
+    "name": "Sky City Casino Hotel",
+    "placeId": "ChIJg9J3SknBI4cRGdGcBJg8q_E",
+    "address": "I-40 Exit 102, Acoma, NM 87034, USA",
+    "state": "Nevada",
+    "phone": "(505) 552-6123",
+    "website": "http://www.skycity.com/"
+  },
+  {
+    "name": "Taos Mountain Casino",
+    "placeId": "ChIJi1kBuYFlF4cRLKtMaXmvdRg",
+    "address": "700 Veterans Hwy, Taos, NM 87571, USA",
+    "state": "Nevada",
+    "phone": "(575) 737-0777",
+    "website": "http://www.taosmountaincasino.com/"
+  },
+  {
+    "name": "Whiskey Pete's Hotel & Casino",
+    "placeId": "ChIJfStaQQREz4ARRxWWErUWvr8",
+    "address": "100 W Primm Blvd, Jean, NV 89019, USA",
+    "state": "Nevada",
+    "phone": "(702) 386-7867",
+    "website": "http://www.primmvalleyresorts.com/"
+  },
+  {
+    "name": "Caesars Atlantic City",
+    "placeId": "ChIJe7sV62nuwIkRtwx0-R4cO_U",
+    "address": "2100 Pacific Ave, Atlantic City, NJ 08401, USA",
+    "state": "Nevada",
+    "phone": "(609) 348-4411",
+    "website": "http://www.caesarsac.com/?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Caesars%20Atlantic%20City&utm_content=hotel"
+  },
+  {
+    "name": "Monticello Raceway",
+    "placeId": "ChIJy87PHpaw3IkR2ydawVTFgIo",
+    "address": "Monticello Raceway, Monticello, NY 12701, USA",
+    "state": "South Dakota"
+  },
+  {
+    "name": "Seneca Gaming & Entertainment Oil Spring",
+    "placeId": "ChIJIVDzy7Nq0okR7ebS-zRJXH0",
+    "address": "5374 W Shore Rd, Cuba, NY 14727, USA",
+    "state": "South Dakota",
+    "phone": "(716) 780-8787",
+    "website": "http://www.senecagames.com/oil-spring.html"
+  },
+  {
+    "name": "Mohawk Bingo Palace",
+    "placeId": "ChIJ_____y8QzEwRASPUOrS4Fh8",
+    "address": "RR 37, Hogansburg, NY 13655, USA",
+    "state": "South Dakota",
+    "phone": "(518) 358-9161"
+  },
+  {
+    "name": "Seneca Gaming & Entertainment",
+    "placeId": "ChIJo2z6rKve0okRFsmT-czq7eg",
+    "address": "11099 Erie Rd, Irving, NY 14081, USA",
+    "state": "South Dakota",
+    "phone": "(716) 549-4389",
+    "website": "http://www.senecagames.com/"
+  },
+  {
+    "name": "Seneca Gaming and Entertainment",
+    "placeId": "ChIJ9Y45ZqyI0okRKjBLbqzqtsg",
+    "address": "768 Broad St, Salamanca, NY 14779, USA",
+    "state": "South Dakota",
+    "phone": "(716) 945-4080",
+    "website": "http://www.senecagames.com/salamanca"
+  },
+  {
+    "name": "Seneca Gaming and Entertainment",
+    "placeId": "ChIJ9Y45ZqyI0okRKjBLbqzqtsg",
+    "address": "768 Broad St, Salamanca, NY 14779, USA",
+    "state": "South Dakota",
+    "phone": "(716) 945-4080",
+    "website": "http://www.senecagames.com/salamanca"
+  },
+  {
+    "name": "Batavia Downs Gaming",
+    "placeId": "ChIJfSHT--Dt04kRwN4bMS-HCGw",
+    "address": "8315 Park Rd, Batavia, NY 14020, USA",
+    "state": "South Dakota",
+    "phone": "(585) 343-3750",
+    "website": "http://www.bataviadownsgaming.com/"
+  },
+  {
+    "name": "Bingo Casino Mt Vernon",
+    "placeId": "ChIJe71V-4fkuocRrCw551HQmqQ",
+    "address": "2431 E Mt Vernon St, Wichita, KS 67211, USA",
+    "state": "South Dakota",
+    "phone": "(316) 686-9969",
+    "website": "http://www.bingocasinoks.com/"
+  },
+  {
+    "name": "Lakeside Entertainment",
+    "placeId": "ChIJl165PXy60IkR4DJP1xSqYyI",
+    "address": "271 Cayuga St, Union Springs, NY 13148, USA",
+    "state": "South Dakota",
+    "phone": "(315) 889-5416",
+    "website": "http://www.lakesidegaming.com/"
+  },
+  {
+    "name": "Tioga Downs Casino",
+    "placeId": "ChIJn7sg-02g2okRgt3moD9h15s",
+    "address": "2384 W River Rd, Nichols, NY 13812, USA",
+    "state": "South Dakota",
+    "phone": "(888) 946-8464",
+    "website": "http://www.tiogadowns.com/"
+  },
+  {
+    "name": "Seneca Allegany Resort & Casino",
+    "placeId": "ChIJDeRz_BDI04kRRY67lMaBukI",
+    "address": "777 Seneca Allegany Blvd, Salamanca, NY 14779, USA",
+    "state": "South Dakota",
+    "phone": "(888) 913-3377",
+    "website": "http://www.senecaalleganycasino.com/"
+  },
+  {
+    "name": "Turning Stone Resort Casino",
+    "placeId": "ChIJvf_CFNxz2YkRoivXAt1xvwc",
+    "address": "5218 Patrick Rd, Verona, NY 13478, USA",
+    "state": "South Dakota",
+    "phone": "(800) 771-7711",
+    "website": "http://turningstone.com/"
+  },
+  {
+    "name": "Resorts World Casino New York City",
+    "placeId": "ChIJIdDbQENnwokRbCypkvjzglk",
+    "address": "110-00 Rockaway Boulevard, Jamaica, NY 11420, USA",
+    "state": "South Dakota",
+    "phone": "(718) 215-2828",
+    "website": "http://www.rwnewyork.com/"
+  },
+  {
+    "name": "Miami Valley Gaming",
+    "placeId": "ChIJYdO6XED0QIgRfislFue1EMo",
+    "address": "6000 Ohio 63, Lebanon, OH 45036, USA",
+    "state": "South Dakota",
+    "phone": "(513) 934-7070",
+    "website": "http://www.miamivalleygaming.com/"
+  },
+  {
+    "name": "Hollywood Casino Toledo",
+    "placeId": "ChIJcYZ9OP-GO4gRWCEoVn6odm8",
+    "address": "1968 Miami St, Toledo, OH 43605, USA",
+    "state": "South Dakota",
+    "phone": "(419) 661-5200",
+    "website": "http://www.hollywoodcasinotoledo.com/"
+  },
+  {
+    "name": "Hollywood Casino Columbus",
+    "placeId": "ChIJE4LwmHGQOIgR8VM8napg5Q8",
+    "address": "200 Georgesville Rd, Columbus, OH 43228, USA",
+    "state": "South Dakota",
+    "phone": "(614) 308-3333",
+    "website": "http://www.hollywoodcolumbus.com/"
+  },
+  {
+    "name": "Yellow Brick Road Casino",
+    "placeId": "ChIJT7RdsYqP2YkRQ5WTSLqiawc",
+    "address": "800 W Genesee St, Chittenango, NY 13037, USA",
+    "state": "South Dakota",
+    "phone": "(315) 366-9400",
+    "website": "http://www.yellowbrickroadcasino.com/"
+  },
+  {
+    "name": "Hard Rock Rocksino Northfield Park",
+    "placeId": "ChIJCT0K4OfhMIgRS4LabT-kyfg",
+    "address": "10777 Northfield Rd, Northfield, OH 44067, USA",
+    "state": "South Dakota",
+    "phone": "(330) 908-7625",
+    "website": "https://www.hrrocksinonorthfieldpark.com/"
+  },
+  {
+    "name": "Harrah's Cherokee Casino Resort",
+    "placeId": "ChIJZUmgZNZDWYgRTvc2eQBZU24",
+    "address": "777 Casino Dr, Cherokee, NC 28719, USA",
+    "state": "South Dakota",
+    "phone": "(828) 497-7777",
+    "website": "https://www.caesars.com/harrahs-cherokee?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Cherokee%20Casino%20Resort&utm_content=hotel"
+  },
+  {
+    "name": "Akwesasne Mohawk Casino Resort",
+    "placeId": "ChIJtSe6FygOzEwRuLyBg1MhMlg",
+    "address": "873 NY-37, Hogansburg, NY 13655, USA",
+    "state": "South Dakota",
+    "phone": "(518) 358-2222",
+    "website": "http://www.mohawkcasino.com/"
+  },
+  {
+    "name": "Saratoga Casino and Hotel",
+    "placeId": "ChIJ_0qHHrk53okRXJwo8X1todw",
+    "address": "342 Jefferson St, Saratoga Springs, NY 12866, USA",
+    "state": "South Dakota",
+    "phone": "(518) 584-2110",
+    "website": "http://www.saratogacasino.com/"
+  },
+  {
+    "name": "Seneca Buffalo Creek Casino",
+    "placeId": "ChIJqzvysToS04kR-SbwgJ0P93s",
+    "address": "1 Fulton St, Buffalo, NY 14204, USA",
+    "state": "South Dakota",
+    "phone": "(877) 873-6322",
+    "website": "http://www.senecabuffalocreekcasino.com/"
+  },
+  {
+    "name": "Finger Lakes Gaming & Racetrack",
+    "placeId": "ChIJt9kPoFMu0YkRgZ-oTjMVgH0",
+    "address": "5857 NY-96, Farmington, NY 14425, USA",
+    "state": "South Dakota",
+    "phone": "(585) 924-3232",
+    "website": "http://www.fingerlakesgaming.com/?utm_source=googlemaps&utm_medium=local&utm_campaign=gaming"
+  },
+  {
+    "name": "Empire City Casino",
+    "placeId": "ChIJh7tBHr7ywokR4hFTwLzlguk",
+    "address": "810 Yonkers Ave, Yonkers, NY 10704, USA",
+    "state": "South Dakota",
+    "phone": "(914) 968-4200",
+    "website": "http://empirecitycasino.com/"
+  },
+  {
+    "name": "Hollywood Gaming at Mahoning Valley Race Course",
+    "placeId": "ChIJpRXjjlLiM4gRHAxw15xod1Y",
+    "address": "655 N Canfield Niles Rd, Youngstown, OH 44515, USA",
+    "state": "South Dakota",
+    "phone": "(877) 788-3777",
+    "website": "http://www.hollywoodmahoningvalley.com/"
+  },
+  {
+    "name": "JACK Thistledown Racino",
+    "placeId": "ChIJwYK40LviMIgR7iVx0Km__aA",
+    "address": "21501 Emery Rd, North Randall, OH 44128, USA",
+    "state": "South Dakota",
+    "phone": "(216) 662-8600",
+    "website": "https://www.jackentertainment.com/thistledown/"
+  },
+  {
+    "name": "Harrah's Cherokee Valley River Casino & Hotel",
+    "placeId": "ChIJV_ZFzAzhXogRznFar4rE-XM",
+    "address": "777 Casino Pkwy, Murphy, NC 28906, USA",
+    "state": "South Dakota",
+    "phone": "(828) 422-7777",
+    "website": "https://www.caesars.com/harrahs-cherokee-valley-river?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Cherokee%20Valley%20River%20Casino%20and%20Hotel&utm_content=hotel"
+  },
+  {
+    "name": "Creek Nation Casino",
+    "placeId": "ChIJYcBaEn9_tIcRMKJKRKC2Iv4",
+    "address": "211 E Willow St, Holdenville, OK 74848, USA",
+    "state": "South Dakota",
+    "phone": "(405) 379-3321",
+    "website": "http://creektourism.com/creek-nation-casino-holdenville/"
+  },
+  {
+    "name": "Creek Nation Casino Eufaula",
+    "placeId": "ChIJrfSQZDiwtYcRBJtqWi_oFww",
+    "address": "806 Forest Ave, Eufaula, OK 74432, USA",
+    "state": "South Dakota",
+    "phone": "(918) 689-9191",
+    "website": "http://www.muscogeenation-nsn.gov/"
+  },
+  {
+    "name": "Creek Nation Casino Okemah",
+    "placeId": "ChIJAVZ4jVwMtIcR3wkCtdgTUsQ",
+    "address": "S., 1100 Woody Guthrie Blvd, Okemah, OK 74859, USA",
+    "state": "South Dakota",
+    "phone": "(918) 623-0051",
+    "website": "http://creektourism.com/creek-nation-casino-okemah/"
+  },
+  {
+    "name": "Creek Nation Casino-Checotah",
+    "placeId": "ChIJYy4qHavHtYcRro2bNQg19wM",
+    "address": "830 N Broadway St, Checotah, OK 74426, USA",
+    "state": "South Dakota",
+    "phone": "(918) 473-5200"
+  },
+  {
+    "name": "Comanche Spur Casino",
+    "placeId": "ChIJzc76ZlYbrYcRSlzn12Ny0e4",
+    "address": "9047 U.S. Highway 62, Elgin, OK 73538",
+    "state": "South Dakota",
+    "phone": "(580) 250-3090",
+    "website": "http://comanchespurcasino.com/"
+  },
+  {
+    "name": "Cherokee Casino-Fort Gibson",
+    "placeId": "ChIJZ9qpxmHitYcRahJbg1571sc",
+    "address": "115 N Georgetown Rd, Fort Gibson, OK 74434, USA",
+    "state": "South Dakota",
+    "phone": "(918) 207-3662",
+    "website": "http://www.cherokeecasino.com/"
+  },
+  {
+    "name": "Ada Gaming Center",
+    "placeId": "ChIJNyx4Rr1us4cRXNrpiZQkjnk",
+    "address": "1500 N Country Club Rd, Ada, OK 74820, USA",
+    "state": "South Dakota",
+    "phone": "(580) 436-3740",
+    "website": "http://adagaming.com/"
+  },
+  {
+    "name": "Cherokee Casino Inn Roland",
+    "placeId": "ChIJIz-4udpIyocRzdj7XZvMMwM",
+    "address": "205 Cherokee Blvd, Roland, OK 74954, USA",
+    "state": "South Dakota",
+    "phone": "(800) 256-2338",
+    "website": "http://www.cherokeecasino.com/"
+  },
+  {
+    "name": "Cherokee Casino-Tahlequah",
+    "placeId": "ChIJE1oW0gD_yYcRBmrpKpcZSkI",
+    "address": "16489 Old US Hwy 62, Tahlequah, OK 74464, USA",
+    "state": "South Dakota",
+    "phone": "(918) 207-3600",
+    "website": "http://www.cherokeecasino.com/"
+  },
+  {
+    "name": "Chisholm Trail Casino",
+    "placeId": "ChIJlzsT_LZCrYcRzdwo2LwEBBQ",
+    "address": "7807 US-81, Duncan, OK 73533, USA",
+    "state": "South Dakota",
+    "phone": "(580) 255-1668",
+    "website": "http://chisholmtrailcasino.com/"
+  },
+  {
+    "name": "JACK Cleveland Casino",
+    "placeId": "ChIJ1UUut3_wMIgRfUMLS2QpNH8",
+    "address": "100 Public Square, Cleveland, OH 44113, USA",
+    "state": "South Dakota",
+    "phone": "(216) 297-4777",
+    "website": "http://www.jackentertainment.com/cleveland"
+  },
+  {
+    "name": "Creek Nation Casino Muscogee",
+    "placeId": "ChIJyd8gTg_etYcRE2NLkL_pF04",
+    "address": "3420 W Peak Blvd, Muskogee, OK 74401, USA",
+    "state": "South Dakota",
+    "phone": "(918) 683-1825",
+    "website": "http://www.creeknationcasino.net/"
+  },
+  {
+    "name": "Cherokee Casino",
+    "placeId": "ChIJGRzYudpIyocRxzanuhj20fk",
+    "address": "205 Cherokee Blvd, Roland, OK 74954, USA",
+    "state": "South Dakota",
+    "phone": "(918) 427-7491",
+    "website": "http://www.cherokeestarrewards.com/casinos/roland/Pages/default.aspx"
+  },
+  {
+    "name": "Cash Springs Gaming Center",
+    "placeId": "ChIJuW_XEp8ls4cR7IPD1VisQWc",
+    "address": "23 W Vinita Ave, Sulphur, OK 73086, USA",
+    "state": "South Dakota",
+    "phone": "(580) 622-2156",
+    "website": "http://artesianhotel.com/"
+  },
+  {
+    "name": "Kickapoo Casino Shawnee",
+    "placeId": "ChIJe8qaqCu2s4cRTqZLLoaIUio",
+    "address": "38900 W MacArthur St, Shawnee, OK 74804, USA",
+    "state": "South Dakota",
+    "phone": "(405) 395-0900",
+    "website": "http://www.kickapoo-casino.com/"
+  },
+  {
+    "name": "Comanche Nation Casino",
+    "placeId": "ChIJD4hKO8IYrYcRnibq6J_RaTk",
+    "address": "44, 402 SE Interstate Dr, Lawton, OK 73502, USA",
+    "state": "South Dakota",
+    "phone": "(580) 250-3030",
+    "website": "http://comanchenationcasino.com/"
+  },
+  {
+    "name": "Hollywood Gaming at Dayton Raceway",
+    "placeId": "ChIJ0Xz2sheCQIgRNTybW6i-b6A",
+    "address": "777 Hollywood Boulevard, Dayton, OH 45414, USA",
+    "state": "South Dakota",
+    "phone": "(844) 225-7057",
+    "website": "http://www.hollywooddaytonraceway.com/"
+  },
+  {
+    "name": "Cherokee Casino",
+    "placeId": "ChIJLz4zO6BsyocRSAI-M3MUz-U",
+    "address": "1621 W Ruth Ave, Sallisaw, OK 74955, USA",
+    "state": "South Dakota",
+    "phone": "(800) 256-2338",
+    "website": "http://www.cherokeestarrewards.com/"
+  },
+  {
+    "name": "Buffalo Run Casino & Resort",
+    "placeId": "ChIJ637lClwWyIcRnj5A8jOduwA",
+    "address": "1000 Buffalo Run Blvd, Miami, OK 74354, USA",
+    "state": "South Dakota",
+    "phone": "(918) 542-7140",
+    "website": "http://buffaloruncasino.com/"
+  },
+  {
+    "name": "Jack Cincinnati Casino",
+    "placeId": "ChIJVc1wV1-xQYgRFEUHHPh91UQ",
+    "address": "1000 Broadway St, Cincinnati, OH 45202, USA",
+    "state": "South Dakota",
+    "phone": "(513) 252-0777",
+    "website": "http://www.jackentertainment.com/cincinnati/"
+  },
+  {
+    "name": "Hard Rock Hotel & Casino Tulsa",
+    "placeId": "ChIJ67kYEQf1tocR2kDt3C0y4Oc",
+    "address": "777 W Cherokee St, Catoosa, OK 74015, USA",
+    "state": "South Dakota",
+    "phone": "(800) 760-6700",
+    "website": "http://www.hardrockcasinotulsa.com/Pages/default.aspx"
+  },
+  {
+    "name": "Choctaw Casino & Resort",
+    "placeId": "ChIJXTW7ytqfTIYR4Dw3ukdb75Y",
+    "address": "3735 Choctaw Rd, Durant, OK 74701, USA",
+    "state": "South Dakota",
+    "phone": "(800) 788-2464",
+    "website": "http://www.choctawcasinos.com/choctaw-durant/"
+  },
+  {
+    "name": "Comanche Star Casino",
+    "placeId": "ChIJRbx9gyourYcRsEkLAZB7EFo",
+    "address": "HWY 53 Route 3 Box 82-A, Walters, OK 73572",
+    "state": "South Dakota",
+    "phone": "(580) 250-3100",
+    "website": "http://comanchestarcasino.com/"
+  },
+  {
+    "name": "Eldorado Scioto Downs",
+    "placeId": "ChIJdYOafQWEOIgRH-GPObwnJn8",
+    "address": "6000 S High St, Columbus, OH 43207, USA",
+    "state": "South Dakota",
+    "phone": "(614) 295-4700",
+    "website": "http://www.sciotodowns.com/"
+  },
+  {
+    "name": "Creek Nation Casino Muscogee",
+    "placeId": "ChIJyd8gTg_etYcRE2NLkL_pF04",
+    "address": "3420 W Peak Blvd, Muskogee, OK 74401, USA",
+    "state": "South Dakota",
+    "phone": "(918) 683-1825",
+    "website": "http://www.creeknationcasino.net/"
+  },
+  {
+    "name": "Grand Casino Hotel & Resort",
+    "placeId": "ChIJq5IFboG3s4cR_RC_G22on_c",
+    "address": "777 Grand Casino Blvd, Shawnee, OK 74804, USA",
+    "state": "South Dakota",
+    "phone": "(405) 964-7777",
+    "website": "http://www.grandresortok.com/"
+  },
+  {
+    "name": "Cherokee Hotel & casino",
+    "placeId": "ChIJ1Ukry3miyYcRf8KQpia_kvc",
+    "address": "2416 U.S. 412, Watts, OK 74964, USA",
+    "state": "South Dakota",
+    "phone": "(800) 754-4111",
+    "website": "http://www.cherokeecasino.com/"
+  },
+  {
+    "name": "Osage Casino (EB)",
+    "placeId": "ChIJvdchBl3ptocRldYZw28YbSs",
+    "address": "United States",
+    "state": "South Dakota"
+  },
+  {
+    "name": "Kiowa Casino Verden",
+    "placeId": "ChIJHyzX5ZGZrYcRqVv2wKayQUc",
+    "address": "33165 County Road 2740, Verden, OK 73092, USA",
+    "state": "South Dakota",
+    "phone": "(866) 370-4077",
+    "website": "http://www.kiowacasino.com/casinos/verden"
+  },
+  {
+    "name": "Firelake Entertainment",
+    "placeId": "ChIJR9iw02C3s4cRQGp0lzBgm8U",
+    "address": "41207 Hardesty Rd, Shawnee, OK 74801, USA",
+    "state": "South Dakota",
+    "phone": "(405) 273-2242",
+    "website": "http://www.winatfirelake.com/"
+  },
+  {
+    "name": "Lucky Star Casino - Clinton",
+    "placeId": "ChIJS8i7SD0crIcR98BOFWzvEJU",
+    "address": "10347 N 2274 Road, Clinton, OK 73601, USA",
+    "state": "South Dakota",
+    "phone": "(580) 323-6599",
+    "website": "http://www.luckystarcasino.org/"
+  },
+  {
+    "name": "Red Hawk Gaming",
+    "placeId": "ChIJPTREnwNwtIcRPBEg77wPB4I",
+    "address": "117 N Main St, Wetumka, OK 74883, USA",
+    "state": "South Dakota",
+    "phone": "(405) 452-3100"
+  },
+  {
+    "name": "One Fire Casino",
+    "placeId": "ChIJxTMp2l8ktIcRodFbOA3F1Ps",
+    "address": "1901 N Wood Dr, Okmulgee, OK 74447, USA",
+    "state": "South Dakota",
+    "phone": "(918) 756-8400",
+    "website": "http://www.onefirecasino.com/directions.html"
+  },
+  {
+    "name": "Lucky Star Casino - Canton",
+    "placeId": "ChIJi16aZWzxrocReIuFiu4NV7U",
+    "address": "301 NW, N Canton Ave, Canton, OK 73724, USA",
+    "state": "South Dakota",
+    "phone": "(580) 886-2490",
+    "website": "http://www.luckystarcasino.org/"
+  },
+  {
+    "name": "Kiowa Casino",
+    "placeId": "ChIJGwz_tXMrU4YR2LBupzCQ3U0",
+    "address": "198131 Hwy 36, Devol, OK 73531",
+    "state": "South Dakota",
+    "phone": "(580) 299-3333",
+    "website": "http://kiowacasino.com/"
+  },
+  {
+    "name": "Kickapoo Casino Harrah",
+    "placeId": "ChIJd_SWuFLLs4cR45q0UnJrJ2Q",
+    "address": "25230 US-62, Harrah, OK 73045, USA",
+    "state": "South Dakota",
+    "phone": "(405) 964-4444",
+    "website": "http://www.kickapoo-casino.com/"
+  },
+  {
+    "name": "Lucky Star Casino - Watonga",
+    "placeId": "ChIJP9VRzXJjrocRNqXjY6ybkYk",
+    "address": "1407 S Clarence Nash Blvd, Watonga, OK 73772, USA",
+    "state": "South Dakota",
+    "phone": "(580) 623-7333",
+    "website": "http://luckystarcasino.org/"
+  },
+  {
+    "name": "Quapaw Casino",
+    "placeId": "ChIJ9QpHPegWyIcRMsUK4DivQnE",
+    "address": "58100 E 64 Rd, Miami, OK 74354, USA",
+    "state": "South Dakota",
+    "phone": "(918) 540-9100",
+    "website": "http://www.quapawcasino.com/"
+  },
+  {
+    "name": "Lucky Star Casino",
+    "placeId": "ChIJNz6NLQ5Ol4cRVN_ZownkF2g",
+    "address": "7777 US-81, El Reno, OK 73036, USA",
+    "state": "South Dakota",
+    "phone": "(405) 262-7612",
+    "website": "http://www.luckystarcasino.org/"
+  },
+  {
+    "name": "Players Casino",
+    "placeId": "ChIJx_gKExBN6IARlymcpfGYBvk",
+    "address": "6580 Auto Center Dr, Ventura, CA 93003, USA",
+    "state": "South Dakota",
+    "phone": "(805) 643-1392",
+    "website": "http://www.pcventura.com/"
+  },
+  {
+    "name": "Osage Hotel & Casino Skiatook",
+    "placeId": "ChIJEV56nNPmtocRNSJRqccXQpw",
+    "address": "5591 W Rogers Blvd, Skiatook, OK 74070, USA",
+    "state": "South Dakota",
+    "phone": "(877) 246-8777",
+    "website": "http://www.osagecasinos.com/"
+  },
+  {
+    "name": "7 Clans",
+    "placeId": "ChIJt9CbVtyGsIcR1rutm1lIOeE",
+    "address": "12901 US-77, Newkirk, OK 74647, USA",
+    "state": "South Dakota",
+    "phone": "(580) 448-3222",
+    "website": "http://www.shell.us/"
+  },
+  {
+    "name": "High Winds Casino",
+    "placeId": "ChIJyZz4jpoVyIcR6VoMAMS1JR8",
+    "address": "61475 E 100 Rd, Miami, OK 74354, USA",
+    "state": "South Dakota",
+    "phone": "(918) 541-9463",
+    "website": "http://www.highwindscasino.com/"
+  },
+  {
+    "name": "Osage Casino Tulsa",
+    "placeId": "ChIJLfjwGmTptocRbQ9eyjOO9mU",
+    "address": "951 West 36th St N, Tulsa, OK 74127, USA",
+    "state": "South Dakota",
+    "phone": "(918) 699-7777",
+    "website": "http://www.osagecasinos.com/choices/tulsa"
+  },
+  {
+    "name": "Osage Casino Tulsa",
+    "placeId": "ChIJLfjwGmTptocRbQ9eyjOO9mU",
+    "address": "951 West 36th St N, Tulsa, OK 74127, USA",
+    "state": "South Dakota",
+    "phone": "(918) 699-7777",
+    "website": "http://www.osagecasinos.com/choices/tulsa"
+  },
+  {
+    "name": "Treasure Valley Casino",
+    "placeId": "ChIJ3eLgNUHYsocR-8wsqOAYVUE",
+    "address": "12252 Ruppe Rd., Davis, OK 73030, USA",
+    "state": "South Dakota",
+    "phone": "(580) 369-2895",
+    "website": "http://treasurevalleycasino.com/"
+  },
+  {
+    "name": "Madill Gaming Center",
+    "placeId": "ChIJSe1Tl2vHTIYRQRfB0imnKVg",
+    "address": "902 S 1st St, Madill, OK 73446, USA",
+    "state": "South Dakota",
+    "phone": "(580) 795-7301",
+    "website": "http://madillgaming.com/"
+  },
+  {
+    "name": "Comanche Red River Hotel Casino",
+    "placeId": "ChIJ83vyx74sU4YRg_WQyNMo6gM",
+    "address": "Route 1 42K, Devol, OK 73531, USA",
+    "state": "South Dakota",
+    "phone": "(580) 250-3060",
+    "website": "http://comancheredrivercasino.com/"
+  },
+  {
+    "name": "Grand Lake Casino",
+    "placeId": "ChIJsfXk-UdIyIcRz75aMIns26A",
+    "address": "24701 S 655 Rd, Grove, OK 74344, USA",
+    "state": "South Dakota",
+    "phone": "(918) 786-8528",
+    "website": "http://www.grandlakecasino.com/"
+  },
+  {
+    "name": "Newcastle Casino",
+    "placeId": "ChIJXQeucpttsocRLxviQVS6vm8",
+    "address": "2457 Highway 62 Service Rd, Newcastle, OK 73065, USA",
+    "state": "South Dakota",
+    "phone": "(405) 387-6013",
+    "website": "http://www.newcastlecasino.com/"
+  },
+  {
+    "name": "Gold Mountain Casino",
+    "placeId": "ChIJR-MVIsQpTYYRBWcJ1stYhS8",
+    "address": "1410 Sam Noble Pkwy, Ardmore, OK 73401, USA",
+    "state": "South Dakota",
+    "phone": "(580) 223-3301",
+    "website": "http://mygoldmountaincasino.com/"
+  },
+  {
+    "name": "River Spirit Casino",
+    "placeId": "ChIJscNp2cGTtocR_YoV-qatlqo",
+    "address": "8330 Riverside Pkwy, Tulsa, OK 74137, USA",
+    "state": "South Dakota",
+    "phone": "(918) 299-8518",
+    "website": "http://www.riverspirittulsa.com/"
+  },
+  {
+    "name": "Kah-Nee-Ta High Desert Resort and Casino",
+    "placeId": "ChIJGdmzfbOglVQR9igvCpr3hZU",
+    "address": "Lloyd Center, 2201 Lloyd Center, Portland, OR 97232, USA",
+    "state": "South Dakota",
+    "website": "http://www.kahneeta.com/"
+  },
+  {
+    "name": "The Old Camp Casino",
+    "placeId": "ChIJYcSPIuGpsFQRQ4x7ExkK_-4",
+    "address": "2205 W Monroe St, Burns, OR 97720, USA",
+    "state": "South Dakota",
+    "phone": "(541) 573-1500",
+    "website": "http://www.oldcampcasino.com/"
+  },
+  {
+    "name": "Wyandotte Nation Casino",
+    "placeId": "ChIJN5kOWGI_yIcRf9OmRi97YRw",
+    "address": "100 Jackpot Pl, Wyandotte, OK 74370, USA",
+    "state": "South Dakota",
+    "phone": "(918) 678-4946",
+    "website": "http://www.wyandottecasinos.com/"
+  },
+  {
+    "name": "7 Clans Paradise Casino",
+    "placeId": "ChIJv7w3zTX_sIcRJjh_vFS630M",
+    "address": "7500 US-177, Red Rock, OK 74651, USA",
+    "state": "South Dakota",
+    "phone": "(580) 723-4005",
+    "website": "http://www.okparadisecasino.com/"
+  },
+  {
+    "name": "Thunderbird Casino",
+    "placeId": "ChIJI08036xPsocR-K1A8-DaZkw",
+    "address": "15700 OK-9, Norman, OK 73026, USA",
+    "state": "South Dakota",
+    "phone": "(405) 360-9270",
+    "website": "http://www.thunderbirdcasino.net/"
+  },
+  {
+    "name": "Washita Casino",
+    "placeId": "ChIJrR_YDKr6socR0UevwTzM6Js",
+    "address": "Paoli, OK 73074, USA",
+    "state": "South Dakota",
+    "phone": "(405) 484-7778"
+  },
+  {
+    "name": "7 Clans First Council Casino Hotel",
+    "placeId": "ChIJEVZInt2GsIcRDOF9R9xS4Ow",
+    "address": "12875 US-77, Newkirk, OK 74647, USA",
+    "state": "South Dakota",
+    "phone": "(580) 448-3015",
+    "website": "http://firstcouncilcasinohotel.com/"
+  },
+  {
+    "name": "Choctaw Casino Stigler",
+    "placeId": "ChIJ-6-f50SGtYcRsdq7JzMBAhU",
+    "address": "1801 E Main St, Stigler, OK 74462, USA",
+    "state": "South Dakota",
+    "phone": "(918) 967-8364",
+    "website": "http://www.choctawcasinos.com/choctaw-stigler/"
+  },
+  {
+    "name": "The Stables Casino",
+    "placeId": "ChIJd3JqC8MXyIcREq60YEn2WlI",
+    "address": "530 H St SE, Miami, OK 74354, USA",
+    "state": "South Dakota",
+    "phone": "(918) 542-7884",
+    "website": "http://www.thestablescasino.com/"
+  },
+  {
+    "name": "SaltCreek Casino",
+    "placeId": "ChIJ-av2P9OPrYcRmyGITBXddG8",
+    "address": "1600 Highway 81, Pocasset, OK 73079, USA",
+    "state": "South Dakota",
+    "phone": "(405) 459-4000",
+    "website": "http://www.saltcreekcasino.com/"
+  },
+  {
+    "name": "Spirit Mountain Casino",
+    "placeId": "ChIJjRZCQHY-zoARwYYj5E2JKdY",
+    "address": "6565 Girard Ave, Mohave Valley, AZ 86440, USA",
+    "state": "South Dakota"
+  },
+  {
+    "name": "Spirit Mountain Casino",
+    "placeId": "ChIJC3ZEzi666lQRgBIvVbF6l88",
+    "address": "United States",
+    "state": "South Dakota"
+  },
+  {
+    "name": "Spirit Mountain Casino",
+    "placeId": "ChIJVXXzzAqN6lQRfxNMOLFYXi0",
+    "address": "550 SW Hwy 101, Lincoln City, OR 97367, USA",
+    "state": "South Dakota",
+    "website": "http://www.spiritmountain.com/"
+  },
+  {
+    "name": "Chinook Winds Casino Resort",
+    "placeId": "ChIJkRTTTrCS6lQREJhjh117SQ8",
+    "address": "1777 NW 44th St, Lincoln City, OR 97367, USA",
+    "state": "South Dakota",
+    "phone": "(888) 244-6665",
+    "website": "http://www.chinookwindscasino.com/"
+  },
+  {
+    "name": "WinStar World Casino and Resort",
+    "placeId": "ChIJ7Q3hjdcCTYYRRnjHaKvTvKw",
+    "address": "777 Casino Ave, Thackerville, OK 73459, USA",
+    "state": "South Dakota",
+    "phone": "(580) 276-4229",
+    "website": "http://winstarworldcasino.com/"
+  },
+  {
+    "name": "Spirit Mountain Casino",
+    "placeId": "ChIJTxsUjow8zoARX35tX1FQKf8",
+    "address": "8555 AZ-95, Mohave Valley, AZ 86440, USA",
+    "state": "South Dakota",
+    "phone": "(928) 346-2000"
+  },
+  {
+    "name": "Riverwind Casino",
+    "placeId": "ChIJV-tD3uposocRdUMgFzs2n0M",
+    "address": "1544 OK-9, Norman, OK 73072, USA",
+    "state": "South Dakota",
+    "phone": "(405) 322-6000",
+    "website": "http://riverwind.com/"
+  },
+  {
+    "name": "Indian Head Casino",
+    "placeId": "ChIJbXtya0zyvlQRa7dzPkSl134",
+    "address": "US-26, Warm Springs, OR 97761, USA",
+    "state": "South Dakota",
+    "phone": "(541) 460-7777",
+    "website": "http://indianheadgaming.com/"
+  },
+  {
+    "name": "Kla-Mo-Ya Casino",
+    "placeId": "ChIJI62Uwiq6yFQRvoDOtbQ9j8I",
+    "address": "34333 US-97, Chiloquin, OR 97624, USA",
+    "state": "South Dakota",
+    "phone": "(541) 783-7529",
+    "website": "http://www.klamoyacasino.com/"
+  },
+  {
+    "name": "The Mill Casino Hotel & RV Park on Coos Bay",
+    "placeId": "ChIJPTvXrbCFw1QRrsKGaoLLh3Y",
+    "address": "3201 Tremont St, North Bend, OR 97459, USA",
+    "state": "South Dakota",
+    "phone": "(541) 756-8800",
+    "website": "http://www.themillcasino.com/"
+  },
+  {
+    "name": "Seven Feathers Casino Resort",
+    "placeId": "ChIJqeIi2l61xVQROEhqdxXShx8",
+    "address": "146 Chief Miwaleta Ln, Canyonville, OR 97417, USA",
+    "state": "South Dakota",
+    "phone": "(541) 839-1111",
+    "website": "http://www.sevenfeathers.com/"
+  },
+  {
+    "name": "Three Rivers Casino",
+    "placeId": "ChIJu7C5fh2AwVQRC60LSSgbR0w",
+    "address": "United States",
+    "state": "South Dakota"
+  },
+  {
+    "name": "Deadwood Gulch Saloon",
+    "placeId": "ChIJQXgdWKGmMlMRVkCouV7yZE0",
+    "address": "560 Main Street, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-1207"
+  },
+  {
+    "name": "Bourbon Street Casino",
+    "placeId": "ChIJvazzZ6CmMlMRAQsuTXKi6Yk",
+    "address": "667 Main St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-1297"
+  },
+  {
+    "name": "Three Rivers Casino & Hotel",
+    "placeId": "ChIJMXyqvPd_wVQRIsk8FFipcCk",
+    "address": "5647 OR-126, Florence, OR 97439, USA",
+    "state": "South Dakota",
+    "phone": "(877) 374-8377",
+    "website": "http://threeriverscasino.com/"
+  },
+  {
+    "name": "Wildhorse Resort and Casino",
+    "placeId": "ChIJAXI9foziolQRWa4_19_0-TA",
+    "address": "46510 Wildhorse Blvd, Pendleton, OR 97801, USA",
+    "state": "South Dakota",
+    "phone": "(800) 654-9453",
+    "website": "http://www.wildhorseresort.com/"
+  },
+  {
+    "name": "Four Aces Casino",
+    "placeId": "ChIJk2brAqGmMlMRXD9n5Ln1Hls",
+    "address": "531 Main St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-1893"
+  },
+  {
+    "name": "Penn National Race Course",
+    "placeId": "ChIJS6BlHrSxyIkRamGNIf1xbNA",
+    "address": "777 Hollywood Blvd, Grantville, PA 17028, USA",
+    "state": "South Dakota",
+    "phone": "(717) 469-2211",
+    "website": "http://www.hollywoodpnrc.com/Racing"
+  },
+  {
+    "name": "Three Rivers Casino",
+    "placeId": "ChIJLbi8jPWEw1QRG4a27GdcSeo",
+    "address": "1297 Ocean Blvd NW, Coos Bay, OR 97420, USA",
+    "state": "South Dakota",
+    "phone": "(877) 374-8377",
+    "website": "http://www.threeriverscasino.com/"
+  },
+  {
+    "name": "Harrah's Philadelphia",
+    "placeId": "ChIJQyWEwPDnxokRFm56Wlich1E",
+    "address": "777 Harrah's Blvd, Chester, PA 19013, USA",
+    "state": "South Dakota",
+    "phone": "(484) 490-1800",
+    "website": "https://www.caesars.com/harrahs-philly?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Philadelphia&utm_content=hotel"
+  },
+  {
+    "name": "Gulches of Fun",
+    "placeId": "ChIJ1UEIVy-kMlMRcnMghhMFyLc",
+    "address": "225 Cliff St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-3386"
+  },
+  {
+    "name": "Miss Kitty's Casino",
+    "placeId": "ChIJF5VrWaCmMlMRP163ivADseY",
+    "address": "649 Main St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-1811"
+  },
+  {
+    "name": "Mckennas Gold Casino",
+    "placeId": "ChIJ2WLHmqSmMlMR6PpPqOJFaig",
+    "address": "470 Main St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-2510",
+    "website": "http://www.mckennasgolddeadwood.com/"
+  },
+  {
+    "name": "Mount Airy Casino Resort",
+    "placeId": "ChIJsSnlBS-NxIkRyxGtK6LoN38",
+    "address": "312 Woodland Rd, Mt Pocono, PA 18344, USA",
+    "state": "South Dakota",
+    "phone": "(877) 682-4791",
+    "website": "http://www.mountairycasino.com/"
+  },
+  {
+    "name": "Mohegan Sun Pocono",
+    "placeId": "ChIJ0Ri1Z5YbxYkRF9jAfLegBUI",
+    "address": "1280 Pennsylvania 315, Wilkes-Barre, PA 18702, USA",
+    "state": "South Dakota",
+    "phone": "(570) 831-2100",
+    "website": "http://www.mohegansunpocono.com/"
+  },
+  {
+    "name": "Cadillac Jack's Gaming Resort",
+    "placeId": "ChIJUzx0CrqmMlMRSa4aKDZaCqM",
+    "address": "360 Lower Main St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-1500",
+    "website": "http://www.cadillacjacksgaming.com/"
+  },
+  {
+    "name": "Gold Dust Casino & Hotel",
+    "placeId": "ChIJr2kLbqCmMlMRgHMGnBMfU9w",
+    "address": "688 Main St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-2100",
+    "website": "http://golddustdeadwood.com/"
+  },
+  {
+    "name": "Tin Lizzie Gaming Resort",
+    "placeId": "ChIJuzSf8qOmMlMR8VYGhRdPhuA",
+    "address": "555 Lower Main St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-1715",
+    "website": "http://www.tinlizzie.com/"
+  },
+  {
+    "name": "Parx Casino",
+    "placeId": "ChIJB4O6WEhNwYkRYx9i0R2tj4c",
+    "address": "2999 Street Rd, Bensalem, PA 19020, USA",
+    "state": "South Dakota",
+    "phone": "(888) 588-7279",
+    "website": "http://www.parxcasino.com/"
+  },
+  {
+    "name": "Celebrity Hotel and Casino",
+    "placeId": "ChIJJfJqAqGmMlMREXe9HF8hIJk",
+    "address": "629 Main St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-1909",
+    "website": "http://celebritycasinos.com/"
+  },
+  {
+    "name": "First Gold Hotel and Gaming",
+    "placeId": "ChIJh77csrCmMlMRhhI_EtA1H9I",
+    "address": "270 Lower Main St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-9777",
+    "website": "http://www.firstgold.com/"
+  },
+  {
+    "name": "Rivers Casino",
+    "placeId": "ChIJwROTeR30NIgRcqMaE3fB2Co",
+    "address": "777 Casino Dr, Pittsburgh, PA 15212, USA",
+    "state": "South Dakota",
+    "phone": "(412) 231-7777",
+    "website": "http://www.theriverscasino.com/"
+  },
+  {
+    "name": "Presque Isle Downs & Casino",
+    "placeId": "ChIJ5X8MKRKBMogRkBd-Af82CFE",
+    "address": "8199 Perry Hwy, Erie, PA 16509, USA",
+    "state": "South Dakota",
+    "phone": "(814) 860-8999",
+    "website": "http://www.presqueisledowns.com/"
+  },
+  {
+    "name": "Valley Forge Casino Resort",
+    "placeId": "ChIJq_cSUhSUxokREVyos6T7yx8",
+    "address": "1160 1st Ave, King of Prussia, PA 19406, USA",
+    "state": "South Dakota",
+    "phone": "(610) 354-8118",
+    "website": "http://vfcasino.com/"
+  },
+  {
+    "name": "Bullock Hotel Casino",
+    "placeId": "ChIJs0kK_qCmMlMRZM9fEO5FdIU",
+    "address": "633 Main St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-1745",
+    "website": "http://www.historicbullock.com/"
+  },
+  {
+    "name": "Deadwood Gulch Gaming Resort",
+    "placeId": "ChIJU9E7ki-kMlMR_5S67ygmwBE",
+    "address": "304 Cliff St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-1294",
+    "website": "http://www.deadwoodgulchresort.com/"
+  },
+  {
+    "name": "Lucky 8 Casino",
+    "placeId": "ChIJY6R8CrqmMlMRHwk5LnQ1AJM",
+    "address": "196 Cliff St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-2535"
+  },
+  {
+    "name": "Sands Bethlehem",
+    "placeId": "ChIJqy8fbzo-xIkRXnTikA7blX4",
+    "address": "77 Sands Blvd, Bethlehem, PA 18015, USA",
+    "state": "South Dakota",
+    "phone": "(484) 777-7777",
+    "website": "http://www.pasands.com/"
+  },
+  {
+    "name": "Deadwood Main Street Inn",
+    "placeId": "ChIJH4UEySGkMlMR9KzLxqPS1BE",
+    "address": "786 Upper Main St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 641-7211",
+    "website": "http://www.deadwoodmainstreetinn.com/"
+  },
+  {
+    "name": "Midnight Star",
+    "placeId": "ChIJFWLCbqCmMlMRr2r56kUfuO0",
+    "address": "677 Main Street, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-1555",
+    "website": "http://www.themidnightstar.com/"
+  },
+  {
+    "name": "Deadwood Station Bunkhouse & Gambling Hall",
+    "placeId": "ChIJIUGO17emMlMRzfouBR-m6FY",
+    "address": "68 Lower Main St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-3476",
+    "website": "http://www.deadwoodstation.com/"
+  },
+  {
+    "name": "7 Cedars Casino",
+    "placeId": "ChIJ03JMZ2fBj1QRcWAB6btlaP8",
+    "address": "United States",
+    "state": "South Dakota"
+  },
+  {
+    "name": "Iron Horse Inn",
+    "placeId": "ChIJ0xbjPaCmMlMRkOF6u49FlhE",
+    "address": "27 Deadwood St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 717-7530",
+    "website": "http://www.ironhorseinndeadwood.com/"
+  },
+  {
+    "name": "SugarHouse Casino",
+    "placeId": "ChIJVUCYNGbIxokR7sRgG_KF5xA",
+    "address": "1001 N Delaware Ave, Philadelphia, PA 19125, USA",
+    "state": "South Dakota",
+    "phone": "(877) 477-3715",
+    "website": "http://www.sugarhousecasino.com/"
+  },
+  {
+    "name": "Mustang Sally's",
+    "placeId": "ChIJR0Ea_KCmMlMRMaaQrDad1yo",
+    "address": "634 Main St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-2025"
+  },
+  {
+    "name": "Lady Luck Casino Nemacolin",
+    "placeId": "ChIJj-B3m4pINYgRkvw9CnXaFQ8",
+    "address": "4067 National Pike, Farmington, PA 15437, USA",
+    "state": "South Dakota",
+    "phone": "(724) 812-5066",
+    "website": "http://nemacolin.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+  },
+  {
+    "name": "Chewelah Casino",
+    "placeId": "ChIJGS1luWJzYlMR2ZxKOj0r-bk",
+    "address": "2555 Smith Rd, Chewelah, WA 99109, USA",
+    "state": "South Dakota",
+    "phone": "(800) 322-2788",
+    "website": "http://www.chewelahcasino.com/"
+  },
+  {
+    "name": "Hickok's Hotel & Gaming",
+    "placeId": "ChIJeYd-cqCmMlMR_X1pGpYjLEI",
+    "address": "685 Main St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-2222",
+    "website": "http://www.hickoks.com/"
+  },
+  {
+    "name": "Crazy Moose Casino",
+    "placeId": "ChIJY7_g4KUakFQRzeDgywO6kK4",
+    "address": "22003 66th Ave W, Mountlake Terrace, WA 98043, USA",
+    "state": "South Dakota",
+    "phone": "(425) 672-4770",
+    "website": "http://www.nevadagold.com/?id=226"
+  },
+  {
+    "name": "Silverado Franklin Historic Hotel & Gaming Complex",
+    "placeId": "ChIJ0XSpdKCmMlMRTeZZsfU4lAs",
+    "address": "709 Main St, Deadwood, SD 57732, USA",
+    "state": "South Dakota",
+    "phone": "(605) 578-3670",
+    "website": "http://www.silveradofranklin.com/"
+  },
+  {
+    "name": "Elwha River Casino",
+    "placeId": "ChIJiXmH2satj1QRc34lQD5U9ZI",
+    "address": "631 Stratton Rd, Port Angeles, WA 98363, USA",
+    "state": "South Dakota",
+    "phone": "(360) 452-3005",
+    "website": "http://www.elwharivercasino.com/"
+  },
+  {
+    "name": "Kickapoo Lucky Eagle Casino Hotel",
+    "placeId": "ChIJpXQeu53yX4YRdq8YVrvqhbM",
+    "address": "794 Lucky Eagle Dr, Eagle Pass, TX 78852, USA",
+    "state": "South Dakota",
+    "phone": "(830) 758-1936",
+    "website": "http://www.luckyeagletexas.com/"
+  },
+  {
+    "name": "VFW",
+    "placeId": "ChIJfx7nLStDfYcRE6FLIrxnGlA",
+    "address": "420 Main St, Rapid City, SD 57701, USA",
+    "state": "South Dakota",
+    "phone": "(605) 342-9804",
+    "website": "http://www.vfw.org"
+  },
+  {
+    "name": "The Meadows Racetrack & Casino",
+    "placeId": "ChIJNYk0ULKsNYgRWjRE07CqDVc",
+    "address": "210 Racetrack Rd, Washington, PA 15301, USA",
+    "state": "South Dakota",
+    "phone": "(724) 503-1200",
+    "website": "http://www.meadowsgaming.com/"
+  },
+  {
+    "name": "Coulee Dam Casino",
+    "placeId": "ChIJvfcTGTlGnFQRB0oX2O7VQVU",
+    "address": "515 Birch St, Coulee Dam, WA 99116, USA",
+    "state": "South Dakota",
+    "phone": "(509) 633-0766",
+    "website": "http://www.colvillecasinos.com/"
+  },
+  {
+    "name": "Crazy Moose Casino",
+    "placeId": "ChIJX862t81-mFQRStZhj1IWZ4I",
+    "address": "510 S 20th Ave, Pasco, WA 99301, USA",
+    "state": "South Dakota",
+    "phone": "(509) 542-8580",
+    "website": "http://pascocasino.com/"
+  },
+  {
+    "name": "Snoqualmie Casino",
+    "placeId": "ChIJo9QVDI17kFQRxKCXi3Rcwd8",
+    "address": "37500 SE North Bend Way, Snoqualmie, WA 98065, USA",
+    "state": "South Dakota",
+    "phone": "(425) 888-1234",
+    "website": "http://www.snocasino.com/"
+  },
+  {
+    "name": "Jokers Casino South",
+    "placeId": "ChIJzzbC0zFDfYcR3T51vRBZWe0",
+    "address": "1320 Mt Rushmore Rd # C, Rapid City, SD 57701, USA",
+    "state": "South Dakota",
+    "phone": "(605) 343-8332"
+  },
+  {
+    "name": "Angel of the Winds Casino & Hotel",
+    "placeId": "ChIJK8K_xD5FhVQRWI-Q0rgoN28",
+    "address": "3438 Stoluckquamish Ln, Arlington, WA 98223, USA",
+    "state": "South Dakota",
+    "phone": "(360) 474-9740",
+    "website": "http://www.angelofthewinds.com/"
+  },
+  {
+    "name": "Emerald Downs",
+    "placeId": "ChIJReC_dVdYkFQRtEuGCQ066iU",
+    "address": "2300 Ron Crockett Dr, Auburn, WA 98001, USA",
+    "state": "South Dakota",
+    "phone": "(253) 288-7000",
+    "website": "http://www.emeralddowns.com/"
+  },
+  {
+    "name": "Jokers Comedy Club",
+    "placeId": "ChIJ9xa-0796mFQRu5Aqlx-FUs0",
+    "address": "624 Wellsian Way, Richland, WA 99352, USA",
+    "state": "South Dakota",
+    "phone": "(509) 943-1173",
+    "website": "http://jokersrichland.com/"
+  },
+  {
+    "name": "Little Creek Casino Resort",
+    "placeId": "ChIJkcI4MGeZkVQRhMBdvT2eL2w",
+    "address": "91 West State Route 108, Shelton, WA 98584, USA",
+    "state": "South Dakota",
+    "phone": "(800) 667-7711",
+    "website": "https://www.little-creek.com/"
+  },
+  {
+    "name": "Emerald Queen Hotel & Casino",
+    "placeId": "ChIJfY1FFd5VkFQRR5oc6Ptknzg",
+    "address": "5700 Pacific Hwy E, Fife, WA 98424, USA",
+    "state": "South Dakota",
+    "phone": "(253) 594-7777",
+    "website": "http://www.emeraldqueen.com/"
+  },
+  {
+    "name": "Coyote Bob's Roadhouse Casino",
+    "placeId": "ChIJad6UXAR5mFQROerLI67wU0g",
+    "address": "3014 W Kennewick Ave, Kennewick, WA 99336, USA",
+    "state": "South Dakota",
+    "phone": "(509) 374-2392",
+    "website": "http://coyotebobscasino.com/"
+  },
+  {
+    "name": "Club Hollywood Casino",
+    "placeId": "ChIJyyBJCuYQkFQRal3zDK-bQXU",
+    "address": "16716 Aurora Ave N, Seattle, WA 98133, USA",
+    "state": "South Dakota",
+    "phone": "(206) 546-4444",
+    "website": "http://www.wagoldcasinos.com/"
+  },
+  {
+    "name": "Okanagan Bingo Casino",
+    "placeId": "ChIJYRiQuoXrnFQRDZvAzZxRFro",
+    "address": "41 Appleway, Okanogan, WA 98840, USA",
+    "state": "South Dakota",
+    "phone": "(509) 422-4646"
+  },
+  {
+    "name": "Lucky Dog Casino",
+    "placeId": "ChIJ14PvIJ2_kVQR2qOyX8U-n8I",
+    "address": "19330 US-101, Skokomish, WA 98584, USA",
+    "state": "South Dakota",
+    "phone": "(360) 877-5656",
+    "website": "http://www.myluckydogcasino.com/"
+  },
+  {
+    "name": "The New Phoenix Casino",
+    "placeId": "ChIJM7raJgFMlFQRL2ZAu2VzX3U",
+    "address": "225 W 4th St, La Center, WA 98629, USA",
+    "state": "South Dakota",
+    "phone": "(503) 281-0932",
+    "website": "http://www.thenewphoenixcasino.com/"
+  },
+  {
+    "name": "Nooksack River Casino",
+    "placeId": "ChIJI5peLB6shVQRi4jrGv1DrAc",
+    "address": "5048 Mt Baker Hwy, Deming, WA 98244, USA",
+    "state": "South Dakota",
+    "phone": "(360) 592-5472"
+  },
+  {
+    "name": "Golden Nugget Casino",
+    "placeId": "ChIJrZ8wAdxCkFQRLyIEpUJxHzI",
+    "address": "14025 Interurban Ave S, Seattle, WA 98168, USA",
+    "state": "South Dakota",
+    "phone": "(206) 244-5252",
+    "website": "http://www.wagoldcasinos.com/index.php?option=com_contact&view=contact&id=7&Itemid=9"
+  },
+  {
+    "name": "Lucky Dog Casino",
+    "placeId": "ChIJ2XWP5_WviYcRV3aVYKOKmSE",
+    "address": "323 US-14, Volga, SD 57071, USA",
+    "state": "South Dakota",
+    "phone": "(605) 627-5607"
+  },
+  {
+    "name": "Lucky Eagle Casino and Hotel",
+    "placeId": "ChIJJe4VD1N9kVQRle5S7b5lAvU",
+    "address": "12888 188th Ave SW, Rochester, WA 98579, USA",
+    "state": "South Dakota",
+    "phone": "(360) 273-2000",
+    "website": "http://luckyeagle.com/"
+  },
+  {
+    "name": "Lancer Lanes and Casino",
+    "placeId": "ChIJvT0QYsLKoVQR5p6sfgTJDMU",
+    "address": "1250 Bridge St, Clarkston, WA 99403, USA",
+    "state": "South Dakota",
+    "phone": "(509) 758-6731",
+    "website": "http://www.lancerlanesandcasino.com/"
+  },
+  {
+    "name": "Yakama Legends Casino",
+    "placeId": "ChIJMdjkBgKHl1QRM_24IE6UY_Q",
+    "address": "580 Fort Rd, Toppenish, WA 98948, USA",
+    "state": "South Dakota",
+    "phone": "(509) 865-8800",
+    "website": "http://www.yakamalegends.com/"
+  },
+  {
+    "name": "Zeppoz",
+    "placeId": "ChIJxwMR9EeHn1QRoCY_hAe6RYM",
+    "address": "780 SE Bishop Blvd, Pullman, WA 99163, USA",
+    "state": "South Dakota",
+    "phone": "(509) 334-7101",
+    "website": "http://www.zeppoz.com/"
+  },
+  {
+    "name": "Quinault Beach Resort and Casino",
+    "placeId": "ChIJyXWFX2dqklQRv-bhzuBLzfg",
+    "address": "78 WA-115, Ocean Shores, WA 98569, USA",
+    "state": "South Dakota",
+    "phone": "(360) 289-9466",
+    "website": "http://www.quinaultbeachresort.com/"
+  },
+  {
+    "name": "Emerald Queen Casino",
+    "placeId": "ChIJfY1FFd5VkFQRbFjyZxmZtYg",
+    "address": "2024 E 29th St, Tacoma, WA 98404, USA",
+    "state": "South Dakota",
+    "phone": "(253) 594-7777",
+    "website": "http://www.emeraldqueen.com/"
+  },
+  {
+    "name": "Muckleshoot Casino",
+    "placeId": "ChIJFbodq873kFQRCLestkWNBNc",
+    "address": "2402 Auburn Way S, Auburn, WA 98002, USA",
+    "state": "South Dakota",
+    "phone": "(800) 804-4944",
+    "website": "http://muckleshootcasino.com/"
+  },
+  {
+    "name": "Mill Bay Casino",
+    "placeId": "ChIJJ7xO4DScm1QRfoburkqSnc0",
+    "address": "455 Wapato Lake Rd, Manson, WA 98831, USA",
+    "state": "South Dakota",
+    "phone": "(509) 687-6911",
+    "website": "http://www.colvillecasinos.com/"
+  },
+  {
+    "name": "Roxys Dog Ranch & Lounge",
+    "placeId": "ChIJNUmMJo9NlFQR_3UUIeO43_0",
+    "address": "5709 NW 331st St, Ridgefield, WA 98642, USA",
+    "state": "South Dakota",
+    "phone": "(360) 887-3713",
+    "website": "http://roxysdogranch.com/"
+  },
+  {
+    "name": "Shoalwater Bay Casino",
+    "placeId": "ChIJoWLGWNdSklQR78NyWWowsDI",
+    "address": "4112 WA-105, Tokeland, WA 98590, USA",
+    "state": "South Dakota",
+    "phone": "(360) 267-2048",
+    "website": "http://www.swbcasino.com/"
+  },
+  {
+    "name": "Nob Hill Casino",
+    "placeId": "ChIJV2zY0j59l1QRBbw1vmL7Xsc",
+    "address": "3807 W Nob Hill Blvd, Yakima, WA 98902, USA",
+    "state": "South Dakota",
+    "phone": "(509) 966-6607",
+    "website": "http://www.thenobhillcasino.com/"
+  },
+  {
+    "name": "Nooksack Northwood Casino",
+    "placeId": "ChIJ7cZJOOm1hVQRcRTwzoCAeIA",
+    "address": "9750 Northwood Rd, Lynden, WA 98264, USA",
+    "state": "South Dakota",
+    "phone": "(360) 734-5101",
+    "website": "http://northwoodcasino.com/"
+  },
+  {
+    "name": "Silver Reef Casino",
+    "placeId": "ChIJk3mtvKO9hVQRG23yr6YfJRc",
+    "address": "4876 Haxton Way, Ferndale, WA 98248, USA",
+    "state": "South Dakota",
+    "website": "http://silverreefcasino.com/"
+  },
+  {
+    "name": "Royal Casino",
+    "placeId": "ChIJ6zLf8hkEkFQRbATVpYVLlLI",
+    "address": "13010 WA-99, Everett, WA 98204, USA",
+    "state": "South Dakota",
+    "phone": "(425) 743-9200",
+    "website": "http://www.royalcasinoeverett.com/"
+  },
+  {
+    "name": "Silver Dollar Casino",
+    "placeId": "ChIJC2GbbF5bkFQRLnehVWi4xx8",
+    "address": "19222 International Blvd, SeaTac, WA 98188, USA",
+    "state": "South Dakota",
+    "phone": "(206) 824-2340",
+    "website": "http://seataccasino.com/"
+  },
+  {
+    "name": "Silver Dollar Casino",
+    "placeId": "ChIJhXTLZvoFkFQRH_4vesdINhA",
+    "address": "17917 Bothell Everett Hwy, Bothell, WA 98012, USA",
+    "state": "South Dakota",
+    "phone": "(425) 481-9227",
+    "website": "http://millcreekcasino.com/"
+  },
+  {
+    "name": "Silver Dollar Renton",
+    "placeId": "ChIJJ9jFuxddkFQRP2oExi0VKIo",
+    "address": "3100 E Valley Rd, Renton, WA 98055, USA",
+    "state": "South Dakota",
+    "phone": "(425) 251-1590",
+    "website": "http://www.wagoldcasinos.com/"
+  },
+  {
+    "name": "Nisqually Red Wind Casino",
+    "placeId": "ChIJzfy7MOkNkVQReu2-qvJRjPU",
+    "address": "12819 Yelm Hwy SE, Olympia, WA 98513, USA",
+    "state": "South Dakota",
+    "phone": "(360) 412-5000",
+    "website": "http://www.redwindcasino.com/"
+  },
+  {
+    "name": "Northern Quest Resort & Casino",
+    "placeId": "ChIJ90KdqeMWnlQR7iOD-qVUY2s",
+    "address": "100 N Hayford Rd, Airway Heights, WA 99001, USA",
+    "state": "South Dakota",
+    "phone": "(509) 242-7000",
+    "website": "http://www.northernquest.com/"
+  },
+  {
+    "name": "Red Dragon Casino",
+    "placeId": "ChIJLU7UUrsakFQRUPr9gTW5c3g",
+    "address": "21917 WA-99, Mountlake Terrace, WA 98043, USA",
+    "state": "South Dakota",
+    "phone": "(425) 275-4444",
+    "website": "http://www.red-dragon-casino-mountlake.com/"
+  },
+  {
+    "name": "Swinomish Casino & Lodge",
+    "placeId": "ChIJDxn4LQpwhVQRsRbTDUXya6c",
+    "address": "12885 Casino Dr, Anacortes, WA 98221, USA",
+    "state": "South Dakota",
+    "phone": "(888) 288-8883",
+    "website": "http://www.swinomishcasinoandlodge.com/"
+  },
+  {
+    "name": "The Skagit Casino Resort",
+    "placeId": "ChIJFy0QQzVzhVQRoERtsrN1nhw",
+    "address": "5984 Darrk Ln, Bow, WA 98232, USA",
+    "state": "South Dakota",
+    "phone": "(877) 275-2448",
+    "website": "http://www.theskagit.com/"
+  },
+  {
+    "name": "The Point Casino & Hotel",
+    "placeId": "ChIJz5M2Q5MekFQRITedCFcrDCQ",
+    "address": "7989 NE Salish Ln, Kingston, WA 98346, USA",
+    "state": "South Dakota",
+    "phone": "(360) 297-0070",
+    "website": "http://www.the-point-casino.com/"
+  },
+  {
+    "name": "Tulalip Resort Casino",
+    "placeId": "ChIJuxV5VeVThVQRvnJrVehyBEo",
+    "address": "10200 Quil Ceda Blvd, Tulalip, WA 98271, USA",
+    "state": "South Dakota",
+    "phone": "(360) 716-6000",
+    "website": "http://www.tulalipcasino.com/"
+  },
+  {
+    "name": "Grindstone Creek Casino",
+    "placeId": "ChIJMzioaVAMrFIRkhbCxVhoG8s",
+    "address": "13394 W Trepania Rd, Hayward, WI 54843, USA",
+    "state": "South Dakota",
+    "phone": "(715) 634-2430"
+  },
+  {
+    "name": "Wizards Casino",
+    "placeId": "ChIJZcGDNp9EkFQRA45LmbnPR-E",
+    "address": "15739 Ambaum Blvd SW, Burien, WA 98166, USA",
+    "state": "South Dakota",
+    "phone": "(206) 241-3818"
+  },
+  {
+    "name": "Two Rivers Casino & Resort",
+    "placeId": "ChIJyQCosgbYnVQR1Rwguzzy4-g",
+    "address": "6828 B WA-25, Davenport, WA 99122, USA",
+    "state": "South Dakota",
+    "phone": "(800) 722-4031",
+    "website": "http://www.two-rivers-casino.com/"
+  },
+  {
+    "name": "Hole In the Wall Casino",
+    "placeId": "ChIJ0Vtky77vrVIRTROuUfoLTgc",
+    "address": "30222 WI-35, Danbury, WI 54830, USA",
+    "state": "South Dakota",
+    "phone": "(715) 656-4365",
+    "website": "http://danbury.stcroixcasino.com/"
+  },
+  {
+    "name": "Bad River Lodge & Casino",
+    "placeId": "ChIJy49QLEAJqVIRJMoH5TRqFYM",
+    "address": "73370 US-2, Ashland, WI 54806, USA",
+    "state": "South Dakota",
+    "phone": "(715) 682-7121",
+    "website": "http://www.badriver.com/"
+  },
+  {
+    "name": "Mardi Gras Casino & Resort",
+    "placeId": "ChIJEVQ7iaTLSIgRjGRm5CHDh-Y",
+    "address": "1 Greyhound Dr, Cross Lanes, WV 25313, USA",
+    "state": "South Dakota",
+    "phone": "(304) 776-1000",
+    "website": "http://www.mardigrascasinowv.com/"
+  },
+  {
+    "name": "Mountaineer Casino, Racetrack & Resort",
+    "placeId": "ChIJ-9CdWVcWNIgR2YsWYFFV6z0",
+    "address": "1420 Mountaineer Circle, New Cumberland, WV 26047, USA",
+    "state": "South Dakota",
+    "phone": "(304) 387-8000",
+    "website": "http://moreatmountaineer.com/"
+  },
+  {
+    "name": "Ho-Chunk Gaming Tomah",
+    "placeId": "ChIJUSJi9Llo_ocRWGJs0Cc040Q",
+    "address": "27867 WI-21, Tomah, WI 54660, USA",
+    "state": "South Dakota",
+    "phone": "(866) 880-9822",
+    "website": "http://www.ho-chunkgaming.com/tomah/"
+  },
+  {
+    "name": "Wheeling Island Hotel-Casino-Racetrack",
+    "placeId": "ChIJGWtcooPZNYgRr2DY4gYioy8",
+    "address": "1 S Stone St, Wheeling, WV 26003, USA",
+    "state": "South Dakota",
+    "phone": "(304) 232-5050",
+    "website": "http://www.wheelingisland.com/?utm_source=googlemaps&utm_medium=local&utm_campaign=casino"
+  },
+  {
+    "name": "Ho-Chunk Gaming Wittenberg",
+    "placeId": "ChIJcZhLYqncAYgR8UH8Ec3UTRk",
+    "address": "N7198 U.S. 45, Wittenberg, WI 54499, USA",
+    "state": "South Dakota",
+    "phone": "(715) 253-4400",
+    "website": "http://www.ho-chunkgaming.com/wittenberg/"
+  },
+  {
+    "name": "Hollywood Casino & Inn at Charles Town Races",
+    "placeId": "ChIJTVp1m3ABtokR5IfcdDY-6Ls",
+    "address": "750 Hollywood Dr, Charles Town, WV 25414, USA",
+    "state": "South Dakota",
+    "phone": "(800) 795-7001",
+    "website": "http://www.hollywoodcasinocharlestown.com/"
+  },
+  {
+    "name": "North Star Mohican Casino Resort",
+    "placeId": "ChIJLaN-OIj5AYgR1x8IIpHsJvc",
+    "address": "W12180 Co Rd A, Bowler, WI 54416, USA",
+    "state": "South Dakota",
+    "phone": "(715) 787-3110",
+    "website": "http://www.northstarcasinoresort.com/"
+  },
+  {
+    "name": "Ho-Chunk Gaming Black River Falls",
+    "placeId": "ChIJE4MLcGbk_ocRJ4E9uZmKSGA",
+    "address": "W9010 WI-54, Black River Falls, WI 54615, USA",
+    "state": "South Dakota",
+    "phone": "(715) 284-9098",
+    "website": "http://www.ho-chunkgaming.com/blackriverfalls/"
+  },
+  {
+    "name": "Little Wind Casino",
+    "placeId": "ChIJifps2Ez2WIcRvH7_gghCrjY",
+    "address": "685 Wyoming 132, Ethete, WY 82520, USA",
+    "state": "South Dakota",
+    "phone": "(307) 335-8703"
+  },
+  {
+    "name": "Shoshone Rose Casino",
+    "placeId": "ChIJ7V_B_UL_WIcRQs2ZIED3o5A",
+    "address": "5690 US Highway 287, Lander, WY 82520, USA",
+    "state": "South Dakota",
+    "phone": "(307) 335-7529",
+    "website": "http://www.shoshonerose.com/"
+  },
+  {
+    "name": "Menominee Casino Resort",
+    "placeId": "ChIJp2pocosPAogReKsrcv8Bilw",
+    "address": "N277 WI-47, Keshena, WI 54135, USA",
+    "state": "South Dakota",
+    "phone": "(800) 343-7778",
+    "website": "http://www.menomineecasinoresort.com/"
+  },
+  {
+    "name": "Lake of the Torches Resort Casino",
+    "placeId": "ChIJ8S094NDzVU0Rda9LsFvULoE",
+    "address": "510 Old Abe Rd, Lac Du Flambeau, WI 54538, USA",
+    "state": "South Dakota",
+    "phone": "(715) 588-7070",
+    "website": "http://www.lakeofthetorches.com/"
+  },
+  {
+    "name": "St. Croix Casino Hertel Express",
+    "placeId": "ChIJ79O2Av2VrVIRSBjfXllM0fI",
+    "address": "4384 WI-70, Webster, WI 54893, USA",
+    "state": "South Dakota",
+    "phone": "(715) 349-5658",
+    "website": "http://www.stcroixcasino.com/"
+  },
+  {
+    "name": "Ho-Chunk Gaming Nekoosa",
+    "placeId": "ChIJqzZJ9f2CAIgR7XKHTFlxsH4",
+    "address": "949 County Rd G, Nekoosa, WI 54457, USA",
+    "state": "South Dakota",
+    "phone": "(715) 886-4560",
+    "website": "http://www.ho-chunkgaming.com/nekoosa/"
+  },
+  {
+    "name": "Potawatomi Hotel & Casino",
+    "placeId": "ChIJh7rCZygaBYgRiaZzuQXSTF4",
+    "address": "1721 W Canal St, Milwaukee, WI 53233, USA",
+    "state": "South Dakota",
+    "phone": "(800) 729-7244",
+    "website": "http://paysbig.com/"
+  },
+  {
+    "name": "Wind River Hotel & Casino",
+    "placeId": "ChIJHYGZRdndWIcRnBOr7ig8B70",
+    "address": "10269 WY-789, Riverton, WY 82501, USA",
+    "state": "South Dakota",
+    "phone": "(866) 657-1604",
+    "website": "http://www.windriverhotelcasino.com/"
+  },
+  {
+    "name": "Ho-Chunk Gaming Wisconsin Dells",
+    "placeId": "ChIJxZdE_dRDB4gR96JrtkhpfXE",
+    "address": "S3214 County Highway Boulevard, Baraboo, WI 53913, USA",
+    "state": "South Dakota",
+    "phone": "(608) 356-6210",
+    "website": "http://www.ho-chunkgaming.com/wisconsindells/"
+  },
+  {
+    "name": "Mole Lake Casino Lodge",
+    "placeId": "ChIJv91cUfaOVE0R37nl1OdIAfc",
+    "address": "3084 State Highway 55, Crandon, WI 54520, USA",
+    "state": "South Dakota",
+    "phone": "(715) 478-5290",
+    "website": "http://www.molelakecasino.com/"
+  },
+  {
+    "name": "Ho-Chunk Gaming Madison",
+    "placeId": "ChIJz9t9f0ZQBogRDUczUmQeIqQ",
+    "address": "4002 Evan Acres Rd, Madison, WI 53718, USA",
+    "state": "South Dakota",
+    "phone": "(608) 223-9576",
+    "website": "http://ho-chunkgaming.com/madison"
+  },
+  {
+    "name": "Legendary Waters Resort & Casino",
+    "placeId": "ChIJ-7XlekMdqVIRA4_H55En81Y",
+    "address": "37600 Onigamiing Dr, Bayfield, WI 54814, USA",
+    "state": "South Dakota",
+    "phone": "(800) 226-8478",
+    "website": "http://www.legendarywaters.com/"
+  },
+  {
+    "name": "Oneida Casino West Mason",
+    "placeId": "ChIJLwYCu_D5AogRTJxoMMJrylc",
+    "address": "2522 W Mason St, Green Bay, WI 54303, USA",
+    "state": "South Dakota",
+    "phone": "(920) 494-4500",
+    "website": "http://www.oneidacasino.net/"
+  },
+  {
+    "name": "Oneida Casino West Mason",
+    "placeId": "ChIJLwYCu_D5AogRTJxoMMJrylc",
+    "address": "2522 W Mason St, Green Bay, WI 54303, USA",
+    "state": "South Dakota",
+    "phone": "(920) 494-4500",
+    "website": "http://www.oneidacasino.net/"
+  }
 ];
 
 module.exports = casinoObjArray;
