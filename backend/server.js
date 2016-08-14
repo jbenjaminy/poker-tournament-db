@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var knex = require('knex')({
     client: 'pg',
     connection: {
-        database: 'poker'
+        database: 'PokerTourneys'
     },
 });
 
@@ -22,13 +22,29 @@ app.use(function(request, response, next) {
 
 /* ----------- USER ENDPOINTS ---------- */
 
+// GET CASINOS
+app.get('/casinos', jsonParser, function(request, response) {
+    knex.select('name', 'state')
+        .from('casinos')
+        .orderBy('state')
+        .then(function(casinoDetails) {
+            console.log('get casino details success');
+            console.log('casino details: ', casinoDetails);
+            return response.json(casinoDetails);
+        })
+        .catch(function(error) {
+            console.log('get casino details error');
+            response.sendStatus(500);
+        });
+});
+
 // GET CASINO DETAILS BY ID
-app.get('/casinos/:id', jsonParser, function(request, response) {
-    var id = request.params.id;
+app.get('/casinos/:name', jsonParser, function(request, response) {
+    var name = request.params.name;
 
     knex.select()
         .from('casinos')
-        .where({id: id})
+        .where({name: name})
         .then(function(casinoDetails) {
             console.log('get casino details success');
             console.log('casino details: ', casinoDetails);
