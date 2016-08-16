@@ -6,10 +6,11 @@
   "scripts": {
     "test": "mocha --compilers js:babel-register test/**/*.js*",
     "mkdir": "mkdir -p build",
-    "build": "npm run clean && npm run mkdir && npm run build:html && npm run build:css && npm run build:js && npm run build:img",
+    "build": "npm run clean && npm run mkdir && npm run build:html && npm run build:css && npm run build:js",
     "server": "node backend/server.js",
+    "dev": "webpack-dev-server --content-base build/ --hot",
     "http": "http-server build/",
-    "watch": "npm run watch:html & npm run watch:css & npm run watch:js & npm run watch:img",
+    "watch": "npm run watch:html & npm run watch:css & npm run watch:js",
     "clean": "rm -rf build",
     "build:html": "npm run clean:html && cp index.html build/",
     "watch:html": "npm run build:html && chokidar index.html -c 'npm run build:html'",
@@ -32,16 +33,17 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "unirest": "^0.5.0",
     "isomorphic-fetch": "^2.2.1",
     "knex": "^0.11.9",
+    "less": "^2.7.1",
     "pg": "^6.0.3",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
     "react-redux": "^4.4.5",
+    "react-router": "^2.6.1",
     "redux": "^3.5.2",
-    "redux-thunk": "^2.1.0", 
-    "less": "^2.7.1"
+    "redux-thunk": "^2.1.0",
+    "unirest": "^0.5.0"
   },
   "devDependencies": {
     "babel-core": "^6.11.4",

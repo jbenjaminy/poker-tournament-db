@@ -1,16 +1,21 @@
 var React = require('react');
 var connect = require('react-redux').connect;
 var CasinoSearchBar = require('./casino-search-bar');
-var CasinoLists = require('./casino-lists');
+var CasinoSearchArray = require('./casino-search-array');
+var PokerCasinoSearchArray = require('./poker-casino-search-array');
+var actions = require('./actions');
 
 var MainContainer = React.createClass({
 
   onAddInput: function (event) {
-    var casinoList = this.props.params.casinos;
-    var casinos = CasinoLists.casinoList;
+    if (this.props.params.casinos === '/pokercasinos') {
+      var casinos = PokerCasinoSearchArray; 
+    } else {
+      var casinos = CasinoSearchArray;
+    }
     var value = event.target.value.toLowerCase();
     if (value.length > 0) {
-      var tempLib = this.props.casinos.filter(function (item) {
+      var tempLib = casinos.filter(function (item) {
         item = item.toLowerCase();
         var casinoMatch = new RegExp(value);
         if (item.match(casinoMatch)) {
@@ -28,7 +33,7 @@ var MainContainer = React.createClass({
   render: function () {
     
     return (
-      <CasinoSearchBar addInput={this.onAddInput} output={this.props.output}/>
+      <CasinoSearchBar list={this.props.params.casinos} addInput={this.onAddInput} output={this.props.output}/>
     );
   }
 });
@@ -40,5 +45,6 @@ var mapStateToProps = function(state, props) {
 };
 
 var Container = connect(mapStateToProps)(MainContainer);
-module.exports = Container;
+exports.MainContainer = MainContainer;
+exports.Container = Container;
 

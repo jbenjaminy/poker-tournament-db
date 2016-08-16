@@ -27,8 +27,10 @@ var TournamentInfo = React.createClass({
 		})
 
 	    return (
-	    		<h3>Tournament info for: {this.props.casino.name}</h3>
-	    		<ol>{tournamentArr}</ol>
+	    		<div>
+	    			<h3>Tournament info for: {this.props.casino.name}</h3>
+	    			<ol>{tournamentArr}</ol>
+	    		</div>
     	);
   	}
 });
@@ -41,4 +43,5 @@ var mapStateToProps = function(state, props) {
 };
 
 var Container = connect(mapStateToProps)(TournamentInfo);
-module.exports = Container;
+exports.TournamentInfo = TournamentInfo;
+exports.Container = Container;

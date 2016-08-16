@@ -1,11 +1,13 @@
 var React = require('react');
-var Casino = require('./casino');
+var Casino = require('./casino').Container;
 
 var CasinoSearchBar = React.createClass({
   render: function () {
+    console.log(this.props);
     var casinos = this.props.output;
-    casinos.map(function(casino) {
-      return <Casino casino={casino}/>;
+    var list = this.props.list;
+    casinos = casinos.map(function(casino) {
+      return <Casino list={list} casino={casino}/>;
     });
     return (
       <div className="userInput">
@@ -16,5 +18,5 @@ var CasinoSearchBar = React.createClass({
   }
 });
 
-
+module.exports = CasinoSearchBar;
 

@@ -1,4 +1,4 @@
-var casinoSearchArray = [ 'Wind Creek, Montgomery - Alabama',
+var CasinoSearchArray = [ 'Wind Creek, Montgomery - Alabama',
   'Wind Creek, Wetumpka - Alabama',
   'Vee Quiva Hotel & Casino - Arizona',
   'Harrahs Ak-Chin - Arizona',
@@ -887,4 +887,4 @@ var casinoSearchArray = [ 'Wind Creek, Montgomery - Alabama',
   'Little Wind Casino - Wyoming',
   'Shoshone Rose Casino - Wyoming' ];
 
-  module.exports = casinoSearchArray;
+  module.exports = CasinoSearchArray;

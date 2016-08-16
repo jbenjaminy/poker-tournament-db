@@ -15,7 +15,7 @@ var ADD_INPUT = 'ADD_INPUT';
 var addInput = function(tempLib) {
     return {
         type: ADD_INPUT,
-        temp: tempLib
+        tempLib: tempLib
     };
 };
 
@@ -23,7 +23,7 @@ var addInput = function(tempLib) {
 // GET CASINO DETAILS
 var fetchCasinoDetails = function(id) {
     return function(dispatch) {
-        var url = 'http://localhost:8080/casinos/' + id;
+        var url = 'http://localhost:8081/casinos/' + id;
         var request = { 
                 headers: {
                     'Accept': 'application/json',
@@ -75,7 +75,7 @@ var fetchCasinoDetailsError = function(error) {
 // GET TOURNAMENT INFO
 var fetchTournamentInfo = function(id) {
     return function(dispatch) {
-        var url = 'http://localhost:8080/casinos/' + id + '/tournaments';
+        var url = 'http://localhost:8081/casinos/' + id + '/tournaments';
         var request = { 
                 headers: {
                     'Accept': 'application/json',
