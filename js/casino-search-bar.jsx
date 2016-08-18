@@ -3,11 +3,10 @@ var Casino = require('./casino').Container;
 
 var CasinoSearchBar = React.createClass({
   render: function () {
-    console.log(this.props);
     var casinos = this.props.output;
     var list = this.props.list;
-    casinos = casinos.map(function(casino) {
-      return <Casino list={list} casino={casino}/>;
+    casinos = casinos.map(function(casino, index) {
+      return <Casino list={list} casino={casino} key={index}/>;
     });
     return (
       <div className="userInput">

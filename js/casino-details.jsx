@@ -9,7 +9,10 @@ var CasinoDetails = React.createClass({
 		this.props.dispatch(actions.fetchTournamentInfo(this.props.casino.id));
 	},
   	render: function () {
-  		// SET TO RETURN EACH PROP ONLY IF NOT NULL;
+
+  		if (!this.props.casino.name) {
+  			return
+  		}
 	    return (
 	    		<ul>
 	    			<li className="casino-prop" id="name" key="1">Name: {this.props.casino.name}</li>
@@ -19,8 +22,8 @@ var CasinoDetails = React.createClass({
 	    			<li className="casino-prop" id="hours" key="5">Hours: {this.props.casino.hours}</li>
 	    			<li className="casino-prop" id="has-poker" key="6">Has Poker: {this.props.casino.hasPoker}</li>
 	    			<li className="casino-prop" id="games-offered" key="7">Games Offered: {this.props.casino.gamesOffered}</li>
-	    			<li className="casino-prop" id="other" key="7">Additional Info: {this.props.casino.other}</li>
-	      			<li className="casino-prop" id="tournament-info" key="11" onClick={this.getTournaments}>
+	    			<li className="casino-prop" id="other" key="8">Additional Info: {this.props.casino.other}</li>
+	      			<li className="casino-prop" id="tournament-info" key="9" onClick={this.getTournaments}>
 	      				<Link to={`/${this.props.params.casinos}/${this.props.params.name}/tournaments`}>
 				      		Tournament Info
 				      	</Link>

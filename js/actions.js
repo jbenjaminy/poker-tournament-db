@@ -21,9 +21,9 @@ var addInput = function(tempLib) {
 
 
 // GET CASINO DETAILS
-var fetchCasinoDetails = function(id) {
+var fetchCasinoDetails = function(name) {
     return function(dispatch) {
-        var url = 'http://localhost:8081/casinos/' + id;
+        var url = 'http://localhost:8081/casinos/' + name;
         var request = { 
                 headers: {
                     'Accept': 'application/json',
