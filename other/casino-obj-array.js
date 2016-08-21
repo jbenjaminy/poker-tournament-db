@@ -1,28 +1,37 @@
 
 var casinoObjArray = [  
-  {
-    "name": "Cocopah Resort",
+  { "name": "Cocopah Resort",
     "placeId": "ChIJ2QZbdG9Z1oAR3i6nTqjSpLQ",
     "address": "15318 S Avenue B, Somerton, AZ 85350, USA",
     "state": "Arizona",
     "phone": "(928) 217-7731",
-    "website": "http://www.cocopahresort.com/"
+    "website": "http://www.cocopahresort.com/",
+    "hasPoker": "false"
   },
-  {
-    "name": "Casino of the Sun",
-    "placeId": "ChIJAUiEiPZ41oYRwAf7kOSmx44",
-    "address": "7406 S Camino De Oeste, Tucson, AZ 85746, USA",
+  { "name": "Casino del Sol",
+    "placeId": "ChIJVaAtBW541oYRO6Sc0kGuH-U",
+    "address": "5655 W Valencia Rd, Tucson, AZ 85757, USA",
     "state": "Arizona",
     "phone": "(800) 344-9435",
-    "website": "http://www.casinodelsol.com/"
+    "website": "http://www.casinodelsol.com/",
+    "hasPoker": "true",
+    "gamesOffered": "Texas hold'em, Omaha H/L",
+    "description": "Casino Del Sol offers poker for every skill level and budget. Our poker room features uncapped bad beat jackpots, daily tournaments and the best comp program in Tucson. $1 comp credit for every hour played. The poker room at Casino Del Sol also hosts some of the most exciting poker leagues in Southern Arizona. Live games begin at $2-$4 and cap at $250-$500. We also spread $1-2 No Limit seven days a week. Our friendly staff and great fast-paced action make us the premier place to play poker.",
+     "pokerUrl": "http://casinodelsol.com/tucson-casino/poker"
   },
-  {
-    "name": "BlueWater Resort & Casino",
+  { "name": "BlueWater Resort & Casino",
     "placeId": "ChIJQcP5r76D0YAR0HKIuY75akw",
     "address": "11300 Resort Dr, Parker, AZ 85344, USA",
     "state": "Arizona",
     "phone": "(928) 669-7000",
-    "website": "http://www.bluewaterfun.com/"
+    "website": "http://www.bluewaterfun.com/",
+    "hours": "Poker room hours: 4pm-close (2pm-close Sun. & Wed.)",
+    "hasPoker": "true",
+    "gamesOffered": "Texas hold'em",
+    "description": "If you love a good game of Poker, then the Poker Room at Bluewater is the place for you. You’ll discover an exclusive atmosphere that seats up to 40 players comfortably. We offer a variety of poker tournaments daily for amateur and professional players alike. The payouts and limits for the games vary. Sign up on the board when you arrive at the BlueWater Poker Room to get into the game of your choice. This is Arizona’s only riverside Poker Room, located just off the casino floor." 
+    "Specials": "Daily -  Aces Cracked $40, Royal Flush $200, and Double Points 200 points per hour; Wednesdays - High Hand at 8PM pays $50 Straight Flush, 4 of a kind pays $50; Fridays - Fill the House with Full House Player with a full house will receive $15 in Poker Chips.",
+    "pokerUrl": "http://www.bluewaterfun.com/casino/poker-room-2/"
+
   },
   {
     "name": "Apache Gold Casino, San Carlos",
@@ -30,23 +39,17 @@ var casinoObjArray = [
     "address": "5 US-70, San Carlos, AZ 85550, USA",
     "state": "Arizona",
     "phone": "(928) 475-7800",
-    "website": "http://apache-gold-casino.com/"
+    "website": "http://apache-gold-casino.com/",
+    "hasPoker": "false"
   },
   {
     "name": "Wind Creek, Montgomery",
     "placeId": "ChIJlwnkYvkujIgR9cbtzIJWZgI",
     "address": "1801 Eddie L Tullis Rd, Montgomery, AL 36117, USA",
-	"state": "Alabama",
+	  "state": "Alabama",
     "phone": "(866) 946-3360",
-    "website": "https://www.windcreekmontgomery.com/"
-  },
-  {
-    "name": "Casino Del Sol, Tucson",
-    "placeId": "ChIJVaAtBW541oYRO6Sc0kGuH-U",
-    "address": "5655 W Valencia Rd, Tucson, AZ 85757, USA",
-    "state": "Arizona",
-    "phone": "(855) 765-7829",
-    "website": "http://www.casinodelsolresort.com/"
+    "website": "https://www.windcreekmontgomery.com/",
+    "hasPoker": "false"
   },
   {
     "name": "Buckys Casino",
@@ -54,7 +57,8 @@ var casinoObjArray = [
     "address": "1500 State Route 69, Prescott, AZ 86301, USA",
     "state": "Arizona",
     "phone": "(800) 756-8744",
-    "website": "http://www.buckyscasino.com/"
+    "website": "http://www.buckyscasino.com/",
+    "hasPoker": "false"
   },
   {
     "name": "Wind Creek, Wetumpka",
@@ -62,7 +66,8 @@ var casinoObjArray = [
     "address": "100 River Oaks Dr, Wetumpka, AL 36092, USA",
     "state": "Alabama",
     "phone": "(866) 946-3360",
-    "website": "http://windcreekwetumpka.com/"
+    "website": "http://windcreekwetumpka.com/",
+    "hasPoker": "false"
   },
   {
     "name": "Gila River Casino",
@@ -70,7 +75,13 @@ var casinoObjArray = [
     "address": "5040 Wild Horse Pass Blvd, Chandler, AZ 85226, USA",
     "state": "Arizona",
     "phone": "(800) 946-4452",
-    "website": "https://www.wingilariver.com/"
+    "website": "https://www.wingilariver.com/",
+    "pokerUrl": 
+    "hasPoker": "true",
+    "gamesOffered": "Texas hold'em, Omaha, Stud",
+    "description": "he Poker Room at Wild Horse Pass Hotel and Casino has 25 state of the art Poker tables set in a rich but comfortable environment. Sports enthusiasts will enjoy over 30 TVs including 8 large screens for easy viewing. There is no shortage of action and a wide variety of games for every budget and skill level. Structured and spread limit Holdem and Omaha games are offered. Stud games are available when demand allows. Most games feature a full Kill and Bad Beat Jackpot."
+    "specials": "'Faces Cracked' - Running 5 nights a week every Sunday-Thursday beginning at 11:30pm. For each 60 minute period, be the first to lose with pocket KK, QQ or JJ in Hold'Em and win $100; 'RBI Riches' - During every televised AZ Diamondbacks game, 4 tables will be splashed $50 each for every run scored by either team!; 'Rolling Cash Fever' - Drawings every odd hour 7 days/week; 'Royals Splash' - In any Hold'em or Seven Card Stud game, a player making a Royal flush will receive $100 and that table will be splashed $100 on the next hand!; 'Daily High Hand for Hold'em' - Four qualifying sessions ($100 each): From 6:00am to 7:00am, from 7:00am to 8:00am from 8:00am to 9:00am, from 9:00am to 10:00am.",
+    "pokerUrl": "https://www.wingilariver.com/index.php/wild-horse-pass-hotel-casino/gaming/poker"
   },
   {
     "name": "Harrahs Ak-Chin",
@@ -78,7 +89,11 @@ var casinoObjArray = [
     "address": "15406 N Maricopa Rd, Maricopa, AZ 85139, USA",
     "state": "Arizona",
     "phone": "(480) 802-5000",
-    "website": "https://www.caesars.com/harrahs-ak-chin?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Ak-Chin&utm_content=hotel"
+    "website": "https://www.caesars.com/harrahs-ak-chin?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Ak-Chin&utm_content=hotel",
+    "hasPoker": "true",
+    "gamesOffered": "Texas hold'em, Omaha (& H/L), Stud (& H/L)",
+    "specials": "OPEN-TO-CLOSE: 'Best Hand' - $300 2nd best hand, $200 best hand, $50 per person table share (Hold'em and Omaha); '6-4 High/Low - Cracked wins a Rack' - $100 will be given to the player who loses a hand with a “6-4 low” in Omaha and Stud High/Low games. Minimum of $20 must be in the pot and 4 players. Maximum of three (3) 6-4 H/L Cracked will be paid per day; 'Aces Cracked' - Player must have a pocket pair of Aces and lose the hand in any live raked Texas Hold-Em game. Must have a minimum of four players and $20 in the pot. Prize pool doubles midnight to close; 'Splash pot Bonanza' - Splash pots every half hour at the top and bottom of every hour. Players with missed blinds, more than 10 minutes of lobby time and not playing in the hand prior are not eligible. The first table to open with six players at 9 a.m. weekends or 10 a.m. weekdays receives a double splash pot. Texas Hold-Em: 3-6 = $20, 4-8 = $30, 5-10+ = $40, Omaha or Mix Games: 5-10+ = $25. (Except during any sporting event splash pots); 'Suns NBA Splashes SPLASH POTS!' - Splash pots will be added to every live game when the favored team scores: 25 points = $25 50 points = $50 75 points = $75 100 points = $100 If the favored team wins another $100 splash pot will be added to all live games, if the underdog wins a $200 splash pot will be added to every live game; 'D-Backs Splash Pots' - Multiple televised games per week. Every inning the Diamondbacks score = $50 splash pot If the Diamondbacks win, another $100 splash pot.",
+    "pokerUrl": "https://www.caesars.com/harrahs-ak-chin/casino/poker#.V7okYrUtNaU"
   },
   {
     "name": "Lone Butte Casino",
@@ -86,7 +101,11 @@ var casinoObjArray = [
     "address": "1077 S Kyrene Rd, Chandler, AZ 85226, USA",
     "state": "Arizona",
     "phone": "(800) 946-4452",
-    "website": "http://www.wingilariver.com/"
+    "website": "http://www.wingilariver.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "other": "text"
   },
   {
     "name": "Desert Diamond Casino, West Valley",
@@ -94,7 +113,11 @@ var casinoObjArray = [
     "address": "9431 W Northern Ave, Glendale, AZ 85305, USA",
     "state": "Arizona",
     "phone": "(623) 877-7777",
-    "website": "http://ddcaz.com/west-valley/"
+    "website": "http://ddcaz.com/west-valley/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "other": "text"
   },
   {
     "name": "Vee Quiva Hotel & Casino",
@@ -102,7 +125,11 @@ var casinoObjArray = [
     "address": "15091 Komatke Ln, Laveen Village, AZ 85339, USA",
     "state": "Arizona",
     "phone": "(800) 946-4452",
-    "website": "http://www.wingilariver.com/"
+    "website": "http://www.wingilariver.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "other": "text"
   },
   {
     "name": "Mazatzal Hotel & Casino",
@@ -110,7 +137,11 @@ var casinoObjArray = [
     "address": "AZ-87, Payson, AZ 85541, USA",
     "state": "Arizona",
     "phone": "(928) 474-6044",
-    "website": "http://www.mazatzal-casino.com/index.php/misc/contact"
+    "website": "http://www.mazatzal-casino.com/index.php/misc/contact",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "other": "text"
   },
   {
     "name": "Desert Diamond Casino & Hotel",
@@ -118,7 +149,11 @@ var casinoObjArray = [
     "address": "7350 S Nogales Hwy, Tucson, AZ 85756, USA",
     "state": "Arizona",
     "phone": "(866) 332-9467",
-    "website": "http://www.ddcaz.com/index.php/tucson/Hotel"
+    "website": "http://www.ddcaz.com/index.php/tucson/Hotel",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "other": "text"
   },
   {
     "name": "Fort McDowell Casino",
@@ -126,7 +161,11 @@ var casinoObjArray = [
     "address": "10424 N Fort McDowell Rd, Fort McDowell, AZ 85264, USA",
     "state": "Arizona",
     "phone": "(800) 843-3678",
-    "website": "http://www.fortmcdowellcasino.com/"
+    "website": "http://www.fortmcdowellcasino.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "other": "text"
   },
   {
     "name": "Yavapai Casino",
@@ -134,7 +173,11 @@ var casinoObjArray = [
     "address": "1505 AZ-69, Prescott, AZ 86301, USA",
     "state": "Arizona",
     "phone": "(928) 445-5767",
-    "website": "http://www.buckyscasino.com/"
+    "website": "http://www.buckyscasino.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "other": "text"
   },
   {
     "name": "Talking Stick",
@@ -142,13 +185,21 @@ var casinoObjArray = [
     "address": "9800 Talking Stick Way, Scottsdale, AZ 85256, USA",
     "state": "Arizona",
     "phone": "(480) 850-7777",
-    "website": "http://www.talkingstickresort.com/"
+    "website": "http://www.talkingstickresort.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "other": "text"
   },
   {
     "name": "Agua Caliente Casino, Palm Springs",
     "placeId": "ChIJAQAAAMAE24ARJos-o6dtl74",
     "address": "Palm Springs, CA 92264, USA",
-    "state": "California"
+    "state": "California",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "other": "text"
   },
   {
     "name": "Casino Arizona",
@@ -156,7 +207,11 @@ var casinoObjArray = [
     "address": "524 N 92nd St, Scottsdale, AZ 85256, USA",
     "state": "Arizona",
     "phone": "(480) 850-7777",
-    "website": "http://www.casinoarizona.com/"
+    "website": "http://www.casinoarizona.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "other": "text"
   },
   {
     "name": "Hon-Dah Casino",
@@ -164,7 +219,11 @@ var casinoObjArray = [
     "address": "777 AZ-260, Pinetop, AZ 85935, USA",
     "state": "Arizona",
     "phone": "(928) 369-0299",
-    "website": "http://www.hon-dah.com/"
+    "website": "http://www.hon-dah.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "other": "text"
   },
   {
     "name": "Paradise Casino",
@@ -172,7 +231,11 @@ var casinoObjArray = [
     "address": "450 Quechan Dr, Yuma, AZ 85364, USA",
     "state": "Arizona",
     "phone": "(760) 572-7777",
-    "website": "http://www.paradise-casinos.com/"
+    "website": "http://www.paradise-casinos.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "other": "text"
   },
   {
     "name": "The Aviator Casino",
@@ -180,7 +243,11 @@ var casinoObjArray = [
     "address": "1225 Airport Dr, Delano, CA 93215, USA",
     "state": "California",
     "phone": "(661) 721-7770",
-    "website": "http://theaviatorcasino.com/"
+    "website": "http://theaviatorcasino.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "other": "text"
   },
   {
     "name": "The Clovis 500 Club",
@@ -188,7 +255,11 @@ var casinoObjArray = [
     "address": "771 W Shaw Ave, Clovis, CA 93612, USA",
     "state": "California",
     "phone": "(559) 299-9951",
-    "website": "http://www.500clubcasino.com/"
+    "website": "http://www.500clubcasino.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "other": "text"
   },
   {
     "name": "Augustine Casino",
@@ -196,7 +267,11 @@ var casinoObjArray = [
     "address": "84-001 Avenue 54, Coachella, CA 92236, USA",
     "state": "California",
     "phone": "(760) 391-9500",
-    "website": "http://www.augustinecasino.com/"
+    "website": "http://www.augustinecasino.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "other": "text"
   },
   {
     "name": "Artichoke Joes Casino",
@@ -204,7 +279,11 @@ var casinoObjArray = [
     "address": "659 Huntington Ave, San Bruno, CA 94066, USA",
     "state": "California",
     "phone": "(650) 589-8812",
-    "website": "http://www.artichokejoes.com/"
+    "website": "http://www.artichokejoes.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "other": "text"
   },
   {
     "name": "The 101 Casino",

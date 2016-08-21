@@ -5,20 +5,20 @@ var actions = require('./actions');
 var Link = router.Link;
 
 var Casino = React.createClass({
-	getDetails: function (event, casinoName) {
-				this.props.dispatch(actions.fetchCasinoDetails(casinoName));
+	getDetails: function (event) {
+		var casinoName = this.props.casino.substr(0, this.props.casino.indexOf(':'));
+		casinoName = casinoName.split(',').join('4');
+		casinoName = casinoName.split('&').join('$');
+		casinoName = casinoName.split(' ').join('_');
+		this.props.dispatch(actions.fetchCasinoDetails(casinoName));
 	},
 
   	render: function () {
   		var casino = this.props.casino;
-  		var casinoName = casino.substr(0, casino.indexOf(' - '));
-  		console.log('casinoName', casinoName);
-
-  		var casinoLink = casinoName.match(/[A-Za-z]+/g).join('');
     	return (
 		      	<li className="output-item" key={this.props.casino} >
-			      	<Link to={`/${this.props.list}/${casinoLink}`} onClick={this.getDetails(casinoName)}>
-			      		{this.props.casino}
+			      	<Link to={`/${this.props.list}/${this.props.casino.substr(0, casino.indexOf(': ')).match(/[A-Za-z]+/g).join('')}`} onClick={this.getDetails}>
+			      		{casino}
 			      	</Link>
 		     	</li>
 	    );

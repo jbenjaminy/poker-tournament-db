@@ -38,7 +38,8 @@ var routes = (
         <IndexRoute component={MainContainer}/>
           <Route path=":name">
             <IndexRoute component={CasinoDetails}/>
-              <Route path="/tournaments" component={TournamentInfo}>
+              <Route path=":tournaments">
+                <IndexRoute component={TournamentInfo}/>
               </Route>    
           </Route>
       </Route>

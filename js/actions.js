@@ -21,15 +21,16 @@ var addInput = function(tempLib) {
 
 
 // GET CASINO DETAILS
-var fetchCasinoDetails = function(name) {
+var fetchCasinoDetails = function(casinoName) {
     return function(dispatch) {
-        var url = 'http://localhost:8081/casinos/' + name;
-        var request = { 
+        var url = 'http://localhost:8081/casinos/' + casinoName;
+        var request = {
                 headers: {
                     'Accept': 'application/json',
                     'Content-Type': 'application/json'
                 }
-        };
+            };
+        console.log(url, request, 'url, request')
         return fetch(url, request)
         .then(function(response) {
             if (response.status < 200 || response.status >= 300) {

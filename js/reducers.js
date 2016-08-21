@@ -1,4 +1,5 @@
 var actions = require('./actions');
+var store = require('./store');
 
 var reducer = function(state, action) {
 	state = state || {};
@@ -14,8 +15,9 @@ var reducer = function(state, action) {
 			output: action.tempLib
 			});
 	} else if (action.type === actions.FETCH_CASINO_DETAILS_SUCCESS) {
+		console.log(action.casino[0])
 		return Object.assign({}, state, {
-			casino: action.casino
+			casino: action.casino[0]
 		});
 	} else if (action.type === actions.FETCH_CASINO_DETAILS_ERROR) {
 		return Object.assign({}, state, {
