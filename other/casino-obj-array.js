@@ -15,7 +15,7 @@ var casinoObjArray = [
     "phone": "(800) 344-9435",
     "website": "http://www.casinodelsol.com/",
     "hasPoker": "true",
-    "gamesOffered": "Texas hold'em, Omaha H/L",
+    "gamesOffered": "Texas hold'em, Omaha Hi/Lo",
     "description": "Casino Del Sol offers poker for every skill level and budget. Our poker room features uncapped bad beat jackpots, daily tournaments and the best comp program in Tucson. $1 comp credit for every hour played. The poker room at Casino Del Sol also hosts some of the most exciting poker leagues in Southern Arizona. Live games begin at $2-$4 and cap at $250-$500. We also spread $1-2 No Limit seven days a week. Our friendly staff and great fast-paced action make us the premier place to play poker.",
      "pokerUrl": "http://casinodelsol.com/tucson-casino/poker"
   },
@@ -58,7 +58,12 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(800) 756-8744",
     "website": "http://www.buckyscasino.com/",
-    "hasPoker": "false"
+    "hasPoker": "true",
+    "hours": "24hrs",
+    "description": "We offer more tournaments, promotions and giveaways than any other Poker Room in the State.",
+    "specials": "'Hot Poker Spot Poker' - new side bet! Win money for getting a straight or better; Bad Beat Jackpot; Straight Flush and Royal Flush bonuses; Earn extra tournament chips for playing live.",
+    "pokerUrl": "http://www.buckyscasino.com/table_games.html",
+    "calendarUrl": "http://www.buckyscasino.com/images/MonthlyUpdates/TGCalendar.jpg"
   },
   {
     "name": "Wind Creek, Wetumpka",
@@ -91,7 +96,7 @@ var casinoObjArray = [
     "phone": "(480) 802-5000",
     "website": "https://www.caesars.com/harrahs-ak-chin?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Ak-Chin&utm_content=hotel",
     "hasPoker": "true",
-    "gamesOffered": "Texas hold'em, Omaha (& H/L), Stud (& H/L)",
+    "gamesOffered": "Texas hold'em, Omaha (& Hi/Lo), Stud (& H/L)",
     "specials": "OPEN-TO-CLOSE: 'Best Hand' - $300 2nd best hand, $200 best hand, $50 per person table share (Hold'em and Omaha); '6-4 High/Low - Cracked wins a Rack' - $100 will be given to the player who loses a hand with a “6-4 low” in Omaha and Stud High/Low games. Minimum of $20 must be in the pot and 4 players. Maximum of three (3) 6-4 H/L Cracked will be paid per day; 'Aces Cracked' - Player must have a pocket pair of Aces and lose the hand in any live raked Texas Hold-Em game. Must have a minimum of four players and $20 in the pot. Prize pool doubles midnight to close; 'Splash pot Bonanza' - Splash pots every half hour at the top and bottom of every hour. Players with missed blinds, more than 10 minutes of lobby time and not playing in the hand prior are not eligible. The first table to open with six players at 9 a.m. weekends or 10 a.m. weekdays receives a double splash pot. Texas Hold-Em: 3-6 = $20, 4-8 = $30, 5-10+ = $40, Omaha or Mix Games: 5-10+ = $25. (Except during any sporting event splash pots); 'Suns NBA Splashes SPLASH POTS!' - Splash pots will be added to every live game when the favored team scores: 25 points = $25 50 points = $50 75 points = $75 100 points = $100 If the favored team wins another $100 splash pot will be added to all live games, if the underdog wins a $200 splash pot will be added to every live game; 'D-Backs Splash Pots' - Multiple televised games per week. Every inning the Diamondbacks score = $50 splash pot If the Diamondbacks win, another $100 splash pot.",
     "pokerUrl": "https://www.caesars.com/harrahs-ak-chin/casino/poker#.V7okYrUtNaU"
   },
@@ -102,10 +107,7 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(800) 946-4452",
     "website": "http://www.wingilariver.com/",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "other": "text"
+    "hasPoker": "false"
   },
   {
     "name": "Desert Diamond Casino, West Valley",
@@ -114,10 +116,7 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(623) 877-7777",
     "website": "http://ddcaz.com/west-valley/",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "other": "text"
+    "hasPoker": "false"
   },
   {
     "name": "Vee Quiva Hotel & Casino",
@@ -126,10 +125,11 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(800) 946-4452",
     "website": "http://www.wingilariver.com/",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "other": "text"
+    "hasPoker": "true",
+    "gamesOffered": "Texas hold'em, Omaha (& Hi/Lo), Stud",
+    "description": "Play Poker has 16 state-of-the-art Poker tables set in a rich but comfortable environment. Sports enthusiasts will enjoy 9 large screen TVs for easy viewing in a closed setting. There is no shortage of action and a wide variety of games for every budget and skill level. Structured and spread limit Holdem and Omaha games are offered. Stud games are available when demand allows. Most games feature a full Kill and Bad Beat Jackpot.",
+    "specials": "'Football Splash Bash' - $100 splash pots during NFL and NCAA games for touchdowns, field goals, safetys and more; 'High Hand Promotion' - $100 High Hand every hour from 4am to 9am (Full house minimum qualifer); 'Quads or Better Jackpots' - ($3000 cap for each category; reset each time they're hit) Quads: start at $50, $25 added per day. Straight flushes (1 for each suit): start at $100, $50 added per day. Royal flushes (1 for each suit): start at $200, $50 added per day; 'Bad Beat Jackpots' - Hold'em games: Aces full of 10s or better beaten by four of a kind or better qualifies. 7 Card Stud games: Any four of a kind beaten qualifies for the posted Jackpot amount. Omaha games: Four Jacks or better beaten qualifies for the posted amount. Same break down as Holdem. 'Wheel and Deal': Lose with aces in Hold'em games or flopped set of aces in Omaha games and spin the wheel for up to $300 (Suspended during Sports and Splash Pot promotions)",
+    "pokerUrl": "http://www.wingilariver.com/index.php/vee-quiva-hotel-casino/gaming/poker"
   },
   {
     "name": "Mazatzal Hotel & Casino",
@@ -138,10 +138,7 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(928) 474-6044",
     "website": "http://www.mazatzal-casino.com/index.php/misc/contact",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "other": "text"
+    "hasPoker": "false"
   },
   {
     "name": "Desert Diamond Casino & Hotel",
@@ -150,10 +147,7 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(866) 332-9467",
     "website": "http://www.ddcaz.com/index.php/tucson/Hotel",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "other": "text"
+    "hasPoker": "false"
   },
   {
     "name": "Fort McDowell Casino",
@@ -162,10 +156,12 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(800) 843-3678",
     "website": "http://www.fortmcdowellcasino.com/",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "other": "text"
+    "hasPoker": "true",
+    "hours": "24hrs",
+    "gamesOffered": "Texas hold’em, Omaha (& Hi/Lo), Stud (& Hi/Lo)",
+    "description": "Come test your poker skills in the friendliest poker room in the Phoenix Valley. ",
+    "specials": "'High Hand' - From 9am to 10am and 10am to 11am each hour highest hand gets $75, second highest gets $25; 'Aces Cracked' - 1am to 5pm: aces cracked gets $100 to $1000, 5pm to 1am: aces cracked gets $100 and JJ-KK cracked gets $75 (once each hour); 'Baseball Splash Pots' - $100 when home team scores; 'Royal Flush Jackpots' - $200 for Texas hold’em and Stud games, $100 for Omaha games; '6/4 cracked' - in Omaha Hi/Lo and Stud Hi/Lo wins $100",
+    "pokerUrl": "http://www.fortmcdowellcasino.com/index.php/gaming/cards"
   },
   {
     "name": "Yavapai Casino",
@@ -174,10 +170,12 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(928) 445-5767",
     "website": "http://www.buckyscasino.com/",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "other": "text"
+    "hasPoker": "true",
+    "hours": "24hrs",
+    "description": "We offer more tournaments, promotions and giveaways than any other Poker Room in the State.",
+    "specials": "'Hot Poker Spot Poker' - new side bet! Win money for getting a straight or better; Bad Beat Jackpot; Straight Flush and Royal Flush bonuses; Earn extra tournament chips for playing live.",
+    "pokerUrl": "http://www.buckyscasino.com/table_games.html",
+    "calendarUrl": "http://www.buckyscasino.com/images/MonthlyUpdates/TGCalendar.jpg"
   },
   {
     "name": "Talking Stick",
@@ -186,20 +184,24 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(480) 850-7777",
     "website": "http://www.talkingstickresort.com/",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "other": "text"
+    "hasPoker": "true"
+    "gamesOffered": "Texas hold'em",
+    "description": "Arena Poker Room™ players are now earning more for their play. In the past poker players have earned 100 points per hour of play. Now poker players are earning five times that amount (500 points per hour of play). On top of that, Poker players receive restaurant discounts. Weekday tournaments are on set schedule. Weekend tournaments vary -- see site schedule for details.",
+    "specials": "Bad beat and super bad beat jackpots (currently $5,000 and $125,000, respectively)",
+    "pokerUrl": "http://www.talkingstickresort.com/gaming/poker.aspx"
   },
   {
     "name": "Agua Caliente Casino, Palm Springs",
     "placeId": "ChIJAQAAAMAE24ARJos-o6dtl74",
-    "address": "Palm Springs, CA 92264, USA",
+    "address": "32-250 Bob Hope Drive Rancho Mirage, CA 92270, USA",
     "state": "California",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "other": "text"
+    "phone": "(888) 999-1995 ",
+    "website": "http://www.hotwatercasino.com/home",
+    "hasPoker": "true"
+    "gamesOffered": "Texas hold'em (limit & no limit), Omaha (pot limit)",
+    "description": "Ready to play? Head for the tables! We've got the only live poker room in the valley!",
+    "specials": "'Splash the pot' - Agua Caliente Casino Resort Spa’s Poker Room will $30 in live gaming chips to all live games every half hour throughout the promotional period; 'Hit the flop' - Make a Four of a Kind, Straight Flush, OR Royal Flush while playing Texas Hold’em or Omaha and win! (must use two cards out of your hand and first three cards on the flop)",
+    "pokerUrl": "http://www.hotwatercasino.com/pokerroom"
   },
   {
     "name": "Casino Arizona",
@@ -208,10 +210,7 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(480) 850-7777",
     "website": "http://www.casinoarizona.com/",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "other": "text"
+    "hasPoker": "false"
   },
   {
     "name": "Hon-Dah Casino",
@@ -221,9 +220,8 @@ var casinoObjArray = [
     "phone": "(928) 369-0299",
     "website": "http://www.hon-dah.com/",
     "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "other": "text"
+    "hours": "24/7, 365 days a year",
+    "gamesOffered": "text"
   },
   {
     "name": "Paradise Casino",
@@ -232,10 +230,7 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(760) 572-7777",
     "website": "http://www.paradise-casinos.com/",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "other": "text"
+    "hasPoker": "false"
   },
   {
     "name": "The Aviator Casino",
@@ -244,10 +239,11 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(661) 721-7770",
     "website": "http://theaviatorcasino.com/",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "other": "text"
+    "hasPoker": "true",
+    "gamesOffered": "Texas hold'em, Omaha, Mexican poker, Fortune Pai Gow Poker, Conquian ('Gin' style poker game), 3-card poker",
+    "description": "We offer tournaments and cash games for our customers around the clock",
+    "specials": "Bad beat jackpots; 'Pay for Play' - Every Monday, Friday, and Sunday (5-7pm), recieve $20 in chips when you buy in for $80; recieve $10 in chips when you buy in for $40 (must play a minimum of 2 hours; limited to the first 9 players in qualifying no limit hold'em cash games).",
+    "pokerUrl": "http://theaviatorcasino.com/games/"
   },
   {
     "name": "The Clovis 500 Club",
@@ -259,7 +255,9 @@ var casinoObjArray = [
     "hasPoker": "false",
     "hours": "text",
     "gamesOffered": "text",
-    "other": "text"
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Augustine Casino",
@@ -271,7 +269,9 @@ var casinoObjArray = [
     "hasPoker": "false",
     "hours": "text",
     "gamesOffered": "text",
-    "other": "text"
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Artichoke Joes Casino",
@@ -283,7 +283,9 @@ var casinoObjArray = [
     "hasPoker": "false",
     "hours": "text",
     "gamesOffered": "text",
-    "other": "text"
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "The 101 Casino",
@@ -291,7 +293,13 @@ var casinoObjArray = [
     "address": "5151 Montero Way, Petaluma, CA 94954, USA",
     "state": "California",
     "phone": "(707) 795-6121",
-    "website": "http://the101casino.com/"
+    "website": "http://the101casino.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Bankers Casino",
@@ -299,7 +307,13 @@ var casinoObjArray = [
     "address": "111 Monterey St, Salinas, CA 93901, USA",
     "state": "California",
     "phone": "(831) 422-6666",
-    "website": "http://www.bankerscasino.net/"
+    "website": "http://www.bankerscasino.net/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Agua Caliente Casino, Rancho Mirage",
@@ -307,7 +321,13 @@ var casinoObjArray = [
     "address": "32-250 Bob Hope Dr, Rancho Mirage, CA 92270, USA",
     "state": "California",
     "phone": "(760) 321-2000",
-    "website": "http://www.hotwatercasino.com/"
+    "website": "http://www.hotwatercasino.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Cameo Club Casino",
@@ -315,7 +335,13 @@ var casinoObjArray = [
     "address": "552 W Benjamin Holt Dr, Stockton, CA 95207, USA",
     "state": "California",
     "phone": "(209) 474-1777",
-    "website": "http://www.cameoclubcasino.com/"
+    "website": "http://www.cameoclubcasino.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Black Oak Casino",
@@ -323,7 +349,13 @@ var casinoObjArray = [
     "address": "19400 Tuolumne Rd N, Tuolumne, CA 95379, USA",
     "state": "California",
     "phone": "(877) 747-8777",
-    "website": "http://www.blackoakcasino.com/"
+    "website": "http://www.blackoakcasino.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Bay 101",
@@ -331,20 +363,38 @@ var casinoObjArray = [
     "address": "1801 Bering Dr, San Jose, CA 95112, USA",
     "state": "California",
     "phone": "(408) 451-8888",
-    "website": "http://www.bay101.com/"
+    "website": "http://www.bay101.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Black Sheep Casino",
     "placeId": "ChIJuyfA04v5moARUv30tCBCAg0",
     "address": "3181 Cameron Park Dr, Cameron Park, CA 95682, USA",
     "state": "California",
-    "website": "http://www.blacksheepcasino.com/"
+    "website": "http://www.blacksheepcasino.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Casino Real",
     "placeId": "ChIJqdcs-EAgjoARW8Gv8zp9QeE",
     "address": "Casino Real, Morgan Hill, CA 95037, USA",
-    "state": "California"
+    "state": "California",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Casino Marysville",
@@ -352,26 +402,50 @@ var casinoObjArray = [
     "address": "515 4th St, Marysville, CA 95901, USA",
     "state": "California",
     "phone": "(530) 743-4120",
-    "website": "http://www.casinomarysville.com/"
+    "website": "http://www.casinomarysville.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Comstock Card Room",
     "placeId": "ChIJSTCmbjw9kIARhbnIkEt3tlA",
     "address": "125 W 11th St, Tracy, CA 95376, USA",
     "state": "California",
-    "phone": "(866) 922-7543"
+    "phone": "(866) 922-7543",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Delta Club",
     "placeId": "ChIJPyp3pilMhYARsuEiPCY4RXY",
     "address": "1000 Summerset Dr, Rio Vista, CA 94571, USA",
-    "state": "California"
+    "state": "California",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Deuces Wild Casino",
     "placeId": "ChIJAdW8AEIFm4ARpDYZX11K7q8",
     "address": "13483 Bowman Rd, Auburn, CA 95603, USA",
-    "state": "California"
+    "state": "California",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Central Coast Casino",
@@ -379,13 +453,25 @@ var casinoObjArray = [
     "address": "359 W Grand Ave, Grover Beach, CA 93433, USA",
     "state": "California",
     "phone": "(805) 474-8500",
-    "website": "http://www.slopoker.com/"
+    "website": "http://www.slopoker.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "El Resbalon",
     "placeId": "ChIJi5WvWbE5lYARXTxryrLzBmo",
     "address": "154 N Valencia Blvd, Woodlake, CA 93286, USA",
-    "state": "California"
+    "state": "California",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Club Caribe",
@@ -393,14 +479,26 @@ var casinoObjArray = [
     "address": "1001 S 1st St, San Jose, CA 95110, USA",
     "state": "California",
     "phone": "(408) 297-7272",
-    "website": "https://www.facebook.com/ClubCaribeDeSanJose"
+    "website": "https://www.facebook.com/ClubCaribeDeSanJose",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Glorias Lounge & Card Room",
     "placeId": "ChIJMzNcIX7YlIARjHrzYdMcbLE",
     "address": "30435 Drive 68, Visalia, CA 93291, USA",
     "state": "California",
-    "phone": "(559) 651-2516"
+    "phone": "(559) 651-2516",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Desert Rose Casino",
@@ -408,7 +506,13 @@ var casinoObjArray = [
     "address": "901 Co Rd 56, Alturas, CA 96101, USA",
     "state": "California",
     "phone": "(530) 233-3141",
-    "website": "http://desertrosecasino.net/"
+    "website": "http://desertrosecasino.net/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Diamonds Jims Casino",
@@ -416,7 +520,13 @@ var casinoObjArray = [
     "address": "118 20th St W, Rosamond, CA 93560, USA",
     "state": "California",
     "phone": "(661) 256-1400",
-    "website": "http://www.diamondjimscasino.net/"
+    "website": "http://www.diamondjimscasino.net/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Empire Sportsmen Association",
@@ -424,7 +534,13 @@ var casinoObjArray = [
     "address": "5001 McHenry Ave, Modesto, CA 95356, USA",
     "state": "California",
     "phone": "(209) 522-8400",
-    "website": "http://modestopokerroom.yolasite.com"
+    "website": "http://modestopokerroom.yolasite.com",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Eagle Mountain Casino",
@@ -432,13 +548,25 @@ var casinoObjArray = [
     "address": "681 South Tule Road, Porterville, CA 93257, USA",
     "state": "California",
     "phone": "(800) 903-3353",
-    "website": "http://www.eaglemtncasino.com/"
+    "website": "http://www.eaglemtncasino.com/",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Golden State Casino",
     "placeId": "ChIJoylkQhRSm4ARDf0rMO8Wnic",
     "address": "5402 Lindhurst Ave, Marysville, CA 95901, USA",
-    "state": "California"
+    "state": "California",
+    "hasPoker": "false",
+    "hours": "text",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerUrl": ""
   },
   {
     "name": "Garlic City Casino & Restaurant",

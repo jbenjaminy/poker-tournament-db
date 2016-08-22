@@ -100,7 +100,8 @@ app.post('/casinos', jsonParser, function(request, response) {
             games_offered: casino.gamesOffered,
             description: casino.description,
             specials: casino.specials,
-            poker_url: casino.pokerUrl
+            poker_url: casino.pokerUrl,
+            calendar_url: casino.calendarUrl
             })
             .returning('id')
             .into('casinos')
@@ -135,6 +136,7 @@ app.post('/tournaments', jsonParser, function(request, response) {
             rebuy: tournaments.rebuy,
             add_on: tournaments.addOn,
             bounty: tournaments.bounty,
+            reentry: tournaments.reentry,
             prize_gtd: tournaments.prizeGtd,
             other: tournaments.other
             })

@@ -11,7 +11,8 @@ create table if not exists casinos (
 	games_offered text,
 	description text,
 	specials text,
-	poker_url text
+	poker_url text,
+	calendar_url text
 );
 
 create table if not exists tournaments (
@@ -27,6 +28,7 @@ create table if not exists tournaments (
 	rebuy text,
 	add_on text,
 	bounty text,
+	reentry text,
 	prize_gtd text,
 	other text
 );
