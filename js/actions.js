@@ -30,7 +30,6 @@ var fetchCasinoDetails = function(casinoName) {
                     'Content-Type': 'application/json'
                 }
             };
-        console.log(url, request, 'url, request')
         return fetch(url, request)
         .then(function(response) {
             if (response.status < 200 || response.status >= 300) {

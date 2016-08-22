@@ -15,7 +15,6 @@ var reducer = function(state, action) {
 			output: action.tempLib
 			});
 	} else if (action.type === actions.FETCH_CASINO_DETAILS_SUCCESS) {
-		console.log(action.casino[0])
 		return Object.assign({}, state, {
 			casino: action.casino[0]
 		});

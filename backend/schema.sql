@@ -7,6 +7,7 @@ create table if not exists casinos (
 	phone text,
 	website text,
 	hours text,
+	-- add has_slots, has_blackjack, etc.
 	has_poker Boolean,
 	games_offered text,
 	description text,

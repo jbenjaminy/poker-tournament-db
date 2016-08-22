@@ -41,7 +41,6 @@ var tourneyObjArray = [
             "rebuy": "$20 (1)",
             "bounty": "yes",
             "other": "Get early bird chips by playing in the live game at 4pm. 300 chips per hour (900 chips max)."
-            
       },
       {     "casinoId": "4",
             "name": "Bounty No Limit Hold'em Tournament",

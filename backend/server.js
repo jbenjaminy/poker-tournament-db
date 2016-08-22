@@ -34,12 +34,11 @@ app.get('/casinos/:name', jsonParser, function(request, response) {
         .from('casinos')
         .where({name: name})
         .then(function(casinoDetails) {
-            console.log('get casino details success');
-            console.log('casino details: ', casinoDetails);
+            // console.log('get casino details success');
             return response.json(casinoDetails);
         })
         .catch(function(error) {
-            console.log('get casino details error');
+            // console.log('get casino details error');
             response.sendStatus(500);
         });
 });
@@ -54,12 +53,11 @@ app.get('/casinos/:id/tournaments', jsonParser, function(request, response) {
         .where({casino_id: casino_id})
         .orderBy('id')
         .then(function(tournaments) {
-            console.log('get tournament info success');
-            console.log('tournament info: ', tournaments);
+            // console.log('get tournament info success');
             return response.json(tournaments);
         })
         .catch(function(error) {
-            console.log('get tournament info error');
+            // console.log('get tournament info error');
             return response.sendStatus(500);
         });
 });
@@ -71,12 +69,11 @@ app.get('/casinos', jsonParser, function(request, response) {
         .from('casinos')
         .orderBy('id')
         .then(function(casinoDetails) {
-            console.log('get casino details success');
-            console.log('casino details: ', casinoDetails);
+            // console.log('get casino details success');
             return response.json(casinoDetails);
         })
         .catch(function(error) {
-            console.log('get casino details error');
+            // console.log('get casino details error');
             response.sendStatus(500);
         });
 });
