@@ -1,4 +1,5 @@
 var tourneyObjArray = [
+/* "Casino del Sol" */
       {     "casinoId": "9",
             "name": "Deep Stack No Limit Hold'em Tournament",
             "day": "Thursdays",
@@ -30,6 +31,7 @@ var tourneyObjArray = [
             "rebuy": "no",
             "addOn": "no"
       },
+/* "BlueWater Resort & Casino" */
       {     "casinoId": "4",
             "name": "Bounty No Limit Hold'em Tournament",
             "day": "Tuesdays",
@@ -51,6 +53,7 @@ var tourneyObjArray = [
             "bounty": "yes",
             "other": "Get early bird chips by playing in the live game at 4pm. 500 chips per hour (1500 chips max). "
       },
+/* "Gila River Casino" */
       {     "casinoId": "1",
             "name": "No Limit Hold’em Tournament",
             "day": "Mondays, Tuesdays, Wednesdays, Thursdays",
@@ -84,6 +87,7 @@ var tourneyObjArray = [
             "prizeGtd": "$5000",
             "other": "Takes place every two weeks; To enter-be one of the top 120 players with at least 20 hours played in a two week time period."
       },
+/* "Harrahs Ak-Chin" */
       {     "casinoId": "6",
             "name": "No Limit Hold ‘Em Tournament",
             "day": "Sundays",
@@ -144,6 +148,7 @@ var tourneyObjArray = [
             "prizeGtd": "$1,500",
             "other": "Minimum of 20 players needed to run tournament; Winner receives $1,500 seat at the Rio Las Vegas WSOP 2016 & $250 in cash."
       },
+/* "Vee Quiva Hotel & Casino" */
       {     "casinoId": "12",
             "name": "Oh Ma's Hot",
             "day": "Tuesdays",
@@ -194,6 +199,7 @@ var tourneyObjArray = [
             "buyin": "$40 (+ $10 optional staff fee)",
             "other": "Early bird chips available; Tournament of Champions eligible."
       },
+/* "Fort McDowell Casino" */
       {     "casinoId": "15",
             "name": "No Limit Hold'em Tournament",
             "day": "Mondays, Wednesdays, Thursdays, Fridays",
@@ -289,6 +295,7 @@ var tourneyObjArray = [
             "buyin": "$5 - 3,000 chips",
             "rebuy": "$5"
       },
+/* "Buckys Casino" */
       {     "casinoId": "5",
             "name": "Shootout Tournament",
             "day": "Mondays, Tuesdays, Wednesdays, Thursdays",
@@ -310,6 +317,7 @@ var tourneyObjArray = [
             "game": "NLH",
             "buyin": "$100"
       },
+/* "Yavapai Casino" */
       {     "casinoId": "16",
             "name": "Shootout Tournament",
             "day": "Mondays, Tuesdays, Wednesdays, Thursdays",
@@ -331,6 +339,7 @@ var tourneyObjArray = [
             "game": "NLH",
             "buyin": "$100"
       },
+/* "Talking Stick" */
       {     "casinoId": "17",
             "name": "No Limit Hold'em Tournament",
             "day": "Mondays, Tuesdays, Wednesdays, Thursdays, Fridays",
@@ -364,6 +373,7 @@ var tourneyObjArray = [
             "buyin": "$200 - 10,000 chips",
             "other": "Blinds start at 50/100 and double every round; 20 min rounds."
       },
+      /* "Agua Caliente Casino, Palm Springs" */
       {     "casinoId": "18",
             "name": "Daily Poker Tournament",
             "day": "Saturdays",
@@ -412,6 +422,7 @@ var tourneyObjArray = [
             "prizeGtd": "$3,000 (First Place: $960.00, Second Place: $660.00, Third Place: $405.00, Fourth Place: $300.00, Fifth Place: $225.00, Sixth Place: $180.00, Seventh Place: $150.00, Eighth Place: $120.00)",
             "other": "To qualify for and participate in these tournaments, a participant must have played a minimum of twenty (20) recorded hours in the Agua Caliente Casino Resort Spa Poker Room in the month previous to the month of the tournament. After a player has achieved his or her 20 hours of play for the month, the player must notify a floor supervisor that he or she would like to register to play in the coming free roll poker tournament. They may choose only one of the two time spots to play in (limited to the first 120 qualifying players per event). Players that finish in one of the top ten places on any free roll tournament will be entered to play in our Anniversary Poker Tournament in April 2017. Tournament participants will be provided a buffet style of food available in the poker room. Serving times will be from 10:30am to 2:30pm and again from 5pm to 9pm."
       },
+/* "The Aviator Casino" */
       {     "casinoId": "22",
             "name": "Mexican Poker Tournament",
             "day": "Wednesdays",

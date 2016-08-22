@@ -59,6 +59,7 @@ var casinoObjArray = [
     "phone": "(800) 756-8744",
     "website": "http://www.buckyscasino.com/",
     "hasPoker": "true",
+    "gamesOffered": "Texas hold'em",
     "hours": "24hrs",
     "description": "We offer more tournaments, promotions and giveaways than any other Poker Room in the State.",
     "specials": "'Hot Poker Spot Poker' - new side bet! Win money for getting a straight or better; Bad Beat Jackpot; Straight Flush and Royal Flush bonuses; Earn extra tournament chips for playing live.",
