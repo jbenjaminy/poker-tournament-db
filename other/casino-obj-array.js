@@ -28,7 +28,7 @@ var casinoObjArray = [
     "hours": "Poker room hours: 4pm-close (2pm-close Sun. & Wed.)",
     "hasPoker": "true",
     "gamesOffered": "Texas hold'em",
-    "description": "If you love a good game of Poker, then the Poker Room at Bluewater is the place for you. You’ll discover an exclusive atmosphere that seats up to 40 players comfortably. We offer a variety of poker tournaments daily for amateur and professional players alike. The payouts and limits for the games vary. Sign up on the board when you arrive at the BlueWater Poker Room to get into the game of your choice. This is Arizona’s only riverside Poker Room, located just off the casino floor." 
+    "description": "If you love a good game of Poker, then the Poker Room at Bluewater is the place for you. You’ll discover an exclusive atmosphere that seats up to 40 players comfortably. We offer a variety of poker tournaments daily for amateur and professional players alike. The payouts and limits for the games vary. Sign up on the board when you arrive at the BlueWater Poker Room to get into the game of your choice. This is Arizona’s only riverside Poker Room, located just off the casino floor.", 
     "Specials": "Daily -  Aces Cracked $40, Royal Flush $200, and Double Points 200 points per hour; Wednesdays - High Hand at 8PM pays $50 Straight Flush, 4 of a kind pays $50; Fridays - Fill the House with Full House Player with a full house will receive $15 in Poker Chips.",
     "pokerUrl": "http://www.bluewaterfun.com/casino/poker-room-2/"
 
@@ -81,10 +81,9 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(800) 946-4452",
     "website": "https://www.wingilariver.com/",
-    "pokerUrl": 
     "hasPoker": "true",
     "gamesOffered": "Texas hold'em, Omaha, Stud",
-    "description": "he Poker Room at Wild Horse Pass Hotel and Casino has 25 state of the art Poker tables set in a rich but comfortable environment. Sports enthusiasts will enjoy over 30 TVs including 8 large screens for easy viewing. There is no shortage of action and a wide variety of games for every budget and skill level. Structured and spread limit Holdem and Omaha games are offered. Stud games are available when demand allows. Most games feature a full Kill and Bad Beat Jackpot."
+    "description": "he Poker Room at Wild Horse Pass Hotel and Casino has 25 state of the art Poker tables set in a rich but comfortable environment. Sports enthusiasts will enjoy over 30 TVs including 8 large screens for easy viewing. There is no shortage of action and a wide variety of games for every budget and skill level. Structured and spread limit Holdem and Omaha games are offered. Stud games are available when demand allows. Most games feature a full Kill and Bad Beat Jackpot.",
     "specials": "'Faces Cracked' - Running 5 nights a week every Sunday-Thursday beginning at 11:30pm. For each 60 minute period, be the first to lose with pocket KK, QQ or JJ in Hold'Em and win $100; 'RBI Riches' - During every televised AZ Diamondbacks game, 4 tables will be splashed $50 each for every run scored by either team!; 'Rolling Cash Fever' - Drawings every odd hour 7 days/week; 'Royals Splash' - In any Hold'em or Seven Card Stud game, a player making a Royal flush will receive $100 and that table will be splashed $100 on the next hand!; 'Daily High Hand for Hold'em' - Four qualifying sessions ($100 each): From 6:00am to 7:00am, from 7:00am to 8:00am from 8:00am to 9:00am, from 9:00am to 10:00am.",
     "pokerUrl": "https://www.wingilariver.com/index.php/wild-horse-pass-hotel-casino/gaming/poker"
   },
@@ -184,7 +183,7 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(480) 850-7777",
     "website": "http://www.talkingstickresort.com/",
-    "hasPoker": "true"
+    "hasPoker": "true",
     "gamesOffered": "Texas hold'em",
     "description": "Arena Poker Room™ players are now earning more for their play. In the past poker players have earned 100 points per hour of play. Now poker players are earning five times that amount (500 points per hour of play). On top of that, Poker players receive restaurant discounts. Weekday tournaments are on set schedule. Weekend tournaments vary -- see site schedule for details.",
     "specials": "Bad beat and super bad beat jackpots (currently $5,000 and $125,000, respectively)",
@@ -197,7 +196,7 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(888) 999-1995 ",
     "website": "http://www.hotwatercasino.com/home",
-    "hasPoker": "true"
+    "hasPoker": "true",
     "gamesOffered": "Texas hold'em (limit & no limit), Omaha (pot limit)",
     "description": "Ready to play? Head for the tables! We've got the only live poker room in the valley!",
     "specials": "'Splash the pot' - Agua Caliente Casino Resort Spa’s Poker Room will $30 in live gaming chips to all live games every half hour throughout the promotional period; 'Hit the flop' - Make a Four of a Kind, Straight Flush, OR Royal Flush while playing Texas Hold’em or Omaha and win! (must use two cards out of your hand and first three cards on the flop)",
@@ -245,6 +244,7 @@ var casinoObjArray = [
     "specials": "Bad beat jackpots; 'Pay for Play' - Every Monday, Friday, and Sunday (5-7pm), recieve $20 in chips when you buy in for $80; recieve $10 in chips when you buy in for $40 (must play a minimum of 2 hours; limited to the first 9 players in qualifying no limit hold'em cash games).",
     "pokerUrl": "http://theaviatorcasino.com/games/"
   },
+// TODO: CONTINUE ADDING TO THE DB HERE
   {
     "name": "The Clovis 500 Club",
     "placeId": "ChIJpyj6XIFclIARh04ciD7-NRE",

@@ -1,5 +1,5 @@
 var tourneyObjArray = [
-      {     "casinoId": "Casino del Sol",
+      {     "casinoId": "9",
             "name": "Deep Stack No Limit Hold'em Tournament",
             "day": "Thursdays",
             "tourneyStart": "7pm",
@@ -10,7 +10,7 @@ var tourneyObjArray = [
             "prizeGtd": "$5,000",
             "other": "WPT DEEP STACKS Main Event Qualifier"
       },
-      {     "casinoId": "Casino del Sol",
+      {     "casinoId": "9",
             "name": "Limit Omaha Hi/Lo Tournament",
             "day": "Saturdays",
             "tourneyStart": "9am",
@@ -21,7 +21,7 @@ var tourneyObjArray = [
             "prizeGtd": "$300 House Added Cash",
             "other": "Limited to 50 players."
       },
-      {     "casinoId": "Casino del Sol",
+      {     "casinoId": "9",
             "name": "No Limit Hold'em Tournament",
             "day": "Sundays",
             "tourneyStart": "11am",
@@ -30,7 +30,7 @@ var tourneyObjArray = [
             "rebuy": "no",
             "addOn": "no"
       },
-      {     "casinoId": "BlueWater Resort & Casino",
+      {     "casinoId": "4",
             "name": "Bounty No Limit Hold'em Tournament",
             "day": "Tuesdays",
             "tourneyStart": "7pm",
@@ -38,10 +38,10 @@ var tourneyObjArray = [
             "buyin": "$35",
             "rebuy": "$20 (1)",
             "bounty": "yes",
-            "other": "Get early bird chips by playing in the live game at 4pm. 300 chips per hour (900 chips max).",
+            "other": "Get early bird chips by playing in the live game at 4pm. 300 chips per hour (900 chips max)."
             
       },
-      {     "casinoId": "BlueWater Resort & Casino",
+      {     "casinoId": "4",
             "name": "Bounty No Limit Hold'em Tournament",
             "day": "Thursdays",
             "tourneyStart": "7pm",
@@ -51,7 +51,7 @@ var tourneyObjArray = [
             "bounty": "yes",
             "other": "Get early bird chips by playing in the live game at 4pm. 500 chips per hour (1500 chips max). "
       },
-      {     "casinoId": "Gila River Casino",
+      {     "casinoId": "1",
             "name": "No Limit Hold’em Tournament",
             "day": "Mondays, Tuesdays, Wednesdays, Thursdays",
             "tourneyStart": "12pm",
@@ -59,7 +59,7 @@ var tourneyObjArray = [
             "game": "NLH",
             "buyin": "$30 - 1,500 chips"
       },
-      {     "casinoId": "Gila River Casino",
+      {     "casinoId": "1",
             "name": "No Limit Hold’em Tournament",
             "day": "Tuesdays, Wednesdays",
             "tourneyStart": "7:30pm",
@@ -67,14 +67,14 @@ var tourneyObjArray = [
             "buyin": "$50",
             "other": "Limited to 100 participants"
       },
-      {     "casinoId": "Gila River Casino",
+      {     "casinoId": "1",
             "name": "No Limit Hold’em Tournament",
             "day": "Sundays",
             "tourneyStart": "3:30pm",
             "game": "NLH",
             "buyin": "$30 - 1,500 chips"
       },
-      {     "casinoId": "Gila River Casino",
+      {     "casinoId": "1",
             "name": "Bi-Weekly Free Roll Tournament",
             "day": "Saturdays",
             "tourneyStart": "11am",
@@ -84,7 +84,7 @@ var tourneyObjArray = [
             "prizeGtd": "$5000",
             "other": "Takes place every two weeks; To enter-be one of the top 120 players with at least 20 hours played in a two week time period."
       },
-      {     "casinoId": "Harrahs Ak-Chin",
+      {     "casinoId": "6",
             "name": "No Limit Hold ‘Em Tournament",
             "day": "Sundays",
             "tourneyStart": "12:30pm",
@@ -93,7 +93,7 @@ var tourneyObjArray = [
             "addOn": "$10 (2) - 2,000 chips each",
             "other": "Early bird chips are available for players playing up to three hours of live play, either before or after tournament (1 hour: 1,000 chips  2 hours: 2,500 chips  3 hours: 4,000 chips)."
       },
-      {     "casinoId": "Harrahs Ak-Chin",
+      {     "casinoId": "6",
             "name": "Monday Madness",
             "day": "Mondays",
             "tourneyStart": "7:30pm",
@@ -103,7 +103,7 @@ var tourneyObjArray = [
             "addOn": "$10 (2) - 2,000 chips each",
             "other": "$50 added to prize pool per table."
       },
-      {     "casinoId": "Harrahs Ak-Chin",
+      {     "casinoId": "6",
             "name": "No Limit Hold'Em Tournament",
             "day": "Saturdays",
             "tourneyStart": "12:30pm",
@@ -114,7 +114,7 @@ var tourneyObjArray = [
             "prizeGtd": "$500",
             "other": "Minimum of five players to hold tournament. Early bird chips are available for players playing up to three hours of live play, either before or after tournament (1 hour: 1,000 chips  2 hours: 2,500 chips  3 hours: 4,000 chips)."
       },
-      {     "casinoId": "Harrahs Ak-Chin",
+      {     "casinoId": "6",
             "name": "No Limit Hold'Em Tournament",
             "day": "Thursdays",
             "tourneyStart": "5:30pm",
@@ -124,7 +124,7 @@ var tourneyObjArray = [
             "addOn": "$10 (2) - 3,000 chips each",
             "other": "Early bird chips are available for players playing up to three hours of live play, either before or after tournament (1 hour: 1,000 chips  2 hours: 2,500 chips  3 hours: 4,000 chips)."
       },
-      {     "casinoId": "Harrahs Ak-Chin",
+      {     "casinoId": "6",
             "name": "World Series of Poker Qualifier",
             "day": "Wednesdays",
             "tourneyStart": "7:30pm",
@@ -133,7 +133,7 @@ var tourneyObjArray = [
             "prizeGtd": "$1,000",
             "other": "Minimum of 20 players needed to run tournament; Winner receives $1,000 WSOP seat plus $200 cash ($1,000 cash option for 1st place winner in lue of WSOP seat)."
       },
-      {     "casinoId": "Harrahs Ak-Chin",
+      {     "casinoId": "6",
             "name": "WSOP Satellite Event",
             "day": "Sundays",
             "tourneyStart": "5:30pm",
@@ -144,7 +144,7 @@ var tourneyObjArray = [
             "prizeGtd": "$1,500",
             "other": "Minimum of 20 players needed to run tournament; Winner receives $1,500 seat at the Rio Las Vegas WSOP 2016 & $250 in cash."
       },
-      {     "casinoId": "Vee Quiva Hotel & Casino",
+      {     "casinoId": "12",
             "name": "Oh Ma's Hot",
             "day": "Tuesdays",
             "tourneyStart": "7:30pm",
@@ -152,14 +152,14 @@ var tourneyObjArray = [
             "buyin": "$40 (+ optional $10 staff fee for additional chips)",
             "other": "Top 10 players cash; Early bird chips available; Tournament of Champions eligible."
       },
-      {     "casinoId": "Vee Quiva Hotel & Casino",
+      {     "casinoId": "12",
             "name": "Quarterly Tournament of Champions Freeroll",
             "day": "Saturdays, four times annually",
             "game": "NLH",
             "buyin": "$10 optional staff fee - 3,000 chips (see qualification details below)",
             "other": "Place first or second in one of the weekly Tournaments or log most hours played live in a week and win an invitation to the next Tournament of Champions Freeroll."
       },
-      {     "casinoId": "Vee Quiva Hotel & Casino",
+      {     "casinoId": "12",
             "name": "Monthly Super Stack",
             "day": "Saturdays, first each month",
             "tourneyStart": "12:15pm",
@@ -168,7 +168,7 @@ var tourneyObjArray = [
             "prizeGtd": "$5,000",
             "other": "Early bird chips available; Tournament of Champions eligible."
       },
-      {     "casinoId": "Vee Quiva Hotel & Casino",
+      {     "casinoId": "12",
             "name": "Big Stack",
             "day": "Saturdays",
             "tourneyStart": "11:15am",
@@ -177,7 +177,7 @@ var tourneyObjArray = [
             "addOn": "$20",
             "other": "Early bird chips available; Tournament of Champions eligible."
       },
-      {     "casinoId": "Vee Quiva Hotel & Casino",
+      {     "casinoId": "12",
             "name": "Sunday Brunch",
             "day": "Sundays",
             "tourneyStart": "11:15am",
@@ -186,7 +186,7 @@ var tourneyObjArray = [
             "addOn": "$20",
             "other": "Early bird chips available; Tournament of Champions eligible."
       },
-      {     "casinoId": "Vee Quiva Hotel & Casino",
+      {     "casinoId": "12",
             "name": "Hump Day Freezeout",
             "day": "Wednesdays",
             "tourneyStart": "7:15pm",
@@ -194,7 +194,7 @@ var tourneyObjArray = [
             "buyin": "$40 (+ $10 optional staff fee)",
             "other": "Early bird chips available; Tournament of Champions eligible."
       },
-      {     "casinoId": "Fort McDowell Casino",
+      {     "casinoId": "15",
             "name": "No Limit Hold'em Tournament",
             "day": "Mondays, Wednesdays, Thursdays, Fridays",
             "tourneyStart": "12pm",
@@ -202,7 +202,7 @@ var tourneyObjArray = [
             "buyin": "$30 - 10,000 chips",
             "addOn": "$20"
       },
-      {     "casinoId": "Fort McDowell Casino",
+      {     "casinoId": "15",
             "name": "Omaha Hi/Lo Tournament",
             "day": "Mondays",
             "tourneyStart": "7pm",
@@ -210,14 +210,14 @@ var tourneyObjArray = [
             "buyin": "$5 - 3,000 chips",
             "rebuy": "$5"
       },
-      {     "casinoId": "Fort McDowell Casino",
+      {     "casinoId": "15",
             "name": "Omaha Hi/Lo Tournament",
             "day": "Tuesdays",
             "tourneyStart": "12pm",
             "game": "Omaha Hi/Lo",
             "buyin": "$40 - 10,000 chips"
       },
-      {     "casinoId": "Fort McDowell Casino",
+      {     "casinoId": "15",
             "name": "No Limit Hold'em Tournament",
             "day": "Tuesdays, Thursdays",
             "tourneyStart": "7pm",
@@ -225,7 +225,7 @@ var tourneyObjArray = [
             "buyin": "$5 - 3,000",
             "rebuy": "$5"
       },
-      {     "casinoId": "Fort McDowell Casino",
+      {     "casinoId": "15",
             "name": "No Limit Hold'em Tournament",
             "day": "Wednesdays",
             "tourneyStart": "7pm",
@@ -233,7 +233,7 @@ var tourneyObjArray = [
             "buyin": "$10 - 3,000 chips",
             "rebuy": "$5"
       },
-      {     "casinoId": "Fort McDowell Casino",
+      {     "casinoId": "15",
             "name": "No Limit Hold'em Tournament",
             "day": "Fridays",
             "tourneyStart": "7pm",
@@ -241,7 +241,7 @@ var tourneyObjArray = [
             "buyin": "$60 - 10,000",
             "addOn": "$10"
       },
-      {     "casinoId": "Fort McDowell Casino",
+      {     "casinoId": "15",
             "name": "No Limit Hold'em Tournament",
             "day": "Saturdays",
             "tourneyStart": "12pm",
@@ -249,14 +249,14 @@ var tourneyObjArray = [
             "buyin": "$5 - 3,000 chips",
             "rebuy": "$5"
       },
-      {     "casinoId": "Fort McDowell Casino",
+      {     "casinoId": "15",
             "name": "Omaha Hi/Lo Tournament",
             "day": "Saturdays",
             "tourneyStart": "4pm",
             "game": "Omaha Hi/Lo",
             "buyin": "$40 - 10,000 chips"
       },
-      {     "casinoId": "Fort McDowell Casino",
+      {     "casinoId": "15",
             "name": "No Limit Hold'em Tournament",
             "day": "Saturdays",
             "tourneyStart": "7pm",
@@ -264,16 +264,16 @@ var tourneyObjArray = [
             "buyin": "$50 - 15,000 chips",
             "addOn": "$20"
       },
-      {     "casinoId": "Fort McDowell Casino",
+      {     "casinoId": "15",
             "name": "Ladies Event, No Limit Hold'em Tournament",
             "day": "Sundays (select dates: 9/18, 10/16, 11/13, 12/11)",
             "tourneyStart": "10am",
             "game": "NLH",
             "buyin": "$60 - 10,000 chips",
-            "addOn": "$10"
+            "addOn": "$10",
             "other": "Women only"
       },
-      {     "casinoId": "Fort McDowell Casino",
+      {     "casinoId": "15",
             "name": "No Limit Hold'em Tournament",
             "day": "Sundays",
             "tourneyStart": "12pm",
@@ -281,7 +281,7 @@ var tourneyObjArray = [
             "buyin": "$10 - 3,000 chips",
             "rebuy": "$5"
       },
-      {     "casinoId": "Fort McDowell Casino",
+      {     "casinoId": "15",
             "name": "No Limit Hold'em Tournament",
             "day": "Sundays",
             "tourneyStart": "7pm",
@@ -289,49 +289,49 @@ var tourneyObjArray = [
             "buyin": "$5 - 3,000 chips",
             "rebuy": "$5"
       },
-      {     "casinoId": "Buckys Casino",
+      {     "casinoId": "5",
             "name": "Shootout Tournament",
             "day": "Mondays, Tuesdays, Wednesdays, Thursdays",
             "tourneyStart": "10am",
             "game": "NLH",
             "buyin": "$25"
       },
-      {     "casinoId": "Buckys Casino",
+      {     "casinoId": "5",
             "name": "Multi Table Tournament",
             "day": "Tuesdays, Wednesdays, Thursdays",
             "tourneyStart": "6pm",
             "game": "NLH",
             "buyin": "$50"
       },
-      {     "casinoId": "Buckys Casino",
+      {     "casinoId": "5",
             "name": "Deep Stack Tournament",
             "day": "Saturdays",
             "tourneyStart": "12pm",
             "game": "NLH",
             "buyin": "$100"
       },
-      {     "casinoId": "Yavapai Casino",
+      {     "casinoId": "16",
             "name": "Shootout Tournament",
             "day": "Mondays, Tuesdays, Wednesdays, Thursdays",
             "tourneyStart": "10am",
             "game": "NLH",
             "buyin": "$25"
       },
-      {     "casinoId": "Yavapai Casino",
+      {     "casinoId": "16",
             "name": "Multi Table Tournament",
             "day": "Tuesdays, Wednesdays, Thursdays",
             "tourneyStart": "6pm",
             "game": "NLH",
             "buyin": "$50"
       },
-      {     "casinoId": "Yavapai Casino",
+      {     "casinoId": "16",
             "name": "Deep Stack Tournament",
             "day": "Saturdays",
             "tourneyStart": "12pm",
             "game": "NLH",
             "buyin": "$100"
       },
-      {     "casinoId": "Talking Stick",
+      {     "casinoId": "17",
             "name": "No Limit Hold'em Tournament",
             "day": "Mondays, Tuesdays, Wednesdays, Thursdays, Fridays",
             "tourneyStart": "11:15am",
@@ -343,7 +343,7 @@ var tourneyObjArray = [
             "prizeGtd": "$9,500.00 (estimated on 100 entries)",
             "other": "Blinds start at 50/100 and double every round; 20 min rounds."
       },
-      {     "casinoId": "Talking Stick",
+      {     "casinoId": "17",
             "name": "No Limit Hold'em Tournament",
             "day": "Mondays, Tuesdays, Wednesdays, Thursdays",
             "tourneyStart": "7:15pm",
@@ -354,17 +354,17 @@ var tourneyObjArray = [
             "prizeGtd": "$11,000.00 (estimated on 100 entries)",
             "other": "Blinds start at 50/100 and double every round; 20 min rounds."
       },
-      {     "casinoId": "Talking Stick",
+      {     "casinoId": "17",
             "name": "No Limit Hold'em Tournament",
             "day": "Fridays",
             "tourneyStart": "7:15pm",
             "regStart": "4pm",
             "regEnd": "8:15pm",
-            "game": "NLH","tourneyStart": "",
+            "game": "NLH",
             "buyin": "$200 - 10,000 chips",
             "other": "Blinds start at 50/100 and double every round; 20 min rounds."
       },
-      {     "casinoId": "Agua Caliente Casino, Palm Springs",
+      {     "casinoId": "18",
             "name": "Daily Poker Tournament",
             "day": "Saturdays",
             "tourneyStart": "11am",
@@ -377,7 +377,7 @@ var tourneyObjArray = [
             "prizeGtd": "$1,000 per every 10 players",
             "other": "Minimum of 20 players to start the guarantee"
       },
-      {     "casinoId": "Agua Caliente Casino, Palm Springs",
+      {     "casinoId": "18",
             "name": "Daily Poker Tournament",
             "day": "Sundays, Mondays, Tuesdays, Wednesdays, Thursdays, Fridays",
             "tourneyStart": "11am",
@@ -390,7 +390,7 @@ var tourneyObjArray = [
             "prizeGtd": "$500 per every 10 players",
             "other": "Minimum of 20 players to start the guarantee"
       },
-      {     "casinoId": "Agua Caliente Casino, Palm Springs",
+      {     "casinoId": "18",
             "name": "Nightly Poker Tournament",
             "day": "Tuesdays, Thursdays",
             "tourneyStart": "11am",
@@ -403,16 +403,16 @@ var tourneyObjArray = [
             "prizeGtd": "$2,500",
             "other": "Minimum of 10 players to start the guarantee"
       },
-      {     "casinoId": "Agua Caliente Casino, Palm Springs",
+      {     "casinoId": "18",
             "name": "Monthly Freeroll Poker Tournament",
             "day": "Wednesdays (first each month)",
             "tourneyStart": "12pm OR 6pm (choose ONE)",
             "game": "NLH",
             "buyin": "Free (see qualification details below)",
-            "prizeGtd": "$3,000 (First Place: $960.00, Second Place: $660.00, Third Place: $405.00, Fourth Place: $300.00, Fifth Place: $225.00, Sixth Place: $180.00, Seventh Place: $150.00, Eighth Place: $120.00)"
+            "prizeGtd": "$3,000 (First Place: $960.00, Second Place: $660.00, Third Place: $405.00, Fourth Place: $300.00, Fifth Place: $225.00, Sixth Place: $180.00, Seventh Place: $150.00, Eighth Place: $120.00)",
             "other": "To qualify for and participate in these tournaments, a participant must have played a minimum of twenty (20) recorded hours in the Agua Caliente Casino Resort Spa Poker Room in the month previous to the month of the tournament. After a player has achieved his or her 20 hours of play for the month, the player must notify a floor supervisor that he or she would like to register to play in the coming free roll poker tournament. They may choose only one of the two time spots to play in (limited to the first 120 qualifying players per event). Players that finish in one of the top ten places on any free roll tournament will be entered to play in our Anniversary Poker Tournament in April 2017. Tournament participants will be provided a buffet style of food available in the poker room. Serving times will be from 10:30am to 2:30pm and again from 5pm to 9pm."
       },
-      {     "casinoId": "The Aviator Casino",
+      {     "casinoId": "22",
             "name": "Mexican Poker Tournament",
             "day": "Wednesdays",
             "tourneyStart": "6pm",
@@ -422,6 +422,7 @@ var tourneyObjArray = [
             "addOn": "$10",
             "other": "This exciting game where jokers are wild has become a favorite staple at The Aviator Casino. All tournament players must be holders of The Aviator Casino’s “First-Class Pass” Players Card, Membership is FREE"
       },
+// TODO: CONTINUE ADDING TO THE DB HERE
       {     "casinoId": "",
             "name": "",
             "day": "",

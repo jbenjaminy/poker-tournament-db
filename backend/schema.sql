@@ -17,6 +17,7 @@ create table if not exists casinos (
 
 create table if not exists tournaments (
 	id serial primary key,
+	-- TODO: find out if you can link by name
 	casino_id integer not null references casinos,
 	name text,
 	day text,

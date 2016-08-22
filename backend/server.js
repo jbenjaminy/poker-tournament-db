@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var knex = require('knex')({
     client: 'pg',
     connection: {
-        database: 'PokerTourneys'
+        database: 'poker'
     },
 });
 
@@ -123,7 +123,7 @@ app.post('/tournaments', jsonParser, function(request, response) {
     var tournamentsArray = request.body;
     var completed = 0;
 
-    tournamentsArray.forEach(function(casino) {
+    tournamentsArray.forEach(function(tournaments) {
         knex.insert({
             casino_id: tournaments.casinoId,
             name: tournaments.name,
