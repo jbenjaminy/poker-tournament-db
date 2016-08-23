@@ -239,8 +239,9 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(661) 721-7770",
     "website": "http://theaviatorcasino.com/",
+    // "otherGames": "Fortune Pai Gow Poker, Conquian ('Gin' style poker game), 3-card poker, Blackjack",
     "hasPoker": "true",
-    "gamesOffered": "Texas hold'em, Omaha, Mexican poker, Fortune Pai Gow Poker, Conquian ('Gin' style poker game), 3-card poker",
+    "gamesOffered": "Texas hold'em, Omaha, Mexican poker" 
     "description": "We offer tournaments and cash games for our customers around the clock",
     "specials": "Bad beat jackpots; 'Pay for Play' - Every Monday, Friday, and Sunday (5-7pm), recieve $20 in chips when you buy in for $80; recieve $10 in chips when you buy in for $40 (must play a minimum of 2 hours; limited to the first 9 players in qualifying no limit hold'em cash games).",
     "pokerUrl": "http://theaviatorcasino.com/games/"
@@ -253,12 +254,12 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(559) 299-9951",
     "website": "http://www.500clubcasino.com/",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "description": "",
-    "specials": "",
-    "pokerUrl": ""
+    "otherGames": "Fortune Pai Gow Poker, Ultimate Texas Hold'em, Blackjack (Pure & Spanish), Baccarat, 3-Card Poker",
+    "hasPoker": "true",
+    "gamesOffered": "Texas hold'em, Omaha Hi/Lo,",
+    "description": "500 Club Casino Bar & Grill offers a wide variety of Limit and No-Limit Texas Hold’em Games. Be sure to check our Promotions Page and Calendar Page for a complete list of games and game limits offered each day.",
+    "specials": "http://www.500clubcasino.com/promotions/",
+    "pokerUrl": "http://www.500clubcasino.com/tournaments/"
   },
   {
     "name": "Augustine Casino",
@@ -267,12 +268,8 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(760) 391-9500",
     "website": "http://www.augustinecasino.com/",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "description": "",
-    "specials": "",
-    "pokerUrl": ""
+    "otherGames": "Slots (Low and High limit), Blackjack (pure & Spanish), 3-Card Poker, Ultimate Texas Hold'em",
+    "hasPoker": "false"
   },
   {
     "name": "Artichoke Joes Casino",
@@ -281,12 +278,12 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(650) 589-8812",
     "website": "http://www.artichokejoes.com/",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "description": "",
-    "specials": "",
-    "pokerUrl": ""
+    "otherGames": "Baccarat, Cal Blackjack, Pai Gow Poker, Pai Gow Tiles, 3-Card Poker",
+    "hasPoker": "true",
+    "pokerTournaments": "false",
+    "hours": "24 hours daily, 365 days a year",
+    "gamesOffered": "Texas Hold'em, Seven Card Stud, Omaha Hi/Lo",
+    "pokerUrl": "http://www.artichokejoes.com/games.php"
   },
   {
     "name": "The 101 Casino",
@@ -295,12 +292,13 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(707) 795-6121",
     "website": "http://the101casino.com/",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "description": "",
-    "specials": "",
-    "pokerUrl": ""
+    "otherGames": "EZ Baccarat, Pai Gow Poker, Blackjack X, 3-Card Poker",
+    "hasPoker": "true",
+    "pokerTournaments": "false",
+    "hours": "Casino: 24 hours; Restaurant: 6am-10pm; Casino Menu: 6am-2am",
+    "gamesOffered": "Texas Hold’Em, Pot-Limit Omaha, Omaha Hi/Lo, Big O",
+    "specials": "http://parkwestcasinosonoma.com/casino/promotions/",
+    "pokerUrl": "http://parkwestcasinosonoma.com/casino/games/"
   },
   {
     "name": "Bankers Casino",
@@ -309,12 +307,13 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(831) 422-6666",
     "website": "http://www.bankerscasino.net/",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "description": "",
-    "specials": "",
-    "pokerUrl": ""
+    "otherGames": "EZ Baccarat, Fortune Pai Gow, Blackjack, 3-Card Poker",
+    "hasPoker": "true",
+    "hours": "24 hours a day, 7 days a week",
+    "gamesOffered": "Texas Hold'em (Limit & No-Limit), Omaha Hi/Lo",
+    "description": "Bankers Casino is playing the biggest No-Limit Texas Hold’em games in the Monterey Bay area",
+    "specials": "'Progressive Bad Beat Jackpots': Mega Bad Beat Currently Over $60,000!; 'Progressive Royal Flush Jackpots'; 'Player Bargain Buy': $100 for $60 for all players present before 8:30am!; 'Aces Cracked': $50 Bonus (Midnight – 8am & 11am – 2pm!)",
+    "pokerUrl": "http://www.bankerscasino.net/tournament/"
   },
   {
     "name": "Agua Caliente Casino, Rancho Mirage",
