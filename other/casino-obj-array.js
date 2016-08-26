@@ -6,7 +6,9 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(928) 217-7731",
     "website": "http://www.cocopahresort.com/",
-    "hasPoker": "false"
+    "otherGames": "Slots, Bingo, Blackjack",
+    "hasPoker": "false",
+    "specials": "http://www.cocopahresort.com/promotions.html"
   },
   { "name": "Casino del Sol",
     "placeId": "ChIJVaAtBW541oYRO6Sc0kGuH-U",
@@ -14,10 +16,13 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(800) 344-9435",
     "website": "http://www.casinodelsol.com/",
+    "otherGames": "Slots, Bingo, Blackjack, War Blackjack, High Card Flush, Ultimate Texas Hold'em, Straight Jack Side-Bet, Match the Dealer, Spanish 21, 3-Card Poker, Fortune Pai Gow, Buster Blackjack",
     "hasPoker": "true",
-    "gamesOffered": "Texas hold'em, Omaha Hi/Lo",
-    "description": "Casino Del Sol offers poker for every skill level and budget. Our poker room features uncapped bad beat jackpots, daily tournaments and the best comp program in Tucson. $1 comp credit for every hour played. The poker room at Casino Del Sol also hosts some of the most exciting poker leagues in Southern Arizona. Live games begin at $2-$4 and cap at $250-$500. We also spread $1-2 No Limit seven days a week. Our friendly staff and great fast-paced action make us the premier place to play poker.",
-     "pokerUrl": "http://casinodelsol.com/tucson-casino/poker"
+    "pokerTournaments": "true",
+    "gamesOffered": "Texas Hold'em, Omaha Hi/Lo",
+    "description": "Casino Del Sol offers poker for every skill level and budget. Our poker room features uncapped bad beat jackpots, daily tournaments and the best comp program in Tucson. $1 comp credit for every hour played. The poker room at Casino Del Sol also hosts some of the most exciting poker leagues in Southern Arizona. Live games begin at $2-$4 and cap at $250-$500. We also spread $1-2 No Limit seven days a week. Our friendly staff and great fast-paced action make us the premier place to play poker. (see more about league and poker promotions at the poker site below)",
+    "specials": "http://casinodelsol.com/tucson-casino/promotions",
+    "pokerUrl": "http://casinodelsol.com/tucson-casino/poker"
   },
   { "name": "BlueWater Resort & Casino",
     "placeId": "ChIJQcP5r76D0YAR0HKIuY75akw",
@@ -26,12 +31,14 @@ var casinoObjArray = [
     "phone": "(928) 669-7000",
     "website": "http://www.bluewaterfun.com/",
     "hours": "Poker room hours: 4pm-close (2pm-close Sun. & Wed.)",
+    "otherGames": "Slots, Bingo, Blackjack, 3-Card Poker, Lucky Ladies Bonus, ",
     "hasPoker": "true",
+    "pokerTournaments": "true",
     "gamesOffered": "Texas hold'em",
     "description": "If you love a good game of Poker, then the Poker Room at Bluewater is the place for you. You’ll discover an exclusive atmosphere that seats up to 40 players comfortably. We offer a variety of poker tournaments daily for amateur and professional players alike. The payouts and limits for the games vary. Sign up on the board when you arrive at the BlueWater Poker Room to get into the game of your choice. This is Arizona’s only riverside Poker Room, located just off the casino floor.", 
-    "Specials": "Daily -  Aces Cracked $40, Royal Flush $200, and Double Points 200 points per hour; Wednesdays - High Hand at 8PM pays $50 Straight Flush, 4 of a kind pays $50; Fridays - Fill the House with Full House Player with a full house will receive $15 in Poker Chips.",
+    "specials": "http://www.bluewaterfun.com/casino/promotions/",
+    "pokerPromotions": "Daily -  Aces Cracked $40, Royal Flush $200, and Double Points 200 points per hour; Wednesdays - High Hand at 8PM pays $50 Straight Flush, 4 of a kind pays $50; Fridays - Fill the House with Full House Player with a full house will receive $15 in Poker Chips.",
     "pokerUrl": "http://www.bluewaterfun.com/casino/poker-room-2/"
-
   },
   {
     "name": "Apache Gold Casino, San Carlos",
@@ -40,7 +47,9 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(928) 475-7800",
     "website": "http://apache-gold-casino.com/",
-    "hasPoker": "false"
+    "otherGames": "Blackjack, Bingo, Bingo Blowout, Golf",
+    "hasPoker": "false",
+    "specials": "http://www.apache-gold-casino.com/promotions/"
   },
   {
     "name": "Wind Creek, Montgomery",
@@ -49,7 +58,9 @@ var casinoObjArray = [
 	  "state": "Alabama",
     "phone": "(866) 946-3360",
     "website": "https://www.windcreekmontgomery.com/",
-    "hasPoker": "false"
+    "otherGames": "Slots",
+    "hasPoker": "false",
+    "specials": "https://windcreekmontgomery.com/Casino/Promotions"
   },
   {
     "name": "Buckys Casino",
@@ -58,11 +69,13 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(800) 756-8744",
     "website": "http://www.buckyscasino.com/",
+    "otherGames": "Slots, Blackjack, High Card Flush, Texas Shootout, Three Card Prime, WPT Heads Up Hold'em"
     "hasPoker": "true",
+    "pokerTournaments": "true",
     "gamesOffered": "Texas hold'em",
     "hours": "24hrs",
     "description": "We offer more tournaments, promotions and giveaways than any other Poker Room in the State.",
-    "specials": "'Hot Poker Spot Poker' - new side bet! Win money for getting a straight or better; Bad Beat Jackpot; Straight Flush and Royal Flush bonuses; Earn extra tournament chips for playing live.",
+    "pokerPromotions": "'Hot Poker Spot Poker' - new side bet! Win money for getting a straight or better; Bad Beat Jackpot; Straight Flush and Royal Flush bonuses; Earn extra tournament chips for playing live.",
     "pokerUrl": "http://www.buckyscasino.com/table_games.html",
     "calendarUrl": "http://www.buckyscasino.com/images/MonthlyUpdates/TGCalendar.jpg"
   },
@@ -73,7 +86,9 @@ var casinoObjArray = [
     "state": "Alabama",
     "phone": "(866) 946-3360",
     "website": "http://windcreekwetumpka.com/",
-    "hasPoker": "false"
+    "otherGames": "Slots",
+    "hasPoker": "false",
+    "specials": "https://windcreekwetumpka.com/Casino/Gaming-Promotions"
   },
   {
     "name": "Gila River Casino",
@@ -82,10 +97,13 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(800) 946-4452",
     "website": "https://www.wingilariver.com/",
+    "otherGames": "Slots, Blackjack, Ultimate Texas Hold'em, Crazy 4 Poker, 3-Card Poker, Let It Ride, Spanish 21, Shuffle Master Classic, Fortune Pai Gow",
     "hasPoker": "true",
+    "pokerTournaments": "true",
     "gamesOffered": "Texas hold'em, Omaha, Stud",
     "description": "he Poker Room at Wild Horse Pass Hotel and Casino has 25 state of the art Poker tables set in a rich but comfortable environment. Sports enthusiasts will enjoy over 30 TVs including 8 large screens for easy viewing. There is no shortage of action and a wide variety of games for every budget and skill level. Structured and spread limit Holdem and Omaha games are offered. Stud games are available when demand allows. Most games feature a full Kill and Bad Beat Jackpot.",
-    "specials": "'Faces Cracked' - Running 5 nights a week every Sunday-Thursday beginning at 11:30pm. For each 60 minute period, be the first to lose with pocket KK, QQ or JJ in Hold'Em and win $100; 'RBI Riches' - During every televised AZ Diamondbacks game, 4 tables will be splashed $50 each for every run scored by either team!; 'Rolling Cash Fever' - Drawings every odd hour 7 days/week; 'Royals Splash' - In any Hold'em or Seven Card Stud game, a player making a Royal flush will receive $100 and that table will be splashed $100 on the next hand!; 'Daily High Hand for Hold'em' - Four qualifying sessions ($100 each): From 6:00am to 7:00am, from 7:00am to 8:00am from 8:00am to 9:00am, from 9:00am to 10:00am.",
+    "specials": "https://www.wingilariver.com/index.php/wild-horse-pass-hotel-casino/promotions", 
+    "pokerPromotions": "'Faces Cracked' - Running 5 nights a week every Sunday-Thursday beginning at 11:30pm. For each 60 minute period, be the first to lose with pocket KK, QQ or JJ in Hold'Em and win $100; 'RBI Riches' - During every televised AZ Diamondbacks game, 4 tables will be splashed $50 each for every run scored by either team!; 'Rolling Cash Fever' - Drawings every odd hour 7 days/week; 'Royals Splash' - In any Hold'em or Seven Card Stud game, a player making a Royal flush will receive $100 and that table will be splashed $100 on the next hand!; 'Daily High Hand for Hold'em' - Four qualifying sessions ($100 each): From 6:00am to 7:00am, from 7:00am to 8:00am from 8:00am to 9:00am, from 9:00am to 10:00am.",
     "pokerUrl": "https://www.wingilariver.com/index.php/wild-horse-pass-hotel-casino/gaming/poker"
   },
   {
@@ -95,9 +113,11 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(480) 802-5000",
     "website": "https://www.caesars.com/harrahs-ak-chin?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Ak-Chin&utm_content=hotel",
+    "otherGames": "Slots, Bingo, Keno",
     "hasPoker": "true",
+    "pokerTournaments": "true",
     "gamesOffered": "Texas hold'em, Omaha (& Hi/Lo), Stud (& H/L)",
-    "specials": "OPEN-TO-CLOSE: 'Best Hand' - $300 2nd best hand, $200 best hand, $50 per person table share (Hold'em and Omaha); '6-4 High/Low - Cracked wins a Rack' - $100 will be given to the player who loses a hand with a “6-4 low” in Omaha and Stud High/Low games. Minimum of $20 must be in the pot and 4 players. Maximum of three (3) 6-4 H/L Cracked will be paid per day; 'Aces Cracked' - Player must have a pocket pair of Aces and lose the hand in any live raked Texas Hold-Em game. Must have a minimum of four players and $20 in the pot. Prize pool doubles midnight to close; 'Splash pot Bonanza' - Splash pots every half hour at the top and bottom of every hour. Players with missed blinds, more than 10 minutes of lobby time and not playing in the hand prior are not eligible. The first table to open with six players at 9 a.m. weekends or 10 a.m. weekdays receives a double splash pot. Texas Hold-Em: 3-6 = $20, 4-8 = $30, 5-10+ = $40, Omaha or Mix Games: 5-10+ = $25. (Except during any sporting event splash pots); 'Suns NBA Splashes SPLASH POTS!' - Splash pots will be added to every live game when the favored team scores: 25 points = $25 50 points = $50 75 points = $75 100 points = $100 If the favored team wins another $100 splash pot will be added to all live games, if the underdog wins a $200 splash pot will be added to every live game; 'D-Backs Splash Pots' - Multiple televised games per week. Every inning the Diamondbacks score = $50 splash pot If the Diamondbacks win, another $100 splash pot.",
+    "pokerPromotions": "OPEN-TO-CLOSE: 'Best Hand' - $300 2nd best hand, $200 best hand, $50 per person table share (Hold'em and Omaha); '6-4 High/Low - Cracked wins a Rack' - $100 will be given to the player who loses a hand with a “6-4 low” in Omaha and Stud High/Low games. Minimum of $20 must be in the pot and 4 players. Maximum of three (3) 6-4 H/L Cracked will be paid per day; 'Aces Cracked' - Player must have a pocket pair of Aces and lose the hand in any live raked Texas Hold-Em game. Must have a minimum of four players and $20 in the pot. Prize pool doubles midnight to close; 'Splash pot Bonanza' - Splash pots every half hour at the top and bottom of every hour. Players with missed blinds, more than 10 minutes of lobby time and not playing in the hand prior are not eligible. The first table to open with six players at 9 a.m. weekends or 10 a.m. weekdays receives a double splash pot. Texas Hold-Em: 3-6 = $20, 4-8 = $30, 5-10+ = $40, Omaha or Mix Games: 5-10+ = $25. (Except during any sporting event splash pots); 'Suns NBA Splashes SPLASH POTS!' - Splash pots will be added to every live game when the favored team scores: 25 points = $25 50 points = $50 75 points = $75 100 points = $100 If the favored team wins another $100 splash pot will be added to all live games, if the underdog wins a $200 splash pot will be added to every live game; 'D-Backs Splash Pots' - Multiple televised games per week. Every inning the Diamondbacks score = $50 splash pot If the Diamondbacks win, another $100 splash pot.",
     "pokerUrl": "https://www.caesars.com/harrahs-ak-chin/casino/poker#.V7okYrUtNaU"
   },
   {
@@ -107,7 +127,9 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(800) 946-4452",
     "website": "http://www.wingilariver.com/",
-    "hasPoker": "false"
+    "otherGames": "Slots, Bingo, Blackjack, Ultimate Texas Hold'em, Crazy 4 Poker, 3-Card Poker, Shuffle Master Classic, Fortune Pai Gow",
+    "hasPoker": "false",
+    "specials": "http://www.wingilariver.com/index.php/lone-butte-casino/promotions"
   },
   {
     "name": "Desert Diamond Casino, West Valley",
@@ -116,7 +138,9 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(623) 877-7777",
     "website": "http://ddcaz.com/west-valley/",
-    "hasPoker": "false"
+    "otherGames": "Slots",
+    "hasPoker": "false",
+    "specials": "http://ddcaz.com/west-valley/promotions/"
   },
   {
     "name": "Vee Quiva Hotel & Casino",
@@ -125,10 +149,13 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(800) 946-4452",
     "website": "http://www.wingilariver.com/",
+    "otherGames": "Slots, Bingo, Blackjack, Buster Blackjack, Ultimate Texas Hold'em, Crazy 4 Poker, 3-Card Poker, Spanish 21, Shuffle Master Classic, Fortune Pai Gow",
     "hasPoker": "true",
+    "pokerTournaments": "true",
     "gamesOffered": "Texas hold'em, Omaha (& Hi/Lo), Stud",
     "description": "Play Poker has 16 state-of-the-art Poker tables set in a rich but comfortable environment. Sports enthusiasts will enjoy 9 large screen TVs for easy viewing in a closed setting. There is no shortage of action and a wide variety of games for every budget and skill level. Structured and spread limit Holdem and Omaha games are offered. Stud games are available when demand allows. Most games feature a full Kill and Bad Beat Jackpot.",
-    "specials": "'Football Splash Bash' - $100 splash pots during NFL and NCAA games for touchdowns, field goals, safetys and more; 'High Hand Promotion' - $100 High Hand every hour from 4am to 9am (Full house minimum qualifer); 'Quads or Better Jackpots' - ($3000 cap for each category; reset each time they're hit) Quads: start at $50, $25 added per day. Straight flushes (1 for each suit): start at $100, $50 added per day. Royal flushes (1 for each suit): start at $200, $50 added per day; 'Bad Beat Jackpots' - Hold'em games: Aces full of 10s or better beaten by four of a kind or better qualifies. 7 Card Stud games: Any four of a kind beaten qualifies for the posted Jackpot amount. Omaha games: Four Jacks or better beaten qualifies for the posted amount. Same break down as Holdem. 'Wheel and Deal': Lose with aces in Hold'em games or flopped set of aces in Omaha games and spin the wheel for up to $300 (Suspended during Sports and Splash Pot promotions)",
+    "specials": "http://www.wingilariver.com/index.php/vee-quiva-hotel-casino/promotions",
+    "pokerPromotions": "'Football Splash Bash' - $100 splash pots during NFL and NCAA games for touchdowns, field goals, safetys and more; 'High Hand Promotion' - $100 High Hand every hour from 4am to 9am (Full house minimum qualifer); 'Quads or Better Jackpots' - ($3000 cap for each category; reset each time they're hit) Quads: start at $50, $25 added per day. Straight flushes (1 for each suit): start at $100, $50 added per day. Royal flushes (1 for each suit): start at $200, $50 added per day; 'Bad Beat Jackpots' - Hold'em games: Aces full of 10s or better beaten by four of a kind or better qualifies. 7 Card Stud games: Any four of a kind beaten qualifies for the posted Jackpot amount. Omaha games: Four Jacks or better beaten qualifies for the posted amount. Same break down as Holdem. 'Wheel and Deal': Lose with aces in Hold'em games or flopped set of aces in Omaha games and spin the wheel for up to $300 (Suspended during Sports and Splash Pot promotions)."
     "pokerUrl": "http://www.wingilariver.com/index.php/vee-quiva-hotel-casino/gaming/poker"
   },
   {
@@ -138,17 +165,31 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(928) 474-6044",
     "website": "http://www.mazatzal-casino.com/index.php/misc/contact",
-    "hasPoker": "false"
+    "hours": "Casino hours: 10am to 1am",
+    "otherGames": "Blackjack, Slots, Bingo"
+    "hasPoker": "true",
+    "pokerTournaments": "true",
+    "gamesOffered": "Texas Hold'em",
+    "description": "Join us for a poker tournament or cash game. We offer Texas Hold 'Em with high hand and aces cracked bonuses.",
+    "specials": "http://www.mazatzal-casino.com/index.php/promotions",
+    "pokerUrl": "http://www.mazatzal-casino.com/index.php/promotions/poker-tournament",
   },
   {
-    "name": "Desert Diamond Casino & Hotel",
+    "name": "Desert Diamond Casino & Hotel, Tucson",
     "placeId": "ChIJI-KD5qJ71oYRb8mVT7PheDY",
     "address": "7350 S Nogales Hwy, Tucson, AZ 85756, USA",
     "state": "Arizona",
     "phone": "(866) 332-9467",
     "website": "http://www.ddcaz.com/index.php/tucson/Hotel",
-    "hasPoker": "false"
+    "otherGames": "Slots, Keno, Bingo, Shuffle Master Classic, In Bet/In Between, Push Your Luck Blackjack, Viva Poker"
+    "hasPoker": "true",
+    "pokerTournaments": "true",
+    "gamesOffered": "Texas Hold’em",
+    "specials": "http://ddcaz.com/tucson/promotions/",
+    "pokerPromotions": "'Viva Poker' - Win your share of $42,000! Play live poker every weekday and win cash drawings. Drawings happen multiple times so that means you can win more than once!",
+    "pokerUrl": "http://ddcaz.com/tucson/gaming/table-games/"
   },
+// continue here:
   {
     "name": "Fort McDowell Casino",
     "placeId": "ChIJqdKCj86bK4cRRIVXu1Wnfg0",
@@ -160,7 +201,8 @@ var casinoObjArray = [
     "hours": "24hrs",
     "gamesOffered": "Texas hold’em, Omaha (& Hi/Lo), Stud (& Hi/Lo)",
     "description": "Come test your poker skills in the friendliest poker room in the Phoenix Valley. ",
-    "specials": "'High Hand' - From 9am to 10am and 10am to 11am each hour highest hand gets $75, second highest gets $25; 'Aces Cracked' - 1am to 5pm: aces cracked gets $100 to $1000, 5pm to 1am: aces cracked gets $100 and JJ-KK cracked gets $75 (once each hour); 'Baseball Splash Pots' - $100 when home team scores; 'Royal Flush Jackpots' - $200 for Texas hold’em and Stud games, $100 for Omaha games; '6/4 cracked' - in Omaha Hi/Lo and Stud Hi/Lo wins $100",
+    "specials": "",
+    "pokerPromotions": "'High Hand' - From 9am to 10am and 10am to 11am each hour highest hand gets $75, second highest gets $25; 'Aces Cracked' - 1am to 5pm: aces cracked gets $100 to $1000, 5pm to 1am: aces cracked gets $100 and JJ-KK cracked gets $75 (once each hour); 'Baseball Splash Pots' - $100 when home team scores; 'Royal Flush Jackpots' - $200 for Texas hold’em and Stud games, $100 for Omaha games; '6/4 cracked' - in Omaha Hi/Lo and Stud Hi/Lo wins $100",
     "pokerUrl": "http://www.fortmcdowellcasino.com/index.php/gaming/cards"
   },
   {
@@ -173,7 +215,8 @@ var casinoObjArray = [
     "hasPoker": "true",
     "hours": "24hrs",
     "description": "We offer more tournaments, promotions and giveaways than any other Poker Room in the State.",
-    "specials": "'Hot Poker Spot Poker' - new side bet! Win money for getting a straight or better; Bad Beat Jackpot; Straight Flush and Royal Flush bonuses; Earn extra tournament chips for playing live.",
+    "specials": "",
+    "pokerPromotions": "'Hot Poker Spot Poker' - new side bet! Win money for getting a straight or better; Bad Beat Jackpot; Straight Flush and Royal Flush bonuses; Earn extra tournament chips for playing live.",
     "pokerUrl": "http://www.buckyscasino.com/table_games.html",
     "calendarUrl": "http://www.buckyscasino.com/images/MonthlyUpdates/TGCalendar.jpg"
   },
@@ -187,7 +230,8 @@ var casinoObjArray = [
     "hasPoker": "true",
     "gamesOffered": "Texas hold'em",
     "description": "Arena Poker Room™ players are now earning more for their play. In the past poker players have earned 100 points per hour of play. Now poker players are earning five times that amount (500 points per hour of play). On top of that, Poker players receive restaurant discounts. Weekday tournaments are on set schedule. Weekend tournaments vary -- see site schedule for details.",
-    "specials": "Bad beat and super bad beat jackpots (currently $5,000 and $125,000, respectively)",
+    "specials": "",
+    "pokerPromotions": "Bad beat and super bad beat jackpots (currently $5,000 and $125,000, respectively)",
     "pokerUrl": "http://www.talkingstickresort.com/gaming/poker.aspx"
   },
   {
@@ -200,7 +244,8 @@ var casinoObjArray = [
     "hasPoker": "true",
     "gamesOffered": "Texas hold'em (limit & no limit), Omaha (pot limit)",
     "description": "Ready to play? Head for the tables! We've got the only live poker room in the valley!",
-    "specials": "'Splash the pot' - Agua Caliente Casino Resort Spa’s Poker Room will $30 in live gaming chips to all live games every half hour throughout the promotional period; 'Hit the flop' - Make a Four of a Kind, Straight Flush, OR Royal Flush while playing Texas Hold’em or Omaha and win! (must use two cards out of your hand and first three cards on the flop)",
+    "specials": "",
+    "pokerPromotions": "'Splash the pot' - Agua Caliente Casino Resort Spa’s Poker Room will $30 in live gaming chips to all live games every half hour throughout the promotional period; 'Hit the flop' - Make a Four of a Kind, Straight Flush, OR Royal Flush while playing Texas Hold’em or Omaha and win! (must use two cards out of your hand and first three cards on the flop)",
     "pokerUrl": "http://www.hotwatercasino.com/pokerroom"
   },
   {
@@ -220,8 +265,7 @@ var casinoObjArray = [
     "phone": "(928) 369-0299",
     "website": "http://www.hon-dah.com/",
     "hasPoker": "false",
-    "hours": "24/7, 365 days a year",
-    "gamesOffered": "text"
+    "hours": "24/7, 365 days a year"
   },
   {
     "name": "Paradise Casino",
@@ -239,14 +283,15 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(661) 721-7770",
     "website": "http://theaviatorcasino.com/",
-    // "otherGames": "Fortune Pai Gow Poker, Conquian ('Gin' style poker game), 3-card poker, Blackjack",
+    "otherGames": "Fortune Pai Gow Poker, Conquian ('Gin' style poker game), 3-card poker, Blackjack",
     "hasPoker": "true",
+    "pokerTournaments": "true",
     "gamesOffered": "Texas hold'em, Omaha, Mexican poker" 
     "description": "We offer tournaments and cash games for our customers around the clock",
-    "specials": "Bad beat jackpots; 'Pay for Play' - Every Monday, Friday, and Sunday (5-7pm), recieve $20 in chips when you buy in for $80; recieve $10 in chips when you buy in for $40 (must play a minimum of 2 hours; limited to the first 9 players in qualifying no limit hold'em cash games).",
+    "specials": "",
+    "pokerPromotions": "Bad beat jackpots; 'Pay for Play' - Every Monday, Friday, and Sunday (5-7pm), recieve $20 in chips when you buy in for $80; recieve $10 in chips when you buy in for $40 (must play a minimum of 2 hours; limited to the first 9 players in qualifying no limit hold'em cash games).",
     "pokerUrl": "http://theaviatorcasino.com/games/"
   },
-// TODO: CONTINUE ADDING TO THE DB HERE
   {
     "name": "The Clovis 500 Club",
     "placeId": "ChIJpyj6XIFclIARh04ciD7-NRE",
@@ -254,8 +299,9 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(559) 299-9951",
     "website": "http://www.500clubcasino.com/",
-    // "otherGames": "Fortune Pai Gow Poker, Ultimate Texas Hold'em, Blackjack (Pure & Spanish), Baccarat, 3-Card Poker",
+    "otherGames": "Fortune Pai Gow Poker, Ultimate Texas Hold'em, Blackjack (Pure & Spanish), Baccarat, 3-Card Poker",
     "hasPoker": "true",
+    "pokerTournaments": "true",
     "gamesOffered": "Texas hold'em, Omaha Hi/Lo,",
     "description": "500 Club Casino Bar & Grill offers a wide variety of Limit and No-Limit Texas Hold’em Games. Be sure to check our Promotions Page and Calendar Page for a complete list of games and game limits offered each day.",
     "specials": "http://www.500clubcasino.com/promotions/",
@@ -268,7 +314,7 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(760) 391-9500",
     "website": "http://www.augustinecasino.com/",
-    // "otherGames": "Slots (Low and High limit), Blackjack (pure & Spanish), 3-Card Poker, Ultimate Texas Hold'em",
+    "otherGames": "Slots (Low and High limit), Blackjack (pure & Spanish), 3-Card Poker, Ultimate Texas Hold'em",
     "hasPoker": "false"
   },
   {
@@ -278,9 +324,9 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(650) 589-8812",
     "website": "http://www.artichokejoes.com/",
-    // "otherGames": "Baccarat, Cal Blackjack, Pai Gow Poker, Pai Gow Tiles, 3-Card Poker",
+    "otherGames": "Baccarat, Cal Blackjack, Pai Gow Poker, Pai Gow Tiles, 3-Card Poker",
     "hasPoker": "true",
-    // "pokerTournaments": "false",
+    "pokerTournaments": "false",
     "hours": "24 hours daily, 365 days a year",
     "gamesOffered": "Texas Hold'em, Seven Card Stud, Omaha Hi/Lo",
     "pokerUrl": "http://www.artichokejoes.com/games.php"
@@ -292,9 +338,9 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(707) 795-6121",
     "website": "http://the101casino.com/",
-    // "otherGames": "EZ Baccarat, Pai Gow Poker, Blackjack X, 3-Card Poker",
+    "otherGames": "EZ Baccarat, Pai Gow Poker, Blackjack X, 3-Card Poker",
     "hasPoker": "true",
-    // "pokerTournaments": "false",
+    "pokerTournaments": "false",
     "hours": "Casino: 24 hours; Restaurant: 6am-10pm; Casino Menu: 6am-2am",
     "gamesOffered": "Texas Hold’Em, Pot-Limit Omaha, Omaha Hi/Lo, Big O",
     "specials": "http://parkwestcasinosonoma.com/casino/promotions/",
@@ -307,12 +353,14 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(831) 422-6666",
     "website": "http://www.bankerscasino.net/",
-    // "otherGames": "EZ Baccarat, Fortune Pai Gow, Blackjack, 3-Card Poker",
+    "otherGames": "EZ Baccarat, Fortune Pai Gow, Blackjack, 3-Card Poker",
     "hasPoker": "true",
+    "pokerTournaments": "true",
     "hours": "24 hours a day, 7 days a week",
     "gamesOffered": "Texas Hold'em (Limit & No-Limit), Omaha Hi/Lo",
     "description": "Bankers Casino is playing the biggest No-Limit Texas Hold’em games in the Monterey Bay area",
-    "specials": "'Progressive Bad Beat Jackpots': Mega Bad Beat Currently Over $60,000!; 'Progressive Royal Flush Jackpots'; 'Player Bargain Buy': $100 for $60 for all players present before 8:30am!; 'Aces Cracked': $50 Bonus (Midnight – 8am & 11am – 2pm!)",
+    "specials": "",
+    "pokerPromotions": "'Progressive Bad Beat Jackpots': Mega Bad Beat Currently Over $60,000!; 'Progressive Royal Flush Jackpots'; 'Player Bargain Buy': $100 for $60 for all players present before 8:30am!; 'Aces Cracked': $50 Bonus (Midnight – 8am & 11am – 2pm!)",
     "pokerUrl": "http://www.bankerscasino.net/tournament/"
   },
   {
@@ -322,11 +370,12 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(209) 474-1777",
     "website": "http://www.cameoclubcasino.com/",
-    // "otherGames": "Pai Gow, Blackjack, 3-Card Poker",
+    "otherGames": "Pai Gow, Blackjack, 3-Card Poker",
     "hasPoker": "true",
-    // "pokerTournaments": "false",
+    "pokerTournaments": "false",
     "gamesOffered": "Texas Hold'em (3-6, 3-6 Half Kill, 4-8, No Limit)",
-    "specials": "'Small Bad Beat' - AAA full of 10's or better beaten, $3,000 payout (Both hole cards must play); 'Big Bad Beat' - 8888 or better beaten, Jackpot Payout Minimum $5,000 (Both hole cards must play)",
+    "specials": "",
+    "pokerPromotions": "'Small Bad Beat' - AAA full of 10's or better beaten, $3,000 payout (Both hole cards must play); 'Big Bad Beat' - 8888 or better beaten, Jackpot Payout Minimum $5,000 (Both hole cards must play)",
     "pokerUrl": "http://www.cameoclubcasino.com/8.html"
   },
   {
@@ -336,12 +385,14 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(877) 747-8777",
     "website": "http://www.blackoakcasino.com/",
-    "hasPoker": "false",
-    "hours": "text",
-    "gamesOffered": "text",
-    "description": "",
-    "specials": "",
-    "pokerUrl": ""
+    "otherGames": "Slots (low & high limit, tournaments), 3-Card and 4-Card Poker, Ultimate Texas Hold'em, Mini Baccarat, Single, Double and 6-deck Blackjack (& tournaments), Fortune Pai Gow.",
+    "hasPoker": "true",
+    "pokerTournaments": "true",
+    "hours": "24 hours a day, 365 days a year",
+    "gamesOffered": "Texas Hold'em",
+    "description": "For any level player, get the real poker pro experience. Buy-ins range from $10 - $100.",
+    "specials": "www.blackoakcasino.com/promotions.html",
+    "pokerUrl": "http://www.blackoakcasino.com/casino.html"
   },
   {
     "name": "Bay 101",
@@ -350,12 +401,16 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(408) 451-8888",
     "website": "http://www.bay101.com/",
-    "hasPoker": "false",
     "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
     "gamesOffered": "text",
     "description": "",
     "specials": "",
-    "pokerUrl": ""
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Black Sheep Casino",
@@ -363,24 +418,32 @@ var casinoObjArray = [
     "address": "3181 Cameron Park Dr, Cameron Park, CA 95682, USA",
     "state": "California",
     "website": "http://www.blacksheepcasino.com/",
-    "hasPoker": "false",
     "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
     "gamesOffered": "text",
     "description": "",
     "specials": "",
-    "pokerUrl": ""
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino Real",
     "placeId": "ChIJqdcs-EAgjoARW8Gv8zp9QeE",
     "address": "Casino Real, Morgan Hill, CA 95037, USA",
     "state": "California",
-    "hasPoker": "false",
     "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
     "gamesOffered": "text",
     "description": "",
     "specials": "",
-    "pokerUrl": ""
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino Marysville",
@@ -394,6 +457,7 @@ var casinoObjArray = [
     "gamesOffered": "text",
     "description": "",
     "specials": "",
+    "pokerPromotions": "",
     "pokerUrl": ""
   },
   {
@@ -402,36 +466,48 @@ var casinoObjArray = [
     "address": "125 W 11th St, Tracy, CA 95376, USA",
     "state": "California",
     "phone": "(866) 922-7543",
-    "hasPoker": "false",
     "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
     "gamesOffered": "text",
     "description": "",
     "specials": "",
-    "pokerUrl": ""
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Delta Club",
     "placeId": "ChIJPyp3pilMhYARsuEiPCY4RXY",
     "address": "1000 Summerset Dr, Rio Vista, CA 94571, USA",
     "state": "California",
-    "hasPoker": "false",
     "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
     "gamesOffered": "text",
     "description": "",
     "specials": "",
-    "pokerUrl": ""
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Deuces Wild Casino",
     "placeId": "ChIJAdW8AEIFm4ARpDYZX11K7q8",
     "address": "13483 Bowman Rd, Auburn, CA 95603, USA",
     "state": "California",
-    "hasPoker": "false",
     "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
     "gamesOffered": "text",
     "description": "",
     "specials": "",
-    "pokerUrl": ""
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Central Coast Casino",
@@ -440,24 +516,32 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(805) 474-8500",
     "website": "http://www.slopoker.com/",
-    "hasPoker": "false",
     "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
     "gamesOffered": "text",
     "description": "",
     "specials": "",
-    "pokerUrl": ""
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "El Resbalon",
     "placeId": "ChIJi5WvWbE5lYARXTxryrLzBmo",
     "address": "154 N Valencia Blvd, Woodlake, CA 93286, USA",
     "state": "California",
-    "hasPoker": "false",
     "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
     "gamesOffered": "text",
     "description": "",
     "specials": "",
-    "pokerUrl": ""
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Club Caribe",
@@ -466,12 +550,16 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(408) 297-7272",
     "website": "https://www.facebook.com/ClubCaribeDeSanJose",
-    "hasPoker": "false",
     "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
     "gamesOffered": "text",
     "description": "",
     "specials": "",
-    "pokerUrl": ""
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Glorias Lounge & Card Room",
@@ -479,12 +567,16 @@ var casinoObjArray = [
     "address": "30435 Drive 68, Visalia, CA 93291, USA",
     "state": "California",
     "phone": "(559) 651-2516",
-    "hasPoker": "false",
     "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
     "gamesOffered": "text",
     "description": "",
     "specials": "",
-    "pokerUrl": ""
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Desert Rose Casino",
@@ -493,12 +585,16 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(530) 233-3141",
     "website": "http://desertrosecasino.net/",
-    "hasPoker": "false",
     "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
     "gamesOffered": "text",
     "description": "",
     "specials": "",
-    "pokerUrl": ""
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Diamonds Jims Casino",
@@ -507,12 +603,16 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(661) 256-1400",
     "website": "http://www.diamondjimscasino.net/",
-    "hasPoker": "false",
     "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
     "gamesOffered": "text",
     "description": "",
     "specials": "",
-    "pokerUrl": ""
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Empire Sportsmen Association",
@@ -521,12 +621,16 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(209) 522-8400",
     "website": "http://modestopokerroom.yolasite.com",
-    "hasPoker": "false",
     "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
     "gamesOffered": "text",
     "description": "",
     "specials": "",
-    "pokerUrl": ""
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Eagle Mountain Casino",
@@ -535,24 +639,32 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(800) 903-3353",
     "website": "http://www.eaglemtncasino.com/",
-    "hasPoker": "false",
     "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
     "gamesOffered": "text",
     "description": "",
     "specials": "",
-    "pokerUrl": ""
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Golden State Casino",
     "placeId": "ChIJoylkQhRSm4ARDf0rMO8Wnic",
     "address": "5402 Lindhurst Ave, Marysville, CA 95901, USA",
     "state": "California",
-    "hasPoker": "false",
     "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
     "gamesOffered": "text",
     "description": "",
     "specials": "",
-    "pokerUrl": ""
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Garlic City Casino & Restaurant",
@@ -560,7 +672,17 @@ var casinoObjArray = [
     "address": "40 Hornlein Ct, Gilroy, CA 95020, USA",
     "state": "California",
     "phone": "(408) 847-7074",
-    "website": "http://www.garliccityclub.com/"
+    "website": "http://www.garliccityclub.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Cliff Castle Casino Hotel",
@@ -568,7 +690,17 @@ var casinoObjArray = [
     "address": "555 W Middle Verde Rd, Camp Verde, AZ 86322, USA",
     "state": "Arizona",
     "phone": "(928) 567-7999",
-    "website": "http://www.cliffcastlecasinohotel.com/"
+    "website": "http://www.cliffcastlecasinohotel.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Elk Valley Casino",
@@ -576,7 +708,17 @@ var casinoObjArray = [
     "address": "2500 Howland Hill Rd, Crescent City, CA 95531, USA",
     "state": "California",
     "phone": "(707) 464-1020",
-    "website": "http://www.elkvalleycasino.com/"
+    "website": "http://www.elkvalleycasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Oaklawn Racing & Gaming",
@@ -584,28 +726,68 @@ var casinoObjArray = [
     "address": "2705 Central Ave, Hot Springs, AR 71901, USA",
     "state": "Arkansas",
     "phone": "(800) 625-5296",
-    "website": "http://oaklawn.com/"
+    "website": "http://oaklawn.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "La Fuerza Billiard",
     "placeId": "ChIJATze3bM5lYARw65UkimKCr0",
     "address": "175 E Antelope Ave, Woodlake, CA 93286, USA",
     "state": "California",
-    "phone": "(559) 564-8066"
+    "phone": "(559) 564-8066",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Del Rio Casino",
     "placeId": "ChIJV13GhFytmoAR_FLDzYhUFSg",
     "address": "209 2nd St, Isleton, CA 95641, USA",
     "state": "California",
-    "phone": "(916) 777-4837"
+    "phone": "(916) 777-4837",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Jalisco Pool Room",
     "placeId": "ChIJmbPTITVC7IAR22egl_mUCQk",
     "address": "920 Guadalupe St, Guadalupe, CA 93434, USA",
     "state": "California",
-    "phone": "(805) 343-1251"
+    "phone": "(805) 343-1251",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lucky Bear Casino",
@@ -613,20 +795,50 @@ var casinoObjArray = [
     "address": "12510 CA-96, Hoopa, CA 95546, USA",
     "state": "California",
     "phone": "(530) 625-5198",
-    "website": "http://hoopa-nsn.gov/enterprises/lucky-bear-casino"
+    "website": "http://hoopa-nsn.gov/enterprises/lucky-bear-casino",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Kellys Sports Bar & Billiards",
     "placeId": "ChIJGYYgxwMzw4ARmGutRAFw2r8",
     "address": "5402 Philadelphia St, Chino, CA 91710, USA",
     "state": "California",
-    "phone": "(909) 591-8770"
+    "phone": "(909) 591-8770",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "La Posta Casino",
     "placeId": "ChIJEYM5lFGc2YARQ2YbQt6_vLE",
     "address": "777 Crestwood Rd, Boulevard, CA 91905, USA",
-    "state": "California"
+    "state": "California",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Southland Park Gaming & Racing",
@@ -634,7 +846,17 @@ var casinoObjArray = [
     "address": "1550 Ingram Blvd, West Memphis, AR 72301, USA",
     "state": "Arkansas",
     "phone": "(800) 467-6182",
-    "website": "http://www.southlandpark.com/?utm_source=googlemaps&utm_medium=local&utm_campaign=gaming"
+    "website": "http://www.southlandpark.com/?utm_source=googlemaps&utm_medium=local&utm_campaign=gaming",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Golden West Casino",
@@ -642,7 +864,17 @@ var casinoObjArray = [
     "address": "1001 S Union Ave, Bakersfield, CA 93307, USA",
     "state": "California",
     "phone": "(661) 324-6936",
-    "website": "http://www.goldenwestcasino.net/"
+    "website": "http://www.goldenwestcasino.net/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lucky Derby Casino",
@@ -650,7 +882,17 @@ var casinoObjArray = [
     "address": "7433 Greenback Ln, Citrus Heights, CA 95610, USA",
     "state": "California",
     "phone": "(916) 726-8946",
-    "website": "http://www.luckyderby.com/"
+    "website": "http://www.luckyderby.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hollywood Casino Jamul, San Diego",
@@ -658,7 +900,17 @@ var casinoObjArray = [
     "address": "14145 Campo Rd, Jamul, CA 91935, USA",
     "state": "California",
     "phone": "(619) 315-2250",
-    "website": "http://www.hollywoodcasinojamul.com/"
+    "website": "http://www.hollywoodcasinojamul.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Livermore Casino",
@@ -666,7 +918,17 @@ var casinoObjArray = [
     "address": "3571 First St, Livermore, CA 94551, USA",
     "state": "California",
     "phone": "(925) 447-1702",
-    "website": "http://www.livermorecasino.net/"
+    "website": "http://www.livermorecasino.net/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Graton Resort & Casino",
@@ -674,7 +936,17 @@ var casinoObjArray = [
     "address": "288 Golf Course Drive West, Rohnert Park, CA 94928, United States",
     "state": "California",
     "phone": "(415) 421-1889",
-    "website": "https://www.gratonresortcasino.com/"
+    "website": "https://www.gratonresortcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lake Elsinore Hotel & Casino",
@@ -682,7 +954,17 @@ var casinoObjArray = [
     "address": "20930 Malaga Rd, Lake Elsinore, CA 92530, USA",
     "state": "California",
     "phone": "(951) 674-5160",
-    "website": "http://lercasino.com/"
+    "website": "http://lercasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Limelight Cardroom",
@@ -690,7 +972,17 @@ var casinoObjArray = [
     "address": "1014 Alhambra Blvd, Sacramento, CA 95816, USA",
     "state": "California",
     "phone": "(916) 446-2208",
-    "website": "http://www.limelightcardroom.com/"
+    "website": "http://www.limelightcardroom.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Cahuilla Casino at Mountain Sky Travel Center",
@@ -698,7 +990,17 @@ var casinoObjArray = [
     "address": "52702 Highway 371, Anza, CA 92539, USA",
     "state": "California",
     "phone": "(951) 763-1200",
-    "website": "http://www.cahuillacasino.com/"
+    "website": "http://www.cahuillacasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Chicken Ranch Bingo & Casino",
@@ -706,7 +1008,17 @@ var casinoObjArray = [
     "address": "16929 Chicken Ranch Rd, Jamestown, CA 95327, USA",
     "state": "California",
     "phone": "(209) 984-3000",
-    "website": "http://www.chickenranchcasino.com/"
+    "website": "http://www.chickenranchcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bear River Casino Hotel",
@@ -714,7 +1026,17 @@ var casinoObjArray = [
     "address": "11 Bear Paws Way, Loleta, CA 95551, USA",
     "state": "California",
     "phone": "(707) 733-9644",
-    "website": "http://www.bearrivercasino.com/"
+    "website": "http://www.bearrivercasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Capitol Casino",
@@ -722,7 +1044,17 @@ var casinoObjArray = [
     "address": "411 N 16th St, Sacramento, CA 95811, USA",
     "state": "California",
     "phone": "(916) 446-0700",
-    "website": "http://www.capitol-casino.com/"
+    "website": "http://www.capitol-casino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Barona Resort & Casino",
@@ -730,7 +1062,17 @@ var casinoObjArray = [
     "address": "1932 Wildcat Canyon Rd, Lakeside, CA 92040, USA",
     "state": "California",
     "phone": "(619) 443-2300",
-    "website": "http://www.barona.com/"
+    "website": "http://www.barona.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Blue Lake Casino & Hotel",
@@ -738,7 +1080,17 @@ var casinoObjArray = [
     "address": "777 Casino Way, Blue Lake, CA 95525, USA",
     "state": "California",
     "phone": "(877) 252-2946",
-    "website": "http://www.bluelakecasino.com/"
+    "website": "http://www.bluelakecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Cher-Ae Heights Casino",
@@ -746,7 +1098,17 @@ var casinoObjArray = [
     "address": "27 Scenic Dr, Trinidad, CA 95570, USA",
     "state": "California",
     "phone": "(707) 677-3611",
-    "website": "http://www.cheraeheightscasino.com/"
+    "website": "http://www.cheraeheightscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Bicycle Hotel & Casino",
@@ -754,7 +1116,17 @@ var casinoObjArray = [
     "address": "888 Bicycle Casino Drive, Bell Gardens, CA 90201, USA",
     "state": "California",
     "phone": "(562) 806-4646",
-    "website": "http://www.thebike.com/"
+    "website": "http://www.thebike.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Cache Creek Casino",
@@ -762,7 +1134,17 @@ var casinoObjArray = [
     "address": "14455 California 16, Brooks, CA 95606, USA",
     "state": "California",
     "phone": "(530) 796-3118",
-    "website": "http://www.cachecreek.com/"
+    "website": "http://www.cachecreek.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino Pauma",
@@ -770,7 +1152,17 @@ var casinoObjArray = [
     "address": "777 Pauma Reservation Rd, Pauma Valley, CA 92061, USA",
     "state": "California",
     "phone": "(760) 742-2177",
-    "website": "http://www.casinopauma.com/"
+    "website": "http://www.casinopauma.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Chukchansi Gold Resort & Casino",
@@ -778,7 +1170,17 @@ var casinoObjArray = [
     "address": "711 Lucky Ln, Coarsegold, CA 93614, USA",
     "state": "California",
     "phone": "(866) 794-6946",
-    "website": "http://chukchansigold.com/"
+    "website": "http://chukchansigold.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Commerce Casino",
@@ -786,7 +1188,17 @@ var casinoObjArray = [
     "address": "6121 Telegraph Rd, Commerce, CA 90040, USA",
     "state": "California",
     "phone": "(323) 721-2100",
-    "website": "http://www.commercecasino.com/"
+    "website": "http://www.commercecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Colusa Casino",
@@ -794,7 +1206,17 @@ var casinoObjArray = [
     "address": "3770 CA-45, Colusa, CA 95932, USA",
     "state": "California",
     "phone": "(530) 458-8844",
-    "website": "http://www.colusacasino.com/"
+    "website": "http://www.colusacasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Crystal Casino",
@@ -802,7 +1224,17 @@ var casinoObjArray = [
     "address": "123 E Artesia Blvd, Compton, CA 90220, USA",
     "state": "California",
     "phone": "(310) 764-2008",
-    "website": "http://www.thecrystalcasino.com/"
+    "website": "http://www.thecrystalcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "California Grand Casino",
@@ -810,7 +1242,17 @@ var casinoObjArray = [
     "address": "5988 Pacheco Blvd, Pacheco, CA 94553, USA",
     "state": "California",
     "phone": "(925) 685-8397",
-    "website": "http://www.calgrandcasino.com/"
+    "website": "http://www.calgrandcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino M8trix",
@@ -818,7 +1260,17 @@ var casinoObjArray = [
     "address": "1887 Matrix Blvd, San Jose, CA 95110, USA",
     "state": "California",
     "phone": "(408) 244-3333",
-    "website": "http://casinom8trix.com/"
+    "website": "http://casinom8trix.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Club One Casino",
@@ -826,7 +1278,17 @@ var casinoObjArray = [
     "address": "1033 Van Ness Ave, Fresno, CA 93721, USA",
     "state": "California",
     "phone": "(559) 497-3000",
-    "website": "http://www.clubonecasino.com/"
+    "website": "http://www.clubonecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Diamond Mountain Casino & Hotel",
@@ -834,7 +1296,17 @@ var casinoObjArray = [
     "address": "900 Skyline Rd, Susanville, CA 96130, USA",
     "state": "California",
     "phone": "(877) 319-8514",
-    "website": "http://www.diamondmountaincasino.com/"
+    "website": "http://www.diamondmountaincasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Feather Falls Casino & Lodge",
@@ -842,7 +1314,17 @@ var casinoObjArray = [
     "address": "3 Alverda Dr, Oroville, CA 95966, USA",
     "state": "California",
     "phone": "(530) 533-3885",
-    "website": "http://www.featherfallscasino.com/"
+    "website": "http://www.featherfallscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Fantasy Springs Casino",
@@ -850,7 +1332,17 @@ var casinoObjArray = [
     "address": "84-245 Indio Springs Dr, Indio, CA 92203, USA",
     "state": "California",
     "phone": "(760) 342-5000",
-    "website": "http://www.fantasyspringsresort.com/"
+    "website": "http://www.fantasyspringsresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Gardens Casino",
@@ -858,7 +1350,17 @@ var casinoObjArray = [
     "address": "11871 E Carson St, Hawaiian Gardens, CA 90716, USA",
     "state": "California",
     "phone": "(562) 860-5887",
-    "website": "http://www.thegardenscasino.com/"
+    "website": "http://www.thegardenscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Chumash Casino",
@@ -866,7 +1368,17 @@ var casinoObjArray = [
     "address": "3400 CA-246, Santa Ynez, CA 93460, USA",
     "state": "California",
     "phone": "(805) 686-0855",
-    "website": "http://www.chumashcasino.com/"
+    "website": "http://www.chumashcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Golden Acorn Casino & Travel Center",
@@ -874,7 +1386,17 @@ var casinoObjArray = [
     "address": "1800 Golden Acorn Way, Campo, CA 91905, USA",
     "state": "California",
     "phone": "(866) 794-6244",
-    "website": "http://www.goldenacorncasino.com/"
+    "website": "http://www.goldenacorncasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hustler Casino",
@@ -882,7 +1404,17 @@ var casinoObjArray = [
     "address": "1000 W Redondo Beach Blvd, Gardena, CA 90247, USA",
     "state": "California",
     "phone": "(310) 719-9800",
-    "website": "http://www.hustlercasino.com/"
+    "website": "http://www.hustlercasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Jackson Rancheria Casino",
@@ -890,7 +1422,17 @@ var casinoObjArray = [
     "address": "12222 New York Ranch Rd, Jackson, CA 95642, USA",
     "state": "California",
     "phone": "(209) 223-1677",
-    "website": "http://jacksoncasino.com/"
+    "website": "http://jacksoncasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Havasu Landing Resort & Casino",
@@ -898,7 +1440,17 @@ var casinoObjArray = [
     "address": "1st St, Havasu Lake, CA 92363, USA",
     "state": "California",
     "phone": "(760) 858-4593",
-    "website": "http://www.havasulanding.com/"
+    "website": "http://www.havasulanding.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hollywood Park Casino",
@@ -906,7 +1458,17 @@ var casinoObjArray = [
     "address": "3883 W Century Blvd, Inglewood, CA 90303, USA",
     "state": "California",
     "phone": "(310) 330-2800",
-    "website": "http://www.playhpc.com/"
+    "website": "http://www.playhpc.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Konocti Vista Casino",
@@ -914,7 +1476,17 @@ var casinoObjArray = [
     "address": "2755 Mission Rancheria Rd, Lakeport, CA 95453, USA",
     "state": "California",
     "phone": "(800) 386-1950",
-    "website": "http://www.konocti-vista-casino.com/"
+    "website": "http://www.konocti-vista-casino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs Resort, Southern California",
@@ -922,7 +1494,17 @@ var casinoObjArray = [
     "address": "777 S Resort Dr, Valley Center, CA 92082, USA",
     "state": "California",
     "phone": "(760) 751-3100",
-    "website": "https://www.caesars.com/harrahs-socal/hotel"
+    "website": "https://www.caesars.com/harrahs-socal/hotel",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino Real Card Room",
@@ -930,7 +1512,17 @@ var casinoObjArray = [
     "address": "1355 N Main St, Manteca, CA 95336, USA",
     "state": "California",
     "phone": "(209) 239-1455",
-    "website": "http://www.thecasinoreal.com/"
+    "website": "http://www.thecasinoreal.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lucky Chances",
@@ -938,7 +1530,17 @@ var casinoObjArray = [
     "address": "1700 Hillside Blvd, Colma, CA 94014, USA",
     "state": "California",
     "phone": "(650) 758-2237",
-    "website": "http://www.luckychances.com/"
+    "website": "http://www.luckychances.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lucky 7 Casino & Hotel",
@@ -946,7 +1548,17 @@ var casinoObjArray = [
     "address": "350 North Indian Road, Smith River, CA 95567, USA",
     "state": "California",
     "phone": "(707) 487-7777",
-    "website": "http://www.lucky7casino.com/"
+    "website": "http://www.lucky7casino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gold Country Casino & Hotel",
@@ -954,14 +1566,34 @@ var casinoObjArray = [
     "address": "4020 Olive Hwy, Oroville, CA 95966, USA",
     "state": "California",
     "phone": "(530) 538-4560",
-    "website": "http://www.goldcountrycasino.com/"
+    "website": "http://www.goldcountrycasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Merced Poker Room",
     "placeId": "ChIJdQF2ff1CkYAR2BpfKt_H7wI",
     "address": "1445 Martin Luther King Jr Way, Merced, CA 95340, USA",
     "state": "California",
-    "phone": "(209) 722-5050"
+    "phone": "(209) 722-5050",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Larry Flynts Lucky Lady Casino",
@@ -969,7 +1601,17 @@ var casinoObjArray = [
     "address": "1045 W Rosecrans Ave, Gardena, CA 90247, USA",
     "state": "California",
     "phone": "(310) 352-3400",
-    "website": "http://www.luckyladyla.com/"
+    "website": "http://www.luckyladyla.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lucky Lady Casino & Card Room",
@@ -977,7 +1619,17 @@ var casinoObjArray = [
     "address": "5526 El Cajon Boulevard, San Diego, CA 92115, USA",
     "state": "California",
     "phone": "(619) 287-6690",
-    "website": "http://www.luckyladysd.com/"
+    "website": "http://www.luckyladysd.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Quechan Casino Resort",
@@ -985,7 +1637,17 @@ var casinoObjArray = [
     "address": "525 Algodones Rd, Winterhaven, CA 92283, USA",
     "state": "California",
     "phone": "(877) 783-2426",
-    "website": "http://playqcr.com/section/contact-us"
+    "website": "http://playqcr.com/section/contact-us",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mono Wind Casino",
@@ -993,7 +1655,17 @@ var casinoObjArray = [
     "address": "37302 Rancheria Ln, Auberry, CA 93602, USA",
     "state": "California",
     "phone": "(559) 855-4350",
-    "website": "http://www.monowind.com/"
+    "website": "http://www.monowind.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Napa Valley Casino",
@@ -1001,7 +1673,17 @@ var casinoObjArray = [
     "address": "3466 Broadway St, American Canyon, CA 94503, USA",
     "state": "California",
     "phone": "(707) 644-8851",
-    "website": "http://www.napavalleycasino.com/"
+    "website": "http://www.napavalleycasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Red Hawk Casino",
@@ -1009,14 +1691,34 @@ var casinoObjArray = [
     "address": "1 Red Hawk Pkwy, Placerville, CA 95667, USA",
     "state": "California",
     "phone": "(530) 677-7000",
-    "website": "http://www.redhawkcasino.com/"
+    "website": "http://www.redhawkcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Pastime",
     "placeId": "ChIJmTkYybmYkYARa7sjjWHuTo4",
     "address": "337 5th St, Gustine, CA 95322, USA",
     "state": "California",
-    "phone": "(209) 854-3766"
+    "phone": "(209) 854-3766",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Red Fox Casino",
@@ -1024,19 +1726,49 @@ var casinoObjArray = [
     "address": "200 Cahto Dr, Laytonville, CA 95454, USA",
     "state": "California",
     "phone": "(707) 984-6800",
-    "website": "http://www.redfoxcasino.net/"
+    "website": "http://www.redfoxcasino.net/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Silver Fox Casino & Lounge",
     "placeId": "ChIJPyG9zFDFmoARZj2BOMOFfZE",
     "address": "6010 Stockton Blvd, Sacramento, CA 95824, USA",
-    "state": "California"
+    "state": "California",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Royal Flush Casino",
     "placeId": "ChIJsyooa2q_lIARxgmwa44mLsM",
     "address": "CA-41, Lemoore, CA 93245, USA",
-    "state": "California"
+    "state": "California",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Nineteenth Hole",
@@ -1044,21 +1776,51 @@ var casinoObjArray = [
     "address": "2746 W Tregallas Rd, Antioch, CA 94509, USA",
     "state": "California",
     "phone": "(925) 757-6545",
-    "website": "http://www.19thholeantioch.com/"
+    "website": "http://www.19thholeantioch.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Royal Flush",
     "placeId": "ChIJtTyW2gYDIYYRWkOjorxFeBc",
     "address": "10618 E Main St, Houma, LA 70363, USA",
     "state": "Louisiana",
-    "phone": "(985) 868-0336"
+    "phone": "(985) 868-0336",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Rogelios Casino",
     "placeId": "ChIJATCqW12tmoARM7PA8pChMWc",
     "address": "34 Main St, Isleton, CA 95641, USA",
     "state": "California",
-    "phone": "(916) 777-6606"
+    "phone": "(916) 777-6606",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Red Earth Casino",
@@ -1066,14 +1828,34 @@ var casinoObjArray = [
     "address": "3089 Norm Niver Rd, Thermal, CA 92274, USA",
     "state": "California",
     "phone": "(760) 395-1200",
-    "website": "http://www.redearthcasino.com/"
+    "website": "http://www.redearthcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "St Charles Place",
     "placeId": "ChIJteqQHkJ8nIARTe-XgrfS2Ww",
     "address": "101 Commercial St, Downieville, CA 95936, USA",
     "state": "California",
-    "phone": "(530) 289-3237"
+    "phone": "(530) 289-3237",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The River Casino",
@@ -1081,7 +1863,17 @@ var casinoObjArray = [
     "address": "185 Elm St, Milford, NH 03055, USA",
     "state": "New Hampshire",
     "phone": "(603) 249-5548",
-    "website": "http://www.therivercasino.com/"
+    "website": "http://www.therivercasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Morongo Casino",
@@ -1089,7 +1881,17 @@ var casinoObjArray = [
     "address": "49500 Seminole Dr, Cabazon, CA 92230, USA",
     "state": "California",
     "phone": "(951) 849-3080",
-    "website": "http://morongocasinoresort.com/?chebs=gl-morongo"
+    "website": "http://morongocasinoresort.com/?chebs=gl-morongo",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "River Rock Casino",
@@ -1097,35 +1899,85 @@ var casinoObjArray = [
     "address": "3250 CA-128, Geyserville, CA 95441, USA",
     "state": "California",
     "phone": "(877) 883-7777",
-    "website": "http://www.riverrockcasino.com/"
+    "website": "http://www.riverrockcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Village Club Card Room",
     "placeId": "ChIJr92hlOVN2YARL8Mzwq1tsYE",
     "address": "429 Broadway, Chula Vista, CA 91910, USA",
     "state": "California",
-    "phone": "(619) 425-3333"
+    "phone": "(619) 425-3333",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Sundowner Card Room",
     "placeId": "ChIJ1Te3HXAvlYARrxslmY41mAs",
     "address": "15638 Avenue 296, Visalia, CA 93292, USA",
     "state": "California",
-    "phone": "(559) 627-9624"
+    "phone": "(559) 627-9624",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ven-A-Mexico",
     "placeId": "ChIJfVsUEOxokoAR1KWFBgHmI3I",
     "address": "955 Front St, Soledad, CA 93960, USA",
     "state": "California",
-    "phone": "(831) 678-3235"
+    "phone": "(831) 678-3235",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Tommys Casino & Saloon",
     "placeId": "ChIJd004OyVn14ARcbL-EJ4Woro",
     "address": "467 Main St, El Centro, CA 92243, USA",
     "state": "California",
-    "phone": "(760) 352-6191"
+    "phone": "(760) 352-6191",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Towers Casino & Card Room",
@@ -1133,7 +1985,17 @@ var casinoObjArray = [
     "address": "115 Bank St, Grass Valley, CA 95945, USA",
     "state": "California",
     "phone": "(530) 273-4100",
-    "website": "http://www.towerscasino.com/"
+    "website": "http://www.towerscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Turlock Poker Room",
@@ -1141,13 +2003,33 @@ var casinoObjArray = [
     "address": "2321 W Main St, Turlock, CA 95380, USA",
     "state": "California",
     "phone": "(209) 668-1010",
-    "website": "http://www.turlockpoker.com/"
+    "website": "http://www.turlockpoker.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Santa Ysabel Casino",
     "placeId": "ChIJCdf9XdbA24ARG9-FSo9Ko0s",
     "address": "25575 CA-79, Santa Ysabel, CA 92070, USA",
-    "state": "California"
+    "state": "California",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Thunder Valley Casino",
@@ -1155,7 +2037,17 @@ var casinoObjArray = [
     "address": "1200 Athens Ave, Lincoln, CA 95648, USA",
     "state": "California",
     "phone": "(916) 408-7777",
-    "website": "http://thundervalleyresort.com/"
+    "website": "http://thundervalleyresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Viejas Casino & Resort",
@@ -1163,7 +2055,17 @@ var casinoObjArray = [
     "address": "5000 Willows Rd, Alpine, CA 91901, USA",
     "state": "California",
     "phone": "(619) 445-5400",
-    "website": "http://viejas.com/"
+    "website": "http://viejas.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Brass Ass",
@@ -1171,7 +2073,17 @@ var casinoObjArray = [
     "address": "264 Bennett Ave, Cripple Creek, CO 80813, USA",
     "state": "Colorado",
     "phone": "(719) 689-2104",
-    "website": "http://www.triplecrowncasinos.com/the-brass-ass/"
+    "website": "http://www.triplecrowncasinos.com/the-brass-ass/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Valley View Casino & Hotel",
@@ -1179,7 +2091,17 @@ var casinoObjArray = [
     "address": "16300 Nyemii Pass Pl, Valley Center, CA 92082, USA",
     "state": "California",
     "phone": "(760) 291-5500",
-    "website": "http://www.valleyviewcasino.com/"
+    "website": "http://www.valleyviewcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bullwhackers Casino",
@@ -1187,7 +2109,17 @@ var casinoObjArray = [
     "address": "101 Gregory St, Black Hawk, CO 80422, USA",
     "state": "Colorado",
     "phone": "(303) 271-2500",
-    "website": "http://www.bullwhackers.com/"
+    "website": "http://www.bullwhackers.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Big Jims Casino",
@@ -1195,14 +2127,34 @@ var casinoObjArray = [
     "address": "279 E Bennett Ave, Cripple Creek, CO 80813, USA",
     "state": "Colorado",
     "phone": "(719) 689-2601",
-    "website": "http://www.bigjimscasino.com/"
+    "website": "http://www.bigjimscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Bullpen",
     "placeId": "ChIJnbRG4Tnsa4cRfmLBlzMgqaE",
     "address": "980 11th St, Boulder, CO 80302, USA",
     "state": "Colorado",
-    "phone": "(303) 921-0661"
+    "phone": "(303) 921-0661",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bull Durham Casino",
@@ -1210,7 +2162,17 @@ var casinoObjArray = [
     "address": "110 Main St, Black Hawk, CO 80422, USA",
     "state": "Colorado",
     "phone": "(303) 582-0810",
-    "website": "http://www.bulldurhamcasino.com/"
+    "website": "http://www.bulldurhamcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Twin Pine Casino & Hotel",
@@ -1218,14 +2180,34 @@ var casinoObjArray = [
     "address": "22223 CA-29, Middletown, CA 95461, USA",
     "state": "California",
     "phone": "(800) 564-4872",
-    "website": "http://www.twinpine.com/"
+    "website": "http://www.twinpine.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Doc Hollidays Card Room",
     "placeId": "ChIJZ9sY1cHNXVMRmpuEJO3B7jQ",
     "address": "1900 Brooks St # 6, Missoula, MT 59801, USA",
     "state": "Montana",
-    "phone": "(406) 541-0123"
+    "phone": "(406) 541-0123",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Fitzgeralds Black Hawk",
@@ -1233,7 +2215,17 @@ var casinoObjArray = [
     "address": "101 Main St, Black Hawk, CO 80422, USA",
     "state": "Colorado",
     "phone": "(303) 582-6100",
-    "website": "http://www.fitzgeraldsbh.com/"
+    "website": "http://www.fitzgeraldsbh.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bronco Billys Casino",
@@ -1241,7 +2233,17 @@ var casinoObjArray = [
     "address": "233 E Bennett Ave, Cripple Creek, CO 80813, USA",
     "state": "Colorado",
     "phone": "(719) 689-2142",
-    "website": "http://www.broncobillyscasino.com/"
+    "website": "http://www.broncobillyscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ameristar Casino & Resort, Black Hawk",
@@ -1249,7 +2251,17 @@ var casinoObjArray = [
     "address": "111 Richman St, Black Hawk, CO 80422, USA",
     "state": "Colorado",
     "phone": "(720) 946-4000",
-    "website": "http://www.ameristar.com/"
+    "website": "http://www.ameristar.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bonanza Casino, Central City",
@@ -1257,7 +2269,17 @@ var casinoObjArray = [
     "address": "107 Main St, Central City, CO 80427, USA",
     "state": "Colorado",
     "phone": "(303) 582-5914",
-    "website": "http://www.famousbonanza.com/"
+    "website": "http://www.famousbonanza.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Double Eagle Hotel & Casino",
@@ -1265,7 +2287,17 @@ var casinoObjArray = [
     "address": "442 Bennett Ave, Cripple Creek, CO 80813, USA",
     "state": "Colorado",
     "phone": "(719) 689-5000",
-    "website": "http://www.decasino.com/"
+    "website": "http://www.decasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Win-River Resort & Casino",
@@ -1273,7 +2305,17 @@ var casinoObjArray = [
     "address": "2100 Redding Rancheria Rd, Redding, CA 96001, USA",
     "state": "California",
     "phone": "(530) 243-3377",
-    "website": "http://www.winriver.com/"
+    "website": "http://www.winriver.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Golden Gulch Casino",
@@ -1281,7 +2323,17 @@ var casinoObjArray = [
     "address": "321 Main St, Black Hawk, CO 80422, USA",
     "state": "Colorado",
     "phone": "(303) 582-1800",
-    "website": "http://www.blackhawkcolorado.com/golden_gulch.php"
+    "website": "http://www.blackhawkcolorado.com/golden_gulch.php",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Reserve Casino Hotel",
@@ -1289,7 +2341,17 @@ var casinoObjArray = [
     "address": "321 Gregory St, Central City, CO 80427, USA",
     "state": "Colorado",
     "phone": "(303) 582-0800",
-    "website": "http://www.reservecasinohotel.com/"
+    "website": "http://www.reservecasinohotel.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Golden Gates Casino",
@@ -1297,7 +2359,17 @@ var casinoObjArray = [
     "address": "300 Main St, Black Hawk, CO 80422, USA",
     "state": "Colorado",
     "phone": "(303) 582-1650",
-    "website": "http://thegoldengatescasino.com/"
+    "website": "http://thegoldengatescasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Normandie Club",
@@ -1305,13 +2377,33 @@ var casinoObjArray = [
     "address": "3612 W 6th St, Los Angeles, CA 90005, USA",
     "state": "California",
     "phone": "(213) 263-2709",
-    "website": "http://thenormandieclub.com/"
+    "website": "http://thenormandieclub.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Teller House",
     "placeId": "ChIJrUqcM5C7a4cRBUSBpCoO3ww",
     "address": "Teller House, Eureka St, Central City, CO 80427, USA",
-    "state": "Colorado"
+    "state": "Colorado",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mikes Card Casino",
@@ -1319,7 +2411,17 @@ var casinoObjArray = [
     "address": "824 N Yosemite Ave, Oakdale, CA 95361, USA",
     "state": "California",
     "phone": "(209) 847-2919",
-    "website": "http://california.casinocity.com/oakdale/mikes-card-casino/"
+    "website": "http://california.casinocity.com/oakdale/mikes-card-casino/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Robinson Rancheria Resort & Casino",
@@ -1327,7 +2429,17 @@ var casinoObjArray = [
     "address": "1545 State Hwy 20, Upper Lake, CA 95485, USA",
     "state": "California",
     "phone": "(707) 262-4000",
-    "website": "http://www.rrrc.com/"
+    "website": "http://www.rrrc.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "San Manuel Casino",
@@ -1335,7 +2447,17 @@ var casinoObjArray = [
     "address": "777 San Manuel Blvd, Highland, CA 92346, USA",
     "state": "California",
     "phone": "(800) 359-2464",
-    "website": "http://www.sanmanuel.com/"
+    "website": "http://www.sanmanuel.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "San Pablo Lytton Casino",
@@ -1343,7 +2465,17 @@ var casinoObjArray = [
     "address": "13255 San Pablo Ave, San Pablo, CA 94806, USA",
     "state": "California",
     "phone": "(510) 215-7888",
-    "website": "http://www.sanpablolytton.com/"
+    "website": "http://www.sanpablolytton.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Rolling Hills Casino",
@@ -1351,7 +2483,17 @@ var casinoObjArray = [
     "address": "2655 Everett Freeman Way, Corning, CA 96021, USA",
     "state": "California",
     "phone": "(530) 528-3500",
-    "website": "http://rollinghillscasino.com/"
+    "website": "http://rollinghillscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Tachi Palace Hotel & Casino",
@@ -1359,7 +2501,17 @@ var casinoObjArray = [
     "address": "17225 Jersey Ave, Lemoore, CA 93245, USA",
     "state": "California",
     "phone": "(559) 924-7751",
-    "website": "http://www.tachipalace.com/"
+    "website": "http://www.tachipalace.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hopland Sho-Ka-Wah Casino",
@@ -1367,7 +2519,17 @@ var casinoObjArray = [
     "address": "13101 Nokomis Rd, Hopland, CA 95449, USA",
     "state": "California",
     "phone": "(707) 744-1395",
-    "website": "http://www.shokawah.com/"
+    "website": "http://www.shokawah.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Spotlight 29 Casino",
@@ -1375,7 +2537,17 @@ var casinoObjArray = [
     "address": "46-200 Harrison Pl, Coachella, CA 92236, USA",
     "state": "California",
     "phone": "(760) 775-5566",
-    "website": "http://www.spotlight29.com/"
+    "website": "http://www.spotlight29.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Table Mountain Casino",
@@ -1383,7 +2555,17 @@ var casinoObjArray = [
     "address": "8184 Table Mountain Rd, Friant, CA 93626, USA",
     "state": "California",
     "phone": "(559) 822-7777",
-    "website": "http://www.tmcasino.com/"
+    "website": "http://www.tmcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Soboba Casino",
@@ -1391,7 +2573,17 @@ var casinoObjArray = [
     "address": "23333 Soboba Rd, San Jacinto, CA 92583, USA",
     "state": "California",
     "phone": "(951) 665-1000",
-    "website": "https://www.soboba.com/contact"
+    "website": "https://www.soboba.com/contact",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Spa Resort Casino",
@@ -1399,7 +2591,17 @@ var casinoObjArray = [
     "address": "401 E Amado Rd, Palm Springs, CA 92262, USA",
     "state": "California",
     "phone": "(888) 999-1995",
-    "website": "http://sparesortcasino.com/"
+    "website": "http://sparesortcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Midnight Rose Hotel & Casino",
@@ -1407,7 +2609,17 @@ var casinoObjArray = [
     "address": "256 Bennett Ave, Cripple Creek, CO 80813, USA",
     "state": "Colorado",
     "phone": "(719) 689-0303",
-    "website": "http://www.triplecrowncasinos.com/midnight-rose-hotel-casino/"
+    "website": "http://www.triplecrowncasinos.com/midnight-rose-hotel-casino/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Sycuan Casino",
@@ -1415,7 +2627,17 @@ var casinoObjArray = [
     "address": "5469 Casino Way, El Cajon, CA 92019, USA",
     "state": "California",
     "phone": "(619) 445-6002",
-    "website": "http://www.sycuan.com/"
+    "website": "http://www.sycuan.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Lodge Casino",
@@ -1423,14 +2645,34 @@ var casinoObjArray = [
     "address": "240 Main St, Black Hawk, CO 80422, USA",
     "state": "Colorado",
     "phone": "(303) 582-1771",
-    "website": "http://thelodgecasino.com/"
+    "website": "http://thelodgecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mortimers Card Room",
     "placeId": "ChIJBX59Kdf8jYARMGLyl5szjgM",
     "address": "3100 Del Monte Blvd, Marina, CA 93933, USA",
     "state": "California",
-    "phone": "(831) 324-0182"
+    "phone": "(831) 324-0182",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Century Casino Cripple Creek",
@@ -1438,7 +2680,17 @@ var casinoObjArray = [
     "address": "200-220 E Bennett Ave, Cripple Creek, CO 80813, USA",
     "state": "Colorado",
     "phone": "(719) 689-0333",
-    "website": "http://cripple-creek.cnty.com/"
+    "website": "http://cripple-creek.cnty.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Riviera Casino",
@@ -1446,7 +2698,17 @@ var casinoObjArray = [
     "address": "444 Main St, Black Hawk, CO 80422, USA",
     "state": "Colorado",
     "phone": "(303) 582-1000",
-    "website": "http://www.blackhawkcolorado.com/riviera.php"
+    "website": "http://www.blackhawkcolorado.com/riviera.php",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gilpin Casino",
@@ -1454,7 +2716,17 @@ var casinoObjArray = [
     "address": "111 Main St, Black Hawk, CO 80422, USA",
     "state": "Colorado",
     "phone": "(303) 582-1133",
-    "website": "http://www.thegilpincasino.com/"
+    "website": "http://www.thegilpincasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Poker Flats Casino",
@@ -1462,7 +2734,17 @@ var casinoObjArray = [
     "address": "1714 Martin Luther King Jr Way, Merced, CA 95340, USA",
     "state": "California",
     "phone": "(209) 383-4917",
-    "website": "https://sites.google.com/site/pokerflatscasino/home"
+    "website": "https://sites.google.com/site/pokerflatscasino/home",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Wildhorse Casino & Hotel",
@@ -1470,7 +2752,17 @@ var casinoObjArray = [
     "address": "13603 US-64, Dulce, NM 87528, USA",
     "state": "New Mexico",
     "phone": "(575) 759-3663",
-    "website": "http://www.apachenugget.com/casinos/wild-horse-casino/"
+    "website": "http://www.apachenugget.com/casinos/wild-horse-casino/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Oceanview Card Room",
@@ -1478,14 +2770,34 @@ var casinoObjArray = [
     "address": "709 Pacific Ave, Santa Cruz, CA 95060, USA",
     "state": "California",
     "phone": "(831) 423-6257",
-    "website": "http://www.oceanviewcardroom.com/"
+    "website": "http://www.oceanviewcardroom.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Oasis Card Room",
     "placeId": "ChIJ23jeE8dswYARfmCfqwLhr7M",
     "address": "117 E Ridgecrest Blvd # A, Ridgecrest, CA 93555, USA",
     "state": "California",
-    "phone": "(760) 384-2808"
+    "phone": "(760) 384-2808",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ranchos Club Casino",
@@ -1493,7 +2805,17 @@ var casinoObjArray = [
     "address": "2740 Mills Park Dr, Rancho Cordova, CA 95670, USA",
     "phone": "(916) 361-9186",
     "state": "California",
-    "website": "http://www.ranchosclub.com/index.html"
+    "website": "http://www.ranchosclub.com/index.html",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Oaks Card Club",
@@ -1501,7 +2823,17 @@ var casinoObjArray = [
     "address": "4097 San Pablo Ave, Emeryville, CA 94608, USA",
     "phone": "(510) 653-4456",
     "state": "California",
-    "website": "http://www.oakscardclub.com/"
+    "website": "http://www.oakscardclub.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Palomar Card Club",
@@ -1509,7 +2841,17 @@ var casinoObjArray = [
     "address": "2724 El Cajon Blvd, San Diego, CA 92104, USA",
     "phone": "(619) 280-5828",
     "state": "California",
-    "website": "http://www.palomarcardclub.net/"
+    "website": "http://www.palomarcardclub.net/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gold Creek Casino",
@@ -1517,7 +2859,17 @@ var casinoObjArray = [
     "address": "400 E Bennett Ave, Cripple Creek, CO 80813, USA",
     "phone": "(719) 689-5062",
     "state": "Colorado",
-    "website": "http://www.decasino.com/"
+    "website": "http://www.decasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Paiute Palace Casino",
@@ -1525,7 +2877,17 @@ var casinoObjArray = [
     "address": "2742 N Sierra Hwy, Bishop, CA 93514, USA",
     "state": "California",
     "phone": "(760) 873-4150",
-    "website": "http://www.paiutepalace.com/"
+    "website": "http://www.paiutepalace.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Old Cayucos Tavern & Card Room",
@@ -1533,7 +2895,17 @@ var casinoObjArray = [
     "address": "130 N Ocean Ave, Cayucos, CA 93430, USA",
     "state": "California",
     "phone": "(805) 995-3209",
-    "website": "http://www.oldcayucostavern.com/"
+    "website": "http://www.oldcayucostavern.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "McGills Hotel & Casino",
@@ -1541,7 +2913,17 @@ var casinoObjArray = [
     "address": "232 Bennett Ave, Cripple Creek, CO 80813, USA",
     "state": "Colorado",
     "phone": "(719) 689-2446",
-    "website": "http://www.triplecrowncasinos.com/mcgills-hotel-casino/"
+    "website": "http://www.triplecrowncasinos.com/mcgills-hotel-casino/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Pechanga Resort & Casino",
@@ -1549,7 +2931,17 @@ var casinoObjArray = [
     "address": "45000 Pechanga Pkwy, Temecula, CA 92592, USA",
     "state": "California",
     "phone": "(888) 732-4264",
-    "website": "http://www.pechanga.com/"
+    "website": "http://www.pechanga.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Scarlet Pearl Casino & Resort",
@@ -1557,7 +2949,17 @@ var casinoObjArray = [
     "address": "9380 Central Ave, D'Iberville, MS 39540, USA",
     "state": "Mississippi",
     "phone": "(228) 392-1889",
-    "website": "http://scarletpearlcasino.com/"
+    "website": "http://scarletpearlcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Outlaws Card Parlour",
@@ -1565,7 +2967,17 @@ var casinoObjArray = [
     "address": "9850 E Front St, Atascadero, CA 93422, USA",
     "state": "California",
     "phone": "(805) 466-7950",
-    "website": "http://outlawsatascadero.com/card-parlour-atascadero/"
+    "website": "http://outlawsatascadero.com/card-parlour-atascadero/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Pala Casino Spa & Resort",
@@ -1573,7 +2985,17 @@ var casinoObjArray = [
     "address": "11154 California 76, Pala, CA 92059, USA",
     "state": "California",
     "phone": "(877) 946-7252",
-    "website": "http://www.palacasino.com/home"
+    "website": "http://www.palacasino.com/home",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Pit River Casino",
@@ -1581,7 +3003,17 @@ var casinoObjArray = [
     "address": "20265 Tamarack Ave, Burney, CA 96013, USA",
     "state": "California",
     "phone": "(530) 335-2334",
-    "website": "http://www.pitrivercasino.com/"
+    "website": "http://www.pitrivercasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Butte Theater",
@@ -1589,7 +3021,17 @@ var casinoObjArray = [
     "address": "139 E Bennett Ave, Cripple Creek, CO 80813, USA",
     "state": "Colorado",
     "phone": "(719) 689-6402",
-    "website": "http://www.buttetheater.com/"
+    "website": "http://www.buttetheater.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mardi Gras Casino",
@@ -1597,7 +3039,17 @@ var casinoObjArray = [
     "address": "300 Main St, Black Hawk, CO 80422, USA",
     "state": "Colorado",
     "phone": "(303) 582-5600",
-    "website": "http://www.thegoldengatescasino.com/"
+    "website": "http://www.thegoldengatescasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Colorado Grande Casino",
@@ -1605,7 +3057,17 @@ var casinoObjArray = [
     "address": "300 Bennett Drive, Cripple Creek, CO 80813, USA",
     "state": "Colorado",
     "phone": "(719) 689-3517",
-    "website": "http://coloradogrande.com/"
+    "website": "http://coloradogrande.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Sky Ute Casino Resort",
@@ -1613,7 +3075,17 @@ var casinoObjArray = [
     "address": "14324 State Highway 172 North, Ignacio, CO 81137, USA",
     "state": "Colorado",
     "phone": "(970) 563-7777",
-    "website": "http://www.skyutecasino.com/"
+    "website": "http://www.skyutecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Century Casino",
@@ -1621,7 +3093,17 @@ var casinoObjArray = [
     "address": "102 Main St, Central City, CO 80427, USA",
     "state": "Colorado",
     "phone": "(303) 582-5050",
-    "website": "http://central-city.cnty.com/"
+    "website": "http://central-city.cnty.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Eureka Casino & Resort, Mesquite",
@@ -1629,7 +3111,17 @@ var casinoObjArray = [
     "address": "275 Mesa Blvd, Mesquite, NV 89027, USA",
     "state": "Nevada",
     "phone": "(702) 346-4600",
-    "website": "http://www.eurekamesquite.com/"
+    "website": "http://www.eurekamesquite.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Eureka Casino & Resort, Las Vegas",
@@ -1637,7 +3129,17 @@ var casinoObjArray = [
     "address": "595 E Sahara Ave, Las Vegas, NV 89104, USA",
     "state": "Nevada",
     "phone": "(702) 794-3464",
-    "website": "http://www.eurekalasvegas.com/"
+    "website": "http://www.eurekalasvegas.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Doc Holliday Inc",
@@ -1645,7 +3147,17 @@ var casinoObjArray = [
     "address": "131 Main, Central City, CO 80427, USA",
     "state": "Colorado",
     "phone": "(303) 582-1400",
-    "website": "http://www.dochollidaycasino.net/"
+    "website": "http://www.dochollidaycasino.net/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Dostal Alley Casino & Brew Pub",
@@ -1653,14 +3165,34 @@ var casinoObjArray = [
     "address": "116 Main St, Central City, CO 80427, USA",
     "state": "Colorado",
     "phone": "(303) 582-5563",
-    "website": "http://dostalalley.net/"
+    "website": "http://dostalalley.net/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Big Sky Lanes & Casino",
     "placeId": "ChIJ0wrb_Ia1ZVMRtuvBjSwGBDM",
     "address": "1817 US-93, Eureka, MT 59917, USA",
     "state": "Montana",
-    "phone": "(406) 297-2987"
+    "phone": "(406) 297-2987",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Marina Club Casino",
@@ -1668,7 +3200,17 @@ var casinoObjArray = [
     "address": "204 Carmel Ave, Marina, CA 93933, USA",
     "state": "California",
     "phone": "(831) 384-0925",
-    "website": "http://www.casinomonterey.com/"
+    "website": "http://www.casinomonterey.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Johnny Nolons Casino",
@@ -1676,7 +3218,17 @@ var casinoObjArray = [
     "address": "301 E Bennett Ave, Cripple Creek, CO 80813, USA",
     "state": "Colorado",
     "phone": "(719) 689-2080",
-    "website": "http://www.johnnynolons.com/"
+    "website": "http://www.johnnynolons.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Wild Horse Pass Hotel & Casino",
@@ -1684,7 +3236,17 @@ var casinoObjArray = [
     "address": "5040 Wild Horse Pass Blvd, Chandler, AZ 85226, USA",
     "state": "Arizona",
     "phone": "(800) 946-4452",
-    "website": "http://wingilariver.com/index.php/wild-horse-pass"
+    "website": "http://wingilariver.com/index.php/wild-horse-pass",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Red Dolly Casino",
@@ -1692,7 +3254,17 @@ var casinoObjArray = [
     "address": "530 Gregory St, Black Hawk, CO 80422, USA",
     "state": "Colorado",
     "phone": "(303) 582-1100",
-    "website": "http://www.reddollycasino.net/"
+    "website": "http://www.reddollycasino.net/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ute Mountain Casino, Hotel & Resort",
@@ -1700,7 +3272,17 @@ var casinoObjArray = [
     "address": "3 Weeminuche Dr, Towaoc, CO 81334, USA",
     "state": "Colorado",
     "phone": "(970) 565-8800",
-    "website": "http://www.utemountaincasino.com/"
+    "website": "http://www.utemountaincasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Triple Crown Casinos",
@@ -1708,7 +3290,17 @@ var casinoObjArray = [
     "address": "232 Bennett Ave, Cripple Creek, CO 80813, USA",
     "state": "Colorado",
     "phone": "(800) 635-5825",
-    "website": "http://www.triplecrowncasinos.com/"
+    "website": "http://www.triplecrowncasinos.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Brighton Collectibles",
@@ -1716,14 +3308,34 @@ var casinoObjArray = [
     "address": "1 Mohegan Sun Blvd, Uncasville, CT 06382, USA",
     "state": "Connecticut",
     "phone": "(860) 237-3001",
-    "website": "http://www.brighton.com/viewstore/68?utm_source=Google&utm_medium=Maps&utm_campaign=BR340160"
+    "website": "http://www.brighton.com/viewstore/68?utm_source=Google&utm_medium=Maps&utm_campaign=BR340160",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Performance Poker Room",
     "placeId": "ChIJQRX1Q3rbuIkRUBxxgj1kjGU",
     "address": "34407 Dupont Blvd, Frankford, DE 19945, USA",
     "state": "Deleware",
-    "phone": "(302) 321-9088"
+    "phone": "(302) 321-9088",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Foxwoods Casino & Resort",
@@ -1731,7 +3343,17 @@ var casinoObjArray = [
     "address": "350 Trolley Line Blvd, Mashantucket, CT 06338, USA",
     "state": "Connecticut",
     "phone": "(800) 369-9663",
-    "website": "http://www.foxwoods.com/"
+    "website": "http://www.foxwoods.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hialeah Park Casino",
@@ -1739,7 +3361,17 @@ var casinoObjArray = [
     "address": "100 E 32nd St, Hialeah, FL 33013, USA",
     "state": "Florida",
     "phone": "(305) 885-1294",
-    "website": "http://hialeahparkracing.com/"
+    "website": "http://hialeahparkracing.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Daytona Beach Kennel Club & Poker Room, International Speedway",
@@ -1747,20 +3379,50 @@ var casinoObjArray = [
     "address": "2201 W International Speedway Blvd, Daytona Beach, FL 32114, USA",
     "state": "Florida",
     "phone": "(386) 252-6484",
-    "website": "http://www.daytonagreyhound.com/"
+    "website": "http://www.daytonagreyhound.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Jacksonville Kennel Club",
     "placeId": "ChIJ0dvQ3JK05YgRpwtK8D5RKp0",
     "address": "201 Monument Rd, Jacksonville, FL 32225, USA",
     "state": "Florida",
-    "phone": "(904) 721-4135"
+    "phone": "(904) 721-4135",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Miccosukee Resort & Gaming",
     "placeId": "ChIJkVsuwRGV2YgR-Yw0wiFbb5k",
     "address": "Miami, FL 33194, USA",
-    "state": "Florida"
+    "state": "Florida",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Melbourne Greyhound Park",
@@ -1768,7 +3430,17 @@ var casinoObjArray = [
     "address": "1100 N Wickham Rd, Melbourne, FL 32935, USA",
     "state": "Florida",
     "phone": "(321) 259-9800",
-    "website": "http://www.mgpark.com/"
+    "website": "http://www.mgpark.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Creek Entertainment Gretna",
@@ -1776,7 +3448,17 @@ var casinoObjArray = [
     "address": "501 Racetrack Drive, Gretna, FL 32332, USA",
     "state": "Florida",
     "phone": "(850) 875-6930",
-    "website": "http://creekentertainment.com/"
+    "website": "http://creekentertainment.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Derby Lane Poker Room",
@@ -1784,7 +3466,17 @@ var casinoObjArray = [
     "address": "10490 Gandy Blvd N, St. Petersburg, FL 33702, USA",
     "state": "Florida",
     "phone": "(727) 812-3339",
-    "website": "http://www.derbylanepoker.com/"
+    "website": "http://www.derbylanepoker.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Jefferson County Kennel Club",
@@ -1792,13 +3484,33 @@ var casinoObjArray = [
     "address": "3079 N Jefferson St, Monticello, FL 32344, USA",
     "state": "Florida",
     "phone": "(850) 997-2561",
-    "website": "http://www.jckc.us/poker.html"
+    "website": "http://www.jckc.us/poker.html",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Palm Beach Kennel Club, Orange Park",
     "placeId": "ChIJ6ZNGUgXG5YgRmkkGn9F5ZWs",
     "address": "455 Park Ave, Orange Park, FL 32073, USA",
-    "state": "Florida"
+    "state": "Florida",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gulfstream Park Racing & Casino",
@@ -1806,7 +3518,17 @@ var casinoObjArray = [
     "address": "901 S Federal Hwy, Hallandale Beach, FL 33009, USA",
     "state": "Florida",
     "phone": "(954) 454-7000",
-    "website": "http://www.gulfstreampark.com/"
+    "website": "http://www.gulfstreampark.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mardi Gras Casino, Hallandale Beach",
@@ -1814,7 +3536,17 @@ var casinoObjArray = [
     "address": "831 N Federal Hwy, Hallandale Beach, FL 33009, USA",
     "state": "Florida",
     "phone": "(954) 924-3200",
-    "website": "http://www.mgfla.com/"
+    "website": "http://www.mgfla.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Fort Pierce Poker &  Jai-Alai",
@@ -1822,7 +3554,17 @@ var casinoObjArray = [
     "address": "1750 S Kings Hwy, Fort Pierce, FL 34945, USA",
     "state": "Florida",
     "phone": "(772) 464-7500",
-    "website": "http://www.casinomiamijaialai.com/ftpierce/"
+    "website": "http://www.casinomiamijaialai.com/ftpierce/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ocala Poker & Jai-Alai",
@@ -1830,7 +3572,17 @@ var casinoObjArray = [
     "address": "4601 W Hwy 318, Orange Lake, FL 32681, USA",
     "state": "Florida",
     "phone": "(352) 591-2345",
-    "website": "http://www.ocalapoker.com/"
+    "website": "http://www.ocalapoker.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Isle Casino & Racing, Pompano Park",
@@ -1838,7 +3590,17 @@ var casinoObjArray = [
     "address": "777 Isle of Capri Circle, Pompano Beach, FL 33069, USA",
     "state": "Florida",
     "phone": "(954) 642-0325",
-    "website": "http://pompano-park.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+    "website": "http://pompano-park.isleofcapricasinos.com/index.html?utm_uptracs=search:local",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Pensacola Greyhound Track",
@@ -1846,7 +3608,17 @@ var casinoObjArray = [
     "address": "951 Dog Track Rd, Pensacola, FL 32506, USA",
     "state": "Florida",
     "phone": "(850) 455-8595",
-    "website": "http://pensacolagreyhoundtrack.com/"
+    "website": "http://pensacolagreyhoundtrack.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Sarasota Kennel Club",
@@ -1854,33 +3626,83 @@ var casinoObjArray = [
     "address": "5400 Bradenton Rd, Sarasota, FL 34234, USA",
     "state": "Florida",
     "phone": "(941) 355-7744",
-    "website": "http://www.sarasotakennelclub.com/"
+    "website": "http://www.sarasotakennelclub.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ameristar Casino",
     "placeId": "ChIJBaIdYXMmDogR2CvXzr2WmWQ",
     "address": "9901 S Martin Luther King Dr, Chicago, IL 60628, USA",
-    "state": "Illinois"
+    "state": "Illinois",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Sage Hill Casino",
     "placeId": "ChIJ2x66x0kFVVMRLnZiUCcTisQ",
     "address": "I-15, Blackfoot, ID 83221, USA",
     "state": "Idaho",
-    "phone": "(208) 237-4998"
+    "phone": "(208) 237-4998",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Itse Ye Ye Casino",
     "placeId": "ChIJ-1ma3vqFoFQRs0xwp4_i4UA",
     "address": "419 3rd St, Kamiah, ID 83536, USA",
     "state": "Idaho",
-    "phone": "(208) 935-7860"
+    "phone": "(208) 935-7860",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Horseshoe Casino, Elizabeth",
     "placeId": "ChIJAYTHoO4XaYgR5xOdXb1yTc8",
     "address": "Indiana 111, Elizabeth, IN 47117, USA",
-    "state": "Indiana"
+    "state": "Indiana",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Fort Hall Casino",
@@ -1888,7 +3710,17 @@ var casinoObjArray = [
     "address": "I-15 Exit 80, Fort Hall, ID 83203, USA",
     "state": "Idaho",
     "phone": "(208) 237-8778",
-    "website": "http://www.shobangaming.com/"
+    "website": "http://www.shobangaming.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino Queen",
@@ -1896,13 +3728,33 @@ var casinoObjArray = [
     "address": "200 S Front St, East St Louis, IL 62201, USA",
     "state": "Illinois",
     "phone": "(800) 777-0777",
-    "website": "http://www.casinoqueen.com/"
+    "website": "http://www.casinoqueen.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Rhythm City Casino",
     "placeId": "ChIJk2I1jmIz4ocRMsfLjP3Qfok",
     "address": "400 Biederbeck Dr, Davenport, IA 52801, USA",
-    "state": "Iowa"
+    "state": "Iowa",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrington Raceway & Casino",
@@ -1910,7 +3762,17 @@ var casinoObjArray = [
     "address": "18500 S Dupont Hwy, Harrington, DE 19952, USA",
     "state": "Delaware",
     "phone": "(302) 398-4920",
-    "website": "http://harringtonraceway.com/"
+    "website": "http://harringtonraceway.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Wyandotte Casino",
@@ -1918,7 +3780,17 @@ var casinoObjArray = [
     "address": "777 N 7th St, Kansas City, KS 66101, USA",
     "state": "Kansas",
     "phone": "(913) 371-3500",
-    "website": "http://www.7th-streetcasino.com/"
+    "website": "http://www.7th-streetcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Dover Downs Hotel & Casino",
@@ -1926,7 +3798,17 @@ var casinoObjArray = [
     "address": "1131 N Dupont Hwy, Dover, DE 19901, USA",
     "state": "Deleware",
     "phone": "(302) 674-4600",
-    "website": "http://www.doverdowns.com/Dover"
+    "website": "http://www.doverdowns.com/Dover",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Blackbird Bend Casino",
@@ -1934,7 +3816,17 @@ var casinoObjArray = [
     "address": "17214 210th St, Onawa, IA 51040, USA",
     "state": "Iowa",
     "phone": "(712) 423-9646",
-    "website": "http://www.blackbirdbendcasinos.com/"
+    "website": "http://www.blackbirdbendcasinos.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Naples Fort Myers Kennel Club & Poker Room",
@@ -1942,7 +3834,17 @@ var casinoObjArray = [
     "address": "10601 Bonita Beach Rd SE, Bonita Springs, FL 34135, USA",
     "state": "Florida",
     "phone": "(239) 992-2411",
-    "website": "http://www.naplesfortmyersdogs.com/"
+    "website": "http://www.naplesfortmyersdogs.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino Miami",
@@ -1950,7 +3852,17 @@ var casinoObjArray = [
     "address": "3500 NW 37th Ave, Miami, FL 33142, USA",
     "state": "Florida",
     "phone": "(305) 633-6400",
-    "website": "http://www.casinomiamijaialai.com/"
+    "website": "http://www.casinomiamijaialai.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Calder Casino",
@@ -1958,7 +3870,17 @@ var casinoObjArray = [
     "address": "21001 NW 27th Ave, Miami Gardens, FL 33056, USA",
     "state": "Florida",
     "phone": "(305) 625-1311",
-    "website": "http://www.caldercasino.com/"
+    "website": "http://www.caldercasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Daytona Beach Kennel Club & Poker Room, Williamson Blvd",
@@ -1966,7 +3888,17 @@ var casinoObjArray = [
     "address": "960 S Williamson Blvd, Daytona Beach, FL 32114, USA",
     "state": "Florida",
     "phone": "(386) 252-6484",
-    "website": "http://www.daytonagreyhound.com/?utm_source=googlemaps&utm_medium=local&utm_campaign=daytona"
+    "website": "http://www.daytonagreyhound.com/?utm_source=googlemaps&utm_medium=local&utm_campaign=daytona",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino @ Delaware Park",
@@ -1974,7 +3906,17 @@ var casinoObjArray = [
     "address": "777 Delaware Park Blvd, Wilmington, DE 19804, USA",
     "state": "Delaware",
     "phone": "(302) 994-2521",
-    "website": "http://www.delawarepark.com/"
+    "website": "http://www.delawarepark.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ebro Greyhound Park",
@@ -1982,7 +3924,17 @@ var casinoObjArray = [
     "address": "6558 Dog Track Rd, Ebro, FL 32437, USA",
     "state": "Florida",
     "phone": "(850) 234-3943",
-    "website": "http://www.goebro.com/"
+    "website": "http://www.goebro.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Casino @ Dania Beach",
@@ -1990,7 +3942,17 @@ var casinoObjArray = [
     "address": "301 E Dania Beach Blvd, Dania Beach, FL 33004, USA",
     "state": "Florida",
     "phone": "(954) 920-1511",
-    "website": "http://www.casinodaniabeach.com/"
+    "website": "http://www.casinodaniabeach.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Magic City Casino",
@@ -1998,7 +3960,17 @@ var casinoObjArray = [
     "address": "450 NW 37th Ave, Miami, FL 33125, USA",
     "state": "Florida",
     "phone": "(305) 649-3000",
-    "website": "http://www.magiccitycasino.com/"
+    "website": "http://www.magiccitycasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Seminole Casino Hotel, Immokalee",
@@ -2006,7 +3978,17 @@ var casinoObjArray = [
     "address": "506 S 1st St, Immokalee, FL 34142, USA",
     "state": "Florida",
     "phone": "(239) 658-1313",
-    "website": "https://www.seminoleimmokaleecasino.com/"
+    "website": "https://www.seminoleimmokaleecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bestbet, Orange Park",
@@ -2014,7 +3996,17 @@ var casinoObjArray = [
     "address": "455 Park Ave, Orange Park, FL 32073, USA",
     "state": "Florida",
     "phone": "(904) 646-0001",
-    "website": "http://www.bestbetjax.com/"
+    "website": "http://www.bestbetjax.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Seminole Casino, Brighton",
@@ -2022,7 +4014,17 @@ var casinoObjArray = [
     "address": "17735 Reservation Rd, Okeechobee, FL 34974, USA",
     "state": "Florida",
     "phone": "(863) 467-9998",
-    "website": "https://www.seminolebrightoncasino.com/"
+    "website": "https://www.seminolebrightoncasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Seminole Classic Casino, Hollywood",
@@ -2030,7 +4032,17 @@ var casinoObjArray = [
     "address": "4150 N State Rd 7, Hollywood, FL 33021, USA",
     "state": "Florida",
     "phone": "(954) 961-3220",
-    "website": "https://www.seminoleclassiccasino.com/"
+    "website": "https://www.seminoleclassiccasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Tampa Greyhound Track",
@@ -2038,7 +4050,17 @@ var casinoObjArray = [
     "address": "8300 N Nebraska Ave, Tampa, FL 33604, USA",
     "state": "Florida",
     "phone": "(813) 933-5582",
-    "website": "http://www.tampadogs.com/"
+    "website": "http://www.tampadogs.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Seminole Hard Rock Hotel & Casino, Tampa",
@@ -2046,7 +4068,17 @@ var casinoObjArray = [
     "address": "5223 Orient Rd, Tampa, FL 33610, USA",
     "state": "Florida",
     "phone": "(813) 627-7625",
-    "website": "https://www.seminolehardrocktampa.com/"
+    "website": "https://www.seminolehardrocktampa.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Suquamish Clearwater Casino Resort",
@@ -2054,7 +4086,17 @@ var casinoObjArray = [
     "address": "15347 Suquamish Way NE, Suquamish, WA 98392, USA",
     "state": "Washington",
     "phone": "(360) 598-8700",
-    "website": "http://www.clearwatercasino.com/"
+    "website": "http://www.clearwatercasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs Hotel & Casino, Joliet",
@@ -2062,7 +4104,17 @@ var casinoObjArray = [
     "address": "151 N Joliet St, Joliet, IL 60432, USA",
     "state": "Illinois",
     "phone": "(815) 740-7800",
-    "website": "https://www.caesars.com/harrahs-joliet?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Joliet%20Hotel&utm_content=hotel"
+    "website": "https://www.caesars.com/harrahs-joliet?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Joliet%20Hotel&utm_content=hotel"    
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Seminole Casino, Coconut Creek",
@@ -2070,7 +4122,17 @@ var casinoObjArray = [
     "address": "5550 NW 40th St, Coconut Creek, FL 33073, USA",
     "state": "Florida",
     "phone": "(954) 977-6700",
-    "website": "http://www.casinococo.com/"
+    "website": "http://www.casinococo.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Coeur D'Alene Casino & Resort",
@@ -2078,7 +4140,17 @@ var casinoObjArray = [
     "address": "37914 South Nukwalqw, Worley, ID 83876, USA",
     "state": "Idaho",
     "phone": "(800) 523-2464",
-    "website": "http://www.cdacasino.com/"
+    "website": "http://www.cdacasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Seminole Hard Rock Hotel & Casino, Hollywood",
@@ -2086,7 +4158,17 @@ var casinoObjArray = [
     "address": "1 Seminole Way, Hollywood, FL 33314, USA",
     "state": "Florida",
     "phone": "(866) 502-7529",
-    "website": "https://www.seminolehardrockhollywood.com/"
+    "website": "https://www.seminolehardrockhollywood.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Clearwater River Casino & Lodge",
@@ -2094,7 +4176,17 @@ var casinoObjArray = [
     "address": "17500 Nez Perce Rd, Lewiston, ID 83501, USA",
     "state": "Idaho",
     "phone": "(208) 746-0723",
-    "website": "http://www.crcasino.com/"
+    "website": "http://www.crcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Best Western Plus Kootenai River Inn, Casino & Spa",
@@ -2102,7 +4194,17 @@ var casinoObjArray = [
     "address": "7169 Plaza St, Bonners Ferry, ID 83805, USA",
     "state": "Idaho",
     "phone": "(208) 267-8511",
-    "website": "http://book.bestwestern.com/bestwestern/US/ID/Bonners-Ferry-hotels/BEST-WESTERN-PLUS-Kootenai-River-Inn-Casino---Spa/Hotel-Overview.do?iata=00171880&propertyCode=13044&cm_mmc=BL-_-Google-_-GMB-_-13044"
+    "website": "http://book.bestwestern.com/bestwestern/US/ID/Bonners-Ferry-hotels/BEST-WESTERN-PLUS-Kootenai-River-Inn-Casino---Spa/Hotel-Overview.do?iata=00171880&propertyCode=13044&cm_mmc=BL-_-Google-_-GMB-_-13044",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs, Metropolis",
@@ -2110,7 +4212,17 @@ var casinoObjArray = [
     "address": "100 E Front St, Metropolis, IL 62960, USA",
     "state": "Illinois",
     "phone": "(618) 524-2628",
-    "website": "https://www.caesars.com/harrahs-metropolis?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Metropolis&utm_content=hotel"
+    "website": "https://www.caesars.com/harrahs-metropolis?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Metropolis&utm_content=hotel", 
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Jumers Casino & Hotel",
@@ -2118,7 +4230,17 @@ var casinoObjArray = [
     "address": "777 Jumer Dr, Rock Island, IL 61201, USA",
     "state": "Illinois",
     "phone": "(309) 756-4600",
-    "website": "http://www.jumerscasinohotel.com/?utm_source=googlemaps&utm_medium=local&utm_campaign=casino"
+    "website": "http://www.jumerscasinohotel.com/?utm_source=googlemaps&utm_medium=local&utm_campaign=casino",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Tampa Bay Downs",
@@ -2126,7 +4248,17 @@ var casinoObjArray = [
     "address": "11225 Race Track Rd, Tampa, FL 33626, USA",
     "state": "Florida",
     "phone": "(813) 855-4401",
-    "website": "http://www.tampabaydowns.com/"
+    "website": "http://www.tampabaydowns.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Par-A-Dice Casino & Hotel",
@@ -2134,7 +4266,17 @@ var casinoObjArray = [
     "address": "21 Blackjack Blvd, East Peoria, IL 61611, USA",
     "state": "Illinois",
     "phone": "(309) 699-7711",
-    "website": "http://www.paradicecasino.com/"
+    "website": "http://www.paradicecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "French Lick Casino",
@@ -2142,7 +4284,17 @@ var casinoObjArray = [
     "address": "8670 IN-56, French Lick, IN 47432, USA",
     "state": "Indiana",
     "phone": "(888) 936-9360",
-    "website": "http://www.frenchlick.com/gaming"
+    "website": "http://www.frenchlick.com/gaming",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Victory Casino Cruises, Jacksonville",
@@ -2150,7 +4302,17 @@ var casinoObjArray = [
     "address": "4378 Ocean St, Jacksonville, FL 32233, USA",
     "state": "Florida",
     "phone": "(855) 468-4286",
-    "website": "http://www.victoryjax.com/"
+    "website": "http://www.victoryjax.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Rising Star Casino Resort, Rising Sun",
@@ -2158,7 +4320,17 @@ var casinoObjArray = [
     "address": "777 Rising Star Dr, Rising Sun, IN 47040, USA",
     "state": "Indiana",
     "phone": "(812) 438-1234",
-    "website": "http://www.risingstarcasino.com/"
+    "website": "http://www.risingstarcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ameristar Casino & Hotel, East Chicago",
@@ -2166,13 +4338,33 @@ var casinoObjArray = [
     "address": "777 Aldis Ave, East Chicago, IN 46312, USA",
     "state": "Indiana",
     "phone": "(219) 378-3000",
-    "website": "http://www.ameristar.com/"
+    "website": "http://www.ameristar.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Belterra Casino",
     "placeId": "ChIJ7d718t9yQogRg3hRsgSunN8",
     "address": "1024 Capital Center Dr, Frankfort, KY 40601, USA",
-    "state": "Kentucky"
+    "state": "Kentucky",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hollywood Casino & Hotel, Lawrenceburg",
@@ -2180,7 +4372,17 @@ var casinoObjArray = [
     "address": "777 Hollywood Blvd, Lawrenceburg, IN 47025, USA",
     "state": "Indiana",
     "phone": "(888) 274-6797",
-    "website": "http://www.hollywoodindiana.com/"
+    "website": "http://www.hollywoodindiana.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Victory Casino Cruises",
@@ -2188,7 +4390,17 @@ var casinoObjArray = [
     "address": "Terminal B 2, 180 Christopher Columbus Dr, Cape Canaveral, FL 32920, USA",
     "state": "Florida",
     "phone": "(855) 468-4286",
-    "website": "http://www.victorycasinocruises.com/"
+    "website": "http://www.victorycasinocruises.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ameristar Casino & Hotel, Council Bluffs",
@@ -2196,7 +4408,17 @@ var casinoObjArray = [
     "address": "2200 River Rd, Council Bluffs, IA 51501, USA",
     "state": "Iowa",
     "phone": "(712) 328-8888",
-    "website": "http://www.ameristar.com/"
+    "website": "http://www.ameristar.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hollywood Casino Aurora",
@@ -2204,7 +4426,17 @@ var casinoObjArray = [
     "address": "1 W New York St, Aurora, IL 60506, USA",
     "state": "Illinois",
     "phone": "(630) 801-1234",
-    "website": "http://www.hollywoodcasinoaurora.com/"
+    "website": "http://www.hollywoodcasinoaurora.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Catfish Bend Casino",
@@ -2212,7 +4444,17 @@ var casinoObjArray = [
     "address": "3001 Winegard Dr, Burlington, IA 52601, USA",
     "state": "Iowa",
     "phone": "(866) 792-9948",
-    "website": "http://www.thepzazz.com/"
+    "website": "http://www.thepzazz.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Belterra Park Gaming",
@@ -2220,7 +4462,17 @@ var casinoObjArray = [
     "address": "6301 Kellogg Rd, Cincinnati, OH 45230, USA",
     "state": "Ohio",
     "phone": "(513) 232-8000",
-    "website": "http://www.belterrapark.com/"
+    "website": "http://www.belterrapark.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Belterra Casino & Resort",
@@ -2228,7 +4480,17 @@ var casinoObjArray = [
     "address": "777 Belterra Dr, Florence, IN 47020, USA",
     "state": "Indiana",
     "phone": "(812) 427-7777",
-    "website": "http://www.belterracasino.com/"
+    "website": "http://www.belterracasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Grand Victoria Casino",
@@ -2236,7 +4498,17 @@ var casinoObjArray = [
     "address": "250 S Grove Ave, Elgin, IL 60120, USA",
     "state": "Illinois",
     "phone": "(847) 468-7000",
-    "website": "http://www.grandvictoriacasino.com/"
+    "website": "http://www.grandvictoriacasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hollywood Casino & Hotel, Joliet",
@@ -2244,7 +4516,17 @@ var casinoObjArray = [
     "address": "777 Hollywood Blvd, Joliet, IL 60436, USA",
     "state": "Illinois",
     "phone": "(888) 436-7737",
-    "website": "http://www.hollywoodcasinojoliet.com/"
+    "website": "http://www.hollywoodcasinojoliet.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Rivers Casino, Des Plaines",
@@ -2252,7 +4534,17 @@ var casinoObjArray = [
     "address": "3000 S River Rd, Des Plaines, IL 60018, USA",
     "state": "Illinois",
     "phone": "(847) 795-0777",
-    "website": "http://www.riverscasino.com/"
+    "website": "http://www.riverscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Argosy Casino, Alton",
@@ -2260,7 +4552,17 @@ var casinoObjArray = [
     "address": "1 Piasa St, Alton, IL 62002, USA",
     "state": "Illinois",
     "phone": "(800) 711-4263",
-    "website": "http://www.argosyalton.com/"
+    "website": "http://www.argosyalton.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Diamond Jo Casino",
@@ -2268,7 +4570,17 @@ var casinoObjArray = [
     "address": "301 Bell St, Dubuque, IA 52001, USA",
     "state": "Iowa",
     "phone": "(563) 690-4800",
-    "website": "http://www.diamondjo.com/home"
+    "website": "http://www.diamondjo.com/home",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs Hotel & Casino, Council Bluffs",
@@ -2276,7 +4588,17 @@ var casinoObjArray = [
     "address": "1 Harrahs Blvd, Council Bluffs, IA 51501, USA",
     "state": "Iowa",
     "phone": "(712) 329-6000",
-    "website": "https://www.caesars.com/harrahs-council-bluffs?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Council%20Bluffs%20Hotel%20and%20Casino&utm_content=hotel"
+    "website": "https://www.caesars.com/harrahs-council-bluffs?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Council%20Bluffs%20Hotel%20and%20Casino&utm_content=hotel",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Blue Chip Casino & Hotel, Michigan City",
@@ -2284,7 +4606,17 @@ var casinoObjArray = [
     "address": "777 Blue Chip Dr, Michigan City, IN 46360, USA",
     "state": "Indiana",
     "phone": "(219) 879-7711",
-    "website": "http://www.bluechipcasino.com"
+    "website": "http://www.bluechipcasino.com",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hoosier Park Racing & Casino",
@@ -2292,7 +4624,17 @@ var casinoObjArray = [
     "address": "4500 Dan Patch Cir, Anderson, IN 46013, USA",
     "state": "Indiana",
     "phone": "(765) 642-7223",
-    "website": "http://www.hoosierpark.com/"
+    "website": "http://www.hoosierpark.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Tropicana Casino, Evansville",
@@ -2300,7 +4642,17 @@ var casinoObjArray = [
     "address": "421 NW Riverside Dr, Evansville, IN 47708, USA",
     "state": "Indiana",
     "phone": "(812) 433-4000",
-    "website": "http://www.tropevansville.com/casino/"
+    "website": "http://www.tropevansville.com/casino/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Horseshoe Casino, Southern Indiana",
@@ -2308,7 +4660,17 @@ var casinoObjArray = [
     "address": "11999 Casino Center Dr SE, Elizabeth, IN 47117, USA",
     "state": "Indiana",
     "phone": "(866) 676-7463",
-    "website": "https://www.caesars.com/horseshoe-southern-indiana?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Horseshoe%20Southern%20Indiana&utm_content=hotel"
+    "website": "https://www.caesars.com/horseshoe-southern-indiana?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Horseshoe%20Southern%20Indiana&utm_content=hotel",  
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Isle Casino Hotel, Bettendorf",
@@ -2316,7 +4678,17 @@ var casinoObjArray = [
     "address": "1777 Isle Pkwy, Bettendorf, IA 52722, USA",
     "state": "Iowa",
     "phone": "(563) 265-6977",
-    "website": "http://bettendorf.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+    "website": "http://bettendorf.isleofcapricasinos.com/index.html?utm_uptracs=search:local",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Horseshoe Casino, Council Bluffs",
@@ -2324,7 +4696,17 @@ var casinoObjArray = [
     "address": "2701 23rd Ave, Council Bluffs, IA 51501, USA",
     "state": "Iowa",
     "phone": "(712) 329-6000",
-    "website": "https://www.caesars.com/horseshoe-council-bluffs?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Horseshoe%20Casino%20Council%20Bluffs&utm_content=hotel"
+    "website": "https://www.caesars.com/horseshoe-council-bluffs?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Horseshoe%20Casino%20Council%20Bluffs&utm_content=hotel",   
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hard Rock Hotel & Casino, Sioux City",
@@ -2332,7 +4714,17 @@ var casinoObjArray = [
     "address": "111 3rd St, Sioux City, IA 51101, USA",
     "state": "Iowa",
     "phone": "(712) 226-7600",
-    "website": "http://hardrockcasinosiouxcity.com/"
+    "website": "http://hardrockcasinosiouxcity.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mystique Casino",
@@ -2340,7 +4732,17 @@ var casinoObjArray = [
     "address": "1855 Greyhound Park Rd, Dubuque, IA 52001, USA",
     "state": "Iowa",
     "phone": "(563) 582-3647",
-    "website": "http://www.mystiquedbq.com/"
+    "website": "http://www.mystiquedbq.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Palm Beach Kennel Club, West Palm Beach",
@@ -2348,7 +4750,17 @@ var casinoObjArray = [
     "address": "1111 N Congress Ave, West Palm Beach, FL 33409, USA",
     "state": "Florida",
     "phone": "(561) 683-2222",
-    "website": "http://www.pbkennelclub.com/"
+    "website": "http://www.pbkennelclub.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "7th Street Casino",
@@ -2356,7 +4768,17 @@ var casinoObjArray = [
     "address": "777 N 7th St Trfy, Kansas City, KS 66101, USA",
     "state": "Kansas",
     "phone": "(913) 371-3500",
-    "website": "http://www.7th-streetcasino.com/"
+    "website": "http://www.7th-streetcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Indiana Grand Racing & Casino",
@@ -2364,7 +4786,17 @@ var casinoObjArray = [
     "address": "4300 N Michigan Rd, Shelbyville, IN 46176, USA",
     "state": "Indiana",
     "phone": "(877) 386-4463",
-    "website": "http://www.indianagrand.com/"
+    "website": "http://www.indianagrand.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lakeside Hotel Casino",
@@ -2372,7 +4804,17 @@ var casinoObjArray = [
     "address": "777 Casino Drive, Osceola, IA 50213, USA",
     "state": "Iowa",
     "phone": "(641) 342-9511",
-    "website": "http://www.lakesidehotelcasino.com/"
+    "website": "http://www.lakesidehotelcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Meskwaki Bingo Casino Hotel",
@@ -2380,7 +4822,17 @@ var casinoObjArray = [
     "address": "1504 305th St, Tama, IA 52339, USA",
     "state": "Iowa",
     "phone": "(800) 728-4263",
-    "website": "http://www.meskwaki.com/"
+    "website": "http://www.meskwaki.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Wild Rose Casino & Resort, Clinton",
@@ -2388,7 +4840,17 @@ var casinoObjArray = [
     "address": "777 Wild Rose Dr, Clinton, IA 52732, USA",
     "state": "Iowa",
     "phone": "(563) 243-9000",
-    "website": "http://clinton.wildroseresorts.com/"
+    "website": "http://clinton.wildroseresorts.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Prairie Meadows",
@@ -2396,7 +4858,17 @@ var casinoObjArray = [
     "address": "1 Prairie Meadows Dr, Altoona, IA 50009, USA",
     "state": "Iowa",
     "phone": "(800) 325-9015",
-    "website": "http://www.prairiemeadows.com/"
+    "website": "http://www.prairiemeadows.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Majestic Star Casino & Hotel",
@@ -2404,7 +4876,17 @@ var casinoObjArray = [
     "address": "1 Buffington Harbor Dr, Gary, IN 46406, USA",
     "state": "Indiana",
     "phone": "(888) 225-8259",
-    "website": "http://www.majesticstarcasino.com/"
+    "website": "http://www.majesticstarcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Boot Hill Casino & Resort",
@@ -2412,7 +4894,17 @@ var casinoObjArray = [
     "address": "4000 W. Comanche, Dodge City, KS 67801, USA",
     "state": "Kansas",
     "phone": "(877) 906-0777",
-    "website": "http://www.boothillcasino.com/"
+    "website": "http://www.boothillcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Rhythm City Casino Resort",
@@ -2420,7 +4912,17 @@ var casinoObjArray = [
     "address": "7077 Elmore Avenue, Davenport, IA 52807, USA",
     "state": "Iowa",
     "phone": "(563) 328-8000",
-    "website": "http://www.rhythmcitycasino.com/"
+    "website": "http://www.rhythmcitycasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lady Luck Casino, Marquette",
@@ -2428,7 +4930,17 @@ var casinoObjArray = [
     "address": "100 Anti Monopoly, Marquette, IA 52158, USA",
     "state": "Iowa",
     "phone": "(563) 387-9011",
-    "website": "http://marquette.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+    "website": "http://marquette.isleofcapricasinos.com/index.html?utm_uptracs=search:local",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Isle Casino & Hotel, Waterloo",
@@ -2436,7 +4948,17 @@ var casinoObjArray = [
     "address": "777 Isle of Capri Blvd, Waterloo, IA 50701, USA",
     "state": "Iowa",
     "phone": "(319) 327-5013",
-    "website": "http://waterloo.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+    "website": "http://waterloo.isleofcapricasinos.com/index.html?utm_uptracs=search:local",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Wild Rose Casino & Resort, Emmetsburg",
@@ -2444,7 +4966,17 @@ var casinoObjArray = [
     "address": "777 Main St, Emmetsburg, IA 50536, USA",
     "state": "Iowa",
     "phone": "(712) 852-3400",
-    "website": "http://www.wildroseresorts.com/"
+    "website": "http://www.wildroseresorts.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Wild Rose Casino & Resort, Jefferson",
@@ -2452,7 +4984,17 @@ var casinoObjArray = [
     "address": "777, Wild Rose Rd, Jefferson, IA 50129, USA",
     "state": "Iowa",
     "phone": "(515) 386-7777",
-    "website": "http://jefferson.wildroseresorts.com/"
+    "website": "http://jefferson.wildroseresorts.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Riverside Casino & Golf Resort",
@@ -2460,7 +5002,17 @@ var casinoObjArray = [
     "address": "3184 IA-22, Riverside, IA 52327, USA",
     "state": "Iowa",
     "phone": "(319) 648-1234",
-    "website": "http://www.riversidecasinoandresort.com/"
+    "website": "http://www.riversidecasinoandresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Grand Falls Casino & Resort",
@@ -2468,7 +5020,17 @@ var casinoObjArray = [
     "address": "1415 Grand Falls Blvd, Larchwood, IA 51241, USA",
     "state": "Iowa",
     "phone": "(712) 777-7777",
-    "website": "http://www.grandfallscasinoresort.com/"
+    "website": "http://www.grandfallscasinoresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Diamond Jo Worth Casino",
@@ -2476,7 +5038,17 @@ var casinoObjArray = [
     "address": "777 Diamond Jo Lane, Northwood, IA 50459, USA",
     "state": "Iowa",
     "phone": "(877) 323-5566",
-    "website": "http://www.diamondjoworth.com/"
+    "website": "http://www.diamondjoworth.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "WinnaVegas Casino & Resort",
@@ -2484,14 +5056,34 @@ var casinoObjArray = [
     "address": "1500 330th St, Sloan, IA 51055, USA",
     "state": "Iowa",
     "phone": "(712) 428-9466",
-    "website": "https://winnavegas.com/"
+    "website": "https://winnavegas.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
     {
     "name": "Sac & Fox Nation Casino, Stroud",
     "placeId": "ChIJBabOo7ZYsYcRy9cekA8hRlg",
     "address": "356120 E 926 Rd, Stroud, OK 74079, USA",
     "state": "Oklahoma",
-    "phone": "(918) 968-2540"
+    "phone": "(918) 968-2540",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino White Cloud",
@@ -2499,7 +5091,17 @@ var casinoObjArray = [
     "address": "777 Jackpot Drive, White Cloud, KS 66094, USA",
     "state": "Kansas",
     "phone": "(785) 595-3430",
-    "website": "http://www.casinowhitecloud.org/"
+    "website": "http://www.casinowhitecloud.org/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Golden Eagle Casino",
@@ -2507,7 +5109,17 @@ var casinoObjArray = [
     "address": "1121 Goldfinch Rd, Horton, KS 66439, USA",
     "state": "Kansas",
     "phone": "(785) 486-6601",
-    "website": "http://www.goldeneaglecasino.com/"
+    "website": "http://www.goldeneaglecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Sac & Fox Nation Casino, Powhattan",
@@ -2515,13 +5127,33 @@ var casinoObjArray = [
     "address": "1322 US-75, Powhattan, KS 66527, USA",
     "state": "Kansas",
     "phone": "(785) 467-8000",
-    "website": "http://www.sacandfoxcasino.com/"
+    "website": "http://www.sacandfoxcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs, Lake Charles",
     "placeId": "ChIJ6_09Z7aFO4YR2dvNFf4-DNg",
     "address": "505 N Lakeshore Dr, Lake Charles, LA 70601, USA",
-    "state": "Louisiana"
+    "state": "Louisiana",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Evangeline Downs Racetrack & Casino",
@@ -2529,7 +5161,17 @@ var casinoObjArray = [
     "address": "2235 Cresswell Lane Extension, Opelousas, LA 70570, USA",
     "state": "Louisiana",
     "phone": "(866) 472-2466",
-    "website": "http://www.evangelinedowns.com/"
+    "website": "http://www.evangelinedowns.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Black Hawk Casino",
@@ -2537,7 +5179,17 @@ var casinoObjArray = [
     "address": "42008 Westech Rd, Shawnee, OK 74804, USA",
     "state": "Oklahoma",
     "phone": "(405) 275-4700",
-    "website": "http://theblackhawkcasino.com/"
+    "website": "http://theblackhawkcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Fair Grounds Race Course & Slots",
@@ -2545,7 +5197,17 @@ var casinoObjArray = [
     "address": "1751 Gentilly Blvd, New Orleans, LA 70119, USA",
     "state": "Louisiana",
     "phone": "(504) 944-5515",
-    "website": "http://www.fairgroundsracecourse.com/"
+    "website": "http://www.fairgroundsracecourse.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Treasure Chest Casino",
@@ -2553,7 +5215,17 @@ var casinoObjArray = [
     "address": "5050 Williams Blvd, Kenner, LA 70065, USA",
     "state": "Louisiana",
     "phone": "(504) 443-8000",
-    "website": "http://www.treasurechest.com/"
+    "website": "http://www.treasurechest.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Cypress Bayou Casino Hotel",
@@ -2561,7 +5233,17 @@ var casinoObjArray = [
     "address": "832 Martin Luther King Rd, Charenton, LA 70523, USA",
     "state": "Louisiana",
     "phone": "(337) 923-7284",
-    "website": "http://www.cypressbayou.com/"
+    "website": "http://www.cypressbayou.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Belle of Baton Rouge Casino & Hotel",
@@ -2569,7 +5251,17 @@ var casinoObjArray = [
     "address": "103 France St, Baton Rouge, LA 70802, USA",
     "state": "Louisiana",
     "phone": "(225) 242-2600",
-    "website": "http://www.belleofbatonrouge.com/"
+    "website": "http://www.belleofbatonrouge.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Kansas Star Casino",
@@ -2577,7 +5269,17 @@ var casinoObjArray = [
     "address": "777 Kansas Star Drive, Mulvane, KS 67110, USA",
     "state": "Kansas",
     "phone": "(316) 719-5000",
-    "website": "http://www.kansasstarcasino.com/"
+    "website": "http://www.kansasstarcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hollywood Casino @ Kansas Speedway",
@@ -2585,7 +5287,17 @@ var casinoObjArray = [
     "address": "777 Hollywood Casino Blvd, Kansas City, KS 66111, USA",
     "state": "Kansas",
     "phone": "(913) 288-9300",
-    "website": "http://www.hollywoodcasinokansas.com/"
+    "website": "http://www.hollywoodcasinokansas.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Boomtown Casino & Hotel, New Orleans",
@@ -2593,7 +5305,17 @@ var casinoObjArray = [
     "address": "4132 Peters Rd, Harvey, LA 70058, USA",
     "state": "Louisiana",
     "phone": "(504) 366-7711",
-    "website": "http://www.boomtownneworleans.com/"
+    "website": "http://www.boomtownneworleans.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Boomtown Casino & Hotel, Biloxi",
@@ -2601,7 +5323,17 @@ var casinoObjArray = [
     "address": "676 Bayview Ave, Biloxi, MS 39530, USA",
     "state": "Mississippi",
     "phone": "(228) 435-7000",
-    "website": "http://www.boomtownbiloxi.com/"
+    "website": "http://www.boomtownbiloxi.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Amelia Belle Casino",
@@ -2609,7 +5341,17 @@ var casinoObjArray = [
     "address": "500 Lake Palourde Rd, Amelia, LA 70340, USA",
     "state": "Louisiana",
     "phone": "(985) 631-1777",
-    "website": "http://www.ameliabellecasino.com/"
+    "website": "http://www.ameliabellecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Prairie Band Casino & Resort",
@@ -2617,7 +5359,17 @@ var casinoObjArray = [
     "address": "12305 150th Rd, Mayetta, KS 66509, USA",
     "state": "Kansas",
     "phone": "(785) 966-7777",
-    "website": "http://prairieband.com/"
+    "website": "http://prairieband.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Boomtown Casino & Hotel",
@@ -2625,7 +5377,17 @@ var casinoObjArray = [
     "address": "300 Riverside Dr, Bossier City, LA 71111, USA",
     "state": "Louisiana",
     "phone": "(318) 746-0711",
-    "website": "https://www.boomtownbossier.com/"
+    "website": "https://www.boomtownbossier.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Eldorado Casino & Resort, Shreveport",
@@ -2633,7 +5395,17 @@ var casinoObjArray = [
     "address": "451 Clyde Fant Pkwy, Shreveport, LA 71101, USA",
     "state": "Louisiana",
     "phone": "(877) 602-0711",
-    "website": "http://www.eldoradoshreveport.com/?chebs=gl_shreveport"
+    "website": "http://www.eldoradoshreveport.com/?chebs=gl_shreveport",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Coushatta Casino & Resort",
@@ -2641,7 +5413,17 @@ var casinoObjArray = [
     "address": "777 Coushatta Dr, Kinder, LA 70648, USA",
     "state": "Louisiana",
     "phone": "(800) 584-7263",
-    "website": "http://www.coushattacasinoresort.com/"
+    "website": "http://www.coushattacasinoresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Four Winds Casino, Dowagiac",
@@ -2649,7 +5431,17 @@ var casinoObjArray = [
     "address": "58700 Michigan 51 South, Dowagiac, MI 49047, USA",
     "state": "Michigan",
     "phone": "(866) 494-6371",
-    "website": "http://www.fourwindscasino.com/"
+    "website": "http://www.fourwindscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Golden Nugget Hotel & Casino, Lake Charles",
@@ -2657,7 +5449,17 @@ var casinoObjArray = [
     "address": "2550 Golden Nugget Boulevard, Lake Charles, LA 70601, USA",
     "state": "Louisiana",
     "phone": "(337) 508-7777",
-    "website": "http://www.goldennugget.com/lakecharles"
+    "website": "http://www.goldennugget.com/lakecharles",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Horseshoe Casino, Baltimore",
@@ -2665,7 +5467,17 @@ var casinoObjArray = [
     "address": "1525 Russell St, Baltimore, MD 21230, USA",
     "state": "Maryland",
     "phone": "(844) 777-7463",
-    "website": "https://www.caesars.com/horseshoe-baltimore?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Horseshoe%20Casino%20Baltimore&utm_content=hotel"
+    "website": "https://www.caesars.com/horseshoe-baltimore?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Horseshoe%20Casino%20Baltimore&utm_content=hotel",    
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Sams Town Hotel & Casino, Shreveport",
@@ -2673,7 +5485,17 @@ var casinoObjArray = [
     "address": "315 Clyde Fant Pkwy, Shreveport, LA 71101, USA",
     "state": "Louisiana",
     "phone": "(877) 429-0711",
-    "website": "http://www.samstownshreveport.com/"
+    "website": "http://www.samstownshreveport.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs Louisiana Downs Casino & Racetrack",
@@ -2681,7 +5503,17 @@ var casinoObjArray = [
     "address": "8000 E Texas St, Bossier City, LA 71111, USA",
     "state": "Louisiana",
     "phone": "(318) 742-5555",
-    "website": "https://www.caesars.com/harrahs-louisiana-downs?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Louisiana%20Downs%20Casino%20and%20Racetrack&utm_content=hotel"
+    "website": "https://www.caesars.com/harrahs-louisiana-downs?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Louisiana%20Downs%20Casino%20and%20Racetrack&utm_content=hotel", 
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Oxford Casino",
@@ -2689,7 +5521,17 @@ var casinoObjArray = [
     "address": "777 Casino Way, Oxford, ME 04270, USA",
     "state": "Maine",
     "phone": "(207) 539-6700",
-    "website": "http://www.oxfordcasino.com/"
+    "website": "http://www.oxfordcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Rocky Gap Casino & Resort",
@@ -2697,7 +5539,17 @@ var casinoObjArray = [
     "address": "16701 Lakeview Road Northeast, Flintstone, MD 21530, USA",
     "state": "Maryland",
     "phone": "(301) 784-8400",
-    "website": "http://www.rockygapcasino.com/"
+    "website": "http://www.rockygapcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hollywood Casino, Baton Rouge",
@@ -2705,7 +5557,17 @@ var casinoObjArray = [
     "address": "North, 1717 River Rd, Baton Rouge, LA 70802, USA",
     "state": "Louisiana",
     "phone": "(225) 709-7777",
-    "website": "http://www.hollywoodbr.com/"
+    "website": "http://www.hollywoodbr.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Paragon Casino & Resort",
@@ -2713,7 +5575,17 @@ var casinoObjArray = [
     "address": "711 Paragon Place, Marksville, LA 71351, USA",
     "state": "Louisiana",
     "phone": "(318) 253-1946",
-    "website": "http://www.paragoncasinoresort.com/"
+    "website": "http://www.paragoncasinoresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hollywood Casino, Hotel & Raceway, Bangor",
@@ -2721,7 +5593,17 @@ var casinoObjArray = [
     "address": "500 Main St, Bangor, ME 04401, USA",
     "state": "Maine",
     "phone": "(877) 779-7771",
-    "website": "http://www.hollywoodcasinobangor.com/"
+    "website": "http://www.hollywoodcasinobangor.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Margaritaville Casino & Resort",
@@ -2729,7 +5611,17 @@ var casinoObjArray = [
     "address": "777 Margaritaville Way, Bossier City, LA 71111, USA",
     "state": "Louisiana",
     "phone": "(855) 346-2489",
-    "website": "http://www.margaritavillebossiercity.com/"
+    "website": "http://www.margaritavillebossiercity.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Kewadin Casinos, Manistique",
@@ -2737,7 +5629,17 @@ var casinoObjArray = [
     "address": "5630 US-2, Manistique, MI 49854, USA",
     "state": "Michigan",
     "phone": "(906) 341-5510",
-    "website": "http://www.kewadinmanistique.com/"
+    "website": "http://www.kewadinmanistique.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs Casino, New Orleans",
@@ -2745,7 +5647,17 @@ var casinoObjArray = [
     "address": "228 Poydras St, New Orleans, LA 70130, USA",
     "state": "Louisiana",
     "phone": "(800) 427-7247",
-    "website": "https://www.caesars.com/harrahs-new-orleans/casino"
+    "website": "https://www.caesars.com/harrahs-new-orleans/casino",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Maryland Live! Casino",
@@ -2753,7 +5665,17 @@ var casinoObjArray = [
     "address": "7002 Arundel Mills Cir #7777, Hanover, MD 21076, USA",
     "state": "Maryland",
     "phone": "(443) 842-7000",
-    "website": "https://www.marylandlivecasino.com/"
+    "website": "https://www.marylandlivecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Four Winds Casino, Hartford",
@@ -2761,7 +5683,17 @@ var casinoObjArray = [
     "address": "68600 Red Arrow Hwy, Hartford, MI 49057, USA",
     "state": "Michigan",
     "phone": "(866) 494-6371",
-    "website": "http://www.fourwindscasino.com/"
+    "website": "http://www.fourwindscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Kewadin Christmas Casino & Restaurant",
@@ -2769,7 +5701,17 @@ var casinoObjArray = [
     "address": "N7761 Candy Cane Lane, Christmas, MI 49862, USA",
     "state": "Michigan",
     "phone": "(906) 387-5475",
-    "website": "http://www.kewadinchristmas.com/"
+    "website": "http://www.kewadinchristmas.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Isle of Capri Casino & Hotel, Lake Charles",
@@ -2777,7 +5719,17 @@ var casinoObjArray = [
     "address": "100 Westlake Ave, Westlake, LA 70669, USA",
     "state": "Louisiana",
     "phone": "(337) 226-2054",
-    "website": "http://lake-charles.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+    "website": "http://lake-charles.isleofcapricasinos.com/index.html?utm_uptracs=search:local",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "L'Auberge, Lake Charles",
@@ -2785,7 +5737,17 @@ var casinoObjArray = [
     "address": "777 Ave L'Auberge, Lake Charles, LA 70601, USA",
     "state": "Louisiana",
     "phone": "(866) 580-7444",
-    "website": "http://www.llakecharles.com/"
+    "website": "http://www.llakecharles.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Four Winds Casino, New Buffalo",
@@ -2793,7 +5755,17 @@ var casinoObjArray = [
     "address": "11111 Wilson Rd, New Buffalo, MI 49117, USA",
     "state": "Michigan",
     "phone": "(866) 494-6370",
-    "website": "http://www.fourwindscasino.com/"
+    "website": "http://www.fourwindscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Delta Downs Racetrack, Casino & Hotel",
@@ -2801,13 +5773,33 @@ var casinoObjArray = [
     "address": "2717 Delta Downs Dr, Vinton, LA 70668, USA",
     "state": "Louisiana",
     "phone": "(800) 589-7441",
-    "website": "http://www.deltadowns.com/"
+    "website": "http://www.deltadowns.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Palace Casino",
     "placeId": "ChIJiatrlZeo3IgRlfD-c0JewLE",
     "address": "701 JC Center Ct, Port Charlotte, FL 33954, USA",
-    "state": "Florida"
+    "state": "Florida",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Island Resort & Casino",
@@ -2815,14 +5807,34 @@ var casinoObjArray = [
     "address": "W 399 US-2, Harris, MI 49845, USA",
     "state": "Michigan",
     "phone": "(800) 682-6040",
-    "website": "http://www.islandresortandcasino.com/"
+    "website": "http://www.islandresortandcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Greektown Casino",
     "placeId": "ChIJKW6N-istO4gRSTFoSfsf6oA",
     "address": "555 E Lafayette St, Detroit, MI 48226, USA",
     "state": "Michigan",
-    "website": "http://www.greektowncasino.com/"
+    "website": "http://www.greektowncasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bay Mills Resort & Casinos",
@@ -2830,7 +5842,17 @@ var casinoObjArray = [
     "address": "11386 W Lakeshore Dr, Brimley, MI 49715, USA",
     "state": "Michigan",
     "phone": "(888) 422-9645",
-    "website": "http://www.baymillscasinos.com/"
+    "website": "http://www.baymillscasinos.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Choctaw Pines Casino",
@@ -2838,7 +5860,17 @@ var casinoObjArray = [
     "address": "149 Chahta Trails, Dry Prong, LA 71423, USA",
     "state": "Louisiana",
     "phone": "(318) 648-7773",
-    "website": "http://www.jenachoctawpinescasino.com/"
+    "website": "http://www.jenachoctawpinescasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Kewadin Casinos",
@@ -2846,7 +5878,17 @@ var casinoObjArray = [
     "address": "2186 Shunk Rd, Sault Ste. Marie, MI 49783, USA",
     "state": "Michigan",
     "phone": "(906) 632-0530",
-    "website": "http://www.kewadin.com/"
+    "website": "http://www.kewadin.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Horseshoe Casino, Bossier City",
@@ -2854,7 +5896,17 @@ var casinoObjArray = [
     "address": "711 Horseshoe Blvd, Bossier City, LA 71111, USA",
     "state": "Louisiana",
     "phone": "(800) 895-0711",
-    "website": "https://www.caesars.com/horseshoe-bossier-city?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Horseshoe%20Bossier%20City&utm_content=bar"
+    "website": "https://www.caesars.com/horseshoe-bossier-city?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Horseshoe%20Bossier%20City&utm_content=bar",    
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hollywood Casino, Perryville",
@@ -2862,13 +5914,33 @@ var casinoObjArray = [
     "address": "1201 Chesapeake Overlook Pkwy, Perryville, MD 21903, USA",
     "state": "Maryland",
     "phone": "(410) 378-8500",
-    "website": "http://www.hollywoodcasinoperryville.com/"
+    "website": "http://www.hollywoodcasinoperryville.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Kings Club Casino, Charlotte",
     "placeId": "ChIJhRViI5Gp3IgRSZYG5A--wOU",
     "address": "701 JC Center Ct, Port Charlotte, FL 33954, USA",
-    "state": "Florida"
+    "state": "Florida",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino @ Ocean Downs",
@@ -2876,7 +5948,17 @@ var casinoObjArray = [
     "address": "10218 Racetrack Rd, Berlin, MD 21811, USA",
     "state": "Maryland",
     "phone": "(410) 641-0600",
-    "website": "http://www.oceandowns.com/"
+    "website": "http://www.oceandowns.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "FireKeepers",
@@ -2884,7 +5966,17 @@ var casinoObjArray = [
     "address": "11177 E Michigan Ave, Battle Creek, MI 49014, USA",
     "state": "Michigan",
     "phone": "(877) 352-8777",
-    "website": "http://www.firekeeperscasino.com/default/index.cfm"
+    "website": "http://www.firekeeperscasino.com/default/index.cfm",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ojibwa Casino, Marquette",
@@ -2892,14 +5984,34 @@ var casinoObjArray = [
     "address": "105 Acre Trail, Marquette, MI 49855, USA",
     "state": "Michigan",
     "phone": "(906) 249-4200",
-    "website": "http://www.ojibwacasino.com/"
+    "website": "http://www.ojibwacasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Kings Club Casino, Brimley",
     "placeId": "ChIJawxlbyQhNk0RMT0V2Myagv4",
     "address": "12140 W Lakeshore Dr, Brimley, MI 49715, USA",
     "state": "Michigan",
-    "phone": "(906) 248-3227"
+    "phone": "(906) 248-3227",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Kewadin Casinos, Hessel",
@@ -2907,7 +6019,17 @@ var casinoObjArray = [
     "address": "3 N 3 Mile Rd, Hessel, MI 49745, USA",
     "state": "Michigan",
     "phone": "(906) 484-2903",
-    "website": "http://www.kewadinhessel.com/"
+    "website": "http://www.kewadinhessel.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Big M Casino",
@@ -2915,7 +6037,17 @@ var casinoObjArray = [
     "address": "4495 Mineola Ave, Little River, SC 29566, USA",
     "state": "South Carolina",
     "phone": "(843) 249-9811",
-    "website": "http://www.bigmcasino.com/"
+    "website": "http://www.bigmcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ojibwa Casino, Baraga",
@@ -2923,7 +6055,17 @@ var casinoObjArray = [
     "address": "16449 Michigan Ave, Baraga, MI 49908, USA",
     "state": "Michigan",
     "phone": "(906) 353-6333",
-    "website": "http://ojibwacasino.com/"
+    "website": "http://ojibwacasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "L'Auberge Casino & Hotel, Baton Rouge",
@@ -2931,7 +6073,17 @@ var casinoObjArray = [
     "address": "777 L’Auberge Ave, Baton Rouge, LA 70820, USA",
     "state": "Louisiana",
     "phone": "(225) 215-7777",
-    "website": "https://www.lbatonrouge.com/"
+    "website": "https://www.lbatonrouge.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Saganing Eagles Landing Casino",
@@ -2939,13 +6091,33 @@ var casinoObjArray = [
     "address": "2690 Worth Rd, Standish, MI 48658, USA",
     "state": "Michigan",
     "phone": "(888) 732-4537",
-    "website": "http://www.saganing-eagleslanding.com/"
+    "website": "http://www.saganing-eagleslanding.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Northern Lights Casino, Browerville",
     "placeId": "ChIJ4SKc1l_ftVIRBcav-yyj-5E",
     "address": "32999 County Road 21, Browerville, MN 56438, USA",
-    "state": "Minnesota"
+    "state": "Minnesota",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Leelanau Sands Casino & Lodge",
@@ -2953,7 +6125,17 @@ var casinoObjArray = [
     "address": "2521 N West Bay Shore Dr, Peshawbestown, MI 49682, USA",
     "state": "Michigan",
     "phone": "(231) 534-8100",
-    "website": "http://www.leelanausandscasino.com/"
+    "website": "http://www.leelanausandscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Kewadin Casinos, St Ignace",
@@ -2961,7 +6143,17 @@ var casinoObjArray = [
     "address": "3015 Mackinac Trail, St Ignace, MI 49781, USA",
     "state": "Michigan",
     "phone": "(906) 643-7071",
-    "website": "http://www.kewadinstignace.com/"
+    "website": "http://www.kewadinstignace.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Canterbury Park",
@@ -2969,7 +6161,17 @@ var casinoObjArray = [
     "address": "1100 Canterbury Rd, Shakopee, MN 55379, USA",
     "state": "Minnesota",
     "phone": "(952) 445-7223",
-    "website": "http://www.canterburypark.com/"
+    "website": "http://www.canterburypark.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "DiamondJacks Casino & Hotel",
@@ -2977,7 +6179,17 @@ var casinoObjArray = [
     "address": "711 Diamond Jacks Blvd, Bossier City, LA 71111, USA",
     "state": "Louisiana",
     "phone": "(318) 678-7777",
-    "website": "http://www.diamondjacks.com/"
+    "website": "http://www.diamondjacks.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "MGM Grand, Detroit",
@@ -2985,7 +6197,17 @@ var casinoObjArray = [
     "address": "1777 3rd Ave, Detroit, MI 48226, USA",
     "state": "Michigan",
     "phone": "(877) 888-2121",
-    "website": "http://mgmgranddetroit.com/"
+    "website": "http://mgmgranddetroit.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Black Bear Casino & Resort",
@@ -2993,7 +6215,17 @@ var casinoObjArray = [
     "address": "1785 MN-210, Carlton, MN 55718, USA",
     "state": "Minnesota",
     "phone": "(218) 878-2327",
-    "website": "http://www.blackbearcasinoresort.com/"
+    "website": "http://www.blackbearcasinoresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "MotorCity Casino & Hotel",
@@ -3001,7 +6233,17 @@ var casinoObjArray = [
     "address": "2901 Grand River Ave, Detroit, MI 48201, USA",
     "state": "Michigan",
     "phone": "(866) 782-9622",
-    "website": "http://www.motorcitycasino.com/Home"
+    "website": "http://www.motorcitycasino.com/Home",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lac Vieux Desert Casino & Resort",
@@ -3009,7 +6251,17 @@ var casinoObjArray = [
     "address": "N5384 U.S. 45, Watersmeet, MI 49969, USA",
     "state": "Michigan",
     "phone": "(906) 358-4226",
-    "website": "http://www.lvdcasino.com/"
+    "website": "http://www.lvdcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Seven Clans Casino, Red Lake",
@@ -3017,7 +6269,17 @@ var casinoObjArray = [
     "address": "10200 Minnesota Hwy. 89, Red Lake, MN 56671",
     "state": "Minnesota",
     "phone": "(218) 679-2500",
-    "website": "http://www.sevenclanscasino.com/"
+    "website": "http://www.sevenclanscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Seven Clans Casino, Warroad",
@@ -3025,7 +6287,17 @@ var casinoObjArray = [
     "address": "34966 605th Ave, Warroad, MN 56763, USA",
     "state": "Minnesota",
     "phone": "(218) 386-3381",
-    "website": "http://www.sevenclanscasino.com/"
+    "website": "http://www.sevenclanscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Fond-Du-Luth Casino",
@@ -3033,7 +6305,17 @@ var casinoObjArray = [
     "address": "129 E Superior St, Duluth, MN 55802, USA",
     "state": "Minnesota",
     "phone": "(218) 720-5100",
-    "website": "http://www.fondduluthcasino.com/"
+    "website": "http://www.fondduluthcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Little River Casino & Resort",
@@ -3041,7 +6323,17 @@ var casinoObjArray = [
     "address": "2700 Orchard Hwy, Manistee, MI 49660, USA",
     "state": "Michigan",
     "phone": "(231) 723-1535",
-    "website": "http://www.lrcr.com/"
+    "website": "http://www.lrcr.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Odawa Casino & Resort",
@@ -3049,7 +6341,17 @@ var casinoObjArray = [
     "address": "1760 Lears Rd, Petoskey, MI 49770, USA",
     "state": "Michigan",
     "phone": "(231) 439-6100",
-    "website": "http://www.odawacasino.com/"
+    "website": "http://www.odawacasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gun Lake Casino",
@@ -3057,14 +6359,34 @@ var casinoObjArray = [
     "address": "1123 129th Ave, Wayland, MI 49348, USA",
     "state": "Michigan",
     "phone": "(269) 792-7777",
-    "website": "http://www.gunlakecasino.com/"
+    "website": "http://www.gunlakecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bayou Caddys Jubilee Casino",
     "placeId": "ChIJf8nvg5jyK4YRY_Z-_KfHnhU",
     "address": "242 S Walnut St, Greenville, MS 38701, USA",
     "state": "Mississippi",
-    "phone": "(662) 335-1111"
+    "phone": "(662) 335-1111",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "White Oak Casino",
@@ -3072,7 +6394,17 @@ var casinoObjArray = [
     "address": "45830 US-2, Deer River, MN 56636, USA",
     "state": "Minnesota",
     "phone": "(218) 246-9600",
-    "website": "http://www.whiteoakcasino.com/"
+    "website": "http://www.whiteoakcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Fortune Bay Casino & Resort",
@@ -3080,7 +6412,17 @@ var casinoObjArray = [
     "address": "1430 Bois Forte Rd, Tower, MN 55790, USA",
     "state": "Minnesota",
     "phone": "(800) 992-7529",
-    "website": "http://fortunebay.com/"
+    "website": "http://fortunebay.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Palace Casino & Resort, Biloxi",
@@ -3088,7 +6430,17 @@ var casinoObjArray = [
     "address": "158 Howard Ave, Biloxi, MS 39530, USA",
     "state": "Mississippi",
     "phone": "(228) 432-8888",
-    "website": "http://www.palacecasinoresort.com/"
+    "website": "http://www.palacecasinoresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Running Aces Casino & Racetrack",
@@ -3096,7 +6448,17 @@ var casinoObjArray = [
     "address": "15201 Zurich St, Columbus, MN 55025, USA",
     "state": "Minnesota",
     "phone": "(651) 925-4600",
-    "website": "http://www.runaces.com/"
+    "website": "http://www.runaces.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Soaring Eagle Casino & Resort",
@@ -3104,7 +6466,17 @@ var casinoObjArray = [
     "address": "6800 Soaring Eagle Blvd, Mt Pleasant, MI 48858, USA",
     "state": "Michigan",
     "phone": "(888) 732-4537",
-    "website": "http://www.soaringeaglecasino.com/"
+    "website": "http://www.soaringeaglecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Northern Lights Casino, Walker",
@@ -3112,7 +6484,17 @@ var casinoObjArray = [
     "address": "6800 Y Frontage Rd NW, Walker, MN 56484, USA",
     "state": "Minnesota",
     "phone": "(218) 547-2744",
-    "website": "http://northernlightscasino.com/"
+    "website": "http://northernlightscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Little Six Casino",
@@ -3120,7 +6502,17 @@ var casinoObjArray = [
     "address": "2450 Sioux Trail NW, Prior Lake, MN 55372, USA",
     "state": "Minnesota",
     "phone": "(952) 445-6000",
-    "website": "http://www.littlesixcasino.com/"
+    "website": "http://www.littlesixcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bok Homa Casino",
@@ -3128,7 +6520,17 @@ var casinoObjArray = [
     "address": "1 Choctaw Rd, Heidelberg, MS 39439, USA",
     "state": "Mississippi",
     "phone": "(866) 447-3275",
-    "website": "http://www.bokhomacasino.com/"
+    "website": "http://www.bokhomacasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Turtle Creek Casino & Hotel",
@@ -3136,13 +6538,33 @@ var casinoObjArray = [
     "address": "7741 M72 East, Williamsburg, MI 49690, USA",
     "state": "Mississippi",
     "phone": "(231) 534-8870",
-    "website": "http://www.turtlecreekcasino.com/"
+    "website": "http://www.turtlecreekcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino Magic",
     "placeId": "ChIJmZ24fCwJnIgRAV_Z5UEdg9w",
     "address": "195 Beach Blvd, Biloxi, MS 39530, USA",
-    "state": "Mississippi"
+    "state": "Mississippi",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Seven Clans Casino, Thief River Falls",
@@ -3150,7 +6572,17 @@ var casinoObjArray = [
     "address": "20595 Center St E, Thief River Falls, MN 56701, USA",
     "state": "Minnesota",
     "phone": "(800) 881-0712",
-    "website": "http://www.sevenclanscasino.com/"
+    "website": "http://www.sevenclanscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Grand Casino Mille Lacs",
@@ -3158,7 +6590,17 @@ var casinoObjArray = [
     "address": "777 Grand Ave, Onamia, MN 56359, USA",
     "state": "Minnesota",
     "phone": "(320) 532-7777",
-    "website": "http://www.grandcasinomn.com/"
+    "website": "http://www.grandcasinomn.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Jackpot Junction Casino & Hotel",
@@ -3166,7 +6608,17 @@ var casinoObjArray = [
     "address": "39375 County Rd 24, Morton, MN 56270, USA",
     "state": "Minnesota",
     "phone": "(800) 946-2274",
-    "website": "http://www.jackpotjunction.com/"
+    "website": "http://www.jackpotjunction.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Grand Portage Casino & Lodge",
@@ -3174,7 +6626,17 @@ var casinoObjArray = [
     "address": "70 Casino Dr, Grand Portage, MN 55605, USA",
     "state": "Minnesota",
     "phone": "(218) 475-2401",
-    "website": "http://www.grandportage.com/"
+    "website": "http://www.grandportage.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Grand Casino, Hinckley",
@@ -3182,7 +6644,17 @@ var casinoObjArray = [
     "address": "777 Lady Luck Dr, Hinckley, MN 55037, USA",
     "state": "Minnesota",
     "phone": "(320) 384-7771",
-    "website": "http://www.grandcasinomn.com/"
+    "website": "http://www.grandcasinomn.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Palace Casino & Hotel, Cass Lake",
@@ -3190,7 +6662,17 @@ var casinoObjArray = [
     "address": "16599 69th Ave NW, Cass Lake, MN 56633, USA",
     "state": "Minnesota",
     "phone": "(218) 335-7000",
-    "website": "http://www.palacecasinohotel.com/"
+    "website": "http://www.palacecasinohotel.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mystic Lake Casino & Hotel",
@@ -3198,7 +6680,17 @@ var casinoObjArray = [
     "address": "2400 Mystic Lake Blvd NW, Prior Lake, MN 55372, USA",
     "state": "Minnesota",
     "phone": "(952) 445-9000",
-    "website": "http://www.mysticlake.com/"
+    "website": "http://www.mysticlake.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Shooting Star Casino",
@@ -3206,7 +6698,17 @@ var casinoObjArray = [
     "address": "777 S Casino Rd, Mahnomen, MN 56557, USA",
     "state": "Minnesota",
     "phone": "(800) 453-7827",
-    "website": "http://www.starcasino.com/"
+    "website": "http://www.starcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Prairies Edge Casino & Resort",
@@ -3214,7 +6716,17 @@ var casinoObjArray = [
     "address": "Prairies Edge Ln, Granite Falls, MN 56241, USA",
     "state": "Minnesota",
     "phone": "(320) 564-2121",
-    "website": "http://www.prairiesedgecasino.com/"
+    "website": "http://www.prairiesedgecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Treasure Island Casino & Resort",
@@ -3222,7 +6734,17 @@ var casinoObjArray = [
     "address": "5734 Sturgeon Lake Rd, Welch, MN 55089, USA",
     "state": "Minnesota",
     "phone": "(800) 222-7077",
-    "website": "http://www.ticasino.com/"
+    "website": "http://www.ticasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ameristar Casino & Hotel, Vicksburg",
@@ -3230,14 +6752,34 @@ var casinoObjArray = [
     "address": "4116 Washington St, Vicksburg, MS 39180, USA",
     "state": "Mississippi",
     "phone": "(601) 638-1000",
-    "website": "http://www.ameristar.com/"
+    "website": "http://www.ameristar.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ballys Tunica Casino",
     "placeId": "ChIJI3MoEsg_1YcRv28-3dllC2Y",
     "address": "1450 Bally Blvd, Robinsonville, MS 38664, USA",
     "state": "Mississippi",
-    "phone": "(866) 422-5597"
+    "phone": "(866) 422-5597",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Beau Rivage Casino & Resort",
@@ -3245,14 +6787,34 @@ var casinoObjArray = [
     "address": "875 Beach Blvd, Biloxi, MS 39530, USA",
     "state": "Mississippi",
     "phone": "(228) 386-7111",
-    "website": "http://www.beaurivage.com/"
+    "website": "http://www.beaurivage.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
  {
     "name": "Harrahs Casino & Resort, Tunica",
     "placeId": "ChIJJ59qNSdA1YcR9g7q_x_v48o",
     "address": "13615 Old Hwy 61, Robinsonville, MS 38664, USA",
     "state": "Mississippi",
-    "phone": "(662) 357-6092"
+    "phone": "(662) 357-6092",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Margaritaville Casino, Las Vegas",
@@ -3260,21 +6822,51 @@ var casinoObjArray = [
     "address": "3555 E Flamingo Rd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 733-3111",
-    "website": "http://www.flamingolasvegas.com/casino/margaritaville-casino.html?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Margaritaville%20casino&utm_content=casino"
+    "website": "http://www.flamingolasvegas.com/casino/margaritaville-casino.html?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Margaritaville%20casino&utm_content=casino",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Broadwater Buffalo Palace Casino",
     "placeId": "ChIJXYFYCaV8SFMRs7quIev2M8c",
     "address": "1425 Broadwater Ave, Billings, MT 59102, USA",
     "state": "Montana",
-    "phone": "(406) 259-0887"
+    "phone": "(406) 259-0887",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Grand Station Casino & Hotel",
     "placeId": "ChIJ9_PUGiHgKIYRi4CI6mbwiXs",
     "address": "1310 Mulberry St, Vicksburg, MS 39180, USA",
     "state": "Mississippi",
-    "phone": "(601) 636-3423"
+    "phone": "(601) 636-3423",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Trop Casino Greenville",
@@ -3282,7 +6874,17 @@ var casinoObjArray = [
     "address": "199 N Lakefront Rd, Greenville, MS 38701, USA",
     "state": "Mississippi",
     "phone": "(662) 334-7711",
-    "website": "http://www.tropgreenville.com/"
+    "website": "http://www.tropgreenville.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Golden Moon Casino",
@@ -3290,7 +6892,17 @@ var casinoObjArray = [
     "address": "13541 MS-16, Philadelphia, MS 39350, USA",
     "state": "Mississippi",
     "phone": "(601) 650-1234",
-    "website": "http://www.pearlriverresort.com/golden_moon.html"
+    "website": "http://www.pearlriverresort.com/golden_moon.html",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harlows Casino, Resort & Spa, Greenville",
@@ -3298,7 +6910,17 @@ var casinoObjArray = [
     "address": "4280 Harlows Blvd, Greenville, MS 38701, USA",
     "state": "Mississippi",
     "phone": "(662) 335-9797",
-    "website": "http://www.harlowscasino.com/"
+    "website": "http://www.harlowscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Tunica Roadhouse",
@@ -3306,7 +6928,17 @@ var casinoObjArray = [
     "address": "1107 Casino Center Dr, Robinsonville, MS 38664, USA",
     "state": "Mississippi",
     "phone": "(662) 363-4900",
-    "website": "http://www.tunica-roadhouse.com"
+    "website": "http://www.tunica-roadhouse.com",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs Casino & Resort, Gulf Coast",
@@ -3314,7 +6946,17 @@ var casinoObjArray = [
     "address": "280 Beach Blvd, Biloxi, MS 39530, USA",
     "state": "Mississippi",
     "phone": "(228) 436-2946",
-    "website": "https://www.caesars.com/harrahs-gulf-coast?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Gulf%20Coast&utm_content=hotel"
+    "website": "https://www.caesars.com/harrahs-gulf-coast?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Gulf%20Coast&utm_content=hotel",   
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hollywood Casino & Hotel, Tunica",
@@ -3322,7 +6964,17 @@ var casinoObjArray = [
     "address": "1150 Casino Strip Resort Boulevard, Tunica Resorts, MS 38664",
     "state": "Mississippi",
     "phone": "(800) 871-0711",
-    "website": "http://www.hollywoodcasinotunica.com/"
+    "website": "http://www.hollywoodcasinotunica.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hollywood Casino & Resort, Gulf Coast",
@@ -3330,7 +6982,17 @@ var casinoObjArray = [
     "address": "711 Hollywood Blvd, Bay St Louis, MS 39520, USA",
     "state": "Mississippi",
     "phone": "(866) 758-2591",
-    "website": "http://www.hollywoodgulfcoast.com/"
+    "website": "http://www.hollywoodgulfcoast.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Magnolia Bluffs Casino & Hotel",
@@ -3338,7 +7000,17 @@ var casinoObjArray = [
     "address": "7 Roth Hill Road, Natchez, MS 39120, USA",
     "state": "Mississippi",
     "phone": "(601) 235-0045",
-    "website": "http://www.magnoliabluffscasinos.com/"
+    "website": "http://www.magnoliabluffscasinos.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hard Rock Hotel & Casino, Bioloxi",
@@ -3346,7 +7018,17 @@ var casinoObjArray = [
     "address": "777 Beach Blvd, Biloxi, MS 39530, USA",
     "state": "Mississippi",
     "phone": "(228) 374-7625",
-    "website": "http://www.hrhcbiloxi.com/"
+    "website": "http://www.hrhcbiloxi.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Island View Casino & Resort",
@@ -3354,7 +7036,17 @@ var casinoObjArray = [
     "address": "3300 W Beach Blvd, Gulfport, MS 39501, USA",
     "state": "Mississippi",
     "phone": "(228) 314-2100",
-    "website": "http://www.islandviewcasino.com/"
+    "website": "http://www.islandviewcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "IP Casino, Resort & Spa",
@@ -3362,7 +7054,17 @@ var casinoObjArray = [
     "address": "850 Bayview Ave, Biloxi, MS 39530, USA",
     "state": "Mississippi",
     "phone": "(228) 436-3000",
-    "website": "http://www.ipbiloxi.com/"
+    "website": "http://www.ipbiloxi.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lady Luck Casino, Vicksburg",
@@ -3370,7 +7072,17 @@ var casinoObjArray = [
     "address": "1380 Warrenton Rd, Vicksburg, MS 39180, USA",
     "state": "Mississippi",
     "phone": "(601) 501-4368",
-    "website": "http://vicksburg.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+    "website": "http://vicksburg.isleofcapricasinos.com/index.html?utm_uptracs=search:local",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Silver Star Casino",
@@ -3378,7 +7090,17 @@ var casinoObjArray = [
     "address": "7101 LA-1, Shreveport, LA 71107, USA",
     "state": "Louisiana",
     "phone": "(318) 929-4905",
-    "website": "http://www.lavideopoker.com/SilverStar.html"
+    "website": "http://www.lavideopoker.com/SilverStar.html",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Isle of Capri Casino, Cape Girardeau",
@@ -3386,19 +7108,49 @@ var casinoObjArray = [
     "address": "338 Broadway St, Cape Girardeau, MO 63701, USA",
     "state": "Missouri",
     "phone": "(800) 843-4753",
-    "website": "http://cape-girardeau.isleofcapricasinos.com/index.aspx"
+    "website": "http://cape-girardeau.isleofcapricasinos.com/index.aspx",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Alon, Las Vegas",
     "placeId": "ChIJP75bbtm_yIARo-Lc7yD39xQ",
     "address": "10150 Covington Cross Dr, Las Vegas, NV 89144, USA",
-    "state": "Nevada"
+    "state": "Nevada",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Binions Horseshoe",
     "placeId": "ChIJm0UnxgrDyIARQXp13D2WiyE",
     "address": "1738 Fremont St, Las Vegas, NV 89101, USA",
-    "state": "Nevada"
+    "state": "Nevada",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mark Twain Casino",
@@ -3407,6 +7159,16 @@ var casinoObjArray = [
     "state": "Missouri",
     "phone": "(573) 655-4770",
     "website": "http://www.marktwaincasinolagrange.com/"
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Horseshoe Tunica Hotel & Casino",
@@ -3414,14 +7176,34 @@ var casinoObjArray = [
     "address": "1021 Casino Center Dr, Robinsonville, MS 38664, USA",
     "state": "Mississippi",
     "phone": "(800) 303-7463",
-    "website": "https://www.caesars.com/horseshoe-tunica?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Horseshoe%20Tunica%20Hotel%20and%20Casino&utm_content=hotel"
+    "website": "https://www.caesars.com/horseshoe-tunica?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Horseshoe%20Tunica%20Hotel%20and%20Casino&utm_content=hotel",   
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ameristar Casino, Kansas City",
     "placeId": "ChIJYXLvR_77wIcRc4YobtYpQjM",
     "address": "3200 North Ameristar Drive, Kansas City, MO 64161, USA",
     "state": "Missouri",
-    "website": "http://www.ameristar.com/kansas-city"
+    "website": "http://www.ameristar.com/kansas-city",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Sams Town Hotel & Gambling Hall, Tunica",
@@ -3429,7 +7211,17 @@ var casinoObjArray = [
     "address": "1477 Casino Strip Resort Blvd, Robinsonville, MS 38664, USA",
     "state": "Mississippi",
     "phone": "(662) 363-0711",
-    "website": "http://www.samstowntunica.com/"
+    "website": "http://www.samstowntunica.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lady Luck Casino Caruthersville",
@@ -3437,7 +7229,17 @@ var casinoObjArray = [
     "address": "777 E 3rd St, Caruthersville, MO 63830, USA",
     "state": "Missouri",
     "phone": "(573) 724-4063",
-    "website": "http://caruthersville.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+    "website": "http://caruthersville.isleofcapricasinos.com/index.html?utm_uptracs=search:local",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Golden Nugget Hotel & Casino, Biloxi",
@@ -3445,14 +7247,34 @@ var casinoObjArray = [
     "address": "151 Beach Blvd, Biloxi, MS 39530, USA",
     "state": "Mississippi",
     "phone": "(228) 435-5400",
-    "website": "http://www.goldennugget.com/biloxi/"
+    "website": "http://www.goldennugget.com/biloxi/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Isle of Capri Casino & Hotel, Natchez",
     "placeId": "ChIJBWlBz-X2JYYRCitfaVWab4Y",
     "address": "70 Silver St, Natchez, MS 39120, USA",
     "state": "Mississippi",
-    "website": "http://natchez.isleofcapricasinos.com/"
+    "website": "http://natchez.isleofcapricasinos.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Silver Slipper Casino",
@@ -3460,14 +7282,34 @@ var casinoObjArray = [
     "address": "5000 S Beach Blvd, Bay St Louis, MS 39520, USA",
     "state": "Mississippi",
     "phone": "(228) 469-2777",
-    "website": "http://www.silverslipper-ms.com/"
+    "website": "http://www.silverslipper-ms.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Aztec Inn",
     "placeId": "ChIJaWcwyXfEyIARTe69U71N5YA",
     "address": "2200 S Las Vegas Blvd, Las Vegas, NV 89102, USA",
     "state": "Nevada",
-    "phone": "(702) 385-4566"
+    "phone": "(702) 385-4566",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Baldinis Sports Casino & Restaurant",
@@ -3475,7 +7317,17 @@ var casinoObjArray = [
     "address": "865 S Rock Blvd, Sparks, NV 89431, USA",
     "state": "Nevada",
     "phone": "(775) 358-0116",
-    "website": "http://baldinissports.com/"
+    "website": "http://baldinissports.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Isle of Capri Casino & Hotel, Lula",
@@ -3483,7 +7335,17 @@ var casinoObjArray = [
     "address": "777 Isle of Capri Pkwy, Lula, MS 38644, USA",
     "state": "Mississippi",
     "phone": "(662) 373-2461",
-    "website": "http://lula.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+    "website": "http://lula.isleofcapricasinos.com/index.html?utm_uptracs=search:local",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Riverwalk Casino & Hotel",
@@ -3491,14 +7353,34 @@ var casinoObjArray = [
     "address": "1046 Warrenton Rd, Vicksburg, MS 39180, USA",
     "state": "Mississippi",
     "phone": "(601) 634-0100",
-    "website": "http://www.riverwalkvicksburg.com/"
+    "website": "http://www.riverwalkvicksburg.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Resorts Casino, Tunica",
     "placeId": "ChIJ6QCS4v081YcRXwczqLGEUZs",
     "address": "1100 Casino Strip Resort Blvd, Robinsonville, MS 38664, USA",
     "state": "Mississippi",
-    "phone": "(866) 706-7070"
+    "phone": "(866) 706-7070",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Treasure Bay Casino & Hotel",
@@ -3506,7 +7388,17 @@ var casinoObjArray = [
     "address": "1980 Beach Blvd, Biloxi, MS 39531, USA",
     "state": "Mississippi",
     "phone": "(228) 385-6000",
-    "website": "http://www.treasurebay.com/"
+    "website": "http://www.treasurebay.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Argosy Casino Hotel & Spa",
@@ -3514,7 +7406,17 @@ var casinoObjArray = [
     "address": "777 N W Argosy Casino Parkway, Riverside, MO 64150",
     "state": "Missouri",
     "phone": "(816) 746-3100",
-    "website": "http://www.argosykansascity.com/"
+    "website": "http://www.argosykansascity.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "St. Jo Frontier Casino",
@@ -3522,7 +7424,17 @@ var casinoObjArray = [
     "address": "777 Winners Cir, St Joseph, MO 64505, USA",
     "state": "Missouri",
     "phone": "(816) 279-5514",
-    "website": "http://www.stjofrontiercasino.com/"
+    "website": "http://www.stjofrontiercasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs Casino & Resort, North Kansas City",
@@ -3530,7 +7442,17 @@ var casinoObjArray = [
     "address": "1 Riverboat Dr, North Kansas City, MO 64116, USA",
     "state": "Missouri",
     "phone": "(816) 472-7777",
-    "website": "https://www.caesars.com/harrahs-kansas-city?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20North%20Kansas%20City&utm_content=hotel"
+    "website": "https://www.caesars.com/harrahs-kansas-city?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20North%20Kansas%20City&utm_content=hotel",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lumière Place Casino & Hotel",
@@ -3538,7 +7460,17 @@ var casinoObjArray = [
     "address": "999 N 2nd St, St. Louis, MO 63102, USA",
     "state": "Missouri",
     "phone": "(314) 881-7777",
-    "website": "http://www.lumiereplace.com/"
+    "website": "http://www.lumiereplace.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hollywood Casino & Hotel, St. Louis",
@@ -3546,7 +7478,17 @@ var casinoObjArray = [
     "address": "777 Casino Center Dr, Maryland Heights, MO 63043, USA",
     "state": "Missouri",
     "phone": "(855) 785-4263",
-    "website": "http://www.hollywoodcasinostlouis.com/"
+    "website": "http://www.hollywoodcasinostlouis.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Arizona Charlies, Decatur",
@@ -3554,7 +7496,17 @@ var casinoObjArray = [
     "address": "740 S Decatur Blvd, Las Vegas, NV 89107, USA",
     "state": "Nevada",
     "phone": "(702) 258-5200",
-    "website": "http://www.arizonacharliesdecatur.com/"
+    "website": "http://www.arizonacharliesdecatur.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Arizona Charlies, Boulder",
@@ -3562,7 +7514,17 @@ var casinoObjArray = [
     "address": "4575 Boulder Hwy, Las Vegas, NV 89121, USA",
     "state": "Nevada",
     "phone": "(702) 951-5800",
-    "website": "http://www.arizonacharliesboulder.com/"
+    "website": "http://www.arizonacharliesboulder.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Avi Resort & Casino",
@@ -3570,7 +7532,17 @@ var casinoObjArray = [
     "address": "10000 Aha Macav Pkwy, Laughlin, NV 89029, USA",
     "state": "Nevada",
     "phone": "(702) 535-5555",
-    "website": "http://www.avicasino.com/"
+    "website": "http://www.avicasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Buffalo Bills Casino & Hotel",
@@ -3578,7 +7550,17 @@ var casinoObjArray = [
     "address": "31900 S Las Vegas Blvd, Primm, NV 89019, USA",
     "state": "Nevada",
     "phone": "(702) 386-7867",
-    "website": "http://primmvalleyresorts.com/"
+    "website": "http://primmvalleyresorts.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Isle of Capri Casino, Kansas City",
@@ -3586,7 +7568,17 @@ var casinoObjArray = [
     "address": "1800 Front St, Kansas City, MO 64120, USA",
     "state": "MiMissouri",
     "phone": "(816) 256-2663",
-    "website": "http://kansas-city.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+    "website": "http://kansas-city.isleofcapricasinos.com/index.html?utm_uptracs=search:local",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "River City Casino & Hotel",
@@ -3594,7 +7586,17 @@ var casinoObjArray = [
     "address": "777 River City Casino Blvd, St. Louis, MO 63125, USA",
     "state": "Missouri",
     "phone": "(314) 388-7777",
-    "website": "http://www.rivercity.com/"
+    "website": "http://www.rivercity.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Caesars Palace, Las Vegas",
@@ -3602,7 +7604,17 @@ var casinoObjArray = [
     "address": "3570 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(866) 227-5938",
-    "website": "https://www.caesars.com/caesars-palace"
+    "website": "https://www.caesars.com/caesars-palace",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Carson City Nugget",
@@ -3610,7 +7622,17 @@ var casinoObjArray = [
     "address": "507 N Carson St, Carson City, NV 89701, USA",
     "state": "Nevada",
     "phone": "(775) 882-1626",
-    "website": "http://ccnugget.com/"
+    "website": "http://ccnugget.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Cactus Petes Casino & Resort",
@@ -3618,7 +7640,17 @@ var casinoObjArray = [
     "address": "1385 US-93, Jackpot, NV 89825, USA",
     "state": "Nevada",
     "phone": "(775) 755-2321",
-    "website": "http://ameristar.com/cactus-petes-horseshu"
+    "website": "http://ameristar.com/cactus-petes-horseshu",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Commercial Casino",
@@ -3626,7 +7658,17 @@ var casinoObjArray = [
     "address": "345 4th St, Elko, NV 89801, USA",
     "state": "Nevada",
     "phone": "(775) 738-3181",
-    "website": "http://www.northernstarcasinos.com/historic-commercial-casino/"
+    "website": "http://www.northernstarcasinos.com/historic-commercial-casino/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Carson Valley Casino & Inn",
@@ -3634,7 +7676,17 @@ var casinoObjArray = [
     "address": "1627 U.S. Hwy 395 N, Minden, NV 89423, USA",
     "state": "Nevada",
     "phone": "(775) 782-9711",
-    "website": "http://www.carsonvalleyinn.com/"
+    "website": "http://www.carsonvalleyinn.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bonanza Casino, Reno",
@@ -3642,7 +7694,17 @@ var casinoObjArray = [
     "address": "4720 N Virginia St, Reno, NV 89506, USA",
     "state": "Nevada",
     "phone": "(775) 323-2724",
-    "website": "http://www.bonanzacasino.com/"
+    "website": "http://www.bonanzacasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Crystal Bay Casino",
@@ -3650,7 +7712,17 @@ var casinoObjArray = [
     "address": "14 NV-28, Crystal Bay, NV 89402, USA",
     "state": "Nevada",
     "phone": "(775) 833-6333",
-    "website": "http://crystalbaycasino.com/"
+    "website": "http://crystalbaycasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Eldorado Casino, Henderson",
@@ -3658,7 +7730,17 @@ var casinoObjArray = [
     "address": "140 S Water St, Henderson, NV 89015, USA",
     "state": "Nevada",
     "phone": "(702) 564-1811",
-    "website": "http://www.eldoradocasino.com/"
+    "website": "http://www.eldoradocasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "California Hotel & Casino",
@@ -3666,7 +7748,17 @@ var casinoObjArray = [
     "address": "12 E Ogden Ave, Las Vegas, NV 89101, USA",
     "state": "Nevada",
     "phone": "(702) 385-1222",
-    "website": "http://www.thecal.com/"
+    "website": "http://www.thecal.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Boulder Station Hotel & Casino",
@@ -3674,7 +7766,17 @@ var casinoObjArray = [
     "address": "4111 Boulder Hwy, Las Vegas, NV 89121, USA",
     "state": "Nevada",
     "phone": "(702) 432-7777",
-    "website": "https://boulderstation.sclv.com/"
+    "website": "https://boulderstation.sclv.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "El Capitan Lodge & Casino",
@@ -3682,7 +7784,17 @@ var casinoObjArray = [
     "address": "540 F St, Hawthorne, NV 89415, USA",
     "state": "Nevada",
     "phone": "(775) 945-3321",
-    "website": "http://www.northernstarcasinos.com/el-capitan-lodge-casino"
+    "website": "http://www.northernstarcasinos.com/el-capitan-lodge-casino",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Club Cal Neva",
@@ -3690,7 +7802,17 @@ var casinoObjArray = [
     "address": "38 E 2nd St, Reno, NV 89501, USA",
     "state": "Nevada",
     "phone": "(775) 323-1046",
-    "website": "http://www.clubcalneva.com/"
+    "website": "http://www.clubcalneva.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino Royale @ Best Western Plus",
@@ -3698,7 +7820,17 @@ var casinoObjArray = [
     "address": "3411 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 737-3500",
-    "website": "http://book.bestwestern.com/bestwestern/US/NV/Las-Vegas-hotels/BEST-WESTERN-PLUS-Casino-Royale/Hotel-Overview.do?iata=00171880&propertyCode=29087&cm_mmc=BL-_-Google-_-GMB-_-29087"
+    "website": "http://book.bestwestern.com/bestwestern/US/NV/Las-Vegas-hotels/BEST-WESTERN-PLUS-Casino-Royale/Hotel-Overview.do?iata=00171880&propertyCode=29087&cm_mmc=BL-_-Google-_-GMB-_-29087",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Cosmopolitan",
@@ -3706,7 +7838,17 @@ var casinoObjArray = [
     "address": "3708 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 698-7000",
-    "website": "http://www.cosmopolitanlasvegas.com/"
+    "website": "http://www.cosmopolitanlasvegas.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Isle of Capri Casino & Hotel, Boonville",
@@ -3714,7 +7856,17 @@ var casinoObjArray = [
     "address": "100 Isle of Capri Blvd, Boonville, MO 65233, USA",
     "state": "Missouri",
     "phone": "(660) 616-4752",
-    "website": "http://boonville.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+    "website": "http://boonville.isleofcapricasinos.com/index.html?utm_uptracs=search:local",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Edgewater Hotel",
@@ -3722,7 +7874,17 @@ var casinoObjArray = [
     "address": "2020 S Casino Drive, Laughlin, NV 89029, USA",
     "state": "Nevada",
     "phone": "(702) 298-2453",
-    "website": "http://www.edgewater-casino.com/"
+    "website": "http://www.edgewater-casino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Colorado Belle Hotel & Casino",
@@ -3730,7 +7892,17 @@ var casinoObjArray = [
     "address": "2100 S Casino Dr, Laughlin, NV 89029, USA",
     "state": "Nevada",
     "phone": "(702) 298-4000",
-    "website": "http://www.coloradobelle.com/"
+    "website": "http://www.coloradobelle.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Barleys Casino & Brewing Co",
@@ -3738,7 +7910,17 @@ var casinoObjArray = [
     "address": "4500 E Sunset Rd, Henderson, NV 89014, USA",
     "state": "Nevada",
     "phone": "(702) 458-2739",
-    "website": "http://www.wildfiregaming.com/barleys/"
+    "website": "http://www.wildfiregaming.com/barleys/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Isle Casino, Cape Girardeau",
@@ -3746,7 +7928,17 @@ var casinoObjArray = [
     "address": "777 Main St, Cape Girardeau, MO 63701, USA",
     "state": "Missouri",
     "phone": "(573) 290-3017",
-    "website": "http://cape-girardeau.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+    "website": "http://cape-girardeau.isleofcapricasinos.com/index.html?utm_uptracs=search:local",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bellagio Hotel & Casino",
@@ -3754,7 +7946,17 @@ var casinoObjArray = [
     "address": "3600 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(888) 987-6667",
-    "website": "http://www.bellagio.com/"
+    "website": "http://www.bellagio.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Circus Circus Hotel & Casino, Reno",
@@ -3762,7 +7964,17 @@ var casinoObjArray = [
     "address": "500 N Sierra St, Reno, NV 89503, USA",
     "state": "Nevada",
     "phone": "(775) 329-0711",
-    "website": "http://www.circusreno.com/"
+    "website": "http://www.circusreno.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ameristar Casino, Resort & Spa, St Charles",
@@ -3770,7 +7982,17 @@ var casinoObjArray = [
     "address": "1 Ameristar Blvd, St Charles, MO 63301, USA",
     "state": "Missouri",
     "phone": "(636) 949-7777",
-    "website": "http://www.ameristar.com/st-charles/"
+    "website": "http://www.ameristar.com/st-charles/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino Fandango",
@@ -3778,7 +8000,17 @@ var casinoObjArray = [
     "address": "3800 S Carson St, Carson City, NV 89701, USA",
     "state": "Nevada",
     "phone": "(775) 885-7000",
-    "website": "http://www.casinofandango.com/"
+    "website": "http://www.casinofandango.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casablanca Casino, Resort, Golf & Spa",
@@ -3786,7 +8018,17 @@ var casinoObjArray = [
     "address": "950 W Mesquite Blvd, Mesquite, NV 89027, USA",
     "state": "Nevada",
     "phone": "(877) 438-2929",
-    "website": "http://www.casablancaresort.com/"
+    "website": "http://www.casablancaresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Fiesta Henderson Hotel & Casino",
@@ -3794,7 +8036,17 @@ var casinoObjArray = [
     "address": "777 W Lake Mead Pkwy, Henderson, NV 89015, USA",
     "state": "Nevada",
     "phone": "(702) 558-7000",
-    "website": "https://fiestahenderson.sclv.com/"
+    "website": "https://fiestahenderson.sclv.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ellis Island Casino & Brewery",
@@ -3802,7 +8054,17 @@ var casinoObjArray = [
     "address": "4178 Koval Ln, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 733-8901",
-    "website": "http://www.ellisislandcasino.com/"
+    "website": "http://www.ellisislandcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Eldorado Resort & Casino, Reno",
@@ -3810,7 +8072,17 @@ var casinoObjArray = [
     "address": "345 N Virginia St, Reno, NV 89501, USA",
     "state": "Nevada",
     "phone": "(775) 786-5700",
-    "website": "http://www.eldoradoreno.com/?utm_source=googleplus&utm_medium=referral&utm_campaign=socialmedia"
+    "website": "http://www.eldoradoreno.com/?utm_source=googleplus&utm_medium=referral&utm_campaign=socialmedia" ,
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Eastside Cannery Casino & Hotel",
@@ -3818,7 +8090,17 @@ var casinoObjArray = [
     "address": "5255 Boulder Hwy, Las Vegas, NV 89122, USA",
     "state": "Nevada",
     "phone": "(702) 856-5300",
-    "website": "http://www.eastsidecannery.com/"
+    "website": "http://www.eastsidecannery.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "El Cortez Hotel & Casino",
@@ -3826,7 +8108,17 @@ var casinoObjArray = [
     "address": "600 Fremont St, Las Vegas, NV 89101, USA",
     "state": "Nevada",
     "phone": "(702) 385-5200",
-    "website": "http://www.elcortezhotelcasino.com/"
+    "website": "http://www.elcortezhotelcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Downtown Grand Hotel & Casino, Las Vegas",
@@ -3834,7 +8126,17 @@ var casinoObjArray = [
     "address": "206 N 3rd St, Las Vegas, NV 89101, USA",
     "state": "Nevada",
     "phone": "(702) 953-4343",
-    "website": "http://www.downtowngrand.com/?source=gyxt"
+    "website": "http://www.downtowngrand.com/?source=gyxt",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Cannery Casino & Hotel, Las Vegas",
@@ -3842,7 +8144,17 @@ var casinoObjArray = [
     "address": "2121 E Craig Rd, North Las Vegas, NV 89030, USA",
     "state": "Nevada",
     "phone": "(702) 507-5700",
-    "website": "http://www.cannerycasino.com/"
+    "website": "http://www.cannerycasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Circus Circus, Las Vegas",
@@ -3850,7 +8162,17 @@ var casinoObjArray = [
     "address": "2880 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 734-0410",
-    "website": "http://circuscircus.com/"
+    "website": "http://circuscircus.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Delta Saloon",
@@ -3858,7 +8180,17 @@ var casinoObjArray = [
     "address": "18 S C St, Virginia City, NV 89440, USA",
     "state": "Nevada",
     "phone": "(775) 847-0789",
-    "website": "http://sawdustcatering.com/"
+    "website": "http://sawdustcatering.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ballys Hotel & Casino, Las Vegas",
@@ -3866,7 +8198,17 @@ var casinoObjArray = [
     "address": "3645 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 967-4111",
-    "website": "https://www.caesars.com/ballys-las-vegas?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Ballys%20Las%20Vegas%20Hotel%20and%20Casino&utm_content=hotel"
+    "website": "https://www.caesars.com/ballys-las-vegas?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Ballys%20Las%20Vegas%20Hotel%20and%20Casino&utm_content=hotel"    ,
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Aria Resort & Casino, Las Vegas",
@@ -3874,14 +8216,34 @@ var casinoObjArray = [
     "address": "3730 S Las Vegas Blvd, Las Vegas, NV 89158, USA",
     "state": "Nevada",
     "phone": "(866) 359-7111",
-    "website": "http://www.aria.com/"
+    "website": "http://www.aria.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bodines Casino",
     "placeId": "ChIJIXr8JcyhmYARq_prG0TiENw",
     "address": "5650 S Carson St, Carson City, NV 89701, USA",
     "state": "Nevada",
-    "phone": "(775) 885-7777"
+    "phone": "(775) 885-7777",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Atlantis Casino, Resort & Spa",
@@ -3889,7 +8251,17 @@ var casinoObjArray = [
     "address": "3800 S Virginia St, Reno, NV 89502, USA",
     "state": "Nevada",
     "phone": "(775) 825-4700",
-    "website": "http://www.atlantiscasino.com/"
+    "website": "http://www.atlantiscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bartons Club 93",
@@ -3897,7 +8269,17 @@ var casinoObjArray = [
     "address": "1002 US-93, Jackpot, NV 89825, USA",
     "state": "Nevada",
     "phone": "(775) 755-2341",
-    "website": "http://www.bartonsclub93.com/"
+    "website": "http://www.bartonsclub93.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Aliante Casino, Hotel & Spa",
@@ -3905,7 +8287,17 @@ var casinoObjArray = [
     "address": "7300 N Aliante Pkwy, North Las Vegas, NV 89084, USA",
     "state": "Nevada",
     "phone": "(702) 692-7777",
-    "website": "http://www.aliantegaming.com/"
+    "website": "http://www.aliantegaming.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Dinis Lucky Club Casino",
@@ -3913,34 +8305,84 @@ var casinoObjArray = [
     "address": "45 N Main St, Yerington, NV 89447, USA",
     "state": "Nevada",
     "phone": "(775) 463-2868",
-    "website": "http://www.dinisluckyclub.com/"
+    "website": "http://www.dinisluckyclub.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Churchill, Station Spring",
     "placeId": "ChIJuaQnSvxWmIAROxTQ5GlCq64",
     "address": "Churchill Station Spring, NV, USA",
-    "state": "Nevada"
+    "state": "Nevada",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino Royale, Modesto",
     "placeId": "ChIJaava57ZQkIAR-tP2VQCCeLE",
     "address": "5801 McHenry Ave, Modesto, CA 95356, USA",
     "state": "California",
-    "phone": "(209) 522-7570"
+    "phone": "(209) 522-7570",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino Royale, San Diego",
     "placeId": "ChIJmyLcu45W2YARze4Al_4wdOg",
     "address": "5224 Tipton St, San Diego, CA 92115, USA",
     "state": "California",
-    "phone": "(415) 238-8504"
+    "phone": "(415) 238-8504",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Depot Casino",
     "placeId": "ChIJWVQ5eTKiiYcRjVmojx1hHAo",
     "address": "921, 20th St S, Brookings, SD 57006, USA",
     "state": "South Dakota",
-    "phone": "(605) 692-4665"
+    "phone": "(605) 692-4665",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino Montelago",
@@ -3948,42 +8390,102 @@ var casinoObjArray = [
     "address": "8 Strada Di Villaggio, Henderson, NV 89011, USA",
     "state": "Nevada",
     "phone": "(702) 898-7777",
-    "website": "http://www.montelagovillage.com/"
+    "website": "http://www.montelagovillage.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Cactus Jacks Senator Club",
     "placeId": "ChIJDxfnP6IKmYARKepLT7gy5j0",
     "address": "420 N Carson St, Carson City, NV 89701, USA",
     "state": "Nevada",
-    "phone": "(775) 882-8770"
+    "phone": "(775) 882-8770",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Cal Neva Casino",
     "placeId": "ChIJ0w46t-l6mYAR15jrsncVtDo",
     "address": "2 Stateline Rd, Crystal Bay, NV 89402, USA",
     "state": "Nevada",
-    "phone": "(775) 832-4000"
+    "phone": "(775) 832-4000",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bonanza Casino, Fallon",
     "placeId": "ChIJTf3Bsd2GmIARUYJOwALdELg",
     "address": "855 W Williams Ave, Fallon, NV 89406, USA",
     "state": "Nevada",
-    "phone": "(775) 423-6031"
+    "phone": "(775) 423-6031",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino Royale, Sacramento",
     "placeId": "ChIJmZorE5TZmoARU4-XLLugg4Q",
     "address": "500 Leisure Ln, Sacramento, CA 95815, USA",
     "state": "California",
-    "phone": "(916) 929-7529"
+    "phone": "(916) 929-7529",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino West, Yerington",
     "placeId": "ChIJy8FzkeA4mIARElchvoyjjWo",
     "address": "11 N Main St, Yerington, NV 89447, USA",
     "state": "Nevada",
-    "phone": "(775) 463-2481"
+    "phone": "(775) 463-2481",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bourbon Square Casino",
@@ -3991,7 +8493,17 @@ var casinoObjArray = [
     "address": "1040 Victorian Ave, Sparks, NV 89431, USA",
     "state": "Nevada",
     "phone": "(775) 997-7177",
-    "website": "http://www.northernstarcasinos.com/bourbon-square-casino"
+    "website": "http://www.northernstarcasinos.com/bourbon-square-casino",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Boomtown Casino, Reno",
@@ -3999,13 +8511,33 @@ var casinoObjArray = [
     "address": "2100 Garson Rd, Verdi, NV 89439, USA",
     "state": "Nevada",
     "phone": "(775) 345-6000",
-    "website": "http://www.boomtownreno.com/"
+    "website": "http://www.boomtownreno.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Klondike Hotel & Casino",
     "placeId": "ChIJpeG5A8LFyIARGMfZ4YyFn90",
     "address": "5191 S Las Vegas Blvd, Las Vegas, NV 89119, USA",
-    "state": "Nevada"
+    "state": "Nevada",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Key Largo Restaurant",
@@ -4013,42 +8545,102 @@ var casinoObjArray = [
     "address": "377 E Flamingo Rd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 369-6911",
-    "website": "http://www.qualityinn.com/"
+    "website": "http://www.qualityinn.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Max Casino & Sports Bar",
     "placeId": "ChIJu_XZ0DxIQlMR9rQBCev5C9E",
     "address": "1700 Fox Farm Rd, Great Falls, MT 59404, USA",
     "state": "Montana",
-    "phone": "(406) 761-1900"
+    "phone": "(406) 761-1900",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Opera House Casino",
     "placeId": "ChIJ87YpjdzCyIARxCg1f7kDBJA",
     "address": "2542 N Las Vegas Blvd, North Las Vegas, NV 89030, USA",
     "state": "Nevada",
-    "phone": "(702) 649-8801"
+    "phone": "(702) 649-8801",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mountain View Casino",
     "placeId": "ChIJF7qxbdM5xoARmFAqv-jLN30",
     "address": "1750 Pahrump Valley Blvd, Pahrump, NV 89048, USA",
     "state": "Nevada",
-    "phone": "(714) 345-0413"
+    "phone": "(714) 345-0413",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Nevada Palace Hotel & Casino",
     "placeId": "ChIJGToTtvLayIARmtp4OdQzqYE",
     "address": "5255 Boulder Hwy, Las Vegas, NV 89122, USA",
     "state": "Nevada",
-    "phone": "(702) 458-3361"
+    "phone": "(702) 458-3361",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mint Casino",
     "placeId": "ChIJTdYA9Wi0jocRU1AWurpYKqo",
     "address": "3601 E 10th St, Sioux Falls, SD 57103, USA",
     "state": "South Dakota",
-    "phone": "(605) 334-4005"
+    "phone": "(605) 334-4005",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gold Country Inn & Casino",
@@ -4056,7 +8648,17 @@ var casinoObjArray = [
     "address": "2050 Idaho St, Elko, NV 89801, USA",
     "state": "Nevada",
     "phone": "(775) 738-8421",
-    "website": "http://www.americasbestvalueinn.com/bestv.cfm?idp=1720&rcode=sim2014"
+    "website": "http://www.americasbestvalueinn.com/bestv.cfm?idp=1720&rcode=sim2014",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Four Queens Hotel & Casino",
@@ -4064,7 +8666,17 @@ var casinoObjArray = [
     "address": "202 Fremont St, Las Vegas, NV 89101, USA",
     "state": "Nevada",
     "phone": "(702) 385-4011",
-    "website": "http://www.fourqueens.com/"
+    "website": "http://www.fourqueens.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gold Strike Hotel & Gambling",
@@ -4072,7 +8684,17 @@ var casinoObjArray = [
     "address": "1 Main St, Jean, NV 89019, USA",
     "state": "Nevada",
     "phone": "(702) 477-5000",
-    "website": "http://www.goldstrikejean.com/"
+    "website": "http://www.goldstrikejean.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Four Jacks Hotel & Casino",
@@ -4080,7 +8702,17 @@ var casinoObjArray = [
     "address": "1702 U.S. 93, Jackpot, NV 89825, USA",
     "state": "Nevada",
     "phone": "(775) 755-2491",
-    "website": "http://fourjackshotel.com/"
+    "website": "http://fourjackshotel.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Encore",
@@ -4088,14 +8720,34 @@ var casinoObjArray = [
     "address": "3131 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 770-7171",
-    "website": "http://www.wynnlasvegas.com/RoomsSuites/EncoreResort"
+    "website": "http://www.wynnlasvegas.com/RoomsSuites/EncoreResort",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gold Rush Casino",
     "placeId": "ChIJs1w9Q_DQyIAR6ZPW0gzrVcM",
     "address": "1195 W Sunset Rd, Henderson, NV 89014, USA",
     "state": "Nevada",
-    "phone": "(702) 454-0544"
+    "phone": "(702) 454-0544",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Excalibur Hotel & Casino",
@@ -4103,7 +8755,17 @@ var casinoObjArray = [
     "address": "3850 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 597-7777",
-    "website": "http://www.excalibur.com/"
+    "website": "http://www.excalibur.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "M Casino, Resort & Spa",
@@ -4111,13 +8773,33 @@ var casinoObjArray = [
     "address": "12300 S Las Vegas Blvd, Henderson, NV 89044, USA",
     "state": "Nevada",
     "phone": "(702) 797-1000",
-    "website": "http://www.themresort.com/"
+    "website": "http://www.themresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Moulin Rouge Denkmal",
     "placeId": "ChIJ2y_yN6XDyIAR_rmFeZircHE",
     "address": "900 W Bonanza Rd, Las Vegas, NV 89106, USA",
-    "state": "Nevada"
+    "state": "Nevada",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gold Dust West Casino",
@@ -4125,7 +8807,17 @@ var casinoObjArray = [
     "address": "444 Vine St, Reno, NV 89503, USA",
     "state": "Nevada",
     "phone": "(775) 323-2211",
-    "website": "http://www.gdwcasino.com/"
+    "website": "http://www.gdwcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mermaids Casino",
@@ -4133,7 +8825,17 @@ var casinoObjArray = [
     "address": "32 Fremont St, Las Vegas, NV 89101, USA",
     "state": "Nevada",
     "phone": "(702) 382-5777",
-    "website": "http://mermaidscasino.tumblr.com/"
+    "website": "http://mermaidscasino.tumblr.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Oasis at Gold Spike",
@@ -4141,7 +8843,17 @@ var casinoObjArray = [
     "address": "217 N Las Vegas Blvd, Las Vegas, NV 89101",
     "state": "Nevada",
     "phone": "(702) 768-9823",
-    "website": "http://oasisatgoldspike.com/"
+    "website": "http://oasisatgoldspike.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gold Dust West, Carson City",
@@ -4149,7 +8861,17 @@ var casinoObjArray = [
     "address": "2171 E William St, Carson City, NV 89701, USA",
     "state": "Nevada",
     "phone": "(775) 885-9000",
-    "website": "http://www.gdwcasino.com/"
+    "website": "http://www.gdwcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Oasis Casino",
@@ -4157,7 +8879,17 @@ var casinoObjArray = [
     "address": "2320 Amherst Ave, Butte, MT 59701, USA",
     "state": "Montana",
     "phone": "(406) 494-1272",
-    "website": "http://www.oasiscasinomt.com/"
+    "website": "http://www.oasiscasinomt.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gold Spike",
@@ -4165,7 +8897,17 @@ var casinoObjArray = [
     "address": "217 N Las Vegas Blvd, Las Vegas, NV 89101, USA",
     "state": "Nevada",
     "phone": "(702) 476-1082",
-    "website": "http://www.goldspike.com/"
+    "website": "http://www.goldspike.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Montbleu Resort, Casino & Spa",
@@ -4173,7 +8915,17 @@ var casinoObjArray = [
     "address": "55 US-50, Lake Tahoe, NV 89449, USA",
     "state": "Nevada",
     "phone": "(775) 588-3515",
-    "website": "http://www.montbleuresort.com/"
+    "website": "http://www.montbleuresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Monte Carlo Resort & Casino",
@@ -4181,7 +8933,17 @@ var casinoObjArray = [
     "address": "3770 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 730-7777",
-    "website": "http://www.montecarlo.com/"
+    "website": "http://www.montecarlo.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Flamingo, Las Vegas",
@@ -4189,13 +8951,33 @@ var casinoObjArray = [
     "address": "3555 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 733-3111",
-    "website": "https://www.caesars.com/flamingo-las-vegas"
+    "website": "https://www.caesars.com/flamingo-las-vegas",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Owl Club Bar & Steakhouse",
     "placeId": "ChIJuVyRtZe0uoARuVdYZUsVod8",
     "address": "61 N Main St, Eureka, NV 89316, USA",
-    "state": "Nevada"
+    "state": "Nevada",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gold Coast Hotel & Casino, Las Vegas",
@@ -4203,7 +8985,17 @@ var casinoObjArray = [
     "address": "4000 W Flamingo Rd, Las Vegas, NV 89103, USA",
     "state": "Nevada",
     "phone": "(702) 367-7111",
-    "website": "http://www.goldcoastcasino.com/"
+    "website": "http://www.goldcoastcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Fiesta Rancho Hotel & Casino",
@@ -4211,7 +9003,17 @@ var casinoObjArray = [
     "address": "2400 N Rancho Dr, Las Vegas, NV 89130, USA",
     "state": "Nevada",
     "phone": "(702) 631-7000",
-    "website": "https://fiestarancho.sclv.com/"
+    "website": "https://fiestarancho.sclv.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Paris, Las Vegas",
@@ -4219,7 +9021,17 @@ var casinoObjArray = [
     "address": "3655 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 946-7000",
-    "website": "https://www.caesars.com/paris-las-vegas"
+    "website": "https://www.caesars.com/paris-las-vegas",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mandalay Bay, Las Vegas",
@@ -4227,7 +9039,17 @@ var casinoObjArray = [
     "address": "3950 S Las Vegas Blvd, Las Vegas, NV 89119, USA",
     "state": "Nevada",
     "phone": "(702) 632-7777",
-    "website": "http://www.mandalaybay.com/"
+    "website": "http://www.mandalaybay.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "MGM Grand, Las Vegas",
@@ -4235,7 +9057,17 @@ var casinoObjArray = [
     "address": "3799 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 891-1111",
-    "website": "http://www.mgmgrand.com/"
+    "website": "http://www.mgmgrand.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "New York-New York Hotel & Casino",
@@ -4243,7 +9075,17 @@ var casinoObjArray = [
     "address": "3790 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 740-6969",
-    "website": "http://www.nynyhotelcasino.com/"
+    "website": "http://www.nynyhotelcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Montego Bay Resort & Casino",
@@ -4251,7 +9093,17 @@ var casinoObjArray = [
     "address": "680 Wendover Blvd, West Wendover, NV 89883, USA",
     "state": "Nevada",
     "phone": "(775) 664-4800",
-    "website": "http://www.wendoverfun.com/"
+    "website": "http://www.wendoverfun.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Wyndham Garden Casino, Carson City",
@@ -4259,7 +9111,17 @@ var casinoObjArray = [
     "address": "900 S Carson St, Carson City, NV 89701, USA",
     "state": "Nevada",
     "phone": "(775) 883-0900",
-    "website": "http://www.wyndham.com/hotels/nevada/carson-city/wyndham-garden-carson-city/hotel-overview?WID=LC:WY:20150901:Rio:Local"
+    "website": "http://www.wyndham.com/hotels/nevada/carson-city/wyndham-garden-carson-city/hotel-overview?WID=LC:WY:20150901:Rio:Local",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gold Ranch Casino & RV Resort",
@@ -4267,7 +9129,17 @@ var casinoObjArray = [
     "address": "350 Gold Ranch Road, Verdi, NV 89439, USA",
     "state": "Nevada",
     "phone": "(775) 345-6789",
-    "website": "http://www.goldranchrvcasino.com/"
+    "website": "http://www.goldranchrvcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gold Dust West, Elko",
@@ -4275,13 +9147,33 @@ var casinoObjArray = [
     "address": "1660 Mountain City Hwy, Elko, NV 89801, USA",
     "state": "Nevada",
     "phone": "(775) 777-7500",
-    "website": "http://www.gdwcasino.com/elko/index.php"
+    "website": "http://www.gdwcasino.com/elko/index.php",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hard Rock Hotel & Casino, Lake Tahoe",
     "placeId": "ChIJ_SFE1PyPmYARqCOqvmsDlMQ",
     "address": "South Lake Tahoe, CA 96150, USA",
-    "state": "California"
+    "state": "California",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Fremont Hotel & Casino",
@@ -4289,14 +9181,34 @@ var casinoObjArray = [
     "address": "200 Fremont St, Las Vegas, NV 89101, USA",
     "state": "Nevada",
     "phone": "(702) 385-3232",
-    "website": "http://www.fremontcasino.com/"
+    "website": "http://www.fremontcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Golden Pheonix Hotel & Casino",
     "placeId": "ChIJGfoPHjVHmYAREVM1s1q2hU4",
     "address": "255 N Sierra St, Reno, NV 89501, USA",
     "state": "Nevada",
-    "phone": "(775) 329-2800"
+    "phone": "(775) 329-2800",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ramada",
@@ -4304,28 +9216,68 @@ var casinoObjArray = [
     "address": "325 E Flamingo Rd, Las Vegas, NV 89169, USA",
     "state": "Nevada",
     "phone": "(702) 732-9100",
-    "website": "http://www.ramada.com/"
+    "website": "http://www.ramada.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Jim Kelleys Tahoe Nugget",
     "placeId": "ChIJTVGKO8J6mYARN_dWwWgtv_Y",
     "address": "20 NV-28, Crystal Bay, NV 89402, USA",
     "state": "Nevada",
-    "phone": "(775) 831-0455"
+    "phone": "(775) 831-0455",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Indian Springs Casino",
     "placeId": "ChIJ81hAnuDXx4AR2kGH08Sj-qU",
     "address": "372 Veterans Memorial Hwy, Indian Springs, NV 89018, USA",
     "state": "Nevada",
-    "phone": "(702) 879-3456"
+    "phone": "(702) 879-3456",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ormsby House",
     "placeId": "ChIJR0E2dKAKmYAR3KGG20A2Wyk",
     "address": "600 S Carson St, Carson City, NV 89701, USA",
     "state": "Nevada",
-    "phone": "(775) 882-1890"
+    "phone": "(775) 882-1890",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gold Ranch Casino",
@@ -4333,7 +9285,17 @@ var casinoObjArray = [
     "address": "755 Old US Hwy 50, Dayton, NV 89403, USA",
     "state": "Nevada",
     "phone": "(775) 246-9696",
-    "website": "http://www.goldranchdayton.com/"
+    "website": "http://www.goldranchdayton.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Las Vegas Club Hotel & Casino",
@@ -4341,7 +9303,17 @@ var casinoObjArray = [
     "address": "18 Fremont Street Experience, Las Vegas, NV 89101, USA",
     "state": "Nevada",
     "phone": "(888) 912-0075",
-    "website": "http://www.vegasclubcasino.net/"
+    "website": "http://www.vegasclubcasino.net/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Rail City Casino",
@@ -4349,7 +9321,17 @@ var casinoObjArray = [
     "address": "2121 Victorian Ave, Sparks, NV 89431, USA",
     "state": "Nevada",
     "phone": "(775) 359-9440",
-    "website": "http://www.railcity.com/"
+    "website": "http://www.railcity.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Rainbow Club & Casino",
@@ -4357,7 +9339,17 @@ var casinoObjArray = [
     "address": "122 S Water St, Henderson, NV 89015, USA",
     "state": "Nevada",
     "phone": "(702) 565-9777",
-    "website": "http://www.rainbowclubandcasino.com/"
+    "website": "http://www.rainbowclubandcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Regency Casino",
@@ -4365,7 +9357,17 @@ var casinoObjArray = [
     "address": "1950 S Casino Dr, Laughlin, NV 89029, USA",
     "state": "Nevada",
     "phone": "(702) 299-1220",
-    "website": "http://www.regencylaughlin.com/"
+    "website": "http://www.regencylaughlin.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Horseshu Hotel & Casino",
@@ -4373,7 +9375,17 @@ var casinoObjArray = [
     "address": "1220 US-93, Jackpot, NV 89825, USA",
     "state": "Nevada",
     "phone": "(866) 667-3386",
-    "website": "http://www.ameristar.com/Locations_and_Facts.aspx"
+    "website": "http://www.ameristar.com/Locations_and_Facts.aspx",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Poker Palace Casino",
@@ -4381,7 +9393,17 @@ var casinoObjArray = [
     "address": "2757 N Las Vegas Blvd, North Las Vegas, NV 89030, USA",
     "state": "Nevada",
     "phone": "(702) 649-3799",
-    "website": "http://www.pokerpalace.net/"
+    "website": "http://www.pokerpalace.net/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Pioneer Hotel & Gambling Hall",
@@ -4389,13 +9411,33 @@ var casinoObjArray = [
     "address": "2200 S Casino Dr, Laughlin, NV 89029, USA",
     "state": "Nevada",
     "phone": "(702) 298-2442",
-    "website": "http://www.pioneerlaughlin.com/"
+    "website": "http://www.pioneerlaughlin.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Peppermill Wendover Hotel & Casino",
     "placeId": "ChIJSf2SFKkorIARLCEu1gqfg4U",
     "address": "680 Wendover Blvd, West Wendover, NV 89835, USA",
-    "state": "Nevada"
+    "state": "Nevada",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Nugget Casino & Resort, Spacks",
@@ -4403,14 +9445,34 @@ var casinoObjArray = [
     "address": "1100 Nugget Ave, Sparks, NV 89431, USA",
     "state": "Nevada",
     "phone": "(775) 356-3300",
-    "website": "http://www.nuggetcasinoresort.com/"
+    "website": "http://www.nuggetcasinoresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Labayou Casino",
     "placeId": "ChIJF__xv6HDyIARkXLzY9Z-tqg",
     "address": "15 Fremont St, Las Vegas, NV 89101, USA",
     "state": "Nevada",
-    "phone": "(702) 385-7474"
+    "phone": "(702) 385-7474",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Pioneer Saloon",
@@ -4418,7 +9480,17 @@ var casinoObjArray = [
     "address": "310 NV-161, Goodsprings, NV 89019, USA",
     "state": "Nevada",
     "phone": "(702) 874-9362",
-    "website": "http://www.pioneersaloon.info"
+    "website": "http://www.pioneersaloon.info",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Peppermill Casino, Resort & Spa",
@@ -4426,7 +9498,17 @@ var casinoObjArray = [
     "address": "2707 S Virginia St, Reno, NV 89502, USA",
     "state": "Nevada",
     "phone": "(775) 826-2121",
-    "website": "http://www.peppermillreno.com/"
+    "website": "http://www.peppermillreno.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Palace Station Hotel & Casino, Las Vegas",
@@ -4434,7 +9516,17 @@ var casinoObjArray = [
     "address": "2411 W Sahara Ave, Las Vegas, NV 89102, USA",
     "state": "Nevada",
     "phone": "(702) 367-2411",
-    "website": "https://palacestation.sclv.com/"
+    "website": "https://palacestation.sclv.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Pahrump Nugget Hotel & Casino",
@@ -4442,7 +9534,17 @@ var casinoObjArray = [
     "address": "681 NV-160, Pahrump, NV 89048, USA",
     "state": "Nevada",
     "phone": "(775) 751-6500",
-    "website": "http://pahrumpnugget.com/"
+    "website": "http://pahrumpnugget.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Red Lion Hotel & Casino",
@@ -4450,7 +9552,17 @@ var casinoObjArray = [
     "address": "2065 Idaho St, Elko, NV 89801, USA",
     "state": "Nevada",
     "phone": "(775) 738-2111",
-    "website": "http://www.redlionhotelelko.com/"
+    "website": "http://www.redlionhotelelko.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "OSheas Casino",
@@ -4458,7 +9570,17 @@ var casinoObjArray = [
     "address": "3535 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(800) 634-6441",
-    "website": "https://www.caesars.com/linq/things-to-do/o-sheas#.VWcZQK04Z4s"
+    "website": "https://www.caesars.com/linq/things-to-do/o-sheas#.VWcZQK04Z4s",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Prospector Hotel & Gambling Hall",
@@ -4466,7 +9588,17 @@ var casinoObjArray = [
     "address": "1501 Aultman St, Ely, NV 89301, USA",
     "state": "Nevada",
     "phone": "(800) 750-0557",
-    "website": "http://www.prospectorhotel.us/"
+    "website": "http://www.prospectorhotel.us/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Rainbow Hotel & Casino",
@@ -4474,7 +9606,17 @@ var casinoObjArray = [
     "address": "1045 Wendover Blvd, West Wendover, NV 89883, USA",
     "state": "Nevada",
     "phone": "(800) 217-0049",
-    "website": "http://www.wendoverfun.com/"
+    "website": "http://www.wendoverfun.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Planet Hollywood Resort & Casino",
@@ -4482,7 +9624,17 @@ var casinoObjArray = [
     "address": "3667 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(866) 919-7472",
-    "website": "https://www.caesars.com/planet-hollywood?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Planet%20Hollywood%20Resort%20and%20Casino&utm_content=hotel"
+    "website": "https://www.caesars.com/planet-hollywood?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Planet%20Hollywood%20Resort%20and%20Casino&utm_content=hotel",    
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Golden Nugget Hotel & Casino, Las Vegas",
@@ -4490,7 +9642,17 @@ var casinoObjArray = [
     "address": "129 Fremont Street Experience, Las Vegas, NV 89101, USA",
     "state": "Nevada",
     "phone": "(702) 385-7111",
-    "website": "http://www.goldennugget.com/lasvegas/"
+    "website": "http://www.goldennugget.com/lasvegas/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Jokers Wild Casino",
@@ -4498,7 +9660,17 @@ var casinoObjArray = [
     "address": "920 N Boulder Hwy, Henderson, NV 89011, USA",
     "state": "Nevada",
     "phone": "(702) 564-8100",
-    "website": "http://www.jokerswildcasino.com/"
+    "website": "http://www.jokerswildcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Klondike Sunset Casino",
@@ -4506,7 +9678,17 @@ var casinoObjArray = [
     "address": "444 W Sunset Rd, Henderson, NV 89011, USA",
     "state": "Nevada",
     "phone": "(702) 826-3866",
-    "website": "http://www.klondikesunset.com/"
+    "website": "http://www.klondikesunset.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Luxor Hotel & Casino",
@@ -4514,7 +9696,17 @@ var casinoObjArray = [
     "address": "3900 S Las Vegas Blvd, Las Vegas, NV 89119, USA",
     "state": "Nevada",
     "phone": "(702) 262-4000",
-    "website": "http://www.luxor.com"
+    "website": "http://www.luxor.com",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Jail House Motel & Casino",
@@ -4522,7 +9714,17 @@ var casinoObjArray = [
     "address": "211 5th St, Ely, NV 89301, USA",
     "state": "Nevada",
     "phone": "(775) 289-3033",
-    "website": "http://www.jailhousecasino.com/"
+    "website": "http://www.jailhousecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs Laughlin Casino & Hotel",
@@ -4530,7 +9732,17 @@ var casinoObjArray = [
     "address": "2900 S Casino Dr, Laughlin, NV 89029, USA",
     "state": "Nevada",
     "phone": "(702) 298-4600",
-    "website": "https://www.caesars.com/harrahs-laughlin?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Laughlin%20Casino%20and%20Hotel&utm_content=hotel"
+    "website": "https://www.caesars.com/harrahs-laughlin?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Laughlin%20Casino%20and%20Hotel&utm_content=hotel",    
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Main Street Station Casino, Brewery & Hotel",
@@ -4538,7 +9750,17 @@ var casinoObjArray = [
     "address": "200 N Main St, Las Vegas, NV 89101, USA",
     "state": "Nevada",
     "phone": "(800) 713-8933",
-    "website": "http://www.mainstreetcasino.com/"
+    "website": "http://www.mainstreetcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hotel Nevada & Gambling Hall",
@@ -4546,7 +9768,17 @@ var casinoObjArray = [
     "address": "501 Aultman St, Ely, NV 89301, USA",
     "state": "Nevada",
     "phone": "(775) 289-6665",
-    "website": "http://www.hotelnevada.com/"
+    "website": "http://www.hotelnevada.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hoover Dam Lodge",
@@ -4554,7 +9786,17 @@ var casinoObjArray = [
     "address": "18000 US-93, Boulder City, NV 89005, USA",
     "state": "Nevada",
     "phone": "(702) 293-5000",
-    "website": "http://www.hooverdamlodge.com/"
+    "website": "http://www.hooverdamlodge.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Westgate Las Vegas Resort & Casino",
@@ -4562,7 +9804,17 @@ var casinoObjArray = [
     "address": "3000 Paradise Rd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(888) 796-3564",
-    "website": "https://www.westgateresorts.com/hotels/nevada/las-vegas/westgate-las-vegas-resort-casino"
+    "website": "https://www.westgateresorts.com/hotels/nevada/las-vegas/westgate-las-vegas-resort-casino",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hooters Casino & Hotel",
@@ -4570,7 +9822,17 @@ var casinoObjArray = [
     "address": "115 E Tropicana Ave, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 739-9000",
-    "website": "http://www.hooterscasinohotel.com/"
+    "website": "http://www.hooterscasinohotel.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Golden Nugget Hotel & Casino, Laughlin",
@@ -4578,7 +9840,17 @@ var casinoObjArray = [
     "address": "2300 S Casino Dr, Laughlin, NV 89029, USA",
     "state": "Nevada",
     "phone": "(702) 298-7111",
-    "website": "http://www.goldennugget.com/laughlin/"
+    "website": "http://www.goldennugget.com/laughlin/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Grand Sierra Casino & Resort",
@@ -4586,7 +9858,17 @@ var casinoObjArray = [
     "address": "2500 E 2nd St, Reno, NV 89595, USA",
     "state": "Nevada",
     "phone": "(775) 789-2000",
-    "website": "http://www.grandsierraresort.com/"
+    "website": "http://www.grandsierraresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Longstreet Inn, Casino & RV Park, Death Valley",
@@ -4594,7 +9876,17 @@ var casinoObjArray = [
     "address": "4400 NV-373, Amargosa Valley, NV 89020, USA",
     "state": "Nevada",
     "phone": "(775) 372-1777",
-    "website": "http://www.longstreetcasino.com/"
+    "website": "http://www.longstreetcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs Casino & Resort Lake Tahoe",
@@ -4602,7 +9894,17 @@ var casinoObjArray = [
     "address": "15 U.S. 50, Stateline, NV 89449, USA",
     "state": "Nevada",
     "phone": "(775) 588-6611",
-    "website": "http://www.caesars.com/harrahs-tahoe?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Lake%20Tahoe&utm_content=hotel"
+    "website": "http://www.caesars.com/harrahs-tahoe?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Lake%20Tahoe&utm_content=hotel",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs Hotel & Casino, Reno",
@@ -4610,7 +9912,17 @@ var casinoObjArray = [
     "address": "219 N Center St, Reno, NV 89501, USA",
     "state": "Nevada",
     "phone": "(775) 786-3232",
-    "website": "https://www.caesars.com/harrahs-reno?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Reno%20Hotel%20and%20Casino&utm_content=hotel"
+    "website": "https://www.caesars.com/harrahs-reno?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Reno%20Hotel%20and%20Casino&utm_content=hotel",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs Hotel & Casino, Las Vegas",
@@ -4618,7 +9930,17 @@ var casinoObjArray = [
     "address": "3475 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 369-5000",
-    "website": "https://www.caesars.com/harrahs-las-vegas?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Las%20Vegas%20Hotel%20and%20Casino&utm_content=hotel"
+    "website": "https://www.caesars.com/harrahs-las-vegas?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Las%20Vegas%20Hotel%20and%20Casino&utm_content=hotel", 
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Tonopah Station",
@@ -4626,7 +9948,17 @@ var casinoObjArray = [
     "address": "1137 Erie St, Tonopah, NV 89049, USA",
     "state": "Nevada",
     "phone": "(775) 482-9777",
-    "website": "http://www.tonopahstation.com/"
+    "website": "http://www.tonopahstation.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Primm Valley Casino & Resort",
@@ -4634,7 +9966,17 @@ var casinoObjArray = [
     "address": "31900 Las Vegas Blvd S, Primm, NV 89019, USA",
     "state": "Nevada",
     "phone": "(702) 386-7867",
-    "website": "http://www.primmvalleyresorts.com/"
+    "website": "http://www.primmvalleyresorts.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Resorts World, Las Vegas",
@@ -4642,7 +9984,17 @@ var casinoObjArray = [
     "address": "3000 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 802-6460",
-    "website": "http://rwlasvegas.com/"
+    "website": "http://rwlasvegas.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Rampart Casino",
@@ -4650,7 +10002,17 @@ var casinoObjArray = [
     "address": "221 N Rampart Blvd, Las Vegas, NV 89145, USA",
     "state": "Nevada",
     "phone": "(702) 507-5900",
-    "website": "http://www.rampartcasino.com/"
+    "website": "http://www.rampartcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Red Garter Hotel & Casino",
@@ -4658,13 +10020,33 @@ var casinoObjArray = [
     "address": "1225 Wendover Blvd, West Wendover, NV 89883, USA",
     "state": "Nevada",
     "phone": "(800) 982-2111",
-    "website": "http://www.wendoverresorts.com/hotel/red-garter/"
+    "website": "http://www.wendoverresorts.com/hotel/red-garter/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Tahoe Biltmore Lodge & Casino",
     "placeId": "ChIJL3ebSMJ6mYARMDafV1HNDjs",
     "address": "United States",
-    "state": "Nevada"
+    "state": "Nevada",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Pony Express Casino",
@@ -4672,7 +10054,17 @@ var casinoObjArray = [
     "address": "1800 Poker St, Jackpot, NV 89825, USA",
     "state": "Nevada",
     "phone": "(775) 755-2900",
-    "website": "http://www.ponyexpressjackpot.com/"
+    "website": "http://www.ponyexpressjackpot.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Red Rock Casino Resort & Spa",
@@ -4680,7 +10072,17 @@ var casinoObjArray = [
     "address": "11011 W Charleston Blvd, Las Vegas, NV 89135, USA",
     "state": "Nevada",
     "phone": "(702) 797-7777",
-    "website": "https://redrock.sclv.com/"
+    "website": "https://redrock.sclv.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hyatt Regency Lake Tahoe Resort, Spa & Casino",
@@ -4688,7 +10090,17 @@ var casinoObjArray = [
     "address": "111 Country Club Dr, Incline Village, NV 89451, USA",
     "state": "Nevada",
     "phone": "(775) 832-1234",
-    "website": "http://laketahoe.regency.hyatt.com/en/hotel/home.html"
+    "website": "http://laketahoe.regency.hyatt.com/en/hotel/home.html",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Laughlin River Lodge",
@@ -4696,7 +10108,17 @@ var casinoObjArray = [
     "address": "2700 S Casino Dr, Laughlin, NV 89029, USA",
     "state": "Nevada",
     "phone": "(702) 298-2242",
-    "website": "http://www.laughlinriverlodge.com/"
+    "website": "http://www.laughlinriverlodge.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Golden Gate Casino & Hotel",
@@ -4704,7 +10126,17 @@ var casinoObjArray = [
     "address": "1 Fremont Street, Las Vegas, NV 89101, USA",
     "state": "Nevada",
     "phone": "(702) 385-1906",
-    "website": "http://goldengatecasino.com/"
+    "website": "http://goldengatecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Terribles Casino",
@@ -4712,7 +10144,17 @@ var casinoObjArray = [
     "address": "670 US-95, Searchlight, NV 89046, USA",
     "state": "Nevada",
     "phone": "(702) 297-9200",
-    "website": "http://www.terribleherbst.com/"
+    "website": "http://www.terribleherbst.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hard Rock Hotel & Casino, Las Vegas",
@@ -4720,14 +10162,34 @@ var casinoObjArray = [
     "address": "4455 Paradise Rd, Las Vegas, NV 89169, USA",
     "state": "Nevada",
     "phone": "(702) 693-5000",
-    "website": "http://www.hardrockhotel.com/"
+    "website": "http://www.hardrockhotel.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Scoreboard Sportsbar & Restaurant",
     "placeId": "ChIJ4RY1CXf_pYARV9HBveZLEOw",
     "address": "259 Spring Valley Pkwy, Spring Creek, NV 89815, USA",
     "state": "Nevada",
-    "phone": "(775) 753-7529"
+    "phone": "(775) 753-7529",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Jerrys Nugget Casino, Las Vegas",
@@ -4735,20 +10197,50 @@ var casinoObjArray = [
     "address": "1821 N Las Vegas Blvd, North Las Vegas, NV 89030, USA",
     "state": "Nevada",
     "phone": "(702) 399-3000",
-    "website": "http://www.jerrysnugget.com/"
+    "website": "http://www.jerrysnugget.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Texas Station",
     "placeId": "ChIJ74ZGg4zByIARMopL0rlpKgY",
     "address": "Texas Station, Las Vegas, NV, USA",
-    "state": "Nevada"
+    "state": "Nevada",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Stockmans Casino, Lewistown",
     "placeId": "ChIJWcatDF_TQFMRFp63ZTwOnug",
     "address": "301 W Broadway St, Lewistown, MT 59457, USA",
     "state": "Montana",
-    "phone": "(406) 535-4349"
+    "phone": "(406) 535-4349",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Alamo Casino",
@@ -4756,7 +10248,17 @@ var casinoObjArray = [
     "address": "6595 N Hollywood Blvd, Las Vegas, NV 89115, USA",
     "state": "Nevada",
     "phone": "(702) 360-2009",
-    "website": "http://www.thealamo.com/alamo-casino-las-vegas-ta/"
+    "website": "http://www.thealamo.com/alamo-casino-las-vegas-ta/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Stateline Casino",
@@ -4764,20 +10266,50 @@ var casinoObjArray = [
     "address": "490 W Mesquite Blvd, Mesquite, NV 89027, USA",
     "state": "Nevada",
     "phone": "(702) 346-5752",
-    "website": "http://www.statelinecasinonv.com/"
+    "website": "http://www.statelinecasinonv.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Tropicana Express Railroad",
     "placeId": "ChIJB-Cj2a1DzoARLE_TSVTWqWs",
     "address": "Tropicana Express Railroad, Laughlin, NV 89029, USA",
-    "state": "Nevada"
+    "state": "Nevada",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino Express",
     "placeId": "ChIJywR-M6Q_IocR1s38-jHg1qg",
     "address": "14500 Central Ave SW, Albuquerque, NM 87121, USA",
     "state": "New Mexico",
-    "phone": "(505) 836-4320"
+    "phone": "(505) 836-4320",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Terribles Lakeside Casino & Rv Park",
@@ -4785,7 +10317,17 @@ var casinoObjArray = [
     "address": "5870 Homestead Rd, Pahrump, NV 89048, USA",
     "state": "Nevada",
     "phone": "(775) 751-7770",
-    "website": "https://www.lakesidecasinopahrump.com/"
+    "website": "https://www.lakesidecasinopahrump.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harveys, Lake Tahoe",
@@ -4793,7 +10335,17 @@ var casinoObjArray = [
     "address": "at, US-50, Lake Tahoe, NV 89449, USA",
     "state": "Nevada",
     "phone": "(775) 588-2411",
-    "website": "https://www.caesars.com/harveys-tahoe?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harveys%20Lake%20Tahoe&utm_content=hotel"
+    "website": "https://www.caesars.com/harveys-tahoe?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harveys%20Lake%20Tahoe&utm_content=hotel",   
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Stockmans Casino, Fallon",
@@ -4801,14 +10353,34 @@ var casinoObjArray = [
     "address": "1560 W Williams Ave, Fallon, NV 89406, USA",
     "state": "Nevada",
     "phone": "(775) 423-2117",
-    "website": "http://www.stockmanscasino.com/"
+    "website": "http://www.stockmanscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Terribles Town Casino",
     "placeId": "ChIJeYSHO3s3xoAR_4zQES8SgBw",
     "address": "771 S Frontage Rd, Pahrump, NV 89048, USA",
     "state": "Nevada",
-    "phone": "(775) 751-7770"
+    "phone": "(775) 751-7770",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Sids Cafe",
@@ -4816,27 +10388,67 @@ var casinoObjArray = [
     "address": "3000 Paradise Rd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 732-5111",
-    "website": "https://www.westgatedestinations.com/nevada/las-vegas/westgate-las-vegas-hotel-casino/dining/sids-cafe"
+    "website": "https://www.westgatedestinations.com/nevada/las-vegas/westgate-las-vegas-hotel-casino/dining/sids-cafe",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Trump Plaza",
     "placeId": "ChIJIbzDcqxQwokR5znfzO2L2oI",
     "address": "Trump Plaza, Jersey City, NJ 07302, USA",
-    "state": "New Jersey"
+    "state": "New Jersey",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Stagestop Casino",
     "placeId": "ChIJQbf1PUo2xoARmTVGyo_5ZhI",
     "address": "100 W Stagecoach Rd, Pahrump, NV 89060, USA",
     "state": "Nevada",
-    "phone": "(775) 727-7300"
+    "phone": "(775) 727-7300",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Terribles Roadhouse",
     "placeId": "ChIJXwAp90wdz4ARMOUgdjs08tw",
     "address": "100 US-95, Searchlight, NV 89046, USA",
     "state": "Nevada",
-    "phone": "(702) 297-1201"
+    "phone": "(702) 297-1201",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Green Valley Ranch Resort, Casino & Spa",
@@ -4844,7 +10456,17 @@ var casinoObjArray = [
     "address": "2300 Paseo Verde Pkwy, Henderson, NV 89052, USA",
     "state": "Nevada",
     "phone": "(702) 617-7777",
-    "website": "https://greenvalleyranch.sclv.com/"
+    "website": "https://greenvalleyranch.sclv.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Silver Nugget Casino & Event Center",
@@ -4852,7 +10474,17 @@ var casinoObjArray = [
     "address": "2140 N Las Vegas Blvd, North Las Vegas, NV 89030, USA",
     "state": "Nevada",
     "phone": "(702) 399-1111",
-    "website": "http://silvernuggetlv.com/"
+    "website": "http://silvernuggetlv.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Saddle West Hotel Casino RV Resort",
@@ -4860,7 +10492,17 @@ var casinoObjArray = [
     "address": "1220 NV-160, Pahrump, NV 89048, USA",
     "state": "Nevada",
     "phone": "(775) 727-1111",
-    "website": "http://www.saddlewest.com/"
+    "website": "http://www.saddlewest.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Skyline Restaurant & Casino",
@@ -4868,27 +10510,67 @@ var casinoObjArray = [
     "address": "1741 N Boulder Hwy, Henderson, NV 89011, USA",
     "state": "Nevada",
     "phone": "(702) 565-9116",
-    "website": "http://www.skylinehenderson.com/"
+    "website": "http://www.skylinehenderson.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Fitzgeralds Casino & Hotel",
     "placeId": "ChIJPV1bFDVHmYARKlSZuGnFSvc",
     "address": "255 N Virginia St, Reno, NV 89501, USA",
     "state": "Nevada",
-    "phone": "(775) 785-3686"
+    "phone": "(775) 785-3686",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs Casino & Resort, Atlantic City",
     "placeId": "ChIJ8Q6BrMnvwIkRkOm9c3kX30Y",
     "address": "United States",
-    "state": "New Jersey"
+    "state": "New Jersey",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Stateline Casino & Heartland Grill",
     "placeId": "ChIJ2ZtpM3Nfe4cR_eG_fWXTXT8",
     "address": "30387 US-385, Oelrichs, SD 57763, USA",
     "state": "South Dakota",
-    "phone": "(605) 535-2099"
+    "phone": "(605) 535-2099",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Topaz Lodge",
@@ -4896,7 +10578,17 @@ var casinoObjArray = [
     "address": "1979 US-395, Gardnerville, NV 89410, USA",
     "state": "Nevada",
     "phone": "(775) 226-3338",
-    "website": "http://topazlodge.com/"
+    "website": "http://topazlodge.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Stage Door Casino",
@@ -4904,7 +10596,17 @@ var casinoObjArray = [
     "address": "4000 Audrie St, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 733-0124",
-    "website": "http://www.vegashomesellers.com/"
+    "website": "http://www.vegashomesellers.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "South Point Hotel, Casino & Spa",
@@ -4912,7 +10614,17 @@ var casinoObjArray = [
     "address": "9777 S Las Vegas Blvd, Las Vegas, NV 89183, USA",
     "state": "Nevada",
     "phone": "(702) 796-7111",
-    "website": "http://www.southpointcasino.com/"
+    "website": "http://www.southpointcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Riviera Hotel & Casino",
@@ -4920,7 +10632,17 @@ var casinoObjArray = [
     "address": "2901 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 734-5110",
-    "website": "http://www.rivierahotel.com/"
+    "website": "http://www.rivierahotel.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Terribles Hotel & Casino",
@@ -4928,14 +10650,34 @@ var casinoObjArray = [
     "address": "4100 Paradise Rd, Las Vegas, NV 89169, USA",
     "state": "Nevada",
     "phone": "(702) 733-7000",
-    "website": "http://www.terriblescasinos.com/"
+    "website": "http://www.terriblescasinos.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "StageCoach Hotel & Casino",
     "placeId": "ChIJi8tQd9eYuIARd0b3CgtuBuM",
     "address": "900 E U.S. 95 N, Beatty, NV 89003, USA",
     "state": "Nevada",
-    "phone": "(775) 553-2419"
+    "phone": "(775) 553-2419",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Sunset Station Hotel & Casino",
@@ -4943,7 +10685,17 @@ var casinoObjArray = [
     "address": "1301 W Sunset Rd, Henderson, NV 89014, USA",
     "state": "Nevada",
     "phone": "(702) 547-7777",
-    "website": "https://sunsetstation.sclv.com/"
+    "website": "https://sunsetstation.sclv.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Sams Town Hotel & Gambling Hall",
@@ -4951,7 +10703,17 @@ var casinoObjArray = [
     "address": "5111 Boulder Hwy, Las Vegas, NV 89122, USA",
     "state": "Nevada",
     "phone": "(702) 456-7777",
-    "website": "http://www.samstownlv.com/"
+    "website": "http://www.samstownlv.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Tamarack Junction Casino & Restaurant",
@@ -4959,7 +10721,17 @@ var casinoObjArray = [
     "address": "13101 S Virginia St, Reno, NV 89511, USA",
     "state": "Nevada",
     "phone": "(775) 852-3600",
-    "website": "http://www.tamarackjunction.com/"
+    "website": "http://www.tamarackjunction.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Stockmens Hotel & Casino",
@@ -4967,7 +10739,17 @@ var casinoObjArray = [
     "address": "340 Commercial St, Elko, NV 89801, USA",
     "state": "Nevada",
     "phone": "(775) 738-5141",
-    "website": "http://www.northernstarcasinos.com/stockmens-hotel-casino"
+    "website": "http://www.northernstarcasinos.com/stockmens-hotel-casino",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Silver Legacy Casino & Resort, Reno",
@@ -4975,7 +10757,17 @@ var casinoObjArray = [
     "address": "407 N Virginia St, Reno, NV 89501, USA",
     "state": "Nevada",
     "phone": "(775) 329-4777",
-    "website": "http://www.silverlegacyreno.com/"
+    "website": "http://www.silverlegacyreno.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Siena Hotel",
@@ -4983,7 +10775,17 @@ var casinoObjArray = [
     "address": "1 Lake St, Reno, NV 89501, USA",
     "state": "Nevada",
     "phone": "(775) 682-3900",
-    "website": "http://www.sienareno.com/"
+    "website": "http://www.sienareno.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Double Barrel Roadhouse",
@@ -4991,7 +10793,17 @@ var casinoObjArray = [
     "address": "3770 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 222-7735",
-    "website": "http://www.montecarlo.com/restaurants/double-barrel.aspx"
+    "website": "http://www.montecarlo.com/restaurants/double-barrel.aspx",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Riverside Resort Hotel & Casino",
@@ -4999,7 +10811,17 @@ var casinoObjArray = [
     "address": "1650 S Casino Dr, Laughlin, NV 89029, USA",
     "state": "Nevada",
     "phone": "(702) 298-2535",
-    "website": "http://www.riversideresort.com/"
+    "website": "http://www.riversideresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "SLS, Las Vegas",
@@ -5007,7 +10829,17 @@ var casinoObjArray = [
     "address": "2535 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 761-7000",
-    "website": "https://www.starwoodhotels.com/tributeportfolio/property/overview/index.html?propertyID=4420"
+    "website": "https://www.starwoodhotels.com/tributeportfolio/property/overview/index.html?propertyID=4420",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Silver Sevens Hotel & Casino",
@@ -5015,14 +10847,34 @@ var casinoObjArray = [
     "address": "4100 Paradise Rd, Las Vegas, NV 89169, USA",
     "state": "Nevada",
     "phone": "(702) 733-7000",
-    "website": "http://www.silversevenscasino.com/"
+    "website": "http://www.silversevenscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Sharkeys Casino",
     "placeId": "ChIJpy7lt9a9mYARQZQY_Pgohhs",
     "address": "1440 U.S. Hwy 395 N, Gardnerville, NV 89410, USA",
     "state": "Nevada",
-    "phone": "(775) 782-3133"
+    "phone": "(775) 782-3133",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Little Nugget Diner",
@@ -5030,7 +10882,17 @@ var casinoObjArray = [
     "address": "233 N Virginia St, Reno, NV 89501, USA",
     "state": "Nevada",
     "phone": "(775) 323-0716",
-    "website": "http://awfulawfulburgerreno.wix.com/awfulawfulburgerreno"
+    "website": "http://awfulawfulburgerreno.wix.com/awfulawfulburgerreno",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Northern Edge Navajo Casino",
@@ -5038,7 +10900,17 @@ var casinoObjArray = [
     "address": "2752 Indian Service Road 36, Fruitland, NM 87416, USA",
     "state": "New Mexico",
     "phone": "(505) 960-7000",
-    "website": "http://www.northernedgenavajocasino.com/"
+    "website": "http://www.northernedgenavajocasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Isleta Casino & Resort",
@@ -5046,7 +10918,17 @@ var casinoObjArray = [
     "address": "11000 Broadway Blvd SE, Albuquerque, NM 87105, USA",
     "state": "New Mexico",
     "phone": "(505) 724-3800",
-    "website": "http://www.isleta.com/"
+    "website": "http://www.isleta.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Rio Hotel & Casino",
@@ -5054,7 +10936,17 @@ var casinoObjArray = [
     "address": "3700 W Flamingo Rd, Las Vegas, NV 89103, USA",
     "state": "Nevada",
     "phone": "(866) 746-7671",
-    "website": "https://www.caesars.com/rio-las-vegas"
+    "website": "https://www.caesars.com/rio-las-vegas",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Silverton Casino",
@@ -5062,7 +10954,17 @@ var casinoObjArray = [
     "address": "3333 Blue Diamond Rd, Las Vegas, NV 89139, USA",
     "state": "Nevada",
     "phone": "(702) 263-7777",
-    "website": "http://www.silvertoncasino.com/?utm_source=google&utm_medium=places&utm_campaign=google_places_ms"
+    "website": "http://www.silvertoncasino.com/?utm_source=google&utm_medium=places&utm_campaign=google_places_ms",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Palazzo",
@@ -5070,7 +10972,17 @@ var casinoObjArray = [
     "address": "3325 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 607-7777",
-    "website": "http://www.palazzo.com/"
+    "website": "http://www.palazzo.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Orleans Hotel & Casino",
@@ -5078,7 +10990,17 @@ var casinoObjArray = [
     "address": "4500 W Tropicana Ave, Las Vegas, NV 89103, USA",
     "state": "Nevada",
     "phone": "(702) 365-7111",
-    "website": "http://www.orleanscasino.com/"
+    "website": "http://www.orleanscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Billy the Kid Casino",
@@ -5086,7 +11008,17 @@ var casinoObjArray = [
     "address": "26225 US-70, Ruidoso Downs, NM 88346, USA",
     "state": "New Mexico",
     "phone": "(575) 378-4431",
-    "website": "http://www.btkcasino.com/"
+    "website": "http://www.btkcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Slots-A-Fun Casino",
@@ -5094,7 +11026,17 @@ var casinoObjArray = [
     "address": "2890 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(877) 849-4868",
-    "website": "http://www.tix4tonight.com/"
+    "website": "http://www.tix4tonight.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Apache Nugget Casino, Cuba",
@@ -5102,7 +11044,17 @@ var casinoObjArray = [
     "address": "US-550, Cuba, NM 87013, USA",
     "state": "New Mexico",
     "phone": "(575) 289-2486",
-    "website": "http://www.apachenugget.com/"
+    "website": "http://www.apachenugget.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Palms Casino & Resort",
@@ -5110,7 +11062,17 @@ var casinoObjArray = [
     "address": "4321 W Flamingo Rd, Las Vegas, NV 89103, USA",
     "state": "Nevada",
     "phone": "(702) 942-7777",
-    "website": "http://palms.com/"
+    "website": "http://palms.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Sands Regency Casino & Hotel",
@@ -5118,14 +11080,34 @@ var casinoObjArray = [
     "address": "345 N Arlington Ave, Reno, NV 89501, USA",
     "state": "Nevada",
     "phone": "(775) 348-2200",
-    "website": "http://www.sandsregency.com/"
+    "website": "http://www.sandsregency.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Palace West Casino",
     "placeId": "ChIJLxovJDgNIocRshZZ8Pr9loY",
     "address": "2 NM-45, Albuquerque, NM 87105, USA",
     "state": "New Mexico",
-    "phone": "(505) 869-4102"
+    "phone": "(505) 869-4102",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Stratosphere Casino & Hotel",
@@ -5133,7 +11115,17 @@ var casinoObjArray = [
     "address": "2000 S Las Vegas Blvd, Las Vegas, NV 89104, USA",
     "state": "Nevada",
     "phone": "(702) 380-7777",
-    "website": "http://www.stratospherehotel.com/"
+    "website": "http://www.stratospherehotel.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Westin Hotel, Casino & Spa, Las Vegas",
@@ -5141,7 +11133,17 @@ var casinoObjArray = [
     "address": "160 E Flamingo Rd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 836-5900",
-    "website": "http://www.westinvegas.com/"
+    "website": "http://www.westinvegas.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Casino Apache Casino & Travel Center",
@@ -5149,7 +11151,17 @@ var casinoObjArray = [
     "address": "25845 U.S. 70, Mescalero, NM 88340, USA",
     "state": "New Mexico",
     "phone": "(575) 464-7059",
-    "website": "http://casinoapachetravelcenter.com/"
+    "website": "http://casinoapachetravelcenter.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Cromwell Hotel & Casino, Las Vegas",
@@ -5157,7 +11169,17 @@ var casinoObjArray = [
     "address": "3595 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 777-3777",
-    "website": "http://www.caesars.com/cromwell/?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=The%20Cromwell%20Las%20Vegas%20Hotel%20and%20Casino&utm_content=hotel"
+    "website": "http://www.caesars.com/cromwell/?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=The%20Cromwell%20Las%20Vegas%20Hotel%20and%20Casino&utm_content=hotel",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Santa Fe Station Hotel & Casino",
@@ -5165,7 +11187,17 @@ var casinoObjArray = [
     "address": "4949 N Rancho Dr, Las Vegas, NV 89130, USA",
     "state": "Nevada",
     "phone": "(866) 767-7770",
-    "website": "https://santafestation.sclv.com/"
+    "website": "https://santafestation.sclv.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Zia Park Casino Hotel & Racetrack",
@@ -5173,7 +11205,17 @@ var casinoObjArray = [
     "address": "3901 W Millen Dr, Hobbs, NM 88240, USA",
     "state": "New Mexico",
     "phone": "(888) 942-7275",
-    "website": "http://www.ziaparkcasino.com/"
+    "website": "http://www.ziaparkcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Revel",
@@ -5181,7 +11223,17 @@ var casinoObjArray = [
     "address": "500 Boardwalk, Atlantic City, NJ 08401, USA",
     "state": "New Jersey",
     "phone": "(609) 348-0500",
-    "website": "http://www.revelresorts.com/index.html"
+    "website": "http://www.revelresorts.com/index.html",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Showboat, Atlantic City",
@@ -5189,7 +11241,17 @@ var casinoObjArray = [
     "address": "801 Boardwalk, Atlantic City, NJ 08401, USA",
     "state": "New Jersey",
     "phone": "(609) 487-4600",
-    "website": "http://www.showboathotelac.com/"
+    "website": "http://www.showboathotelac.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Trump Taj Mahal",
@@ -5197,7 +11259,17 @@ var casinoObjArray = [
     "address": "1000 Boardwalk, Atlantic City, NJ 08401, USA",
     "state": "New Jersey",
     "phone": "(609) 449-1000",
-    "website": "http://www.trumptaj.com/"
+    "website": "http://www.trumptaj.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Wild Wild West",
@@ -5205,7 +11277,17 @@ var casinoObjArray = [
     "address": "3330 W Tropicana Ave, Las Vegas, NV 89103, USA",
     "state": "Nevada",
     "phone": "(702) 740-0000",
-    "website": "https://wildfire.sclv.com/Wild-Wild-West.aspx"
+    "website": "https://wildfire.sclv.com/Wild-Wild-West.aspx",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Sunland Park Racetrack & Casino",
@@ -5213,7 +11295,17 @@ var casinoObjArray = [
     "address": "1200 Futurity Dr, Sunland Park, NM 88063, USA",
     "state": "New Mexico",
     "phone": "(575) 874-5200",
-    "website": "http://www.sunland-park.com/"
+    "website": "http://www.sunland-park.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "QBs Sports Bar & Grill",
@@ -5221,13 +11313,33 @@ var casinoObjArray = [
     "address": "68 Cities of Gold Rd, Santa Fe, NM 87506, USA",
     "state": "New Mexico",
     "phone": "(505) 455-4201",
-    "website": "http://www.qbssportsbar.com/"
+    "website": "http://www.qbssportsbar.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Suncoast Hotel & Casino, Las Vegas",
     "placeId": "ChIJ45abwo-_yIARiZWkML2XQjk",
     "address": "9090 Alta Dr, Las Vegas, NV 89144, USA",
-    "state": "Nevada"
+    "state": "Nevada",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lucky Club Hotel & Casino",
@@ -5235,7 +11347,17 @@ var casinoObjArray = [
     "address": "3227 Civic Center Dr, North Las Vegas, NV 89030, USA",
     "state": "Nevada",
     "phone": "(702) 399-3297",
-    "website": "http://luckyclublv.com/"
+    "website": "http://luckyclublv.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Venetian",
@@ -5243,7 +11365,17 @@ var casinoObjArray = [
     "address": "3355 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 414-1000",
-    "website": "http://venetian.com/"
+    "website": "http://venetian.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The D, Las Vegas",
@@ -5251,7 +11383,17 @@ var casinoObjArray = [
     "address": "301 Fremont St, Las Vegas, NV 89101, USA",
     "state": "Nevada",
     "phone": "(702) 388-2400",
-    "website": "http://www.thed.com/"
+    "website": "http://www.thed.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Mirage",
@@ -5259,7 +11401,17 @@ var casinoObjArray = [
     "address": "3400 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 791-7111",
-    "website": "http://www.mirage.com/"
+    "website": "http://www.mirage.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ballys, Atlantic City",
@@ -5267,7 +11419,17 @@ var casinoObjArray = [
     "address": "1900 Boardwalk, Atlantic City, NJ 08401, USA",
     "state": "New Jersey",
     "phone": "(609) 340-2000",
-    "website": "https://www.caesars.com/ballys-ac?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Ballys%20Atlantic%20City&utm_content=hotel"
+    "website": "https://www.caesars.com/ballys-ac?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Ballys%20Atlantic%20City&utm_content=hotel"    
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Camel Rock Casino",
@@ -5275,7 +11437,17 @@ var casinoObjArray = [
     "address": "17486A Co Rd 84, Santa Fe, NM 87506, USA",
     "state": "Nevada",
     "phone": "(800) 462-2635",
-    "website": "http://www.camelrockcasino.com/contact"
+    "website": "http://www.camelrockcasino.com/contact",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Sandia Resort & Casino",
@@ -5283,7 +11455,17 @@ var casinoObjArray = [
     "address": "30 Rainbow Rd, Albuquerque, NM 87113, USA",
     "state": "New Mexico",
     "phone": "(505) 796-7500",
-    "website": "http://www.sandiacasino.com/"
+    "website": "http://www.sandiacasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Tropicana Hotel and Casino, Laughlin",
@@ -5291,7 +11473,17 @@ var casinoObjArray = [
     "address": "2121 S Casino Dr, Laughlin, NV 89029, USA",
     "state": "Nevada",
     "phone": "(702) 298-4200",
-    "website": "http://www.troplaughlin.com/"
+    "website": "http://www.troplaughlin.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Nugget Hotel & Casino, Wendover",
@@ -5299,7 +11491,17 @@ var casinoObjArray = [
     "address": "101 W Wendover Blvd, West Wendover, NV 89883, USA",
     "state": "Nevada",
     "phone": "(775) 401-6840",
-    "website": "http://www.wendoverresorts.com/"
+    "website": "http://www.wendoverresorts.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Treasure Island",
@@ -5307,7 +11509,17 @@ var casinoObjArray = [
     "address": "3300 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 894-7111",
-    "website": "http://www.treasureisland.com/"
+    "website": "http://www.treasureisland.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Wynn, Las Vegas",
@@ -5315,7 +11527,17 @@ var casinoObjArray = [
     "address": "3131 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(702) 770-7000",
-    "website": "http://www.wynnlasvegas.com/"
+    "website": "http://www.wynnlasvegas.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Tropicana Casino & Resort, Atlantic City",
@@ -5323,7 +11545,17 @@ var casinoObjArray = [
     "address": "2831 Boardwalk, Atlantic City, NJ 08401, USA",
     "state": "New Jersey",
     "phone": "(800) 843-8767",
-    "website": "http://www.tropicana.net/"
+    "website": "http://www.tropicana.net/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Santa Ana Star Casino",
@@ -5331,7 +11563,17 @@ var casinoObjArray = [
     "address": "54 Jemez Canyon Dam Rd, Bernalillo, NM 87004, USA",
     "state": "New Mexico",
     "phone": "(505) 867-0000",
-    "website": "http://santaanastar.com/"
+    "website": "http://santaanastar.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Borgata Hotel Casino & Spa",
@@ -5339,7 +11581,17 @@ var casinoObjArray = [
     "address": "1 Borgata Way, Atlantic City, NJ 08401, USA",
     "state": "New Jersey",
     "phone": "(609) 317-1000",
-    "website": "http://www.theborgata.com/"
+    "website": "http://www.theborgata.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ohkay Casino Resort & Hotel",
@@ -5347,7 +11599,17 @@ var casinoObjArray = [
     "address": "68 NM-291, Ohkay Owingeh, NM 87566, USA",
     "state": "New Mexico",
     "phone": "(505) 747-1668",
-    "website": "http://www.ohkay.com/"
+    "website": "http://www.ohkay.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Cities of Gold Casino",
@@ -5355,7 +11617,17 @@ var casinoObjArray = [
     "address": "10-B Cities of Gold Rd, Santa Fe, NM 87506, USA",
     "state": "New Mexico",
     "phone": "(505) 455-4232",
-    "website": "http://www.citiesofgold.com/"
+    "website": "http://www.citiesofgold.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Albuquerque Downs Racetrack & Casino",
@@ -5363,7 +11635,17 @@ var casinoObjArray = [
     "address": "145 Louisiana Blvd NE, Albuquerque, NM 87108, USA",
     "state": "New Mexico",
     "phone": "(505) 767-7171",
-    "website": "http://www.abqdowns.com/"
+    "website": "http://www.abqdowns.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Fire Rock Navajo Casino",
@@ -5371,7 +11653,17 @@ var casinoObjArray = [
     "address": "249 East Historic 66, Church Rock, NM 87311, USA",
     "state": "New Mexico",
     "phone": "(505) 905-7100",
-    "website": "http://www.firerocknavajocasino.com/"
+    "website": "http://www.firerocknavajocasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Inn of the Mountain Gods Resort & Casino",
@@ -5379,7 +11671,17 @@ var casinoObjArray = [
     "address": "287 Carrizo Canyon Rd, Mescalero, NM 88340, USA",
     "state": "New Mexico",
     "phone": "(800) 545-9011",
-    "website": "http://innofthemountaingods.com/"
+    "website": "http://innofthemountaingods.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Buffalo Thunder @ Hilton, Santa Fe",
@@ -5387,7 +11689,17 @@ var casinoObjArray = [
     "address": "20 Buffalo Thunder Trail, Santa Fe, NM 87506, USA",
     "state": "New Mexico",
     "phone": "(505) 455-5555",
-    "website": "http://www.hiltonbuffalothunder.com/"
+    "website": "http://www.hiltonbuffalothunder.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Dancing Eagle Casino",
@@ -5395,7 +11707,17 @@ var casinoObjArray = [
     "address": "167 Casa Blanca Rd, Casa Blanca, NM 87007, USA",
     "state": "New Mexico",
     "phone": "(505) 552-7777",
-    "website": "http://www.dancingeaglecasino.com/"
+    "website": "http://www.dancingeaglecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Route 66 Casino & Hotel",
@@ -5403,7 +11725,17 @@ var casinoObjArray = [
     "address": "14500 Central Ave SW, Albuquerque, NM 87121, USA",
     "state": "New Mexico",
     "phone": "(505) 352-7866",
-    "website": "http://www.rt66casino.com/"
+    "website": "http://www.rt66casino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Wildfire Casino & Lanes",
@@ -5411,7 +11743,17 @@ var casinoObjArray = [
     "address": "4451 E Sunset Rd, Henderson, NV 89014, USA",
     "state": "Nevada",
     "phone": "(702) 685-2100",
-    "website": "http://www.wildfiregaming.com/"
+    "website": "http://www.wildfiregaming.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Western Village Inn & Casino",
@@ -5419,7 +11761,17 @@ var casinoObjArray = [
     "address": "815 Nichols Blvd, Sparks, NV 89434, USA",
     "state": "Nevada",
     "phone": "(800) 648-1170",
-    "website": "http://www.westernvillagesparks.com/"
+    "website": "http://www.westernvillagesparks.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The LINQ",
@@ -5427,7 +11779,17 @@ var casinoObjArray = [
     "address": "3535 S Las Vegas Blvd, Las Vegas, NV 89109, USA",
     "state": "Nevada",
     "phone": "(800) 634-6441",
-    "website": "https://www.caesars.com/linq?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=The%20LINQ%20Hotel%20and%20Casino&utm_content=hotel"
+    "website": "https://www.caesars.com/linq?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=The%20LINQ%20Hotel%20and%20Casino&utm_content=hotel",   
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Tuscany Suites & Casino",
@@ -5435,7 +11797,17 @@ var casinoObjArray = [
     "address": "255 E Flamingo Rd, Las Vegas, NV 89169, USA",
     "state": "Nevada",
     "phone": "(702) 893-8933",
-    "website": "http://www.tuscanylv.com/"
+    "website": "http://www.tuscanylv.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Winners Inn & Casino",
@@ -5443,7 +11815,17 @@ var casinoObjArray = [
     "address": "185 W Winnemucca Blvd, Winnemucca, NV 89445, USA",
     "state": "Nevada",
     "phone": "(775) 623-2511",
-    "website": "http://winnersinn.com/"
+    "website": "http://winnersinn.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Virgin River Hotel & Casino",
@@ -5451,7 +11833,17 @@ var casinoObjArray = [
     "address": "100 E Pioneer Blvd, Mesquite, NV 89027, USA",
     "state": "Nevada",
     "phone": "(877) 438-2929",
-    "website": "http://www.virginriver.com/"
+    "website": "http://www.virginriver.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "SunRay Park & Casino",
@@ -5459,7 +11851,17 @@ var casinoObjArray = [
     "address": "39 Rd 5568, Farmington, NM 87401, USA",
     "state": "New Mexico",
     "phone": "(505) 566-1200",
-    "website": "http://www.sunraygaming.com/"
+    "website": "http://www.sunraygaming.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Resorts Casino & Hotel",
@@ -5467,7 +11869,17 @@ var casinoObjArray = [
     "address": "1133 Boardwalk, Atlantic City, NJ 08401, USA",
     "state": "New Jersey",
     "phone": "(800) 334-6378",
-    "website": "http://www.resortsac.com/"
+    "website": "http://www.resortsac.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Golden Nugget Hotel & Casino, Atlantic City",
@@ -5475,7 +11887,17 @@ var casinoObjArray = [
     "address": "600 Huron Avenue & Brigantine Boulevard, Atlantic City, NJ 08401",
     "state": "New Jersey",
     "phone": "(609) 441-2000",
-    "website": "http://www.goldennugget.com/atlanticcity/"
+    "website": "http://www.goldennugget.com/atlanticcity/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Santa Claran Hotel & Casino",
@@ -5483,7 +11905,17 @@ var casinoObjArray = [
     "address": "460 N Riverside Dr, Española, NM 87532, USA",
     "state": "New Mexico",
     "phone": "(877) 505-4949",
-    "website": "http://www.santaclaran.com/"
+    "website": "http://www.santaclaran.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Sky City Casino & Hotel",
@@ -5491,7 +11923,17 @@ var casinoObjArray = [
     "address": "I-40 Exit 102, Acoma, NM 87034, USA",
     "state": "New Mexico",
     "phone": "(505) 552-6123",
-    "website": "http://www.skycity.com/"
+    "website": "http://www.skycity.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Taos Mountain Casino",
@@ -5499,7 +11941,17 @@ var casinoObjArray = [
     "address": "700 Veterans Hwy, Taos, NM 87571, USA",
     "state": "New Mexico",
     "phone": "(575) 737-0777",
-    "website": "http://www.taosmountaincasino.com/"
+    "website": "http://www.taosmountaincasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Whiskey Petes Hotel & Casino",
@@ -5507,7 +11959,17 @@ var casinoObjArray = [
     "address": "100 W Primm Blvd, Jean, NV 89019, USA",
     "state": "Nevada",
     "phone": "(702) 386-7867",
-    "website": "http://www.primmvalleyresorts.com/"
+    "website": "http://www.primmvalleyresorts.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Caesars Palace, Atlantic City",
@@ -5515,13 +11977,33 @@ var casinoObjArray = [
     "address": "2100 Pacific Ave, Atlantic City, NJ 08401, USA",
     "state": "New Jersey",
     "phone": "(609) 348-4411",
-    "website": "http://www.caesarsac.com/?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Caesars%20Atlantic%20City&utm_content=hotel"
+    "website": "http://www.caesarsac.com/?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Caesars%20Atlantic%20City&utm_content=hotel",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Monticello Raceway",
     "placeId": "ChIJy87PHpaw3IkR2ydawVTFgIo",
     "address": "Monticello Raceway, Monticello, NY 12701, USA",
-    "state": "New York"
+    "state": "New York",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Seneca Gaming & Entertainment, Oil Spring",
@@ -5529,14 +12011,34 @@ var casinoObjArray = [
     "address": "5374 W Shore Rd, Cuba, NY 14727, USA",
     "state": "New York",
     "phone": "(716) 780-8787",
-    "website": "http://www.senecagames.com/oil-spring.html"
+    "website": "http://www.senecagames.com/oil-spring.html",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mohawk Bingo Palace",
     "placeId": "ChIJ_____y8QzEwRASPUOrS4Fh8",
     "address": "RR 37, Hogansburg, NY 13655, USA",
     "state": "New York",
-    "phone": "(518) 358-9161"
+    "phone": "(518) 358-9161",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Seneca Gaming & Entertainment, Irving",
@@ -5544,7 +12046,17 @@ var casinoObjArray = [
     "address": "11099 Erie Rd, Irving, NY 14081, USA",
     "state": "New York",
     "phone": "(716) 549-4389",
-    "website": "http://www.senecagames.com/"
+    "website": "http://www.senecagames.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Seneca Gaming & Entertainment, Salamanca",
@@ -5552,7 +12064,17 @@ var casinoObjArray = [
     "address": "768 Broad St, Salamanca, NY 14779, USA",
     "state": "New York",
     "phone": "(716) 945-4080",
-    "website": "http://www.senecagames.com/salamanca"
+    "website": "http://www.senecagames.com/salamanca",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Batavia Downs Gaming",
@@ -5560,7 +12082,17 @@ var casinoObjArray = [
     "address": "8315 Park Rd, Batavia, NY 14020, USA",
     "state": "New York",
     "phone": "(585) 343-3750",
-    "website": "http://www.bataviadownsgaming.com/"
+    "website": "http://www.bataviadownsgaming.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mt Vernon Casino & Bingo",
@@ -5568,7 +12100,17 @@ var casinoObjArray = [
     "address": "2431 E Mt Vernon St, Wichita, KS 67211, USA",
     "state": "Kansas",
     "phone": "(316) 686-9969",
-    "website": "http://www.bingocasinoks.com/"
+    "website": "http://www.bingocasinoks.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lakeside Entertainment",
@@ -5576,7 +12118,17 @@ var casinoObjArray = [
     "address": "271 Cayuga St, Union Springs, NY 13148, USA",
     "state": "New York",
     "phone": "(315) 889-5416",
-    "website": "http://www.lakesidegaming.com/"
+    "website": "http://www.lakesidegaming.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Tioga Downs Casino",
@@ -5584,7 +12136,17 @@ var casinoObjArray = [
     "address": "2384 W River Rd, Nichols, NY 13812, USA",
     "state": "New York",
     "phone": "(888) 946-8464",
-    "website": "http://www.tiogadowns.com/"
+    "website": "http://www.tiogadowns.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Seneca Allegany Resort & Casino",
@@ -5592,7 +12154,17 @@ var casinoObjArray = [
     "address": "777 Seneca Allegany Blvd, Salamanca, NY 14779, USA",
     "state": "New York",
     "phone": "(888) 913-3377",
-    "website": "http://www.senecaalleganycasino.com/"
+    "website": "http://www.senecaalleganycasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Turning Stone Resort & Casino",
@@ -5600,7 +12172,17 @@ var casinoObjArray = [
     "address": "5218 Patrick Rd, Verona, NY 13478, USA",
     "state": "New York",
     "phone": "(800) 771-7711",
-    "website": "http://turningstone.com/"
+    "website": "http://turningstone.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Resorts World Casino, New York City",
@@ -5608,7 +12190,17 @@ var casinoObjArray = [
     "address": "110-00 Rockaway Boulevard, Jamaica, NY 11420, USA",
     "state": "New York",
     "phone": "(718) 215-2828",
-    "website": "http://www.rwnewyork.com/"
+    "website": "http://www.rwnewyork.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Miami Valley Gaming",
@@ -5616,7 +12208,17 @@ var casinoObjArray = [
     "address": "6000 Ohio 63, Lebanon, OH 45036, USA",
     "state": "Ohio",
     "phone": "(513) 934-7070",
-    "website": "http://www.miamivalleygaming.com/"
+    "website": "http://www.miamivalleygaming.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hollywood Casino, Toledo",
@@ -5624,7 +12226,17 @@ var casinoObjArray = [
     "address": "1968 Miami St, Toledo, OH 43605, USA",
     "state": "Ohio",
     "phone": "(419) 661-5200",
-    "website": "http://www.hollywoodcasinotoledo.com/"
+    "website": "http://www.hollywoodcasinotoledo.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hollywood Casino, Columbus",
@@ -5632,7 +12244,17 @@ var casinoObjArray = [
     "address": "200 Georgesville Rd, Columbus, OH 43228, USA",
     "state": "Ohio",
     "phone": "(614) 308-3333",
-    "website": "http://www.hollywoodcolumbus.com/"
+    "website": "http://www.hollywoodcolumbus.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Yellow Brick Road Casino",
@@ -5640,7 +12262,17 @@ var casinoObjArray = [
     "address": "800 W Genesee St, Chittenango, NY 13037, USA",
     "state": "New York",
     "phone": "(315) 366-9400",
-    "website": "http://www.yellowbrickroadcasino.com/"
+    "website": "http://www.yellowbrickroadcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hard Rock Rocksino, Northfield Park",
@@ -5648,7 +12280,17 @@ var casinoObjArray = [
     "address": "10777 Northfield Rd, Northfield, OH 44067, USA",
     "state": "Ohio",
     "phone": "(330) 908-7625",
-    "website": "https://www.hrrocksinonorthfieldpark.com/"
+    "website": "https://www.hrrocksinonorthfieldpark.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs Casino & Resort, Cherokee",
@@ -5656,7 +12298,17 @@ var casinoObjArray = [
     "address": "777 Casino Dr, Cherokee, NC 28719, USA",
     "state": "North Carolina",
     "phone": "(828) 497-7777",
-    "website": "https://www.caesars.com/harrahs-cherokee?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Cherokee%20Casino%20Resort&utm_content=hotel"
+    "website": "https://www.caesars.com/harrahs-cherokee?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Cherokee%20Casino%20Resort&utm_content=hotel",   
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Akwesasne Mohawk Casino & Resort",
@@ -5664,7 +12316,17 @@ var casinoObjArray = [
     "address": "873 NY-37, Hogansburg, NY 13655, USA",
     "state": "New York",
     "phone": "(518) 358-2222",
-    "website": "http://www.mohawkcasino.com/"
+    "website": "http://www.mohawkcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Saratoga Casino & Hotel",
@@ -5672,7 +12334,17 @@ var casinoObjArray = [
     "address": "342 Jefferson St, Saratoga Springs, NY 12866, USA",
     "state": "New York",
     "phone": "(518) 584-2110",
-    "website": "http://www.saratogacasino.com/"
+    "website": "http://www.saratogacasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Seneca Casino, Buffalo",
@@ -5680,7 +12352,17 @@ var casinoObjArray = [
     "address": "1 Fulton St, Buffalo, NY 14204, USA",
     "state": "New York",
     "phone": "(877) 873-6322",
-    "website": "http://www.senecabuffalocreekcasino.com/"
+    "website": "http://www.senecabuffalocreekcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Finger Lakes Gaming & Racetrack",
@@ -5688,7 +12370,17 @@ var casinoObjArray = [
     "address": "5857 NY-96, Farmington, NY 14425, USA",
     "state": "New York",
     "phone": "(585) 924-3232",
-    "website": "http://www.fingerlakesgaming.com/?utm_source=googlemaps&utm_medium=local&utm_campaign=gaming"
+    "website": "http://www.fingerlakesgaming.com/?utm_source=googlemaps&utm_medium=local&utm_campaign=gaming", 
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Empire City Casino",
@@ -5696,7 +12388,17 @@ var casinoObjArray = [
     "address": "810 Yonkers Ave, Yonkers, NY 10704, USA",
     "state": "New York",
     "phone": "(914) 968-4200",
-    "website": "http://empirecitycasino.com/"
+    "website": "http://empirecitycasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hollywood Gaming at Mahoning Valley Race Course",
@@ -5704,7 +12406,17 @@ var casinoObjArray = [
     "address": "655 N Canfield Niles Rd, Youngstown, OH 44515, USA",
     "state": "Ohio",
     "phone": "(877) 788-3777",
-    "website": "http://www.hollywoodmahoningvalley.com/"
+    "website": "http://www.hollywoodmahoningvalley.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "JACK Thistledown Racino",
@@ -5712,7 +12424,17 @@ var casinoObjArray = [
     "address": "21501 Emery Rd, North Randall, OH 44128, USA",
     "state": "Ohio",
     "phone": "(216) 662-8600",
-    "website": "https://www.jackentertainment.com/thistledown/"
+    "website": "https://www.jackentertainment.com/thistledown/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs Casino & Hotel, Cherokee Valley River",
@@ -5720,7 +12442,17 @@ var casinoObjArray = [
     "address": "777 Casino Pkwy, Murphy, NC 28906, USA",
     "state": "North Carolina",
     "phone": "(828) 422-7777",
-    "website": "https://www.caesars.com/harrahs-cherokee-valley-river?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Cherokee%20Valley%20River%20Casino%20and%20Hotel&utm_content=hotel"
+    "website": "https://www.caesars.com/harrahs-cherokee-valley-river?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Cherokee%20Valley%20River%20Casino%20and%20Hotel&utm_content=hotel",    
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Creek Nation Casino, Holdenville",
@@ -5728,7 +12460,17 @@ var casinoObjArray = [
     "address": "211 E Willow St, Holdenville, OK 74848, USA",
     "state": "Oklahoma",
     "phone": "(405) 379-3321",
-    "website": "http://creektourism.com/creek-nation-casino-holdenville/"
+    "website": "http://creektourism.com/creek-nation-casino-holdenville/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Creek Nation Casino, Eufaula",
@@ -5736,7 +12478,17 @@ var casinoObjArray = [
     "address": "806 Forest Ave, Eufaula, OK 74432, USA",
     "state": "Oklahoma",
     "phone": "(918) 689-9191",
-    "website": "http://www.muscogeenation-nsn.gov/"
+    "website": "http://www.muscogeenation-nsn.gov/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Creek Nation Casino, Okemah",
@@ -5744,7 +12496,17 @@ var casinoObjArray = [
     "address": "S., 1100 Woody Guthrie Blvd, Okemah, OK 74859, USA",
     "state": "Oklahoma",
     "phone": "(918) 623-0051",
-    "website": "http://creektourism.com/creek-nation-casino-okemah/"
+    "website": "http://creektourism.com/creek-nation-casino-okemah/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Creek Nation Casino, Checotah",
@@ -5759,7 +12521,17 @@ var casinoObjArray = [
     "address": "9047 U.S. Highway 62, Elgin, OK 73538",
     "state": "Oklahoma",
     "phone": "(580) 250-3090",
-    "website": "http://comanchespurcasino.com/"
+    "website": "http://comanchespurcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Cherokee Casino, Fort Gibson",
@@ -5767,7 +12539,17 @@ var casinoObjArray = [
     "address": "115 N Georgetown Rd, Fort Gibson, OK 74434, USA",
     "state": "Oklahoma",
     "phone": "(918) 207-3662",
-    "website": "http://www.cherokeecasino.com/"
+    "website": "http://www.cherokeecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ada Gaming Center",
@@ -5775,7 +12557,17 @@ var casinoObjArray = [
     "address": "1500 N Country Club Rd, Ada, OK 74820, USA",
     "state": "Oklahoma",
     "phone": "(580) 436-3740",
-    "website": "http://adagaming.com/"
+    "website": "http://adagaming.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Cherokee Casino, Tahlequah",
@@ -5783,7 +12575,17 @@ var casinoObjArray = [
     "address": "16489 Old US Hwy 62, Tahlequah, OK 74464, USA",
     "state": "Oklahoma",
     "phone": "(918) 207-3600",
-    "website": "http://www.cherokeecasino.com/"
+    "website": "http://www.cherokeecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Chisholm Trail Casino",
@@ -5791,7 +12593,17 @@ var casinoObjArray = [
     "address": "7807 US-81, Duncan, OK 73533, USA",
     "state": "Oklahoma",
     "phone": "(580) 255-1668",
-    "website": "http://chisholmtrailcasino.com/"
+    "website": "http://chisholmtrailcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Jack Casino, Cleveland",
@@ -5799,7 +12611,17 @@ var casinoObjArray = [
     "address": "100 Public Square, Cleveland, OH 44113, USA",
     "state": "Ohio",
     "phone": "(216) 297-4777",
-    "website": "http://www.jackentertainment.com/cleveland"
+    "website": "http://www.jackentertainment.com/cleveland",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Creek Nation Casino, Muscogee",
@@ -5807,7 +12629,17 @@ var casinoObjArray = [
     "address": "3420 W Peak Blvd, Muskogee, OK 74401, USA",
     "state": "Oklahoma",
     "phone": "(918) 683-1825",
-    "website": "http://www.creeknationcasino.net/"
+    "website": "http://www.creeknationcasino.net/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Cherokee Casino, Roland",
@@ -5815,7 +12647,17 @@ var casinoObjArray = [
     "address": "205 Cherokee Blvd, Roland, OK 74954, USA",
     "state": "Oklahoma",
     "phone": "(918) 427-7491",
-    "website": "http://www.cherokeestarrewards.com/casinos/roland/Pages/default.aspx"
+    "website": "http://www.cherokeestarrewards.com/casinos/roland/Pages/default.aspx",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Cash Springs Gaming Center",
@@ -5823,7 +12665,17 @@ var casinoObjArray = [
     "address": "23 W Vinita Ave, Sulphur, OK 73086, USA",
     "state": "Oklahoma",
     "phone": "(580) 622-2156",
-    "website": "http://artesianhotel.com/"
+    "website": "http://artesianhotel.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Kickapoo Casino, Shawnee",
@@ -5831,7 +12683,17 @@ var casinoObjArray = [
     "address": "38900 W MacArthur St, Shawnee, OK 74804, USA",
     "state": "Oklahoma",
     "phone": "(405) 395-0900",
-    "website": "http://www.kickapoo-casino.com/"
+    "website": "http://www.kickapoo-casino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Comanche Nation Casino, Lawton",
@@ -5839,7 +12701,17 @@ var casinoObjArray = [
     "address": "44, 402 SE Interstate Dr, Lawton, OK 73502, USA",
     "state": "Oklahoma",
     "phone": "(580) 250-3030",
-    "website": "http://comanchenationcasino.com/"
+    "website": "http://comanchenationcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hollywood Gaming @ Dayton Raceway",
@@ -5847,7 +12719,17 @@ var casinoObjArray = [
     "address": "777 Hollywood Boulevard, Dayton, OH 45414, USA",
     "state": "Ohio",
     "phone": "(844) 225-7057",
-    "website": "http://www.hollywooddaytonraceway.com/"
+    "website": "http://www.hollywooddaytonraceway.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Cherokee Casino, Sallisaw",
@@ -5855,7 +12737,17 @@ var casinoObjArray = [
     "address": "1621 W Ruth Ave, Sallisaw, OK 74955, USA",
     "state": "Oklahoma",
     "phone": "(800) 256-2338",
-    "website": "http://www.cherokeestarrewards.com/"
+    "website": "http://www.cherokeestarrewards.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Buffalo Run Casino & Resort",
@@ -5863,7 +12755,17 @@ var casinoObjArray = [
     "address": "1000 Buffalo Run Blvd, Miami, OK 74354, USA",
     "state": "Oklahoma",
     "phone": "(918) 542-7140",
-    "website": "http://buffaloruncasino.com/"
+    "website": "http://buffaloruncasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Jack Casino, Cincinnati",
@@ -5871,7 +12773,17 @@ var casinoObjArray = [
     "address": "1000 Broadway St, Cincinnati, OH 45202, USA",
     "state": "Ohio",
     "phone": "(513) 252-0777",
-    "website": "http://www.jackentertainment.com/cincinnati/"
+    "website": "http://www.jackentertainment.com/cincinnati/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hard Rock Hotel & Casino, Tulsa",
@@ -5879,7 +12791,17 @@ var casinoObjArray = [
     "address": "777 W Cherokee St, Catoosa, OK 74015, USA",
     "state": "Oklahoma",
     "phone": "(800) 760-6700",
-    "website": "http://www.hardrockcasinotulsa.com/Pages/default.aspx"
+    "website": "http://www.hardrockcasinotulsa.com/Pages/default.aspx",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Choctaw Casino & Resort, Durant",
@@ -5887,7 +12809,17 @@ var casinoObjArray = [
     "address": "3735 Choctaw Rd, Durant, OK 74701, USA",
     "state": "Oklahoma",
     "phone": "(800) 788-2464",
-    "website": "http://www.choctawcasinos.com/choctaw-durant/"
+    "website": "http://www.choctawcasinos.com/choctaw-durant/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Comanche Star Casino, Walters",
@@ -5895,7 +12827,17 @@ var casinoObjArray = [
     "address": "HWY 53 Route 3 Box 82-A, Walters, OK 73572",
     "state": "Oklahoma",
     "phone": "(580) 250-3100",
-    "website": "http://comanchestarcasino.com/"
+    "website": "http://comanchestarcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Eldorado Casino, Columbus",
@@ -5903,7 +12845,17 @@ var casinoObjArray = [
     "address": "6000 S High St, Columbus, OH 43207, USA",
     "state": "Ohio",
     "phone": "(614) 295-4700",
-    "website": "http://www.sciotodowns.com/"
+    "website": "http://www.sciotodowns.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Grand Casino Hotel & Resort, Shawnee",
@@ -5911,7 +12863,17 @@ var casinoObjArray = [
     "address": "777 Grand Casino Blvd, Shawnee, OK 74804, USA",
     "state": "Oklahoma",
     "phone": "(405) 964-7777",
-    "website": "http://www.grandresortok.com/"
+    "website": "http://www.grandresortok.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Cherokee Casino, Watts",
@@ -5919,13 +12881,33 @@ var casinoObjArray = [
     "address": "2416 U.S. 412, Watts, OK 74964, USA",
     "state": "Oklahoma",
     "phone": "(800) 754-4111",
-    "website": "http://www.cherokeecasino.com/"
+    "website": "http://www.cherokeecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Osage Casino, EB",
     "placeId": "ChIJvdchBl3ptocRldYZw28YbSs",
     "address": "United States",
-    "state": "Oklahoma"
+    "state": "Oklahoma",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Kiowa Casino, Verden",
@@ -5933,7 +12915,17 @@ var casinoObjArray = [
     "address": "33165 County Road 2740, Verden, OK 73092, USA",
     "state": "Oklahoma",
     "phone": "(866) 370-4077",
-    "website": "http://www.kiowacasino.com/casinos/verden"
+    "website": "http://www.kiowacasino.com/casinos/verden",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Firelake Entertainment",
@@ -5941,7 +12933,17 @@ var casinoObjArray = [
     "address": "41207 Hardesty Rd, Shawnee, OK 74801, USA",
     "state": "Oklahoma",
     "phone": "(405) 273-2242",
-    "website": "http://www.winatfirelake.com/"
+    "website": "http://www.winatfirelake.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lucky Star Casino, Clinton",
@@ -5949,14 +12951,34 @@ var casinoObjArray = [
     "address": "10347 N 2274 Road, Clinton, OK 73601, USA",
     "state": "Oklahoma",
     "phone": "(580) 323-6599",
-    "website": "http://www.luckystarcasino.org/"
+    "website": "http://www.luckystarcasino.org/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Red Hawk Gaming",
     "placeId": "ChIJPTREnwNwtIcRPBEg77wPB4I",
     "address": "117 N Main St, Wetumka, OK 74883, USA",
     "state": "Oklahoma",
-    "phone": "(405) 452-3100"
+    "phone": "(405) 452-3100",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "One Fire Casino",
@@ -5964,7 +12986,17 @@ var casinoObjArray = [
     "address": "1901 N Wood Dr, Okmulgee, OK 74447, USA",
     "state": "Oklahoma",
     "phone": "(918) 756-8400",
-    "website": "http://www.onefirecasino.com/directions.html"
+    "website": "http://www.onefirecasino.com/directions.html",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lucky Star Casino, Canton",
@@ -5972,7 +13004,17 @@ var casinoObjArray = [
     "address": "301 NW, N Canton Ave, Canton, OK 73724, USA",
     "state": "Oklahoma",
     "phone": "(580) 886-2490",
-    "website": "http://www.luckystarcasino.org/"
+    "website": "http://www.luckystarcasino.org/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Kiowa Casino",
@@ -5980,7 +13022,17 @@ var casinoObjArray = [
     "address": "198131 Hwy 36, Devol, OK 73531",
     "state": "Oklahoma",
     "phone": "(580) 299-3333",
-    "website": "http://kiowacasino.com/"
+    "website": "http://kiowacasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs Kickapoo Casino",
@@ -5988,7 +13040,17 @@ var casinoObjArray = [
     "address": "25230 US-62, Harrah, OK 73045, USA",
     "state": "Oklahoma",
     "phone": "(405) 964-4444",
-    "website": "http://www.kickapoo-casino.com/"
+    "website": "http://www.kickapoo-casino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lucky Star Casino, Watonga",
@@ -5996,7 +13058,17 @@ var casinoObjArray = [
     "address": "1407 S Clarence Nash Blvd, Watonga, OK 73772, USA",
     "state": "Oklahoma",
     "phone": "(580) 623-7333",
-    "website": "http://luckystarcasino.org/"
+    "website": "http://luckystarcasino.org/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Quapaw Casino",
@@ -6004,7 +13076,17 @@ var casinoObjArray = [
     "address": "58100 E 64 Rd, Miami, OK 74354, USA",
     "state": "Oklahoma",
     "phone": "(918) 540-9100",
-    "website": "http://www.quapawcasino.com/"
+    "website": "http://www.quapawcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lucky Star Casino, El Reno",
@@ -6012,7 +13094,17 @@ var casinoObjArray = [
     "address": "7777 US-81, El Reno, OK 73036, USA",
     "state": "Oklahoma",
     "phone": "(405) 262-7612",
-    "website": "http://www.luckystarcasino.org/"
+    "website": "http://www.luckystarcasino.org/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Players Casino",
@@ -6020,7 +13112,17 @@ var casinoObjArray = [
     "address": "6580 Auto Center Dr, Ventura, CA 93003, USA",
     "state": "California",
     "phone": "(805) 643-1392",
-    "website": "http://www.pcventura.com/"
+    "website": "http://www.pcventura.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Osage Hotel & Casino, Skiatook",
@@ -6028,7 +13130,17 @@ var casinoObjArray = [
     "address": "5591 W Rogers Blvd, Skiatook, OK 74070, USA",
     "state": "Oklahoma",
     "phone": "(877) 246-8777",
-    "website": "http://www.osagecasinos.com/"
+    "website": "http://www.osagecasinos.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "7 Clans Casino, Newkirk",
@@ -6036,7 +13148,17 @@ var casinoObjArray = [
     "address": "12901 US-77, Newkirk, OK 74647, USA",
     "state": "Oklahoma",
     "phone": "(580) 448-3222",
-    "website": "http://www.shell.us/"
+    "website": "http://www.shell.us/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "High Winds Casino",
@@ -6044,7 +13166,17 @@ var casinoObjArray = [
     "address": "61475 E 100 Rd, Miami, OK 74354, USA",
     "state": "Oklahoma",
     "phone": "(918) 541-9463",
-    "website": "http://www.highwindscasino.com/"
+    "website": "http://www.highwindscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Osage Casino, Tulsa",
@@ -6052,7 +13184,17 @@ var casinoObjArray = [
     "address": "951 West 36th St N, Tulsa, OK 74127, USA",
     "state": "Oklahoma",
     "phone": "(918) 699-7777",
-    "website": "http://www.osagecasinos.com/choices/tulsa"
+    "website": "http://www.osagecasinos.com/choices/tulsa",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Treasure Valley Casino",
@@ -6060,7 +13202,17 @@ var casinoObjArray = [
     "address": "12252 Ruppe Rd., Davis, OK 73030, USA",
     "state": "Oklahoma",
     "phone": "(580) 369-2895",
-    "website": "http://treasurevalleycasino.com/"
+    "website": "http://treasurevalleycasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Madill Gaming Center",
@@ -6068,7 +13220,17 @@ var casinoObjArray = [
     "address": "902 S 1st St, Madill, OK 73446, USA",
     "state": "Oklahoma",
     "phone": "(580) 795-7301",
-    "website": "http://madillgaming.com/"
+    "website": "http://madillgaming.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Comanche Red River Hotel Casino",
@@ -6076,7 +13238,17 @@ var casinoObjArray = [
     "address": "Route 1 42K, Devol, OK 73531, USA",
     "state": "Oklahoma",
     "phone": "(580) 250-3060",
-    "website": "http://comancheredrivercasino.com/"
+    "website": "http://comancheredrivercasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Grand Lake Casino",
@@ -6084,7 +13256,17 @@ var casinoObjArray = [
     "address": "24701 S 655 Rd, Grove, OK 74344, USA",
     "state": "Oklahoma",
     "phone": "(918) 786-8528",
-    "website": "http://www.grandlakecasino.com/"
+    "website": "http://www.grandlakecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Newcastle Casino",
@@ -6092,7 +13274,17 @@ var casinoObjArray = [
     "address": "2457 Highway 62 Service Rd, Newcastle, OK 73065, USA",
     "state": "Oklahoma",
     "phone": "(405) 387-6013",
-    "website": "http://www.newcastlecasino.com/"
+    "website": "http://www.newcastlecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gold Mountain Casino",
@@ -6100,7 +13292,17 @@ var casinoObjArray = [
     "address": "1410 Sam Noble Pkwy, Ardmore, OK 73401, USA",
     "state": "Oklahoma",
     "phone": "(580) 223-3301",
-    "website": "http://mygoldmountaincasino.com/"
+    "website": "http://mygoldmountaincasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "River Spirit Casino",
@@ -6108,14 +13310,34 @@ var casinoObjArray = [
     "address": "8330 Riverside Pkwy, Tulsa, OK 74137, USA",
     "state": "Oklahoma",
     "phone": "(918) 299-8518",
-    "website": "http://www.riverspirittulsa.com/"
+    "website": "http://www.riverspirittulsa.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Kah-Nee-Ta High Desert Resort & Casino",
     "placeId": "ChIJGdmzfbOglVQR9igvCpr3hZU",
     "address": "Lloyd Center, 2201 Lloyd Center, Portland, OR 97232, USA",
     "state": "Oregon",
-    "website": "http://www.kahneeta.com/"
+    "website": "http://www.kahneeta.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Old Camp Casino",
@@ -6123,7 +13345,17 @@ var casinoObjArray = [
     "address": "2205 W Monroe St, Burns, OR 97720, USA",
     "state": "Oregon",
     "phone": "(541) 573-1500",
-    "website": "http://www.oldcampcasino.com/"
+    "website": "http://www.oldcampcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Wyandotte Nation Casino",
@@ -6131,7 +13363,17 @@ var casinoObjArray = [
     "address": "100 Jackpot Pl, Wyandotte, OK 74370, USA",
     "state": "Oklahoma",
     "phone": "(918) 678-4946",
-    "website": "http://www.wyandottecasinos.com/"
+    "website": "http://www.wyandottecasinos.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "7 Clans Casino, Red Rock",
@@ -6139,7 +13381,17 @@ var casinoObjArray = [
     "address": "7500 US-177, Red Rock, OK 74651, USA",
     "state": "Oklahoma",
     "phone": "(580) 723-4005",
-    "website": "http://www.okparadisecasino.com/"
+    "website": "http://www.okparadisecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Thunderbird Casino",
@@ -6147,14 +13399,34 @@ var casinoObjArray = [
     "address": "15700 OK-9, Norman, OK 73026, USA",
     "state": "Oklahoma",
     "phone": "(405) 360-9270",
-    "website": "http://www.thunderbirdcasino.net/"
+    "website": "http://www.thunderbirdcasino.net/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Washita Casino",
     "placeId": "ChIJrR_YDKr6socR0UevwTzM6Js",
     "address": "Paoli, OK 73074, USA",
     "state": "Oklahoma",
-    "phone": "(405) 484-7778"
+    "phone": "(405) 484-7778",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "7 Clans First Council Casino & Hotel",
@@ -6162,7 +13434,17 @@ var casinoObjArray = [
     "address": "12875 US-77, Newkirk, OK 74647, USA",
     "state": "Oklahoma",
     "phone": "(580) 448-3015",
-    "website": "http://firstcouncilcasinohotel.com/"
+    "website": "http://firstcouncilcasinohotel.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Choctaw Casino, Stigler",
@@ -6170,7 +13452,17 @@ var casinoObjArray = [
     "address": "1801 E Main St, Stigler, OK 74462, USA",
     "state": "Oklahoma",
     "phone": "(918) 967-8364",
-    "website": "http://www.choctawcasinos.com/choctaw-stigler/"
+    "website": "http://www.choctawcasinos.com/choctaw-stigler/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Stables Casino",
@@ -6178,7 +13470,17 @@ var casinoObjArray = [
     "address": "530 H St SE, Miami, OK 74354, USA",
     "state": "Oklahoma",
     "phone": "(918) 542-7884",
-    "website": "http://www.thestablescasino.com/"
+    "website": "http://www.thestablescasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "SaltCreek Casino",
@@ -6186,20 +13488,50 @@ var casinoObjArray = [
     "address": "1600 Highway 81, Pocasset, OK 73079, USA",
     "state": "Oklahoma",
     "phone": "(405) 459-4000",
-    "website": "http://www.saltcreekcasino.com/"
+    "website": "http://www.saltcreekcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Spirit Mountain Casino, Girard Ave, Mohave Valley",
     "placeId": "ChIJjRZCQHY-zoARwYYj5E2JKdY",
     "address": "6565 Girard Ave, Mohave Valley, AZ 86440, USA",
-    "state": "Arizona"
+    "state": "Arizona",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Spirit Mountain Casino, Lincoln City",
     "placeId": "ChIJVXXzzAqN6lQRfxNMOLFYXi0",
     "address": "550 SW Hwy 101, Lincoln City, OR 97367, USA",
     "state": "South Dakota",
-    "website": "http://www.spiritmountain.com/"
+    "website": "http://www.spiritmountain.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Chinook Winds Casino Resort",
@@ -6207,7 +13539,17 @@ var casinoObjArray = [
     "address": "1777 NW 44th St, Lincoln City, OR 97367, USA",
     "state": "Oregon",
     "phone": "(888) 244-6665",
-    "website": "http://www.chinookwindscasino.com/"
+    "website": "http://www.chinookwindscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "WinStar World Casino & Resort",
@@ -6215,14 +13557,34 @@ var casinoObjArray = [
     "address": "777 Casino Ave, Thackerville, OK 73459, USA",
     "state": "Oklahoma",
     "phone": "(580) 276-4229",
-    "website": "http://winstarworldcasino.com/"
+    "website": "http://winstarworldcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Spirit Mountain Casino, AZ-95, Mohave Valley",
     "placeId": "ChIJTxsUjow8zoARX35tX1FQKf8",
     "address": "8555 AZ-95, Mohave Valley, AZ 86440, USA",
     "state": "Arizona",
-    "phone": "(928) 346-2000"
+    "phone": "(928) 346-2000",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Riverwind Casino",
@@ -6230,7 +13592,17 @@ var casinoObjArray = [
     "address": "1544 OK-9, Norman, OK 73072, USA",
     "state": "Oklahoma",
     "phone": "(405) 322-6000",
-    "website": "http://riverwind.com/"
+    "website": "http://riverwind.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Indian Head Casino",
@@ -6238,7 +13610,17 @@ var casinoObjArray = [
     "address": "US-26, Warm Springs, OR 97761, USA",
     "state": "Oregon",
     "phone": "(541) 460-7777",
-    "website": "http://indianheadgaming.com/"
+    "website": "http://indianheadgaming.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Kla-Mo-Ya Casino",
@@ -6246,7 +13628,17 @@ var casinoObjArray = [
     "address": "34333 US-97, Chiloquin, OR 97624, USA",
     "state": "Oregon",
     "phone": "(541) 783-7529",
-    "website": "http://www.klamoyacasino.com/"
+    "website": "http://www.klamoyacasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Mill Casino Hotel & RV Park @ Coos Bay",
@@ -6254,7 +13646,17 @@ var casinoObjArray = [
     "address": "3201 Tremont St, North Bend, OR 97459, USA",
     "state": "Oregon",
     "phone": "(541) 756-8800",
-    "website": "http://www.themillcasino.com/"
+    "website": "http://www.themillcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Seven Feathers Casino & Resort",
@@ -6262,21 +13664,51 @@ var casinoObjArray = [
     "address": "146 Chief Miwaleta Ln, Canyonville, OR 97417, USA",
     "state": "Oregon",
     "phone": "(541) 839-1111",
-    "website": "http://www.sevenfeathers.com/"
+    "website": "http://www.sevenfeathers.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Deadwood Gulch Saloon",
     "placeId": "ChIJQXgdWKGmMlMRVkCouV7yZE0",
     "address": "560 Main Street, Deadwood, SD 57732, USA",
     "state": "South Dakota",
-    "phone": "(605) 578-1207"
+    "phone": "(605) 578-1207",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bourbon Street Casino",
     "placeId": "ChIJvazzZ6CmMlMRAQsuTXKi6Yk",
     "address": "667 Main St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
-    "phone": "(605) 578-1297"
+    "phone": "(605) 578-1297",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Three Rivers Casino, Florence",
@@ -6284,7 +13716,17 @@ var casinoObjArray = [
     "address": "5647 OR-126, Florence, OR 97439, USA",
     "state": "Oregon",
     "phone": "(877) 374-8377",
-    "website": "http://threeriverscasino.com/"
+    "website": "http://threeriverscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Wildhorse Resort & Casino",
@@ -6292,14 +13734,34 @@ var casinoObjArray = [
     "address": "46510 Wildhorse Blvd, Pendleton, OR 97801, USA",
     "state": "Oregon",
     "phone": "(800) 654-9453",
-    "website": "http://www.wildhorseresort.com/"
+    "website": "http://www.wildhorseresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Four Aces Casino",
     "placeId": "ChIJk2brAqGmMlMRXD9n5Ln1Hls",
     "address": "531 Main St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
-    "phone": "(605) 578-1893"
+    "phone": "(605) 578-1893",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Penn National Race Course & Casino",
@@ -6307,7 +13769,17 @@ var casinoObjArray = [
     "address": "777 Hollywood Blvd, Grantville, PA 17028, USA",
     "state": "Pennsylvania",
     "phone": "(717) 469-2211",
-    "website": "http://www.hollywoodpnrc.com/Racing"
+    "website": "http://www.hollywoodpnrc.com/Racing",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Three Rivers Casino, Coos Bay",
@@ -6315,7 +13787,17 @@ var casinoObjArray = [
     "address": "1297 Ocean Blvd NW, Coos Bay, OR 97420, USA",
     "state": "Oregon",
     "phone": "(877) 374-8377",
-    "website": "http://www.threeriverscasino.com/"
+    "website": "http://www.threeriverscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Harrahs Casino & Resort, Philadelphia",
@@ -6323,21 +13805,51 @@ var casinoObjArray = [
     "address": "777 Harrahs Blvd, Chester, PA 19013, USA",
     "state": "Pennsylvania",
     "phone": "(484) 490-1800",
-    "website": "https://www.caesars.com/harrahs-philly?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Philadelphia&utm_content=hotel"
+    "website": "https://www.caesars.com/harrahs-philly?utm_campaign=GMB&utm_source=google&utm_medium=local&utm_term=Harrahs%20Philadelphia&utm_content=hotel",  
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gulches of Fun",
     "placeId": "ChIJ1UEIVy-kMlMRcnMghhMFyLc",
     "address": "225 Cliff St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
-    "phone": "(605) 578-3386"
+    "phone": "(605) 578-3386",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Miss Kittys Casino",
     "placeId": "ChIJF5VrWaCmMlMRP163ivADseY",
     "address": "649 Main St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
-    "phone": "(605) 578-1811"
+    "phone": "(605) 578-1811",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mckennas Gold Casino",
@@ -6345,7 +13857,17 @@ var casinoObjArray = [
     "address": "470 Main St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
     "phone": "(605) 578-2510",
-    "website": "http://www.mckennasgolddeadwood.com/"
+    "website": "http://www.mckennasgolddeadwood.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mount Airy Casino & Resort",
@@ -6353,7 +13875,17 @@ var casinoObjArray = [
     "address": "312 Woodland Rd, Mt Pocono, PA 18344, USA",
     "state": "Pennsylvania",
     "phone": "(877) 682-4791",
-    "website": "http://www.mountairycasino.com/"
+    "website": "http://www.mountairycasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mohegan Sun Pocono",
@@ -6361,7 +13893,17 @@ var casinoObjArray = [
     "address": "1280 Pennsylvania 315, Wilkes-Barre, PA 18702, USA",
     "state": "Pennsylvania",
     "phone": "(570) 831-2100",
-    "website": "http://www.mohegansunpocono.com/"
+    "website": "http://www.mohegansunpocono.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Cadillac Jacks Gaming Resort",
@@ -6369,7 +13911,17 @@ var casinoObjArray = [
     "address": "360 Lower Main St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
     "phone": "(605) 578-1500",
-    "website": "http://www.cadillacjacksgaming.com/"
+    "website": "http://www.cadillacjacksgaming.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Gold Dust Casino & Hotel, Deadwood",
@@ -6377,7 +13929,17 @@ var casinoObjArray = [
     "address": "688 Main St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
     "phone": "(605) 578-2100",
-    "website": "http://golddustdeadwood.com/"
+    "website": "http://golddustdeadwood.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Tin Lizzie Gaming Resort",
@@ -6385,7 +13947,17 @@ var casinoObjArray = [
     "address": "555 Lower Main St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
     "phone": "(605) 578-1715",
-    "website": "http://www.tinlizzie.com/"
+    "website": "http://www.tinlizzie.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Parx Casino",
@@ -6393,7 +13965,17 @@ var casinoObjArray = [
     "address": "2999 Street Rd, Bensalem, PA 19020, USA",
     "state": "Pennsylvania",
     "phone": "(888) 588-7279",
-    "website": "http://www.parxcasino.com/"
+    "website": "http://www.parxcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Celebrity Hotel & Casino",
@@ -6401,7 +13983,17 @@ var casinoObjArray = [
     "address": "629 Main St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
     "phone": "(605) 578-1909",
-    "website": "http://celebritycasinos.com/"
+    "website": "http://celebritycasinos.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "First Gold Hotel & Gaming",
@@ -6409,7 +14001,17 @@ var casinoObjArray = [
     "address": "270 Lower Main St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
     "phone": "(605) 578-9777",
-    "website": "http://www.firstgold.com/"
+    "website": "http://www.firstgold.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Rivers Casino",
@@ -6417,7 +14019,17 @@ var casinoObjArray = [
     "address": "777 Casino Dr, Pittsburgh, PA 15212, USA",
     "state": "Pennsylvania",
     "phone": "(412) 231-7777",
-    "website": "http://www.theriverscasino.com/"
+    "website": "http://www.theriverscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Presque Isle Downs & Casino",
@@ -6425,7 +14037,17 @@ var casinoObjArray = [
     "address": "8199 Perry Hwy, Erie, PA 16509, USA",
     "state": "Pennsylvania",
     "phone": "(814) 860-8999",
-    "website": "http://www.presqueisledowns.com/"
+    "website": "http://www.presqueisledowns.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Valley Forge Casino & Resort",
@@ -6433,7 +14055,17 @@ var casinoObjArray = [
     "address": "1160 1st Ave, King of Prussia, PA 19406, USA",
     "state": "Pennsylvania",
     "phone": "(610) 354-8118",
-    "website": "http://vfcasino.com/"
+    "website": "http://vfcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bullock Hotel & Casino",
@@ -6441,7 +14073,17 @@ var casinoObjArray = [
     "address": "633 Main St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
     "phone": "(605) 578-1745",
-    "website": "http://www.historicbullock.com/"
+    "website": "http://www.historicbullock.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Deadwood Gulch Gaming & Resort",
@@ -6449,14 +14091,34 @@ var casinoObjArray = [
     "address": "304 Cliff St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
     "phone": "(605) 578-1294",
-    "website": "http://www.deadwoodgulchresort.com/"
+    "website": "http://www.deadwoodgulchresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lucky 8 Casino",
     "placeId": "ChIJY6R8CrqmMlMRHwk5LnQ1AJM",
     "address": "196 Cliff St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
-    "phone": "(605) 578-2535"
+    "phone": "(605) 578-2535",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Sands Casino, Bethlehem",
@@ -6464,7 +14126,17 @@ var casinoObjArray = [
     "address": "77 Sands Blvd, Bethlehem, PA 18015, USA",
     "state": "Pennsylvania",
     "phone": "(484) 777-7777",
-    "website": "http://www.pasands.com/"
+    "website": "http://www.pasands.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Deadwood Main Street Inn & Casino",
@@ -6472,7 +14144,17 @@ var casinoObjArray = [
     "address": "786 Upper Main St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
     "phone": "(605) 641-7211",
-    "website": "http://www.deadwoodmainstreetinn.com/"
+    "website": "http://www.deadwoodmainstreetinn.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Midnight Star",
@@ -6480,7 +14162,17 @@ var casinoObjArray = [
     "address": "677 Main Street, Deadwood, SD 57732, USA",
     "state": "South Dakota",
     "phone": "(605) 578-1555",
-    "website": "http://www.themidnightstar.com/"
+    "website": "http://www.themidnightstar.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Deadwood Station Bunkhouse & Gambling Hall",
@@ -6488,13 +14180,33 @@ var casinoObjArray = [
     "address": "68 Lower Main St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
     "phone": "(605) 578-3476",
-    "website": "http://www.deadwoodstation.com/"
+    "website": "http://www.deadwoodstation.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "7 Cedars Casino",
     "placeId": "ChIJ03JMZ2fBj1QRcWAB6btlaP8",
     "address": "United States",
-    "state": "South Dakota"
+    "state": "South Dakota",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Iron Horse Inn",
@@ -6502,7 +14214,17 @@ var casinoObjArray = [
     "address": "27 Deadwood St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
     "phone": "(605) 717-7530",
-    "website": "http://www.ironhorseinndeadwood.com/"
+    "website": "http://www.ironhorseinndeadwood.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "SugarHouse Casino",
@@ -6510,14 +14232,34 @@ var casinoObjArray = [
     "address": "1001 N Delaware Ave, Philadelphia, PA 19125, USA",
     "state": "South Dakota",
     "phone": "(877) 477-3715",
-    "website": "http://www.sugarhousecasino.com/"
+    "website": "http://www.sugarhousecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mustang Sallys",
     "placeId": "ChIJR0Ea_KCmMlMRMaaQrDad1yo",
     "address": "634 Main St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
-    "phone": "(605) 578-2025"
+    "phone": "(605) 578-2025",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lady Luck Casino, Nemacolin",
@@ -6525,7 +14267,17 @@ var casinoObjArray = [
     "address": "4067 National Pike, Farmington, PA 15437, USA",
     "state": "Pennsylvania",
     "phone": "(724) 812-5066",
-    "website": "http://nemacolin.isleofcapricasinos.com/index.html?utm_uptracs=search:local"
+    "website": "http://nemacolin.isleofcapricasinos.com/index.html?utm_uptracs=search:local",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Chewelah Casino",
@@ -6533,7 +14285,17 @@ var casinoObjArray = [
     "address": "2555 Smith Rd, Chewelah, WA 99109, USA",
     "state": "Washington",
     "phone": "(800) 322-2788",
-    "website": "http://www.chewelahcasino.com/"
+    "website": "http://www.chewelahcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hickoks Hotel & Gaming",
@@ -6541,7 +14303,17 @@ var casinoObjArray = [
     "address": "685 Main St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
     "phone": "(605) 578-2222",
-    "website": "http://www.hickoks.com/"
+    "website": "http://www.hickoks.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Crazy Moose Casino, Mountlake Terrace",
@@ -6549,7 +14321,17 @@ var casinoObjArray = [
     "address": "22003 66th Ave W, Mountlake Terrace, WA 98043, USA",
     "state": "Washington",
     "phone": "(425) 672-4770",
-    "website": "http://www.nevadagold.com/?id=226"
+    "website": "http://www.nevadagold.com/?id=226",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Silverado Franklin Historic Hotel & Gaming Complex",
@@ -6557,7 +14339,17 @@ var casinoObjArray = [
     "address": "709 Main St, Deadwood, SD 57732, USA",
     "state": "South Dakota",
     "phone": "(605) 578-3670",
-    "website": "http://www.silveradofranklin.com/"
+    "website": "http://www.silveradofranklin.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Elwha River Casino",
@@ -6565,7 +14357,17 @@ var casinoObjArray = [
     "address": "631 Stratton Rd, Port Angeles, WA 98363, USA",
     "state": "Washington",
     "phone": "(360) 452-3005",
-    "website": "http://www.elwharivercasino.com/"
+    "website": "http://www.elwharivercasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Kickapoo Lucky Eagle Casino & Hotel",
@@ -6573,7 +14375,17 @@ var casinoObjArray = [
     "address": "794 Lucky Eagle Dr, Eagle Pass, TX 78852, USA",
     "state": "Texas",
     "phone": "(830) 758-1936",
-    "website": "http://www.luckyeagletexas.com/"
+    "website": "http://www.luckyeagletexas.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "VFW",
@@ -6581,7 +14393,17 @@ var casinoObjArray = [
     "address": "420 Main St, Rapid City, SD 57701, USA",
     "state": "South Dakota",
     "phone": "(605) 342-9804",
-    "website": "http://www.vfw.org"
+    "website": "http://www.vfw.org",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Meadows Racetrack & Casino",
@@ -6589,7 +14411,17 @@ var casinoObjArray = [
     "address": "210 Racetrack Rd, Washington, PA 15301, USA",
     "state": "Pennsylvania",
     "phone": "(724) 503-1200",
-    "website": "http://www.meadowsgaming.com/"
+    "website": "http://www.meadowsgaming.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Coulee Dam Casino",
@@ -6597,7 +14429,17 @@ var casinoObjArray = [
     "address": "515 Birch St, Coulee Dam, WA 99116, USA",
     "state": "Washington",
     "phone": "(509) 633-0766",
-    "website": "http://www.colvillecasinos.com/"
+    "website": "http://www.colvillecasinos.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Crazy Moose Casino, Pasco",
@@ -6605,7 +14447,17 @@ var casinoObjArray = [
     "address": "510 S 20th Ave, Pasco, WA 99301, USA",
     "state": "Washington",
     "phone": "(509) 542-8580",
-    "website": "http://pascocasino.com/"
+    "website": "http://pascocasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Snoqualmie Casino",
@@ -6613,14 +14465,34 @@ var casinoObjArray = [
     "address": "37500 SE North Bend Way, Snoqualmie, WA 98065, USA",
     "state": "Washington",
     "phone": "(425) 888-1234",
-    "website": "http://www.snocasino.com/"
+    "website": "http://www.snocasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Jokers Casino South",
     "placeId": "ChIJzzbC0zFDfYcR3T51vRBZWe0",
     "address": "1320 Mt Rushmore Rd # C, Rapid City, SD 57701, USA",
     "state": "South Dakota",
-    "phone": "(605) 343-8332"
+    "phone": "(605) 343-8332",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Angel of the Winds Casino & Hotel",
@@ -6628,7 +14500,17 @@ var casinoObjArray = [
     "address": "3438 Stoluckquamish Ln, Arlington, WA 98223, USA",
     "state": "Washington",
     "phone": "(360) 474-9740",
-    "website": "http://www.angelofthewinds.com/"
+    "website": "http://www.angelofthewinds.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Emerald Downs",
@@ -6636,7 +14518,17 @@ var casinoObjArray = [
     "address": "2300 Ron Crockett Dr, Auburn, WA 98001, USA",
     "state": "Washington",
     "phone": "(253) 288-7000",
-    "website": "http://www.emeralddowns.com/"
+    "website": "http://www.emeralddowns.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Jokers Comedy Club",
@@ -6644,7 +14536,17 @@ var casinoObjArray = [
     "address": "624 Wellsian Way, Richland, WA 99352, USA",
     "state": "Washington",
     "phone": "(509) 943-1173",
-    "website": "http://jokersrichland.com/"
+    "website": "http://jokersrichland.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Little Creek Casino & Resort",
@@ -6652,7 +14554,17 @@ var casinoObjArray = [
     "address": "91 West State Route 108, Shelton, WA 98584, USA",
     "state": "Washington",
     "phone": "(800) 667-7711",
-    "website": "https://www.little-creek.com/"
+    "website": "https://www.little-creek.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Emerald Queen Hotel & Casino",
@@ -6660,7 +14572,17 @@ var casinoObjArray = [
     "address": "5700 Pacific Hwy E, Fife, WA 98424, USA",
     "state": "Washington",
     "phone": "(253) 594-7777",
-    "website": "http://www.emeraldqueen.com/"
+    "website": "http://www.emeraldqueen.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Coyote Bobs Roadhouse & Casino",
@@ -6668,7 +14590,17 @@ var casinoObjArray = [
     "address": "3014 W Kennewick Ave, Kennewick, WA 99336, USA",
     "state": "Washington",
     "phone": "(509) 374-2392",
-    "website": "http://coyotebobscasino.com/"
+    "website": "http://coyotebobscasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Club Hollywood Casino",
@@ -6676,14 +14608,34 @@ var casinoObjArray = [
     "address": "16716 Aurora Ave N, Seattle, WA 98133, USA",
     "state": "Washington",
     "phone": "(206) 546-4444",
-    "website": "http://www.wagoldcasinos.com/"
+    "website": "http://www.wagoldcasinos.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Okanagan Casino & Bingo",
     "placeId": "ChIJYRiQuoXrnFQRDZvAzZxRFro",
     "address": "41 Appleway, Okanogan, WA 98840, USA",
     "state": "Washington",
-    "phone": "(509) 422-4646"
+    "phone": "(509) 422-4646",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lucky Dog Casino, Skokomish",
@@ -6691,7 +14643,17 @@ var casinoObjArray = [
     "address": "19330 US-101, Skokomish, WA 98584, USA",
     "state": "Washington",
     "phone": "(360) 877-5656",
-    "website": "http://www.myluckydogcasino.com/"
+    "website": "http://www.myluckydogcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The New Phoenix Casino",
@@ -6699,14 +14661,34 @@ var casinoObjArray = [
     "address": "225 W 4th St, La Center, WA 98629, USA",
     "state": "Washington",
     "phone": "(503) 281-0932",
-    "website": "http://www.thenewphoenixcasino.com/"
+    "website": "http://www.thenewphoenixcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Nooksack River Casino",
     "placeId": "ChIJI5peLB6shVQRi4jrGv1DrAc",
     "address": "5048 Mt Baker Hwy, Deming, WA 98244, USA",
     "state": "Washington",
-    "phone": "(360) 592-5472"
+    "phone": "(360) 592-5472",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Golden Nugget Casino, Seattle",
@@ -6714,14 +14696,34 @@ var casinoObjArray = [
     "address": "14025 Interurban Ave S, Seattle, WA 98168, USA",
     "state": "Washington",
     "phone": "(206) 244-5252",
-    "website": "http://www.wagoldcasinos.com/index.php?option=com_contact&view=contact&id=7&Itemid=9"
+    "website": "http://www.wagoldcasinos.com/index.php?option=com_contact&view=contact&id=7&Itemid=9",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lucky Dog Casino, Volga",
     "placeId": "ChIJ2XWP5_WviYcRV3aVYKOKmSE",
     "address": "323 US-14, Volga, SD 57071, USA",
     "state": "South Dakota",
-    "phone": "(605) 627-5607"
+    "phone": "(605) 627-5607",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lucky Eagle Casino & Hotel",
@@ -6729,7 +14731,17 @@ var casinoObjArray = [
     "address": "12888 188th Ave SW, Rochester, WA 98579, USA",
     "state": "Washington",
     "phone": "(360) 273-2000",
-    "website": "http://luckyeagle.com/"
+    "website": "http://luckyeagle.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lancer Lanes & Casino",
@@ -6737,7 +14749,17 @@ var casinoObjArray = [
     "address": "1250 Bridge St, Clarkston, WA 99403, USA",
     "state": "Washington",
     "phone": "(509) 758-6731",
-    "website": "http://www.lancerlanesandcasino.com/"
+    "website": "http://www.lancerlanesandcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Yakama Legends Casino",
@@ -6745,7 +14767,17 @@ var casinoObjArray = [
     "address": "580 Fort Rd, Toppenish, WA 98948, USA",
     "state": "Washington",
     "phone": "(509) 865-8800",
-    "website": "http://www.yakamalegends.com/"
+    "website": "http://www.yakamalegends.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Zeppoz",
@@ -6753,7 +14785,17 @@ var casinoObjArray = [
     "address": "780 SE Bishop Blvd, Pullman, WA 99163, USA",
     "state": "Washington",
     "phone": "(509) 334-7101",
-    "website": "http://www.zeppoz.com/"
+    "website": "http://www.zeppoz.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Quinault Beach Resort & Casino",
@@ -6761,7 +14803,17 @@ var casinoObjArray = [
     "address": "78 WA-115, Ocean Shores, WA 98569, USA",
     "state": "Washington",
     "phone": "(360) 289-9466",
-    "website": "http://www.quinaultbeachresort.com/"
+    "website": "http://www.quinaultbeachresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Emerald Queen Casino",
@@ -6769,7 +14821,17 @@ var casinoObjArray = [
     "address": "2024 E 29th St, Tacoma, WA 98404, USA",
     "state": "Washington",
     "phone": "(253) 594-7777",
-    "website": "http://www.emeraldqueen.com/"
+    "website": "http://www.emeraldqueen.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Muckleshoot Casino",
@@ -6777,7 +14839,17 @@ var casinoObjArray = [
     "address": "2402 Auburn Way S, Auburn, WA 98002, USA",
     "state": "Washington",
     "phone": "(800) 804-4944",
-    "website": "http://muckleshootcasino.com/"
+    "website": "http://muckleshootcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mill Bay Casino",
@@ -6785,7 +14857,17 @@ var casinoObjArray = [
     "address": "455 Wapato Lake Rd, Manson, WA 98831, USA",
     "state": "Washington",
     "phone": "(509) 687-6911",
-    "website": "http://www.colvillecasinos.com/"
+    "website": "http://www.colvillecasinos.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Roxys Dog Ranch & Lounge",
@@ -6793,7 +14875,17 @@ var casinoObjArray = [
     "address": "5709 NW 331st St, Ridgefield, WA 98642, USA",
     "state": "Washington",
     "phone": "(360) 887-3713",
-    "website": "http://roxysdogranch.com/"
+    "website": "http://roxysdogranch.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Shoalwater Bay Casino",
@@ -6801,7 +14893,17 @@ var casinoObjArray = [
     "address": "4112 WA-105, Tokeland, WA 98590, USA",
     "state": "Washington",
     "phone": "(360) 267-2048",
-    "website": "http://www.swbcasino.com/"
+    "website": "http://www.swbcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Nob Hill Casino",
@@ -6809,7 +14911,17 @@ var casinoObjArray = [
     "address": "3807 W Nob Hill Blvd, Yakima, WA 98902, USA",
     "state": "Washington",
     "phone": "(509) 966-6607",
-    "website": "http://www.thenobhillcasino.com/"
+    "website": "http://www.thenobhillcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Nooksack Northwood Casino",
@@ -6817,14 +14929,34 @@ var casinoObjArray = [
     "address": "9750 Northwood Rd, Lynden, WA 98264, USA",
     "state": "Washington",
     "phone": "(360) 734-5101",
-    "website": "http://northwoodcasino.com/"
+    "website": "http://northwoodcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Silver Reef Casino",
     "placeId": "ChIJk3mtvKO9hVQRG23yr6YfJRc",
     "address": "4876 Haxton Way, Ferndale, WA 98248, USA",
     "state": "Washington",
-    "website": "http://silverreefcasino.com/"
+    "website": "http://silverreefcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Royal Casino",
@@ -6832,7 +14964,17 @@ var casinoObjArray = [
     "address": "13010 WA-99, Everett, WA 98204, USA",
     "state": "Washington",
     "phone": "(425) 743-9200",
-    "website": "http://www.royalcasinoeverett.com/"
+    "website": "http://www.royalcasinoeverett.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Silver Dollar Casino, SeaTac",
@@ -6840,7 +14982,17 @@ var casinoObjArray = [
     "address": "19222 International Blvd, SeaTac, WA 98188, USA",
     "state": "Washington",
     "phone": "(206) 824-2340",
-    "website": "http://seataccasino.com/"
+    "website": "http://seataccasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Silver Dollar Casino, Bothell",
@@ -6848,7 +15000,17 @@ var casinoObjArray = [
     "address": "17917 Bothell Everett Hwy, Bothell, WA 98012, USA",
     "state": "Washington",
     "phone": "(425) 481-9227",
-    "website": "http://millcreekcasino.com/"
+    "website": "http://millcreekcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Silver Dollar Casino, Renton",
@@ -6856,7 +15018,17 @@ var casinoObjArray = [
     "address": "3100 E Valley Rd, Renton, WA 98055, USA",
     "state": "Washington",
     "phone": "(425) 251-1590",
-    "website": "http://www.wagoldcasinos.com/"
+    "website": "http://www.wagoldcasinos.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Nisqually Red Wind Casino",
@@ -6864,7 +15036,17 @@ var casinoObjArray = [
     "address": "12819 Yelm Hwy SE, Olympia, WA 98513, USA",
     "state": "Washington",
     "phone": "(360) 412-5000",
-    "website": "http://www.redwindcasino.com/"
+    "website": "http://www.redwindcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Northern Quest Resort & Casino",
@@ -6872,7 +15054,17 @@ var casinoObjArray = [
     "address": "100 N Hayford Rd, Airway Heights, WA 99001, USA",
     "state": "Washington",
     "phone": "(509) 242-7000",
-    "website": "http://www.northernquest.com/"
+    "website": "http://www.northernquest.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Red Dragon Casino",
@@ -6880,7 +15072,17 @@ var casinoObjArray = [
     "address": "21917 WA-99, Mountlake Terrace, WA 98043, USA",
     "state": "Washington",
     "phone": "(425) 275-4444",
-    "website": "http://www.red-dragon-casino-mountlake.com/"
+    "website": "http://www.red-dragon-casino-mountlake.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Swinomish Casino & Lodge",
@@ -6888,7 +15090,17 @@ var casinoObjArray = [
     "address": "12885 Casino Dr, Anacortes, WA 98221, USA",
     "state": "Washington",
     "phone": "(888) 288-8883",
-    "website": "http://www.swinomishcasinoandlodge.com/"
+    "website": "http://www.swinomishcasinoandlodge.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Skagit Casino & Resort",
@@ -6896,7 +15108,17 @@ var casinoObjArray = [
     "address": "5984 Darrk Ln, Bow, WA 98232, USA",
     "state": "Washington",
     "phone": "(877) 275-2448",
-    "website": "http://www.theskagit.com/"
+    "website": "http://www.theskagit.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "The Point Casino & Hotel",
@@ -6904,7 +15126,17 @@ var casinoObjArray = [
     "address": "7989 NE Salish Ln, Kingston, WA 98346, USA",
     "state": "Washington",
     "phone": "(360) 297-0070",
-    "website": "http://www.the-point-casino.com/"
+    "website": "http://www.the-point-casino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Tulalip Resort & Casino",
@@ -6912,21 +15144,51 @@ var casinoObjArray = [
     "address": "10200 Quil Ceda Blvd, Tulalip, WA 98271, USA",
     "state": "Washington",
     "phone": "(360) 716-6000",
-    "website": "http://www.tulalipcasino.com/"
+    "website": "http://www.tulalipcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Grindstone Creek Casino",
     "placeId": "ChIJMzioaVAMrFIRkhbCxVhoG8s",
     "address": "13394 W Trepania Rd, Hayward, WI 54843, USA",
     "state": "Wisconsin",
-    "phone": "(715) 634-2430"
+    "phone": "(715) 634-2430",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Wizards Casino",
     "placeId": "ChIJZcGDNp9EkFQRA45LmbnPR-E",
     "address": "15739 Ambaum Blvd SW, Burien, WA 98166, USA",
     "state": "Washington",
-    "phone": "(206) 241-3818"
+    "phone": "(206) 241-3818",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Two Rivers Casino & Resort",
@@ -6934,7 +15196,17 @@ var casinoObjArray = [
     "address": "6828 B WA-25, Davenport, WA 99122, USA",
     "state": "Washington",
     "phone": "(800) 722-4031",
-    "website": "http://www.two-rivers-casino.com/"
+    "website": "http://www.two-rivers-casino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hole In the Wall Casino",
@@ -6942,7 +15214,17 @@ var casinoObjArray = [
     "address": "30222 WI-35, Danbury, WI 54830, USA",
     "state": "Wisconsin",
     "phone": "(715) 656-4365",
-    "website": "http://danbury.stcroixcasino.com/"
+    "website": "http://danbury.stcroixcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Bad River Lodge & Casino",
@@ -6950,7 +15232,17 @@ var casinoObjArray = [
     "address": "73370 US-2, Ashland, WI 54806, USA",
     "state": "Wisconsin",
     "phone": "(715) 682-7121",
-    "website": "http://www.badriver.com/"
+    "website": "http://www.badriver.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mardi Gras Casino & Resort",
@@ -6958,7 +15250,17 @@ var casinoObjArray = [
     "address": "1 Greyhound Dr, Cross Lanes, WV 25313, USA",
     "state": "West Virginia",
     "phone": "(304) 776-1000",
-    "website": "http://www.mardigrascasinowv.com/"
+    "website": "http://www.mardigrascasinowv.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mountaineer Casino, Racetrack & Resort",
@@ -6966,7 +15268,17 @@ var casinoObjArray = [
     "address": "1420 Mountaineer Circle, New Cumberland, WV 26047, USA",
     "state": "West Virginia",
     "phone": "(304) 387-8000",
-    "website": "http://moreatmountaineer.com/"
+    "website": "http://moreatmountaineer.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ho-Chunk Gaming, Tomah",
@@ -6974,7 +15286,17 @@ var casinoObjArray = [
     "address": "27867 WI-21, Tomah, WI 54660, USA",
     "state": "Wisconsin",
     "phone": "(866) 880-9822",
-    "website": "http://www.ho-chunkgaming.com/tomah/"
+    "website": "http://www.ho-chunkgaming.com/tomah/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Wheeling Island Hotel, Casino & Racetrack",
@@ -6982,7 +15304,17 @@ var casinoObjArray = [
     "address": "1 S Stone St, Wheeling, WV 26003, USA",
     "state": "West Virginia",
     "phone": "(304) 232-5050",
-    "website": "http://www.wheelingisland.com/?utm_source=googlemaps&utm_medium=local&utm_campaign=casino"
+    "website": "http://www.wheelingisland.com/?utm_source=googlemaps&utm_medium=local&utm_campaign=casino",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ho-Chunk Gaming, Wittenberg",
@@ -6990,7 +15322,17 @@ var casinoObjArray = [
     "address": "N7198 U.S. 45, Wittenberg, WI 54499, USA",
     "state": "Wisconsin",
     "phone": "(715) 253-4400",
-    "website": "http://www.ho-chunkgaming.com/wittenberg/"
+    "website": "http://www.ho-chunkgaming.com/wittenberg/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Hollywood Casino & Inn @ Charles Town Races",
@@ -6998,7 +15340,17 @@ var casinoObjArray = [
     "address": "750 Hollywood Dr, Charles Town, WV 25414, USA",
     "state": "West Virginia",
     "phone": "(800) 795-7001",
-    "website": "http://www.hollywoodcasinocharlestown.com/"
+    "website": "http://www.hollywoodcasinocharlestown.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "North Star Mohican Casino & Resort",
@@ -7006,7 +15358,17 @@ var casinoObjArray = [
     "address": "W12180 Co Rd A, Bowler, WI 54416, USA",
     "state": "Wisconsin",
     "phone": "(715) 787-3110",
-    "website": "http://www.northstarcasinoresort.com/"
+    "website": "http://www.northstarcasinoresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ho-Chunk Casino, Black River Falls",
@@ -7014,14 +15376,34 @@ var casinoObjArray = [
     "address": "W9010 WI-54, Black River Falls, WI 54615, USA",
     "state": "Wisconsin",
     "phone": "(715) 284-9098",
-    "website": "http://www.ho-chunkgaming.com/blackriverfalls/"
+    "website": "http://www.ho-chunkgaming.com/blackriverfalls/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Little Wind Casino",
     "placeId": "ChIJifps2Ez2WIcRvH7_gghCrjY",
     "address": "685 Wyoming 132, Ethete, WY 82520, USA",
     "state": "Wyoming",
-    "phone": "(307) 335-8703"
+    "phone": "(307) 335-8703",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Shoshone Rose Casino",
@@ -7029,7 +15411,17 @@ var casinoObjArray = [
     "address": "5690 US Highway 287, Lander, WY 82520, USA",
     "state": "Wyoming",
     "phone": "(307) 335-7529",
-    "website": "http://www.shoshonerose.com/"
+    "website": "http://www.shoshonerose.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Menominee Casino & Resort",
@@ -7037,7 +15429,17 @@ var casinoObjArray = [
     "address": "N277 WI-47, Keshena, WI 54135, USA",
     "state": "Wisconsin",
     "phone": "(800) 343-7778",
-    "website": "http://www.menomineecasinoresort.com/"
+    "website": "http://www.menomineecasinoresort.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Lake of the Torches Resort & Casino",
@@ -7045,7 +15447,17 @@ var casinoObjArray = [
     "address": "510 Old Abe Rd, Lac Du Flambeau, WI 54538, USA",
     "state": "Wisconsin",
     "phone": "(715) 588-7070",
-    "website": "http://www.lakeofthetorches.com/"
+    "website": "http://www.lakeofthetorches.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "St. Croix Casino Hertel Express",
@@ -7053,7 +15465,17 @@ var casinoObjArray = [
     "address": "4384 WI-70, Webster, WI 54893, USA",
     "state": "Wisconsin",
     "phone": "(715) 349-5658",
-    "website": "http://www.stcroixcasino.com/"
+    "website": "http://www.stcroixcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ho-Chunk Casino, Nekoosa",
@@ -7061,7 +15483,17 @@ var casinoObjArray = [
     "address": "949 County Rd G, Nekoosa, WI 54457, USA",
     "state": "Wisconsin",
     "phone": "(715) 886-4560",
-    "website": "http://www.ho-chunkgaming.com/nekoosa/"
+    "website": "http://www.ho-chunkgaming.com/nekoosa/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Potawatomi Hotel & Casino",
@@ -7069,7 +15501,17 @@ var casinoObjArray = [
     "address": "1721 W Canal St, Milwaukee, WI 53233, USA",
     "state": "Wisconsin",
     "phone": "(800) 729-7244",
-    "website": "http://paysbig.com/"
+    "website": "http://paysbig.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Wind River Hotel & Casino",
@@ -7077,7 +15519,17 @@ var casinoObjArray = [
     "address": "10269 WY-789, Riverton, WY 82501, USA",
     "state": "Wyoming",
     "phone": "(866) 657-1604",
-    "website": "http://www.windriverhotelcasino.com/"
+    "website": "http://www.windriverhotelcasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ho-Chunk Casino, Wisconsin Dells",
@@ -7085,7 +15537,17 @@ var casinoObjArray = [
     "address": "S3214 County Highway Boulevard, Baraboo, WI 53913, USA",
     "state": "Wisconsin",
     "phone": "(608) 356-6210",
-    "website": "http://www.ho-chunkgaming.com/wisconsindells/"
+    "website": "http://www.ho-chunkgaming.com/wisconsindells/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Mole Lake Casino & Lodge",
@@ -7093,7 +15555,17 @@ var casinoObjArray = [
     "address": "3084 State Highway 55, Crandon, WI 54520, USA",
     "state": "Wisconsin",
     "phone": "(715) 478-5290",
-    "website": "http://www.molelakecasino.com/"
+    "website": "http://www.molelakecasino.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Ho-Chunk Casino, Madison",
@@ -7101,7 +15573,17 @@ var casinoObjArray = [
     "address": "4002 Evan Acres Rd, Madison, WI 53718, USA",
     "state": "Wisconsin",
     "phone": "(608) 223-9576",
-    "website": "http://ho-chunkgaming.com/madison"
+    "website": "http://ho-chunkgaming.com/madison",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Legendary Waters Resort & Casino",
@@ -7109,7 +15591,17 @@ var casinoObjArray = [
     "address": "37600 Onigamiing Dr, Bayfield, WI 54814, USA",
     "state": "Wisconsin",
     "phone": "(800) 226-8478",
-    "website": "http://www.legendarywaters.com/"
+    "website": "http://www.legendarywaters.com/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   },
   {
     "name": "Oneida Casino, West Mason",
@@ -7117,7 +15609,17 @@ var casinoObjArray = [
     "address": "2522 W Mason St, Green Bay, WI 54303, USA",
     "state": "Wisconsin",
     "phone": "(920) 494-4500",
-    "website": "http://www.oneidacasino.net/"
+    "website": "http://www.oneidacasino.net/",
+    "hours": "text",
+    "otherGames": "",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "gamesOffered": "text",
+    "description": "",
+    "specials": "",
+    "pokerPromotions": "",
+    "pokerUrl": "",
+    "calendarUrl": ""
   }
 ];
 

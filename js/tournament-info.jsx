@@ -13,10 +13,11 @@ var TournamentInfo = React.createClass({
 	  		var regEndClass = 'tournament-prop ';
 	  		var gameClass = 'tournament-prop ';
 	  		var buyinClass = 'tournament-prop ';
+	  		var startingChipsClass = 'tournament-prop ';
 	  		var rebuyClass = 'tournament-prop ';
 	  		var addOnClass = 'tournament-prop ';
 	  		var bountyClass = 'tournament-prop ';
-	  		var reentryClass = 'tournament-prop ';
+	  		var reEntryClass = 'tournament-prop ';
 	  		var prizeGtdClass = 'tournament-prop ';
 	  		var otherClass = 'tournament-prop ';
 			if (!tournament.day) {
@@ -37,6 +38,9 @@ var TournamentInfo = React.createClass({
 			if (!tournament.buyin) {
 				buyinClass += 'hidden';
 			};
+			if (!tournament.starting_chips) {
+				startingChipsClass += 'hidden';
+			};
 			if (!tournament.rebuy) {
 				rebuyClass += 'hidden';
 			};
@@ -47,7 +51,7 @@ var TournamentInfo = React.createClass({
 				bountyClass += 'hidden';
 			};
 			if (!tournament.reentry) {
-				reentryClass += 'hidden';
+				reEntryClass += 'hidden';
 			};
 			if (!tournament.prize_gtd) {
 				prizeGtdClass += 'hidden';
@@ -65,12 +69,13 @@ var TournamentInfo = React.createClass({
 		    			<li className={regEndClass} id="reg-end" key="5">Registration End Time: {tournament.reg_end}</li>
 		    			<li className={gameClass} id="game" key="6">Game: {tournament.game}</li>
 		    			<li className={buyinClass} id="buyin" key="7">Buy-in: {tournament.buyin}</li>
-		    			<li className={rebuyClass} id="rebuy" key="8">Re-buy: {tournament.rebuy}</li>
-		      			<li className={addOnClass} id="add-on" key="9">Add-on: {tournament.add_on}</li>
-		      			<li className={bountyClass} id="bounty" key="10">Bounty: {tournament.bounty}</li>
-		      			<li className={reentryClass} id="re-entry" key="11">Re-entry: {tournament.reentry}</li>
-		      			<li className={prizeGtdClass} id="prize-gtd" key="12">Prize Guarantee: {tournament.prize_gtd}</li>
-		      			<li className={otherClass} id="other" key="13">Additional Information: {tournament.other}</li>
+		    			<li className={startingChipsClass} id="starting-chips" key="8">Starting Chips: {tournament.starting_chips}</li>
+		    			<li className={rebuyClass} id="rebuy" key="9">Re-buy: {tournament.rebuy}</li>
+		      			<li className={addOnClass} id="add-on" key="10">Add-on: {tournament.add_on}</li>
+		      			<li className={bountyClass} id="bounty" key="11">Bounty: {tournament.bounty}</li>
+		      			<li className={reEntryClass} id="re-entry" key="12">Re-entry: {tournament.re_entry}</li>
+		      			<li className={prizeGtdClass} id="prize-gtd" key="13">Prize Guarantee: {tournament.prize_gtd}</li>
+		      			<li className={otherClass} id="other" key="14">Additional Information: {tournament.other}</li>
 					</ul>
 				</li>
 			);

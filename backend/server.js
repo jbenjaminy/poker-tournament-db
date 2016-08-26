@@ -28,7 +28,6 @@ app.get('/casinos/:name', jsonParser, function(request, response) {
     name = name.split('4').join(',');
     name = name.split('$').join('&');
     name = name.split('_').join(' ');
-    console.log(name, 'server name')
 
     knex.select()
         .from('casinos')
@@ -45,12 +44,15 @@ app.get('/casinos/:name', jsonParser, function(request, response) {
 
 
 // GET TOURNAMENT INFO BY CASINO_ID
-app.get('/casinos/:id/tournaments', jsonParser, function(request, response) {
-    var casino_id = request.params.id;
+app.get('/casinos/:name/tournaments', jsonParser, function(request, response) {
+    var casino_name = request.params.name;
+    name = name.split('4').join(',');
+    name = name.split('$').join('&');
+    name = name.split('_').join(' ');
 
     knex.select()
         .from('tournaments')
-        .where({casino_id: casino_id})
+        .where({casino_name: casino_name})
         .orderBy('id')
         .then(function(tournaments) {
             // console.log('get tournament info success');
@@ -93,10 +95,13 @@ app.post('/casinos', jsonParser, function(request, response) {
             phone: casino.phone,
             website: casino.website,
             hours: casino.hours,
+            other_games: casino.otherGames,
             has_poker: casino.hasPoker,
+            poker_tournaments: casino.pokerTournaments,
             games_offered: casino.gamesOffered,
             description: casino.description,
             specials: casino.specials,
+            poker_promotions: casino.pokerPromotions,
             poker_url: casino.pokerUrl,
             calendar_url: casino.calendarUrl
             })
@@ -122,7 +127,7 @@ app.post('/tournaments', jsonParser, function(request, response) {
 
     tournamentsArray.forEach(function(tournaments) {
         knex.insert({
-            casino_id: tournaments.casinoId,
+            casino_name: tournaments.casinoName,
             name: tournaments.name,
             day: tournaments.day,
             tourney_start: tournaments.tourneyStart,
@@ -130,10 +135,11 @@ app.post('/tournaments', jsonParser, function(request, response) {
             reg_end: tournaments.regEnd,
             game: tournaments.game,
             buyin: tournaments.buyin,
+            starting_chips: tournaments.startingChips,
             rebuy: tournaments.rebuy,
             add_on: tournaments.addOn,
             bounty: tournaments.bounty,
-            reentry: tournaments.reentry,
+            re_entry: tournaments.reEntry,
             prize_gtd: tournaments.prizeGtd,
             other: tournaments.other
             })

@@ -73,9 +73,9 @@ var fetchCasinoDetailsError = function(error) {
 
 
 // GET TOURNAMENT INFO
-var fetchTournamentInfo = function(id) {
+var fetchTournamentInfo = function(casinoName) {
     return function(dispatch) {
-        var url = 'http://localhost:8081/casinos/' + id + '/tournaments';
+        var url = 'http://localhost:8081/casinos/' + casinoName + '/tournaments';
         var request = { 
                 headers: {
                     'Accept': 'application/json',
