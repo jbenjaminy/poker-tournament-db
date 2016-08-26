@@ -8,6 +8,7 @@ var casinoObjArray = [
     "website": "http://www.cocopahresort.com/",
     "otherGames": "Slots, Bingo, Blackjack",
     "hasPoker": "false",
+    "pokerTournaments": "false",
     "specials": "http://www.cocopahresort.com/promotions.html"
   },
   { "name": "Casino del Sol",
@@ -49,6 +50,7 @@ var casinoObjArray = [
     "website": "http://apache-gold-casino.com/",
     "otherGames": "Blackjack, Bingo, Bingo Blowout, Golf",
     "hasPoker": "false",
+    "pokerTournaments": "false",
     "specials": "http://www.apache-gold-casino.com/promotions/"
   },
   {
@@ -60,6 +62,7 @@ var casinoObjArray = [
     "website": "https://www.windcreekmontgomery.com/",
     "otherGames": "Slots",
     "hasPoker": "false",
+    "pokerTournaments": "false",
     "specials": "https://windcreekmontgomery.com/Casino/Promotions"
   },
   {
@@ -75,6 +78,7 @@ var casinoObjArray = [
     "gamesOffered": "Texas hold'em",
     "hours": "24hrs",
     "description": "We offer more tournaments, promotions and giveaways than any other Poker Room in the State.",
+    "specials": "http://www.buckyscasino.com/promotions.html",
     "pokerPromotions": "'Hot Poker Spot Poker' - new side bet! Win money for getting a straight or better; Bad Beat Jackpot; Straight Flush and Royal Flush bonuses; Earn extra tournament chips for playing live.",
     "pokerUrl": "http://www.buckyscasino.com/table_games.html",
     "calendarUrl": "http://www.buckyscasino.com/images/MonthlyUpdates/TGCalendar.jpg"
@@ -88,6 +92,7 @@ var casinoObjArray = [
     "website": "http://windcreekwetumpka.com/",
     "otherGames": "Slots",
     "hasPoker": "false",
+    "pokerTournaments": "false",
     "specials": "https://windcreekwetumpka.com/Casino/Gaming-Promotions"
   },
   {
@@ -129,6 +134,7 @@ var casinoObjArray = [
     "website": "http://www.wingilariver.com/",
     "otherGames": "Slots, Bingo, Blackjack, Ultimate Texas Hold'em, Crazy 4 Poker, 3-Card Poker, Shuffle Master Classic, Fortune Pai Gow",
     "hasPoker": "false",
+    "pokerTournaments": "false",
     "specials": "http://www.wingilariver.com/index.php/lone-butte-casino/promotions"
   },
   {
@@ -140,6 +146,7 @@ var casinoObjArray = [
     "website": "http://ddcaz.com/west-valley/",
     "otherGames": "Slots",
     "hasPoker": "false",
+    "pokerTournaments": "false",
     "specials": "http://ddcaz.com/west-valley/promotions/"
   },
   {
@@ -189,7 +196,6 @@ var casinoObjArray = [
     "pokerPromotions": "'Viva Poker' - Win your share of $42,000! Play live poker every weekday and win cash drawings. Drawings happen multiple times so that means you can win more than once!",
     "pokerUrl": "http://ddcaz.com/tucson/gaming/table-games/"
   },
-// continue here:
   {
     "name": "Fort McDowell Casino",
     "placeId": "ChIJqdKCj86bK4cRRIVXu1Wnfg0",
@@ -197,11 +203,13 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(800) 843-3678",
     "website": "http://www.fortmcdowellcasino.com/",
-    "hasPoker": "true",
     "hours": "24hrs",
+    "otherGames": "Slots, Bingo, Blackjack, Pai Gow, Ultimate Texas Hold'em, 3-Card Poker, Free-bet Blackjack, Push Your Luck",
+    "hasPoker": "true",
+    "pokerTournaments": "true",
     "gamesOffered": "Texas hold’em, Omaha (& Hi/Lo), Stud (& Hi/Lo)",
-    "description": "Come test your poker skills in the friendliest poker room in the Phoenix Valley. ",
-    "specials": "",
+    "description": "Come test your poker skills in the friendliest poker room in the Phoenix Valley. 24 hour a day promotions and 15 poker tournaments every week with buy-ins from $5 to $60.",
+    "specials": "http://www.fortmcdowellcasino.com/index.php/promotions",
     "pokerPromotions": "'High Hand' - From 9am to 10am and 10am to 11am each hour highest hand gets $75, second highest gets $25; 'Aces Cracked' - 1am to 5pm: aces cracked gets $100 to $1000, 5pm to 1am: aces cracked gets $100 and JJ-KK cracked gets $75 (once each hour); 'Baseball Splash Pots' - $100 when home team scores; 'Royal Flush Jackpots' - $200 for Texas hold’em and Stud games, $100 for Omaha games; '6/4 cracked' - in Omaha Hi/Lo and Stud Hi/Lo wins $100",
     "pokerUrl": "http://www.fortmcdowellcasino.com/index.php/gaming/cards"
   },
@@ -212,10 +220,13 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(928) 445-5767",
     "website": "http://www.buckyscasino.com/",
-    "hasPoker": "true",
     "hours": "24hrs",
+    "otherGames": "Slots, Blackjack, High Card Flush, Texas Shootout, Three Card Prime, WPT Heads Up Hold'em",
+    "hasPoker": "true",
+    "pokerTournaments": "true",
+    "gamesOffered": "Texas Hold’em",
     "description": "We offer more tournaments, promotions and giveaways than any other Poker Room in the State.",
-    "specials": "",
+    "specials": "http://www.buckyscasino.com/promotions.html",
     "pokerPromotions": "'Hot Poker Spot Poker' - new side bet! Win money for getting a straight or better; Bad Beat Jackpot; Straight Flush and Royal Flush bonuses; Earn extra tournament chips for playing live.",
     "pokerUrl": "http://www.buckyscasino.com/table_games.html",
     "calendarUrl": "http://www.buckyscasino.com/images/MonthlyUpdates/TGCalendar.jpg"
@@ -227,10 +238,12 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(480) 850-7777",
     "website": "http://www.talkingstickresort.com/",
+    "otherGames": "Slots, Keno, Blackjack, Pai Gow Poker, Straight Jack, Let It Ride, 3-Card Poker, Casino War, Electronic Craps & Roulette"
     "hasPoker": "true",
+    "pokerTournaments": "true",
     "gamesOffered": "Texas hold'em",
     "description": "Arena Poker Room™ players are now earning more for their play. In the past poker players have earned 100 points per hour of play. Now poker players are earning five times that amount (500 points per hour of play). On top of that, Poker players receive restaurant discounts. Weekday tournaments are on set schedule. Weekend tournaments vary -- see site schedule for details.",
-    "specials": "",
+    "specials": "http://www.talkingstickresort.com/current-promotions.aspx",
     "pokerPromotions": "Bad beat and super bad beat jackpots (currently $5,000 and $125,000, respectively)",
     "pokerUrl": "http://www.talkingstickresort.com/gaming/poker.aspx"
   },
@@ -241,10 +254,12 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(888) 999-1995 ",
     "website": "http://www.hotwatercasino.com/home",
+    "otherGames": "Slots, Mississippi Stud, 3-Card Poker, Baccarat, Blackjack, Crazy 4 Poker, Hotwater Craps, Let It Ride, Pai Gow Poker, Mystery Card Roulette, Spanish 21, Ultimate Texas Hold'em"
     "hasPoker": "true",
+    "pokerTournaments": "true",
     "gamesOffered": "Texas hold'em (limit & no limit), Omaha (pot limit)",
     "description": "Ready to play? Head for the tables! We've got the only live poker room in the valley!",
-    "specials": "",
+    "specials": "http://www.hotwatercasino.com/promotions",
     "pokerPromotions": "'Splash the pot' - Agua Caliente Casino Resort Spa’s Poker Room will $30 in live gaming chips to all live games every half hour throughout the promotional period; 'Hit the flop' - Make a Four of a Kind, Straight Flush, OR Royal Flush while playing Texas Hold’em or Omaha and win! (must use two cards out of your hand and first three cards on the flop)",
     "pokerUrl": "http://www.hotwatercasino.com/pokerroom"
   },
@@ -255,7 +270,10 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(480) 850-7777",
     "website": "http://www.casinoarizona.com/",
-    "hasPoker": "false"
+    "otherGames": "Slots, Keno, Bingo, Blackjack 3-Card Poker, Let It Ride, Pai Gow Poker, Casino War",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "specials": "https://www.casinoarizona.com/promotions/"
   },
   {
     "name": "Hon-Dah Casino",
@@ -264,8 +282,16 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(928) 369-0299",
     "website": "http://www.hon-dah.com/",
-    "hasPoker": "false",
-    "hours": "24/7, 365 days a year"
+    "hours": "24/7, 365 days a year",
+    "otherGames": "Slots (& Tournaments)",
+    "hasPoker": "true",
+    "pokerTournaments": "false", 
+    "gamesOffered": "Texas Hold'em",
+    "description": "'Poker Room Hours' - Mon, Wed, Fri: Open @ 4 pm; Tue & Thur: Open @ 10am; Sat & Sun: Open @ 2pm; 'Manager' - Teri Kleifgen, 928-369-7555",
+    "specials": "http://hon-dah.com/players-club/#promotions",
+    "pokerPromotions": "'$100 High Hand' - Fri & Sat (Hold'em Only); 'Low Roller Tuesdays' - All Live Action, 2-4pm (Limit Only); 'Aces Cracked $50' - Sun-Thurs, 2pm-12am (Hold’em Only); 'Quash the Quads' - All Live action 7 days a week CASH for qualifying poker hands",
+    "pokerUrl": "http://hon-dah.com/poker/"
+    
   },
   {
     "name": "Paradise Casino",
@@ -274,7 +300,10 @@ var casinoObjArray = [
     "state": "Arizona",
     "phone": "(760) 572-7777",
     "website": "http://www.paradise-casinos.com/",
-    "hasPoker": "false"
+    "otherGames": "Slots, Bingo",
+    "hasPoker": "false",
+    "pokerTournaments": "false",
+    "specials": "http://www.paradise-casinos.com/promotions.aspx"
   },
   {
     "name": "The Aviator Casino",
@@ -288,7 +317,7 @@ var casinoObjArray = [
     "pokerTournaments": "true",
     "gamesOffered": "Texas hold'em, Omaha, Mexican poker" 
     "description": "We offer tournaments and cash games for our customers around the clock",
-    "specials": "",
+    "specials": "http://theaviatorcasino.com/promotions/",
     "pokerPromotions": "Bad beat jackpots; 'Pay for Play' - Every Monday, Friday, and Sunday (5-7pm), recieve $20 in chips when you buy in for $80; recieve $10 in chips when you buy in for $40 (must play a minimum of 2 hours; limited to the first 9 players in qualifying no limit hold'em cash games).",
     "pokerUrl": "http://theaviatorcasino.com/games/"
   },
@@ -315,7 +344,9 @@ var casinoObjArray = [
     "phone": "(760) 391-9500",
     "website": "http://www.augustinecasino.com/",
     "otherGames": "Slots (Low and High limit), Blackjack (pure & Spanish), 3-Card Poker, Ultimate Texas Hold'em",
-    "hasPoker": "false"
+    "hasPoker": "false", 
+    "pokerTournaments": "false",
+    "specials": "http://www.augustinecasino.com/promotions/"
   },
   {
     "name": "Artichoke Joes Casino",
@@ -329,6 +360,7 @@ var casinoObjArray = [
     "pokerTournaments": "false",
     "hours": "24 hours daily, 365 days a year",
     "gamesOffered": "Texas Hold'em, Seven Card Stud, Omaha Hi/Lo",
+    "specials": "http://www.artichokejoes.com/jackpots.php",
     "pokerUrl": "http://www.artichokejoes.com/games.php"
   },
   {
@@ -338,10 +370,10 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(707) 795-6121",
     "website": "http://the101casino.com/",
+    "hours": "Casino: 24 hours; Restaurant: 6am-10pm; Casino Menu: 6am-2am",
     "otherGames": "EZ Baccarat, Pai Gow Poker, Blackjack X, 3-Card Poker",
     "hasPoker": "true",
     "pokerTournaments": "false",
-    "hours": "Casino: 24 hours; Restaurant: 6am-10pm; Casino Menu: 6am-2am",
     "gamesOffered": "Texas Hold’Em, Pot-Limit Omaha, Omaha Hi/Lo, Big O",
     "specials": "http://parkwestcasinosonoma.com/casino/promotions/",
     "pokerUrl": "http://parkwestcasinosonoma.com/casino/games/"
@@ -353,13 +385,13 @@ var casinoObjArray = [
     "state": "California",
     "phone": "(831) 422-6666",
     "website": "http://www.bankerscasino.net/",
+    "hours": "24 hours a day, 7 days a week",
     "otherGames": "EZ Baccarat, Fortune Pai Gow, Blackjack, 3-Card Poker",
     "hasPoker": "true",
     "pokerTournaments": "true",
-    "hours": "24 hours a day, 7 days a week",
     "gamesOffered": "Texas Hold'em (Limit & No-Limit), Omaha Hi/Lo",
     "description": "Bankers Casino is playing the biggest No-Limit Texas Hold’em games in the Monterey Bay area",
-    "specials": "",
+    "specials": "http://www.bankerscasino.net/our-games/",
     "pokerPromotions": "'Progressive Bad Beat Jackpots': Mega Bad Beat Currently Over $60,000!; 'Progressive Royal Flush Jackpots'; 'Player Bargain Buy': $100 for $60 for all players present before 8:30am!; 'Aces Cracked': $50 Bonus (Midnight – 8am & 11am – 2pm!)",
     "pokerUrl": "http://www.bankerscasino.net/tournament/"
   },
@@ -374,7 +406,7 @@ var casinoObjArray = [
     "hasPoker": "true",
     "pokerTournaments": "false",
     "gamesOffered": "Texas Hold'em (3-6, 3-6 Half Kill, 4-8, No Limit)",
-    "specials": "",
+    "specials": "http://www.cameoclubcasino.com/12.html",
     "pokerPromotions": "'Small Bad Beat' - AAA full of 10's or better beaten, $3,000 payout (Both hole cards must play); 'Big Bad Beat' - 8888 or better beaten, Jackpot Payout Minimum $5,000 (Both hole cards must play)",
     "pokerUrl": "http://www.cameoclubcasino.com/8.html"
   },
@@ -394,6 +426,7 @@ var casinoObjArray = [
     "specials": "www.blackoakcasino.com/promotions.html",
     "pokerUrl": "http://www.blackoakcasino.com/casino.html"
   },
+// Continue Here
   {
     "name": "Bay 101",
     "placeId": "ChIJT7lnnvLLj4AR3ip7z_6eqrI",
