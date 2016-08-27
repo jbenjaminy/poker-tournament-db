@@ -46,9 +46,9 @@ app.get('/casinos/:name', jsonParser, function(request, response) {
 // GET TOURNAMENT INFO BY CASINO_ID
 app.get('/casinos/:name/tournaments', jsonParser, function(request, response) {
     var casino_name = request.params.name;
-    name = name.split('4').join(',');
-    name = name.split('$').join('&');
-    name = name.split('_').join(' ');
+    casino_name = casino_name.split('4').join(',');
+    casino_name = casino_name.split('$').join('&');
+    casino_name = casino_name.split('_').join(' ');
 
     knex.select()
         .from('tournaments')

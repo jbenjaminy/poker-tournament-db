@@ -10,7 +10,7 @@ var CasinoSearchBar = React.createClass({
     });
     return (
       <div className="userInput">
-        <input type="text" placeholder="Search Casinos" onChange={this.props.addInput} />
+        <input type="text" placeholder="Search for Casinos by Name or State" onChange={this.props.addInput} />
         <ul className="output">{casinos}</ul>
       </div>
     );

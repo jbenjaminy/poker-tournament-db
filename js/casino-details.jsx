@@ -73,22 +73,22 @@ var CasinoDetails = React.createClass({
 		};
 	    return (
 	    		<ul>
-	    			<li className="casino-prop" id="name" key="1">Name: {this.props.casino.name}</li>
-	    			<li className={addressClass} id="address" key="2">Address: {this.props.casino.address}</li>
-	    			<li className={phoneClass} id="phone" key="3">Phone: {this.props.casino.phone}</li>
-	    			<li className={websiteClass} id="website" key="4"><a href={this.props.casino.website}>View Website</a></li>
-	    			<li className={hoursClass} id="hours" key="5">Hours: {this.props.casino.hours}</li>
-	    			<li className={otherClass} id="other-games" key="6">Casino Games: {this.props.casino.other_games}</li>
-	    			<li className="casino-prop" id="has-poker" key="6">Has Poker: {hasPoker}</li>
-	    			<li className={hasTournamentsClass} id="poker-tournaments" key="8">Has Poker Tournaments: {pokerTournaments}</li>
-	    			<li className={gamesClass} id="games-offered" key="9">Games Offered: {this.props.casino.games_offered}</li>
-	    			<li className={descriptionClass} id="description" key="10">Poker Room Description: {this.props.casino.description}</li>
-	    			<li className={specialsClass} id="specials" key="11"><a href={this.props.casino.specials}>View Info on Specials and Promotions</a></li>
-	    			<li className={promotionsClass} id="poker-promotions" key="12">Poker Promotions: {this.props.casino.poker_promotions}</li>
-	    			<li className={tournamentsClass} id="tournament-info" key="13" onClick={this.getTournaments}>
+	    			<li className="casino-prop" id="name" key="1"><p className="title">Name:&nbsp;</p><h4 className='name'>{this.props.casino.name}</h4></li>
+	    			<li className={tournamentsClass} id="tournament-info" key="2" onClick={this.getTournaments}>
 	      				<Link to={`/${this.props.params.casinos}/${this.props.params.name}/tournaments`}>
 				      		View Poker Tournament Info
 				      	</Link></li>
+	    			<li className={addressClass} id="address" key="3"><p className="title">Address:&nbsp;</p>{this.props.casino.address}</li>
+	    			<li className={phoneClass} id="phone" key="4"><p className="title">Phone:&nbsp;</p>{this.props.casino.phone}</li>
+	    			<li className={hoursClass} id="hours" key="5"><p className="title">Hours:&nbsp;</p>{this.props.casino.hours}</li>
+	    			<li className={otherClass} id="other-games" key="6"><p className="title">Casino Games Offered:&nbsp;</p>{this.props.casino.other_games}</li>
+	    			<li className="casino-prop" id="has-poker" key="7"><p className="title">Has Poker:&nbsp;</p>{hasPoker}</li>
+	    			<li className={hasTournamentsClass} id="poker-tournaments" key="8"><p className="title">Has Poker Tournaments:&nbsp;</p>{pokerTournaments}</li>
+	    			<li className={gamesClass} id="games-offered" key="9"><p className="title">Poker Games Offered:&nbsp;</p>{this.props.casino.games_offered}</li>
+	    			<li className={descriptionClass} id="description" key="10"><p className="title">Poker Room Description:&nbsp;</p>{this.props.casino.description}</li>
+	    			<li className={promotionsClass} id="poker-promotions" key="11"><p className="title">Poker Promotions:&nbsp;</p>{this.props.casino.poker_promotions}</li>
+	    			<li className={websiteClass} id="website" key="12"><a href={this.props.casino.website}>View Website</a></li>
+	    			<li className={specialsClass} id="specials" key="13"><a href={this.props.casino.specials}>View Info on Specials and Promotions</a></li>
 	    			<li className={pokerUrlClass} id="poker-url" key="14"><a href={this.props.casino.poker_url}>View Poker Room Site</a></li>
 	    			<li className={calendarClass} id="calendar-url" key="15"><a href={this.props.casino.calendar_url}>View Poker Tournament Calendar</a></li>
 				</ul>

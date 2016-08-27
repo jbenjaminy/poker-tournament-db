@@ -19,10 +19,11 @@ var TournamentInfo = require('./tournament-info').Container;
 var App = function(props) {
     return (
         <div>
-            <h1>Search for U.S. Casinos and Poker Tournament Details</h1>
+            <h1>Search for U.S. Casinos and Poker Tournament Information</h1>
             <nav>
-              <Link to={'/pokercasinos'}>Poker Casinos</Link><Link to={'/allcasinos'}>All Casinos</Link>
+            <Link to={'/allcasinos'}>Search All Casinos</Link>{'|'}<Link to={'/pokercasinos'}>Search Poker Casinos</Link>
             </nav>
+            <hr/>
             <div>
                 {props.children}
             </div>
