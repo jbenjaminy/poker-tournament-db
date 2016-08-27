@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var knex = require('knex')({
     client: 'pg',
     connection: {
-        database: 'poker'
+        database: 'pokerTournaments'
     },
 });
 
