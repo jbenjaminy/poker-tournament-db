@@ -13,12 +13,7 @@ var knex = require('knex')({
 var jsonParser = bodyParser.json();
 var app = express();
 
-app.use(function(request, response, next) {
-  response.header("Access-Control-Allow-Origin", "*");
-  response.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
-});
-
+app.use(express.static('./build'));
 
 /* ----------- USER ENDPOINTS ---------- */
 
@@ -158,7 +153,20 @@ app.post('/tournaments', jsonParser, function(request, response) {
     });
 });
 
-var port = process.env.PORT || 8081;
-app.listen(port, function() {
-    console.log('Listening on port:' + port);
-});
+function runServer(callback) {
+    let PORT = process.env.PORT || 8080;
+    app.listen(PORT, () => {
+        console.log(`Listening on localhost: ${PORT}`);
+        if (callback) {
+            callback();
+        }
+    });
+}
+
+if (require.main === module) {
+    runServer((err) => {
+        if (err) {
+            throw new Error(err);
+        }
+    });
+}

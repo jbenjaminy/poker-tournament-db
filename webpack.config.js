@@ -1,35 +1,27 @@
-var path = require('path');
+const path = require('path');
 
-var webpack = require('webpack');
+const packageData = require('./package.json');
 
-var packageData = require('./package.json');
-
-var filename = [packageData.name, packageData.version, 'js'];
-
-var babelPresets = {presets: ['react', 'es2015']};
+const filename = [packageData.name, packageData.version, 'js'];
 
 module.exports = {
-  entry:  [
-  'webpack-dev-server/client?http://127.0.0.1:8080',
-  'webpack/hot/only-dev-server',
-  path.resolve(__dirname, 'js/index.jsx')
-  ],
-  output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: filename.join('.')
-  },
-  devtool: 'source-map',
-  module: {
-    loaders: [
-  
-      {
-        test: /\.jsx?$/,
-        exclude: /(node_modules)/,
-        loaders: ['react-hot', 'babel-loader?'+JSON.stringify(babelPresets)]
-      }
-    ]
-  },
-  resolve: {
-    extensions: ['', '.js', '.jsx']
-  }
+    entry: path.resolve(__dirname, 'js/index.jsx'),
+    output: {
+        path: path.resolve(__dirname, 'build'),
+        filename: filename.join('.')
+    },
+    devtool: 'source-map',
+    module: {
+        loaders: [{
+            test: /\.jsx?$/,
+            exclude: /(node_modules)/,
+            loader: 'babel',
+            query: {
+                presets: ['es2015', 'react']
+            }
+        }]
+    },
+    resolve: {
+        extensions: ['', '.js', '.jsx']
+    }
 };
