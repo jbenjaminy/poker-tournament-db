@@ -1,12 +1,14 @@
 /* --------- DEPENDENCIES --------- */
 var express = require('express');
 var bodyParser = require('body-parser');
+databaseUrl = process.env.DATABASE_URL || 'postgres://localhost:5432/pokerTournaments';
+if (process.env.NODE_ENV === 'production') {
+    databaseUrl += '?ssl=true';
+}
 
 var knex = require('knex')({
     client: 'pg',
-    connection: {
-        database: 'pokerTournaments'
-    },
+    connection: databaseUrl
 });
 
 /* --------- GLOBAL VARIABLES --------- */
