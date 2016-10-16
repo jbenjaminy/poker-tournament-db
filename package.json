@@ -1,7 +1,7 @@
 {
   "name": "tournaments",
   "version": "1.0.0",
-  "description": "",
+  "description": "A real-time search of daily poker tournament schedules and contact information for casinos accross the U.S.",
   "main": "server.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register test/**/*.js*",
@@ -26,8 +26,16 @@
       "react"
     ]
   },
-  "author": "",
+  "author": "Ben Young",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbenjaminy/poker-tournament-db"
+  },
+  "bugs": {
+    "url": "https://github.com/jbenjaminy/poker-tournament-db/issues"
+  },
+  "homepage": "",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",

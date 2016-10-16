@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+#app {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #4c5058;
+}
+#app a {
+  text-decoration: none;
+  color: grey;
+}
+#app h4,
+#app p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#app ul {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+#app ul .casino-prop {
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+#app .output li {
+  list-style-type: none;
+  padding-bottom: 1em;
+}
+#app ol {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+#app ol .tournament {
+  margin-bottom: 1em;
+}
+#app ol ul {
+  width: 100%;
+  padding-left: 5px;
+}
+#app ol ul .tournament-prop {
+  padding-bottom: 0.5em;
+  list-style-type: none;
+}
+#app .title {
+  font-style: italic;
+  padding-right: 5px;
+  display: inline-block;
+}
+#app .name {
+  font-style: bold;
+  display: inline-block;
+}
+#app #website,
+#app #specials,
+#app #tournament-info,
+#app #poker-url,
+#app #calendar-url {
+  margin-bottom: 1em;
+  font-style: italic;
+}
+#app h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+#app h3 {
+  text-align: left;
+  padding-bottom: 1em;
+  margin: 0 auto;
+  width: 65%;
+  font-size: 1.1em;
+  text-decoration: underline;
+}
+#app header {
+  background: url('') no-repeat center;
+  background-size: 25rem;
+  padding-top: 80px;
+  padding-bottom: 1em;
+  height: 125px;
+}
+#app nav {
+  display: inline-block;
+  padding-bottom: 1.5em;
+}
+#app nav a {
+  padding-left: 6px;
+  padding-right: 6px;
+  font-style: italic;
+}
+#app hr {
+  width: 80%;
+  border: 0;
+  border-top: 1px solid #4c5058;
+  margin: auto auto;
+  padding-bottom: 1em;
+}
+#app .userInput {
+  width: 45%;
+  margin: 0 auto;
+  text-align: center;
+}
+#app .userInput input {
+  margin-bottom: 1.5em;
+  width: 20rem;
+  border: 1px solid grey;
+  border-radius: 0.25em;
+  text-align: center;
+}
+#app .hidden {
+  display: none;
+}
+/*# sourceMappingURL=tournaments.1.0.0.css.map */
