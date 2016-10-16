@@ -23,7 +23,7 @@ var addInput = function(tempLib) {
 // GET CASINO DETAILS
 var fetchCasinoDetails = function(casinoName) {
     return function(dispatch) {
-        var url = 'http://localhost:8080/casinos/' + casinoName;
+        var url = '/casinos/' + casinoName;
         var request = {
                 headers: {
                     'Accept': 'application/json',
@@ -75,7 +75,7 @@ var fetchCasinoDetailsError = function(error) {
 // GET TOURNAMENT INFO
 var fetchTournamentInfo = function(casinoName) {
     return function(dispatch) {
-        var url = 'http://localhost:8080/casinos/' + casinoName + '/tournaments';
+        var url = '/casinos/' + casinoName + '/tournaments';
         var request = { 
                 headers: {
                     'Accept': 'application/json',
