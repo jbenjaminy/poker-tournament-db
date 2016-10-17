@@ -1,8 +1,9 @@
-var knex = require('../../server.js');
+var knex = require('../pg/connect');
 var tourneyObjArray = require('../../other/tourney-obj-array');
 
 var createTournaments = function() {
     return new Promise(function(resolve, reject) {
+    	var completed = 0;
     	tourneyObjArray.forEach(function(tournaments) {
 	        knex.insert({
 	            casino_name: tournaments.casinoName,
@@ -24,16 +25,15 @@ var createTournaments = function() {
 	            .returning('id')
 	            .into('tournaments')
 	            .then(function(id) {
-	                console.log('post tournament success', id);
+	            	console.log('post tournament success', id);
 	            })
 	            .catch(function(error) {
 	                console.log('post tournament error', error, tournaments.name, tournaments.casino_id);
 	            });
-		        completed++;
-		        if (completed === tourneyObjArray.length) {
-		            resolve(console.log('create tourneys success'));
-		        }
-    		});
+	        completed++;
+	        if (completed === tourneyObjArray.length) {
+	            resolve(console.log('create tourneys success'));
+	        }
     	});
     });
 };

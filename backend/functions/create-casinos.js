@@ -1,8 +1,9 @@
-var knex = require('../../server.js');
+var knex = require('../pg/connect');
 var casinoObjArray = require('../../other/casino-obj-array');
 
 var createCasinos = function() {
     return new Promise(function(resolve, reject) {
+        var completed = 0;
         casinoObjArray.forEach(function(casino) {
             knex.insert({
                 name: casino.name,
@@ -30,11 +31,10 @@ var createCasinos = function() {
                 .catch(function(error) {
                     console.log('post casino error', error, casino.name);
                 });
-                completed++;
-                if (completed === casinoObjArray.length) {
-                    resolve(console.log('create casinos success'));
-                }
-            });
+            completed++;
+            if (completed === casinoObjArray.length) {
+                resolve(console.log('create casinos success'));
+            }
         });
     });
 };

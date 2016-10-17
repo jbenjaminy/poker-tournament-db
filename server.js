@@ -4,19 +4,10 @@ var app = express();
 var bodyParser = require('body-parser');
 var jsonParser = bodyParser.json();
 
-/* --------- DATABASE CONNECTION ---------- */
-var databaseUrl = process.env.DATABASE_URL || 'postgres://localhost:5432/pokerTournaments';
-if (process.env.NODE_ENV === 'production') {
-    databaseUrl += '?ssl=true';
-}
-var knex = require('knex')({
-    client: 'pg',
-    connection: databaseUrl
-});
-
 /* ---------- FUNCTIONS ---------- */
 var createCasinos = require('./backend/functions/create-casinos');
 var createTournaments = require('./backend/functions/create-tournaments');
+var knex = require('./backend/pg/connect')
 
 /* ---------- SERVE FRONTEND ---------- */
 app.use(express.static('./build'));
@@ -25,8 +16,9 @@ app.use(express.static('./build'));
 knex.select()
     .from('casinos')
     .then(function(casinos) {
-        if (casinos.length >= 1) {
+        if (casinos.length < 1) {
             createCasinos().then(function() {
+                console.log('here');
                 createTournaments();
             });
         }
@@ -34,7 +26,6 @@ knex.select()
     .catch(function(err) {
         console.error(err);
     });
-});
 
 /* ----------- USER ENDPOINTS ---------- */
 // GET CASINO DETAILS BY NAME
