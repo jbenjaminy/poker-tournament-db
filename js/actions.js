@@ -1,6 +1,5 @@
 var fetch = require('isomorphic-fetch');
 
-
 // BEGIN SEARCH
 var NEW_SEARCH = 'NEW_SEARCH';
 var newSearch = function() {
@@ -8,7 +7,6 @@ var newSearch = function() {
         type: NEW_SEARCH
     };
 };
-
 
 // ON USER INPUT CHANGE
 var ADD_INPUT = 'ADD_INPUT';
@@ -18,7 +16,6 @@ var addInput = function(tempLib) {
         tempLib: tempLib
     };
 };
-
 
 // GET CASINO DETAILS
 var fetchCasinoDetails = function(casinoName) {
@@ -71,7 +68,6 @@ var fetchCasinoDetailsError = function(error) {
     };
 };
 
-
 // GET TOURNAMENT INFO
 var fetchTournamentInfo = function(casinoName) {
     return function(dispatch) {
@@ -122,7 +118,6 @@ var fetchTournamentInfoError = function(error) {
         error: error
     };
 };
-
 
 /*---------- EXPORTS ---------*/
 exports.NEW_SEARCH = NEW_SEARCH;

@@ -1,24 +1,42 @@
 /* --------- DEPENDENCIES --------- */
 var express = require('express');
+var app = express();
 var bodyParser = require('body-parser');
-databaseUrl = process.env.DATABASE_URL || 'postgres://localhost:5432/pokerTournaments';
+var jsonParser = bodyParser.json();
+
+/* --------- DATABASE CONNECTION ---------- */
+var databaseUrl = process.env.DATABASE_URL || 'postgres://localhost:5432/pokerTournaments';
 if (process.env.NODE_ENV === 'production') {
     databaseUrl += '?ssl=true';
 }
-
 var knex = require('knex')({
     client: 'pg',
     connection: databaseUrl
 });
 
-/* --------- GLOBAL VARIABLES --------- */
-var jsonParser = bodyParser.json();
-var app = express();
+/* ---------- FUNCTIONS ---------- */
+var createCasinos = require('./backend/functions/create-casinos');
+var createTournaments = require('./backend/functions/create-tournaments');
 
+/* ---------- SERVE FRONTEND ---------- */
 app.use(express.static('./build'));
 
-/* ----------- USER ENDPOINTS ---------- */
+/* ---------- DB QUERIES ---------- */
+knex.select()
+    .from('casinos')
+    .then(function(casinos) {
+        if (casinos.length >= 1) {
+            createCasinos().then(function() {
+                createTournaments();
+            });
+        }
+    })
+    .catch(function(err) {
+        console.error(err);
+    });
+});
 
+/* ----------- USER ENDPOINTS ---------- */
 // GET CASINO DETAILS BY NAME
 app.get('/casinos/:name', jsonParser, function(request, response) {
     var name = request.params.name;
@@ -38,7 +56,6 @@ app.get('/casinos/:name', jsonParser, function(request, response) {
             response.sendStatus(500);
         });
 });
-
 
 // GET TOURNAMENT INFO BY CASINO_ID
 app.get('/casinos/:name/tournaments', jsonParser, function(request, response) {
@@ -61,7 +78,6 @@ app.get('/casinos/:name/tournaments', jsonParser, function(request, response) {
         });
 });
 
-
 // GET CASINOS
 app.get('/casinos', jsonParser, function(request, response) {
     knex.select('name', 'id')
@@ -76,7 +92,6 @@ app.get('/casinos', jsonParser, function(request, response) {
             response.sendStatus(500);
         });
 });
-
 
 // POST CASINO OBJECTS PASSED IN ARRAY TO CASINOS TABLE
 app.post('/casinos', jsonParser, function(request, response) {
@@ -172,3 +187,5 @@ if (require.main === module) {
         }
     });
 }
+
+module.exports = knex;
