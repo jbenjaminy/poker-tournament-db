@@ -7,7 +7,7 @@ var Router = router.Router;
 var Route = router.Route;
 var Link = router.Link;
 var IndexRoute = router.IndexRoute;
-var hashHistory = router.hashHistory;
+var browserHistory = router.browserHistory;
 
 var actions = require('./actions');
 var store = require( './store' );
@@ -31,7 +31,7 @@ var App = function(props) {
     );
 };
 var routes = (
-  <Router history={hashHistory}>
+  <Router history={browserHistory}>
     <Route path="/" component={App}>
       <Route path=":casinos">
         <IndexRoute component={MainContainer}/>
