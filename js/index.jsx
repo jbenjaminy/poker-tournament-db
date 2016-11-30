@@ -21,7 +21,7 @@ var App = function(props) {
         <div>
             <h1>Search for U.S. Casinos and Poker Tournament Information</h1>
             <nav>
-            <Link to={'/allcasinos'}>Search All Casinos</Link>{'|'}<Link to={'/pokercasinos'}>Search Poker Casinos</Link>
+            <Link to={'/allcasinos'} className='nav-links'>Search All Casinos</Link>{'|'}<Link to={'/pokercasinos'} className='nav-links'>Search Poker Casinos</Link>
             </nav>
             <hr/>
             <div>
