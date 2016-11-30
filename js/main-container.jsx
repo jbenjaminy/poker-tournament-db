@@ -8,11 +8,13 @@ var actions = require('./actions');
 var MainContainer = React.createClass({
 
   onAddInput: function (event) {
-    if (this.props.params.casinos === '/pokercasinos') {
-      var casinos = PokerCasinoSearchArray; 
-    } else {
-      var casinos = CasinoSearchArray;
-    }
+    var casinos = CasinoSearchArray;
+  // REPLACE WHEN POKER CASINO SEARCH IS UP
+    // if (this.props.params.casinos === '/pokercasinos') {
+    //   var casinos = PokerCasinoSearchArray; 
+    // } else {
+    //   var casinos = CasinoSearchArray;
+    // }
     var value = event.target.value.toLowerCase();
     if (value.length > 0) {
       var tempLib = casinos.filter(function (item) {
