@@ -2,6 +2,7 @@ var React = require('react');
 var connect = require('react-redux').connect;
 var CasinoSearchBar = require('./casino-search-bar');
 var CasinoSearchArray = require('./casino-search-array');
+var SiteFooter = require('./site-footer');
 var actions = require('./actions');
 
 var MainContainer = React.createClass({
@@ -23,6 +24,7 @@ var MainContainer = React.createClass({
       <div className="main-container">
         <CasinoSearchBar list={this.props.params.casinos || 'allcasinos'} addInput={this.onAddInput} output={this.props.output}/>
         {this.props.children}
+        <SiteFooter />
       </div>
     );
   }
