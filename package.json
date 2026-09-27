@@ -23,7 +23,7 @@
     "watch:js": "npm run build:js && webpack --watch",
     "clean:js": "rm -f build/$npm_package_name.$npm_package_version.js build/$npm_package_name.$npm_package_version.js.map",
     "heroku-postbuild": "npm run build",
-    "build:assets": "mkdir -p build/images && cp -f css/images/* build/images/",
+    "build:assets": "mkdir -p build/images && cp -f css/images/* build/images/ && cp -f og-image.png favicon.ico favicon-32x32.png favicon-192x192.png apple-touch-icon.png build/",
     "preview": "node mock-server.js",
     "start:mock": "node mock-server.js"
   },
