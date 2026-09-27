@@ -3,10 +3,10 @@ var Casino = require('./casino').Container;
 
 var CasinoSearchBar = React.createClass({
   render: function () {
-    var casinos = this.props.output;
+    var casinos = this.props.output || [];
     var list = this.props.list;
-    var hasResults = casinos && casinos.length > 0;
-    casinos = casinos.map(function(casino, index) {
+    var hasResults = casinos.length > 0;
+    var items = casinos.map(function(casino, index) {
       return <Casino list={list} casino={casino} key={index}/>;
     });
     return (
@@ -17,17 +17,17 @@ var CasinoSearchBar = React.createClass({
           <input
             id="casino-search"
             type="search"
-            placeholder="Name or state — e.g. Bellagio, Nevada"
+            placeholder="Name or state — e.g. Bellagio, Texas"
             onChange={this.props.addInput}
             autoComplete="off"
           />
         </div>
         {hasResults ? (
           <div className="output-shell">
-            <ul className="output">{casinos}</ul>
+            <ul className="output">{items}</ul>
           </div>
         ) : (
-          <p className="search-hint">Start typing to filter casinos. Results update as you type.</p>
+          <p className="search-hint">Start typing to filter poker rooms. Results update as you type.</p>
         )}
       </div>
     );

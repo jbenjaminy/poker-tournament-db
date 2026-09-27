@@ -1,18 +1,19 @@
 var actions = require('./actions');
-var store = require('./store');
+
+var initialState = {
+	output: [],
+	casino: {},
+	tournaments: [],
+	error: null
+};
 
 var reducer = function(state, action) {
-	state = state || {};
+	state = state || initialState;
 	if (action.type === actions.NEW_SEARCH) {
-		return Object.assign({}, {
-			output: [],
-			casino: {},
-			tournaments: [],
-			error: null
-		});
+		return Object.assign({}, initialState);
 	} else if (action.type === actions.ADD_INPUT) {
 		return Object.assign({}, state, {
-			output: action.tempLib
+			output: action.tempLib || []
 			});
 	} else if (action.type === actions.FETCH_CASINO_DETAILS_SUCCESS) {
 		return Object.assign({}, state, {
@@ -26,7 +27,7 @@ var reducer = function(state, action) {
 		return Object.assign({}, state, {
 			tournaments: action.tournaments
 		});
-	} else if (action.type === actions.FETCH_CASINO_DETAILS_ERROR) {
+	} else if (action.type === actions.FETCH_TOURNAMENT_INFO_ERROR) {
 		return Object.assign({}, state, {
 			error: action.error
 		});

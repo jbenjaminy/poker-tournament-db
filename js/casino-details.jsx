@@ -27,6 +27,8 @@ var CasinoDetails = React.createClass({
 		var name = props.params && props.params.name;
 		if (!name) { return; }
 		try { name = decodeURIComponent(name); } catch (e) {}
+		// Match mock-server / Netlify decode of room slugs
+		name = String(name).split('4').join(',').split('$').join('&').split('_').join(' ');
 		this.props.dispatch(actions.fetchCasinoDetails(name));
 	},
 	isRealValue: function(val) {
