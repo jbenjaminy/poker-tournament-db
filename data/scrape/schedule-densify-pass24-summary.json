@@ -1,0 +1,228 @@
+{
+  "generatedAt": "2026-09-24T23:28:19.619Z",
+  "pass": 24,
+  "title": "Schedule densify — CA Jackson Rancheria + LA Boomtown NO + PA Wind Creek Bethlehem (Sands) + CA Stones densify",
+  "before": {
+    "casinos": 996,
+    "tourneys": 558,
+    "hasPoker": 260,
+    "roomsWithSchedules": 103,
+    "verified": 433,
+    "unverified": 110
+  },
+  "after": {
+    "casinos": 996,
+    "tourneys": 569,
+    "hasPoker": 263,
+    "roomsWithSchedules": 106,
+    "verified": 444,
+    "unverified": 110
+  },
+  "deltas": {
+    "casinos": 0,
+    "tourneys": 11,
+    "hasPoker": 3,
+    "roomsWithSchedules": 3
+  },
+  "roomsNewlyCovered": [
+    "Jackson Rancheria Casino",
+    "Boomtown Casino & Hotel, New Orleans",
+    "The Sands Casino, Bethlehem"
+  ],
+  "densified": [
+    {
+      "casinoName": "Jackson Rancheria Casino",
+      "before": 0,
+      "after": 3
+    },
+    {
+      "casinoName": "Boomtown Casino & Hotel, New Orleans",
+      "before": 0,
+      "after": 1
+    },
+    {
+      "casinoName": "The Sands Casino, Bethlehem",
+      "before": 0,
+      "after": 5
+    },
+    {
+      "casinoName": "Stones Gambling Hall",
+      "before": 2,
+      "after": 4
+    }
+  ],
+  "topRoomsFilled": [
+    {
+      "casinoName": "The Sands Casino, Bethlehem",
+      "before": 0,
+      "after": 5
+    },
+    {
+      "casinoName": "Stones Gambling Hall",
+      "before": 2,
+      "after": 4
+    },
+    {
+      "casinoName": "Jackson Rancheria Casino",
+      "before": 0,
+      "after": 3
+    },
+    {
+      "casinoName": "Boomtown Casino & Hotel, New Orleans",
+      "before": 0,
+      "after": 1
+    }
+  ],
+  "densifiedNotes": {
+    "Jackson Rancheria Casino": "0→3",
+    "Boomtown Casino & Hotel, New Orleans": "0→1",
+    "The Sands Casino, Bethlehem": "0→5",
+    "Stones Gambling Hall": "2→4"
+  },
+  "blockers": [
+    {
+      "room": "Four Winds Casino, New Buffalo",
+      "issue": "Shared fourwindscasino.com/promotions/poker-tournaments/ grid already attributed to South Bend — no New Buffalo-specific weekly grid"
+    },
+    {
+      "room": "Ace's Poker Lakewood",
+      "issue": "WSGG listing 404 this pass; not a separate master casino row; license/status unclear post Jun 2026"
+    },
+    {
+      "room": "New Phoenix / Last Frontier (La Center)",
+      "issue": "Official March-dated promo page; MapQuest permanently closed / WSGC license expired Jun 30 2026 — skip stale"
+    },
+    {
+      "room": "Oaks Card Club",
+      "issue": "Official site: Poker Tournaments Currently Unavailable"
+    },
+    {
+      "room": "Coyote Bob's Casino",
+      "issue": "Official WSGG listing promotions/table games only — no poker tourney buy-in grid"
+    },
+    {
+      "room": "Great American Casino Everett / Tukwila",
+      "issue": "Official WSGG listings promotions only — no poker tourney grid"
+    },
+    {
+      "room": "Riverside Casino",
+      "issue": "Official WSGG listing promotions only — no poker tourney grid"
+    },
+    {
+      "room": "Fortune Casino Renton / Shoreline / Tukwila / La Center",
+      "issue": "No first-party buy-in/time pages found this pass (Lacey already densified)"
+    },
+    {
+      "room": "TCH Social Austin / Dallas / Las Colinas / Houston / Spring / RGV",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Poker House Fort Worth",
+      "issue": "Official /events calendar empty for Sep 2026; PokerAtlas announcements not used"
+    },
+    {
+      "room": "The Fort Card Room",
+      "issue": "Official game-info Weekly/Daily Events sections empty — no scrapeable buy-in/time grid"
+    },
+    {
+      "room": "Spades Poker House Webster / Baytown",
+      "issue": "Official site defers Schedule links to PokerAtlas — no first-party grid"
+    },
+    {
+      "room": "Shuffle 214 / Shuffle 512",
+      "issue": "Official calendars JS/empty or PokerAtlas-deferred — no first-party buy-in/time grid"
+    },
+    {
+      "room": "SA Card House",
+      "issue": "Official /tournaments page still 2020-era TOC text — no current weekly grid"
+    },
+    {
+      "room": "Nineteenth Hole",
+      "issue": "Official site lists Sat/Sun Sit-n-Go at 1pm but no buy-in — no inventing"
+    },
+    {
+      "room": "Oceanview Card Room",
+      "issue": "Official site lists times but no buy-ins — no inventing"
+    },
+    {
+      "room": "Cameo Club Casino",
+      "issue": "Official domain parked / for sale — no scrapeable grid"
+    },
+    {
+      "room": "Lucky Derby Casino",
+      "issue": "luckyderby.com domain for sale — no scrapeable grid"
+    },
+    {
+      "room": "Hustler Casino",
+      "issue": "Still no current official tourney grid"
+    },
+    {
+      "room": "Lucky Chances",
+      "issue": "Calendar still lacks start times — no inventing"
+    },
+    {
+      "room": "Parkwest Casino Lotus / 580 / Cordova / Manteca",
+      "issue": "No published weekly poker tourney grids this pass"
+    },
+    {
+      "room": "Crystal Casino / Casino M8trix / Oaks Card Club",
+      "issue": "Still empty / no scrapeable tourney grids (Oaks: tournaments unavailable)"
+    },
+    {
+      "room": "Seminole Casino, Coconut Creek",
+      "issue": "Published daily rack cards still 2022-stale / PDF not parseable as current weekly sheet this pass"
+    },
+    {
+      "room": "Seminole Casino Hotel, Immokalee",
+      "issue": "No current official weekly tourney grid; PokerAtlas none"
+    },
+    {
+      "room": "Seminole Classic Casino, Hollywood",
+      "issue": "No separate Classic weekly grid (Hard Rock Hollywood already densified)"
+    },
+    {
+      "room": "Gun Lake Casino",
+      "issue": "Official poker page cash/hours — Bravo app only; no buy-in/time grid"
+    },
+    {
+      "room": "Horseshoe Casino, Baltimore",
+      "issue": "Official Caesars poker page Incapsula-blocked; no scrapeable current weekly sheet"
+    },
+    {
+      "room": "Cache Creek Casino / Barona Resort & Casino",
+      "issue": "Official /casino/poker 404 this pass"
+    },
+    {
+      "room": "Napa Valley Casino",
+      "issue": "Official site cash 24/7; no published weekly tourney grid"
+    },
+    {
+      "room": "Artichoke Joes Casino",
+      "issue": "Official site cash/dining focused; no tournament schedule"
+    },
+    {
+      "room": "Club 52 Poker",
+      "issue": "Official calendar-splash is JS image calendar — no scrapeable buy-in text grid this pass"
+    },
+    {
+      "room": "Desert Bluffs / Tri-Cities Poker (bluffs.poker)",
+      "issue": "Official site is JS SPA — skip JS wall; not a master casino row"
+    },
+    {
+      "room": "River Cree Resort & Casino",
+      "issue": "Alberta CA — out of US master scope"
+    }
+  ],
+  "diminishingReturns": false,
+  "diminishing_returns": false,
+  "notes": [
+    "Originals casino-obj-array.js / tourney-obj-array.js untouched.",
+    "Jackson Rancheria Casino: NEW 0→3 from official jacksoncasino.com/poker/ (Thu $60 3pm, Sat $100 BBA 3pm, Sun $80 3pm).",
+    "Boomtown Casino & Hotel, New Orleans: NEW 0→1 from official boomtownneworleans.com/casino/poker (Thu 7pm $75 NLH).",
+    "The Sands Casino, Bethlehem: NEW 0→5 from official Wind Creek Bethlehem Sep 2026 poker calendar PDF (Sun/Mon/Tue/Thu/Fri recurring bounty tournaments; property rebranded from Sands).",
+    "Stones Gambling Hall: densified 2→4 — added official Wed 10:30am $60 (distinct $50+$10 fee split) and Sat 10:30am $100 from stonesgamblinghall.com/tournaments/.",
+    "js/rooms-with-schedules.js regenerated to match tourney seed.",
+    "Skip inventing / TCH JS walls / PokerAtlas-only / empty or stale official calendars listed in blockers.",
+    "Above diminishing-returns threshold this pass (<3 new rooms AND <15 new rows)."
+  ]
+}

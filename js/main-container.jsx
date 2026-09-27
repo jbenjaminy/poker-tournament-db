@@ -11,7 +11,7 @@ var MainContainer = React.createClass({
     var casinos = CasinoSearchArray;
   // REPLACE WHEN POKER CASINO SEARCH IS UP
     // if (this.props.params.casinos === '/pokercasinos') {
-    //   var casinos = PokerCasinoSearchArray; 
+    //   var casinos = PokerCasinoSearchArray;
     // } else {
     //   var casinos = CasinoSearchArray;
     // }
@@ -33,9 +33,12 @@ var MainContainer = React.createClass({
   },
 
   render: function () {
-    
+
     return (
-      <CasinoSearchBar list={this.props.params.casinos} addInput={this.onAddInput} output={this.props.output}/>
+      <div className="main-container">
+        <CasinoSearchBar list={this.props.params.casinos} addInput={this.onAddInput} output={this.props.output}/>
+        {this.props.children}
+      </div>
     );
   }
 });
@@ -49,4 +52,3 @@ var mapStateToProps = function(state, props) {
 var Container = connect(mapStateToProps)(MainContainer);
 exports.MainContainer = MainContainer;
 exports.Container = Container;
-

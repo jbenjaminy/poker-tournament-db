@@ -1,0 +1,232 @@
+{
+  "generatedAt": "2026-09-24T23:08:08.098Z",
+  "pass": 21,
+  "title": "Schedule densify — CA El Dorado Hills + FL Ocala Bets + CA Central Coast Casino",
+  "before": {
+    "casinos": 996,
+    "tourneys": 518,
+    "hasPoker": 260,
+    "roomsWithSchedules": 92,
+    "verified": 393,
+    "unverified": 110
+  },
+  "after": {
+    "casinos": 996,
+    "tourneys": 531,
+    "hasPoker": 260,
+    "roomsWithSchedules": 95,
+    "verified": 406,
+    "unverified": 110
+  },
+  "deltas": {
+    "casinos": 0,
+    "tourneys": 13,
+    "hasPoker": 0,
+    "roomsWithSchedules": 3
+  },
+  "roomsNewlyCovered": [
+    "El Dorado Hills Casino",
+    "Ocala Bets",
+    "Central Coast Casino"
+  ],
+  "densified": [
+    {
+      "casinoName": "El Dorado Hills Casino",
+      "before": 0,
+      "after": 2
+    },
+    {
+      "casinoName": "Ocala Bets",
+      "before": 0,
+      "after": 7
+    },
+    {
+      "casinoName": "Central Coast Casino",
+      "before": 0,
+      "after": 4
+    }
+  ],
+  "topRoomsFilled": [
+    {
+      "casinoName": "Ocala Bets",
+      "before": 0,
+      "after": 7
+    },
+    {
+      "casinoName": "Central Coast Casino",
+      "before": 0,
+      "after": 4
+    },
+    {
+      "casinoName": "El Dorado Hills Casino",
+      "before": 0,
+      "after": 2
+    }
+  ],
+  "densifiedNotes": {
+    "El Dorado Hills Casino": "0→2",
+    "Ocala Bets": "0→7",
+    "Central Coast Casino": "0→4"
+  },
+  "blockers": [
+    {
+      "room": "Poker House Fort Worth",
+      "issue": "Official /events calendar empty for Sep 2026 (no event detail pages); PokerAtlas announcements not used"
+    },
+    {
+      "room": "The Fort Card Room",
+      "issue": "Official game-info Weekly/Daily Events sections empty — no scrapeable buy-in/time grid"
+    },
+    {
+      "room": "Spades Poker House Webster / Baytown",
+      "issue": "Official site defers Webster/Baytown Schedule links to PokerAtlas — no first-party grid"
+    },
+    {
+      "room": "Shuffle 214",
+      "issue": "Official /calendar is JS/empty of buy-in grid this pass"
+    },
+    {
+      "room": "SA Card House",
+      "issue": "Official /tournaments page still 2020-era TOC text — no current weekly grid"
+    },
+    {
+      "room": "Amarillo Social Club",
+      "issue": "Official homepage lists one-off/live events; no stable Mon–Sun weekly sheet"
+    },
+    {
+      "room": "Alamo City Poker Club",
+      "issue": "Official site lists named nights without buy-ins/times — no inventing"
+    },
+    {
+      "room": "Champions Social Club / Champions Club Texas",
+      "issue": "Official events are lessons / Rookie Rumble specials — no full weekly grid"
+    },
+    {
+      "room": "Lonestar Social Poker Club",
+      "issue": "Official site 500 / unreachable this pass"
+    },
+    {
+      "room": "TCH Social Austin / Dallas / Las Colinas / Houston / Spring / RGV",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Club 52 Poker at Melbourne Greyhound Park",
+      "issue": "Official marketing site; no scrapeable buy-in/time tournament grid this pass"
+    },
+    {
+      "room": "Tampa Bay Downs / Silks",
+      "issue": "Official /poker/tournaments still “Not Displaying Correctly” / JS empty"
+    },
+    {
+      "room": "Ocala Poker & Jai-Alai",
+      "issue": "Official ocalapoker.com redirects to lander — no scrapeable grid"
+    },
+    {
+      "room": "Daytona Beach Kennel Club & Poker Room, International Speedway",
+      "issue": "Sibling Williamson Blvd already densified; International Speedway site has no separate weekly grid this pass"
+    },
+    {
+      "room": "Fort Pierce Poker & Jai-Alai",
+      "issue": "PokerAtlas: temporarily closed / no current tourneys"
+    },
+    {
+      "room": "Hon-Dah Casino",
+      "issue": "Official lists only 2026 specialty Sundays/Saturdays — no weekly grid"
+    },
+    {
+      "room": "Kings Card Club",
+      "issue": "Official site promotions/cash only — no tournament schedule"
+    },
+    {
+      "room": "Palace Poker Casino (Hayward)",
+      "issue": "Official site cash games only — no tournament schedule"
+    },
+    {
+      "room": "Jack Casino, Cleveland",
+      "issue": "Official poker page is cash stakes only — no tournament schedule"
+    },
+    {
+      "room": "Seven Mile Casino",
+      "issue": "No published weekly tournament buy-in/time grid this pass"
+    },
+    {
+      "room": "Mystic Lake Casino & Hotel",
+      "issue": "No published weekly tournament grid found this pass"
+    },
+    {
+      "room": "Choctaw Casino & Resort, Durant",
+      "issue": "Series/WSOPC only — no recurring weekly grid"
+    },
+    {
+      "room": "Tropicana Casino & Resort, Atlantic City",
+      "issue": "PokerAtlas: no current tournaments"
+    },
+    {
+      "room": "Northern Quest Resort & Casino",
+      "issue": "Official poker page cash-focused; PokerAtlas no current tourneys"
+    },
+    {
+      "room": "Hustler Casino",
+      "issue": "Still no current official tourney grid"
+    },
+    {
+      "room": "Lucky Chances",
+      "issue": "Calendar still lacks start times — no inventing"
+    },
+    {
+      "room": "Hialeah Park Casino",
+      "issue": "PokerAtlas: no current tournaments; official cash/high-hands"
+    },
+    {
+      "room": "The Casino @ Dania Beach",
+      "issue": "No stable full weekly buy-in/time grid"
+    },
+    {
+      "room": "Harrah's Pompano Beach",
+      "issue": "No stable official weekly sheet this pass"
+    },
+    {
+      "room": "Lone Butte Casino / Gila River Casino",
+      "issue": "See Poker Room for schedule — no public times"
+    },
+    {
+      "room": "Gun Lake Casino",
+      "issue": "Official poker page cash/high hands — Bravo app only"
+    },
+    {
+      "room": "Soaring Eagle Casino & Resort",
+      "issue": "Occasional Sat specials only — no weekly grid"
+    },
+    {
+      "room": "Four Winds Casino, New Buffalo",
+      "issue": "Still no New Buffalo-specific weekly grid"
+    },
+    {
+      "room": "Harrington Raceway & Casino",
+      "issue": "No published live weekly grid"
+    },
+    {
+      "room": "Casino @ Delaware Park",
+      "issue": "No published live weekly grid"
+    },
+    {
+      "room": "Coushatta Casino & Resort",
+      "issue": "Promotions/series only"
+    },
+    {
+      "room": "Horseshoe Black Hawk",
+      "issue": "PokerAtlas: no current tournaments"
+    }
+  ],
+  "diminishingReturns": false,
+  "diminishing_returns": false,
+  "notes": [
+    "Originals casino-obj-array.js / tourney-obj-array.js untouched.",
+    "El Dorado Hills Casino: NEW 0→2 from official edhcasino.com homepage (Deep Stack Saturdays $100/$4K GTD 3pm; Super Sunday Bankroll Builder $60+$40 rebuy 3pm).",
+    "Ocala Bets: NEW 0→7 from official ocalabets.com/tournament-calendar Sep 2026 recurring weeklies (Mon DBBP + freeroll, Tue Reba + DBBP bounty, Wed Mega Monster, Fri The Original, Sun Brunch Buster; series Blindside Blitz skipped).",
+    "Central Coast Casino: NEW 0→4 from official slo-poker.com Daily Game Schedule (Mon $20/$20 4pm, Fri $100/$60 4pm, Sun Survival $100/$20 10am freezeout, 1st Wed $100 5pm monthly).",
+    "js/rooms-with-schedules.js regenerated to match tourney seed.",
+    "Skip inventing / TCH JS walls / PokerAtlas-only / empty or stale official calendars listed in blockers.",
+    "Above diminishing-returns threshold this pass (<3 new rooms AND <15 new rows)."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-09-24T17:54:30.949987+00:00",
+  "statesWithStandaloneOrNonCasinoPokerModels": [
+    {
+      "state": "California",
+      "model": "Licensed standalone cardrooms (CGCC)",
+      "density": "high",
+      "status": "inventory complete vs CGCC operating list",
+      "file": "ca-cardrooms-inventory.json"
+    },
+    {
+      "state": "Florida",
+      "model": "Cardrooms only at qualifying pari-mutuel facilities (FGCC)",
+      "density": "high",
+      "status": "inventory mapped from FY25-26 licenses",
+      "file": "fl-cardrooms-inventory.json"
+    },
+    {
+      "state": "Washington",
+      "model": "Commercial stimulant cardrooms (WSGC), \u226415 tables",
+      "density": "high",
+      "status": "HB licensed list ingested",
+      "file": "wa-cardrooms-inventory.json"
+    },
+    {
+      "state": "Texas",
+      "model": "Private social poker clubs (gray-area / membership)",
+      "density": "high",
+      "status": "already ingested pass 13 (~28)",
+      "file": "tx-cardhouses-research.json"
+    },
+    {
+      "state": "Montana",
+      "model": "Live card games on licensed alcohol/gambling premises (DOJ GCD)",
+      "density": "medium-high long tail",
+      "status": "follow-up \u2014 100+ bars/casinos on MTR36 list; not dedicated cardrooms",
+      "source": "https://dojmt.gov/wp-content/uploads/mtr36-1.pdf",
+      "note": "Prefer larger public rooms in Billings/Missoula/Bozeman/Great Falls/Helena next pass"
+    },
+    {
+      "state": "Oregon",
+      "model": "Local social-games licenses (ORS 167.121); no statewide cardroom license",
+      "density": "low-medium",
+      "status": "follow-up \u2014 city/county social clubs (e.g. Rounders/Estacada, Oregon Poker Club/Milwaukie)",
+      "note": "No house bank; public social clubs vary by locality"
+    },
+    {
+      "state": "Minnesota",
+      "model": "Card clubs at racetracks (Canterbury, Running Aces)",
+      "density": "low",
+      "status": "already in seed as hasPoker"
+    },
+    {
+      "state": "New Hampshire",
+      "model": "Charitable gaming halls",
+      "density": "low",
+      "status": "follow-up"
+    },
+    {
+      "state": "Nevada",
+      "model": "Casino poker rooms (resort)",
+      "density": "high but not standalone cardrooms",
+      "status": "out of scope for standalone; casino rooms partially enriched"
+    }
+  ],
+  "followUpPriority": [
+    "Montana public live-card densest cities",
+    "Oregon social clubs with published schedules",
+    "NH charitable halls",
+    "WA remaining city-only addresses + Ace's brand sites",
+    "CA stale non-CGCC cleanup"
+  ]
+}

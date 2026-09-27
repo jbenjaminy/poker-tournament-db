@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-09-24T22:54:27.711Z",
+  "pass": 18,
+  "title": "Schedule densify — FL Orange City/Daytona/Oxford + CA Stars Tracy + Four Winds SB Fri + Turning Stone",
+  "before": {
+    "casinos": 996,
+    "tourneys": 430,
+    "hasPoker": 260,
+    "roomsWithSchedules": 81,
+    "verified": 304,
+    "unverified": 111
+  },
+  "after": {
+    "casinos": 996,
+    "tourneys": 459,
+    "hasPoker": 260,
+    "roomsWithSchedules": 85,
+    "verified": 334,
+    "unverified": 110
+  },
+  "deltas": {
+    "casinos": 0,
+    "tourneys": 29,
+    "hasPoker": 0,
+    "roomsWithSchedules": 4
+  },
+  "roomsNewlyCovered": [
+    "Orange City Racing and Card Club",
+    "Daytona Beach Kennel Club & Poker Room, Williamson Blvd",
+    "Stars Casino",
+    "Oxford Downs"
+  ],
+  "densified": [
+    {
+      "casinoName": "Orange City Racing and Card Club",
+      "before": 0,
+      "after": 8
+    },
+    {
+      "casinoName": "Daytona Beach Kennel Club & Poker Room, Williamson Blvd",
+      "before": 0,
+      "after": 8
+    },
+    {
+      "casinoName": "Stars Casino",
+      "before": 0,
+      "after": 3
+    },
+    {
+      "casinoName": "Oxford Downs",
+      "before": 0,
+      "after": 7
+    },
+    {
+      "casinoName": "Four Winds Casino South Bend",
+      "before": 3,
+      "after": 4
+    },
+    {
+      "casinoName": "Turning Stone Resort & Casino",
+      "before": 1,
+      "after": 3
+    }
+  ],
+  "topRoomsFilled": [
+    {
+      "casinoName": "Orange City Racing and Card Club",
+      "before": 0,
+      "after": 8
+    },
+    {
+      "casinoName": "Daytona Beach Kennel Club & Poker Room, Williamson Blvd",
+      "before": 0,
+      "after": 8
+    },
+    {
+      "casinoName": "Oxford Downs",
+      "before": 0,
+      "after": 7
+    },
+    {
+      "casinoName": "Four Winds Casino South Bend",
+      "before": 3,
+      "after": 4
+    },
+    {
+      "casinoName": "Stars Casino",
+      "before": 0,
+      "after": 3
+    },
+    {
+      "casinoName": "Turning Stone Resort & Casino",
+      "before": 1,
+      "after": 3
+    }
+  ],
+  "densifiedNotes": {
+    "Orange City Racing and Card Club": "0→8",
+    "Daytona Beach Kennel Club & Poker Room, Williamson Blvd": "0→8",
+    "Stars Casino": "0→3",
+    "Oxford Downs": "0→7",
+    "Four Winds Casino South Bend": "3→4",
+    "Turning Stone Resort & Casino": "1→3"
+  },
+  "blockers": [
+    {
+      "room": "Four Winds Casino, New Buffalo",
+      "issue": "Official poker-tournaments / promotions copy is tagged South Bend Poker; no New Buffalo-specific weekly grid found this pass"
+    },
+    {
+      "room": "TCH Social Austin",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Texas Card House Dallas",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "TCH Social Las Colinas",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Texas Card House Houston",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Texas Card House Spring",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Texas Card House Rio Grande Valley",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Paramount Social Club",
+      "issue": "Official tournaments pages returned 500 / empty from fetch — no stable HTML/PDF grid this pass"
+    },
+    {
+      "room": "Prime Social Club",
+      "issue": "Official daily page defers to PokerAtlas only — no first-party times to copy"
+    },
+    {
+      "room": "Poker House Fort Worth",
+      "issue": "Official events calendar JS-rendered empty — no scrapeable grid"
+    },
+    {
+      "room": "Shuffle 214",
+      "issue": "Official calendar page JS-walled / empty of times"
+    },
+    {
+      "room": "Harrington Raceway & Casino",
+      "issue": "Official tournaments page empty; PokerAtlas reports no current tournaments"
+    },
+    {
+      "room": "Casino @ Delaware Park",
+      "issue": "No published live weekly grid found this pass"
+    },
+    {
+      "room": "Ameristar Casino & Resort, Black Hawk",
+      "issue": "Official poker page cash/high-hands; PokerAtlas no tournaments"
+    },
+    {
+      "room": "Lone Butte Casino",
+      "issue": "Official Gila River poker page: Weekly Tournaments — See Poker Room for schedule (no public times)"
+    },
+    {
+      "room": "Gila River Casino",
+      "issue": "Same Gila River poker page — no published times"
+    },
+    {
+      "room": "Soaring Eagle Casino & Resort",
+      "issue": "Only sporadic Saturday specials ($300) — no weekly grid"
+    },
+    {
+      "room": "Derby Lane Poker Room",
+      "issue": "Win! Derby official site is date-by-date events, not a published recurring weekly grid"
+    },
+    {
+      "room": "Club 52 Poker at Melbourne Greyhound Park",
+      "issue": "Calendar splash has no readable weekly times this pass"
+    },
+    {
+      "room": "Harrah's Pompano Beach",
+      "issue": "Caesars WSOP poker page blocked (Incapsula); no current public grid retrieved"
+    },
+    {
+      "room": "The Big Easy Casino",
+      "issue": "Official poker page cash games only — no tournament schedule"
+    },
+    {
+      "room": "Ocala Bets",
+      "issue": "Sep PDF retrieved was simulcast/ITW schedule, not poker tourney grid; May poker PDF too stale to densify without current month"
+    },
+    {
+      "room": "Rivers Casino, Des Plaines",
+      "issue": "Official page confirms Monday-only $250 weekly — already covered; no additional days"
+    },
+    {
+      "room": "Hard Rock Casino Rockford",
+      "issue": "Official page points to printable monthly calendar link not resolved to a current PDF this pass"
+    },
+    {
+      "room": "Hustler Casino",
+      "issue": "Still no current official tourney grid"
+    },
+    {
+      "room": "Lucky Chances",
+      "issue": "Calendar still lacks start times — no inventing"
+    }
+  ],
+  "diminishingReturns": false,
+  "notes": [
+    "Originals casino-obj-array.js / tourney-obj-array.js untouched.",
+    "Orange City Racing and Card Club: NEW weekly grid from official upcoming page + Sep 2026 PDF (Mon–Sun + 1st-Thu monthly without invented buy-in).",
+    "Daytona Beach Kennel Club & Poker Room, Williamson Blvd: NEW weekly grid from official daytonabeachpoker.com upcoming list.",
+    "Stars Casino (Tracy): NEW Sun $20 / Mon–Thu $80 $1K GTD / Fri $160 bounty from official /tournaments.",
+    "Oxford Downs: NEW named recurring Mon/Fri/Sun + last-Saturday Monster Stack from betoxford.com (variable Thu/Sat midweek skipped).",
+    "Four Winds Casino South Bend: added Friday $125 1pm from official promotions (South Bend Poker).",
+    "Turning Stone: replaced thin unverified Wed STA with official Tue/Wed recurring weeklies; start times blank (not printed).",
+    "js/rooms-with-schedules.js regenerated to match tourney seed.",
+    "Skip inventing / TCH JS walls / empty official calendars listed in blockers.",
+    "Above diminishing-returns threshold this pass."
+  ]
+}

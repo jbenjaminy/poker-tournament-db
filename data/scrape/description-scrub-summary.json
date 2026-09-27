@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-09-24T13:24:21-05:00",
+  "file": "other/refreshed-casino-obj-array.js",
+  "totalCasinos": 996,
+  "hasPokerTrue": 255,
+  "descriptionRecordsBefore": 299,
+  "descriptionRecordsAfter": 140,
+  "cleared": 159,
+  "shortened": 127,
+  "changedRecords": 286,
+  "changedHasPoker": 180,
+  "examples": [
+    {
+      "name": "Wind Creek, Montgomery",
+      "before": "Class II gaming facility only; FAQ confirms no table games (Class III). No poker room.",
+      "after": "No poker room."
+    },
+    {
+      "name": "Wind Creek, Wetumpka",
+      "before": "Wind Creek Wetumpka — no poker room listed on official gaming pages (Class II style product).",
+      "after": "No poker room."
+    },
+    {
+      "name": "Harrahs Ak-Chin",
+      "before": "PokerAtlas reports no current tournaments; dedicated poker room not confirmed active in 2026 directories. House-banked games available.",
+      "after": "House-banked games available."
+    },
+    {
+      "name": "Lone Butte Casino",
+      "before": "Gila River Resorts & Casinos poker room is at Lone Butte: 8,000 sq ft, 36 tables, Bravo live, Bad Beat (quads beat). Weekly tournaments — see poker room for schedule (not published online).",
+      "after": "Lone Butte poker room: 8,000 sq ft, 36 tables, Bravo waitlist, Bad Beat jackpot, and weekly tournaments."
+    },
+    {
+      "name": "BlueWater Resort & Casino",
+      "before": "Parker AZ tribal resort. Current site emphasizes promotions/table games; weekly poker tournament grid not verified this pass.",
+      "after": ""
+    },
+    {
+      "name": "Buckys Casino",
+      "before": "Prescott-area (Yavapai). Official site does not publish current tournament grid this pass.",
+      "after": ""
+    },
+    {
+      "name": "Gila River Casino",
+      "before": "Legacy seed name for Gila River properties. Live poker is at Lone Butte Casino (see that entry).",
+      "after": ""
+    },
+    {
+      "name": "Vee Quiva Hotel & Casino",
+      "before": "Gila River property; current official poker page features Lone Butte as the poker home. Vee Quiva emphasizes bingo/table games.",
+      "after": ""
+    }
+  ],
+  "similarTextFieldsCleaned": 6,
+  "similarTextFieldExamples": [
+    {
+      "name": "Lonestar Social Poker Club",
+      "field": "hours",
+      "after": "Mon/Wed/Fri 5 PM–7 AM; Sat 7 PM–7 AM; closed Tue/Thu"
+    },
+    {
+      "name": "Lonestar Social Poker Club",
+      "field": "otherGames",
+      "after": "Private social club; free membership for new members"
+    },
+    {
+      "name": "Spades Poker House Webster",
+      "field": "hours",
+      "after": "24/7 tables"
+    },
+    {
+      "name": "Spades Poker House Baytown",
+      "field": "hours",
+      "after": "24/7 tables"
+    },
+    {
+      "name": "Alamo City Poker Club",
+      "field": "hours",
+      "after": "Thu/Fri/Sat doors at 6 PM and Sunday events; Tue/Wed availability by text"
+    },
+    {
+      "name": "Stars Casino",
+      "field": "gamesOffered",
+      "after": "Texas Hold'em / poker cardroom"
+    }
+  ]
+}

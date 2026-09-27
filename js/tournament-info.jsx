@@ -1,90 +1,102 @@
 var React = require('react');
+var router = require('react-router');
 var connect = require('react-redux').connect;
+var Link = router.Link;
 
 var TournamentInfo = React.createClass({
+	isRealValue: function(val) {
+		if (val === null || val === undefined) { return false; }
+		var s = String(val).trim();
+		if (!s) { return false; }
+		var lower = s.toLowerCase();
+		if (lower === 'text' || lower === 'n/a' || lower === 'na' || lower === 'null' || lower === 'undefined' || lower === '-') {
+			return false;
+		}
+		return true;
+	},
+
+	propClass: function(val) {
+		return this.isRealValue(val) ? 'tournament-prop' : 'tournament-prop hidden';
+	},
 
   	render: function () {
-  		
-  		var tournamentArr = this.props.tournaments.map(function(tournament) {
+		var self = this;
+		var tournaments = this.props.tournaments || [];
 
-  			var dayClass = 'tournament-prop ';
-	  		var startClass = 'tournament-prop ';
-	  		var regStartClass = 'tournament-prop ';
-	  		var regEndClass = 'tournament-prop ';
-	  		var gameClass = 'tournament-prop ';
-	  		var buyinClass = 'tournament-prop ';
-	  		var startingChipsClass = 'tournament-prop ';
-	  		var rebuyClass = 'tournament-prop ';
-	  		var addOnClass = 'tournament-prop ';
-	  		var bountyClass = 'tournament-prop ';
-	  		var reEntryClass = 'tournament-prop ';
-	  		var prizeGtdClass = 'tournament-prop ';
-	  		var otherClass = 'tournament-prop ';
-			if (!tournament.day) {
-				dayClass += 'hidden';
-			};
-			if (!tournament.start) {
-				startClass += 'hidden';
-			};
-			if (!tournament.reg_start) {
-				regStartClass += 'hidden';
-			};
-			if (!tournament.reg_end) {
-				regEndClass += 'hidden';
-			};
-			if (!tournament.game) {
-				gameClass += 'hidden';
-			};
-			if (!tournament.buyin) {
-				buyinClass += 'hidden';
-			};
-			if (!tournament.starting_chips) {
-				startingChipsClass += 'hidden';
-			};
-			if (!tournament.rebuy) {
-				rebuyClass += 'hidden';
-			};
-			if (!tournament.add_on) {
-				addOnClass += 'hidden';
-			};
-			if (!tournament.bounty) {
-				bountyClass += 'hidden';
-			};
-			if (!tournament.reentry) {
-				reEntryClass += 'hidden';
-			};
-			if (!tournament.prize_gtd) {
-				prizeGtdClass += 'hidden';
-			};
-			if (!tournament.other) {
-				otherClass += 'hidden';
-			};
+  		var tournamentArr = tournaments.map(function(tournament) {
+			var day = tournament.day;
+			var start = tournament.tourney_start;
+			var regStart = tournament.reg_start;
+			var regEnd = tournament.reg_end;
+			var game = tournament.game;
+			var buyin = tournament.buyin;
+			var chips = tournament.starting_chips;
+			var rebuy = tournament.rebuy;
+			var addOn = tournament.add_on;
+			var bounty = tournament.bounty;
+			var reEntry = tournament.re_entry;
+			var prizeGtd = tournament.prize_gtd;
+			var other = tournament.other;
+
+			var highlights = [];
+			if (self.isRealValue(day)) { highlights.push({ key: 'day', label: 'Day', value: day }); }
+			if (self.isRealValue(start)) { highlights.push({ key: 'start', label: 'Starts', value: start }); }
+			if (self.isRealValue(buyin)) { highlights.push({ key: 'buyin', label: 'Buy-in', value: buyin }); }
+			if (self.isRealValue(game)) { highlights.push({ key: 'game', label: 'Game', value: game }); }
+
+			var highlightNodes = highlights.map(function(h) {
+				return (
+					<span className="tourney-chip" key={h.key}>
+						<span className="tourney-chip-label">{h.label}</span>
+						<span className="tourney-chip-value">{h.value}</span>
+					</span>
+				);
+			});
+
 			return (
-				<li key={tournament.id}>
+				<li key={tournament.id} className="tournament-card">
 					<ul className="tournament">
-						<li className="tournament-prop" id="name" key="1"><p className="title">Name:&nbsp;</p><h4 className='name'>{tournament.name}</h4></li>
-		    			<li className={dayClass} id="day" key="2"><p className="title">Day:&nbsp;</p>{tournament.day}</li>
-		    			<li className={startClass} id="tourney-start" key="3"><p className="title">Tournament Start Time:&nbsp;</p>{tournament.tourney_start}</li>
-		    			<li className={regStartClass} id="reg-start" key="4"><p className="title">Registration Start Time:&nbsp;</p>{tournament.regStart}</li>
-		    			<li className={regEndClass} id="reg-end" key="5"><p className="title">Registration End Time:&nbsp;</p>{tournament.reg_end}</li>
-		    			<li className={gameClass} id="game" key="6"><p className="title">Game:&nbsp;</p>{tournament.game}</li>
-		    			<li className={buyinClass} id="buyin" key="7"><p className="title">Buy-in:&nbsp;</p>{tournament.buyin}</li>
-		    			<li className={startingChipsClass} id="starting-chips" key="8"><p className="title">Starting Chips:&nbsp;</p>{tournament.starting_chips}</li>
-		    			<li className={rebuyClass} id="rebuy" key="9"><p className="title">Re-buy:&nbsp;</p>{tournament.rebuy}</li>
-		      			<li className={addOnClass} id="add-on" key="10"><p className="title">Add-on:&nbsp;</p>{tournament.add_on}</li>
-		      			<li className={bountyClass} id="bounty" key="11"><p className="title">Bounty:&nbsp;</p>{tournament.bounty}</li>
-		      			<li className={reEntryClass} id="re-entry" key="12"><p className="title">Re-entry:&nbsp;</p>{tournament.re_entry}</li>
-		      			<li className={prizeGtdClass} id="prize-gtd" key="13"><p className="title">Prize Guarantee:&nbsp;</p>{tournament.prize_gtd}</li>
-		      			<li className={otherClass} id="other" key="14"><p className="title">Additional Information:&nbsp;</p>{tournament.other}</li>
+						<li className="tournament-prop tournament-name" id="name" key="1">
+							<h4 className="name">{tournament.name || 'Tournament'}</h4>
+						</li>
+						{highlightNodes.length ? (
+							<li className="tournament-prop tournament-highlights" key="highlights">
+								{highlightNodes}
+							</li>
+						) : null}
+		    			<li className={self.propClass(regStart)} id="reg-start" key="4"><p className="title">Registration opens</p><span>{regStart}</span></li>
+		    			<li className={self.propClass(regEnd)} id="reg-end" key="5"><p className="title">Registration closes</p><span>{regEnd}</span></li>
+		    			<li className={self.propClass(chips)} id="starting-chips" key="8"><p className="title">Starting chips</p><span>{chips}</span></li>
+		    			<li className={self.propClass(rebuy)} id="rebuy" key="9"><p className="title">Re-buy</p><span>{rebuy}</span></li>
+		      			<li className={self.propClass(addOn)} id="add-on" key="10"><p className="title">Add-on</p><span>{addOn}</span></li>
+		      			<li className={self.propClass(bounty)} id="bounty" key="11"><p className="title">Bounty</p><span>{bounty}</span></li>
+		      			<li className={self.propClass(reEntry)} id="re-entry" key="12"><p className="title">Re-entry</p><span>{reEntry}</span></li>
+		      			<li className={self.propClass(prizeGtd)} id="prize-gtd" key="13"><p className="title">Prize guarantee</p><span>{prizeGtd}</span></li>
+		      			<li className={self.propClass(other)} id="other" key="14"><p className="title">Notes</p><span>{other}</span></li>
 					</ul>
 				</li>
 			);
-		})
+		});
+
+	    var casinos = (this.props.params && this.props.params.casinos) ? this.props.params.casinos : 'allcasinos';
+	    var name = (this.props.params && this.props.params.name) ? this.props.params.name : '';
+	    var casinoPath = '/' + casinos + (name ? '/' + name : '');
+	    var listPath = '/' + casinos;
+	    var displayName = (this.props.casino && this.props.casino.name) ? this.props.casino.name : 'this casino';
+		var empty = !tournaments.length;
 
 	    return (
-	    		<div>
-	    			<h3>Tournament info for: {this.props.casino.name}</h3>
-	    			<ol>{tournamentArr}</ol>
+	    		<div className="tournament-info">
+	    			<div className="detail-toolbar">
+	    				<Link to={casinoPath} className="back-link">← Back to casino</Link>
+	    				<Link to={listPath} className="back-link back-link-muted">← Search</Link>
+	    			</div>
+	    			<h3>Tournaments at {displayName}</h3>
+	    			{empty ? (
+	    				<p className="tourney-empty">No tournament schedule on file for this room yet. Check the room’s calendar link on the casino page, or check back after the next data refresh.</p>
+	    			) : (
+	    				<ol className="tournament-list">{tournamentArr}</ol>
+	    			)}
 	    		</div>
     	);
   	}

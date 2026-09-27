@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-09-24T16:59:59.634Z",
+  "pass": 11,
+  "masters": {
+    "casinos": 908,
+    "tourneys": 332
+  },
+  "casinoMetaStatus": {
+    "verified": 75,
+    "unverified": 283,
+    "stale": 550
+  },
+  "tourneyMetaStatus": {
+    "verified": 244,
+    "unverified": 73,
+    "stale": 15
+  },
+  "casinosWithLastChecked": 361,
+  "thisPassFocus": {
+    "California": {
+      "casinos": 136,
+      "verified": 13,
+      "unverified": 123,
+      "stale": 0,
+      "tourneyRows": 104,
+      "verifiedTourneys": 78,
+      "unverifiedTourneys": 11
+    },
+    "Nevada": {
+      "casinos": 210,
+      "verified": 6,
+      "unverified": 14,
+      "stale": 190,
+      "tourneyRows": 42,
+      "verifiedTourneys": 40,
+      "unverifiedTourneys": 2
+    }
+  },
+  "notes": {
+    "verifiedTourneyDelta": "+6 Bellagio (official Contentstack PDF)",
+    "caStaleClearedAsEmpty": 90,
+    "aria": "official page no buy-in grid — PA rows remain unverified",
+    "aliantePokerPalace": "no live public grid",
+    "furtherPassHighValue": false,
+    "remainingHighValueIfAny": [
+      "Aria — only if official daily PDF appears",
+      "NV stale Strip bulk (~190) similar empty-confirm pass",
+      "Sycuan / Bear River — upgrade PA to verified with official",
+      "JS-blocked rooms only with PDF"
+    ]
+  }
+}

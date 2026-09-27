@@ -9,7 +9,7 @@
   "scripts": {
     "test": "mocha --compilers js:babel-register test/**/*.js*",
     "mkdir": "mkdir -p build",
-    "build": "npm run clean && npm run mkdir && npm run build:html && npm run build:css && npm run build:js",
+    "build": "npm run clean && npm run mkdir && npm run build:html && npm run build:css && npm run build:assets && npm run build:js",
     "start": "node server.js",
     "watch": "npm run watch:html & npm run watch:css & npm run watch:js",
     "clean": "rm -rf build",
@@ -22,7 +22,10 @@
     "build:js": "npm run clean:js && webpack",
     "watch:js": "npm run build:js && webpack --watch",
     "clean:js": "rm -f build/$npm_package_name.$npm_package_version.js build/$npm_package_name.$npm_package_version.js.map",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "build:assets": "mkdir -p build/images && cp -f css/images/* build/images/",
+    "preview": "node mock-server.js",
+    "start:mock": "node mock-server.js"
   },
   "babel": {
     "presets": [

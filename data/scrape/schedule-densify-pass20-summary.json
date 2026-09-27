@@ -1,0 +1,273 @@
+{
+  "generatedAt": "2026-09-24T23:04:51.463Z",
+  "pass": 20,
+  "title": "Schedule densify — FL Derby Lane (Win! Derby) + TX Doghouse + Hangar + Palace Poker",
+  "before": {
+    "casinos": 996,
+    "tourneys": 483,
+    "hasPoker": 260,
+    "roomsWithSchedules": 88,
+    "verified": 358,
+    "unverified": 110
+  },
+  "after": {
+    "casinos": 996,
+    "tourneys": 518,
+    "hasPoker": 260,
+    "roomsWithSchedules": 92,
+    "verified": 393,
+    "unverified": 110
+  },
+  "deltas": {
+    "casinos": 0,
+    "tourneys": 35,
+    "hasPoker": 0,
+    "roomsWithSchedules": 4
+  },
+  "roomsNewlyCovered": [
+    "Derby Lane Poker Room",
+    "Doghouse Poker Club",
+    "The Hangar Poker House",
+    "Palace Poker Texas"
+  ],
+  "densified": [
+    {
+      "casinoName": "Derby Lane Poker Room",
+      "before": 0,
+      "after": 13
+    },
+    {
+      "casinoName": "Doghouse Poker Club",
+      "before": 0,
+      "after": 7
+    },
+    {
+      "casinoName": "The Hangar Poker House",
+      "before": 0,
+      "after": 7
+    },
+    {
+      "casinoName": "Palace Poker Texas",
+      "before": 0,
+      "after": 8
+    }
+  ],
+  "topRoomsFilled": [
+    {
+      "casinoName": "Derby Lane Poker Room",
+      "before": 0,
+      "after": 13
+    },
+    {
+      "casinoName": "Palace Poker Texas",
+      "before": 0,
+      "after": 8
+    },
+    {
+      "casinoName": "Doghouse Poker Club",
+      "before": 0,
+      "after": 7
+    },
+    {
+      "casinoName": "The Hangar Poker House",
+      "before": 0,
+      "after": 7
+    }
+  ],
+  "densifiedNotes": {
+    "Derby Lane Poker Room": "0→13",
+    "Doghouse Poker Club": "0→7",
+    "The Hangar Poker House": "0→7",
+    "Palace Poker Texas": "0→8"
+  },
+  "blockers": [
+    {
+      "room": "TCH Social Austin",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Texas Card House Dallas",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "TCH Social Las Colinas",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Texas Card House Houston",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Texas Card House Spring",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Texas Card House Rio Grande Valley",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Club 52 Poker at Melbourne Greyhound Park",
+      "issue": "Official calendar splash/PDF captcha-walled; PokerAtlas Sep grid exists but no first-party scrape this pass"
+    },
+    {
+      "room": "Prime Social Club",
+      "issue": "Official page defers to PokerAtlas — no first-party grid"
+    },
+    {
+      "room": "Spades Poker House Webster / Baytown",
+      "issue": "Schedule links on homepage unresolved / no scrapeable grid this pass"
+    },
+    {
+      "room": "Shuffle 512",
+      "issue": "Calendar is JS widget — no scrapeable buy-in/time grid"
+    },
+    {
+      "room": "Paramount Social Club",
+      "issue": "Official tournaments pages returned 500 / empty previously — skipped"
+    },
+    {
+      "room": "Hialeah Park Casino",
+      "issue": "PokerAtlas: no current tournaments; official page is cash high-hands only"
+    },
+    {
+      "room": "The Casino @ Dania Beach",
+      "issue": "Official poker page lists Sep guarantees by date; no stable full weekly buy-in/time grid"
+    },
+    {
+      "room": "Lucky's Card Room (TGT Poker)",
+      "issue": "Official site promotes series events; no stable first-party weekly grid this pass"
+    },
+    {
+      "room": "One-Eyed Jack's Poker Room",
+      "issue": "Official events calendar empty of recurring weeklies this pass"
+    },
+    {
+      "room": "Creek Entertainment Gretna",
+      "issue": "PokerAtlas reports no current tournaments; official calendar stale"
+    },
+    {
+      "room": "Magic City Casino",
+      "issue": "Official poker calendars are high-hands/cash promotions — no tournament schedule"
+    },
+    {
+      "room": "Gulfstream Park Racing & Casino",
+      "issue": "No current official weekly tournament grid found"
+    },
+    {
+      "room": "Calder Casino",
+      "issue": "Card room is table games/high hands — no tournament schedule"
+    },
+    {
+      "room": "Seminole Casino Hotel, Immokalee",
+      "issue": "PokerAtlas reports no current tournaments"
+    },
+    {
+      "room": "Seminole Casino, Coconut Creek",
+      "issue": "Daily tournaments blog posts are 2022–2024 stale — not used"
+    },
+    {
+      "room": "Seminole Classic Casino, Hollywood",
+      "issue": "No published weekly grid found this pass"
+    },
+    {
+      "room": "Miccosukee Resort & Gaming",
+      "issue": "No published weekly tournament grid this pass"
+    },
+    {
+      "room": "Tampa Bay Downs / Silks",
+      "issue": "Official tournaments page image/JS empty — no scrapeable grid"
+    },
+    {
+      "room": "Naples Fort Myers Kennel Club & Poker Room",
+      "issue": "PokerAtlas says no current tourneys; announcements may be stale; official site empty of grid"
+    },
+    {
+      "room": "Pensacola Greyhound Park Poker Room",
+      "issue": "Official poker calendar page has no listed events; PokerAtlas says no current tournaments"
+    },
+    {
+      "room": "Harrah's Pompano Beach",
+      "issue": "Caesars poker page thin; PokerAtlas shows Tue/Thu $200 6pm only — no stable official weekly sheet this pass"
+    },
+    {
+      "room": "The Big Easy Casino",
+      "issue": "Official poker page promotes cash/high hands — no tournament schedule"
+    },
+    {
+      "room": "Hustler Casino",
+      "issue": "Still no current official tourney grid"
+    },
+    {
+      "room": "Lucky Chances",
+      "issue": "Calendar still lacks start times — no inventing"
+    },
+    {
+      "room": "Livermore Casino",
+      "issue": "Official calendar lists Poker Tournament without buy-ins/names — no inventing"
+    },
+    {
+      "room": "Bankers Casino",
+      "issue": "Official tournaments still TBA / see floor"
+    },
+    {
+      "room": "Clovis 500 Club / The Clovis 500 Club",
+      "issue": "PokerAtlas: no current tournaments"
+    },
+    {
+      "room": "Artichoke Joes Casino",
+      "issue": "PokerAtlas: no current tournaments; official is cash games"
+    },
+    {
+      "room": "Cache Creek Casino",
+      "issue": "No published weekly poker tournament grid"
+    },
+    {
+      "room": "Gun Lake Casino",
+      "issue": "Official poker page is cash/high hands — Bravo app only"
+    },
+    {
+      "room": "Soaring Eagle Casino & Resort",
+      "issue": "Official lists only occasional Sat specials — no weekly grid"
+    },
+    {
+      "room": "Four Winds Casino, New Buffalo",
+      "issue": "Still no New Buffalo-specific weekly grid this pass"
+    },
+    {
+      "room": "Harrington Raceway & Casino",
+      "issue": "No published live weekly grid"
+    },
+    {
+      "room": "Casino @ Delaware Park",
+      "issue": "No published live weekly grid found this pass"
+    },
+    {
+      "room": "Lone Butte Casino",
+      "issue": "Gila River: See Poker Room for schedule — no public times"
+    },
+    {
+      "room": "Gila River Casino",
+      "issue": "Same — no published times"
+    },
+    {
+      "room": "Coushatta Casino & Resort",
+      "issue": "Promotions only; series events not weekly grid"
+    },
+    {
+      "room": "Horseshoe Black Hawk",
+      "issue": "PokerAtlas: no current tournaments"
+    }
+  ],
+  "diminishingReturns": false,
+  "diminishing_returns": false,
+  "notes": [
+    "Originals casino-obj-array.js / tourney-obj-array.js untouched.",
+    "Derby Lane Poker Room: NEW 0→13 from official win-derby.com/poker-tournaments Sep 2026 recurring weeklies (satellites/series skipped).",
+    "Doghouse Poker Club: NEW 0→7 from official doghousepokerclub.com nightly GTD schedule.",
+    "The Hangar Poker House: NEW 0→7 from official hangarpokerhouse.com/tournament Mon–Sun grid.",
+    "Palace Poker Texas: NEW 0→8 from official palacepoker.com calendar event details (Breakfast Club, Daily NLH, Mon bounty, Wed nightly, Thu PLO, Fri re-entry, Sat Powerstack, Sun Saddle-Up).",
+    "js/rooms-with-schedules.js regenerated to match tourney seed.",
+    "Skip inventing / TCH JS walls / empty or stale official calendars listed in blockers.",
+    "Above diminishing-returns threshold this pass (<3 new rooms AND <15 new rows)."
+  ]
+}

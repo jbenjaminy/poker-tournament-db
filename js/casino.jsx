@@ -3,6 +3,12 @@ var router = require('react-router');
 var connect = require('react-redux').connect;
 var actions = require('./actions');
 var Link = router.Link;
+var roomsWithSchedules = require('./rooms-with-schedules');
+
+var scheduleSet = {};
+(roomsWithSchedules || []).forEach(function(name) {
+	scheduleSet[name] = true;
+});
 
 var Casino = React.createClass({
 	getDetails: function (event) {
@@ -15,10 +21,19 @@ var Casino = React.createClass({
 
   	render: function () {
   		var casino = this.props.casino;
+  		var splitAt = casino.indexOf(': ');
+  		var name = splitAt > -1 ? casino.substr(0, splitAt) : casino;
+  		var meta = splitAt > -1 ? casino.substr(splitAt + 2) : '';
+  		var slug = name.split(',').join('4').split('&').join('$').split(' ').join('_');
+  		var hasSchedule = !!scheduleSet[name];
     	return (
-		      	<li className="output-item" key={this.props.casino} >
-			      	<Link to={`/${this.props.list}/${this.props.casino.substr(0, casino.indexOf(': ')).match(/[A-Za-z]+/g).join('')}`} onClick={this.getDetails}>
-			      		{casino}
+		      	<li className={'output-item' + (hasSchedule ? ' has-schedule' : '')} key={this.props.casino} >
+			      	<Link to={`/${this.props.list}/${slug}`} onClick={this.getDetails}>
+			      		<span className="casino-result-main">
+			      			<span className="casino-result-name">{name}</span>
+			      			{hasSchedule ? <span className="schedule-badge" title="Daily or weekly tournament schedule on file">Schedule</span> : null}
+			      		</span>
+			      		{meta ? <span className="casino-result-meta">{meta}</span> : null}
 			      	</Link>
 		     	</li>
 	    );

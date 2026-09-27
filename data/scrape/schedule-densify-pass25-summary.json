@@ -1,0 +1,285 @@
+{
+  "generatedAt": "2026-09-24T23:33:37.574Z",
+  "pass": 25,
+  "title": "Schedule densify — FL Dania Beach + TX Champions Club Texas + TX Amarillo Social Club",
+  "before": {
+    "casinos": 996,
+    "tourneys": 569,
+    "hasPoker": 263,
+    "roomsWithSchedules": 106,
+    "verified": 444,
+    "unverified": 110
+  },
+  "after": {
+    "casinos": 996,
+    "tourneys": 588,
+    "hasPoker": 263,
+    "roomsWithSchedules": 109,
+    "verified": 463,
+    "unverified": 110
+  },
+  "deltas": {
+    "casinos": 0,
+    "tourneys": 19,
+    "hasPoker": 0,
+    "roomsWithSchedules": 3
+  },
+  "roomsNewlyCovered": [
+    "The Casino @ Dania Beach",
+    "Champions Club Texas",
+    "Amarillo Social Club"
+  ],
+  "densified": [
+    {
+      "casinoName": "The Casino @ Dania Beach",
+      "before": 0,
+      "after": 6
+    },
+    {
+      "casinoName": "Champions Club Texas",
+      "before": 0,
+      "after": 5
+    },
+    {
+      "casinoName": "Amarillo Social Club",
+      "before": 0,
+      "after": 8
+    }
+  ],
+  "topRoomsFilled": [
+    {
+      "casinoName": "Amarillo Social Club",
+      "before": 0,
+      "after": 8
+    },
+    {
+      "casinoName": "The Casino @ Dania Beach",
+      "before": 0,
+      "after": 6
+    },
+    {
+      "casinoName": "Champions Club Texas",
+      "before": 0,
+      "after": 5
+    }
+  ],
+  "densifiedNotes": {
+    "The Casino @ Dania Beach": "0→6",
+    "Champions Club Texas": "0→5",
+    "Amarillo Social Club": "0→8"
+  },
+  "blockers": [
+    {
+      "room": "Mardi Gras Casino (Black Hawk)",
+      "issue": "Same property/address as already-densified Bally's Black Hawk (9 rows) — do not duplicate schedule under Mardi Gras alias"
+    },
+    {
+      "room": "Four Winds Casino, New Buffalo",
+      "issue": "Shared fourwindscasino.com/promotions/poker-tournaments/ grid already attributed to South Bend — no New Buffalo-specific weekly grid"
+    },
+    {
+      "room": "Ace's Poker Lakewood",
+      "issue": "WSGG listing 404 this pass; not a separate master casino row; license/status unclear post Jun 2026"
+    },
+    {
+      "room": "New Phoenix / Last Frontier (La Center)",
+      "issue": "Official March-dated promo page; MapQuest permanently closed / WSGC license expired Jun 30 2026 — skip stale"
+    },
+    {
+      "room": "Oaks Card Club",
+      "issue": "Official site: Poker Tournaments Currently Unavailable"
+    },
+    {
+      "room": "Coyote Bob's Casino",
+      "issue": "Official WSGG listing promotions/table games only — no poker tourney buy-in grid"
+    },
+    {
+      "room": "Great American Casino Everett / Tukwila",
+      "issue": "Official WSGG listings promotions only — no poker tourney grid"
+    },
+    {
+      "room": "Riverside Casino",
+      "issue": "Official WSGG listing promotions only — no poker tourney grid"
+    },
+    {
+      "room": "Fortune Casino Renton / Shoreline / Tukwila / La Center",
+      "issue": "No first-party buy-in/time pages found this pass (Lacey already densified)"
+    },
+    {
+      "room": "TCH Social Austin / Dallas / Las Colinas / Houston / Spring / RGV",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Poker House Fort Worth",
+      "issue": "Official /events calendar empty for Sep 2026; PokerAtlas announcements not used"
+    },
+    {
+      "room": "The Fort Card Room",
+      "issue": "Official game-info Weekly/Daily Events sections empty — no scrapeable buy-in/time grid"
+    },
+    {
+      "room": "Spades Poker House Webster / Baytown",
+      "issue": "Official site defers Schedule links to PokerAtlas — no first-party grid"
+    },
+    {
+      "room": "Shuffle 214 / Shuffle 512",
+      "issue": "Official calendars JS/empty or PokerAtlas-deferred — no first-party buy-in/time grid"
+    },
+    {
+      "room": "SA Card House",
+      "issue": "Official /tournaments page still 2020-era TOC text — no current weekly grid"
+    },
+    {
+      "room": "Prime Social Club",
+      "issue": "Official /tournaments defers details to PokerAtlas — no first-party buy-in/time grid"
+    },
+    {
+      "room": "Paramount Social Club",
+      "issue": "Official /tournaments page fetch failed / SSL this pass — skip"
+    },
+    {
+      "room": "Nineteenth Hole",
+      "issue": "Official site lists Sat/Sun Sit-n-Go at 1pm but no buy-in — no inventing"
+    },
+    {
+      "room": "Oceanview Card Room",
+      "issue": "Official site lists times but no buy-ins — no inventing"
+    },
+    {
+      "room": "Cameo Club Casino",
+      "issue": "Official domain parked / for sale — no scrapeable grid"
+    },
+    {
+      "room": "Lucky Derby Casino",
+      "issue": "luckyderby.com domain for sale — no scrapeable grid"
+    },
+    {
+      "room": "Hustler Casino",
+      "issue": "Still no current official tourney grid"
+    },
+    {
+      "room": "Lucky Chances",
+      "issue": "Calendar still lacks start times — no inventing"
+    },
+    {
+      "room": "Parkwest Casino Lotus / 580 / Cordova / Manteca",
+      "issue": "No published weekly poker tourney grids this pass"
+    },
+    {
+      "room": "Crystal Casino / Casino M8trix / Oaks Card Club",
+      "issue": "Still empty / no scrapeable tourney grids (Oaks: tournaments unavailable)"
+    },
+    {
+      "room": "Seminole Casino, Coconut Creek",
+      "issue": "Published daily rack cards still 2022-stale / PDF not parseable as current weekly sheet this pass"
+    },
+    {
+      "room": "Seminole Casino Hotel, Immokalee",
+      "issue": "No current official weekly tourney grid; PokerAtlas none"
+    },
+    {
+      "room": "Seminole Classic Casino, Hollywood",
+      "issue": "No separate Classic weekly grid (Hard Rock Hollywood already densified)"
+    },
+    {
+      "room": "Gun Lake Casino",
+      "issue": "Official poker page cash/hours — Bravo app only; no buy-in/time grid"
+    },
+    {
+      "room": "Horseshoe Casino, Baltimore",
+      "issue": "Official Caesars poker page Incapsula-blocked; no scrapeable current weekly sheet"
+    },
+    {
+      "room": "Cache Creek Casino / Barona Resort & Casino",
+      "issue": "Official /casino/poker 404 this pass"
+    },
+    {
+      "room": "Napa Valley Casino",
+      "issue": "Official site cash 24/7; no published weekly tourney grid"
+    },
+    {
+      "room": "Artichoke Joes Casino",
+      "issue": "Official site cash/dining focused; no tournament schedule"
+    },
+    {
+      "room": "Club 52 Poker",
+      "issue": "Official calendar-splash is JS image calendar — no scrapeable buy-in text grid this pass"
+    },
+    {
+      "room": "Desert Bluffs / Tri-Cities Poker (bluffs.poker)",
+      "issue": "Official site is JS SPA — skip JS wall; not a master casino row"
+    },
+    {
+      "room": "River Cree Resort & Casino",
+      "issue": "Alberta CA — out of US master scope"
+    },
+    {
+      "room": "Harrington Raceway & Casino",
+      "issue": "Official tournaments page empty (\"check back for updates\"); PokerAtlas reports no current tourneys"
+    },
+    {
+      "room": "Casino @ Delaware Park",
+      "issue": "Official poker page cash/promotions only; no published tourney grid"
+    },
+    {
+      "room": "Soaring Eagle Casino & Resort",
+      "issue": "Official page lists date-specific Saturday specials only — no recurring weekly buy-in grid"
+    },
+    {
+      "room": "Ameristar Casino & Resort, Black Hawk",
+      "issue": "Official poker page cash/high-hand only; Bravo app for current info — no published weekly tourney grid"
+    },
+    {
+      "room": "Monarch Casino Resort Spa Black Hawk",
+      "issue": "Official page high-hand promotions; PokerAtlas reports no current tourneys"
+    },
+    {
+      "room": "Magic City Casino",
+      "issue": "Official Sep 2026 calendar is high-hand promotions only — no tournament buy-in grid"
+    },
+    {
+      "room": "Tampa Bay Downs / Silks Poker Room",
+      "issue": "Official poker page shows Currently Closed"
+    },
+    {
+      "room": "California Grand Casino",
+      "issue": "Official poker page cash/jackpots/promotions only — no tournament schedule"
+    },
+    {
+      "room": "Northern Quest Resort & Casino",
+      "issue": "Official poker page cash games only — no published tourney grid"
+    },
+    {
+      "room": "Lake Elsinore Hotel & Casino",
+      "issue": "Official /pages/weekly-tournaments is marketing copy with no buy-in/time grid"
+    },
+    {
+      "room": "Gila River / Lone Butte Casino",
+      "issue": "Official poker page: Weekly Tournaments — See Poker Room for schedule — no scrapeable grid"
+    },
+    {
+      "room": "Harrah's Pompano Beach",
+      "issue": "harrahspompanopoker.com still shows Jul 2024-dated posts — skip stale"
+    },
+    {
+      "room": "The Clovis 500 Club",
+      "issue": "Official tournaments URL 500 this pass; PokerAtlas reports no current tourneys"
+    },
+    {
+      "room": "Champions Social Club (Dallas)",
+      "issue": "Official poker page cash/lessons focused — no published weekly buy-in tourney grid this pass"
+    }
+  ],
+  "diminishingReturns": false,
+  "diminishing_returns": false,
+  "notes": [
+    "Originals casino-obj-array.js / tourney-obj-array.js untouched.",
+    "The Casino @ Dania Beach: NEW 0→6 from official Sept 2026 tournament calendar + Wed $60/$4K flyer (Mon/Thu deepstack $120/$5K, Tue $100/$5K, Wed $60/$4K, Fri $200/$15K, Sat $20/$4K; Sundays rotating specials omitted).",
+    "Champions Club Texas: NEW 0→5 from official Sep 2026 events calendar (Mon–Fri 1pm $40 1K GTD; Mon 5:30pm 4K; Wed 5:30pm 5K PLO; Thu 5:30pm $20 Turbo; Fri 5:30pm 15K Unchained; Saturday specials vary — omitted).",
+    "Amarillo Social Club: NEW 0→8 from official amarillosocialclub.com/poker-schedule/ recurring weeklies (Mon 1pm freezeout, Wed freebuy, Thu $126/$2K, Fri 30-for-30K + $51 night, Sat $101 + $81 freezeout, Sun freebuy).",
+    "js/rooms-with-schedules.js regenerated to match tourney seed.",
+    "Skip inventing / TCH JS walls / PokerAtlas-only / empty or stale official calendars listed in blockers.",
+    "Mardi Gras Casino Black Hawk intentionally not densified — duplicate of already-covered Bally's Black Hawk.",
+    "Above diminishing-returns threshold this pass (<3 new rooms AND <15 new rows)."
+  ]
+}

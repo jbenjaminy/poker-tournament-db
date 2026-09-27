@@ -1,0 +1,297 @@
+{
+  "generatedAt": "2026-09-24T17:48:42.854Z",
+  "pass": 13,
+  "title": "Quality enrichment — NV Strip/locals + CA cardrooms + TX cardhouses ingest",
+  "before": {
+    "casinos": 933,
+    "tourneys": 356,
+    "hasPoker": 187,
+    "fieldFill": {
+      "hours": {
+        "filled": 39,
+        "empty": 148,
+        "total": 187,
+        "rate": 20.9
+      },
+      "gamesOffered": {
+        "filled": 33,
+        "empty": 154,
+        "total": 187,
+        "rate": 17.6
+      },
+      "phone": {
+        "filled": 163,
+        "empty": 24,
+        "total": 187,
+        "rate": 87.2
+      },
+      "website": {
+        "filled": 167,
+        "empty": 20,
+        "total": 187,
+        "rate": 89.3
+      },
+      "pokerUrl": {
+        "filled": 106,
+        "empty": 81,
+        "total": 187,
+        "rate": 56.7
+      },
+      "description": {
+        "filled": 114,
+        "empty": 73,
+        "total": 187,
+        "rate": 61
+      }
+    },
+    "TX": 7,
+    "TXpoker": 7,
+    "verifiedTourneys": 250
+  },
+  "after": {
+    "casinos": 954,
+    "tourneys": 355,
+    "hasPoker": 204,
+    "fieldFill": {
+      "hours": {
+        "filled": 87,
+        "empty": 117,
+        "total": 204,
+        "rate": 42.6
+      },
+      "gamesOffered": {
+        "filled": 102,
+        "empty": 102,
+        "total": 204,
+        "rate": 50
+      },
+      "phone": {
+        "filled": 195,
+        "empty": 9,
+        "total": 204,
+        "rate": 95.6
+      },
+      "website": {
+        "filled": 192,
+        "empty": 12,
+        "total": 204,
+        "rate": 94.1
+      },
+      "pokerUrl": {
+        "filled": 135,
+        "empty": 69,
+        "total": 204,
+        "rate": 66.2
+      },
+      "description": {
+        "filled": 149,
+        "empty": 55,
+        "total": 204,
+        "rate": 73
+      }
+    },
+    "TX": 28,
+    "TXpoker": 28,
+    "CA": 155,
+    "CApoker": 81,
+    "NV": 210,
+    "NVpoker": 10,
+    "verifiedTourneys": 251,
+    "unverifiedTourneys": 89
+  },
+  "deltas": {
+    "casinos": 21,
+    "tourneys": -1,
+    "hasPoker": 17,
+    "TX": 21,
+    "TXpoker": 21,
+    "hoursFilledRate": {
+      "before": {
+        "filled": 39,
+        "empty": 148,
+        "total": 187,
+        "rate": 20.9
+      },
+      "after": {
+        "filled": 87,
+        "empty": 117,
+        "total": 204,
+        "rate": 42.6
+      }
+    },
+    "gamesOfferedFillRate": {
+      "before": {
+        "filled": 33,
+        "empty": 154,
+        "total": 187,
+        "rate": 17.6
+      },
+      "after": {
+        "filled": 102,
+        "empty": 102,
+        "total": 204,
+        "rate": 50
+      }
+    },
+    "phoneFillRate": {
+      "before": {
+        "filled": 163,
+        "empty": 24,
+        "total": 187,
+        "rate": 87.2
+      },
+      "after": {
+        "filled": 195,
+        "empty": 9,
+        "total": 204,
+        "rate": 95.6
+      }
+    },
+    "websiteFillRate": {
+      "before": {
+        "filled": 167,
+        "empty": 20,
+        "total": 187,
+        "rate": 89.3
+      },
+      "after": {
+        "filled": 192,
+        "empty": 12,
+        "total": 204,
+        "rate": 94.1
+      }
+    }
+  },
+  "fieldsFilledThisPass": {
+    "hours": 31,
+    "gamesOffered": 45,
+    "phone": 15,
+    "website": 8,
+    "pokerUrl": 8,
+    "description": 15
+  },
+  "tx": {
+    "researchVenues": 27,
+    "newlyAdded": [
+      "The Lodge Card Club Round Rock",
+      "The Lodge Card Club San Antonio",
+      "Champions Club Texas",
+      "Prime Social Club",
+      "Paramount Social Club",
+      "Doghouse Poker Club",
+      "The Hangar Poker House",
+      "Lonestar Social Poker Club",
+      "Empire Poker Club",
+      "Spades Poker House Webster",
+      "Spades Poker House Baytown",
+      "101 Poker Club",
+      "Palace Poker Texas",
+      "Champions Social Club",
+      "Shuffle 512",
+      "Shuffle 214",
+      "SA Card House",
+      "Alamo City Poker Club",
+      "Poker House Fort Worth",
+      "The Fort Card Room",
+      "Amarillo Social Club"
+    ],
+    "newlyAddedCount": 21,
+    "updatedExisting": [
+      "TCH Social Austin",
+      "Texas Card House Dallas",
+      "TCH Social Las Colinas",
+      "Texas Card House Houston",
+      "Texas Card House Spring",
+      "Texas Card House Rio Grande Valley"
+    ],
+    "updatedCount": 6
+  },
+  "closedPokerRoomsMarked": 4,
+  "tourneys": {
+    "verifiedOrAdded": 1,
+    "netAdded": 0,
+    "ariaDailyVerified": true
+  },
+  "notableFixes": [
+    "NV enrich: Bellagio Hotel & Casino",
+    "NV enrich: Wynn, Las Vegas",
+    "NV enrich: Aria Resort & Casino, Las Vegas",
+    "NV enrich: The Venetian",
+    "NV enrich: The Orleans Hotel & Casino",
+    "NV enrich: South Point Hotel, Casino & Spa",
+    "NV enrich: Red Rock Casino Resort & Spa",
+    "NV enrich: Green Valley Ranch Resort, Casino & Spa",
+    "NV enrich: Boulder Station Hotel & Casino",
+    "NV enrich: Santa Fe Station Hotel & Casino",
+    "Closed poker: Suncoast Hotel & Casino, Las Vegas",
+    "Closed poker: Palace Station Hotel & Casino, Las Vegas",
+    "Closed poker: Sams Town Hotel & Gambling Hall",
+    "Closed poker: Poker Palace Casino",
+    "Aria daily $200 NLH 1pm verified (7-day row)",
+    "TX updated existing: TCH Social Austin; Texas Card House Dallas; TCH Social Las Colinas; Texas Card House Houston; Texas Card House Spring; Texas Card House Rio Grande Valley",
+    "TX newly added (21): The Lodge Card Club Round Rock; The Lodge Card Club San Antonio; Champions Club Texas; Prime Social Club; Paramount Social Club; Doghouse Poker Club; The Hangar Poker House; Lonestar Social Poker Club; Empire Poker Club; Spades Poker House Webster; Spades Poker House Baytown; 101 Poker Club; Palace Poker Texas; Champions Social Club; Shuffle 512; Shuffle 214; SA Card House; Alamo City Poker Club; Poker House Fort Worth; The Fort Card Room; Amarillo Social Club",
+    "CA enrich: Palace Poker Casino",
+    "CA enrich: Stars Casino",
+    "CA enrich: Kings Card Club",
+    "CA enrich: Westlane Card Room",
+    "CA enrich: Casino 99",
+    "CA enrich: Casino Chico",
+    "CA enrich: Casino Club",
+    "CA enrich: El Dorado Hills Casino",
+    "CA enrich: Ace & Vine",
+    "CA enrich: Commerce Casino",
+    "CA enrich: The Bicycle Hotel & Casino",
+    "CA enrich: The Gardens Casino",
+    "CA enrich: Hustler Casino",
+    "CA enrich: Hollywood Park Casino",
+    "CA enrich: Lucky Chances",
+    "CA enrich: Players Casino",
+    "CA enrich: Stones Gambling Hall",
+    "CA enrich: Seven Mile Casino",
+    "CA enrich: Limelight Cardroom",
+    "CA enrich: Capitol Casino",
+    "CA enrich: Club One Casino",
+    "CA enrich: Graton Resort & Casino",
+    "CA enrich: Delta Club",
+    "CA enrich: Central Coast Casino",
+    "CA enrich: Merced Poker Room",
+    "CA enrich: Comstock Card Room",
+    "CA enrich: Village Club Card Room",
+    "CA enrich: Parkwest Casino Lotus",
+    "CA enrich: Parkwest Casino Lotus",
+    "CA enrich: Parkwest Casino 580",
+    "CA enrich: Parkwest Casino Cordova",
+    "CA enrich: Parkwest Casino Lodi",
+    "CA enrich: Parkwest Casino Manteca",
+    "Phone fill: Foxwoods Casino & Resort",
+    "Phone fill: Hard Rock Casino Rockford",
+    "Phone fill: Rivers Casino Portsmouth",
+    "Phone fill: Caesars Virginia",
+    "Phone fill: Horseshoe Black Hawk",
+    "Phone fill: 4 Bears Casino & Lodge",
+    "Pass 13b: exact-name fix Orleans + Sams Town LV; cleared Kickapoo soft hours; Santa Fe desk phone; scrubbed residual text placeholders"
+  ],
+  "filesChanged": [
+    "data/scrape/master-casinos.jsonl",
+    "data/scrape/master-tournaments.jsonl",
+    "data/scrape/refreshed-casino-obj-array.js",
+    "data/scrape/refreshed-tourney-obj-array.js",
+    "other/refreshed-casino-obj-array.js",
+    "other/refreshed-tourney-obj-array.js",
+    "data/scrape/progress.md",
+    "data/scrape/enrichment-pass-summary.json",
+    "data/scrape/_pass13_enrichment.js"
+  ],
+  "finalSuccess": {
+    "hoursFilledAmongHasPoker": 87,
+    "gamesOfferedFilledAmongHasPoker": 102,
+    "phoneFilledAmongHasPoker": 195,
+    "websiteFilledAmongHasPoker": 192,
+    "hoursDeltaFilledPts": 21.7,
+    "gamesDeltaFilledPts": 32.4,
+    "newTxVenuesAdded": 21,
+    "txExistingEnriched": 6,
+    "closedNvRoomsCorrected": 4,
+    "ariaDailyVerified": true
+  }
+}

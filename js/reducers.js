@@ -16,7 +16,7 @@ var reducer = function(state, action) {
 			});
 	} else if (action.type === actions.FETCH_CASINO_DETAILS_SUCCESS) {
 		return Object.assign({}, state, {
-			casino: action.casino[0]
+			casino: (action.casino && action.casino[0]) ? action.casino[0] : {}
 		});
 	} else if (action.type === actions.FETCH_CASINO_DETAILS_ERROR) {
 		return Object.assign({}, state, {

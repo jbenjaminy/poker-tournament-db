@@ -1,0 +1,206 @@
+{
+  "generatedAt": "2026-09-24T20:02:34.413Z",
+  "pass": 16,
+  "title": "Schedule densify — CA Gardens/Bay101/Commerce + FL bestbet weeklies",
+  "before": {
+    "casinos": 996,
+    "tourneys": 397,
+    "hasPoker": 260,
+    "roomsWithSchedules": 77,
+    "verified": 271,
+    "unverified": 111
+  },
+  "after": {
+    "casinos": 996,
+    "tourneys": 417,
+    "hasPoker": 260,
+    "roomsWithSchedules": 80,
+    "verified": 291,
+    "unverified": 111
+  },
+  "deltas": {
+    "casinos": 0,
+    "tourneys": 20,
+    "hasPoker": 0,
+    "roomsWithSchedules": 3
+  },
+  "roomsNewlyCovered": [
+    "bestbet Jacksonville",
+    "Bestbet, Orange Park",
+    "bestbet St. Augustine"
+  ],
+  "densified": [
+    {
+      "casinoName": "The Gardens Casino",
+      "before": 9,
+      "after": 9
+    },
+    {
+      "casinoName": "Bay 101",
+      "before": 1,
+      "after": 7
+    },
+    {
+      "casinoName": "Commerce Casino",
+      "before": 4,
+      "after": 5
+    },
+    {
+      "casinoName": "The Bicycle Hotel & Casino",
+      "before": 11,
+      "after": 10
+    },
+    {
+      "casinoName": "bestbet Jacksonville",
+      "before": 0,
+      "after": 4
+    },
+    {
+      "casinoName": "Bestbet, Orange Park",
+      "before": 0,
+      "after": 4
+    },
+    {
+      "casinoName": "bestbet St. Augustine",
+      "before": 0,
+      "after": 6
+    }
+  ],
+  "topRoomsFilled": [
+    {
+      "casinoName": "The Bicycle Hotel & Casino",
+      "before": 11,
+      "after": 10
+    },
+    {
+      "casinoName": "The Gardens Casino",
+      "before": 9,
+      "after": 9
+    },
+    {
+      "casinoName": "Bay 101",
+      "before": 1,
+      "after": 7
+    },
+    {
+      "casinoName": "bestbet St. Augustine",
+      "before": 0,
+      "after": 6
+    },
+    {
+      "casinoName": "Commerce Casino",
+      "before": 4,
+      "after": 5
+    },
+    {
+      "casinoName": "bestbet Jacksonville",
+      "before": 0,
+      "after": 4
+    },
+    {
+      "casinoName": "Bestbet, Orange Park",
+      "before": 0,
+      "after": 4
+    }
+  ],
+  "blockers": [
+    {
+      "room": "Hustler Casino",
+      "issue": "Official page still links 2019/2020 PDFs; PokerAtlas reports no current tournaments — left empty"
+    },
+    {
+      "room": "Lucky Chances",
+      "issue": "Calendar publishes buy-ins/days but still no start times — retained prior rows without inventing times"
+    },
+    {
+      "room": "Crystal Casino",
+      "issue": "CardOpz shows 0 tournaments this week; no current official grid"
+    },
+    {
+      "room": "Casino M8trix",
+      "issue": "Homepage/poker pages promote cash/table games only; no published weekly tourney grid"
+    },
+    {
+      "room": "Oaks Card Club",
+      "issue": "Official upcoming-tournaments / PokerAtlas: no current tournaments"
+    },
+    {
+      "room": "Kings Card Club",
+      "issue": "Site shows promotions only; no published weekly tourney grid"
+    },
+    {
+      "room": "Artichoke Joes Casino",
+      "issue": "games.php empty/blocked via fetch; no clear public weekly grid this pass"
+    },
+    {
+      "room": "Gold Coast Hotel & Casino, Las Vegas",
+      "issue": "Poker room closed 2011 (consolidated to Orleans); no poker schedule"
+    },
+    {
+      "room": "Sams Town Hotel & Gambling Hall",
+      "issue": "PokerAtlas: does not currently run poker tournaments; official page Incapsula-blocked"
+    },
+    {
+      "room": "Palace Station Hotel & Casino, Las Vegas",
+      "issue": "Live poker room closed (2020); no tournaments"
+    },
+    {
+      "room": "Suncoast Hotel & Casino, Las Vegas",
+      "issue": "Official poker page Incapsula-blocked; no confirmed reopened tourney grid this pass"
+    },
+    {
+      "room": "Club 52 Poker at Melbourne Greyhound Park",
+      "issue": "Calendar splash JS/empty via fetch; no stable published weekly grid"
+    },
+    {
+      "room": "Orange City Racing and Card Club",
+      "issue": "Site promotes high hands / cash; no published weekly tourney grid found"
+    },
+    {
+      "room": "Harrah's Pompano Beach",
+      "issue": "Official blog posts stale (2024); PokerAtlas blocked — skipped inventing"
+    },
+    {
+      "room": "The Casino @ Dania Beach",
+      "issue": "poker-room page redirects/blocked via fetch this pass"
+    },
+    {
+      "room": "TCH Social Austin",
+      "issue": "JS-walled calendars — skip inventing; contact-only"
+    },
+    {
+      "room": "Texas Card House Dallas",
+      "issue": "JS-walled calendars — skip inventing; contact-only"
+    },
+    {
+      "room": "TCH Social Las Colinas",
+      "issue": "JS-walled calendars — skip inventing; contact-only"
+    },
+    {
+      "room": "Texas Card House Houston",
+      "issue": "JS-walled calendars — skip inventing; contact-only"
+    },
+    {
+      "room": "Texas Card House Spring",
+      "issue": "JS-walled calendars — skip inventing; contact-only"
+    },
+    {
+      "room": "Texas Card House Rio Grande Valley",
+      "issue": "JS-walled calendars — skip inventing; contact-only"
+    }
+  ],
+  "notes": [
+    "Originals casino-obj-array.js / tourney-obj-array.js untouched.",
+    "The Gardens Casino: already had 9 rows; Pass 16 replaced/re-verified from official /tournaments/daily/* pages (SNGs omitted).",
+    "Bay 101: homepage Daily Tournaments grid now has Mon–Sun times (bypassed /events 403) — 1→7.",
+    "Commerce: Friday 4pm added from official PDF (40K chips vs Mon–Thu 30K) — 4→5.",
+    "Bicycle: Nooner Tue/Wed/Fri 12:00am corrected to 12:00pm and merged Mon–Fri — 11→10.",
+    "bestbet Jax/OP/StA: NEW recurring weeklies from Sep 2026 official calendars (series weeks may override).",
+    "NV: Gold Coast poker closed 2011; Palace Station poker closed; Sam's Town/Suncoast no confirmed grids.",
+    "TCH still JS-walled — contact-only.",
+    "Skip inventing when only buy-in/day without times (Lucky Chances)."
+  ],
+  "densifiedNotes": {
+    "The Gardens Casino": "already covered; re-verified official daily pages"
+  }
+}

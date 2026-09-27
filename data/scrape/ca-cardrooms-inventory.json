@@ -1,0 +1,615 @@
+{
+  "generatedAt": "2026-09-24T17:53:48.453392+00:00",
+  "source": "https://cgcc.ca.gov/?pageID=ActiveGEGE",
+  "secondarySource": "https://oag.ca.gov/gambling/cardroomlist",
+  "cgccTotalLicensesReported": 78,
+  "operatingCount": 56,
+  "notOperatingCount": 22,
+  "seedCoverage": "All 56 CGCC operating establishments matched to existing seed rows (aliases).",
+  "operating": [
+    {
+      "name": "500 Club Casino",
+      "seedName": "The Clovis 500 Club",
+      "address": "771 W. Shaw Avenue, Suites 101-108, Clovis, CA 93612, USA",
+      "tables": 21,
+      "status": "Active",
+      "license": "GEGE-001361"
+    },
+    {
+      "name": "Ace & Vine",
+      "seedName": "Ace & Vine",
+      "address": "505 Lincoln Ave, Napa, CA 94558, USA",
+      "tables": 11,
+      "status": "Active with Conditions",
+      "license": "GEGE-001359"
+    },
+    {
+      "name": "Artichoke Joe's Casino",
+      "seedName": "Artichoke Joes Casino",
+      "address": "659 Huntington Avenue, San Bruno, CA 94066, USA",
+      "tables": 51,
+      "status": "Interim Renewal License",
+      "license": "GEGE-001007"
+    },
+    {
+      "name": "Bankers Casino",
+      "seedName": "Bankers Casino",
+      "address": "111 Monterey Street, Salinas, CA 93901, USA",
+      "tables": 11,
+      "status": "Active",
+      "license": "GEGE-001297"
+    },
+    {
+      "name": "Bay 101",
+      "seedName": "Bay 101",
+      "address": "1788 N. First Street, San Jose, CA 95112, USA",
+      "tables": 49,
+      "status": "Active",
+      "license": "GEGE-000989"
+    },
+    {
+      "name": "California Grand Casino",
+      "seedName": "California Grand Casino",
+      "address": "5988 Pacheco Boulevard, Pacheco, CA 94553, USA",
+      "tables": 19,
+      "status": "Active",
+      "license": "GEGE-000450"
+    },
+    {
+      "name": "Capitol Casino",
+      "seedName": "Capitol Casino",
+      "address": "411 North 16th Street, Sacramento, CA 95811, USA",
+      "tables": 19,
+      "status": "Active",
+      "license": "GEGE-000404"
+    },
+    {
+      "name": "Casino 99",
+      "seedName": "Casino 99",
+      "address": "175 E. 20th Street Suite 150, Chico, CA 95928, USA",
+      "tables": 8,
+      "status": "Active with Conditions",
+      "license": "GEGE-001384"
+    },
+    {
+      "name": "Casino Chico",
+      "seedName": "Casino Chico",
+      "address": "325 Broadway Street, Chico, CA 95928, USA",
+      "tables": 7,
+      "status": "Active",
+      "license": "GEGE-001340"
+    },
+    {
+      "name": "Casino Club",
+      "seedName": "Casino Club",
+      "address": "1885 Hilltop Drive, Redding, CA 96002, USA",
+      "tables": 5,
+      "status": "Active",
+      "license": "GEGE-000951"
+    },
+    {
+      "name": "Casino M8trix",
+      "seedName": "Casino M8trix",
+      "address": "1887 Matrix Blvd., San Jose, CA 95110, USA",
+      "tables": 49,
+      "status": "Active",
+      "license": "GEGE-000410"
+    },
+    {
+      "name": "Casino Merced",
+      "seedName": "Merced Poker Room",
+      "address": "1459 Martin Luther King, Jr. Way, Ste 4-6, Merced, CA 95340, USA",
+      "tables": 6,
+      "status": "Active",
+      "license": "GEGE-001379"
+    },
+    {
+      "name": "Central Coast Casino",
+      "seedName": "Central Coast Casino",
+      "address": "359 Grand Avenue, Grover Beach, CA 93433, USA",
+      "tables": 4,
+      "status": "Active",
+      "license": "GEGE-001029"
+    },
+    {
+      "name": "Club One Casino",
+      "seedName": "Club One Casino",
+      "address": "3950 North Cedar Avenue, Fresno, CA 93726, USA",
+      "tables": 51,
+      "status": "Active",
+      "license": "GEGE-001121",
+      "addressUpdated": true,
+      "notes": "CGCC address is Cedar Ave (not Van Ness)."
+    },
+    {
+      "name": "Club San Rafael",
+      "seedName": "Club San Rafael",
+      "address": "721 Lincoln Avenue, San Rafael, CA 94901, USA",
+      "tables": 4,
+      "status": "Active with Conditions",
+      "license": "GEGE-000962"
+    },
+    {
+      "name": "Commerce Casino",
+      "seedName": "Commerce Casino",
+      "address": "6131 East Telegraph Road, Commerce, CA 90040, USA",
+      "tables": 374,
+      "status": "Int. Rnwl. Lic. w/ Conditions",
+      "license": "GEGE-001093"
+    },
+    {
+      "name": "Crystal Casino",
+      "seedName": "Crystal Casino",
+      "address": "123 East Artesia Boulevard, Compton, CA 90220, USA",
+      "tables": 42,
+      "status": "Active",
+      "license": "GEGE-001282"
+    },
+    {
+      "name": "Diamond Jim's Casino",
+      "seedName": "Diamonds Jims Casino",
+      "address": "118 20th St W, Rosamond, CA 93560, USA",
+      "tables": 30,
+      "status": "Interim Renewal License",
+      "license": "GEGE-000236"
+    },
+    {
+      "name": "El Dorado Hills Casino",
+      "seedName": "El Dorado Hills Casino",
+      "address": "3909 Park Drive, Suite #200, El Dorado Hills, CA 95762, USA",
+      "tables": 10,
+      "status": "Temporary with Conditions",
+      "license": "GEGE-001344"
+    },
+    {
+      "name": "Empire Sportsmen's Association",
+      "seedName": "Empire Sportsmen Association",
+      "address": "5001 North McHenry Avenue, Modesto, CA 95356, USA",
+      "tables": 10,
+      "status": "Active",
+      "license": "GEGE-000990"
+    },
+    {
+      "name": "Garlic City Club",
+      "seedName": "Garlic City Casino & Restaurant",
+      "address": "8630 San Ysidro Avenue, Suite 100, Gilroy, CA 95020, USA",
+      "tables": 12,
+      "status": "Active",
+      "license": "GEGE-001173"
+    },
+    {
+      "name": "Golden West Casino",
+      "seedName": "Golden West Casino",
+      "address": "1001 South Union Avenue, Bakersfield, CA 93307, USA",
+      "tables": 45,
+      "status": "Active",
+      "license": "GEGE-000426"
+    },
+    {
+      "name": "Hawaiian Gardens Casino",
+      "seedName": "The Gardens Casino",
+      "address": "11871 Carson Street, Hawaiian Gardens, CA 90716, USA",
+      "tables": 374,
+      "status": "Active",
+      "license": "GEGE-000392"
+    },
+    {
+      "name": "Hollywood Park Casino",
+      "seedName": "Hollywood Park Casino",
+      "address": "3883 West Century Boulevard, Inglewood, CA 90303, USA",
+      "tables": 75,
+      "status": "Interim Renewal License",
+      "license": "GEGE-001367"
+    },
+    {
+      "name": "Hustler Casino",
+      "seedName": "Hustler Casino",
+      "address": "1000 West Redondo Beach Blvd., Gardena, CA 90247, USA",
+      "tables": 91,
+      "status": "Active with Conditions",
+      "license": "GEGE-001388"
+    },
+    {
+      "name": "Isleton Casino",
+      "seedName": "Isleton Casino",
+      "address": "204 2nd Street, Isleton, CA 95641, USA",
+      "tables": 4,
+      "status": "Active with Conditions",
+      "license": "GEGE-001370"
+    },
+    {
+      "name": "Kings Card Club",
+      "seedName": "Kings Card Club",
+      "address": "6111 West Lane, #103, Stockton, CA 95210, USA",
+      "tables": 11,
+      "status": "Active",
+      "license": "GEGE-001313"
+    },
+    {
+      "name": "Lake Elsinore Hotel and Casino",
+      "seedName": "Lake Elsinore Hotel & Casino",
+      "address": "20930 Malaga Road, Lake Elsinore, CA 92530, USA",
+      "tables": 22,
+      "status": "Provisional License (Conditions)",
+      "license": "GEGE-001149"
+    },
+    {
+      "name": "Larry Flynt's Lucky Lady Casino",
+      "seedName": "Larry Flynts Lucky Lady Casino",
+      "address": "1045 West Rosecrans Avenue, Gardena, CA 90247, USA",
+      "tables": 50,
+      "status": "Active with Conditions",
+      "license": "GEGE-001343"
+    },
+    {
+      "name": "Limelight Card Room",
+      "seedName": "Limelight Cardroom",
+      "address": "1014 Alhambra Boulevard, Sacramento, CA 95816, USA",
+      "tables": 10,
+      "status": "Active",
+      "license": "GEGE-001376"
+    },
+    {
+      "name": "Livermore Casino",
+      "seedName": "Livermore Casino",
+      "address": "3571 First Street, Livermore, CA 94550, USA",
+      "tables": 9,
+      "status": "Active with Conditions",
+      "license": "GEGE-001107"
+    },
+    {
+      "name": "Lucky Chances Casino",
+      "seedName": "Lucky Chances",
+      "address": "1700 Hillside Boulevard, Colma, CA 94014, USA",
+      "tables": 60,
+      "status": "Active with Conditions",
+      "license": "GEGE-001108"
+    },
+    {
+      "name": "Marina Club",
+      "seedName": "The Marina Club Casino",
+      "address": "204 Carmel Avenue, Marina, CA 93933, USA",
+      "tables": 10,
+      "status": "Interim Renewal License",
+      "license": "GEGE-001353"
+    },
+    {
+      "name": "Napa Valley Casino",
+      "seedName": "Napa Valley Casino",
+      "address": "3466 Broadway Street, American Canyon, CA 94503, USA",
+      "tables": 16,
+      "status": "Active",
+      "license": "GEGE-001279"
+    },
+    {
+      "name": "North Coast Casino",
+      "seedName": "North Coast Casino",
+      "address": "26 5th Street, Eureka, CA 95501, USA",
+      "tables": 6,
+      "status": "Active",
+      "license": "GEGE-001391"
+    },
+    {
+      "name": "Oaks Card Club",
+      "seedName": "Oaks Card Club",
+      "address": "4097 San Pablo Avenue, Emeryville, CA 94608, USA",
+      "tables": 30,
+      "status": "Active",
+      "license": "GEGE-001063"
+    },
+    {
+      "name": "Ocean's Eleven Casino",
+      "seedName": "Ocean's 11 Casino",
+      "address": "121 Brooks Street, Oceanside, CA 92054, USA",
+      "tables": 50,
+      "status": "Active",
+      "license": "GEGE-000473"
+    },
+    {
+      "name": "Oceanview Cardroom",
+      "seedName": "Oceanview Card Room",
+      "address": "709 Pacific Avenue, Santa Cruz, CA 95060, USA",
+      "tables": 4,
+      "status": "Temporary with Conditions",
+      "license": "GEGE-001025"
+    },
+    {
+      "name": "Outlaws Card Parlour",
+      "seedName": "Outlaws Card Parlour",
+      "address": "9850 East Front Road, Atascadero, CA 93422, USA",
+      "tables": 5,
+      "status": "Int. Rnwl. Lic. w/ Conditions",
+      "license": "GEGE-001356"
+    },
+    {
+      "name": "Palace Poker Casino, LLC",
+      "seedName": "Palace Poker Casino",
+      "address": "22821 Mission Boulevard, Hayward, CA 94542, USA",
+      "tables": 13,
+      "status": "Active",
+      "license": "GEGE-001302"
+    },
+    {
+      "name": "Parkwest Bicycle Casino",
+      "seedName": "The Bicycle Hotel & Casino",
+      "address": "888 Bicycle Casino Drive, Bell Gardens, CA 90201, USA",
+      "tables": 250,
+      "status": "Active with Conditions",
+      "license": "GEGE-001390"
+    },
+    {
+      "name": "Parkwest Casino 580",
+      "seedName": "Parkwest Casino 580",
+      "address": "968 North Canyons Parkway, Livermore, CA 94550, USA",
+      "tables": 16,
+      "status": "Active",
+      "license": "GEGE-001322"
+    },
+    {
+      "name": "Parkwest Casino Cordova",
+      "seedName": "Parkwest Casino Cordova",
+      "address": "2801 Prospect Park Drive, Rancho Cordova, CA 95670, USA",
+      "tables": 11,
+      "status": "Active",
+      "license": "GEGE-001300"
+    },
+    {
+      "name": "Parkwest Casino Lodi",
+      "seedName": "Parkwest Casino Lodi",
+      "address": "1800 South Cherokee Lane, Lodi, CA 95240, USA",
+      "tables": 15,
+      "status": "Interim Renewal License",
+      "license": "GEGE-001299"
+    },
+    {
+      "name": "Parkwest Casino Lotus",
+      "seedName": "Parkwest Casino Lotus",
+      "address": "6010 Stockton Boulevard, Sacramento, CA 95824, USA",
+      "tables": 19,
+      "status": "Active",
+      "license": "GEGE-001321"
+    },
+    {
+      "name": "Parkwest Casino Manteca",
+      "seedName": "Parkwest Casino Manteca",
+      "address": "1355 North Main Street, Manteca, CA 95336, USA",
+      "tables": 13,
+      "status": "Active with Conditions",
+      "license": "GEGE-001383"
+    },
+    {
+      "name": "Player's Casino",
+      "seedName": "Players Casino",
+      "address": "10 West Harbor Boulevard, Ventura, CA 93001, USA",
+      "tables": 19,
+      "status": "Active",
+      "license": "GEGE-001323"
+    },
+    {
+      "name": "Seven Mile Casino",
+      "seedName": "Seven Mile Casino",
+      "address": "285 Bay Boulevard, Chula Vista, CA 91910, USA",
+      "tables": 20,
+      "status": "Active",
+      "license": "GEGE-000466"
+    },
+    {
+      "name": "Stars Casino",
+      "seedName": "Stars Casino",
+      "address": "3170 Naglee Road, Tracy, CA 95304, USA",
+      "tables": 11,
+      "status": "Active",
+      "license": "GEGE-001371"
+    },
+    {
+      "name": "The Aviator Casino",
+      "seedName": "The Aviator Casino",
+      "address": "1225 Airport Drive, Delano, CA 93215, USA",
+      "tables": 5,
+      "status": "Active with Conditions",
+      "license": "GEGE-001387"
+    },
+    {
+      "name": "The Nineteenth Hole",
+      "seedName": "Nineteenth Hole",
+      "address": "2746 West Tregallas Road, Antioch, CA 94509, USA",
+      "tables": 5,
+      "status": "Active with Conditions",
+      "license": "GEGE-000967"
+    },
+    {
+      "name": "The Saloon at Stones Gambling Hall",
+      "seedName": "Stones Gambling Hall",
+      "address": "6508 Antelope Road, Citrus Heights, CA 95621, USA",
+      "tables": 17,
+      "status": "Active",
+      "license": "GEGE-001373"
+    },
+    {
+      "name": "The Tavern at Stones Gambling Hall",
+      "seedName": "Stones Gambling Hall",
+      "address": "6510 Antelope Road, Citrus Heights, CA 95621, USA",
+      "tables": 17,
+      "status": "Active",
+      "license": "GEGE-001374",
+      "notes": "Second CGCC license at Stones complex; seed keeps single Stones Gambling Hall row."
+    },
+    {
+      "name": "Towers Casino",
+      "seedName": "Towers Casino & Card Room",
+      "address": "115 Bank Street, Grass Valley, CA 95945, USA",
+      "tables": 8,
+      "status": "Int. Rnwl. Lic. w/ Conditions",
+      "license": "GEGE-001318"
+    },
+    {
+      "name": "Turlock Poker Room",
+      "seedName": "Turlock Poker Room",
+      "address": "2321-C West Main Street, Turlock, CA 95380, USA",
+      "tables": 14,
+      "status": "Int. Rnwl. Lic. w/ Conditions",
+      "license": "GEGE-001263"
+    },
+    {
+      "name": "Westlane Card Room",
+      "seedName": "Westlane Card Room",
+      "address": "6111 West Lane, Suite 101, Stockton, CA 95210, USA",
+      "tables": 11,
+      "status": "Active",
+      "license": "GEGE-001314"
+    }
+  ],
+  "notOperating": [
+    {
+      "name": "Bruce's Bar and Casino",
+      "city": "Blythe",
+      "status": "Active - Not Operating"
+    },
+    {
+      "name": "California Club Casino",
+      "city": "San Ramon",
+      "status": "Active - Not Operating"
+    },
+    {
+      "name": "Cameo Club",
+      "city": "Stockton",
+      "status": "Active - Not Operating",
+      "seedName": "Cameo Club Casino"
+    },
+    {
+      "name": "Casino Marysville",
+      "city": "Marysville",
+      "status": "Active - Not Operating",
+      "seedName": "Casino Marysville"
+    },
+    {
+      "name": "Epoch Casino",
+      "city": "Rancho Cordova",
+      "address": "11275 Folsom Blvd, Rancho Cordova, CA 95742",
+      "status": "Temporary with Conditions-Not Operating",
+      "license": "GEGE-001394"
+    },
+    {
+      "name": "Golden State Casino",
+      "city": "Marysville",
+      "status": "Active - Not Operating"
+    },
+    {
+      "name": "Golden Valley Casino",
+      "city": "Merced",
+      "status": "Int. Rnwl. Lic. w/ Conditions - NonOp"
+    },
+    {
+      "name": "Hacienda Casino",
+      "city": "Cudahy",
+      "status": "Active - Not Operating"
+    },
+    {
+      "name": "Jalisco Pool Room",
+      "city": "Guadalupe",
+      "status": "Active - Not Operating"
+    },
+    {
+      "name": "La Primavera Pool Hall & Cafe",
+      "city": "Madera",
+      "status": "Active - Not Operating"
+    },
+    {
+      "name": "Lake Bowl Cardroom",
+      "city": "Folsom",
+      "status": "Active - Not Operating"
+    },
+    {
+      "name": "Mike's Card Casino",
+      "city": "Oakdale",
+      "status": "Active - Not Operating"
+    },
+    {
+      "name": "Oceana Cardroom",
+      "city": "Oceano",
+      "status": "Active - Not Operating"
+    },
+    {
+      "name": "Old Cayucos Tavern",
+      "city": "Cayucos",
+      "status": "Active - Not Operating"
+    },
+    {
+      "name": "Parkwest Casino Sonoma",
+      "city": "Petaluma",
+      "address": "5151 Montero Way, Petaluma, CA 94954",
+      "status": "Active - Not Operating",
+      "seedName": "The 101 Casino",
+      "notes": "Seed The 101 Casino maps to this non-operating license."
+    },
+    {
+      "name": "Pinnacle Casino",
+      "city": "Soledad",
+      "status": "Active - Not Operating"
+    },
+    {
+      "name": "Racxx",
+      "city": "Lincoln",
+      "status": "Active - Not Operating"
+    },
+    {
+      "name": "Rogelio's",
+      "city": "Isleton",
+      "status": "Active - Not Operating"
+    },
+    {
+      "name": "The Deuce Lounge & Casino",
+      "city": "Goshen",
+      "status": "Active - Not Operating"
+    },
+    {
+      "name": "The River Card Room",
+      "city": "Petaluma",
+      "status": "Active - Not Operating"
+    },
+    {
+      "name": "Tommy's Casino & Saloon",
+      "city": "El Centro",
+      "status": "Active - Not Operating"
+    },
+    {
+      "name": "Tres Lounge and Casino",
+      "city": "Watsonville",
+      "status": "Active - Not Operating"
+    }
+  ],
+  "seedHasPokerNotOnCgccOperating": [
+    "Black Sheep Casino",
+    "Comstock Card Room",
+    "Delta Club",
+    "Lucky Derby Casino",
+    "Lucky Lady Casino & Card Room",
+    "Village Club Card Room",
+    "Mortimers Card Room",
+    "Poker Flats Casino",
+    "Oasis Card Room",
+    "Ranchos Club Casino",
+    "Palomar Card Club",
+    "Casino Real",
+    "Casino Real Card Room",
+    "Silver Fox Casino & Lounge",
+    "The 101 Casino",
+    "Cameo Club Casino",
+    "Casino Marysville"
+  ],
+  "tribalOrResortKeptInSeed": [
+    "Agua Caliente Casino, Palm Springs",
+    "Black Oak Casino",
+    "Graton Resort & Casino",
+    "Bear River Casino Hotel",
+    "Barona Resort & Casino",
+    "Cache Creek Casino",
+    "Thunder Valley Casino",
+    "Sycuan Casino"
+  ],
+  "pass14Actions": [
+    "Update Club One Casino address to 3950 North Cedar Avenue, Fresno",
+    "Leave non-operating CGCC rooms as-is except note gaps; do not mass-flip tribal hasPoker",
+    "Flag stale non-CGCC cardroom names for follow-up cleanup (not deleted this pass)"
+  ]
+}

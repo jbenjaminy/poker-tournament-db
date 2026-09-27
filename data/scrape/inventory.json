@@ -1,0 +1,545 @@
+{
+  "generatedAt": "2026-09-24T16:20:31.214Z",
+  "seed": {
+    "casinoFile": "other/casino-obj-array.js",
+    "tourneyFile": "other/tourney-obj-array.js",
+    "casinoCount": 885,
+    "tourneyCount": 79,
+    "uniqueTourneyCasinos": 20,
+    "casinosWithTourneysInSeed": 20,
+    "orphanTourneyCasinoNames": []
+  },
+  "hasPoker": {
+    "true": 24,
+    "false": 857,
+    "other": 4
+  },
+  "pokerTournamentsFlag": {
+    "true": 19
+  },
+  "statesPresent": [
+    "Alabama",
+    "Arizona",
+    "Arkansas",
+    "California",
+    "Colorado",
+    "Connecticut",
+    "Delaware",
+    "Florida",
+    "Idaho",
+    "Illinois",
+    "Indiana",
+    "Iowa",
+    "Kansas",
+    "Kentucky",
+    "Louisiana",
+    "Maine",
+    "Maryland",
+    "Michigan",
+    "Minnesota",
+    "Mississippi",
+    "Missouri",
+    "Montana",
+    "Nevada",
+    "New Hampshire",
+    "New Jersey",
+    "New Mexico",
+    "New York",
+    "North Carolina",
+    "Ohio",
+    "Oklahoma",
+    "Oregon",
+    "Pennsylvania",
+    "South Carolina",
+    "South Dakota",
+    "Texas",
+    "Washington",
+    "West Virginia",
+    "Wisconsin",
+    "Wyoming"
+  ],
+  "statesMissingFromSeed": [
+    "Alaska",
+    "Georgia",
+    "Hawaii",
+    "Massachusetts",
+    "Nebraska",
+    "North Dakota",
+    "Rhode Island",
+    "Tennessee",
+    "Utah",
+    "Vermont",
+    "Virginia"
+  ],
+  "stateCount": 39,
+  "byState": {
+    "Arizona": {
+      "total": 22,
+      "hasPoker": 12,
+      "pokerTournaments": 11,
+      "withPokerUrl": 12,
+      "withWebsite": 20
+    },
+    "Alabama": {
+      "total": 2,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 2
+    },
+    "California": {
+      "total": 134,
+      "hasPoker": 12,
+      "pokerTournaments": 8,
+      "withPokerUrl": 13,
+      "withWebsite": 106
+    },
+    "Arkansas": {
+      "total": 2,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 2
+    },
+    "Louisiana": {
+      "total": 27,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 25
+    },
+    "New Hampshire": {
+      "total": 1,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 1
+    },
+    "Colorado": {
+      "total": 32,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 30
+    },
+    "Montana": {
+      "total": 6,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 1
+    },
+    "New Mexico": {
+      "total": 25,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 23
+    },
+    "Mississippi": {
+      "total": 33,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 27
+    },
+    "Nevada": {
+      "total": 210,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 177
+    },
+    "Connecticut": {
+      "total": 2,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 2
+    },
+    "Deleware": {
+      "total": 2,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 1
+    },
+    "Florida": {
+      "total": 37,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 32
+    },
+    "Illinois": {
+      "total": 11,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 10
+    },
+    "Idaho": {
+      "total": 6,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 4
+    },
+    "Indiana": {
+      "total": 12,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 11
+    },
+    "Iowa": {
+      "total": 23,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 22
+    },
+    "Delaware": {
+      "total": 2,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 2
+    },
+    "Kansas": {
+      "total": 10,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 10
+    },
+    "Washington": {
+      "total": 45,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 42
+    },
+    "Kentucky": {
+      "total": 1,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 0
+    },
+    "Ohio": {
+      "total": 11,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 11
+    },
+    "Oklahoma": {
+      "total": 56,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 51
+    },
+    "Michigan": {
+      "total": 24,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 23
+    },
+    "Maryland": {
+      "total": 5,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 5
+    },
+    "Maine": {
+      "total": 2,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 2
+    },
+    "South Carolina": {
+      "total": 1,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 1
+    },
+    "Minnesota": {
+      "total": 21,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 20
+    },
+    "Missouri": {
+      "total": 13,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 13
+    },
+    "MiMissouri": {
+      "total": 1,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 1
+    },
+    "South Dakota": {
+      "total": 30,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 17
+    },
+    "New Jersey": {
+      "total": 11,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 9
+    },
+    "New York": {
+      "total": 17,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 15
+    },
+    "North Carolina": {
+      "total": 2,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 2
+    },
+    "Oregon": {
+      "total": 10,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 10
+    },
+    "Pennsylvania": {
+      "total": 11,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 11
+    },
+    "Texas": {
+      "total": 1,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 1
+    },
+    "Wisconsin": {
+      "total": 17,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 16
+    },
+    "West Virginia": {
+      "total": 4,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 4
+    },
+    "Wyoming": {
+      "total": 3,
+      "hasPoker": 0,
+      "pokerTournaments": 0,
+      "withPokerUrl": 0,
+      "withWebsite": 2
+    }
+  },
+  "casinoFieldFillRates": {
+    "name": {
+      "filled": 885,
+      "total": 885,
+      "rate": 100
+    },
+    "placeId": {
+      "filled": 885,
+      "total": 885,
+      "rate": 100
+    },
+    "address": {
+      "filled": 885,
+      "total": 885,
+      "rate": 100
+    },
+    "state": {
+      "filled": 885,
+      "total": 885,
+      "rate": 100
+    },
+    "phone": {
+      "filled": 841,
+      "total": 885,
+      "rate": 95
+    },
+    "website": {
+      "filled": 764,
+      "total": 885,
+      "rate": 86.3
+    },
+    "hours": {
+      "filled": 15,
+      "total": 885,
+      "rate": 1.7
+    },
+    "otherGames": {
+      "filled": 34,
+      "total": 885,
+      "rate": 3.8
+    },
+    "hasPoker": {
+      "filled": 882,
+      "total": 885,
+      "rate": 99.7
+    },
+    "pokerTournaments": {
+      "filled": 882,
+      "total": 885,
+      "rate": 99.7
+    },
+    "gamesOffered": {
+      "filled": 25,
+      "total": 885,
+      "rate": 2.8
+    },
+    "description": {
+      "filled": 20,
+      "total": 885,
+      "rate": 2.3
+    },
+    "specials": {
+      "filled": 31,
+      "total": 885,
+      "rate": 3.5
+    },
+    "pokerPromotions": {
+      "filled": 17,
+      "total": 885,
+      "rate": 1.9
+    },
+    "pokerUrl": {
+      "filled": 25,
+      "total": 885,
+      "rate": 2.8
+    },
+    "calendarUrl": {
+      "filled": 4,
+      "total": 885,
+      "rate": 0.5
+    }
+  },
+  "tourneyFieldFillRates": {
+    "casinoName": {
+      "filled": 79,
+      "total": 79,
+      "rate": 100
+    },
+    "name": {
+      "filled": 79,
+      "total": 79,
+      "rate": 100
+    },
+    "day": {
+      "filled": 79,
+      "total": 79,
+      "rate": 100
+    },
+    "tourneyStart": {
+      "filled": 78,
+      "total": 79,
+      "rate": 98.7
+    },
+    "regStart": {
+      "filled": 12,
+      "total": 79,
+      "rate": 15.2
+    },
+    "regEnd": {
+      "filled": 8,
+      "total": 79,
+      "rate": 10.1
+    },
+    "game": {
+      "filled": 79,
+      "total": 79,
+      "rate": 100
+    },
+    "buyin": {
+      "filled": 79,
+      "total": 79,
+      "rate": 100
+    },
+    "startingChips": {
+      "filled": 42,
+      "total": 79,
+      "rate": 53.2
+    },
+    "rebuy": {
+      "filled": 31,
+      "total": 79,
+      "rate": 39.2
+    },
+    "addOn": {
+      "filled": 28,
+      "total": 79,
+      "rate": 35.4
+    },
+    "bounty": {
+      "filled": 4,
+      "total": 79,
+      "rate": 5.1
+    },
+    "reEntry": {
+      "filled": 10,
+      "total": 79,
+      "rate": 12.7
+    },
+    "prizeGtd": {
+      "filled": 22,
+      "total": 79,
+      "rate": 27.8
+    },
+    "other": {
+      "filled": 56,
+      "total": 79,
+      "rate": 70.9
+    }
+  },
+  "tourneyRowsByCasino": {
+    "Casino del Sol": 3,
+    "BlueWater Resort & Casino": 2,
+    "Gila River Casino": 4,
+    "Harrahs Ak-Chin": 6,
+    "Vee Quiva Hotel & Casino": 6,
+    "Fort McDowell Casino": 12,
+    "Buckys Casino": 3,
+    "Yavapai Casino": 3,
+    "Talking Stick": 3,
+    "Agua Caliente Casino, Palm Springs": 4,
+    "The Aviator Casino": 1,
+    "The Clovis 500 Club": 4,
+    "Bankers Casino": 3,
+    "Black Oak Casino": 8,
+    "Mazatzal Hotel & Casino": 2,
+    "Desert Diamond Casino & Hotel, Tucson": 2,
+    "Bay 101": 4,
+    "Casino Real": 3,
+    "Casino Marysville": 2,
+    "Central Coast Casino": 4
+  }
+}

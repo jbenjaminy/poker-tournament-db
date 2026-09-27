@@ -1,0 +1,220 @@
+{
+  "generatedAt": "2026-09-24T22:59:29.826Z",
+  "pass": 19,
+  "title": "Schedule densify — FL Palm Beach Kennel Club + Ebro + CA Outlaws + Hard Rock Hollywood Fri/Sat",
+  "before": {
+    "casinos": 996,
+    "tourneys": 459,
+    "hasPoker": 260,
+    "roomsWithSchedules": 85,
+    "verified": 334,
+    "unverified": 110
+  },
+  "after": {
+    "casinos": 996,
+    "tourneys": 483,
+    "hasPoker": 260,
+    "roomsWithSchedules": 88,
+    "verified": 358,
+    "unverified": 110
+  },
+  "deltas": {
+    "casinos": 0,
+    "tourneys": 24,
+    "hasPoker": 0,
+    "roomsWithSchedules": 3
+  },
+  "roomsNewlyCovered": [
+    "Palm Beach Kennel Club, West Palm Beach",
+    "Ebro Poker Room",
+    "Outlaws Card Parlour"
+  ],
+  "densified": [
+    {
+      "casinoName": "Palm Beach Kennel Club, West Palm Beach",
+      "before": 0,
+      "after": 13
+    },
+    {
+      "casinoName": "Ebro Poker Room",
+      "before": 0,
+      "after": 4
+    },
+    {
+      "casinoName": "Outlaws Card Parlour",
+      "before": 0,
+      "after": 4
+    },
+    {
+      "casinoName": "Seminole Hard Rock Hotel & Casino, Hollywood",
+      "before": 6,
+      "after": 9
+    }
+  ],
+  "topRoomsFilled": [
+    {
+      "casinoName": "Palm Beach Kennel Club, West Palm Beach",
+      "before": 0,
+      "after": 13
+    },
+    {
+      "casinoName": "Seminole Hard Rock Hotel & Casino, Hollywood",
+      "before": 6,
+      "after": 9
+    },
+    {
+      "casinoName": "Ebro Poker Room",
+      "before": 0,
+      "after": 4
+    },
+    {
+      "casinoName": "Outlaws Card Parlour",
+      "before": 0,
+      "after": 4
+    }
+  ],
+  "densifiedNotes": {
+    "Palm Beach Kennel Club, West Palm Beach": "0→13",
+    "Ebro Poker Room": "0→4",
+    "Outlaws Card Parlour": "0→4",
+    "Seminole Hard Rock Hotel & Casino, Hollywood": "6→9"
+  },
+  "blockers": [
+    {
+      "room": "TCH Social Austin",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Texas Card House Dallas",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "TCH Social Las Colinas",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Texas Card House Houston",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Texas Card House Spring",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Texas Card House Rio Grande Valley",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "The Casino @ Dania Beach",
+      "issue": "Official poker page lists Sep guarantees by date; no stable full weekly buy-in/time grid scrapeable this pass (Wed $4k lacks printed buy-in/start)"
+    },
+    {
+      "room": "Lucky's Card Room (TGT Poker)",
+      "issue": "Official site promotes series events; no stable first-party weekly grid this pass"
+    },
+    {
+      "room": "One-Eyed Jack's Poker Room",
+      "issue": "Official events calendar empty of recurring weeklies this pass"
+    },
+    {
+      "room": "Hon-Dah Casino",
+      "issue": "Official page lists specialty/monthly only — no weekly grid"
+    },
+    {
+      "room": "Creek Entertainment Gretna",
+      "issue": "PokerAtlas reports no current tournaments; official calendar stale"
+    },
+    {
+      "room": "Magic City Casino",
+      "issue": "Official poker calendars are high-hands/cash promotions — no tournament schedule"
+    },
+    {
+      "room": "Gulfstream Park Racing & Casino",
+      "issue": "No current official weekly tournament grid found"
+    },
+    {
+      "room": "Calder Casino",
+      "issue": "Card room is table games/high hands — no tournament schedule"
+    },
+    {
+      "room": "Seminole Casino Hotel, Immokalee",
+      "issue": "PokerAtlas reports no current tournaments"
+    },
+    {
+      "room": "Seminole Casino, Coconut Creek",
+      "issue": "Daily tournaments blog posts are 2022–2024 stale — not used"
+    },
+    {
+      "room": "Seminole Classic Casino, Hollywood",
+      "issue": "No published weekly grid found this pass"
+    },
+    {
+      "room": "Miccosukee Resort & Gaming",
+      "issue": "No published weekly tournament grid this pass"
+    },
+    {
+      "room": "Hustler Casino",
+      "issue": "Still no current official tourney grid"
+    },
+    {
+      "room": "Lucky Chances",
+      "issue": "Calendar still lacks start times — no inventing"
+    },
+    {
+      "room": "Livermore Casino",
+      "issue": "Official calendar lists \"Poker Tournament 10am\" without buy-ins/names — no inventing"
+    },
+    {
+      "room": "Bankers Casino",
+      "issue": "Official tournaments still TBA / see floor"
+    },
+    {
+      "room": "Clovis 500 Club / The Clovis 500 Club",
+      "issue": "PokerAtlas: no current tournaments"
+    },
+    {
+      "room": "Agua Caliente Rancho Mirage",
+      "issue": "Not a separate master casino row (Palm Springs already covered); RM promo page 403 this pass"
+    },
+    {
+      "room": "Tampa Bay Downs / Silks",
+      "issue": "Official tournaments page image/JS empty — no scrapeable grid"
+    },
+    {
+      "room": "Four Winds Casino, New Buffalo",
+      "issue": "Still no New Buffalo-specific weekly grid this pass"
+    },
+    {
+      "room": "Paramount Social Club",
+      "issue": "Official tournaments pages returned 500 / empty previously — skipped"
+    },
+    {
+      "room": "Harrington Raceway & Casino",
+      "issue": "No published live weekly grid"
+    },
+    {
+      "room": "Casino @ Delaware Park",
+      "issue": "No published live weekly grid found this pass"
+    },
+    {
+      "room": "Lone Butte Casino",
+      "issue": "Gila River: See Poker Room for schedule — no public times"
+    },
+    {
+      "room": "Gila River Casino",
+      "issue": "Same — no published times"
+    }
+  ],
+  "diminishingReturns": false,
+  "diminishing_returns": false,
+  "notes": [
+    "Originals casino-obj-array.js / tourney-obj-array.js untouched.",
+    "Palm Beach Kennel Club, West Palm Beach: NEW 0→13 from official Aug/Sep 2026 schedule + Sep calendar PDF (Mon–Sun recurring; multi-flight weeks excluded).",
+    "Ebro Poker Room: NEW 0→4 from official goebro.com/poker/tournaments.html (Tue/Wed/Thu/Sun).",
+    "Outlaws Card Parlour: NEW 0→4 from official outlawspoker.com/tournaments Sep 2026 calendar + FAQ Sunday.",
+    "Seminole Hard Rock Hotel & Casino, Hollywood: densified 6→9 with Fri Survivor / Fri bounty / Sat deep stack from official Sep/Oct daily calendars.",
+    "js/rooms-with-schedules.js regenerated to match tourney seed.",
+    "Skip inventing / TCH JS walls / empty or stale official calendars listed in blockers.",
+    "Above diminishing-returns threshold this pass (<3 new rooms AND <15 new rows)."
+  ]
+}

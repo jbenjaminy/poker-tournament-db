@@ -1,0 +1,421 @@
+{
+  "generatedAt": "2026-09-24T23:19:20.304Z",
+  "pass": 23,
+  "title": "Schedule densify — CA Casino Club + WA All Star + WA Caribbean Yakima + WA Crazy Moose Pasco",
+  "before": {
+    "casinos": 996,
+    "tourneys": 543,
+    "hasPoker": 260,
+    "roomsWithSchedules": 99,
+    "verified": 418,
+    "unverified": 110
+  },
+  "after": {
+    "casinos": 996,
+    "tourneys": 558,
+    "hasPoker": 260,
+    "roomsWithSchedules": 103,
+    "verified": 433,
+    "unverified": 110
+  },
+  "deltas": {
+    "casinos": 0,
+    "tourneys": 15,
+    "hasPoker": 0,
+    "roomsWithSchedules": 4
+  },
+  "roomsNewlyCovered": [
+    "Casino Club",
+    "All Star Casino",
+    "Casino Caribbean Yakima",
+    "Crazy Moose Casino Pasco"
+  ],
+  "densified": [
+    {
+      "casinoName": "Casino Club",
+      "before": 0,
+      "after": 4
+    },
+    {
+      "casinoName": "All Star Casino",
+      "before": 0,
+      "after": 2
+    },
+    {
+      "casinoName": "Casino Caribbean Yakima",
+      "before": 0,
+      "after": 2
+    },
+    {
+      "casinoName": "Crazy Moose Casino Pasco",
+      "before": 0,
+      "after": 7
+    }
+  ],
+  "topRoomsFilled": [
+    {
+      "casinoName": "Crazy Moose Casino Pasco",
+      "before": 0,
+      "after": 7
+    },
+    {
+      "casinoName": "Casino Club",
+      "before": 0,
+      "after": 4
+    },
+    {
+      "casinoName": "All Star Casino",
+      "before": 0,
+      "after": 2
+    },
+    {
+      "casinoName": "Casino Caribbean Yakima",
+      "before": 0,
+      "after": 2
+    }
+  ],
+  "densifiedNotes": {
+    "Casino Club": "0→4",
+    "All Star Casino": "0→2",
+    "Casino Caribbean Yakima": "0→2",
+    "Crazy Moose Casino Pasco": "0→7"
+  },
+  "blockers": [
+    {
+      "room": "Nineteenth Hole",
+      "issue": "Official site lists Sat/Sun Sit-n-Go at 1pm but no buy-in — no inventing"
+    },
+    {
+      "room": "Cameo Club Casino",
+      "issue": "Official domain parked / for sale — no scrapeable grid"
+    },
+    {
+      "room": "Lake Elsinore Hotel & Casino",
+      "issue": "Official weekly-tournaments page is marketing copy only — no buy-in/time grid"
+    },
+    {
+      "room": "Seven Mile Casino",
+      "issue": "Official /poker is cash-game FAQ — no published weekly tourney grid"
+    },
+    {
+      "room": "Lucky Lady Casino & Card Room",
+      "issue": "Official SD site errored; Gardena Lucky Lady already densified under Larry Flynt's"
+    },
+    {
+      "room": "Club 52 Poker",
+      "issue": "Official calendar-splash is JS image calendar — no scrapeable buy-in text grid this pass"
+    },
+    {
+      "room": "Poker House Fort Worth",
+      "issue": "Official /events calendar empty for Sep 2026; PokerAtlas announcements not used"
+    },
+    {
+      "room": "The Fort Card Room",
+      "issue": "Official game-info Weekly/Daily Events sections empty — no scrapeable buy-in/time grid"
+    },
+    {
+      "room": "Spades Poker House Webster / Baytown",
+      "issue": "Official site defers Webster/Baytown Schedule links to PokerAtlas — no first-party grid"
+    },
+    {
+      "room": "Shuffle 214",
+      "issue": "Official /calendar is JS/empty of buy-in grid this pass"
+    },
+    {
+      "room": "Shuffle 512",
+      "issue": "Official site defers to PokerAtlas calendar / Facebook — no first-party buy-in/time grid"
+    },
+    {
+      "room": "SA Card House",
+      "issue": "Official /tournaments page still 2020-era TOC text — no current weekly grid"
+    },
+    {
+      "room": "Amarillo Social Club",
+      "issue": "Official homepage lists one-off/live events; no stable Mon–Sun weekly sheet"
+    },
+    {
+      "room": "Alamo City Poker Club",
+      "issue": "Official site lists named nights without buy-ins/times — no inventing"
+    },
+    {
+      "room": "Champions Social Club / Champions Club Texas",
+      "issue": "Official events are lessons / beginner nights — no full weekly buy-in grid"
+    },
+    {
+      "room": "Prime Social Club",
+      "issue": "Official tournaments pages defer to PokerAtlas — no first-party grid"
+    },
+    {
+      "room": "Paramount Social Club",
+      "issue": "Official site unreachable (connection failed) this pass"
+    },
+    {
+      "room": "Empire Poker Club",
+      "issue": "Official marketing site; contact for availability — no published buy-in/time grid"
+    },
+    {
+      "room": "101 Poker Club",
+      "issue": "Official site redirects to lander — no scrapeable grid"
+    },
+    {
+      "room": "Lonestar Social Poker Club",
+      "issue": "Official site previously 500 / unreachable"
+    },
+    {
+      "room": "TCH Social Austin / Dallas / Las Colinas / Houston / Spring / RGV",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "One-Eyed Jack's Poker Room",
+      "issue": "Official /tournaments names formats ($40 Fab 40 etc.) without day/time grid — no inventing"
+    },
+    {
+      "room": "Creek Entertainment Gretna",
+      "issue": "Official games-available lists Thursday $60 satellite + select Fri/Sat/Sun only — calendar stale 2023; PokerAtlas says no current tourneys"
+    },
+    {
+      "room": "The Big Easy Casino",
+      "issue": "Official /poker has hours only; 2026 calendars are slots/promos — no tourney grid"
+    },
+    {
+      "room": "Pensacola Greyhound Park Poker Room",
+      "issue": "Official site has no published weekly buy-in/time grid this pass"
+    },
+    {
+      "room": "Naples Fort Myers Kennel Club / Bonita Springs Poker Room",
+      "issue": "Official /calendar_events empty of tourney buy-ins; no scrapeable weekly sheet"
+    },
+    {
+      "room": "Calder Casino",
+      "issue": "Official calendars are slots/table promos — no poker tourney grid"
+    },
+    {
+      "room": "Magic City Casino",
+      "issue": "Official poker calendars are cash/high-hand focused; tournaments “coming soon” / one-offs"
+    },
+    {
+      "room": "Seminole Casino, Coconut Creek",
+      "issue": "Official Coco Poker results confirm live Sep 2026 events but published daily rack cards are 2022-stale — no current official grid"
+    },
+    {
+      "room": "Seminole Casino Hotel, Immokalee",
+      "issue": "No current official weekly tourney grid; PokerAtlas none"
+    },
+    {
+      "room": "Seminole Classic Casino, Hollywood",
+      "issue": "No separate Classic weekly grid (Hard Rock Hollywood already densified)"
+    },
+    {
+      "room": "Miccosukee Resort & Gaming",
+      "issue": "Official Sep 2026 poker rules sheet is cash/high-hand promos only — Cloudflare wall on poker page"
+    },
+    {
+      "room": "Gulfstream Park Racing & Casino",
+      "issue": "Poker room appears closed / no current tournaments"
+    },
+    {
+      "room": "Club 52 Poker at Melbourne Greyhound Park",
+      "issue": "Official marketing site; no scrapeable buy-in/time tournament grid this pass"
+    },
+    {
+      "room": "Tampa Bay Downs / Silks",
+      "issue": "Official /poker/tournaments still “Not Displaying Correctly” / JS empty"
+    },
+    {
+      "room": "Ocala Poker & Jai-Alai",
+      "issue": "Official ocalapoker.com redirects to lander — no scrapeable grid"
+    },
+    {
+      "room": "Daytona Beach Kennel Club & Poker Room, International Speedway",
+      "issue": "Sibling Williamson Blvd already densified; no separate weekly grid this pass"
+    },
+    {
+      "room": "Fort Pierce Poker & Jai-Alai",
+      "issue": "PokerAtlas: temporarily closed / no current tourneys"
+    },
+    {
+      "room": "Hialeah Park Casino",
+      "issue": "PokerAtlas: no current tournaments; official cash/high-hands"
+    },
+    {
+      "room": "The Casino @ Dania Beach",
+      "issue": "No stable full weekly buy-in/time grid"
+    },
+    {
+      "room": "Harrah's Pompano Beach",
+      "issue": "No stable official weekly sheet this pass"
+    },
+    {
+      "room": "Oceanview Card Room",
+      "issue": "Official site lists Tue 5pm / Sat & Sun 3:30pm but no buy-ins — no inventing"
+    },
+    {
+      "room": "Artichoke Joes Casino",
+      "issue": "Official site cash-focused; PokerAtlas no current tourneys"
+    },
+    {
+      "room": "California Grand Casino",
+      "issue": "Official poker page cash/jackpots/promos only — no tournament schedule"
+    },
+    {
+      "room": "Golden West Casino",
+      "issue": "Official promotions page empty of tourney buy-in/time grid this pass"
+    },
+    {
+      "room": "The 101 Casino",
+      "issue": "No current official weekly grid; historical listings only"
+    },
+    {
+      "room": "The Aviator Casino",
+      "issue": "No current official buy-in/time weekly grid found"
+    },
+    {
+      "room": "The Clovis 500 Club",
+      "issue": "PokerAtlas: no current tournaments"
+    },
+    {
+      "room": "Cache Creek Casino",
+      "issue": "No published official weekly buy-in/time grid this pass"
+    },
+    {
+      "room": "Barona Resort & Casino",
+      "issue": "PokerAtlas: no current tournaments; official promos only"
+    },
+    {
+      "room": "Napa Valley Casino",
+      "issue": "Official site cash 24/7; no published weekly tourney grid"
+    },
+    {
+      "room": "Lucky Derby Casino",
+      "issue": "No current official weekly grid found this pass"
+    },
+    {
+      "room": "Limelight Cardroom",
+      "issue": "No current official buy-in/time weekly grid this pass"
+    },
+    {
+      "room": "Parkwest Casino Lotus / 580 / Cordova / Manteca",
+      "issue": "No published weekly poker tourney grids this pass"
+    },
+    {
+      "room": "Crystal Casino / Casino M8trix / Oaks Card Club",
+      "issue": "Still empty / no scrapeable tourney grids"
+    },
+    {
+      "room": "Hustler Casino",
+      "issue": "Still no current official tourney grid"
+    },
+    {
+      "room": "Lucky Chances",
+      "issue": "Calendar still lacks start times — no inventing"
+    },
+    {
+      "room": "Kings Card Club / Westlane Card Room",
+      "issue": "Official site promotions/cash only — no tournament schedule"
+    },
+    {
+      "room": "Palace Poker Casino (Hayward)",
+      "issue": "Official site cash games only — no tournament schedule"
+    },
+    {
+      "room": "Seven Mile Casino",
+      "issue": "No published weekly tournament buy-in/time grid this pass"
+    },
+    {
+      "room": "Hon-Dah Casino",
+      "issue": "Official lists only 2026 specialty Sundays/Saturdays — no weekly grid"
+    },
+    {
+      "room": "Lone Butte Casino / Gila River Casino",
+      "issue": "See Poker Room for schedule — no public times"
+    },
+    {
+      "room": "Ace's Poker Tukwila",
+      "issue": "No official Tukwila-specific buy-in/time grid found this pass"
+    },
+    {
+      "room": "Fortune Casino Renton / Shoreline / Tukwila / La Center",
+      "issue": "PokerAtlas schedules only; no first-party buy-in/time pages found this pass (Lacey already densified)"
+    },
+    {
+      "room": "Great American Casino Everett / Tukwila",
+      "issue": "Official WSGG listings are promos/table games — no published poker tourney buy-in grid this pass"
+    },
+    {
+      "room": "Riverside Casino",
+      "issue": "Official WSGG listing promotions only — no poker tourney grid"
+    },
+    {
+      "room": "Saracen Casino Resort",
+      "issue": "Series/showdown only — no recurring weekly grid"
+    },
+    {
+      "room": "Monarch Casino Resort Spa Black Hawk",
+      "issue": "Official poker page cash/high hands; PokerAtlas no current tourneys"
+    },
+    {
+      "room": "Jack Casino, Cleveland",
+      "issue": "Official poker page is cash stakes only — no tournament schedule"
+    },
+    {
+      "room": "Mystic Lake Casino & Hotel",
+      "issue": "No published weekly tournament grid found this pass"
+    },
+    {
+      "room": "Choctaw Casino & Resort, Durant",
+      "issue": "Series/WSOPC only — no recurring weekly grid"
+    },
+    {
+      "room": "Tropicana Casino & Resort, Atlantic City",
+      "issue": "PokerAtlas: no current tournaments"
+    },
+    {
+      "room": "Northern Quest Resort & Casino",
+      "issue": "Official poker page cash-focused; PokerAtlas no current tourneys"
+    },
+    {
+      "room": "Gun Lake Casino",
+      "issue": "Official poker page cash/high hands — Bravo app only"
+    },
+    {
+      "room": "Soaring Eagle Casino & Resort",
+      "issue": "Occasional Sat specials only — no weekly grid"
+    },
+    {
+      "room": "Four Winds Casino, New Buffalo",
+      "issue": "Still no New Buffalo-specific weekly grid"
+    },
+    {
+      "room": "Harrington Raceway & Casino",
+      "issue": "No published live weekly grid"
+    },
+    {
+      "room": "Casino @ Delaware Park",
+      "issue": "No published live weekly grid"
+    },
+    {
+      "room": "Coushatta Casino & Resort",
+      "issue": "Promotions/series only"
+    },
+    {
+      "room": "Horseshoe Black Hawk",
+      "issue": "PokerAtlas: no current tournaments"
+    },
+    {
+      "room": "Ameristar Casino & Resort, Black Hawk",
+      "issue": "Official poker page cash/high hands; no weekly tourney grid this pass"
+    }
+  ],
+  "diminishingReturns": false,
+  "diminishing_returns": false,
+  "notes": [
+    "Originals casino-obj-array.js / tourney-obj-array.js untouched.",
+    "Casino Club: NEW 0→4 from official reddingpoker.com/tournaments.html (Tue $80 6pm, Thu Deepstack $80 6pm, Sun $70 4pm, 3rd-Sat monthly $150 4pm).",
+    "All Star Casino: NEW 0→2 from official WSGG elevate-your-poker-experience event + flyer (daily 11am $40; Tue/Thu 7pm $50).",
+    "Casino Caribbean Yakima: NEW 0→2 from official Ace's Poker Yakima event + flyer (Sat/Sun 12pm $120 $2K GTD; MWF 7pm $65).",
+    "Crazy Moose Casino Pasco: NEW 0→7 from official Crazy Moose Poker Pasco schedule flyer (daily 10am $40; Mon–Thu/Sun 6pm $60; Fri 2pm $100 / 6pm $150 bounty; Sat 2pm $225 / 6pm $120; Sun 2pm $120).",
+    "js/rooms-with-schedules.js regenerated to match tourney seed.",
+    "Skip inventing / TCH JS walls / PokerAtlas-only / empty or stale official calendars listed in blockers.",
+    "Above diminishing-returns threshold this pass (<3 new rooms AND <15 new rows)."
+  ]
+}

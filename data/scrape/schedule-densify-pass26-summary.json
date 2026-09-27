@@ -1,0 +1,226 @@
+{
+  "generatedAt": "2026-09-24T23:41:01.117Z",
+  "pass": 26,
+  "title": "Schedule densify — TX Alamo City Poker Club + WA All Star Casino update (diminishing returns)",
+  "before": {
+    "casinos": 996,
+    "tourneys": 588,
+    "hasPoker": 263,
+    "roomsWithSchedules": 109,
+    "verified": 463,
+    "unverified": 110
+  },
+  "after": {
+    "casinos": 996,
+    "tourneys": 590,
+    "hasPoker": 263,
+    "roomsWithSchedules": 110,
+    "verified": 465,
+    "unverified": 110
+  },
+  "deltas": {
+    "casinos": 0,
+    "tourneys": 2,
+    "hasPoker": 0,
+    "roomsWithSchedules": 1
+  },
+  "roomsNewlyCovered": [
+    "Alamo City Poker Club"
+  ],
+  "densified": [
+    {
+      "casinoName": "Alamo City Poker Club",
+      "before": 0,
+      "after": 1
+    },
+    {
+      "casinoName": "All Star Casino",
+      "before": 2,
+      "after": 3
+    }
+  ],
+  "topRoomsFilled": [
+    {
+      "casinoName": "All Star Casino",
+      "before": 2,
+      "after": 3
+    },
+    {
+      "casinoName": "Alamo City Poker Club",
+      "before": 0,
+      "after": 1
+    }
+  ],
+  "densifiedNotes": {
+    "Alamo City Poker Club": "0→1",
+    "All Star Casino": "2→3"
+  },
+  "blockers": [
+    {
+      "room": "TCH Social Austin / Dallas / Las Colinas / Houston / Spring / RGV",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Prime Social / Paramount / Spades / Shuffle 214/512 / SA Card House / Poker House Fort Worth / The Fort Card Room",
+      "issue": "Official calendars empty, PokerAtlas-deferred, SSL fail, or no first-party buy-in/time grid"
+    },
+    {
+      "room": "Empire Poker Club",
+      "issue": "Official site lists tournaments available but no buy-in/day grid — no inventing"
+    },
+    {
+      "room": "Lonestar Social Poker Club (Houston)",
+      "issue": "Official site cash games only — no tourney grid"
+    },
+    {
+      "room": "Champions Social Club (Dallas)",
+      "issue": "Official poker page cash/lessons focused — no weekly buy-in tourney grid"
+    },
+    {
+      "room": "101 Poker Club",
+      "issue": "PokerAtlas-only listing — no first-party grid"
+    },
+    {
+      "room": "Alamo City Poker Club Fri/Sat",
+      "issue": "Official Fri/Sat freeroll copy lacks clear main tourney buy-in — only Thu Ladies Night densified"
+    },
+    {
+      "room": "Red Star Social (Austin)",
+      "issue": "Not in master; official site cash/promos; PokerAtlas-deferred for seats — no first-party buy-in grid"
+    },
+    {
+      "room": "One-Eyed Jack's Poker Room",
+      "issue": "Official /tournaments lists formats/buy-in ranges but no day+time grid; /events calendar empty"
+    },
+    {
+      "room": "Pensacola Greyhound Park Poker Room",
+      "issue": "Official poker-calendar still 2023-dated — skip stale"
+    },
+    {
+      "room": "Creek Entertainment Gretna",
+      "issue": "Official poker-calendar still 2023 high-hand promotions — no current tourney grid"
+    },
+    {
+      "room": "Naples Fort Myers / Bonita Springs Poker Room",
+      "issue": "Official site STT daily mention + high hands only — no buy-in/time MTT grid"
+    },
+    {
+      "room": "Hialeah Park Casino",
+      "issue": "Official poker page high-hand promotions only — no tournament buy-in grid"
+    },
+    {
+      "room": "Gulfstream Park / The Big Easy Casino / Casino Miami / Calder Casino",
+      "issue": "No current official weekly tourney buy-in grid (Big Easy cash/hours; Calder promo calendars; Casino Miami slots focus)"
+    },
+    {
+      "room": "Miccosukee Resort & Gaming",
+      "issue": "No fixed weekly buy-in/time grid on official poker page"
+    },
+    {
+      "room": "Ocala Poker & Jai-Alai",
+      "issue": "Defunct/replaced by Ocala Bets (already densified) — do not duplicate"
+    },
+    {
+      "room": "Daytona Beach Kennel Club International Speedway",
+      "issue": "Separate from Williamson Blvd property already densified — Speedway site has no separate scrapeable grid this pass"
+    },
+    {
+      "room": "Seminole Immokalee / Classic / Coconut Creek / Magic City / Tampa Bay Downs / Harrah's Pompano / Club 52",
+      "issue": "Prior blockers: stale/empty/JS image calendar / PokerAtlas-none / closed"
+    },
+    {
+      "room": "Golden West Casino",
+      "issue": "Official /games tournament table still lists May 2026 dates only — skip stale"
+    },
+    {
+      "room": "Oceanview Card Room",
+      "issue": "Official site lists Tue/Sat/Sun times but says call for details — no buy-ins published"
+    },
+    {
+      "room": "Nineteenth Hole",
+      "issue": "Official site lists Sat/Sun Sit-n-Go times but no buy-in — no inventing"
+    },
+    {
+      "room": "Garlic City Casino",
+      "issue": "Official /tournaments shows $50/$90 chip structures without weekday labels this pass — already densified; no new scrapeable days"
+    },
+    {
+      "room": "Bankers Casino",
+      "issue": "Official tournament page TBA / see floor — no current weekly grid"
+    },
+    {
+      "room": "Palace Poker Casino / Seven Mile Casino / Kings Card Club / Westlane / Palomar / Ranchos / Poker Flats / Aviator / Casino Marysville / Delta Club / Diamond Jim's / Black Sheep / Casino Real / Lucky Lady SD",
+      "issue": "No current first-party buy-in/time tourney grid (closed/parked/cash-only/fetch fail)"
+    },
+    {
+      "room": "Larry Flynts Lucky Lady Casino (no apostrophe)",
+      "issue": "Duplicate alias of already-densified Larry Flynt's Lucky Lady Casino (12 rows) — do not duplicate"
+    },
+    {
+      "room": "Hustler / Lucky Chances / Crystal / M8trix / Oaks / Parkwest Lotus/580/Cordova/Manteca / Clovis 500 / California Grand / Lake Elsinore / Artichoke Joes / Napa Valley / Cache Creek / Barona",
+      "issue": "Prior blockers: empty/unavailable/no times/404/marketing-only"
+    },
+    {
+      "room": "Wind Creek Montgomery / Wetumpka / Atmore",
+      "issue": "hasPoker false; Sep 2026 poker calendar PDF is PA PGCB (Bethlehem/Sands already densified) — not AL properties"
+    },
+    {
+      "room": "Hon-Dah Casino",
+      "issue": "Official page date-specific specialty tourneys only — no recurring weekly buy-in grid"
+    },
+    {
+      "room": "Gila River / Lone Butte / Four Winds New Buffalo / Gun Lake / Soaring Eagle",
+      "issue": "Prior blockers: shared grid / Bravo-only / date-specific specials"
+    },
+    {
+      "room": "Ameristar Black Hawk / Monarch / Mardi Gras Black Hawk / Horseshoe Black Hawk",
+      "issue": "Prior blockers or no scrapeable current weekly sheet (Mardi Gras = Bally's duplicate)"
+    },
+    {
+      "room": "Boulder Station / Santa Fe Station / Horseshoe Baltimore / Harrington / Delaware Park",
+      "issue": "Prior blockers: no grids / Incapsula / empty"
+    },
+    {
+      "room": "Choctaw Durant / Coushatta / Mystic Lake / Grand Victoria / Tropicana AC / Jack Cleveland / IP Biloxi / Saracen / Grand Island / Ameristar St Charles / Ameristar East Chicago / Indiana Grand / Horseshoe Elizabeth",
+      "issue": "Series-only, cash-only, Bravo/empty official pages, or no scrapeable weekly buy-in grid this pass"
+    },
+    {
+      "room": "Beau Rivage",
+      "issue": "Already densified (4); official page fetch timed out — no additional grid this pass"
+    },
+    {
+      "room": "Turning Stone",
+      "issue": "Already densified Tue/Wed weeklies; Sat $300 listings look last-Saturday monthly only — not expanded this pass without clearer weekly pattern"
+    },
+    {
+      "room": "Little Creek Casino Resort",
+      "issue": "Official poker page incomplete (image/JS sections); existing rows are CardPlayer-sourced — no clean replace this pass"
+    },
+    {
+      "room": "Fortune Casino Renton / Shoreline / Tukwila / La Center / Ace's Poker Tukwila / Imperial Palace Auburn/Tukwila/Seattle / Casino Caribbean Kirkland / Lilac Lanes / Lancer Lanes",
+      "issue": "No first-party buy-in/time pages found; fortunegamingnw.com hub has no schedules; PokerAtlas-only skipped"
+    },
+    {
+      "room": "Northern Quest / Coyote Bob's / Great American Everett/Tukwila / Riverside / Fortune non-Lacey",
+      "issue": "Prior blockers: cash/promotions only or no first-party grid"
+    },
+    {
+      "room": "Emerald Princess Casino",
+      "issue": "Cruise casino schedule is sailing times — no poker tourney buy-in grid"
+    },
+    {
+      "room": "Hollywood Casino Columbus",
+      "issue": "Already densified (5); no new official weekly PDF found this pass"
+    }
+  ],
+  "diminishingReturns": true,
+  "diminishing_returns": true,
+  "notes": [
+    "Originals casino-obj-array.js / tourney-obj-array.js untouched.",
+    "Alamo City Poker Club: NEW 0→1 from official alamocitypokerclub.com Thursday Ladies' Night ($60 guys / $30 ladies early RSVP; doors 6pm, dinner 7pm). Fri/Sat freeroll copy lacks clear main buy-in — omitted.",
+    "All Star Casino: densified 2→3 — replaced prior flyer daily/$50 rows with current official WSGG evening grid (Sun 5pm, Tue/Thu 7pm $60+$10 house fee).",
+    "js/rooms-with-schedules.js regenerated to match tourney seed.",
+    "Thorough search covered FL/TX/CA/WA/AL/OH/MS/LA/AZ/NV/IN/MO/NJ/MN/GA leftover hasPoker rooms; official grids exhausted or blocked (JS/stale/PokerAtlas-only/no buy-in).",
+    "DIMINISHING RETURNS: <3 new rooms AND <15 new rows after thorough search — stop densify."
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "generatedAt": "2026-09-24T22:49:24.134Z",
+  "pass": 17,
+  "title": "Schedule densify — CA Parkwest Lodi + NV Red Rock + Canterbury/FireKeepers/del Sol",
+  "before": {
+    "casinos": 996,
+    "tourneys": 417,
+    "hasPoker": 260,
+    "roomsWithSchedules": 80,
+    "verified": 291,
+    "unverified": 111
+  },
+  "after": {
+    "casinos": 996,
+    "tourneys": 430,
+    "hasPoker": 260,
+    "roomsWithSchedules": 81,
+    "verified": 304,
+    "unverified": 111
+  },
+  "deltas": {
+    "casinos": 0,
+    "tourneys": 13,
+    "hasPoker": 0,
+    "roomsWithSchedules": 1
+  },
+  "roomsNewlyCovered": [
+    "Parkwest Casino Lodi"
+  ],
+  "densified": [
+    {
+      "casinoName": "Parkwest Casino Lodi",
+      "before": 0,
+      "after": 6
+    },
+    {
+      "casinoName": "Red Rock Casino Resort & Spa",
+      "before": 3,
+      "after": 3
+    },
+    {
+      "casinoName": "Canterbury Park",
+      "before": 13,
+      "after": 16
+    },
+    {
+      "casinoName": "FireKeepers",
+      "before": 11,
+      "after": 13
+    },
+    {
+      "casinoName": "Casino del Sol",
+      "before": 2,
+      "after": 3
+    },
+    {
+      "casinoName": "Running Aces Casino & Racetrack",
+      "before": 15,
+      "after": 16
+    }
+  ],
+  "topRoomsFilled": [
+    {
+      "casinoName": "Canterbury Park",
+      "before": 13,
+      "after": 16
+    },
+    {
+      "casinoName": "Running Aces Casino & Racetrack",
+      "before": 15,
+      "after": 16
+    },
+    {
+      "casinoName": "FireKeepers",
+      "before": 11,
+      "after": 13
+    },
+    {
+      "casinoName": "Parkwest Casino Lodi",
+      "before": 0,
+      "after": 6
+    },
+    {
+      "casinoName": "Casino del Sol",
+      "before": 2,
+      "after": 3
+    },
+    {
+      "casinoName": "Red Rock Casino Resort & Spa",
+      "before": 3,
+      "after": 3
+    }
+  ],
+  "densifiedNotes": {
+    "Parkwest Casino Lodi": "0→6",
+    "Red Rock Casino Resort & Spa": "3→3",
+    "Canterbury Park": "13→16",
+    "FireKeepers": "11→13",
+    "Casino del Sol": "2→3",
+    "Running Aces Casino & Racetrack": "15→16"
+  },
+  "blockers": [
+    {
+      "room": "Parkwest Casino Cordova",
+      "issue": "Official site promotes table games; no published weekly tourney grid found"
+    },
+    {
+      "room": "Parkwest Casino Lotus",
+      "issue": "Official site lists table games only; no poker tournament schedule"
+    },
+    {
+      "room": "Parkwest Casino Manteca",
+      "issue": "PokerAtlas: does not currently run tournaments; no official grid"
+    },
+    {
+      "room": "Parkwest Casino 580",
+      "issue": "No published weekly tourney grid found this pass"
+    },
+    {
+      "room": "The Clovis 500 Club",
+      "issue": "PokerAtlas: no current tournaments; official site cash/promos only"
+    },
+    {
+      "room": "California Grand Casino",
+      "issue": "Official poker page cash/promos only; no current published tourney times"
+    },
+    {
+      "room": "Cameo Club Casino",
+      "issue": "No current official weekly grid; stale wiki Sunday note skipped"
+    },
+    {
+      "room": "Limelight Cardroom",
+      "issue": "No stable official published weekly grid with times this pass"
+    },
+    {
+      "room": "Bankers Casino",
+      "issue": "Official tournament page: UPCOMING TOURNAMENTS TO BE ANNOUNCED — retained prior stale rows, no inventing"
+    },
+    {
+      "room": "Boulder Station Hotel & Casino",
+      "issue": "Official poker page high-hands only; PokerAtlas no tournaments"
+    },
+    {
+      "room": "Santa Fe Station Hotel & Casino",
+      "issue": "Official poker page high-hands/cash only; PokerAtlas no tournaments"
+    },
+    {
+      "room": "Green Valley Ranch Resort, Casino & Spa",
+      "issue": "Published grid is single daily $99 noon — already covered; no denser weekly variants found"
+    },
+    {
+      "room": "South Point Hotel, Casino & Spa",
+      "issue": "Already dense (11 rows from Sep 2026 flyer); no additional unpublished slots added"
+    },
+    {
+      "room": "The Orleans Hotel & Casino",
+      "issue": "Already dense (14 rows from official Boyd daily PDF); left as-is this pass"
+    },
+    {
+      "room": "Hustler Casino",
+      "issue": "Still no current official tourney grid"
+    },
+    {
+      "room": "Casino M8trix",
+      "issue": "No published weekly tourney grid"
+    },
+    {
+      "room": "Lucky Chances",
+      "issue": "Calendar still lacks start times — no inventing"
+    },
+    {
+      "room": "TCH Social Austin",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Texas Card House Dallas",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "TCH Social Las Colinas",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Texas Card House Houston",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Texas Card House Spring",
+      "issue": "JS-walled calendars — skip"
+    },
+    {
+      "room": "Texas Card House Rio Grande Valley",
+      "issue": "JS-walled calendars — skip"
+    }
+  ],
+  "notes": [
+    "Originals casino-obj-array.js / tourney-obj-array.js untouched.",
+    "Parkwest Casino Lodi: NEW weekly grid from official /1684-2/ schedule (+ monthly championship without invented start time).",
+    "Red Rock: Mon–Thu $85 slots expanded to Mon–Sat; Sunday Funday $150 morning retained; no Sunday evening on VPC upcoming.",
+    "Canterbury: Sun 6:30pm corrected $150→$100; added Tue 6:30pm $200/$10K GTD + monthly PLO/Deep Stack.",
+    "FireKeepers: added Sat MSPT milestone $70 noon + $275 6:15pm from official poker page.",
+    "Casino del Sol: added Monday Reload Madness $80/$2500 GTD from June 2026 official PDF.",
+    "Running Aces: re-verified; added 1st-Sunday PLO; Wed bounty enriched.",
+    "js/rooms-with-schedules.js regenerated to match tourney seed.",
+    "Skip inventing: Bankers TBA, Parkwest Cordova/Lotus/Manteca/580, 500 Club, Cal Grand, Cameo, Limelight, Station locals without grids, TCH JS-walled."
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "generatedAt": "2026-09-24T17:54:30.908779+00:00",
+  "sources": [
+    "https://flgaming.gov/pmw/tracks-frontons/permitholder-operating-licenses-2025-2026/",
+    "https://flgaming.gov/pmw/statistics/docs/cardroom/Cardroom2025-2026.pdf",
+    "https://www.cardplayer.com/poker-rooms/FL"
+  ],
+  "legalModel": "Florida cardrooms only at qualifying pari-mutuel facilities (FGCC cardroom license). Not ordinary standalone businesses.",
+  "cardrooms": [
+    {
+      "permit": 141,
+      "holder": "831 Federal Highway Acquisition Holding, LLC",
+      "dba": "The Big Easy Casino",
+      "seedMatch": "Mardi Gras Casino, Hallandale Beach",
+      "action": "update_rename",
+      "address": "831 N Federal Hwy, Hallandale Beach, FL 33009, USA",
+      "phone": "(954) 924-3200",
+      "website": "https://www.bigeasycasino.com/",
+      "hasPoker": true,
+      "type": "pari-mutuel cardroom"
+    },
+    {
+      "permit": 144,
+      "holder": "831 Federal Highway Acquisition, LLC",
+      "dba": "The Big Easy Casino",
+      "seedMatch": "Mardi Gras Casino, Hallandale Beach",
+      "action": "same_location_alt_permit",
+      "notes": "Same Hallandale location; dual permits 141/144 across FY halves."
+    },
+    {
+      "permit": 145,
+      "holder": "Bestbet Jacksonville, Inc.",
+      "dba": "bestbet Jacksonville",
+      "seedMatch": "bestbet Jacksonville",
+      "action": "already_poker"
+    },
+    {
+      "permit": 148,
+      "holder": "Bestbet Orange Park, Inc.",
+      "dba": "Bestbet Orange Park",
+      "seedMatch": "Bestbet, Orange Park",
+      "action": "already_poker"
+    },
+    {
+      "permit": 157,
+      "holder": "Bestbet St. Augustine, Inc.",
+      "dba": "bestbet St. Augustine",
+      "seedMatch": "bestbet St. Augustine",
+      "action": "already_poker"
+    },
+    {
+      "permit": 142,
+      "holder": "Bonita-Fort Myers Corporation",
+      "dba": "Bonita Springs Poker Room",
+      "seedMatch": "Naples Fort Myers Kennel Club & Poker Room",
+      "action": "update_alias",
+      "address": "10601 Bonita Beach Rd SE, Bonita Springs, FL 34135, USA",
+      "phone": "(239) 949-3511",
+      "website": "https://www.naplesfortmyersdogs.com/",
+      "hasPoker": true
+    },
+    {
+      "permit": 285,
+      "holder": "Calder Race Course, Inc.",
+      "dba": "Calder Casino",
+      "seedMatch": "Calder Casino",
+      "action": "flip_hasPoker",
+      "address": "21001 NW 27th Ave, Miami Gardens, FL 33056, USA",
+      "phone": "(305) 625-1311",
+      "website": "http://www.caldercasino.com/",
+      "hasPoker": true
+    },
+    {
+      "permit": 273,
+      "holder": "Casino Miami, LLC",
+      "dba": "Casino Miami",
+      "seedMatch": "Casino Miami",
+      "action": "already_poker"
+    },
+    {
+      "permit": 274,
+      "holder": "Dania Entertainment Center, LLC",
+      "dba": "The Casino @ Dania Beach",
+      "seedMatch": "The Casino @ Dania Beach",
+      "action": "already_poker"
+    },
+    {
+      "permit": 281,
+      "holder": "Dania Entertainment Center, LLC",
+      "dba": "The Casino @ Dania Beach (Summer Jai Alai)",
+      "seedMatch": "The Casino @ Dania Beach",
+      "action": "same_location_alt_permit"
+    },
+    {
+      "permit": 143,
+      "holder": "Daytona Beach Kennel Club, Inc.",
+      "dba": "Daytona Beach Racing and Card Club",
+      "seedMatch": "Daytona Beach Kennel Club & Poker Room, International Speedway",
+      "action": "already_poker"
+    },
+    {
+      "permit": 278,
+      "holder": "Fronton Holdings, LLC",
+      "dba": "Casino Ft. Pierce / Card House Port St. Lucie",
+      "seedMatch": "Fort Pierce Poker &  Jai-Alai",
+      "action": "update_enrich",
+      "secondaryName": "Card House Port St Lucie",
+      "address": "1750 S Kings Hwy, Fort Pierce, FL 34945, USA",
+      "phone": "(772) 464-7500",
+      "hasPoker": true
+    },
+    {
+      "permit": 155,
+      "holder": "Gretna Racing, LLC",
+      "dba": "Magic City Casino",
+      "seedMatch": "Magic City Casino",
+      "action": "already_poker"
+    },
+    {
+      "permit": 542,
+      "holder": "Gretna Racing, LLC",
+      "dba": "Creek Entertainment Gretna",
+      "seedMatch": "Creek Entertainment Gretna",
+      "action": "flip_hasPoker",
+      "address": "151 Morse Dr, Gretna, FL 32332, USA",
+      "phone": "(850) 875-6930",
+      "website": "http://creekentertainment.com/",
+      "hasPoker": true
+    },
+    {
+      "permit": 321,
+      "holder": "Gulfstream Park Racing Association, Inc.",
+      "dba": "Gulfstream Park Racing & Casino",
+      "seedMatch": "Gulfstream Park Racing & Casino",
+      "action": "already_poker",
+      "notes": "Cardroom license listed; FY receipts show currently not operating cardroom rake in some months."
+    },
+    {
+      "permit": 547,
+      "holder": "Hamilton Downs Horsetrack, LLC",
+      "dba": "Hamilton Downs",
+      "action": "skip_minimal",
+      "notes": "Cardroom license with near-zero receipts; skip ingest this pass."
+    },
+    {
+      "permit": 149,
+      "holder": "Investment Corporation of Palm Beach",
+      "dba": "Palm Beach Kennel Club",
+      "seedMatch": "Palm Beach Kennel Club, West Palm Beach",
+      "action": "already_poker"
+    },
+    {
+      "permit": 176,
+      "holder": "Melbourne Greyhound Park, LLC",
+      "dba": "Club 52 Poker / Melbourne Greyhound Park",
+      "seedMatch": "Melbourne Greyhound Park",
+      "action": "flip_hasPoker",
+      "preferredName": "Club 52 Poker at Melbourne Greyhound Park",
+      "address": "1100 N Wickham Rd, Melbourne, FL 32935, USA",
+      "phone": "(321) 259-9800",
+      "website": "https://www.club52poker.com/",
+      "hasPoker": true
+    },
+    {
+      "permit": 277,
+      "holder": "OBS Real Estate Holdings, LLC",
+      "dba": "Ocala Gainesville Poker",
+      "action": "not_operating",
+      "notes": "FY receipts Currently Not Operating."
+    },
+    {
+      "permit": 950,
+      "holder": "Ocala Breeders' Sales Company, Inc.",
+      "dba": "Ocala Bets",
+      "action": "add",
+      "address": "1781 SW 60th Ave, Ocala, FL 34474, USA",
+      "phone": "(352) 237-4144",
+      "website": "https://ocalabets.com/",
+      "hours": "Sun-Thu 9:00 AM \u2013 2:30 AM; Fri-Sat 9:00 AM \u2013 4:30 AM",
+      "gamesOffered": "Poker, Vegas-style card games",
+      "hasPoker": true,
+      "pokerTournaments": "true"
+    },
+    {
+      "permit": 277,
+      "holder": "OBS / related",
+      "dba": "Ocala Poker & Jai-Alai",
+      "seedMatch": "Ocala Poker & Jai-Alai",
+      "action": "already_poker",
+      "notes": "Distinct from Ocala Bets."
+    },
+    {
+      "permit": 430,
+      "holder": "PPI, Inc.",
+      "dba": "Harrah's Pompano Beach",
+      "seedMatch": "Isle Casino & Racing, Pompano Park",
+      "action": "update_rename",
+      "address": "1800 SW 3rd St, Pompano Beach, FL 33060, USA",
+      "phone": "(954) 633-6680",
+      "website": "https://www.harrahspompanobeach.com/",
+      "hasPoker": true
+    },
+    {
+      "permit": 150,
+      "holder": "Pensacola Greyhound Racing, LLP",
+      "dba": "Pensacola Greyhound Park Poker Room",
+      "seedMatch": "Pensacola Greyhound Track",
+      "action": "flip_hasPoker",
+      "address": "6715 W Mobile Hwy, Pensacola, FL 32526, USA",
+      "phone": "(850) 455-8595",
+      "website": "http://pensacolagreyhoundtrack.com/",
+      "hasPoker": true
+    },
+    {
+      "permit": 153,
+      "holder": "Sarasota Kennel Club, Inc.",
+      "dba": "One-Eyed Jack's Poker Room",
+      "seedMatch": "Sarasota Kennel Club",
+      "action": "flip_hasPoker",
+      "preferredName": "One-Eyed Jack's Poker Room",
+      "address": "5400 Bradenton Rd, Sarasota, FL 34234, USA",
+      "phone": "(941) 355-7744",
+      "website": "http://www.sarasotakennelclub.com/",
+      "hasPoker": true,
+      "pokerTournaments": "true"
+    },
+    {
+      "permit": 544,
+      "holder": "South Florida Racing Association, LLC",
+      "dba": "Hialeah Park",
+      "seedMatch": "Hialeah Park Casino",
+      "action": "flip_hasPoker",
+      "address": "2200 E 4th Ave, Hialeah, FL 33013, USA",
+      "phone": "(305) 885-8000",
+      "website": "http://hialeahparkracing.com/",
+      "hasPoker": true
+    },
+    {
+      "permit": 545,
+      "holder": "South Marion Real Estate Holdings, LLC",
+      "dba": "Oxford Downs",
+      "action": "add",
+      "address": "17996 US-301, Summerfield, FL 34491, USA",
+      "phone": "(352) 347-2273",
+      "website": "https://betoxford.com/",
+      "hours": "Poker room open around the clock (venue claim)",
+      "gamesOffered": "Multiple poker variants",
+      "hasPoker": true,
+      "pokerTournaments": "true"
+    },
+    {
+      "permit": 151,
+      "holder": "St Petersburg Kennel Club, Inc.",
+      "dba": "Derby Lane / Win-Derby",
+      "seedMatch": "Derby Lane Poker Room",
+      "action": "already_poker"
+    },
+    {
+      "permit": 320,
+      "holder": "Tampa Bay Downs, Inc.",
+      "dba": "Silk's Poker Room / Tampa Bay Downs",
+      "seedMatch": "Tampa Bay Downs",
+      "action": "already_poker"
+    },
+    {
+      "permit": 140,
+      "holder": "TBD Entertainment, LLC",
+      "dba": "Lucky's Card Room / TGT Poker",
+      "seedMatch": "Tampa Greyhound Track",
+      "action": "flip_hasPoker",
+      "preferredName": "Lucky's Card Room (TGT Poker)",
+      "address": "8300 N Nebraska Ave, Tampa, FL 33604, USA",
+      "phone": "(813) 932-4313",
+      "website": "https://www.tgtpoker.com/",
+      "hasPoker": true,
+      "pokerTournaments": "true"
+    },
+    {
+      "permit": 154,
+      "holder": "Washington County Kennel Club",
+      "dba": "Ebro Greyhound Park / Ebro Poker Room",
+      "seedMatch": "Ebro Greyhound Park",
+      "action": "flip_hasPoker",
+      "address": "5465 Dog Track Rd, Ebro, FL 32437, USA",
+      "phone": "(850) 234-3943",
+      "website": "http://www.goebro.com/",
+      "hasPoker": true
+    },
+    {
+      "permit": 175,
+      "holder": "West Volusia Racing, Inc.",
+      "dba": "Orange City Racing and Card Club",
+      "action": "add",
+      "address": "822-4 Saxon Blvd, Orange City, FL 32763, USA",
+      "phone": "(386) 252-6484",
+      "website": "https://www.orangecitypoker.com/",
+      "hours": "Mon-Tue 10am\u20136am; Wed-Sun 24 Hours",
+      "gamesOffered": "NLH and other poker; casino-style table games",
+      "hasPoker": true,
+      "pokerTournaments": "true"
+    }
+  ],
+  "tribalPokerKept": [
+    "Miccosukee Resort & Gaming",
+    "Seminole Casino Hotel, Immokalee",
+    "Seminole Classic Casino, Hollywood",
+    "Seminole Hard Rock Hotel & Casino, Tampa",
+    "Seminole Casino, Coconut Creek",
+    "Seminole Hard Rock Hotel & Casino, Hollywood"
+  ],
+  "seedBeforePokerApprox": 23,
+  "pass14Plan": {
+    "flipHasPoker": [
+      "Calder Casino",
+      "Creek Entertainment Gretna",
+      "Melbourne Greyhound Park",
+      "Pensacola Greyhound Track",
+      "Sarasota Kennel Club",
+      "Hialeah Park Casino",
+      "Tampa Greyhound Track",
+      "Ebro Greyhound Park"
+    ],
+    "renameUpdate": [
+      "Mardi Gras Casino, Hallandale Beach \u2192 The Big Easy Casino",
+      "Isle Casino & Racing, Pompano Park \u2192 Harrah's Pompano Beach"
+    ],
+    "addNew": [
+      "Orange City Racing and Card Club",
+      "Oxford Downs",
+      "Ocala Bets"
+    ],
+    "skip": [
+      "Hamilton Downs (near-zero)",
+      "Ocala Gainesville Poker (not operating)"
+    ]
+  }
+}

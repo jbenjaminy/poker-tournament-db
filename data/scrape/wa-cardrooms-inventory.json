@@ -1,0 +1,400 @@
+{
+  "generatedAt": "2026-09-24T17:54:30.928945+00:00",
+  "sources": [
+    "https://wsgc.wa.gov/sites/default/files/2026-02/2026%20HB%20List.pdf",
+    "https://wsgc.wa.gov/rules-enforcement/house-banked-public-card-room-locations",
+    "https://wsgc.wa.gov/licensing/apply-your-license/commercial-business-licenses/card-games-commercial",
+    "https://www.wsggaming.com/locations/pacific-northwest/",
+    "https://www.cardplayer.com/poker-rooms/WA"
+  ],
+  "legalModel": "WA commercial stimulant businesses may offer card games (max 15 tables). House-banked license also permits nonhouse-banked poker. Local veto possible.",
+  "licensedOperatingCount": 35,
+  "venues": [
+    {
+      "name": "All Star Casino",
+      "city": "Silverdale",
+      "address": "10710 Silverdale Way NW, Silverdale, WA 98383, USA",
+      "phone": "(360) 692-5760",
+      "website": "https://wsggpoker.com/listings/all-star-lanes-and-casino/",
+      "hasPoker": true,
+      "gamesOffered": "House-banked card games; poker when offered",
+      "source": "WSGC HB List + WSG Gaming"
+    },
+    {
+      "name": "Black Pearl Restaurant & Card Room",
+      "city": "Spokane Valley",
+      "address": "Spokane Valley, WA, USA",
+      "phone": "(509) 290-5484",
+      "hasPoker": true,
+      "pokerTournaments": "true",
+      "notes": "CardPlayer lists daily tournament schedule",
+      "source": "WSGC HB List + CardPlayer"
+    },
+    {
+      "name": "Buzz Inn Steakhouse East Wenatchee",
+      "city": "East Wenatchee",
+      "address": "East Wenatchee, WA, USA",
+      "hasPoker": true,
+      "source": "WSGC HB List"
+    },
+    {
+      "name": "Caribbean Cardroom",
+      "city": "Kirkland",
+      "address": "Kirkland, WA, USA",
+      "phone": "(425) 821-2222",
+      "hasPoker": true,
+      "pokerTournaments": "true",
+      "gamesOffered": "NLH and mixed games",
+      "source": "WSGC HB List + CardPlayer"
+    },
+    {
+      "name": "Casino Caribbean Kirkland",
+      "city": "Kirkland",
+      "address": "Kirkland, WA, USA",
+      "phone": "(425) 821-2222",
+      "hasPoker": true,
+      "source": "WSGC HB List",
+      "notes": "Companion house-banked property to Caribbean Cardroom."
+    },
+    {
+      "name": "Casino Caribbean Yakima",
+      "city": "Yakima",
+      "address": "1901 Boggess Lane, Yakima, WA 98901, USA",
+      "phone": "(509) 853-7777",
+      "website": "https://wsggpoker.com/listings/caribbean-casino-yakima/",
+      "hasPoker": true,
+      "source": "WSGC HB List + WSG Gaming"
+    },
+    {
+      "name": "Chips Casino Lakewood",
+      "city": "Lakewood",
+      "address": "Lakewood, WA 98499, USA",
+      "hasPoker": true,
+      "source": "WSGC HB List"
+    },
+    {
+      "name": "Clearwater Saloon & Casino",
+      "city": "East Wenatchee",
+      "address": "East Wenatchee, WA, USA",
+      "hasPoker": true,
+      "source": "WSGC HB List"
+    },
+    {
+      "name": "Coyote Bob's Casino",
+      "city": "Kennewick",
+      "address": "3014 West Kennewick Ave, Kennewick, WA 99336, USA",
+      "phone": "(509) 374-2392",
+      "website": "https://wsggpoker.com/listings/coyote-bobs-roadhouse-casino-kennewick/",
+      "hasPoker": true,
+      "source": "WSGC HB List + WSG Gaming"
+    },
+    {
+      "name": "Crazy Moose Casino II",
+      "city": "Mountlake Terrace",
+      "address": "Mountlake Terrace, WA, USA",
+      "hasPoker": true,
+      "source": "WSGC HB List",
+      "notes": "Often associated with Ace's Poker brand / Maverick."
+    },
+    {
+      "name": "Crazy Moose Casino Pasco",
+      "city": "Pasco",
+      "address": "510 S 20th St, Pasco, WA 99301, USA",
+      "phone": "(509) 542-8580",
+      "hasPoker": true,
+      "source": "WSGC HB List + WSG Gaming"
+    },
+    {
+      "name": "Fortune Casino Lacey",
+      "city": "Lacey",
+      "address": "8318 Quinault Dr NE, Lacey, WA 98516, USA",
+      "phone": "(360) 528-8888",
+      "website": "https://fortunelacey.weebly.com/",
+      "hours": "Open Daily 9:00 AM - 6:00 AM; Poker opens 11:00 AM",
+      "gamesOffered": "Hold'em Poker, Baccarat, Pai Gow, Blackjack, High Card Flush",
+      "hasPoker": true,
+      "source": "WSGC HB List + venue site"
+    },
+    {
+      "name": "Fortune Casino Renton",
+      "city": "Renton",
+      "address": "111 S 3rd St, Renton, WA 98057, USA",
+      "phone": "(425) 228-3700",
+      "hours": "",
+      "gamesOffered": "Poker and house-banked card games",
+      "hasPoker": true,
+      "source": "WSGC locations + HB List",
+      "notes": "Also known as Fortune Poker Renton."
+    },
+    {
+      "name": "Fortune Casino Shoreline",
+      "city": "Shoreline",
+      "address": "15030 Aurora Ave N, Shoreline, WA 98133, USA",
+      "phone": "(206) 440-8754",
+      "hasPoker": true,
+      "source": "WSGC locations (Goldies Shoreline) + HB List"
+    },
+    {
+      "name": "Fortune Casino Tukwila",
+      "city": "Tukwila",
+      "address": "14025 Interurban Ave S, Tukwila, WA 98168, USA",
+      "phone": "(206) 243-1491",
+      "hasPoker": true,
+      "source": "WSGC locations + HB List"
+    },
+    {
+      "name": "Fortune Casino La Center",
+      "city": "La Center",
+      "address": "318 Old Pacific Hwy, La Center, WA 98629, USA",
+      "hasPoker": true,
+      "source": "WSGC locations (The Palace) + HB List"
+    },
+    {
+      "name": "Grand Casino Shoreline",
+      "city": "Shoreline",
+      "address": "Shoreline, WA, USA",
+      "hasPoker": true,
+      "source": "WSGC HB List"
+    },
+    {
+      "name": "Grand Casino Renton",
+      "city": "Renton",
+      "address": "3100 E Valley Rd, Renton, WA 98057, USA",
+      "phone": "(425) 251-1590",
+      "hasPoker": true,
+      "source": "WSGC locations (Silver Dollar/Renton addr) + HB List",
+      "notes": "Verify brand; WSGC public page also lists Silver Dollar Casino/Renton at this address."
+    },
+    {
+      "name": "Great American Casino Everett",
+      "city": "Everett",
+      "address": "12715 4th Ave W, Everett, WA 98204, USA",
+      "phone": "(425) 347-1669",
+      "website": "https://wsggpoker.com/listings/great-american-casino-everett/",
+      "hasPoker": true,
+      "source": "WSGC locations + WSG Gaming"
+    },
+    {
+      "name": "Great American Casino Tukwila",
+      "city": "Tukwila",
+      "address": "14040 Interurban Ave S, Tukwila, WA 98168, USA",
+      "phone": "(206) 244-5400",
+      "hasPoker": true,
+      "source": "WSGC HB List + WSG Gaming"
+    },
+    {
+      "name": "Imperial Palace Casino Auburn",
+      "city": "Auburn",
+      "address": "Auburn, WA, USA",
+      "hasPoker": true,
+      "source": "WSGC HB List"
+    },
+    {
+      "name": "Imperial Palace Casino Tukwila",
+      "city": "Tukwila",
+      "address": "Tukwila, WA, USA",
+      "hasPoker": true,
+      "source": "WSGC HB List"
+    },
+    {
+      "name": "Imperial Palace Casino Seattle",
+      "city": "Seattle",
+      "address": "Seattle, WA, USA",
+      "hasPoker": true,
+      "source": "WSGC HB List"
+    },
+    {
+      "name": "Joker's Casino and Sports Bar",
+      "city": "Richland",
+      "address": "624 Wellsian Way, Richland, WA 99352, USA",
+      "phone": "(509) 943-1173",
+      "hasPoker": true,
+      "source": "WSGC locations + HB List"
+    },
+    {
+      "name": "Lancer Lanes and Casino",
+      "city": "Clarkston",
+      "address": "Clarkston, WA, USA",
+      "hasPoker": true,
+      "source": "WSGC HB List"
+    },
+    {
+      "name": "Lilac Lanes & Casino",
+      "city": "Spokane",
+      "address": "Spokane, WA, USA",
+      "hasPoker": true,
+      "source": "WSGC HB List"
+    },
+    {
+      "name": "Macau Casino Lakewood",
+      "city": "Lakewood",
+      "address": "9811 S Tacoma Way, Lakewood, WA 98499, USA",
+      "phone": "(253) 983-1777",
+      "hasPoker": true,
+      "source": "WSGC locations + HB List"
+    },
+    {
+      "name": "Macau Casino Tukwila",
+      "city": "Tukwila",
+      "address": "5700 Southcenter Blvd, Tukwila, WA 98188, USA",
+      "phone": "(206) 246-0888",
+      "hasPoker": true,
+      "source": "WSGC locations + HB List"
+    },
+    {
+      "name": "New Phoenix",
+      "city": "La Center",
+      "address": "La Center, WA, USA",
+      "hasPoker": true,
+      "source": "WSGC HB List"
+    },
+    {
+      "name": "Nob Hill Casino",
+      "city": "Yakima",
+      "address": "3807 W Nob Hill Blvd, Yakima, WA 98902, USA",
+      "phone": "(509) 966-1070",
+      "hasPoker": true,
+      "source": "WSGC locations + HB List"
+    },
+    {
+      "name": "Papas Casino Restaurant & Lounge",
+      "city": "Moses Lake",
+      "address": "1165 N Stratford Rd, Moses Lake, WA 98837, USA",
+      "phone": "(509) 765-1265",
+      "hasPoker": true,
+      "source": "WSGC locations + HB List"
+    },
+    {
+      "name": "Riverside Casino",
+      "city": "Tukwila",
+      "address": "14060 Interurban Ave S, Tukwila, WA 98168, USA",
+      "phone": "(206) 248-2363",
+      "website": "https://wsggpoker.com/listings/riverside-casino-promotions/",
+      "hasPoker": true,
+      "source": "WSGC locations + HB List"
+    },
+    {
+      "name": "Silver Dollar Casino Mill Creek",
+      "city": "Mill Creek",
+      "address": "17917 Bothell Everett Hwy, Bothell, WA 98012, USA",
+      "phone": "(425) 481-9227",
+      "hasPoker": true,
+      "source": "WSGC locations + HB List",
+      "notes": "Listed under Mill Creek license; public address in Bothell."
+    },
+    {
+      "name": "Silver Dollar Casino SeaTac",
+      "city": "SeaTac",
+      "address": "19222 International Blvd, SeaTac, WA 98188, USA",
+      "phone": "(206) 824-2340",
+      "hasPoker": true,
+      "source": "WSGC locations + HB List"
+    },
+    {
+      "name": "Slo Pitch Pub & Eatery",
+      "city": "Bellingham",
+      "address": "3720 Meridian St, Bellingham, WA 98225, USA",
+      "phone": "(360) 733-2255",
+      "hasPoker": true,
+      "pokerTournaments": "true",
+      "source": "WSGC locations + CardPlayer"
+    },
+    {
+      "name": "Ace's Poker Tukwila",
+      "city": "Tukwila",
+      "address": "Tukwila, WA, USA",
+      "hasPoker": true,
+      "source": "WSGC HB List (licensed)",
+      "notes": "Poker-branded commercial cardroom."
+    },
+    {
+      "name": "Roman Casino",
+      "city": "Seattle",
+      "address": "11829 Renton Ave S, Seattle, WA 98178, USA",
+      "phone": "(206) 772-4200",
+      "hasPoker": true,
+      "source": "WSGC locations + HB List"
+    },
+    {
+      "name": "Palace Casino Lakewood",
+      "city": "Lakewood",
+      "address": "8200 Tacoma Mall Blvd #B, Lakewood, WA 98499, USA",
+      "phone": "(253) 581-5851",
+      "hasPoker": true,
+      "source": "WSG Gaming + CardPlayer"
+    }
+  ],
+  "notCurrentlyOperating": [
+    {
+      "name": "Wild Goose Casino",
+      "city": "Ellensburg",
+      "address": "1600 Currier St, Ellensburg, WA 98926, USA",
+      "phone": "(509) 925-5825",
+      "status": "Licensed but Not Currently Operating per Feb 2026 HB List",
+      "hasPoker": false
+    }
+  ],
+  "applicationsPending": [
+    "Casino Caribbean Kirkland (app)",
+    "Crazy Moose Casino Mountlake Terrace (app)",
+    "Desert Bluffs Poker Room Kennewick",
+    "Macau Casino Tukwila (app)",
+    "Roman Casino Seattle (app)",
+    "Silver Dollar Casino Bothell",
+    "Silver Dollar Mill Creek SeaTac"
+  ],
+  "tribalOrOtherPoker": [
+    {
+      "name": "Northern Quest Resort & Casino",
+      "seed": true,
+      "hasPoker": true
+    },
+    {
+      "name": "Little Creek Casino Resort",
+      "address": "91 West State Route 108, Shelton, WA 98584, USA",
+      "phone": "(360) 427-3049",
+      "website": "https://littlecreek.com/poker/",
+      "hours": "Mon-Fri 10AM to casino close; Sat-Sun 9AM to casino close",
+      "hasPoker": true,
+      "pokerTournaments": "true",
+      "type": "tribal"
+    },
+    {
+      "name": "Jamestown Saloon",
+      "address": "Arlington, WA, USA",
+      "phone": "(360) 386-9783",
+      "hasPoker": true,
+      "pokerTournaments": "true",
+      "type": "tribal/other",
+      "source": "CardPlayer WA"
+    }
+  ],
+  "ingestPriority": [
+    "Fortune Casino Renton",
+    "Fortune Casino Tukwila",
+    "Fortune Casino Lacey",
+    "Fortune Casino Shoreline",
+    "Caribbean Cardroom",
+    "Casino Caribbean Kirkland",
+    "Casino Caribbean Yakima",
+    "Ace's Poker Tukwila",
+    "All Star Casino",
+    "Great American Casino Everett",
+    "Great American Casino Tukwila",
+    "Slo Pitch Pub & Eatery",
+    "Black Pearl Restaurant & Card Room",
+    "Little Creek Casino Resort",
+    "Coyote Bob's Casino",
+    "Crazy Moose Casino Pasco",
+    "Macau Casino Lakewood",
+    "Macau Casino Tukwila",
+    "Riverside Casino",
+    "Roman Casino",
+    "Palace Casino Lakewood",
+    "Joker's Casino and Sports Bar",
+    "Nob Hill Casino",
+    "Papas Casino Restaurant & Lounge",
+    "Silver Dollar Casino SeaTac",
+    "Silver Dollar Casino Mill Creek"
+  ]
+}

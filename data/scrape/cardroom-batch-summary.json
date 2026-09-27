@@ -1,0 +1,133 @@
+{
+  "generatedAt": "2026-09-24T17:33:16.525Z",
+  "pass": 12,
+  "before": {
+    "casinos": 908,
+    "tourneys": 332,
+    "hasPoker": 131,
+    "CA": 136,
+    "CApoker": 34,
+    "TX": 1,
+    "FL": 39,
+    "FLpoker": 20,
+    "CO": 35,
+    "COpoker": 5
+  },
+  "after": {
+    "casinos": 933,
+    "tourneys": 356,
+    "hasPoker": 187,
+    "CA": 155,
+    "CApoker": 81,
+    "TX": 7,
+    "TXpoker": 7,
+    "FL": 39,
+    "FLpoker": 23,
+    "CO": 35,
+    "COpoker": 5,
+    "verifiedTourneys": 250,
+    "unverifiedTourneys": 91
+  },
+  "deltas": {
+    "casinos": 25,
+    "tourneys": 24,
+    "hasPoker": 56,
+    "CApoker": 47,
+    "TX": 6,
+    "FLpoker": 3
+  },
+  "addedCount": 25,
+  "updatedCount": 46,
+  "newlyAddedByState": {
+    "California": [
+      "Palace Poker Casino",
+      "Seven Mile Casino",
+      "Stars Casino",
+      "Westlane Card Room",
+      "Kings Card Club",
+      "Parkwest Casino Lotus",
+      "Parkwest Casino 580",
+      "Parkwest Casino Cordova",
+      "Parkwest Casino Lodi",
+      "Parkwest Casino Manteca",
+      "Ace & Vine",
+      "Casino 99",
+      "Casino Chico",
+      "Club San Rafael",
+      "El Dorado Hills Casino",
+      "Isleton Casino",
+      "North Coast Casino",
+      "Stones Gambling Hall",
+      "Casino Club"
+    ],
+    "Texas": [
+      "TCH Social Austin",
+      "Texas Card House Dallas",
+      "TCH Social Las Colinas",
+      "Texas Card House Houston",
+      "Texas Card House Spring",
+      "Texas Card House Rio Grande Valley"
+    ]
+  },
+  "notableAdded": [
+    "Palace Poker Casino",
+    "Seven Mile Casino",
+    "Stars Casino",
+    "Westlane Card Room",
+    "Kings Card Club",
+    "Parkwest Casino Lotus",
+    "Parkwest Casino 580",
+    "Parkwest Casino Cordova",
+    "Parkwest Casino Lodi",
+    "Parkwest Casino Manteca",
+    "Ace & Vine",
+    "Casino 99",
+    "Casino Chico",
+    "Club San Rafael",
+    "El Dorado Hills Casino",
+    "Isleton Casino",
+    "North Coast Casino",
+    "Stones Gambling Hall",
+    "Casino Club",
+    "TCH Social Austin",
+    "Texas Card House Dallas",
+    "TCH Social Las Colinas",
+    "Texas Card House Houston",
+    "Texas Card House Spring",
+    "Texas Card House Rio Grande Valley"
+  ],
+  "tourneyAdds": {
+    "Players Casino": {
+      "rows": 6,
+      "status": "verified",
+      "source": "pcventura.com/tournaments"
+    },
+    "Turlock Poker Room": {
+      "rows": 10,
+      "status": "unverified",
+      "source": "PokerAtlas calendar"
+    },
+    "Stones Gambling Hall": {
+      "rows": 8,
+      "status": "unverified",
+      "source": "PokerAtlas calendar"
+    }
+  },
+  "blockers": [
+    "Texas Card House location pages: tournament calendars JS-walled; venues added contact-only with hasPoker true",
+    "Limelight / Seven Mile / most Parkwest / Palace Poker: no extractable weekly grid",
+    "PokerAtlas recurring day-letter widgets lose CSS highlighting — used calendar-date aggregation for Turlock/Stones (unverified)",
+    "The Lodge Casino Black Hawk: poker room reported closed; hasPoker left false"
+  ],
+  "filesChanged": [
+    "data/scrape/master-casinos.jsonl",
+    "data/scrape/master-tournaments.jsonl",
+    "data/scrape/refreshed-casino-obj-array.js",
+    "data/scrape/refreshed-tourney-obj-array.js",
+    "other/refreshed-casino-obj-array.js",
+    "other/refreshed-tourney-obj-array.js",
+    "data/scrape/progress.md",
+    "data/scrape/cardroom-batch-summary.json",
+    "data/scrape/_pass12_cardrooms.js"
+  ]
+}

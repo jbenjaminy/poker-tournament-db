@@ -1,0 +1,284 @@
+{
+  "generatedAt": "2026-09-24T17:55:28.247Z",
+  "pass": 14,
+  "title": "Nationwide standalone cardrooms — CA complete + FL + WA first pass",
+  "before": {
+    "casinos": 954,
+    "tourneys": 355,
+    "hasPoker": 204,
+    "CA": 155,
+    "CApoker": 81,
+    "FL": 39,
+    "FLpoker": 23,
+    "WA": 45,
+    "WApoker": 1,
+    "TX": 28,
+    "TXpoker": 28,
+    "verifiedTourneys": 251,
+    "unverifiedTourneys": 89
+  },
+  "after": {
+    "casinos": 996,
+    "tourneys": 363,
+    "hasPoker": 255,
+    "CA": 155,
+    "CApoker": 81,
+    "FL": 42,
+    "FLpoker": 34,
+    "WA": 84,
+    "WApoker": 41,
+    "TX": 28,
+    "TXpoker": 28,
+    "verifiedTourneys": 251,
+    "unverifiedTourneys": 97
+  },
+  "deltas": {
+    "casinos": 42,
+    "tourneys": 8,
+    "hasPoker": 51,
+    "CApoker": 0,
+    "FLpoker": 11,
+    "WApoker": 40
+  },
+  "addedCount": 42,
+  "updatedCount": 13,
+  "newlyAddedByState": {
+    "California": [],
+    "Florida": [
+      "Orange City Racing and Card Club",
+      "Oxford Downs",
+      "Ocala Bets"
+    ],
+    "Washington": [
+      "All Star Casino",
+      "Black Pearl Restaurant & Card Room",
+      "Buzz Inn Steakhouse East Wenatchee",
+      "Caribbean Cardroom",
+      "Casino Caribbean Kirkland",
+      "Casino Caribbean Yakima",
+      "Chips Casino Lakewood",
+      "Clearwater Saloon & Casino",
+      "Coyote Bob's Casino",
+      "Crazy Moose Casino II",
+      "Crazy Moose Casino Pasco",
+      "Fortune Casino Lacey",
+      "Fortune Casino Renton",
+      "Fortune Casino Shoreline",
+      "Fortune Casino Tukwila",
+      "Fortune Casino La Center",
+      "Grand Casino Shoreline",
+      "Grand Casino Renton",
+      "Great American Casino Everett",
+      "Great American Casino Tukwila",
+      "Imperial Palace Casino Auburn",
+      "Imperial Palace Casino Tukwila",
+      "Imperial Palace Casino Seattle",
+      "Joker's Casino and Sports Bar",
+      "Lancer Lanes and Casino",
+      "Lilac Lanes & Casino",
+      "Macau Casino Lakewood",
+      "Macau Casino Tukwila",
+      "New Phoenix",
+      "Papas Casino Restaurant & Lounge",
+      "Riverside Casino",
+      "Silver Dollar Casino Mill Creek",
+      "Silver Dollar Casino SeaTac",
+      "Slo Pitch Pub & Eatery",
+      "Ace's Poker Tukwila",
+      "Roman Casino",
+      "Palace Casino Lakewood",
+      "Little Creek Casino Resort",
+      "Jamestown Saloon"
+    ]
+  },
+  "updatedByState": {
+    "California": [
+      "Club One Casino"
+    ],
+    "Florida": [
+      "Calder Casino",
+      "Creek Entertainment Gretna",
+      "Club 52 Poker at Melbourne Greyhound Park",
+      "Pensacola Greyhound Park Poker Room",
+      "One-Eyed Jack's Poker Room",
+      "Hialeah Park Casino",
+      "Lucky's Card Room (TGT Poker)",
+      "Ebro Poker Room",
+      "The Big Easy Casino",
+      "Harrah's Pompano Beach",
+      "Naples Fort Myers Kennel Club & Poker Room"
+    ],
+    "Washington": [
+      "Nob Hill Casino"
+    ]
+  },
+  "ca": {
+    "cgccOperatingMatched": 56,
+    "missingFromSeed": 0,
+    "clubOneAddressUpdated": true,
+    "staleSuspectsLeftForCleanup": [
+      "Black Sheep Casino",
+      "Comstock Card Room",
+      "Delta Club",
+      "Lucky Derby Casino",
+      "Lucky Lady Casino & Card Room",
+      "Village Club Card Room",
+      "Mortimers Card Room",
+      "Poker Flats Casino",
+      "Oasis Card Room",
+      "Ranchos Club Casino",
+      "Palomar Card Club",
+      "Casino Real",
+      "Casino Real Card Room",
+      "Silver Fox Casino & Lounge",
+      "The 101 Casino",
+      "Cameo Club Casino",
+      "Casino Marysville"
+    ]
+  },
+  "fl": {
+    "flippedOrRenamed": [
+      "Calder Casino",
+      "Creek Entertainment Gretna",
+      "Club 52 Poker at Melbourne Greyhound Park",
+      "Pensacola Greyhound Park Poker Room",
+      "One-Eyed Jack's Poker Room",
+      "Hialeah Park Casino",
+      "Lucky's Card Room (TGT Poker)",
+      "Ebro Poker Room",
+      "The Big Easy Casino",
+      "Harrah's Pompano Beach",
+      "Naples Fort Myers Kennel Club & Poker Room"
+    ],
+    "added": [
+      "Orange City Racing and Card Club",
+      "Oxford Downs",
+      "Ocala Bets"
+    ],
+    "skipped": [
+      "Hamilton Downs (near-zero)",
+      "Ocala Gainesville Poker (not operating)"
+    ]
+  },
+  "wa": {
+    "commercialAdded": 39,
+    "tribalAdded": [
+      "Little Creek Casino Resort",
+      "Jamestown Saloon"
+    ],
+    "tourneysFromCardPlayer": [
+      "Caribbean Cardroom",
+      "Black Pearl Restaurant & Card Room",
+      "Slo Pitch Pub & Eatery",
+      "Little Creek Casino Resort"
+    ]
+  },
+  "otherStatesFollowUp": [
+    "Montana live-card bars (MTR36)",
+    "Oregon local social clubs",
+    "New Hampshire charitable halls",
+    "WA Ace's brand depth + city-only address fill"
+  ],
+  "blockers": [],
+  "filesChanged": [
+    "data/scrape/master-casinos.jsonl",
+    "data/scrape/master-tournaments.jsonl",
+    "data/scrape/refreshed-casino-obj-array.js",
+    "data/scrape/refreshed-tourney-obj-array.js",
+    "other/refreshed-casino-obj-array.js",
+    "other/refreshed-tourney-obj-array.js",
+    "data/scrape/ca-cardrooms-inventory.json",
+    "data/scrape/fl-cardrooms-inventory.json",
+    "data/scrape/wa-cardrooms-inventory.json",
+    "data/scrape/other-states-cardrooms-notes.json",
+    "data/scrape/nationwide-cardrooms-summary.json",
+    "data/scrape/progress.md",
+    "data/scrape/_pass14_nationwide_cardrooms.js"
+  ],
+  "remainingGaps": {
+    "California": [
+      "CGCC operating list fully matched (56/56) — no adds needed",
+      "Cleanup follow-up: seed hasPoker names not on CGCC operating (Black Sheep, Comstock, Delta Club, Lucky Derby, Village Club, Mortimers, Poker Flats, Oasis, Ranchos, Palomar, Casino Real dupes, Silver Fox, The 101 Casino/Parkwest Sonoma non-op, Cameo/Marysville non-op)",
+      "Epoch Casino licensed but Not Operating — not ingested"
+    ],
+    "Florida": [
+      "Hamilton Downs near-zero receipts — skipped",
+      "Ocala Gainesville Poker (OBS) currently not operating — skipped",
+      "Gulfstream cardroom rake intermittent — kept hasPoker true from prior",
+      "Tournament day grids mostly JS-walled — only contact/flag pokerTournaments this pass"
+    ],
+    "Washington": [
+      "Several HB rooms still city-only address (Buzz Inn, Clearwater, Grand Shoreline, Imperial Palace trio, Lancer, Lilac, New Phoenix, Ace's Poker Tukwila, Chips, Crazy Moose II, Caribbean Kirkland street TBD)",
+      "Wild Goose Casino licensed but not currently operating — not ingested as hasPoker",
+      "7 applications pending on Feb 2026 HB list (incl. Desert Bluffs Poker Room Kennewick)",
+      "Confirm Ace's Poker Mountlake Terrace / Lakewood brand pages vs Crazy Moose / Maverick naming"
+    ],
+    "otherStates": [
+      "Montana: DOJ MTR36 live-card establishments (100+) — bars with poker tables, not dedicated cardrooms; densest cities next",
+      "Oregon: local social-games licenses only (ORS 167.121); Rounders/Estacada, Oregon Poker Club/Milwaukie noted",
+      "New Hampshire: charitable gaming halls — follow-up",
+      "Minnesota racetrack card clubs already in seed"
+    ]
+  },
+  "success": {
+    "hasPokerBefore": 204,
+    "hasPokerAfter": 255,
+    "hasPokerDelta": 51,
+    "newVenuesByState": {
+      "California": [],
+      "Florida": [
+        "Orange City Racing and Card Club",
+        "Oxford Downs",
+        "Ocala Bets"
+      ],
+      "Washington": [
+        "All Star Casino",
+        "Black Pearl Restaurant & Card Room",
+        "Buzz Inn Steakhouse East Wenatchee",
+        "Caribbean Cardroom",
+        "Casino Caribbean Kirkland",
+        "Casino Caribbean Yakima",
+        "Chips Casino Lakewood",
+        "Clearwater Saloon & Casino",
+        "Coyote Bob's Casino",
+        "Crazy Moose Casino II",
+        "Crazy Moose Casino Pasco",
+        "Fortune Casino Lacey",
+        "Fortune Casino Renton",
+        "Fortune Casino Shoreline",
+        "Fortune Casino Tukwila",
+        "Fortune Casino La Center",
+        "Grand Casino Shoreline",
+        "Grand Casino Renton",
+        "Great American Casino Everett",
+        "Great American Casino Tukwila",
+        "Imperial Palace Casino Auburn",
+        "Imperial Palace Casino Tukwila",
+        "Imperial Palace Casino Seattle",
+        "Joker's Casino and Sports Bar",
+        "Lancer Lanes and Casino",
+        "Lilac Lanes & Casino",
+        "Macau Casino Lakewood",
+        "Macau Casino Tukwila",
+        "New Phoenix",
+        "Papas Casino Restaurant & Lounge",
+        "Riverside Casino",
+        "Silver Dollar Casino Mill Creek",
+        "Silver Dollar Casino SeaTac",
+        "Slo Pitch Pub & Eatery",
+        "Ace's Poker Tukwila",
+        "Roman Casino",
+        "Palace Casino Lakewood",
+        "Little Creek Casino Resort",
+        "Jamestown Saloon"
+      ]
+    },
+    "inventoryFiles": [
+      "data/scrape/ca-cardrooms-inventory.json",
+      "data/scrape/fl-cardrooms-inventory.json",
+      "data/scrape/wa-cardrooms-inventory.json",
+      "data/scrape/other-states-cardrooms-notes.json",
+      "data/scrape/nationwide-cardrooms-summary.json"
+    ]
+  }
+}
