@@ -21,7 +21,7 @@ var MainContainer = React.createClass({
   render: function () {
     return (
       <div className="main-container">
-        <CasinoSearchBar list={this.props.params.casinos} addInput={this.onAddInput} output={this.props.output}/>
+        <CasinoSearchBar list={this.props.params.casinos || 'allcasinos'} addInput={this.onAddInput} output={this.props.output}/>
         {this.props.children}
       </div>
     );

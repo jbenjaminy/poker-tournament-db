@@ -28,7 +28,7 @@ var Casino = React.createClass({
   		var hasSchedule = !!scheduleSet[name];
     	return (
 		      	<li className={'output-item' + (hasSchedule ? ' has-schedule' : '')} key={this.props.casino} >
-			      	<Link to={`/${this.props.list}/${slug}`} onClick={this.getDetails}>
+			      	<Link to={`/${this.props.list || 'allcasinos'}/${slug}`} onClick={this.getDetails}>
 			      		<span className="casino-result-main">
 			      			<span className="casino-result-name">{name}</span>
 			      			{hasSchedule ? <span className="schedule-badge" title="Daily or weekly tournament schedule on file">Schedule</span> : null}
