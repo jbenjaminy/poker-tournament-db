@@ -26,6 +26,13 @@
   status = 200
   force = true
 
+# Homepage -> search (SPA IndexRedirect backup for first paint / crawlers)
+[[redirects]]
+  from = "/"
+  to = "/allcasinos"
+  status = 302
+  force = true
+
 # SPA (react-router browserHistory)
 [[redirects]]
   from = "/*"

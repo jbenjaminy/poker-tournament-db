@@ -6,6 +6,7 @@ var router = require('react-router');
 var Router = router.Router;
 var Route = router.Route;
 var IndexRoute = router.IndexRoute;
+var IndexRedirect = router.IndexRedirect;
 var browserHistory = router.browserHistory;
 
 var actions = require('./actions');
@@ -66,8 +67,8 @@ var App = function(props) {
 var routes = (
   <Router history={browserHistory}>
     <Route path="/" component={App}>
-      {/* Homepage IS the search — previously blank (no IndexRoute), so / looked "broken" */}
-      <IndexRoute component={MainContainer}/>
+      {/* / had no child UI; IndexRoute MainContainer did not paint in prod — send users to working search */}
+      <IndexRedirect to="/allcasinos" />
       {/* Static content routes MUST come before :casinos or they are swallowed */}
       <Route path="guides/how-daily-tournaments-work" component={GuideDailyTournaments} />
       <Route path="guides/tournament-terms" component={Glossary} />
