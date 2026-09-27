@@ -1,6 +1,6 @@
 /**
  * Netlify Function: casino + tournament API (mirrors mock-server.js).
- * Routed from /casinos and /casinos/* via netlify.toml redirects.
+ * Async handler (Node 24+ no longer supports callback style).
  */
 var seed = require('./_seed');
 
@@ -16,7 +16,6 @@ function json(statusCode, body) {
 }
 
 function routePath(event) {
-  // Prefer original client path when present (Netlify redirect)
   var raw =
     (event.headers && (event.headers['x-forwarded-url'] || event.headers['X-Forwarded-Url'])) ||
     event.rawUrl ||
@@ -25,11 +24,9 @@ function routePath(event) {
   try {
     if (/^https?:\/\//i.test(raw)) raw = new URL(raw).pathname;
   } catch (e) {}
-  // Strip function mount if Netlify passed /.netlify/functions/casinos/...
   raw = String(raw).split('?')[0];
   raw = raw.replace(/^\/\.netlify\/functions\/casinos\/?/, '/casinos/');
   if (raw.indexOf('/casinos') === -1) {
-    // splat-only path e.g. "/Some Name/tournaments"
     var q = event.queryStringParameters || {};
     if (q.path) raw = '/casinos/' + q.path;
     else if (raw && raw !== '/') raw = '/casinos' + (raw.charAt(0) === '/' ? raw : '/' + raw);
@@ -38,9 +35,9 @@ function routePath(event) {
   return raw.replace(/\/+$/, '') || '/casinos';
 }
 
-exports.handler = function(event, context, callback) {
+exports.handler = async function(event) {
   if (event.httpMethod && event.httpMethod !== 'GET' && event.httpMethod !== 'HEAD') {
-    return callback(null, json(405, { error: 'Method not allowed' }));
+    return json(405, { error: 'Method not allowed' });
   }
 
   try {
@@ -49,27 +46,27 @@ exports.handler = function(event, context, callback) {
 
     if (p === '/casinos') {
       var pokerRooms = data.casinos.filter(function(c) { return c.has_poker; });
-      return callback(null, json(200, pokerRooms.map(function(c, i) {
+      return json(200, pokerRooms.map(function(c, i) {
         return { name: c.name, id: i + 1 };
-      })));
+      }));
     }
 
     var tourneyMatch = p.match(/^\/casinos\/(.+)\/tournaments$/);
     if (tourneyMatch) {
       var tName = seed.decodeName(tourneyMatch[1]);
       var rows = data.tournaments.filter(function(t) { return t.casino_name === tName; });
-      return callback(null, json(200, rows));
+      return json(200, rows);
     }
 
     var nameMatch = p.match(/^\/casinos\/(.+)$/);
     if (nameMatch) {
       var cName = seed.decodeName(nameMatch[1]);
       var found = data.casinos.filter(function(c) { return c.name === cName; });
-      return callback(null, json(200, found));
+      return json(200, found);
     }
 
-    return callback(null, json(404, { error: 'Not found', path: p }));
+    return json(404, { error: 'Not found', path: p });
   } catch (err) {
-    return callback(null, json(500, { error: String(err && err.message ? err.message : err) }));
+    return json(500, { error: String(err && err.message ? err.message : err) });
   }
 };
