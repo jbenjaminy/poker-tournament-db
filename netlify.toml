@@ -1,0 +1,32 @@
+[build]
+  command = "npm run build && node scripts/generate-sitemap.js"
+  publish = "build"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "16"
+  # Override ancient engines.node pin in package.json
+  NPM_FLAGS = "--legacy-peer-deps"
+
+[functions]
+  node_bundler = "nft"
+  included_files = ["other/refreshed-casino-obj-array.js", "other/refreshed-tourney-obj-array.js", "other/casino-obj-array.js", "other/tourney-obj-array.js", "js/rooms-with-schedules.js"]
+
+# API (must come before SPA fallback)
+[[redirects]]
+  from = "/casinos"
+  to = "/.netlify/functions/casinos"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/casinos/*"
+  to = "/.netlify/functions/casinos"
+  status = 200
+  force = true
+
+# SPA (react-router browserHistory)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
