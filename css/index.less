@@ -769,6 +769,41 @@ body {
   }
 
 
+
+  /* Real homepage intro above search */
+  .home-intro {
+    margin: 0 0 (@space * 5);
+    padding: 0 0 (@space * 5);
+    border-bottom: 1px solid @border;
+    text-align: left;
+  }
+
+  .home-intro-lead {
+    margin: 0 0 (@space * 3);
+    color: @muted;
+    font-size: 15px;
+    line-height: 1.55;
+  }
+
+  .home-intro-links {
+    margin: 0;
+    color: @muted-2;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .home-intro-links a {
+    color: @muted;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+
+  .home-intro-links a:hover {
+    color: @text;
+    border-bottom-color: rgba(201, 162, 39, 0.45);
+  }
+
   /* Soft-launch footer — hubs + guides under search */
   .site-footer {
     margin-top: (@space * 8);

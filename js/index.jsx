@@ -6,7 +6,6 @@ var router = require('react-router');
 var Router = router.Router;
 var Route = router.Route;
 var IndexRoute = router.IndexRoute;
-var IndexRedirect = router.IndexRedirect;
 var browserHistory = router.browserHistory;
 
 var actions = require('./actions');
@@ -17,6 +16,7 @@ var TournamentInfo = require('./tournament-info').Container;
 var HubPage = require('./pages/hub-page');
 var GuideDailyTournaments = require('./pages/guide-daily-tournaments');
 var Glossary = require('./pages/glossary');
+var HomePage = require('./pages/home-page');
 
 var STAKE_AFFILIATE_URL = 'https://stake.us/?c=DegenUS';
 
@@ -67,8 +67,8 @@ var App = function(props) {
 var routes = (
   <Router history={browserHistory}>
     <Route path="/" component={App}>
-      {/* / had no child UI; IndexRoute MainContainer did not paint in prod — send users to working search */}
-      <IndexRedirect to="/allcasinos" />
+      {/* Real homepage: search + intro + footer (no redirect) */}
+      <IndexRoute component={HomePage} />
       {/* Static content routes MUST come before :casinos or they are swallowed */}
       <Route path="guides/how-daily-tournaments-work" component={GuideDailyTournaments} />
       <Route path="guides/tournament-terms" component={Glossary} />
