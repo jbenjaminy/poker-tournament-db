@@ -768,6 +768,54 @@ body {
     }
   }
 
+
+  /* Soft-launch footer — hubs + guides under search */
+  .site-footer {
+    margin-top: (@space * 8);
+    padding-top: (@space * 6);
+    border-top: 1px solid @border;
+  }
+
+  .site-footer-inner {
+    text-align: left;
+  }
+
+  .site-footer-label {
+    margin: 0 0 (@space * 2);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: @muted-2;
+  }
+
+  .site-footer-label + .site-footer-links + .site-footer-label {
+    margin-top: (@space * 5);
+  }
+
+  .site-footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: (@space * 2) (@space * 4);
+  }
+
+  .site-footer-links a {
+    color: @muted;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 0.15s @ease, border-color 0.15s @ease;
+  }
+
+  .site-footer-links a:hover {
+    color: @text;
+    border-bottom-color: rgba(201, 162, 39, 0.45);
+  }
+
   @media (max-width: 640px) {
     padding: (@space * 4) (@space * 3) (@space * 10);
 
