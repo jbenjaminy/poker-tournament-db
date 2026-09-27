@@ -14310,6 +14310,361 @@ const refreshedTourneysObjArray = [
     "status": "verified",
     "notes": "Pass 26: All Star official Thu 7pm $60+$10 evening NLH."
   }
+},
+{
+  "casinoName": "Seminole Casino, Coconut Creek",
+  "name": "Sunday Morning Turbo Bounty NLH $5K GTD",
+  "day": "Sundays",
+  "tourneyStart": "10:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$100",
+  "startingChips": "15000",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$5000",
+  "other": "Official Sunday 10am Turbo Bounty NLH. $100 buy-in / 15,000 chips. $5,000 guarantee. Reg until Level 9. $25 bounty component. Structure sheet on casinococo/Hard Rock poker page.",
+  "bounty": "$25",
+  "meta": {
+    "sourceUrls": [
+      "https://casino.hardrock.com/coconut-creek/casino/poker",
+      "https://casino.hardrock.com/coconut-creek/-/media/project/shrss/sga/casinos/seminole/coconut-creek/casino/poker/coco-poker-rewards-calendar.pdf?rev=63d631cfc851449aba06461d3f583de4",
+      "https://www.seminolecoconutcreekpoker.com/"
+    ],
+    "lastChecked": "2026-09-27T01:48:08.074Z",
+    "status": "verified",
+    "notes": "Pass 27: Coco Sun 10am $100 Turbo Bounty structure sheet."
+  }
+},
+{
+  "casinoName": "Seminole Casino, Coconut Creek",
+  "name": "Sunday Evening Crazy Pineapple $2.5K GTD",
+  "day": "Sundays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLP",
+  "buyin": "$100",
+  "startingChips": "15000",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2500",
+  "other": "Official Sunday 6pm No Limit Crazy Pineapple. $100 buy-in / 15,000 chips. $2,500 guarantee. Reg until Level 7.",
+  "meta": {
+    "sourceUrls": [
+      "https://casino.hardrock.com/coconut-creek/casino/poker",
+      "https://casino.hardrock.com/coconut-creek/-/media/project/shrss/sga/casinos/seminole/coconut-creek/casino/poker/coco-poker-rewards-calendar.pdf?rev=63d631cfc851449aba06461d3f583de4",
+      "https://www.seminolecoconutcreekpoker.com/"
+    ],
+    "lastChecked": "2026-09-27T01:48:08.074Z",
+    "status": "verified",
+    "notes": "Pass 27: Coco Sun 6pm $100 Crazy Pineapple structure sheet."
+  }
+},
+{
+  "casinoName": "Seminole Casino, Coconut Creek",
+  "name": "Monday Morning Survivor NLH $2.4K GTD",
+  "day": "Mondays",
+  "tourneyStart": "11:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$80",
+  "startingChips": "15000",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2400",
+  "other": "Official Mega Monday 11am Survivor NLH. $80 buy-in / 15,000 chips. $2,400 guarantee — top 4 players win $600 each. Reg until Level 7.",
+  "meta": {
+    "sourceUrls": [
+      "https://casino.hardrock.com/coconut-creek/casino/poker",
+      "https://casino.hardrock.com/coconut-creek/-/media/project/shrss/sga/casinos/seminole/coconut-creek/casino/poker/coco-poker-rewards-calendar.pdf?rev=63d631cfc851449aba06461d3f583de4",
+      "https://www.seminolecoconutcreekpoker.com/"
+    ],
+    "lastChecked": "2026-09-27T01:48:08.074Z",
+    "status": "verified",
+    "notes": "Pass 27: Coco Mon 11am $80 Survivor structure sheet."
+  }
+},
+{
+  "casinoName": "Seminole Casino, Coconut Creek",
+  "name": "Monday Evening Double Green Chip Bounty $10K GTD",
+  "day": "Mondays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$200",
+  "startingChips": "40000",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$10000",
+  "other": "Official Mega Monday 6pm Double Green Chip Bounty NLH. $200 buy-in / 40,000 chips. $10,000 guarantee. Two $50 bounty chips per knockout. Reg until Level 9+; levels 15 then 20 minutes.",
+  "bounty": "$50",
+  "meta": {
+    "sourceUrls": [
+      "https://casino.hardrock.com/coconut-creek/casino/poker",
+      "https://casino.hardrock.com/coconut-creek/-/media/project/shrss/sga/casinos/seminole/coconut-creek/casino/poker/coco-poker-rewards-calendar.pdf?rev=63d631cfc851449aba06461d3f583de4",
+      "https://www.seminolecoconutcreekpoker.com/"
+    ],
+    "lastChecked": "2026-09-27T01:48:08.074Z",
+    "status": "verified",
+    "notes": "Pass 27: Coco Mon 6pm $200 DGCB structure sheet."
+  }
+},
+{
+  "casinoName": "Seminole Casino, Coconut Creek",
+  "name": "Tuesday Morning Omaha Hi-Lo $2K GTD",
+  "day": "Tuesdays",
+  "tourneyStart": "11:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "Omaha Hi-Lo",
+  "buyin": "$130",
+  "startingChips": "15000",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2000",
+  "other": "Official Tuesday 11am Omaha Hi-Lo Eight or Better. $130 buy-in / 15,000 chips. $2,000 guarantee. Reg until Level 7. Wake & Win promo period mornings.",
+  "meta": {
+    "sourceUrls": [
+      "https://casino.hardrock.com/coconut-creek/casino/poker",
+      "https://casino.hardrock.com/coconut-creek/-/media/project/shrss/sga/casinos/seminole/coconut-creek/casino/poker/coco-poker-rewards-calendar.pdf?rev=63d631cfc851449aba06461d3f583de4",
+      "https://www.seminolecoconutcreekpoker.com/"
+    ],
+    "lastChecked": "2026-09-27T01:48:08.074Z",
+    "status": "verified",
+    "notes": "Pass 27: Coco Tue 11am $130 Omaha Hi-Lo structure sheet."
+  }
+},
+{
+  "casinoName": "Seminole Casino, Coconut Creek",
+  "name": "Tuesday Evening Turbo Bounty NLH $2.5K GTD",
+  "day": "Tuesdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$100",
+  "startingChips": "15000",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2500",
+  "other": "Official Tuesday 6pm Turbo Bounty NLH. $100 buy-in / 15,000 chips. $2,500 guarantee. Reg until Level 9.",
+  "bounty": "$25",
+  "meta": {
+    "sourceUrls": [
+      "https://casino.hardrock.com/coconut-creek/casino/poker",
+      "https://casino.hardrock.com/coconut-creek/-/media/project/shrss/sga/casinos/seminole/coconut-creek/casino/poker/coco-poker-rewards-calendar.pdf?rev=63d631cfc851449aba06461d3f583de4",
+      "https://www.seminolecoconutcreekpoker.com/"
+    ],
+    "lastChecked": "2026-09-27T01:48:08.074Z",
+    "status": "verified",
+    "notes": "Pass 27: Coco Tue 6pm $100 Turbo Bounty structure sheet."
+  }
+},
+{
+  "casinoName": "Seminole Casino, Coconut Creek",
+  "name": "Wednesday Morning Re-Do NLH Turbo $2K GTD",
+  "day": "Wednesdays",
+  "tourneyStart": "11:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$100",
+  "startingChips": "10000",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2000",
+  "other": "Official Wednesday 11am Re-Do NLH Turbo. $100 buy-in / 10,000 starting chips plus one-time 10,000-chip re-do. $2,000 guarantee. Reg until Level 7.",
+  "meta": {
+    "sourceUrls": [
+      "https://casino.hardrock.com/coconut-creek/casino/poker",
+      "https://casino.hardrock.com/coconut-creek/-/media/project/shrss/sga/casinos/seminole/coconut-creek/casino/poker/coco-poker-rewards-calendar.pdf?rev=63d631cfc851449aba06461d3f583de4",
+      "https://www.seminolecoconutcreekpoker.com/"
+    ],
+    "lastChecked": "2026-09-27T01:48:08.074Z",
+    "status": "verified",
+    "notes": "Pass 27: Coco Wed 11am $100 Re-Do structure sheet."
+  }
+},
+{
+  "casinoName": "Seminole Casino, Coconut Creek",
+  "name": "Wednesday Evening Deep Stack NLH $10K GTD",
+  "day": "Wednesdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$130",
+  "startingChips": "20000",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$10000",
+  "other": "Official Wednesday 6pm Deep Stack NLH. $130 buy-in / 20,000 chips. $10,000 guarantee (select dates raise to $20,000 GTD). Reg until Level 7.",
+  "meta": {
+    "sourceUrls": [
+      "https://casino.hardrock.com/coconut-creek/casino/poker",
+      "https://casino.hardrock.com/coconut-creek/-/media/project/shrss/sga/casinos/seminole/coconut-creek/casino/poker/coco-poker-rewards-calendar.pdf?rev=63d631cfc851449aba06461d3f583de4",
+      "https://www.seminolecoconutcreekpoker.com/"
+    ],
+    "lastChecked": "2026-09-27T01:48:08.074Z",
+    "status": "verified",
+    "notes": "Pass 27: Coco Wed 6pm $130 Deep Stack structure sheet."
+  }
+},
+{
+  "casinoName": "Seminole Casino, Coconut Creek",
+  "name": "Thursday Morning Turbo Bounty NLH $2K GTD",
+  "day": "Thursdays",
+  "tourneyStart": "11:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$100",
+  "startingChips": "15000",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2000",
+  "other": "Official Thursday 11am Turbo Bounty NLH. $100 buy-in / 15,000 chips. $2,000 guarantee. Reg until Level 9. Bonus high hands also run Thursdays.",
+  "bounty": "$25",
+  "meta": {
+    "sourceUrls": [
+      "https://casino.hardrock.com/coconut-creek/casino/poker",
+      "https://casino.hardrock.com/coconut-creek/-/media/project/shrss/sga/casinos/seminole/coconut-creek/casino/poker/coco-poker-rewards-calendar.pdf?rev=63d631cfc851449aba06461d3f583de4",
+      "https://www.seminolecoconutcreekpoker.com/"
+    ],
+    "lastChecked": "2026-09-27T01:48:08.074Z",
+    "status": "verified",
+    "notes": "Pass 27: Coco Thu 11am $100 Turbo Bounty structure sheet."
+  }
+},
+{
+  "casinoName": "Seminole Casino, Coconut Creek",
+  "name": "Thursday Evening Bombpot Turbo NLH",
+  "day": "Thursdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$80",
+  "startingChips": "15000",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "Official Thursday 6pm Bombpot Turbo NLH. $80 buy-in / 15,000 chips. Double-board bombpot format (all players ante big blind). Reg until Level 9. No fixed guarantee on structure sheet.",
+  "meta": {
+    "sourceUrls": [
+      "https://casino.hardrock.com/coconut-creek/casino/poker",
+      "https://casino.hardrock.com/coconut-creek/-/media/project/shrss/sga/casinos/seminole/coconut-creek/casino/poker/coco-poker-rewards-calendar.pdf?rev=63d631cfc851449aba06461d3f583de4",
+      "https://www.seminolecoconutcreekpoker.com/"
+    ],
+    "lastChecked": "2026-09-27T01:48:08.074Z",
+    "status": "verified",
+    "notes": "Pass 27: Coco Thu 6pm $80 Bombpot Turbo structure sheet."
+  }
+},
+{
+  "casinoName": "Seminole Casino, Coconut Creek",
+  "name": "Friday Morning Crazy Pineapple Survivor $2.4K GTD",
+  "day": "Fridays",
+  "tourneyStart": "11:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLP",
+  "buyin": "$100",
+  "startingChips": "15000",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2400",
+  "other": "Official Friday 11am No Limit Crazy Pineapple Survivor. $100 buy-in / 15,000 chips. $2,400 guarantee — top 4 win $600 each. Reg until Level 7.",
+  "meta": {
+    "sourceUrls": [
+      "https://casino.hardrock.com/coconut-creek/casino/poker",
+      "https://casino.hardrock.com/coconut-creek/-/media/project/shrss/sga/casinos/seminole/coconut-creek/casino/poker/coco-poker-rewards-calendar.pdf?rev=63d631cfc851449aba06461d3f583de4",
+      "https://www.seminolecoconutcreekpoker.com/"
+    ],
+    "lastChecked": "2026-09-27T01:48:08.074Z",
+    "status": "verified",
+    "notes": "Pass 27: Coco Fri 11am $100 NLP Survivor structure sheet."
+  }
+},
+{
+  "casinoName": "Seminole Casino, Coconut Creek",
+  "name": "Friday Evening Double Green Chip Bounty $10K GTD",
+  "day": "Fridays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$200",
+  "startingChips": "40000",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$10000",
+  "other": "Official Friday 6pm Double Green Chip Bounty NLH. $200 buy-in / 40,000 chips. $10,000 guarantee. Two $50 bounty chips per knockout.",
+  "bounty": "$50",
+  "meta": {
+    "sourceUrls": [
+      "https://casino.hardrock.com/coconut-creek/casino/poker",
+      "https://casino.hardrock.com/coconut-creek/-/media/project/shrss/sga/casinos/seminole/coconut-creek/casino/poker/coco-poker-rewards-calendar.pdf?rev=63d631cfc851449aba06461d3f583de4",
+      "https://www.seminolecoconutcreekpoker.com/"
+    ],
+    "lastChecked": "2026-09-27T01:48:08.074Z",
+    "status": "verified",
+    "notes": "Pass 27: Coco Fri 6pm $200 DGCB structure sheet."
+  }
+},
+{
+  "casinoName": "Seminole Casino, Coconut Creek",
+  "name": "Saturday Morning Triple Stack NLH $5K GTD",
+  "day": "Saturdays",
+  "tourneyStart": "10:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$140",
+  "startingChips": "30000",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$5000",
+  "other": "Official Saturday 10am Triple Stack NLH. $140 buy-in / 30,000 chips. $5,000 guarantee. Levels 15 then 20 minutes.",
+  "meta": {
+    "sourceUrls": [
+      "https://casino.hardrock.com/coconut-creek/casino/poker",
+      "https://casino.hardrock.com/coconut-creek/-/media/project/shrss/sga/casinos/seminole/coconut-creek/casino/poker/coco-poker-rewards-calendar.pdf?rev=63d631cfc851449aba06461d3f583de4",
+      "https://www.seminolecoconutcreekpoker.com/"
+    ],
+    "lastChecked": "2026-09-27T01:48:08.074Z",
+    "status": "verified",
+    "notes": "Pass 27: Coco Sat 10am $140 Triple Stack structure sheet."
+  }
+},
+{
+  "casinoName": "Seminole Casino, Coconut Creek",
+  "name": "Saturday Evening Deep Stack NLH $2.5K GTD",
+  "day": "Saturdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$130",
+  "startingChips": "20000",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2500",
+  "other": "Official Saturday 6pm Deep Stack NLH. $130 buy-in / 20,000 chips. $2,500 guarantee.",
+  "meta": {
+    "sourceUrls": [
+      "https://casino.hardrock.com/coconut-creek/casino/poker",
+      "https://casino.hardrock.com/coconut-creek/-/media/project/shrss/sga/casinos/seminole/coconut-creek/casino/poker/coco-poker-rewards-calendar.pdf?rev=63d631cfc851449aba06461d3f583de4",
+      "https://www.seminolecoconutcreekpoker.com/"
+    ],
+    "lastChecked": "2026-09-27T01:48:08.074Z",
+    "status": "verified",
+    "notes": "Pass 27: Coco Sat 6pm $130 Deep Stack structure sheet."
+  }
 }
 ];
 

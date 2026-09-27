@@ -4311,13 +4311,13 @@ const refreshedCasinoObjArray = [
   "hours": "",
   "otherGames": "",
   "hasPoker": "true",
-  "pokerTournaments": "",
-  "gamesOffered": "",
-  "description": "",
+  "pokerTournaments": "true",
+  "gamesOffered": "No Limit Hold'em, Omaha Hi-Lo, Crazy Pineapple",
+  "description": "Seminole Casino Coconut Creek (Coco Poker) runs daily tournaments nearly every day of the week — morning and evening NLH, Omaha Hi-Lo, Crazy Pineapple, survivors, and bounty formats with published structure sheets. Check the poker room calendar for the current month's guarantees.",
   "specials": "",
   "pokerPromotions": "",
-  "pokerUrl": "https://www.casinococo.com/",
-  "calendarUrl": ""
+  "pokerUrl": "https://casino.hardrock.com/coconut-creek/casino/poker",
+  "calendarUrl": "https://casino.hardrock.com/coconut-creek/-/media/project/shrss/sga/casinos/seminole/coconut-creek/casino/poker/coco-poker-rewards-calendar.pdf"
 },
 {
   "name": "Coeur D'Alene Casino & Resort",
