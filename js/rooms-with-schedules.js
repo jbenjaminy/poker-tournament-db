@@ -1,5 +1,5 @@
 // Auto-generated from refreshed-tourney-obj-array.js — do not edit by hand
-// Rooms with at least one tournament schedule row (111)
+// Rooms with at least one tournament schedule row (113)
 module.exports = [
   "4 Bears Casino & Lodge",
   "Agua Caliente Casino, Palm Springs",
@@ -90,6 +90,8 @@ module.exports = [
   "Seminole Casino, Coconut Creek",
   "Seminole Hard Rock Hotel & Casino, Hollywood",
   "Seminole Hard Rock Hotel & Casino, Tampa",
+  "Shuffle 214",
+  "Shuffle 512",
   "Slo Pitch Pub & Eatery",
   "South Point Hotel, Casino & Spa",
   "Stars Casino",

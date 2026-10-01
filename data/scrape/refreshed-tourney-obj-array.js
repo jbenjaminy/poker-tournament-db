@@ -14665,6 +14665,310 @@ const refreshedTourneysObjArray = [
     "status": "verified",
     "notes": "Pass 27: Coco Sat 6pm $130 Deep Stack structure sheet."
   }
+},
+{
+  "casinoName": "Shuffle 512",
+  "name": "$2,000 GTD Round X Round Freeroll",
+  "day": "Mondays, Wednesdays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$0",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2000",
+  "other": "Official Tockify weekly freeroll (Round X Round). Embedded on shuffle512.com.",
+  "meta": {
+    "sourceUrls": [
+      "https://shuffle512.com/",
+      "https://tockify.com/shuffle512",
+      "https://tockify.com/api/ngevent?calname=shuffle512"
+    ],
+    "lastChecked": "2026-10-01T17:57:31.384Z",
+    "status": "verified",
+    "notes": "Pass 28: Shuffle 512 Mon/Wed 7pm $2K Round X Round freeroll from official Tockify."
+  }
+},
+{
+  "casinoName": "Shuffle 512",
+  "name": "$2,000 GTD NLH Freeroll",
+  "day": "Tuesdays, Thursdays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$0",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2000",
+  "other": "Official Tockify weekly NLH freeroll. Embedded on shuffle512.com.",
+  "meta": {
+    "sourceUrls": [
+      "https://shuffle512.com/",
+      "https://tockify.com/shuffle512",
+      "https://tockify.com/api/ngevent?calname=shuffle512"
+    ],
+    "lastChecked": "2026-10-01T17:57:31.384Z",
+    "status": "verified",
+    "notes": "Pass 28: Shuffle 512 Tue/Thu 7pm $2K NLH freeroll from official Tockify."
+  }
+},
+{
+  "casinoName": "Shuffle 512",
+  "name": "$3,000 GTD Freeroll Tournament",
+  "day": "Fridays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$0",
+  "startingChips": "10000",
+  "rebuy": "$20 - 10,000 chips (up to 5 if under 50k; also available at 1st break)",
+  "addOn": "",
+  "prizeGtd": "$3000",
+  "other": "Official Friday freeroll. Free 10K starting stack; on-time bonus 5K; late entry & rebuys until start of Level 9; 15-min levels; $30 flat rate for tournament (no hourly fees).",
+  "meta": {
+    "sourceUrls": [
+      "https://shuffle512.com/",
+      "https://tockify.com/shuffle512",
+      "https://tockify.com/api/ngevent?calname=shuffle512"
+    ],
+    "lastChecked": "2026-10-01T17:57:31.384Z",
+    "status": "verified",
+    "notes": "Pass 28: Shuffle 512 Fri 7pm $3K freeroll with published structure from official Tockify."
+  }
+},
+{
+  "casinoName": "Shuffle 512",
+  "name": "$2,000 NLH Freeroll Tournament",
+  "day": "Saturdays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$0",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2000",
+  "other": "Official Tockify weekly Saturday NLH freeroll. Embedded on shuffle512.com.",
+  "meta": {
+    "sourceUrls": [
+      "https://shuffle512.com/",
+      "https://tockify.com/shuffle512",
+      "https://tockify.com/api/ngevent?calname=shuffle512"
+    ],
+    "lastChecked": "2026-10-01T17:57:31.384Z",
+    "status": "verified",
+    "notes": "Pass 28: Shuffle 512 Sat 7pm $2K NLH freeroll from official Tockify."
+  }
+},
+{
+  "casinoName": "Shuffle 512",
+  "name": "$1,500 GTD Freeroll",
+  "day": "Sundays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$0",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$1500",
+  "other": "Official Tockify weekly Sunday freeroll. Embedded on shuffle512.com.",
+  "meta": {
+    "sourceUrls": [
+      "https://shuffle512.com/",
+      "https://tockify.com/shuffle512",
+      "https://tockify.com/api/ngevent?calname=shuffle512"
+    ],
+    "lastChecked": "2026-10-01T17:57:31.384Z",
+    "status": "verified",
+    "notes": "Pass 28: Shuffle 512 Sun 7pm $1.5K freeroll from official Tockify."
+  }
+},
+{
+  "casinoName": "Shuffle 214",
+  "name": "Weekday Freeroll $1,200 GTD",
+  "day": "Mondays, Tuesdays, Wednesdays, Thursdays, Fridays",
+  "tourneyStart": "2:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$0",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$1200",
+  "other": "Official Tockify weekday afternoon freeroll. Embedded on shuffle214.com.",
+  "meta": {
+    "sourceUrls": [
+      "https://www.shuffle214.com/",
+      "https://www.shuffle214.com/calendar",
+      "https://tockify.com/shuffle214",
+      "https://tockify.com/api/ngevent?calname=shuffle214"
+    ],
+    "lastChecked": "2026-10-01T17:57:31.384Z",
+    "status": "verified",
+    "notes": "Pass 28: Shuffle 214 Mon–Fri 2pm $1.2K freeroll from official Tockify."
+  }
+},
+{
+  "casinoName": "Shuffle 214",
+  "name": "Tuesday Freeroll $2,000 GTD w/ PLO Bomb Pots",
+  "day": "Tuesdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$0",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2000",
+  "other": "Official Tuesday evening freeroll with PLO bomb pots. Buy-in listed as freeroll ($0).",
+  "meta": {
+    "sourceUrls": [
+      "https://www.shuffle214.com/",
+      "https://www.shuffle214.com/calendar",
+      "https://tockify.com/shuffle214",
+      "https://tockify.com/api/ngevent?calname=shuffle214"
+    ],
+    "lastChecked": "2026-10-01T17:57:31.384Z",
+    "status": "verified",
+    "notes": "Pass 28: Shuffle 214 Tue 6pm $2K freeroll from official Tockify."
+  }
+},
+{
+  "casinoName": "Shuffle 214",
+  "name": "NEW PLO Freeroll",
+  "day": "Wednesdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "PLO",
+  "buyin": "$0",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "Official Wednesday evening PLO freeroll on Tockify calendar. Guarantee not stated in title.",
+  "meta": {
+    "sourceUrls": [
+      "https://www.shuffle214.com/",
+      "https://www.shuffle214.com/calendar",
+      "https://tockify.com/shuffle214",
+      "https://tockify.com/api/ngevent?calname=shuffle214"
+    ],
+    "lastChecked": "2026-10-01T17:57:31.384Z",
+    "status": "verified",
+    "notes": "Pass 28: Shuffle 214 Wed 6pm PLO freeroll from official Tockify."
+  }
+},
+{
+  "casinoName": "Shuffle 214",
+  "name": "$3,000 GTD Freeroll After Dark",
+  "day": "Thursdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$0",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$3000",
+  "other": "Official Thursday evening freeroll after dark.",
+  "meta": {
+    "sourceUrls": [
+      "https://www.shuffle214.com/",
+      "https://www.shuffle214.com/calendar",
+      "https://tockify.com/shuffle214",
+      "https://tockify.com/api/ngevent?calname=shuffle214"
+    ],
+    "lastChecked": "2026-10-01T17:57:31.384Z",
+    "status": "verified",
+    "notes": "Pass 28: Shuffle 214 Thu 6pm $3K freeroll from official Tockify."
+  }
+},
+{
+  "casinoName": "Shuffle 214",
+  "name": "$5,000 GTD Friday Double Board PLO $50 Entry",
+  "day": "Fridays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "PLO",
+  "buyin": "$50",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$5000",
+  "other": "Official Friday Double Board PLO. Title publishes $50 entry and $5,000 GTD.",
+  "meta": {
+    "sourceUrls": [
+      "https://www.shuffle214.com/",
+      "https://www.shuffle214.com/calendar",
+      "https://tockify.com/shuffle214",
+      "https://tockify.com/api/ngevent?calname=shuffle214"
+    ],
+    "lastChecked": "2026-10-01T17:57:31.384Z",
+    "status": "verified",
+    "notes": "Pass 28: Shuffle 214 Fri 6pm $50 Double Board PLO from official Tockify."
+  }
+},
+{
+  "casinoName": "Shuffle 214",
+  "name": "$150 Sunday Showdown $10,000 GTD",
+  "day": "Sundays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$150",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$10000",
+  "other": "Official Sunday Showdown. Title publishes $150 buy-in and $10,000 GTD.",
+  "meta": {
+    "sourceUrls": [
+      "https://www.shuffle214.com/",
+      "https://www.shuffle214.com/calendar",
+      "https://tockify.com/shuffle214",
+      "https://tockify.com/api/ngevent?calname=shuffle214"
+    ],
+    "lastChecked": "2026-10-01T17:57:31.384Z",
+    "status": "verified",
+    "notes": "Pass 28: Shuffle 214 Sun 6pm $150 Showdown from official Tockify."
+  }
+},
+{
+  "casinoName": "Alamo City Poker Club",
+  "name": "King of Kings Complimentary Tournament",
+  "day": "Sundays (third each month)",
+  "tourneyStart": "",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "Free",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "Official homepage: King of Kings complimentary tournaments every third Sunday. Reserve seat via RSVP. Start time not published — blank left blank.",
+  "meta": {
+    "sourceUrls": [
+      "https://www.alamocitypokerclub.com/"
+    ],
+    "lastChecked": "2026-10-01T17:57:31.384Z",
+    "status": "verified",
+    "notes": "Pass 28: Alamo City third-Sunday King of Kings complimentary from official homepage."
+  }
 }
 ];
 

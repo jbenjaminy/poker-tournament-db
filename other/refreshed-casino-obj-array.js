@@ -17056,12 +17056,12 @@ const refreshedCasinoObjArray = [
   "otherGames": "private club; daily/monthly/annual membership",
   "hasPoker": "true",
   "pokerTournaments": "true",
-  "gamesOffered": "1/2 NLH, 1/3 NLH, 2/5 NLH, 1/2/5 PLO, Big O, nightly/weekly tournaments",
-  "description": "Official site explicitly advertises daily tournaments and nightly/weekly NLH, PLO, freeroll and special events. private club; daily/monthly/annual membership",
+  "gamesOffered": "NLH freerolls nightly; cash 1/2–2/5 NLH, PLO, Big O",
+  "description": "Shuffle 512 (South Austin) runs nightly freeroll tournaments Mon–Sun at 7pm via the official Tockify calendar embedded on shuffle512.com — $1.5K–$3K GTDs with $0 buy-in (Friday publishes $30 flat tournament rate / $20 rebuys).",
   "specials": "",
   "pokerPromotions": "",
   "pokerUrl": "https://shuffle512.com/",
-  "calendarUrl": "https://shuffle512.com/"
+  "calendarUrl": "https://tockify.com/shuffle512"
 },
 {
   "name": "Shuffle 214",
@@ -17074,12 +17074,12 @@ const refreshedCasinoObjArray = [
   "otherGames": "private club; daily/monthly/annual membership",
   "hasPoker": "true",
   "pokerTournaments": "true",
-  "gamesOffered": "1/2 NLH, 1/3 NLH, 1/2/5 PLO, Big O, cash games, tournaments",
-  "description": "Official site lists live stakes, tournament calendar, hours and contact information. private club; daily/monthly/annual membership",
+  "gamesOffered": "NLH/PLO freerolls and paid events; cash NLH/PLO",
+  "description": "Shuffle 214 (Dallas) publishes a weekly tournament calendar on shuffle214.com (Tockify) — weekday 2pm freerolls, evening freerolls, Friday $50 Double Board PLO, and Sunday $150 Showdown $10K GTD.",
   "specials": "",
   "pokerPromotions": "",
   "pokerUrl": "https://www.shuffle214.com/",
-  "calendarUrl": "https://www.shuffle214.com/"
+  "calendarUrl": "https://tockify.com/shuffle214"
 },
 {
   "name": "SA Card House",
@@ -17110,8 +17110,8 @@ const refreshedCasinoObjArray = [
   "otherGames": "membership/invitation list",
   "hasPoker": "true",
   "pokerTournaments": "true",
-  "gamesOffered": "NL Hold'em private social club games + Thursday Ladies' Night tournament",
-  "description": "Alamo City Poker Club — oldest/largest legal private poker club in Texas (San Antonio / Houston / Austin). Official homepage publishes Thursday Ladies' Night tournament buy-ins.",
+  "gamesOffered": "NL Hold'em private social club games; Thursday Ladies' Night; third-Sunday King of Kings complimentary",
+  "description": "Alamo City Poker Club — oldest/largest legal private poker club in Texas (San Antonio / Houston / Austin). Official homepage publishes Thursday Ladies' Night tournament buy-ins and King of Kings complimentary tournaments every third Sunday.",
   "specials": "",
   "pokerPromotions": "",
   "pokerUrl": "https://www.alamocitypokerclub.com/",
