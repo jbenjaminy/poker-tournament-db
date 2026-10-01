@@ -10,7 +10,7 @@ var scheduleSet = {};
 	scheduleSet[name] = true;
 });
 
-var SCRAPE_NOTE_RE = /poker\s*atlas|deepstack\s*pdf|scrape\s*pass|not yet re-verified|aggregator|imported from seed|status:\s*stale|meta\s*report|sourceurls?|\bfetcher\b|enrichment|secondary-confidence|corroborat|does not expose|official domain currently|keep as a\b|\bthis pass\b|\bpass\s*\d+\b|\b404\b|unverified|not confirmed|no (?:public )?(?:recurring|current|verified)|does not currently run|prior verified status|empty tourneys|returned errors|fetch fail|thin weekly/i;
+var SCRAPE_NOTE_RE = /poker\s*atlas|deepstack\s*pdf|scrape\s*pass|not yet re-verified|aggregator|imported from seed|status:\s*stale|meta\s*report|sourceurls?|\bfetcher\b|enrichment|secondary-confidence|corroborat|does not expose|official domain currently|keep as a\b|\bthis pass\b|\bpass\s*\d+\b|\b404\b|unverified|not confirmed|no (?:public )?(?:recurring|current|verified)|does not currently run|prior verified status|empty tourneys|returned errors|fetch fail|thin weekly|legacy seed|seed junk|do not invent|no public .+ tournament schedule|cardplayer lists|WSGC licensed|should be rechecked|useful .+ lead|confirm phone on-site|often associated with|official site treats|official site clearly|official site states|official contact page|linked schedule PDF still/i;
 
 var CasinoDetails = React.createClass({
 	componentDidMount: function() {

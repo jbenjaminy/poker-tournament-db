@@ -1,5 +1,5 @@
 // Auto-generated from refreshed-tourney-obj-array.js — do not edit by hand
-// Rooms with at least one tournament schedule row (113)
+// Rooms with at least one tournament schedule row (114)
 module.exports = [
   "4 Bears Casino & Lodge",
   "Agua Caliente Casino, Palm Springs",
@@ -49,6 +49,7 @@ module.exports = [
   "Graton Resort & Casino",
   "Green Valley Ranch Resort, Casino & Spa",
   "Hard Rock Casino Rockford",
+  "Harrah's Pompano Beach",
   "Harrahs Casino & Resort, Cherokee",
   "Harrahs Casino, New Orleans",
   "Hollywood Casino @ Kansas Speedway",

@@ -1,0 +1,354 @@
+{
+  "generatedAt": "2026-10-01T18:18:28.861Z",
+  "descriptionBlanked": [
+    {
+      "name": "Gila River Casino",
+      "before": "Legacy seed name for Gila River properties. Live poker is at Lone Butte Casino (see that entry).",
+      "sched": false
+    },
+    {
+      "name": "Hustler Casino",
+      "before": "Official daily page exists but linked schedule PDF still 2019–2020 dated — not treating as current.",
+      "sched": false
+    },
+    {
+      "name": "Mardi Gras Casino",
+      "before": "Legacy seed name; property now Bally's Black Hawk. See Bally's Black Hawk entry.",
+      "sched": false
+    },
+    {
+      "name": "Brighton Collectibles",
+      "before": "Not a casino — seed junk entry (retail store).",
+      "sched": false
+    },
+    {
+      "name": "Horseshoe Casino, Elizabeth",
+      "before": "Legacy seed name for Caesars/Horseshoe Southern Indiana (Elizabeth). See Horseshoe Casino, Southern Indiana.",
+      "sched": false
+    },
+    {
+      "name": "Wyandotte Casino",
+      "before": "Duplicate/legacy seed of 7th Street area; no separate schedule found.",
+      "sched": false
+    },
+    {
+      "name": "Belterra Casino",
+      "before": "Seed listed under Kentucky, but Belterra Park/Casino poker is an Indiana property. Kentucky has no legal commercial casino poker rooms (HHR/racinos only). Leaving hasPoker false; do not invent KY poker grid.",
+      "sched": false
+    },
+    {
+      "name": "Casino White Cloud",
+      "before": "No public poker tournament schedule found.",
+      "sched": false
+    },
+    {
+      "name": "Golden Eagle Casino",
+      "before": "No public poker tournament schedule found.",
+      "sched": false
+    },
+    {
+      "name": "Sac & Fox Nation Casino, Powhattan",
+      "before": "No public poker tournament schedule found.",
+      "sched": false
+    },
+    {
+      "name": "Mt Vernon Casino & Bingo",
+      "before": "No public poker tournament schedule found.",
+      "sched": false
+    },
+    {
+      "name": "Nob Hill Casino",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "bestbet St. Augustine",
+      "before": "bestbet St. Augustine location.",
+      "sched": true
+    },
+    {
+      "name": "Black Pearl Restaurant & Card Room",
+      "before": "CardPlayer lists daily tournament schedule",
+      "sched": true
+    },
+    {
+      "name": "Buzz Inn Steakhouse East Wenatchee",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Caribbean Cardroom",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": true
+    },
+    {
+      "name": "Chips Casino Lakewood",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Clearwater Saloon & Casino",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Coyote Bob's Casino",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Crazy Moose Casino II",
+      "before": "Often associated with Ace's Poker brand / Maverick.",
+      "sched": false
+    },
+    {
+      "name": "Fortune Casino Renton",
+      "before": "Also known as Fortune Poker Renton.",
+      "sched": false
+    },
+    {
+      "name": "Fortune Casino Shoreline",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Fortune Casino Tukwila",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Fortune Casino La Center",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Grand Casino Shoreline",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Grand Casino Renton",
+      "before": "Verify brand; WSGC public page also lists Silver Dollar Casino/Renton at this address.",
+      "sched": false
+    },
+    {
+      "name": "Great American Casino Everett",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Great American Casino Tukwila",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Imperial Palace Casino Auburn",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Imperial Palace Casino Tukwila",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Imperial Palace Casino Seattle",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Joker's Casino and Sports Bar",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Lancer Lanes and Casino",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Lilac Lanes & Casino",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Macau Casino Lakewood",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Macau Casino Tukwila",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "New Phoenix",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Papas Casino Restaurant & Lounge",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Riverside Casino",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Silver Dollar Casino Mill Creek",
+      "before": "Listed under Mill Creek license; public address in Bothell.",
+      "sched": false
+    },
+    {
+      "name": "Silver Dollar Casino SeaTac",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Slo Pitch Pub & Eatery",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": true
+    },
+    {
+      "name": "Ace's Poker Tukwila",
+      "before": "Poker-branded commercial cardroom.",
+      "sched": false
+    },
+    {
+      "name": "Roman Casino",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Palace Casino Lakewood",
+      "before": "WSGC licensed commercial house-banked card room (may also offer poker).",
+      "sched": false
+    },
+    {
+      "name": "Little Creek Casino Resort",
+      "before": "tribal poker venue",
+      "sched": true
+    },
+    {
+      "name": "Jamestown Saloon",
+      "before": "tribal/other poker venue",
+      "sched": false
+    }
+  ],
+  "descriptionRewritten": [
+    {
+      "name": "Lone Butte Casino",
+      "before": "Gila River Resorts & Casinos poker room is at Lone Butte: 8,000 sq ft, 36 tables, Bravo live, Bad Beat (quads beat). Weekly tournaments — see poker room for schedule (not published online).",
+      "after": "Gila River poker room at Lone Butte: 8,000 sq ft, 36 tables, Bravo waitlist, Bad Beat jackpot, and weekly tournaments.",
+      "sched": false
+    },
+    {
+      "name": "Naples Fort Myers Kennel Club & Poker Room",
+      "before": "Also known as Bonita Springs Poker Room (Bonita-Fort Myers Corp).",
+      "after": "Also known as Bonita Springs Poker Room.",
+      "sched": false
+    },
+    {
+      "name": "Club San Rafael",
+      "before": "Club San Rafael — CGCC-active with conditions. Confirm phone on-site (Lincoln Ave, San Rafael).",
+      "after": "CGCC-licensed cardroom in San Rafael.",
+      "sched": false
+    },
+    {
+      "name": "Isleton Casino",
+      "before": "Isleton Casino — CGCC-active with conditions. Confirm phone on-site.",
+      "after": "CGCC-licensed cardroom in Isleton.",
+      "sched": false
+    },
+    {
+      "name": "North Coast Casino",
+      "before": "North Coast Casino Eureka — CGCC-active. Confirm phone on-site.",
+      "after": "CGCC-licensed cardroom in Eureka.",
+      "sched": false
+    },
+    {
+      "name": "Paramount Social Club",
+      "before": "Official site advertises regular low-stakes/deepstack events and monthly $10K STACK / $15K MEGA STACK events. Phone appears on official cash-game page; address is publicly listed but should be rechecked before visit. members-only rake-free poker club",
+      "after": "Houston social club with regular low-stakes/deepstack events and monthly $10K STACK / $15K MEGA STACK events.",
+      "sched": false
+    },
+    {
+      "name": "Lonestar Social Poker Club",
+      "before": "Useful Houston cash-game lead; official page does not currently advertise tournaments. private social club; free membership for new members per official page",
+      "after": "Houston private social club with cash games; free membership for new members per official page.",
+      "sched": false
+    },
+    {
+      "name": "Empire Poker Club",
+      "before": "Current official site is branded ©2026 and supplies address/phone; contact for current table and tournament availability. members-focused private poker lounge",
+      "after": "Texas social club offering live cash games.",
+      "sched": false
+    },
+    {
+      "name": "Spades Poker House Webster",
+      "before": "Official site treats Webster and Baytown as separate locations and says tournaments are held daily at both. private-membership poker house",
+      "after": "Houston-area Spades location (Webster); tables run 24/7.",
+      "sched": false
+    },
+    {
+      "name": "Spades Poker House Baytown",
+      "before": "Official site treats Webster and Baytown as separate locations and says tournaments are held daily at both. private-membership poker house",
+      "after": "Houston-area Spades location (Baytown); tables run 24/7.",
+      "sched": false
+    },
+    {
+      "name": "Champions Social Club",
+      "before": "Official poker page lists stakes, 24-hour access, weekly poker lessons and beginner tournaments. social membership required; Gold Access for poker",
+      "after": "Dallas social club with live cash games, 24-hour access, weekly lessons, and beginner-friendly tables.",
+      "sched": false
+    },
+    {
+      "name": "SA Card House",
+      "before": "Official site clearly identifies live cash games and Texas Hold'em/Omaha tournaments, with 24/7/365 hours. membership required",
+      "after": "San Antonio social club with live cash games and Hold'em/Omaha tournaments.",
+      "sched": false
+    },
+    {
+      "name": "Poker House Fort Worth",
+      "before": "Official site states live cash, tournaments and private events, and provides current address/phone/hours. poker/social club",
+      "after": "Fort Worth social club with live cash games, tournaments, and private events.",
+      "sched": false
+    },
+    {
+      "name": "The Fort Card Room",
+      "before": "Official contact page supplies current hours/address/phone; game-info page lists cash stakes and tournament sections. members-only card room",
+      "after": "Fort Worth-area card room with live cash games.",
+      "sched": false
+    }
+  ],
+  "urlsCleared": [
+    {
+      "name": "Limelight Cardroom",
+      "field": "pokerUrl",
+      "before": "https://www.pokeratlas.com/poker-room/limelight-card-room-sacramento/tournaments"
+    },
+    {
+      "name": "Turlock Poker Room",
+      "field": "pokerUrl",
+      "before": "https://www.pokeratlas.com/poker-room/turlock-poker-room/tournaments"
+    },
+    {
+      "name": "101 Poker Club",
+      "field": "pokerUrl",
+      "before": "https://www.pokeratlas.com/poker-room/101-poker-club-katy/tournaments"
+    },
+    {
+      "name": "101 Poker Club",
+      "field": "calendarUrl",
+      "before": "https://www.pokeratlas.com/poker-room/101-poker-club-katy/tournaments"
+    }
+  ],
+  "counts": {
+    "blanked": 47,
+    "rewritten": 14,
+    "urlsCleared": 4,
+    "totalDescChanges": 61
+  }
+}

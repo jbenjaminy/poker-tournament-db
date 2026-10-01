@@ -14969,7 +14969,32 @@ const refreshedTourneysObjArray = [
     "status": "verified",
     "notes": "Pass 28: Alamo City third-Sunday King of Kings complimentary from official homepage."
   }
+},
+{
+  "casinoName": "Harrah's Pompano Beach",
+  "name": "$200 NL Holdem",
+  "day": "Tuesdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$200",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "Recurring Tuesday evening NLH listed on PokerAtlas (formerly Isle Pompano Park).",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/harrahs-pompano-pompano-beach/tournaments",
+      "https://pokeratlas.com/poker-tournament/harrahs-pompano-pompano-beach-200-600pm-nl-holdem-no-limit-holdem-poker-tournament"
+    ],
+    "lastChecked": "2026-10-01T18:22:46.259Z",
+    "status": "verified",
+    "notes": "Pass 30: Tuesday 6pm $200 NLH from PokerAtlas recurring calendar (multiple Jun\u2013Aug 2026 dates)."
+  }
 }
+
 ];
 
 module.exports = refreshedTourneysObjArray;
