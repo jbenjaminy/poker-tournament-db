@@ -16553,11 +16553,11 @@ const refreshedCasinoObjArray = [
   "hasPoker": "true",
   "pokerTournaments": "false",
   "gamesOffered": "Poker / cardroom (Chico)",
-  "description": "",
+  "description": "Chico cardroom with daily morning NLH and a Sunday evening event.",
   "specials": "",
   "pokerPromotions": "",
   "pokerUrl": "",
-  "calendarUrl": ""
+  "calendarUrl": "https://www.pokeratlas.com/poker-room/casino-99-chico/tournaments"
 },
 {
   "name": "Casino Chico",
@@ -17039,11 +17039,11 @@ const refreshedCasinoObjArray = [
   "hasPoker": "true",
   "pokerTournaments": "true",
   "gamesOffered": "NLH, PLO, cash games, private play, beginner tournaments",
-  "description": "Dallas social club with live cash games, 24-hour access, weekly lessons, and beginner-friendly tables.",
+  "description": "Dallas social club with weekday morning $70 NLH.",
   "specials": "",
   "pokerPromotions": "",
   "pokerUrl": "https://championsdallas.com/poker/",
-  "calendarUrl": "https://championsdallas.com/poker/"
+  "calendarUrl": "https://www.pokeratlas.com/poker-room/champions-social-club-dallas/tournaments"
 },
 {
   "name": "Shuffle 512",
@@ -17129,11 +17129,11 @@ const refreshedCasinoObjArray = [
   "hasPoker": "true",
   "pokerTournaments": "true",
   "gamesOffered": "Texas Hold'em, Omaha, Congress, cash games, tournaments, private events",
-  "description": "Fort Worth social club with live cash games, tournaments, and private events.",
+  "description": "Burleson/Fort Worth social club with a daily noon freeroll and Thursday evening $65.",
   "specials": "",
   "pokerPromotions": "",
   "pokerUrl": "https://www.pokerhouseftworth.com/events/index",
-  "calendarUrl": "https://www.pokerhouseftworth.com/events/index"
+  "calendarUrl": "https://www.pokeratlas.com/poker-room/poker-house-fort-worth-burleson/tournaments"
 },
 {
   "name": "The Fort Card Room",
@@ -17147,11 +17147,11 @@ const refreshedCasinoObjArray = [
   "hasPoker": "true",
   "pokerTournaments": "true",
   "gamesOffered": "Hold'em, Congress, PLO, mixed games, cash games, tournaments",
-  "description": "Fort Worth-area card room with live cash games.",
+  "description": "Aledo card room with weekday/weekend evening tournaments.",
   "specials": "",
   "pokerPromotions": "",
   "pokerUrl": "https://thefortcardroom.com/game-info/",
-  "calendarUrl": "https://thefortcardroom.com/game-info/"
+  "calendarUrl": "https://www.pokeratlas.com/poker-room/the-fort-card-room-aledo/tournaments"
 },
 {
   "name": "Amarillo Social Club",
@@ -17273,11 +17273,11 @@ const refreshedCasinoObjArray = [
   "hasPoker": "true",
   "pokerTournaments": "false",
   "gamesOffered": "Commercial card room (poker and/or house-banked card games)",
-  "description": "",
+  "description": "East Wenatchee cardroom with a nightly 6pm tournament rotating by day.",
   "specials": "",
   "pokerPromotions": "",
   "pokerUrl": "",
-  "calendarUrl": ""
+  "calendarUrl": "https://www.pokeratlas.com/poker-room/buzz-inn-east-wenatchee/tournaments"
 },
 {
   "name": "Caribbean Cardroom",
@@ -17597,11 +17597,11 @@ const refreshedCasinoObjArray = [
   "hasPoker": "true",
   "pokerTournaments": "false",
   "gamesOffered": "Commercial card room (poker and/or house-banked card games)",
-  "description": "",
+  "description": "Auburn cardroom with a recurring late-afternoon $50 NLH.",
   "specials": "",
   "pokerPromotions": "",
   "pokerUrl": "",
-  "calendarUrl": ""
+  "calendarUrl": "https://www.pokeratlas.com/poker-room/imperial-palace-casino-auburn/tournaments"
 },
 {
   "name": "Imperial Palace Casino Tukwila",
@@ -17921,11 +17921,11 @@ const refreshedCasinoObjArray = [
   "hasPoker": "true",
   "pokerTournaments": "true",
   "gamesOffered": "Poker",
-  "description": "",
+  "description": "Arlington tribal poker venue with mid-morning and midweek evening events.",
   "specials": "",
   "pokerPromotions": "",
   "pokerUrl": "",
-  "calendarUrl": ""
+  "calendarUrl": "https://www.pokeratlas.com/poker-room/jamestown-saloon-arlington/tournaments"
 }
 ];
 

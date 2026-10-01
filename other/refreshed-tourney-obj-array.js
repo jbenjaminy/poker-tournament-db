@@ -14994,6 +14994,423 @@ const refreshedTourneysObjArray = [
     "notes": "Pass 30: Tuesday 6pm $200 NLH from PokerAtlas recurring calendar (multiple Jun\u2013Aug 2026 dates)."
   }
 }
+,
+{
+  "casinoName": "Casino 99",
+  "name": "$35 NL Holdem",
+  "day": "Mondays, Tuesdays, Wednesdays, Thursdays, Fridays, Saturdays",
+  "tourneyStart": "10:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$35",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/casino-99-chico/tournaments"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar Mon\u2013Sat 10am $35 NLH."
+  }
+},
+{
+  "casinoName": "Casino 99",
+  "name": "$45 NL Holdem",
+  "day": "Sundays",
+  "tourneyStart": "5:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$45",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/casino-99-chico/tournaments"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar Sun 5pm $45 NLH."
+  }
+},
+{
+  "casinoName": "Imperial Palace Casino Auburn",
+  "name": "$50 NL Holdem",
+  "day": "Tuesdays, Wednesdays, Thursdays, Fridays, Saturdays, Sundays",
+  "tourneyStart": "4:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$50",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/imperial-palace-casino-auburn/tournaments"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar Tue\u2013Sun 4pm $50 NLH (no Monday listings in Oct 2026 calendar)."
+  }
+},
+{
+  "casinoName": "Buzz Inn Steakhouse East Wenatchee",
+  "name": "Freeroll NL Holdem",
+  "day": "Mondays, Thursdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "Free",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/buzz-inn-east-wenatchee/tournaments"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar Mon/Thu 6pm freeroll."
+  }
+},
+{
+  "casinoName": "Buzz Inn Steakhouse East Wenatchee",
+  "name": "$55 NLH Deepstack",
+  "day": "Tuesdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$55",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/buzz-inn-east-wenatchee/tournaments"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar Tue 6pm $55 deepstack."
+  }
+},
+{
+  "casinoName": "Buzz Inn Steakhouse East Wenatchee",
+  "name": "$50 NL Holdem",
+  "day": "Wednesdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$50",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/buzz-inn-east-wenatchee/tournaments"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar Wed 6pm $50 NLH."
+  }
+},
+{
+  "casinoName": "Buzz Inn Steakhouse East Wenatchee",
+  "name": "$60 NL Holdem",
+  "day": "Fridays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/buzz-inn-east-wenatchee/tournaments"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar Fri 6pm $60 NLH."
+  }
+},
+{
+  "casinoName": "Buzz Inn Steakhouse East Wenatchee",
+  "name": "$100 NLH w/Add-On",
+  "day": "Sundays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$100",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "Add-on event per PokerAtlas listing.",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/buzz-inn-east-wenatchee/tournaments"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar Sun 6pm $100 NLH w/ add-on."
+  }
+},
+{
+  "casinoName": "Jamestown Saloon",
+  "name": "$60 NL Holdem",
+  "day": "Tuesdays, Fridays",
+  "tourneyStart": "10:30am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/jamestown-saloon-arlington/tournaments"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar Tue/Fri 10:30am $60 NLH."
+  }
+},
+{
+  "casinoName": "Jamestown Saloon",
+  "name": "$75 NL Holdem",
+  "day": "Tuesdays",
+  "tourneyStart": "6:30pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$75",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/jamestown-saloon-arlington/tournaments"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar Tue 6:30pm $75 NLH."
+  }
+},
+{
+  "casinoName": "Jamestown Saloon",
+  "name": "$75 NL Holdem",
+  "day": "Saturdays",
+  "tourneyStart": "10:30am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$75",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/jamestown-saloon-arlington/tournaments"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar Sat 10:30am $75 NLH."
+  }
+},
+{
+  "casinoName": "Jamestown Saloon",
+  "name": "$120 NL Holdem",
+  "day": "Sundays",
+  "tourneyStart": "10:30am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$120",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/jamestown-saloon-arlington/tournaments"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar Sun 10:30am $120 NLH."
+  }
+},
+{
+  "casinoName": "Champions Social Club",
+  "name": "$70 NL Holdem",
+  "day": "Mondays, Tuesdays, Wednesdays, Thursdays, Fridays",
+  "tourneyStart": "10:30am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$70",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/champions-social-club-dallas/tournaments"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar Mon\u2013Fri 10:30am $70 NLH."
+  }
+},
+{
+  "casinoName": "Poker House Fort Worth",
+  "name": "Noon Freeroll NL Holdem",
+  "day": "Daily",
+  "tourneyStart": "12:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "Free",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/poker-house-fort-worth-burleson/tournaments",
+      "https://www.facebook.com/pokerhouseftworth/"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar daily noon freeroll ($0)."
+  }
+},
+{
+  "casinoName": "Poker House Fort Worth",
+  "name": "$65 NL Holdem",
+  "day": "Thursdays",
+  "tourneyStart": "6:30pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$65",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/poker-house-fort-worth-burleson/tournaments",
+      "https://www.facebook.com/pokerhouseftworth/"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar Thu 6:30pm $65 NLH."
+  }
+},
+{
+  "casinoName": "The Fort Card Room",
+  "name": "$100 NL Holdem",
+  "day": "Thursdays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$100",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/the-fort-card-room-aledo/tournaments"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar Thu 7pm $100 NLH."
+  }
+},
+{
+  "casinoName": "The Fort Card Room",
+  "name": "$100 NL Holdem",
+  "day": "Saturdays",
+  "tourneyStart": "2:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$100",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/the-fort-card-room-aledo/tournaments"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar Sat 2pm $100 NLH."
+  }
+},
+{
+  "casinoName": "The Fort Card Room",
+  "name": "$100 FL Omaha",
+  "day": "Mondays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "FLO8",
+  "buyin": "$100",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "Listed as $100FL on PokerAtlas (Omaha 8 / fixed-limit style listing).",
+  "meta": {
+    "sourceUrls": [
+      "https://www.pokeratlas.com/poker-room/the-fort-card-room-aledo/tournaments"
+    ],
+    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "status": "verified",
+    "notes": "Pass 31: PokerAtlas calendar Mon 7pm $100 FL."
+  }
+}
 
 ];
 
