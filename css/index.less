@@ -393,6 +393,27 @@ body {
     color: @text;
     font-weight: 500;
   }
+  .casino-details .casino-prop.hidden {
+    display: none !important;
+  }
+  .casino-details .casino-link-row {
+    margin-bottom: (@space * 2);
+  }
+  .casino-details .casino-outbound-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 40px;
+    padding: (@space * 1.5) 0;
+    color: @text;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.35);
+    text-underline-offset: 3px;
+  }
+  .casino-details .casino-outbound-link:hover {
+    color: lighten(@gold, 12%);
+    text-decoration-color: fade(@gold, 70%);
+  }
   .schedule-pending {
     margin: 0;
     padding: (@space * 3) (@space * 4);

@@ -53,31 +53,25 @@ var CasinoDetails = React.createClass({
 		casinoName = casinoName.split(' ').join('_');
 		this.props.dispatch(actions.fetchTournamentInfo(casinoName));
 	},
+  	renderField: function(id, key, label, value) {
+		if (!this.isRealValue(value)) { return null; }
+		return (
+			<li className="casino-prop" id={id} key={key}>
+				<p className="title">{label}</p>
+				<span>{value}</span>
+			</li>
+		);
+	},
+	renderLink: function(id, key, label, href) {
+		if (!this.isRealValue(href)) { return null; }
+		return (
+			<li className="casino-prop casino-link-row" id={id} key={key}>
+				<a className="casino-outbound-link" href={href} target="_blank" rel="noopener noreferrer">{label}</a>
+			</li>
+		);
+	},
   	render: function () {
   		var casino = this.props.casino || {};
-  		var addressClass = 'casino-prop ';
-  		var phoneClass = 'casino-prop ';
-  		var websiteClass = 'casino-prop ';
-  		var hoursClass = 'casino-prop ';
-  		var otherClass = 'casino-prop ';
-  		var gamesClass = 'casino-prop ';
-  		var descriptionClass = 'casino-prop ';
-  		var specialsClass = 'casino-prop ';
-  		var promotionsClass = 'casino-prop ';
-  		var pokerUrlClass = 'casino-prop ';
-  		var calendarClass = 'casino-prop ';
-
-		if (!this.isRealValue(casino.address)) { addressClass += 'hidden'; }
-		if (!this.isRealValue(casino.phone)) { phoneClass += 'hidden'; }
-		if (!this.isRealValue(casino.website)) { websiteClass += 'hidden'; }
-		if (!this.isRealValue(casino.hours)) { hoursClass += 'hidden'; }
-		if (!this.isRealValue(casino.other_games)) { otherClass += 'hidden'; }
-		if (!this.isRealValue(casino.games_offered)) { gamesClass += 'hidden'; }
-		if (!this.isPlayerUsefulDescription(casino.description)) { descriptionClass += 'hidden'; }
-		if (!this.isRealValue(casino.specials)) { specialsClass += 'hidden'; }
-		if (!this.isRealValue(casino.poker_promotions)) { promotionsClass += 'hidden'; }
-		if (!this.isRealValue(casino.poker_url)) { pokerUrlClass += 'hidden'; }
-		if (!this.isRealValue(casino.calendar_url)) { calendarClass += 'hidden'; }
 
 	    var listPath = '/' + (this.props.params && this.props.params.casinos ? this.props.params.casinos : 'allcasinos');
 	    var displayName = casino.name ? casino.name : 'Loading…';
@@ -104,17 +98,19 @@ var CasinoDetails = React.createClass({
 	    					)}
 	    				</li>
 	    			) : null}
-	    			<li className={addressClass} id="address" key="3"><p className="title">Address</p><span>{casino.address}</span></li>
-	    			<li className={phoneClass} id="phone" key="4"><p className="title">Phone</p><span>{casino.phone}</span></li>
-	    			<li className={hoursClass} id="hours" key="5"><p className="title">Hours</p><span>{casino.hours}</span></li>
-	    			<li className={gamesClass} id="games-offered" key="9"><p className="title">Poker games</p><span>{casino.games_offered}</span></li>
-	    			<li className={otherClass} id="other-games" key="6"><p className="title">Other casino games</p><span>{casino.other_games}</span></li>
-	    			<li className={descriptionClass} id="description" key="10"><p className="title">About the room</p><span>{casino.description}</span></li>
-	    			<li className={promotionsClass} id="poker-promotions" key="11"><p className="title">Poker promotions</p><span>{casino.poker_promotions}</span></li>
-	    			<li className={websiteClass} id="website" key="12"><a href={casino.website}>Website</a></li>
-	    			<li className={specialsClass} id="specials" key="13"><a href={casino.specials}>Specials &amp; promotions</a></li>
-	    			<li className={pokerUrlClass} id="poker-url" key="14"><a href={casino.poker_url}>Poker room site</a></li>
-	    			<li className={calendarClass} id="calendar-url" key="15"><a href={casino.calendar_url}>Tournament calendar</a></li>
+	    			{this.renderField('address', '3', 'Address', casino.address)}
+	    			{this.renderField('phone', '4', 'Phone', casino.phone)}
+	    			{this.renderField('hours', '5', 'Hours', casino.hours)}
+	    			{this.renderField('games-offered', '9', 'Poker games', casino.games_offered)}
+	    			{this.renderField('other-games', '6', 'Other casino games', casino.other_games)}
+	    			{this.isPlayerUsefulDescription(casino.description)
+	    				? this.renderField('description', '10', 'About the room', casino.description)
+	    				: null}
+	    			{this.renderField('poker-promotions', '11', 'Poker promotions', casino.poker_promotions)}
+	    			{this.renderLink('website', '12', 'Website', casino.website)}
+	    			{this.renderLink('specials', '13', 'Specials & promotions', casino.specials)}
+	    			{this.renderLink('poker-url', '14', 'Poker room site', casino.poker_url)}
+	    			{this.renderLink('calendar-url', '15', 'Tournament calendar', casino.calendar_url)}
 				</ul>
 				</div>
     	);
