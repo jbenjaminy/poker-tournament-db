@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-10-03T01:50:00.000Z",
+  "pass": 32,
+  "flipped": [
+    {
+      "name": "Gila River Casino",
+      "reason": "Legacy property entry. Prior pass: live poker is at Lone Butte, not this Wild Horse Pass listing."
+    },
+    {
+      "name": "The 101 Casino",
+      "reason": "Maps to Parkwest Casino Sonoma, CGCC Active - Not Operating."
+    },
+    {
+      "name": "Cameo Club Casino",
+      "reason": "CGCC Active - Not Operating (Cameo Club, Stockton)."
+    },
+    {
+      "name": "Black Sheep Casino",
+      "reason": "Closed \u2014 seed description OUT OF BUSINESS / CLOSED PERMANENTLY; not on the Oct 2026 CGCC operating list."
+    },
+    {
+      "name": "Casino Real",
+      "reason": "Stale name for the same Manteca address now licensed as Parkwest Casino Manteca."
+    },
+    {
+      "name": "Casino Marysville",
+      "reason": "CGCC Active - Not Operating."
+    },
+    {
+      "name": "Comstock Card Room",
+      "reason": "Not on the Oct 2026 CGCC license list (prior pass flagged as a stale non-operating CA cardroom)."
+    },
+    {
+      "name": "Delta Club",
+      "reason": "Not on the Oct 2026 CGCC license list (prior pass flagged as a stale non-operating CA cardroom)."
+    },
+    {
+      "name": "Lucky Derby Casino",
+      "reason": "Not on the Oct 2026 CGCC license list (prior pass flagged as a stale non-operating CA cardroom)."
+    },
+    {
+      "name": "Casino Real Card Room",
+      "reason": "Duplicate stale name of Parkwest Casino Manteca (1355 N Main St)."
+    },
+    {
+      "name": "Larry Flynts Lucky Lady Casino",
+      "reason": "Duplicate of the operating Larry Flynt's Lucky Lady Casino (same Gardena address). Apostrophe entry keeps the schedule."
+    },
+    {
+      "name": "Lucky Lady Casino & Card Room",
+      "reason": "San Diego El Cajon Blvd room permanently closed (2021); not the operating Gardena Larry Flynt's Lucky Lady. Not on CGCC."
+    },
+    {
+      "name": "Silver Fox Casino & Lounge",
+      "reason": "Stale name for 6010 Stockton Blvd, now licensed as Parkwest Casino Lotus."
+    },
+    {
+      "name": "Village Club Card Room",
+      "reason": "Not on the Oct 2026 CGCC list. Distinct from operating Seven Mile Casino (285 Bay Blvd)."
+    },
+    {
+      "name": "Mortimers Card Room",
+      "reason": "Not on the Oct 2026 CGCC license list (prior pass flagged as stale). Marina Club is the operating Marina cardroom."
+    },
+    {
+      "name": "Poker Flats Casino",
+      "reason": "Not on the Oct 2026 CGCC list. Operating Merced room is Casino Merced / Merced Poker Room."
+    },
+    {
+      "name": "Oasis Card Room",
+      "reason": "Not on the Oct 2026 CGCC license list (prior pass flagged as stale)."
+    },
+    {
+      "name": "Ranchos Club Casino",
+      "reason": "Not on the Oct 2026 CGCC license list (prior pass flagged as stale)."
+    },
+    {
+      "name": "Palomar Card Club",
+      "reason": "CGCC license revoked; room closed. Not on the operating list."
+    }
+  ],
+  "fieldsScrubbed": 39,
+  "before": {
+    "casinos": 996,
+    "tourneys": 635,
+    "hasPoker": 263,
+    "roomsWithSchedules": 121
+  },
+  "after": {
+    "casinos": 996,
+    "tourneys": 671,
+    "hasPoker": 244,
+    "roomsWithSchedules": 127
+  },
+  "tourneysAdded": 36,
+  "roomsNewlyCovered": [
+    "101 Poker Club",
+    "Merced Poker Room",
+    "TCH Social Austin",
+    "Texas Card House Houston",
+    "Texas Card House Rio Grande Valley",
+    "Texas Card House Spring"
+  ]
+}

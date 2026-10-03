@@ -100,8 +100,8 @@ var CasinoDetails = React.createClass({
 	    			) : null}
 	    			{this.renderField('address', '3', 'Address', casino.address)}
 	    			{this.renderField('phone', '4', 'Phone', casino.phone)}
-	    			{this.renderField('hours', '5', 'Hours', casino.hours)}
-	    			{this.renderField('games-offered', '9', 'Poker games', casino.games_offered)}
+	    			{this.renderField('hours', '5', 'Poker room hours', casino.hours)}
+	    			{this.renderField('games-offered', '9', 'Cash games', casino.games_offered)}
 	    			{this.renderField('other-games', '6', 'Other casino games', casino.other_games)}
 	    			{this.isPlayerUsefulDescription(casino.description)
 	    				? this.renderField('description', '10', 'About the room', casino.description)

@@ -14991,10 +14991,9 @@ const refreshedTourneysObjArray = [
     ],
     "lastChecked": "2026-10-01T18:22:46.259Z",
     "status": "verified",
-    "notes": "Pass 30: Tuesday 6pm $200 NLH from PokerAtlas recurring calendar (multiple Jun\u2013Aug 2026 dates)."
+    "notes": "Pass 30: Tuesday 6pm $200 NLH from PokerAtlas recurring calendar (multiple Jun–Aug 2026 dates)."
   }
-}
-,
+},
 {
   "casinoName": "Casino 99",
   "name": "$35 NL Holdem",
@@ -15015,7 +15014,7 @@ const refreshedTourneysObjArray = [
     ],
     "lastChecked": "2026-10-01T18:37:10.219Z",
     "status": "verified",
-    "notes": "Pass 31: PokerAtlas calendar Mon\u2013Sat 10am $35 NLH."
+    "notes": "Pass 31: PokerAtlas calendar Mon–Sat 10am $35 NLH."
   }
 },
 {
@@ -15061,7 +15060,7 @@ const refreshedTourneysObjArray = [
     ],
     "lastChecked": "2026-10-01T18:37:10.219Z",
     "status": "verified",
-    "notes": "Pass 31: PokerAtlas calendar Tue\u2013Sun 4pm $50 NLH (no Monday listings in Oct 2026 calendar)."
+    "notes": "Pass 31: PokerAtlas calendar Tue–Sun 4pm $50 NLH (no Monday listings in Oct 2026 calendar)."
   }
 },
 {
@@ -15291,7 +15290,7 @@ const refreshedTourneysObjArray = [
     ],
     "lastChecked": "2026-10-01T18:37:10.219Z",
     "status": "verified",
-    "notes": "Pass 31: PokerAtlas calendar Mon\u2013Fri 10:30am $70 NLH."
+    "notes": "Pass 31: PokerAtlas calendar Mon–Fri 10:30am $70 NLH."
   }
 },
 {
@@ -15410,8 +15409,871 @@ const refreshedTourneysObjArray = [
     "status": "verified",
     "notes": "Pass 31: PokerAtlas calendar Mon 7pm $100 FL."
   }
+},
+{
+  "casinoName": "Texas Card House Houston",
+  "name": "Friday Mayhem Special",
+  "day": "Fridays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$25",
+  "startingChips": "",
+  "rebuy": "$20 rebuy",
+  "addOn": "",
+  "prizeGtd": "$10,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-houston/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Houston",
+  "name": "$140 NLH",
+  "day": "Thursdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$140",
+  "startingChips": "",
+  "rebuy": "Re-entry",
+  "addOn": "",
+  "prizeGtd": "$10,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-houston/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Houston",
+  "name": "$25 NLH",
+  "day": "Mondays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$25",
+  "startingChips": "",
+  "rebuy": "$20 rebuy",
+  "addOn": "",
+  "prizeGtd": "$2,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-houston/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Houston",
+  "name": "PLO Blitz",
+  "day": "Saturdays",
+  "tourneyStart": "2:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "PLO",
+  "buyin": "$25",
+  "startingChips": "",
+  "rebuy": "Rebuys",
+  "addOn": "",
+  "prizeGtd": "$2,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-houston/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Houston",
+  "name": "$80 NLH",
+  "day": "Saturdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$80",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$5,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-houston/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Houston",
+  "name": "$80 NLH",
+  "day": "Tuesdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$80",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$5,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-houston/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Houston",
+  "name": "$25 NLH",
+  "day": "Wednesdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$25",
+  "startingChips": "",
+  "rebuy": "$20 rebuys",
+  "addOn": "",
+  "prizeGtd": "$2,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-houston/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Houston",
+  "name": "$140 NLH",
+  "day": "Sundays",
+  "tourneyStart": "2:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$140",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$15,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-houston/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Spring",
+  "name": "Mega Monday",
+  "day": "Mondays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$140",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$10,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-spring/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Spring",
+  "name": "Friday Turbo",
+  "day": "Fridays",
+  "tourneyStart": "2:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$25",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$1,500",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-spring/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Spring",
+  "name": "Spring Standard",
+  "day": "Fridays",
+  "tourneyStart": "5:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$140",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$25,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-spring/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Spring",
+  "name": "Monday Turbo",
+  "day": "Mondays",
+  "tourneyStart": "2:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$25",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$1,500",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-spring/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Spring",
+  "name": "$40 to Fortune",
+  "day": "Saturdays",
+  "tourneyStart": "2:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$40",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$10,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-spring/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Spring",
+  "name": "Sunday Funday",
+  "day": "Sundays",
+  "tourneyStart": "2:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$25",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2,500",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-spring/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Spring",
+  "name": "Super Thursday",
+  "day": "Thursdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$40",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$4,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-spring/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Spring",
+  "name": "Super Tuesday",
+  "day": "Tuesdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$40",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$4,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-spring/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Rio Grande Valley",
+  "name": "Friday Night Lights",
+  "day": "Fridays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "Free",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-rio-grande-valley/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Rio Grande Valley",
+  "name": "Thursday Night Blitz",
+  "day": "Thursdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$30",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$3,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-rio-grande-valley/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Rio Grande Valley",
+  "name": "Monday Night Showdown",
+  "day": "Mondays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$20",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$1,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-rio-grande-valley/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Rio Grande Valley",
+  "name": "Sunday Kickoff",
+  "day": "Sundays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$20",
+  "startingChips": "",
+  "rebuy": "$20 rebuy",
+  "addOn": "",
+  "prizeGtd": "$1,500",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-rio-grande-valley/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Texas Card House Rio Grande Valley",
+  "name": "PLO Freeroll",
+  "day": "Tuesdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "PLO",
+  "buyin": "Free",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$1,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/texas-card-house-rio-grande-valley/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "TCH Social Austin",
+  "name": "Daily Bankroll Builder",
+  "day": "Mondays, Tuesdays, Wednesdays, Thursdays",
+  "tourneyStart": "12:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/tch-social-austin/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "TCH Social Austin",
+  "name": "Almost Freezeout",
+  "day": "Thursdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$150",
+  "startingChips": "",
+  "rebuy": "Single re-entry",
+  "addOn": "",
+  "prizeGtd": "$5,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/tch-social-austin/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "TCH Social Austin",
+  "name": "Daily Bankroll Builder XXL",
+  "day": "Fridays, Sundays",
+  "tourneyStart": "12:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$6,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/tch-social-austin/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "TCH Social Austin",
+  "name": "Re-buy Roundup",
+  "day": "Mondays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$30",
+  "startingChips": "",
+  "rebuy": "Rebuys",
+  "addOn": "",
+  "prizeGtd": "$7,500",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/tch-social-austin/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "TCH Social Austin",
+  "name": "PKO Bounty",
+  "day": "Sundays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$150",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$4,000",
+  "other": "",
+  "bounty": "PKO",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/tch-social-austin/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "TCH Social Austin",
+  "name": "Pot Limit Big O",
+  "day": "Tuesdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "Big O",
+  "buyin": "$100",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$4,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/tch-social-austin/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "TCH Social Austin",
+  "name": "Triple Stack",
+  "day": "Wednesdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$200",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$10,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/tch-social-austin/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "TCH Social Austin",
+  "name": "TGIF",
+  "day": "Fridays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$140",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$20,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/tch-social-austin/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "TCH Social Austin",
+  "name": "Mega Stack",
+  "day": "Saturdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$150",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$10,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/tch-social-austin/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "101 Poker Club",
+  "name": "$60 ROE",
+  "day": "Tuesdays, Thursdays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "Re-entry",
+  "addOn": "Add-on",
+  "prizeGtd": "$2,000",
+  "other": "ROE",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/101-poker-club/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "101 Poker Club",
+  "name": "$100 Freezeout",
+  "day": "Mondays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$100",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$3,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/101-poker-club/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "101 Poker Club",
+  "name": "PLO Bomb Pots",
+  "day": "Sundays",
+  "tourneyStart": "1:05pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "PLO",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$5,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/101-poker-club/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "101 Poker Club",
+  "name": "$100 Freezeout",
+  "day": "Wednesdays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$100",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2,500",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/101-poker-club/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Merced Poker Room",
+  "name": "Saturday Tournament",
+  "day": "Saturdays",
+  "tourneyStart": "1:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$32",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/merced-poker-room/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Merced Poker Room",
+  "name": "Wednesday Tournament",
+  "day": "Wednesdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$52",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/merced-poker-room/tournaments"
+    ],
+    "lastChecked": "2026-10-03T01:50:00.000Z",
+    "status": "verified",
+    "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
 }
-
 ];
 
 module.exports = refreshedTourneysObjArray;

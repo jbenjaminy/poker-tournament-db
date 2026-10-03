@@ -1,6 +1,7 @@
 // Auto-generated from refreshed-tourney-obj-array.js — do not edit by hand
-// Rooms with at least one tournament schedule row (121)
+// Rooms with at least one tournament schedule row (127)
 module.exports = [
+  "101 Poker Club",
   "4 Bears Casino & Lodge",
   "Agua Caliente Casino, Palm Springs",
   "Alamo City Poker Club",
@@ -73,6 +74,7 @@ module.exports = [
   "Lucky's Card Room (TGT Poker)",
   "Mandalay Bay, Las Vegas",
   "Maryland Live! Casino",
+  "Merced Poker Room",
   "MGM Grand, Detroit",
   "MGM Grand, Las Vegas",
   "Mohegan Sun",
@@ -105,6 +107,10 @@ module.exports = [
   "Stones Gambling Hall",
   "Sycuan Casino",
   "Talking Stick",
+  "TCH Social Austin",
+  "Texas Card House Houston",
+  "Texas Card House Rio Grande Valley",
+  "Texas Card House Spring",
   "The Bicycle Hotel & Casino",
   "The Casino @ Dania Beach",
   "The Fort Card Room",

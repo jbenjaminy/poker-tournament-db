@@ -39,6 +39,44 @@ function mapCasino(c) {
   };
 }
 
+
+function parseBuyinDollars(buyin) {
+  var s = String(buyin || '').trim().toLowerCase();
+  if (!s) return null;
+  if (s === 'free' || s.indexOf('freeroll') !== -1 || /^\$0(\b|\D)/.test(s)) return 0;
+  var m = s.match(/\$(\d+(?:\.\d+)?)/);
+  if (!m) return null;
+  return parseFloat(m[1]);
+}
+
+function buyinBand(buyin) {
+  var n = parseBuyinDollars(buyin);
+  if (n === null) return '';
+  if (n === 0) return 'freeroll';
+  if (n <= 50) return 'low';
+  if (n <= 200) return 'mid';
+  return 'deep';
+}
+
+function structureTags(t) {
+  var blob = [t.name, t.game, t.other, t.bounty, t.rebuy].join(' ');
+  var tags = [];
+  var bountyText = String(t.bounty || '').trim().toLowerCase();
+  if (bountyText && bountyText !== 'no' && bountyText !== 'none') tags.push('bounty');
+  else if (/\bbounty\b|\bbounties\b|\bpko\b|knockout/i.test(blob)) tags.push('bounty');
+  if (/\bplo\b|omaha|\bbig o\b/i.test(blob)) tags.push('plo');
+  return tags;
+}
+
+function scheduleType(t) {
+  if (t.scheduleType === 'series' || t.schedule_type === 'series') return 'series';
+  var blob = [t.name, t.other, t.game].join(' ');
+  var weeklyExcuse = /non-series|excluding some series|around series|series weeks/i.test(blob);
+  if (!weeklyExcuse && /\b(wsop|wpt|mspt|rgps|rungood|wsopc)\b/i.test(blob)) return 'series';
+  if (/gapt series sundays/i.test(blob)) return 'series';
+  return 'weekly';
+}
+
 function mapTourney(t, idx) {
   return {
     id: idx + 1,
@@ -56,7 +94,11 @@ function mapTourney(t, idx) {
     bounty: t.bounty,
     re_entry: t.reEntry,
     prize_gtd: t.prizeGtd,
-    other: t.other
+    other: t.other,
+    bounty: t.bounty || '',
+    buyin_band: buyinBand(t.buyin),
+    structure_tags: structureTags(t),
+    schedule_type: scheduleType(t)
   };
 }
 
@@ -81,4 +123,4 @@ function decodeName(name) {
     .split('_').join(' ');
 }
 
-module.exports = { getData: getData, decodeName: decodeName };
+module.exports = { getData: getData, decodeName: decodeName, mapCasino: mapCasino, mapTourney: mapTourney, buyinBand: buyinBand, structureTags: structureTags, scheduleType: scheduleType };

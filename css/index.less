@@ -519,6 +519,77 @@ body {
     list-style: none;
   }
 
+  .tourney-filters {
+    display: flex;
+    flex-direction: column;
+    gap: (@space * 2);
+    margin: (@space * 3) 0 (@space * 4);
+  }
+  .filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: (@space * 2);
+  }
+  .filter-chip {
+    appearance: none;
+    min-height: 44px;
+    padding: 0 (@space * 3);
+    border-radius: 999px;
+    border: 1px solid @border;
+    background: rgba(0, 0, 0, 0.28);
+    color: @text;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .filter-chip.is-on {
+    border-color: @border-strong;
+    background: @gold-muted;
+    color: @gold;
+  }
+  .filter-chip:focus {
+    outline: 2px solid @focus;
+    outline-offset: 2px;
+  }
+  .tourney-section {
+    margin-top: (@space * 4);
+  }
+  .tourney-section-title {
+    margin: 0 0 (@space * 1);
+    font-size: 15px;
+    letter-spacing: 0.02em;
+  }
+  .tourney-section-note {
+    margin: 0 0 (@space * 3);
+    color: @muted;
+    font-size: 13px;
+  }
+  .tourney-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: (@space * 1.5);
+    margin-top: (@space * 2);
+  }
+  .tourney-tag {
+    display: inline-flex;
+    align-items: center;
+    min-height: 22px;
+    padding: 0 (@space * 2);
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    border: 1px solid @border;
+    color: @muted;
+  }
+  .tag-deep, .tag-series { color: @gold; border-color: @border-strong; }
+  .tag-bounty { color: #f0c674; }
+  .tag-plo { color: #9dccff; }
+  .tag-freeroll { color: #8fd19e; }
+
+
   .title {
     font-weight: 600;
     color: @gold;
