@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-10-04T01:30:00.000Z",
+  "pass": 33,
+  "cache": "v=56",
+  "before": {
+    "casinos": 996,
+    "tourneys": 671,
+    "hasPoker": 244,
+    "roomsWithSchedules": 127
+  },
+  "after": {
+    "casinos": 996,
+    "tourneys": 716,
+    "hasPoker": 244,
+    "roomsWithSchedules": 134
+  },
+  "tourneysAddedNet": 45,
+  "roomsNewlyCovered": [
+    "Casino Caribbean Kirkland",
+    "Clearwater Saloon & Casino",
+    "Fortune Casino La Center",
+    "Fortune Casino Renton",
+    "Golden West Casino",
+    "Lilac Lanes & Casino",
+    "One-Eyed Jack's Poker Room",
+    "Tampa Bay Downs",
+    "The Big Easy Casino"
+  ],
+  "cashFills": [
+    "Bankers Casino",
+    "Golden West Casino",
+    "Turlock Poker Room",
+    "The Big Easy Casino",
+    "One-Eyed Jack's Poker Room",
+    "Tampa Bay Downs",
+    "Prime Social Club",
+    "Empire Poker Club",
+    "SA Card House",
+    "Casino Caribbean Kirkland",
+    "Clearwater Saloon & Casino",
+    "Fortune Casino Renton",
+    "Fortune Casino La Center",
+    "Lilac Lanes & Casino"
+  ],
+  "hourFills": [
+    "Golden West Casino",
+    "Turlock Poker Room",
+    "The Big Easy Casino",
+    "One-Eyed Jack's Poker Room",
+    "Daytona Beach Kennel Club & Poker Room, Williamson Blvd",
+    "Tampa Bay Downs",
+    "Prime Social Club",
+    "Empire Poker Club",
+    "Casino Caribbean Kirkland",
+    "Clearwater Saloon & Casino",
+    "Fortune Casino Renton",
+    "Fortune Casino La Center",
+    "Lilac Lanes & Casino"
+  ],
+  "verifyCorrections": [
+    "removed Bankers Casino: Mondays 6pm $65 No Limit Hold'em Tournament",
+    "removed Bankers Casino: Tuesdays 6pm $45 No Limit Hold'em Tournament",
+    "removed Bankers Casino: Saturdays 11am $55 No Limit Hold'em Tournament",
+    "removed Black Oak Casino: Wednesdays 11am $10 to $100 No Limit Hold'em Tournament",
+    "removed Black Oak Casino: Wednesdays 7pm $10 to $100 No Limit Hold'em Tournament",
+    "removed Black Oak Casino: Thursdays 7pm $10 to $100 No Limit Hold'em Tournament",
+    "removed Black Oak Casino: Fridays 7pm $10 to $100 No Limit Hold'em Tournament",
+    "removed Black Oak Casino: Saturdays 6pm $10 to $100 No Limit Hold'em Tournament",
+    "removed Black Oak Casino: Sundays 11am $10 to $100 No Limit Hold'em Tournament",
+    "removed Black Oak Casino: Sundays 7pm $10 to $100 No Limit Hold'em Tournament",
+    "removed Black Oak Casino: Sundays (last Sunday of each month) 2pm $110 - 10,000 chips Super Sunday Deepstack Tournament",
+    "Turlock Sunday 6pm renamed Mega Satellite (buy-in unchanged)",
+    "Slo Pitch Saturday $100 -> $160",
+    "Daytona Friday seniors $115 -> $130",
+    "Fortune Lacey start 11:00am -> 10:00am",
+    "replaced schedule Crazy Moose Casino Pasco: 5 rows",
+    "replaced schedule Little Creek Casino Resort: 5 rows",
+    "replaced schedule Black Pearl Restaurant & Card Room: 3 rows",
+    "added Slo Pitch Fri/Sat 11:00am $35 Blitz"
+  ],
+  "skipped": [
+    "TX clubs TCH Dallas, TCH Las Colinas, Prime, Paramount, Empire, Spades, SA Card House: Atlas Oct 2026 has series or one-offs, not a 3+ weekday/time/buy-in weekly. Empire announces 12:00pm and 6:30pm but no buy-in.",
+    "Most FL/CA gap rooms: Atlas says they do not currently run tournaments, or only series flights.",
+    "Agua Caliente Palm Springs left unchanged: Atlas Palm Springs slug 404; Rancho Mirage is a different room.",
+    "Bankers Casino and Black Oak Casino stale seed rows removed: Atlas says those rooms do not currently run tournaments.",
+    "Daytona International Speedway not given the Williamson Blvd grid."
+  ]
+}

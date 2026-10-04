@@ -84,243 +84,6 @@ const refreshedTourneysObjArray = [
   }
 },
 {
-  "casinoName": "Bankers Casino",
-  "name": "No Limit Hold'em Tournament",
-  "day": "Mondays",
-  "tourneyStart": "6pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$65",
-  "startingChips": "5,000",
-  "rebuy": "$60 (1) - 8,000 chips",
-  "addOn": "$60 - 10,000 chips",
-  "prizeGtd": "",
-  "other": "Rebuy first hour only; $5 Dealer bonus for 1,000 extra chips.",
-  "meta": {
-    "sourceUrls": [],
-    "lastChecked": null,
-    "status": "stale",
-    "notes": "Imported from seed tourney-obj-array.js; not yet re-verified this scrape pass."
-  }
-},
-{
-  "casinoName": "Bankers Casino",
-  "name": "No Limit Hold'em Tournament",
-  "day": "Tuesdays",
-  "tourneyStart": "6pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$45",
-  "startingChips": "5,000",
-  "rebuy": "$40 (1) - 8,000 chips",
-  "addOn": "$40 - 10,000 chips",
-  "prizeGtd": "",
-  "other": "Rebuy first hour only; $5 Dealer bonus for 1,000 extra chips.",
-  "meta": {
-    "sourceUrls": [],
-    "lastChecked": null,
-    "status": "stale",
-    "notes": "Imported from seed tourney-obj-array.js; not yet re-verified this scrape pass."
-  }
-},
-{
-  "casinoName": "Bankers Casino",
-  "name": "No Limit Hold'em Tournament",
-  "day": "Saturdays",
-  "tourneyStart": "11am",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$55",
-  "startingChips": "8,000",
-  "rebuy": "",
-  "addOn": "$40 - 10,000 chips",
-  "prizeGtd": "",
-  "other": "Re-Entry first hour only; $5 Dealer bonus for 2,000 extra chips; Double PPC Points!",
-  "reEntry": "yes",
-  "meta": {
-    "sourceUrls": [],
-    "lastChecked": null,
-    "status": "stale",
-    "notes": "Imported from seed tourney-obj-array.js; not yet re-verified this scrape pass."
-  }
-},
-{
-  "casinoName": "Black Oak Casino",
-  "name": "No Limit Hold'em Tournament",
-  "day": "Wednesdays",
-  "tourneyStart": "11am",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$10 to $100",
-  "startingChips": "",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "",
-  "other": "Buy-ins range from $10 - $100",
-  "reEntry": "$25",
-  "meta": {
-    "sourceUrls": [],
-    "lastChecked": null,
-    "status": "stale",
-    "notes": "Imported from seed tourney-obj-array.js; not yet re-verified this scrape pass."
-  }
-},
-{
-  "casinoName": "Black Oak Casino",
-  "name": "No Limit Hold'em Tournament",
-  "day": "Wednesdays",
-  "tourneyStart": "7pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$10 to $100",
-  "startingChips": "",
-  "rebuy": "$10",
-  "addOn": "",
-  "prizeGtd": "",
-  "other": "Buy-ins range from $10 - $100",
-  "meta": {
-    "sourceUrls": [],
-    "lastChecked": null,
-    "status": "stale",
-    "notes": "Imported from seed tourney-obj-array.js; not yet re-verified this scrape pass."
-  }
-},
-{
-  "casinoName": "Black Oak Casino",
-  "name": "No Limit Hold'em Tournament",
-  "day": "Thursdays",
-  "tourneyStart": "7pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$10 to $100",
-  "startingChips": "",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "",
-  "other": "Buy-ins range from $10 - $100",
-  "reEntry": "$25",
-  "meta": {
-    "sourceUrls": [],
-    "lastChecked": null,
-    "status": "stale",
-    "notes": "Imported from seed tourney-obj-array.js; not yet re-verified this scrape pass."
-  }
-},
-{
-  "casinoName": "Black Oak Casino",
-  "name": "No Limit Hold'em Tournament",
-  "day": "Fridays",
-  "tourneyStart": "7pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$10 to $100",
-  "startingChips": "",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "",
-  "other": "Buy-ins range from $10 - $100",
-  "bounty": "$35",
-  "meta": {
-    "sourceUrls": [],
-    "lastChecked": null,
-    "status": "stale",
-    "notes": "Imported from seed tourney-obj-array.js; not yet re-verified this scrape pass."
-  }
-},
-{
-  "casinoName": "Black Oak Casino",
-  "name": "No Limit Hold'em Tournament",
-  "day": "Saturdays",
-  "tourneyStart": "6pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$10 to $100",
-  "startingChips": "",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "",
-  "other": "Buy-ins range from $10 - $100",
-  "reEntry": "$25",
-  "meta": {
-    "sourceUrls": [],
-    "lastChecked": null,
-    "status": "stale",
-    "notes": "Imported from seed tourney-obj-array.js; not yet re-verified this scrape pass."
-  }
-},
-{
-  "casinoName": "Black Oak Casino",
-  "name": "No Limit Hold'em Tournament",
-  "day": "Sundays",
-  "tourneyStart": "11am",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$10 to $100",
-  "startingChips": "",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "",
-  "other": "Buy-ins range from $10 - $100",
-  "bounty": "$35",
-  "meta": {
-    "sourceUrls": [],
-    "lastChecked": null,
-    "status": "stale",
-    "notes": "Imported from seed tourney-obj-array.js; not yet re-verified this scrape pass."
-  }
-},
-{
-  "casinoName": "Black Oak Casino",
-  "name": "No Limit Hold'em Tournament",
-  "day": "Sundays",
-  "tourneyStart": "7pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$10 to $100",
-  "startingChips": "",
-  "rebuy": "$10",
-  "addOn": "",
-  "prizeGtd": "",
-  "other": "Buy-ins range from $10 - $100",
-  "meta": {
-    "sourceUrls": [],
-    "lastChecked": null,
-    "status": "stale",
-    "notes": "Imported from seed tourney-obj-array.js; not yet re-verified this scrape pass."
-  }
-},
-{
-  "casinoName": "Black Oak Casino",
-  "name": "Super Sunday Deepstack Tournament",
-  "day": "Sundays (last Sunday of each month)",
-  "tourneyStart": "2pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$110 - 10,000 chips",
-  "startingChips": "",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "",
-  "other": "30 minute rounds",
-  "meta": {
-    "sourceUrls": [],
-    "lastChecked": null,
-    "status": "stale",
-    "notes": "Imported from seed tourney-obj-array.js; not yet re-verified this scrape pass."
-  }
-},
-{
   "casinoName": "Talking Stick",
   "name": "Weekday Morning NLHE",
   "day": "Mondays, Tuesdays, Wednesdays, Thursdays, Fridays",
@@ -5474,12 +5237,11 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/sycuan-casino-el-cajon/tournaments",
-      "http://www.sycuan.com/"
+      "https://pokeratlas.com/poker-room/sycuan-casino-el-cajon/tournaments"
     ],
-    "lastChecked": "2026-09-24T16:57:59.970Z",
-    "status": "unverified",
-    "notes": "Pass 10: PokerAtlas weeklies; official /casino/poker 404."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in match; no numeric change."
   }
 },
 {
@@ -5498,12 +5260,11 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/sycuan-casino-el-cajon/tournaments",
-      "http://www.sycuan.com/"
+      "https://pokeratlas.com/poker-room/sycuan-casino-el-cajon/tournaments"
     ],
-    "lastChecked": "2026-09-24T16:57:59.970Z",
-    "status": "unverified",
-    "notes": "Pass 10: PokerAtlas."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in match; no numeric change."
   }
 },
 {
@@ -5522,12 +5283,11 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/sycuan-casino-el-cajon/tournaments",
-      "http://www.sycuan.com/"
+      "https://pokeratlas.com/poker-room/sycuan-casino-el-cajon/tournaments"
     ],
-    "lastChecked": "2026-09-24T16:57:59.970Z",
-    "status": "unverified",
-    "notes": "Pass 10: PokerAtlas."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in match; no numeric change."
   }
 },
 {
@@ -5546,12 +5306,11 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/sycuan-casino-el-cajon/tournaments",
-      "http://www.sycuan.com/"
+      "https://pokeratlas.com/poker-room/sycuan-casino-el-cajon/tournaments"
     ],
-    "lastChecked": "2026-09-24T16:57:59.970Z",
-    "status": "unverified",
-    "notes": "Pass 10: PokerAtlas."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in match; no numeric change."
   }
 },
 {
@@ -5570,12 +5329,11 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/sycuan-casino-el-cajon/tournaments",
-      "http://www.sycuan.com/"
+      "https://pokeratlas.com/poker-room/sycuan-casino-el-cajon/tournaments"
     ],
-    "lastChecked": "2026-09-24T16:57:59.970Z",
-    "status": "unverified",
-    "notes": "Pass 10: PokerAtlas."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in match; no numeric change."
   }
 },
 {
@@ -5594,12 +5352,11 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/sycuan-casino-el-cajon/tournaments",
-      "http://www.sycuan.com/"
+      "https://pokeratlas.com/poker-room/sycuan-casino-el-cajon/tournaments"
     ],
-    "lastChecked": "2026-09-24T16:57:59.970Z",
-    "status": "unverified",
-    "notes": "Pass 10: PokerAtlas."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in match; no numeric change."
   }
 },
 {
@@ -5619,12 +5376,11 @@ const refreshedTourneysObjArray = [
   "bounty": "yes",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/sycuan-casino-el-cajon/tournaments",
-      "http://www.sycuan.com/"
+      "https://pokeratlas.com/poker-room/sycuan-casino-el-cajon/tournaments"
     ],
-    "lastChecked": "2026-09-24T16:57:59.970Z",
-    "status": "unverified",
-    "notes": "Pass 10: PokerAtlas."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in match; no numeric change."
   }
 },
 {
@@ -5644,12 +5400,11 @@ const refreshedTourneysObjArray = [
   "bounty": "two chip",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/sycuan-casino-el-cajon/tournaments",
-      "http://www.sycuan.com/"
+      "https://pokeratlas.com/poker-room/sycuan-casino-el-cajon/tournaments"
     ],
-    "lastChecked": "2026-09-24T16:57:59.970Z",
-    "status": "unverified",
-    "notes": "Pass 10: PokerAtlas."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in match; no numeric change."
   }
 },
 {
@@ -6038,12 +5793,11 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/turlock-poker-room/tournaments",
-      "http://www.turlockpoker.com/"
+      "https://pokeratlas.com/poker-room/turlock-poker-room/tournaments"
     ],
-    "lastChecked": "2026-09-24T17:32:55.321Z",
-    "status": "unverified",
-    "notes": "Pass 12: PokerAtlas calendar pattern (not official HTML grid)."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in unchanged from the Oct 2026 calendar."
   }
 },
 {
@@ -6062,12 +5816,11 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/turlock-poker-room/tournaments",
-      "http://www.turlockpoker.com/"
+      "https://pokeratlas.com/poker-room/turlock-poker-room/tournaments"
     ],
-    "lastChecked": "2026-09-24T17:32:55.321Z",
-    "status": "unverified",
-    "notes": "Pass 12: PokerAtlas calendar."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in unchanged from the Oct 2026 calendar."
   }
 },
 {
@@ -6086,12 +5839,11 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/turlock-poker-room/tournaments",
-      "http://www.turlockpoker.com/"
+      "https://pokeratlas.com/poker-room/turlock-poker-room/tournaments"
     ],
-    "lastChecked": "2026-09-24T17:32:55.321Z",
-    "status": "unverified",
-    "notes": "Pass 12: PokerAtlas calendar."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in unchanged from the Oct 2026 calendar."
   }
 },
 {
@@ -6110,12 +5862,11 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/turlock-poker-room/tournaments",
-      "http://www.turlockpoker.com/"
+      "https://pokeratlas.com/poker-room/turlock-poker-room/tournaments"
     ],
-    "lastChecked": "2026-09-24T17:32:55.321Z",
-    "status": "unverified",
-    "notes": "Pass 12: PokerAtlas calendar."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in unchanged from the Oct 2026 calendar."
   }
 },
 {
@@ -6134,12 +5885,11 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/turlock-poker-room/tournaments",
-      "http://www.turlockpoker.com/"
+      "https://pokeratlas.com/poker-room/turlock-poker-room/tournaments"
     ],
-    "lastChecked": "2026-09-24T17:32:55.321Z",
-    "status": "unverified",
-    "notes": "Pass 12: PokerAtlas calendar."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in unchanged from the Oct 2026 calendar."
   }
 },
 {
@@ -6158,12 +5908,11 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/turlock-poker-room/tournaments",
-      "http://www.turlockpoker.com/"
+      "https://pokeratlas.com/poker-room/turlock-poker-room/tournaments"
     ],
-    "lastChecked": "2026-09-24T17:32:55.321Z",
-    "status": "unverified",
-    "notes": "Pass 12: PokerAtlas calendar."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in unchanged from the Oct 2026 calendar."
   }
 },
 {
@@ -6182,12 +5931,11 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/turlock-poker-room/tournaments",
-      "http://www.turlockpoker.com/"
+      "https://pokeratlas.com/poker-room/turlock-poker-room/tournaments"
     ],
-    "lastChecked": "2026-09-24T17:32:55.321Z",
-    "status": "unverified",
-    "notes": "Pass 12: PokerAtlas calendar."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in unchanged from the Oct 2026 calendar."
   }
 },
 {
@@ -6206,12 +5954,11 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/turlock-poker-room/tournaments",
-      "http://www.turlockpoker.com/"
+      "https://pokeratlas.com/poker-room/turlock-poker-room/tournaments"
     ],
-    "lastChecked": "2026-09-24T17:32:55.321Z",
-    "status": "unverified",
-    "notes": "Pass 12: PokerAtlas calendar."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in unchanged from the Oct 2026 calendar."
   }
 },
 {
@@ -6230,17 +5977,16 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/turlock-poker-room/tournaments",
-      "http://www.turlockpoker.com/"
+      "https://pokeratlas.com/poker-room/turlock-poker-room/tournaments"
     ],
-    "lastChecked": "2026-09-24T17:32:55.321Z",
-    "status": "unverified",
-    "notes": "Pass 12: PokerAtlas calendar."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in unchanged from the Oct 2026 calendar."
   }
 },
 {
   "casinoName": "Turlock Poker Room",
-  "name": "$160 NLH",
+  "name": "$160 NLH Mega Satellite",
   "day": "Sundays",
   "tourneyStart": "6:00pm",
   "regStart": "",
@@ -6254,12 +6000,11 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/turlock-poker-room/tournaments",
-      "http://www.turlockpoker.com/"
+      "https://pokeratlas.com/poker-room/turlock-poker-room/tournaments"
     ],
-    "lastChecked": "2026-09-24T17:32:55.321Z",
-    "status": "unverified",
-    "notes": "Pass 12: PokerAtlas calendar."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: reconfirmed on the Oct 2026 PokerAtlas calendar. Day/time/buy-in unchanged from the Oct 2026 calendar."
   }
 },
 {
@@ -6334,60 +6079,14 @@ const refreshedTourneysObjArray = [
   }
 },
 {
-  "casinoName": "Black Pearl Restaurant & Card Room",
-  "name": "Daily NLH",
-  "day": "Monday, Tuesday, Wednesday, Thursday, Friday",
-  "tourneyStart": "10:00am",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$25",
-  "startingChips": "8000",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "",
-  "other": "",
-  "meta": {
-    "sourceUrls": [
-      "https://www.cardplayer.com/poker-rooms/WA"
-    ],
-    "lastChecked": "2026-09-24T17:55:28.247Z",
-    "status": "unverified",
-    "notes": "Pass 14: CardPlayer recurring schedule; confirm on venue site."
-  }
-},
-{
-  "casinoName": "Black Pearl Restaurant & Card Room",
-  "name": "Thursday Evening NLH",
-  "day": "Thursday",
-  "tourneyStart": "6:00pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$25",
-  "startingChips": "8000",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "",
-  "other": "",
-  "meta": {
-    "sourceUrls": [
-      "https://www.cardplayer.com/poker-rooms/WA"
-    ],
-    "lastChecked": "2026-09-24T17:55:28.247Z",
-    "status": "unverified",
-    "notes": "Pass 14: CardPlayer recurring schedule; confirm on venue site."
-  }
-},
-{
   "casinoName": "Slo Pitch Pub & Eatery",
-  "name": "Saturday NLH",
+  "name": "$160 Saturday NLH",
   "day": "Saturday",
   "tourneyStart": "4:00pm",
   "regStart": "",
   "regEnd": "",
   "game": "NLH",
-  "buyin": "$100",
+  "buyin": "$160",
   "startingChips": "15000",
   "rebuy": "",
   "addOn": "",
@@ -6395,80 +6094,11 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.cardplayer.com/poker-rooms/WA"
+      "https://pokeratlas.com/poker-room/slo-pitch-bellingham/tournaments"
     ],
-    "lastChecked": "2026-09-24T17:55:28.247Z",
-    "status": "unverified",
-    "notes": "Pass 14: CardPlayer recurring schedule; confirm on venue site."
-  }
-},
-{
-  "casinoName": "Little Creek Casino Resort",
-  "name": "Weeknight NLH",
-  "day": "Monday, Tuesday, Wednesday, Thursday",
-  "tourneyStart": "7:00pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$60",
-  "startingChips": "10000",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "",
-  "other": "",
-  "meta": {
-    "sourceUrls": [
-      "https://www.cardplayer.com/poker-rooms/WA"
-    ],
-    "lastChecked": "2026-09-24T17:55:28.247Z",
-    "status": "unverified",
-    "notes": "Pass 14: CardPlayer recurring schedule; confirm on venue site."
-  }
-},
-{
-  "casinoName": "Little Creek Casino Resort",
-  "name": "Friday NLH",
-  "day": "Friday",
-  "tourneyStart": "6:00pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$130",
-  "startingChips": "12000",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "",
-  "other": "",
-  "meta": {
-    "sourceUrls": [
-      "https://www.cardplayer.com/poker-rooms/WA"
-    ],
-    "lastChecked": "2026-09-24T17:55:28.247Z",
-    "status": "unverified",
-    "notes": "Pass 14: CardPlayer recurring schedule; confirm on venue site."
-  }
-},
-{
-  "casinoName": "Little Creek Casino Resort",
-  "name": "Saturday NLH",
-  "day": "Saturday",
-  "tourneyStart": "12:00pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$190",
-  "startingChips": "15000",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "",
-  "other": "",
-  "meta": {
-    "sourceUrls": [
-      "https://www.cardplayer.com/poker-rooms/WA"
-    ],
-    "lastChecked": "2026-09-24T17:55:28.247Z",
-    "status": "unverified",
-    "notes": "Pass 14: CardPlayer recurring schedule; confirm on venue site."
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: Oct 2026 PokerAtlas Saturday 4:00pm is $160 NLH (was $100)."
   }
 },
 {
@@ -10278,13 +9908,13 @@ const refreshedTourneysObjArray = [
 },
 {
   "casinoName": "Daytona Beach Kennel Club & Poker Room, Williamson Blvd",
-  "name": "$115 GAPT Seniors 50+ NLH",
+  "name": "$130 GAPT Seniors 50+ NLH",
   "day": "Fridays",
   "tourneyStart": "12:10pm",
   "regStart": "",
   "regEnd": "",
   "game": "NLH",
-  "buyin": "$115",
+  "buyin": "$130",
   "startingChips": "15000",
   "rebuy": "",
   "addOn": "",
@@ -10292,12 +9922,11 @@ const refreshedTourneysObjArray = [
   "other": "20-minute levels. Official Friday seniors (current $115 listing on Oct calendar).",
   "meta": {
     "sourceUrls": [
-      "https://www.daytonabeachpoker.com/poker-tournaments/upcoming-tournaments/",
-      "https://www.daytonabeachpoker.com/"
+      "https://www.daytonabeachpoker.com/events/category/poker-tournament/"
     ],
-    "lastChecked": "2026-09-24T22:54:27.711Z",
+    "lastChecked": "2026-10-04T01:30:00.000Z",
     "status": "verified",
-    "notes": "Pass 18: prefer current $115 seniors over older $130 same-slot listing."
+    "notes": "Pass 33: official Oct 9, 2026 listing is $130 Seniors 50+ at 12:10pm (was $115)."
   }
 },
 {
@@ -13061,7 +12690,7 @@ const refreshedTourneysObjArray = [
   "casinoName": "Fortune Casino Lacey",
   "name": "Daily NLH $60",
   "day": "Mondays, Tuesdays, Wednesdays, Thursdays, Fridays, Saturdays, Sundays",
-  "tourneyStart": "11:00am",
+  "tourneyStart": "10:00am",
   "regStart": "",
   "regEnd": "",
   "game": "NLH",
@@ -13073,11 +12702,11 @@ const refreshedTourneysObjArray = [
   "other": "Official Daily Tournaments begin daily at 11:00 AM. $60 buy-in. In-person signup only — arrive early. Players can eat for 50% off while in game.",
   "meta": {
     "sourceUrls": [
-      "https://fortunelacey.weebly.com/"
+      "https://pokeratlas.com/poker-room/fortune-lacey-olympia/tournaments"
     ],
-    "lastChecked": "2026-09-24T23:12:58.672Z",
+    "lastChecked": "2026-10-04T01:30:00.000Z",
     "status": "verified",
-    "notes": "Pass 22: fortunelacey.weebly.com Daily Tournaments."
+    "notes": "Pass 33: Oct 2026 PokerAtlas daily is 10:00am $60, not 11:00am."
   }
 },
 {
@@ -13229,182 +12858,6 @@ const refreshedTourneysObjArray = [
     "lastChecked": "2026-09-24T23:19:20.304Z",
     "status": "verified",
     "notes": "Pass 23: CCY Ace's Poker flyer MWF 7pm $65."
-  }
-},
-{
-  "casinoName": "Crazy Moose Casino Pasco",
-  "name": "Daily Morning NLH $40 ($500 GTD)",
-  "day": "Mondays, Tuesdays, Wednesdays, Thursdays, Fridays, Saturdays, Sundays",
-  "tourneyStart": "10:00am",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$40",
-  "startingChips": "10000",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "$500",
-  "other": "Official daily 10 AM NLH. $40 buy-in / $40 re-entry. $500 guarantee. 10,000 starting chips. 15-min levels. Reg until Level 6. Min 9 players.",
-  "reEntry": "until Level 6",
-  "meta": {
-    "sourceUrls": [
-      "https://wsggpoker.com/event/crazy-moose-poker-pasco-tournament-schedule/",
-      "https://wsggpoker.com/wp-content/uploads/2024/07/CMP_1920x990_PokerTournaments_Jul24.png"
-    ],
-    "lastChecked": "2026-09-24T23:19:20.304Z",
-    "status": "verified",
-    "notes": "Pass 23: CMP flyer daily 10am $40."
-  }
-},
-{
-  "casinoName": "Crazy Moose Casino Pasco",
-  "name": "Evening NLH $60 ($1K GTD)",
-  "day": "Mondays, Tuesdays, Wednesdays, Thursdays, Sundays",
-  "tourneyStart": "6:00pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$60",
-  "startingChips": "15000",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "$1000",
-  "other": "Official Mon–Thu + Sun 6 PM NLH. $60 buy-in / $60 re-entry. $1,000 guarantee. 15,000 starting chips. 15-min levels. Reg until Level 6. (Fri/Sat evenings are specialty events.)",
-  "reEntry": "until Level 6",
-  "meta": {
-    "sourceUrls": [
-      "https://wsggpoker.com/event/crazy-moose-poker-pasco-tournament-schedule/",
-      "https://wsggpoker.com/wp-content/uploads/2024/07/CMP_1920x990_PokerTournaments_Jul24.png"
-    ],
-    "lastChecked": "2026-09-24T23:19:20.304Z",
-    "status": "verified",
-    "notes": "Pass 23: CMP flyer Mon–Thu/Sun 6pm $60."
-  }
-},
-{
-  "casinoName": "Crazy Moose Casino Pasco",
-  "name": "Friday Afternoon NLH $100 ($1.5K GTD)",
-  "day": "Fridays",
-  "tourneyStart": "2:00pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$100",
-  "startingChips": "20000",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "$1500",
-  "other": "Official Friday 2 PM NLH. $100 buy-in / $100 re-entry. $1,500 guarantee. 20,000 starting chips. 20-min levels.",
-  "reEntry": "until Level 6",
-  "meta": {
-    "sourceUrls": [
-      "https://wsggpoker.com/event/crazy-moose-poker-pasco-tournament-schedule/",
-      "https://wsggpoker.com/wp-content/uploads/2024/07/CMP_1920x990_PokerTournaments_Jul24.png"
-    ],
-    "lastChecked": "2026-09-24T23:19:20.304Z",
-    "status": "verified",
-    "notes": "Pass 23: CMP flyer Fri 2pm $100."
-  }
-},
-{
-  "casinoName": "Crazy Moose Casino Pasco",
-  "name": "Friday Night Double Bounty $150 ($2K GTD)",
-  "day": "Fridays",
-  "tourneyStart": "6:00pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$150",
-  "startingChips": "25000",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "$2000",
-  "other": "Official Friday 6 PM No Limit Double Bounty. $150 buy-in ($50 bounties per knockout). $2,000 guarantee. 25,000 starting chips. 20-min levels.",
-  "bounty": "$50",
-  "reEntry": "until Level 6",
-  "meta": {
-    "sourceUrls": [
-      "https://wsggpoker.com/event/crazy-moose-poker-pasco-tournament-schedule/",
-      "https://wsggpoker.com/wp-content/uploads/2024/07/CMP_1920x990_PokerTournaments_Jul24.png"
-    ],
-    "lastChecked": "2026-09-24T23:19:20.304Z",
-    "status": "verified",
-    "notes": "Pass 23: CMP flyer Fri 6pm $150 double bounty."
-  }
-},
-{
-  "casinoName": "Crazy Moose Casino Pasco",
-  "name": "Saturday Monster Stack $225 ($2.5K GTD)",
-  "day": "Saturdays",
-  "tourneyStart": "2:00pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$225",
-  "startingChips": "30000",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "$2500",
-  "other": "Official Saturday 2 PM Monster Stack NLH. $225 buy-in. $2,500 guarantee. 30,000 starting chips. 20/30-min levels. Reg until Level 7.",
-  "reEntry": "until Level 7",
-  "meta": {
-    "sourceUrls": [
-      "https://wsggpoker.com/event/crazy-moose-poker-pasco-tournament-schedule/",
-      "https://wsggpoker.com/wp-content/uploads/2024/07/CMP_1920x990_PokerTournaments_Jul24.png"
-    ],
-    "lastChecked": "2026-09-24T23:19:20.304Z",
-    "status": "verified",
-    "notes": "Pass 23: CMP flyer Sat 2pm Monster Stack $225."
-  }
-},
-{
-  "casinoName": "Crazy Moose Casino Pasco",
-  "name": "Saturday Deepstack $120 ($2K GTD)",
-  "day": "Saturdays",
-  "tourneyStart": "6:00pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$120",
-  "startingChips": "25000",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "$2000",
-  "other": "Official Saturday 6 PM Deepstack NLH. $120 buy-in. $2,000 guarantee. 25,000 starting chips. 20-min levels.",
-  "reEntry": "until Level 5",
-  "meta": {
-    "sourceUrls": [
-      "https://wsggpoker.com/event/crazy-moose-poker-pasco-tournament-schedule/",
-      "https://wsggpoker.com/wp-content/uploads/2024/07/CMP_1920x990_PokerTournaments_Jul24.png"
-    ],
-    "lastChecked": "2026-09-24T23:19:20.304Z",
-    "status": "verified",
-    "notes": "Pass 23: CMP flyer Sat 6pm Deepstack $120."
-  }
-},
-{
-  "casinoName": "Crazy Moose Casino Pasco",
-  "name": "Sunday Deepstack $120 ($2K GTD)",
-  "day": "Sundays",
-  "tourneyStart": "2:00pm",
-  "regStart": "",
-  "regEnd": "",
-  "game": "NLH",
-  "buyin": "$120",
-  "startingChips": "25000",
-  "rebuy": "",
-  "addOn": "",
-  "prizeGtd": "$2000",
-  "other": "Official Sunday 2 PM Deepstack NLH. $120 buy-in. $2,000 guarantee. 25,000 starting chips. 20-min levels.",
-  "reEntry": "until Level 5",
-  "meta": {
-    "sourceUrls": [
-      "https://wsggpoker.com/event/crazy-moose-poker-pasco-tournament-schedule/",
-      "https://wsggpoker.com/wp-content/uploads/2024/07/CMP_1920x990_PokerTournaments_Jul24.png"
-    ],
-    "lastChecked": "2026-09-24T23:19:20.304Z",
-    "status": "verified",
-    "notes": "Pass 23: CMP flyer Sun 2pm Deepstack $120."
   }
 },
 {
@@ -15056,11 +14509,11 @@ const refreshedTourneysObjArray = [
   "other": "",
   "meta": {
     "sourceUrls": [
-      "https://www.pokeratlas.com/poker-room/imperial-palace-casino-auburn/tournaments"
+      "https://pokeratlas.com/poker-room/imperial-palace-casino-auburn/tournaments"
     ],
-    "lastChecked": "2026-10-01T18:37:10.219Z",
+    "lastChecked": "2026-10-04T01:30:00.000Z",
     "status": "verified",
-    "notes": "Pass 31: PokerAtlas calendar Tue–Sun 4pm $50 NLH (no Monday listings in Oct 2026 calendar)."
+    "notes": "Pass 33: reconfirmed Tue–Sun 4:00pm $50. No Monday on the Oct 2026 calendar."
   }
 },
 {
@@ -16272,6 +15725,1638 @@ const refreshedTourneysObjArray = [
     "lastChecked": "2026-10-03T01:50:00.000Z",
     "status": "verified",
     "notes": "Pass 32: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Crazy Moose Casino Pasco",
+  "name": "$40 NLH",
+  "day": "Sundays, Mondays, Wednesdays, Thursdays, Fridays",
+  "tourneyStart": "10:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$40",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/crazy-moose-pasco/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: corrected to the Oct 2026 PokerAtlas calendar."
+  }
+},
+{
+  "casinoName": "Crazy Moose Casino Pasco",
+  "name": "$40 Tuesday Tahoe",
+  "day": "Tuesdays",
+  "tourneyStart": "10:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "Tahoe",
+  "buyin": "$40",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/crazy-moose-pasco/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: corrected to the Oct 2026 PokerAtlas calendar."
+  }
+},
+{
+  "casinoName": "Crazy Moose Casino Pasco",
+  "name": "$120 Saturday NLH",
+  "day": "Saturdays",
+  "tourneyStart": "10:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$120",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/crazy-moose-pasco/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: corrected to the Oct 2026 PokerAtlas calendar."
+  }
+},
+{
+  "casinoName": "Crazy Moose Casino Pasco",
+  "name": "$40 NLH",
+  "day": "Mondays, Wednesdays, Thursdays, Fridays, Saturdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$40",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/crazy-moose-pasco/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: corrected to the Oct 2026 PokerAtlas calendar."
+  }
+},
+{
+  "casinoName": "Crazy Moose Casino Pasco",
+  "name": "$40 Tuesday Tahoe",
+  "day": "Tuesdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "Tahoe",
+  "buyin": "$40",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/crazy-moose-pasco/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: corrected to the Oct 2026 PokerAtlas calendar."
+  }
+},
+{
+  "casinoName": "Little Creek Casino Resort",
+  "name": "$45 Daily NLH",
+  "day": "Mondays, Tuesdays, Wednesdays, Thursdays, Fridays",
+  "tourneyStart": "10:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$45",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/little-creek-casino-shelton/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: corrected to the Oct 2026 PokerAtlas calendar."
+  }
+},
+{
+  "casinoName": "Little Creek Casino Resort",
+  "name": "$25 Monday Turbo",
+  "day": "Mondays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$25",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/little-creek-casino-shelton/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: corrected to the Oct 2026 PokerAtlas calendar."
+  }
+},
+{
+  "casinoName": "Little Creek Casino Resort",
+  "name": "$25 Tuesday Turbo",
+  "day": "Tuesdays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$25",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/little-creek-casino-shelton/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: corrected to the Oct 2026 PokerAtlas calendar."
+  }
+},
+{
+  "casinoName": "Little Creek Casino Resort",
+  "name": "$60 NLH",
+  "day": "Wednesdays, Thursdays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/little-creek-casino-shelton/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: corrected to the Oct 2026 PokerAtlas calendar."
+  }
+},
+{
+  "casinoName": "Little Creek Casino Resort",
+  "name": "$130 Friday NLH",
+  "day": "Fridays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$130",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/little-creek-casino-shelton/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: corrected to the Oct 2026 PokerAtlas calendar."
+  }
+},
+{
+  "casinoName": "Black Pearl Restaurant & Card Room",
+  "name": "$25 NLH",
+  "day": "Mondays, Tuesdays, Wednesdays, Thursdays, Fridays",
+  "tourneyStart": "10:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$25",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/black-pearl-spokane/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: corrected to the Oct 2026 PokerAtlas calendar."
+  }
+},
+{
+  "casinoName": "Black Pearl Restaurant & Card Room",
+  "name": "$50 NLH",
+  "day": "Saturdays, Sundays",
+  "tourneyStart": "10:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$50",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/black-pearl-spokane/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: corrected to the Oct 2026 PokerAtlas calendar."
+  }
+},
+{
+  "casinoName": "Black Pearl Restaurant & Card Room",
+  "name": "$30 NLH",
+  "day": "Wednesdays, Sundays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$30",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/black-pearl-spokane/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: corrected to the Oct 2026 PokerAtlas calendar."
+  }
+},
+{
+  "casinoName": "Slo Pitch Pub & Eatery",
+  "name": "$35 Blitz",
+  "day": "Fridays, Saturdays",
+  "tourneyStart": "11:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$35",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/slo-pitch-bellingham/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "The Big Easy Casino",
+  "name": "$30 NLH",
+  "day": "Mondays, Wednesdays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$30",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/big-easy-casino-hallandale/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "The Big Easy Casino",
+  "name": "$50 NLH",
+  "day": "Tuesdays, Thursdays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$50",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/big-easy-casino-hallandale/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Casino Caribbean Kirkland",
+  "name": "$50 NLH",
+  "day": "Sundays, Mondays, Tuesdays, Thursdays",
+  "tourneyStart": "10:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$50",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/caribbean-kirkland/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Casino Caribbean Kirkland",
+  "name": "$50 Beat the Boss Bounty",
+  "day": "Wednesdays",
+  "tourneyStart": "10:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$50",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "Beat the Boss",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/caribbean-kirkland/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Casino Caribbean Kirkland",
+  "name": "$150 Green Chip Bounty",
+  "day": "Mondays",
+  "tourneyStart": "2:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$150",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "Green chip",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/caribbean-kirkland/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Casino Caribbean Kirkland",
+  "name": "$100 Green Chip Bounty",
+  "day": "Tuesdays, Thursdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$100",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "Green chip",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/caribbean-kirkland/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Casino Caribbean Kirkland",
+  "name": "$150 NLH",
+  "day": "Fridays",
+  "tourneyStart": "12:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$150",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/caribbean-kirkland/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Casino Caribbean Kirkland",
+  "name": "$100 NLH",
+  "day": "Saturdays",
+  "tourneyStart": "10:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$100",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/caribbean-kirkland/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Clearwater Saloon & Casino",
+  "name": "Afternoon Freeroll",
+  "day": "Mondays, Tuesdays",
+  "tourneyStart": "1:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "Free",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/clearwater-saloon-casino-east-wenatchee/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Clearwater Saloon & Casino",
+  "name": "Evening Freeroll",
+  "day": "Mondays, Tuesdays, Thursdays, Fridays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "Free",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/clearwater-saloon-casino-east-wenatchee/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Clearwater Saloon & Casino",
+  "name": "$27 Satellite to Monthly $10K",
+  "day": "Wednesdays",
+  "tourneyStart": "1:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$27",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "Satellite into the monthly $10K",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/clearwater-saloon-casino-east-wenatchee/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Fortune Casino La Center",
+  "name": "$70 NLH",
+  "day": "Mondays, Tuesdays, Wednesdays, Thursdays, Fridays, Saturdays",
+  "tourneyStart": "10:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$70",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/fortune-la-center/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Fortune Casino La Center",
+  "name": "$225 Sunday NLH",
+  "day": "Sundays",
+  "tourneyStart": "10:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$225",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/fortune-la-center/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Fortune Casino Renton",
+  "name": "$60 NLH",
+  "day": "Mondays, Tuesdays, Wednesdays, Thursdays, Fridays",
+  "tourneyStart": "8:30am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$1,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/fortune-poker-room-renton/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Fortune Casino Renton",
+  "name": "$60 NLH",
+  "day": "Saturdays, Sundays",
+  "tourneyStart": "8:30am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2,500",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/fortune-poker-room-renton/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Lilac Lanes & Casino",
+  "name": "$40 NLH",
+  "day": "Mondays, Wednesdays",
+  "tourneyStart": "10:30am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$40",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/lilac-lanes-spokane/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Lilac Lanes & Casino",
+  "name": "$40 Bounty",
+  "day": "Tuesdays, Thursdays",
+  "tourneyStart": "10:30am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$40",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "Bounty",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/lilac-lanes-spokane/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Lilac Lanes & Casino",
+  "name": "$40 NLH",
+  "day": "Fridays",
+  "tourneyStart": "10:30am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$40",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/lilac-lanes-spokane/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Lilac Lanes & Casino",
+  "name": "$25 NLH",
+  "day": "Mondays, Wednesdays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$25",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/lilac-lanes-spokane/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Lilac Lanes & Casino",
+  "name": "$40 Bounty",
+  "day": "Tuesdays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$40",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "Bounty",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/lilac-lanes-spokane/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Lilac Lanes & Casino",
+  "name": "$40 Industry Night",
+  "day": "Thursdays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$40",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/lilac-lanes-spokane/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Lilac Lanes & Casino",
+  "name": "$75 NLH",
+  "day": "Fridays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$75",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/lilac-lanes-spokane/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Lilac Lanes & Casino",
+  "name": "$50 NLH",
+  "day": "Saturdays, Sundays",
+  "tourneyStart": "1:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$50",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/lilac-lanes-spokane/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Lilac Lanes & Casino",
+  "name": "$40 NLH",
+  "day": "Saturdays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$40",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/lilac-lanes-spokane/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Lilac Lanes & Casino",
+  "name": "$25 NLH",
+  "day": "Sundays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$25",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/lilac-lanes-spokane/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Golden West Casino",
+  "name": "$80 Wednesday NLH",
+  "day": "Wednesdays",
+  "tourneyStart": "6:15pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$80",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/golden-west-casino-bakersfield/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Golden West Casino",
+  "name": "$100 Saturday NLH",
+  "day": "Saturdays",
+  "tourneyStart": "12:15pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$100",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/golden-west-casino-bakersfield/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "One-Eyed Jack's Poker Room",
+  "name": "$40 Fab 40",
+  "day": "Thursdays",
+  "tourneyStart": "1:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$40",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/one-eyed-jacks-sarasota/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "One-Eyed Jack's Poker Room",
+  "name": "$60 Mega Stack",
+  "day": "Thursdays",
+  "tourneyStart": "6:30pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/one-eyed-jacks-sarasota/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "One-Eyed Jack's Poker Room",
+  "name": "$300 Rake Free",
+  "day": "Fridays",
+  "tourneyStart": "1:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$300",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/one-eyed-jacks-sarasota/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "One-Eyed Jack's Poker Room",
+  "name": "$45 Friday Night Madness",
+  "day": "Fridays",
+  "tourneyStart": "6:30pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$45",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/one-eyed-jacks-sarasota/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "One-Eyed Jack's Poker Room",
+  "name": "$170 Bounty",
+  "day": "Saturdays",
+  "tourneyStart": "11:00am",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$170",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "Bounty",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/one-eyed-jacks-sarasota/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "One-Eyed Jack's Poker Room",
+  "name": "$100 Madness",
+  "day": "Saturdays",
+  "tourneyStart": "6:30pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$100",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/one-eyed-jacks-sarasota/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "One-Eyed Jack's Poker Room",
+  "name": "$120 NLH",
+  "day": "Sundays",
+  "tourneyStart": "1:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$120",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/one-eyed-jacks-sarasota/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "One-Eyed Jack's Poker Room",
+  "name": "$80 Colossus",
+  "day": "Tuesdays",
+  "tourneyStart": "1:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$80",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/one-eyed-jacks-sarasota/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "One-Eyed Jack's Poker Room",
+  "name": "$40 Fab 40",
+  "day": "Tuesdays",
+  "tourneyStart": "6:30pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$40",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/one-eyed-jacks-sarasota/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "One-Eyed Jack's Poker Room",
+  "name": "$60 Mega Stack",
+  "day": "Wednesdays",
+  "tourneyStart": "1:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/one-eyed-jacks-sarasota/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "One-Eyed Jack's Poker Room",
+  "name": "$100 Wacky No Rake",
+  "day": "Wednesdays",
+  "tourneyStart": "6:30pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$100",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/one-eyed-jacks-sarasota/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: recurring on the Oct 2026 PokerAtlas calendar (3+ same weekday/time/buy-in)."
+  }
+},
+{
+  "casinoName": "Tampa Bay Downs",
+  "name": "$80 Super Stack",
+  "day": "Thursdays",
+  "tourneyStart": "1:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$80",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/the-silks-poker-room-tampa/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: repeats on every posted date in the Oct 2026 PokerAtlas calendar (calendar populated through Oct 17)."
+  }
+},
+{
+  "casinoName": "Tampa Bay Downs",
+  "name": "$60 Satellite",
+  "day": "Thursdays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/the-silks-poker-room-tampa/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: repeats on every posted date in the Oct 2026 PokerAtlas calendar (calendar populated through Oct 17)."
+  }
+},
+{
+  "casinoName": "Tampa Bay Downs",
+  "name": "$100 Super Stack",
+  "day": "Fridays",
+  "tourneyStart": "1:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$100",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "20 bounties",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/the-silks-poker-room-tampa/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: repeats on every posted date in the Oct 2026 PokerAtlas calendar (calendar populated through Oct 17)."
+  }
+},
+{
+  "casinoName": "Tampa Bay Downs",
+  "name": "$60 Friday",
+  "day": "Fridays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$3,500",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/the-silks-poker-room-tampa/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: repeats on every posted date in the Oct 2026 PokerAtlas calendar (calendar populated through Oct 17)."
+  }
+},
+{
+  "casinoName": "Tampa Bay Downs",
+  "name": "$120 Super Stack",
+  "day": "Saturdays",
+  "tourneyStart": "1:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$120",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$4,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/the-silks-poker-room-tampa/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: repeats on every posted date in the Oct 2026 PokerAtlas calendar (calendar populated through Oct 17)."
+  }
+},
+{
+  "casinoName": "Tampa Bay Downs",
+  "name": "$60 Super Stack",
+  "day": "Saturdays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/the-silks-poker-room-tampa/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: repeats on every posted date in the Oct 2026 PokerAtlas calendar (calendar populated through Oct 17)."
+  }
+},
+{
+  "casinoName": "Tampa Bay Downs",
+  "name": "$60 Super Stack Blitz",
+  "day": "Sundays",
+  "tourneyStart": "1:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/the-silks-poker-room-tampa/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: repeats on every posted date in the Oct 2026 PokerAtlas calendar (calendar populated through Oct 17)."
+  }
+},
+{
+  "casinoName": "Tampa Bay Downs",
+  "name": "$80 Super Stack",
+  "day": "Sundays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$80",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$2,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/the-silks-poker-room-tampa/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: repeats on every posted date in the Oct 2026 PokerAtlas calendar (calendar populated through Oct 17)."
+  }
+},
+{
+  "casinoName": "Tampa Bay Downs",
+  "name": "$60 Satellite",
+  "day": "Mondays",
+  "tourneyStart": "1:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/the-silks-poker-room-tampa/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: repeats on every posted date in the Oct 2026 PokerAtlas calendar (calendar populated through Oct 17)."
+  }
+},
+{
+  "casinoName": "Tampa Bay Downs",
+  "name": "$180 Super Stack",
+  "day": "Mondays",
+  "tourneyStart": "6:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$180",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "$15,000",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/the-silks-poker-room-tampa/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: repeats on every posted date in the Oct 2026 PokerAtlas calendar (calendar populated through Oct 17)."
+  }
+},
+{
+  "casinoName": "Tampa Bay Downs",
+  "name": "$60 Super Stack Blitz",
+  "day": "Tuesdays",
+  "tourneyStart": "1:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/the-silks-poker-room-tampa/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: repeats on every posted date in the Oct 2026 PokerAtlas calendar (calendar populated through Oct 17)."
+  }
+},
+{
+  "casinoName": "Tampa Bay Downs",
+  "name": "$85 Bay Area Poker Club",
+  "day": "Tuesdays",
+  "tourneyStart": "6:30pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$85",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/the-silks-poker-room-tampa/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: repeats on every posted date in the Oct 2026 PokerAtlas calendar (calendar populated through Oct 17)."
+  }
+},
+{
+  "casinoName": "Tampa Bay Downs",
+  "name": "$45 Player Appreciation",
+  "day": "Tuesdays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$45",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/the-silks-poker-room-tampa/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: repeats on every posted date in the Oct 2026 PokerAtlas calendar (calendar populated through Oct 17)."
+  }
+},
+{
+  "casinoName": "Tampa Bay Downs",
+  "name": "$60 Super Stack Blitz",
+  "day": "Wednesdays",
+  "tourneyStart": "1:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$60",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/the-silks-poker-room-tampa/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: repeats on every posted date in the Oct 2026 PokerAtlas calendar (calendar populated through Oct 17)."
+  }
+},
+{
+  "casinoName": "Tampa Bay Downs",
+  "name": "$125 Silks Bounty",
+  "day": "Wednesdays",
+  "tourneyStart": "7:00pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$125",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "",
+  "bounty": "25 bounties",
+  "meta": {
+    "sourceUrls": [
+      "https://pokeratlas.com/poker-room/the-silks-poker-room-tampa/tournaments"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: repeats on every posted date in the Oct 2026 PokerAtlas calendar (calendar populated through Oct 17)."
+  }
+},
+{
+  "casinoName": "Daytona Beach Kennel Club & Poker Room, Williamson Blvd",
+  "name": "$100 Double Board Bomb Pot",
+  "day": "Saturdays",
+  "tourneyStart": "7:10pm",
+  "regStart": "",
+  "regEnd": "",
+  "game": "NLH",
+  "buyin": "$100",
+  "startingChips": "",
+  "rebuy": "",
+  "addOn": "",
+  "prizeGtd": "",
+  "other": "Official page excludes October 24.",
+  "bounty": "",
+  "meta": {
+    "sourceUrls": [
+      "https://www.daytonabeachpoker.com/events/category/poker-tournament/"
+    ],
+    "lastChecked": "2026-10-04T01:30:00.000Z",
+    "status": "verified",
+    "notes": "Pass 33: official daytonabeachpoker.com Saturday 7:10pm $100 Double Board Bomb Pot. Not on the prior weekly grid."
   }
 }
 ];
